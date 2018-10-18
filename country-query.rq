@@ -1,0 +1,62 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX lpo: <http://linkedpasts.org/ontology/lpo_latest.ttl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+
+CONSTRUCT {
+  ?country
+    a geojson:Feature ;
+    foaf:depiction ?flag ;
+    dcterms:description ?description ;
+    geojson:properties ?properties ;
+    lpo:name_attestation ?name ;
+    lpo:type_attestation _:type .
+
+  ?properties
+    dcterms:title ?label ;
+    geonames:countryCode ?alpha2 ;
+    wdt:P298 ?alpha3 .
+
+  ?name
+    lpo:toponym ?label ;
+    dcterms:language "en" .
+
+  ?description
+    rdf:value ?descriptionText ;
+    dcterms:language "en" .
+
+  _:type
+    dcterms:identifier ?type ;
+    rdfs:label ?typeLabel .
+}
+WHERE {
+  BIND("${country_code}" AS ?alpha3)
+
+  BIND(BNODE() AS ?properties)
+  BIND(BNODE() AS ?name)
+  BIND(BNODE() AS ?description)
+
+  ?country
+    rdfs:label ?labelLiteral ;
+    schema:description ?descriptionLiteral ;
+    wdt:P41 ?flag ;
+    wdt:P297 ?alpha2 ;
+    wdt:P298 ?alpha3 ;
+    wdt:P31 ?type .
+
+  ?type
+    rdfs:label ?typeLabelLiteral .
+
+  FILTER (LANG(?labelLiteral) = "en")
+  FILTER (LANG(?descriptionLiteral) = "en")
+  FILTER (LANG(?typeLabelLiteral) = "en")
+
+  BIND(STR(?labelLiteral) AS ?label)
+  BIND(STR(?descriptionLiteral) AS ?descriptionText)
+  BIND(STR(?typeLabelLiteral) AS ?typeLabel)
+}
