@@ -1,1 +1,3 @@
 node_modules/
+*geometries.json
+ne_*.json
