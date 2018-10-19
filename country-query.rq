@@ -6,7 +6,7 @@ PREFIX lpo: <http://linkedpasts.org/ontology/lpo_latest.ttl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
-PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
 CONSTRUCT {
   ?country
@@ -19,8 +19,7 @@ CONSTRUCT {
 
   ?properties
     dcterms:title ?label ;
-    geonames:countryCode ?alpha2 ;
-    wdt:P298 ?alpha3 .
+    geonames:countryCode ?ccode .
 
   ?name
     lpo:toponym ?label ;
@@ -35,7 +34,7 @@ CONSTRUCT {
     rdfs:label ?typeLabel .
 }
 WHERE {
-  BIND("${country_code}" AS ?alpha3)
+  BIND("${ccode}" AS ?ccode)
 
   BIND(BNODE() AS ?properties)
   BIND(BNODE() AS ?name)
@@ -44,13 +43,13 @@ WHERE {
   ?country
     rdfs:label ?labelLiteral ;
     schema:description ?descriptionLiteral ;
-    wdt:P41 ?flag ;
-    wdt:P297 ?alpha2 ;
-    wdt:P298 ?alpha3 ;
+    wdt:P297|wdt:P300 ?ccode ;
     wdt:P31 ?type .
 
   ?type
     rdfs:label ?typeLabelLiteral .
+
+  OPTIONAL { ?country wdt:P41 ?flag . }
 
   FILTER (LANG(?labelLiteral) = "en")
   FILTER (LANG(?descriptionLiteral) = "en")

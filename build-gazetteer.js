@@ -3,11 +3,9 @@ const fs = require('fs')
     , n3 = require('n3')
     , jsonld = require('jsonld')
     , R = require('ramda')
-    , { inspect } = require('util')
+    , { sleep } = require('sleep')
 
 const queryTemplate = fs.readFileSync('country-query.rq', 'utf8')
-
-const turtleParser = new n3.Parser()
 
 const context = {
   dcterms: 'http://purl.org/dc/terms/',
@@ -17,15 +15,18 @@ const context = {
   lpo: 'http://linkedpasts.org/ontology/lpo_latest.ttl#',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
-  wdt: 'http://www.wikidata.org/prop/direct/',
 
   id: '@id',
   type: '@type',
 
   Feature: 'geojson:Feature',
+  FeatureCollection: 'geojson:FeatureCollection',
+  GeometryCollection: 'geojson:GeometryCollection',
+  Polygon: 'geojson:Polygon',
+  MultiPolygon: 'geojson:MultiPolygon',
 
-  ccode3: 'wdt:P298',
   ccode: 'gn:countryCode',
+  features: 'geojson:features',
   identifier: {'@id': 'dcterms:identifier', '@type': '@id'},
   label: 'rdfs:label',
   lang: 'dcterms:language',
@@ -57,15 +58,15 @@ const frame = {
   '@context': context
 }
 
-const queryWikidata = countryCode => request({
+const queryWikidata = ccode => request({
   uri: 'https://query.wikidata.org/sparql',
-  qs: {query: queryTemplate.replace('${country_code}', countryCode)},
+  qs: {query: queryTemplate.replace('${ccode}', ccode)},
   headers: {accept: 'text/turtle'},
 })
 
 const parseTurtle = ttl => new Promise((resolve, reject) => {
   const quads = []
-  turtleParser.parse(
+  new n3.Parser().parse(
     ttl,
     (err, quad) => err ? reject(err) : quad ? quads.push(quad) : resolve(quads)
   )
@@ -75,7 +76,7 @@ const frameJSONLD = quads => jsonld.frame(quads, frame)
 
 const hasBlankNodeID = R.allPass([
   R.has('id'),
-  R.propSatisfies(R.startsWith('/b0_'), 'id')
+  R.propSatisfies(R.startsWith('/b'), 'id')
 ])
 
 const stripBlankNodeIDs = R.when(
@@ -86,16 +87,49 @@ const stripBlankNodeIDs = R.when(
   )
 )
 
-const getWikidataCountry = countryCode => queryWikidata(countryCode)
-  .then(parseTurtle)
-  .then(jsonld.fromRDF)
-  .then(frameJSONLD)
-  .then(R.path(['@graph', 0]))
-  .then(stripBlankNodeIDs)
+const getWikidataCountry = ccode => new Promise((resolve, reject) =>
+  queryWikidata(ccode)
+    .then(parseTurtle)
+    .then(R.when(R.isEmpty, () => reject('no results')))
+    .then(jsonld.fromRDF)
+    .then(frameJSONLD)
+    .then(R.path(['@graph', 0]))
+    .then(stripBlankNodeIDs)
+    .then(resolve)
+    .catch(reject)
+)
 
+const makeFeature = ({ccode, geometry}) => new Promise(resolve =>
+  getWikidataCountry(ccode)
+    .then(feature => {
+      feature.geometry = {type: 'GeometryCollection', geometries: [geometry]}
+      resolve(feature)
+    })
+    .catch(resolve)
+)
 
-const dump = x => console.log(inspect(x, false, null, true))
+if (process.argv.length < 3) {
+  console.log(`Usage: ${process.argv[1]} [geometries JSON]`)
+  process.exit(1)
+}
 
-getWikidataCountry('THA')
-  .then(dump)
-  .catch(console.error)
+async function main() {
+  const gazetteer = {
+    '@context': context,
+    type: 'FeatureCollection',
+    features: []
+  }
+  const countryGeometries = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
+  for (let country in countryGeometries) {
+    sleep(1)
+    const result = await makeFeature(countryGeometries[country])
+    if (R.is(String, result)) {
+      console.error(`${country}: ${result}`)
+    } else {
+      gazetteer.features.push(result)
+    }
+  }
+  console.log(JSON.stringify(gazetteer, null, 2))
+}
+
+main().catch(console.error)
