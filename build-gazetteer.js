@@ -5,7 +5,7 @@ const fs = require('fs')
     , R = require('ramda')
     , { sleep } = require('sleep')
 
-const queryTemplate = fs.readFileSync('country-query.rq', 'utf8')
+const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
 
 const context = {
   dcterms: 'http://purl.org/dc/terms/',
@@ -58,11 +58,24 @@ const frame = {
   '@context': context
 }
 
-const queryWikidata = ccode => request({
-  uri: 'https://query.wikidata.org/sparql',
-  qs: {query: queryTemplate.replace('${ccode}', ccode)},
-  headers: {accept: 'text/turtle'},
-})
+const fixedMappings = {
+  // confusion between the country and the kingdom; we want the former
+  NL: 'http://www.wikidata.org/entity/Q55'
+}
+
+const queryWikidata = (code, type) => {
+  let query = queryTemplate.replace('${code}', code).replace('${type}', type)
+  if (code in fixedMappings) {
+    query = query.replace(`BIND("${code}" AS ?code)`, `
+BIND("${code}" AS ?code)
+BIND(<${fixedMappings[code]}> AS ?place)`)
+  }
+  return request({
+    uri: 'https://query.wikidata.org/sparql',
+    qs: {query},
+    headers: {accept: 'text/turtle'}
+  })
+}
 
 const parseTurtle = ttl => new Promise((resolve, reject) => {
   const quads = []
@@ -87,8 +100,8 @@ const stripBlankNodeIDs = R.when(
   )
 )
 
-const getWikidataCountry = ccode => new Promise((resolve, reject) =>
-  queryWikidata(ccode)
+const getWikidataPlace = (code, type) => new Promise((resolve, reject) =>
+  queryWikidata(code, type)
     .then(parseTurtle)
     .then(R.when(R.isEmpty, () => reject('no results')))
     .then(jsonld.fromRDF)
@@ -99,37 +112,43 @@ const getWikidataCountry = ccode => new Promise((resolve, reject) =>
     .catch(reject)
 )
 
-const makeFeature = ({ccode, geometry}) => new Promise(resolve =>
-  getWikidataCountry(ccode)
+const makeFeature = ({code, geometry}, type, ccode) => new Promise(resolve =>
+  getWikidataPlace(code, type)
     .then(feature => {
+      feature.properties.ccode = ccode || code
       feature.geometry = {type: 'GeometryCollection', geometries: [geometry]}
       resolve(feature)
     })
     .catch(resolve)
 )
 
-if (process.argv.length < 3) {
-  console.log(`Usage: ${process.argv[1]} [geometries JSON]`)
-  process.exit(1)
-}
-
-async function main() {
+async function main(geometries, type, ccode) {
   const gazetteer = {
     '@context': context,
     type: 'FeatureCollection',
     features: []
   }
-  const countryGeometries = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
-  for (let country in countryGeometries) {
-    sleep(1)
-    const result = await makeFeature(countryGeometries[country])
+  const placeGeometries = JSON.parse(fs.readFileSync(geometries, 'utf8'))
+  for (let place in placeGeometries) {
+    const result = await makeFeature(placeGeometries[place], type, ccode)
     if (R.is(String, result)) {
-      console.error(`${country}: ${result}`)
+      console.error(`${place}: ${result}`)
     } else {
       gazetteer.features.push(result)
     }
+    sleep(1)
   }
   console.log(JSON.stringify(gazetteer, null, 2))
 }
 
-main().catch(console.error)
+if (process.argv.length < 3) {
+  console.log(`Usage: ${process.argv[1]} [geometries JSON]`)
+  process.exit(1)
+}
+
+const geometries = process.argv[2]
+    , type = process.argv[3]
+    , ccode = process.argv[4]
+
+main(geometries, type, ccode)
+.catch(console.error)

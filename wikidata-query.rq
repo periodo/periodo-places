@@ -6,10 +6,11 @@ PREFIX lpo: <http://linkedpasts.org/ontology/lpo_latest.ttl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
+PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
 CONSTRUCT {
-  ?country
+  ?place
     a geojson:Feature ;
     foaf:depiction ?flag ;
     dcterms:description ?description ;
@@ -18,8 +19,7 @@ CONSTRUCT {
     lpo:type_attestation _:type .
 
   ?properties
-    dcterms:title ?label ;
-    geonames:countryCode ?ccode .
+    dcterms:title ?label .
 
   ?name
     lpo:toponym ?label ;
@@ -34,22 +34,23 @@ CONSTRUCT {
     rdfs:label ?typeLabel .
 }
 WHERE {
-  BIND("${ccode}" AS ?ccode)
+  BIND("${code}" AS ?code)
 
   BIND(BNODE() AS ?properties)
   BIND(BNODE() AS ?name)
   BIND(BNODE() AS ?description)
 
-  ?country
+  ?place
+    (wdt:P31/wdt:P279*) ${type} ;
     rdfs:label ?labelLiteral ;
     schema:description ?descriptionLiteral ;
-    wdt:P297|wdt:P300 ?ccode ;
+    wdt:P297|wdt:P300 ?code ; # ISO 3166-1 alpha-2 or ISO 3166-2
     wdt:P31 ?type .
 
   ?type
     rdfs:label ?typeLabelLiteral .
 
-  OPTIONAL { ?country wdt:P41 ?flag . }
+  OPTIONAL { ?place wdt:P41 ?flag . }
 
   FILTER (LANG(?labelLiteral) = "en")
   FILTER (LANG(?descriptionLiteral) = "en")
