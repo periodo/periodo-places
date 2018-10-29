@@ -65,6 +65,12 @@ stage: country-gazetteer.json state-gazetteer.json
 	periodo -s https://data.staging.perio.do\
 	 update-graph state-gazetteer.json places/us-states
 
+deploy: country-gazetteer.json state-gazetteer.json
+	periodo -s https://data.perio.do\
+	 update-graph country-gazetteer.json places/countries
+	periodo -s https://data.perio.do\
+	 update-graph state-gazetteer.json places/us-states
+
 check: place-id-mappings.txt country-gazetteer.json state-gazetteer.json
 	node check-mapping.js $^
 
