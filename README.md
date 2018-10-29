@@ -2,6 +2,19 @@
 
 This repository contains custom placename gazetteers used for indicating the spatial coverage of PeriodO periods.
 
+* Present-day countries gazetteer:<br>
+  https://data.perio.do/graphs/places/countries.json
+
+* U.S. states gazetteer:<br>
+  https://data.perio.do/graphs/places/us-states.json
+
+* All placename gazetteers:<br>
+  https://data.perio.do/graphs/places/
+
+* All graphs including placename gazetteers and the PeriodO dataset:<br>
+  https://data.perio.do/graphs/
+
+
 ### Present-day countries gazetteer
 
 This gazetteer was created by:
