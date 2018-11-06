@@ -34,21 +34,24 @@ CONSTRUCT {
     rdfs:label ?typeLabel .
 }
 WHERE {
-  BIND("${code}" AS ?code)
+
+  ${bindings}
 
   BIND(BNODE() AS ?properties)
   BIND(BNODE() AS ?name)
   BIND(BNODE() AS ?description)
 
+  ${types}
+
   ?place
-    (wdt:P31/wdt:P279*) ${type} ;
     rdfs:label ?labelLiteral ;
     schema:description ?descriptionLiteral ;
-    wdt:P297|wdt:P300 ?code ; # ISO 3166-1 alpha-2 or ISO 3166-2
     wdt:P31 ?type .
 
   ?type
     rdfs:label ?typeLabelLiteral .
+
+  ${constraints}
 
   OPTIONAL { ?place wdt:P41 ?flag . }
 

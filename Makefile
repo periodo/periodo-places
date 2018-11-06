@@ -30,23 +30,23 @@ ne_10m_%.zip:
 
 # prioritize lower-res over higher-res: 110m > 50m > 10m
 # at each resolution, prioritize map_units over countries
-country-geometries.json: \
+countries-geometries.json: \
 	ne_10m_admin_0_countries.json \
 	ne_10m_admin_0_map_units.json \
 	ne_50m_admin_0_countries.json \
 	ne_50m_admin_0_map_units.json \
 	ne_110m_admin_0_countries.json \
 	ne_110m_admin_0_map_units.json
-	jq -s -f country-transform.jq $^ > $@
+	jq -s -f countries-transform.jq $^ > $@
 
-state-geometries.json: ne_110m_admin_1_states_provinces.json
-	jq -f state-transform.jq $< > $@
+us-states-geometries.json: ne_110m_admin_1_states_provinces.json
+	jq -f us-states-transform.jq $< > $@
 
-country-gazetteer.json: country-geometries.json
-	node build-gazetteer.js $< wd:Q6256 > $@
+countries-gazetteer.json: countries-geometries.json
+	node build-gazetteer.js $< 'countries' > $@
 
-state-gazetteer.json: state-geometries.json
-	node build-gazetteer.js $< wd:Q35657 US > $@
+us-states-gazetteer.json: us-states-geometries.json
+	node build-gazetteer.js $< 'us-states' US > $@
 
 periodo-dataset.json:
 	curl -J -O https://data.perio.do/d.json
@@ -57,21 +57,21 @@ legacy-place-ids.txt: periodo-dataset.json
 place-id-mappings.txt: legacy-place-ids.txt
 	node map-legacy-ids.js $< > $@
 
-all: country-gazetteer.json state-gazetteer.json
+all: countries-gazetteer.json us-states-gazetteer.json
 
-stage: country-gazetteer.json state-gazetteer.json
+stage: countries-gazetteer.json us-states-gazetteer.json
 	periodo -s https://data.staging.perio.do\
-	 update-graph country-gazetteer.json places/countries
+	 update-graph countries-gazetteer.json places/countries
 	periodo -s https://data.staging.perio.do\
-	 update-graph state-gazetteer.json places/us-states
+	 update-graph us-states-gazetteer.json places/us-states
 
-deploy: country-gazetteer.json state-gazetteer.json
+deploy: countries-gazetteer.json us-states-gazetteer.json
 	periodo -s https://data.perio.do\
-	 update-graph country-gazetteer.json places/countries
+	 update-graph countries-gazetteer.json places/countries
 	periodo -s https://data.perio.do\
-	 update-graph state-gazetteer.json places/us-states
+	 update-graph us-states-gazetteer.json places/us-states
 
-check: place-id-mappings.txt country-gazetteer.json state-gazetteer.json
+check: place-id-mappings.txt countries-gazetteer.json us-states-gazetteer.json
 	node check-mapping.js $^
 
 clean:

@@ -35,6 +35,7 @@
 ."Cocos Islands",
 ."Coral Sea Islands",
 ."Cyprus U.N. Buffer Zone",
+."Dhekelia",
 ."Falkland Islands",
 ."Federation of Bosnia and Herzegovina",
 ."Flemish Region",
