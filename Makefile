@@ -1,26 +1,26 @@
 ne_110m_%.zip:
-	curl -L http://www.naturalearthdata.com/\
+	curl -s -L http://www.naturalearthdata.com/\
 	http//www.naturalearthdata.com/download/110m/cultural/$@ > $@
 
 ne_50m_%.zip:
-	curl -L http://www.naturalearthdata.com/\
+	curl -s -L http://www.naturalearthdata.com/\
 	http//www.naturalearthdata.com/download/50m/cultural/$@ > $@
 
 ne_10m_%.zip:
-	curl -L http://www.naturalearthdata.com/\
+	curl -s -L http://www.naturalearthdata.com/\
 	http//www.naturalearthdata.com/download/10m/cultural/$@ > $@
 
 %.shp: %.zip
-	unzip $< $@
+	unzip -q $< $@
 
 %.shx: %.zip
-	unzip $< $@
+	unzip -q $< $@
 
 %.dbf: %.zip
-	unzip $< $@
+	unzip -q $< $@
 
 %.prj: %.zip
-	unzip $< $@
+	unzip -q $< $@
 
 %.json: %.shp %.shx %.dbf %.prj
 	ogr2ogr -f GeoJSON \
@@ -49,7 +49,7 @@ us-states-gazetteer.json: us-states-geometries.json
 	node build-gazetteer.js $< 'us-states' US > $@
 
 periodo-dataset.json:
-	curl -J -O https://data.perio.do/d.json
+	curl -s -J -O https://data.perio.do/d.json
 
 legacy-place-ids.txt: periodo-dataset.json
 	jq -r -f extract-place-ids.jq $< | sort | uniq > $@
