@@ -1,63 +1,53 @@
 {
   "@context": {
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "geojson": "https://purl.org/geojson/vocab#",
-    "gn": "http://www.geonames.org/ontology#",
-    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "id": "@id",
-    "type": "@type",
     "Feature": "geojson:Feature",
     "FeatureCollection": "geojson:FeatureCollection",
     "GeometryCollection": "geojson:GeometryCollection",
-    "Polygon": "geojson:Polygon",
     "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
     "ccode": "gn:countryCode",
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
     "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "id": "@id",
     "identifier": {
       "@id": "dcterms:identifier",
       "@type": "@id"
     },
     "label": "rdfs:label",
     "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
     "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "title": "dcterms:title",
     "toponym": "lpo:toponym",
-    "value": "rdf:value",
+    "type": "@type",
     "types": {
-      "@id": "lpo:type_attestation",
-      "@container": "@set"
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
     },
-    "names": {
-      "@id": "lpo:name_attestation",
-      "@container": "@set"
-    },
-    "descriptions": {
-      "@id": "dcterms:description",
-      "@container": "@set"
-    },
-    "depictions": {
-      "@id": "foaf:depiction",
-      "@container": "@set"
-    }
+    "value": "rdf:value"
   },
-  "type": "FeatureCollection",
   "features": [
     {
-      "id": "http://www.wikidata.org/entity/Q1527",
-      "type": "Feature",
-      "names": [
+      "depictions": [
         {
-          "toponym": "Minnesota",
-          "lang": "en"
-        }
-      ],
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minnesota.svg"
         }
       ],
       "descriptions": [
@@ -66,20 +56,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minnesota.svg"
-        }
-      ],
-      "properties": {
-        "title": "Minnesota",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -403,24 +382,35 @@
                   47.286907
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1212",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1527",
       "names": [
         {
-          "toponym": "Montana",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Minnesota"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Minnesota"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montana.svg"
         }
       ],
       "descriptions": [
@@ -429,20 +419,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montana.svg"
-        }
-      ],
-      "properties": {
-        "title": "Montana",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -642,24 +621,35 @@
                   49.000369
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1207",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1212",
       "names": [
         {
-          "toponym": "North Dakota",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Montana"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Montana"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Dakota.svg"
         }
       ],
       "descriptions": [
@@ -668,20 +658,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Dakota.svg"
-        }
-      ],
-      "properties": {
-        "title": "North Dakota",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -793,24 +772,35 @@
                   49.000885
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q782",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1207",
       "names": [
         {
-          "toponym": "Hawaii",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "North Dakota"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "North Dakota"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hawaii.svg"
         }
       ],
       "descriptions": [
@@ -819,20 +809,9 @@
           "value": "state of the United States of America, located on an archipelago in the Pacific Ocean"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hawaii.svg"
-        }
-      ],
-      "properties": {
-        "title": "Hawaii",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "MultiPolygon",
             "coordinates": [
               [
                 [
@@ -1042,24 +1021,35 @@
                   ]
                 ]
               ]
-            ]
+            ],
+            "type": "MultiPolygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1221",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q782",
       "names": [
         {
-          "toponym": "Idaho",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Hawaii"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Hawaii"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Idaho.svg"
         }
       ],
       "descriptions": [
@@ -1068,20 +1058,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Idaho.svg"
-        }
-      ],
-      "properties": {
-        "title": "Idaho",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -1317,24 +1296,35 @@
                   49.000369
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1223",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1221",
       "names": [
         {
-          "toponym": "Washington",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Idaho"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Idaho"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington.svg"
         }
       ],
       "descriptions": [
@@ -1343,20 +1333,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington.svg"
-        }
-      ],
-      "properties": {
-        "title": "Washington",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -1508,24 +1487,35 @@
                   48.999309
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q816",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1223",
       "names": [
         {
-          "toponym": "Arizona",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Washington"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Washington"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arizona.svg"
         }
       ],
       "descriptions": [
@@ -1534,20 +1524,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arizona.svg"
-        }
-      ],
-      "properties": {
-        "title": "Arizona",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -1687,24 +1666,35 @@
                   36.999912
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q99",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q816",
       "names": [
         {
-          "toponym": "California",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Arizona"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Arizona"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20California.svg"
         }
       ],
       "descriptions": [
@@ -1713,20 +1703,9 @@
           "value": "state of the United States"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20California.svg"
-        }
-      ],
-      "properties": {
-        "title": "California",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -1886,24 +1865,35 @@
                   35.053106
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1261",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q99",
       "names": [
         {
-          "toponym": "Colorado",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "California"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "California"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colorado.svg"
         }
       ],
       "descriptions": [
@@ -1912,20 +1902,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colorado.svg"
-        }
-      ],
-      "properties": {
-        "title": "Colorado",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -1993,24 +1972,35 @@
                   40.000815
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1227",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1261",
       "names": [
         {
-          "toponym": "Nevada",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Colorado"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Colorado"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nevada.svg"
         }
       ],
       "descriptions": [
@@ -2019,20 +2009,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nevada.svg"
-        }
-      ],
-      "properties": {
-        "title": "Nevada",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2120,24 +2099,35 @@
                   42.000021
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1522",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1227",
       "names": [
         {
-          "toponym": "New Mexico",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Nevada"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Nevada"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Mexico.svg"
         }
       ],
       "descriptions": [
@@ -2146,20 +2136,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Mexico.svg"
-        }
-      ],
-      "properties": {
-        "title": "New Mexico",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2231,24 +2210,35 @@
                   31.341899
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q824",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1522",
       "names": [
         {
-          "toponym": "Oregon",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "New Mexico"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "New Mexico"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oregon.svg"
         }
       ],
       "descriptions": [
@@ -2257,20 +2247,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oregon.svg"
-        }
-      ],
-      "properties": {
-        "title": "Oregon",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2442,24 +2421,35 @@
                   45.999983
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q829",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q824",
       "names": [
         {
-          "toponym": "Utah",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Oregon"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Oregon"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utah.svg"
         }
       ],
       "descriptions": [
@@ -2468,20 +2458,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utah.svg"
-        }
-      ],
-      "properties": {
-        "title": "Utah",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2521,24 +2500,35 @@
                   41.993122
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1214",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q829",
       "names": [
         {
-          "toponym": "Wyoming",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Utah"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Utah"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wyoming.svg"
         }
       ],
       "descriptions": [
@@ -2547,20 +2537,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wyoming.svg"
-        }
-      ],
-      "properties": {
-        "title": "Wyoming",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2632,24 +2611,35 @@
                   44.506147
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1612",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1214",
       "names": [
         {
-          "toponym": "Arkansas",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Wyoming"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Wyoming"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arkansas.svg"
         }
       ],
       "descriptions": [
@@ -2658,20 +2648,9 @@
           "value": "state of the United States"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arkansas.svg"
-        }
-      ],
-      "properties": {
-        "title": "Arkansas",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -2827,24 +2806,35 @@
                   36.023073
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1546",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1612",
       "names": [
         {
-          "toponym": "Iowa",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Arkansas"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Arkansas"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iowa.svg"
         }
       ],
       "descriptions": [
@@ -2853,20 +2843,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iowa.svg"
-        }
-      ],
-      "properties": {
-        "title": "Iowa",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -3094,24 +3073,35 @@
                   43.501789
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1558",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1546",
       "names": [
         {
-          "toponym": "Kansas",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Iowa"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Iowa"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kansas.svg"
         }
       ],
       "descriptions": [
@@ -3120,20 +3110,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kansas.svg"
-        }
-      ],
-      "properties": {
-        "title": "Kansas",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -3229,24 +3208,35 @@
                   36.99198
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1581",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1558",
       "names": [
         {
-          "toponym": "Missouri",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Kansas"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Kansas"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Missouri.svg"
         }
       ],
       "descriptions": [
@@ -3255,20 +3245,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Missouri.svg"
-        }
-      ],
-      "properties": {
-        "title": "Missouri",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -3520,24 +3499,35 @@
                   36.023073
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1553",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1581",
       "names": [
         {
-          "toponym": "Nebraska",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Missouri"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Missouri"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nebraska.svg"
         }
       ],
       "descriptions": [
@@ -3546,20 +3536,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nebraska.svg"
-        }
-      ],
-      "properties": {
-        "title": "Nebraska",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -3719,24 +3698,35 @@
                   40.000815
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1649",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1553",
       "names": [
         {
-          "toponym": "Oklahoma",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Nebraska"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Nebraska"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oklahoma.svg"
         }
       ],
       "descriptions": [
@@ -3745,20 +3735,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oklahoma.svg"
-        }
-      ],
-      "properties": {
-        "title": "Oklahoma",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -3926,24 +3905,35 @@
                   36.995158
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1211",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1649",
       "names": [
         {
-          "toponym": "South Dakota",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Oklahoma"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Oklahoma"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Dakota.svg"
         }
       ],
       "descriptions": [
@@ -3952,20 +3942,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Dakota.svg"
-        }
-      ],
-      "properties": {
-        "title": "South Dakota",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -4109,24 +4088,35 @@
                   46.017967
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1588",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1211",
       "names": [
         {
-          "toponym": "Louisiana",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "South Dakota"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "South Dakota"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Louisiana.svg"
         }
       ],
       "descriptions": [
@@ -4135,20 +4125,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Louisiana.svg"
-        }
-      ],
-      "properties": {
-        "title": "Louisiana",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -4360,24 +4339,35 @@
                   33.01212
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1439",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1588",
       "names": [
         {
-          "toponym": "Texas",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Louisiana"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Louisiana"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Texas.svg"
         }
       ],
       "descriptions": [
@@ -4386,20 +4376,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Texas.svg"
-        }
-      ],
-      "properties": {
-        "title": "Texas",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -4719,24 +4698,35 @@
                   31.754289
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q779",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1439",
       "names": [
         {
-          "toponym": "Connecticut",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Texas"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Texas"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Connecticut.svg"
         }
       ],
       "descriptions": [
@@ -4745,20 +4735,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Connecticut.svg"
-        }
-      ],
-      "properties": {
-        "title": "Connecticut",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -4822,24 +4801,35 @@
                   42.054513
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q771",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q779",
       "names": [
         {
-          "toponym": "Massachusetts",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Connecticut"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Connecticut"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Massachusetts.svg"
         }
       ],
       "descriptions": [
@@ -4848,20 +4838,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Massachusetts.svg"
-        }
-      ],
-      "properties": {
-        "title": "Massachusetts",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -4949,24 +4928,35 @@
                   42.01325
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q759",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q771",
       "names": [
         {
-          "toponym": "New Hampshire",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Massachusetts"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Massachusetts"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Hampshire.svg"
         }
       ],
       "descriptions": [
@@ -4975,20 +4965,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Hampshire.svg"
-        }
-      ],
-      "properties": {
-        "title": "New Hampshire",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5108,24 +5087,35 @@
                   42.865187
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1387",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q759",
       "names": [
         {
-          "toponym": "Rhode Island",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "New Hampshire"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "New Hampshire"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhode%20Island.svg"
         }
       ],
       "descriptions": [
@@ -5134,20 +5124,9 @@
           "value": "Eastern coastal state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhode%20Island.svg"
-        }
-      ],
-      "properties": {
-        "title": "Rhode Island",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5183,24 +5162,35 @@
                   41.320036
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q16551",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1387",
       "names": [
         {
-          "toponym": "Vermont",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Rhode Island"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Rhode Island"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vermont.svg"
         }
       ],
       "descriptions": [
@@ -5209,20 +5199,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vermont.svg"
-        }
-      ],
-      "properties": {
-        "title": "Vermont",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5342,24 +5321,35 @@
                   42.727082
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q173",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16551",
       "names": [
         {
-          "toponym": "Alabama",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Vermont"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Vermont"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alabama.svg"
         }
       ],
       "descriptions": [
@@ -5368,20 +5358,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alabama.svg"
-        }
-      ],
-      "properties": {
-        "title": "Alabama",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5485,24 +5464,35 @@
                   34.999673
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q812",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q173",
       "names": [
         {
-          "toponym": "Florida",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Alabama"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Alabama"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg"
         }
       ],
       "descriptions": [
@@ -5511,20 +5501,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg"
-        }
-      ],
-      "properties": {
-        "title": "Florida",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5688,24 +5667,35 @@
                   30.274199
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1428",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q812",
       "names": [
         {
-          "toponym": "Georgia",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Florida"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Florida"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia%20%28U.S.%20state%29.svg"
         }
       ],
       "descriptions": [
@@ -5714,20 +5704,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia%20%28U.S.%20state%29.svg"
-        }
-      ],
-      "properties": {
-        "title": "Georgia",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -5911,24 +5890,35 @@
                   30.990693
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1494",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1428",
       "names": [
         {
-          "toponym": "Mississippi",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Georgia"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Georgia"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mississippi.svg"
         }
       ],
       "descriptions": [
@@ -5937,20 +5927,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mississippi.svg"
-        }
-      ],
-      "properties": {
-        "title": "Mississippi",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -6126,24 +6105,35 @@
                   33.010001
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1456",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1494",
       "names": [
         {
-          "toponym": "South Carolina",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Mississippi"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Mississippi"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Carolina.svg"
         }
       ],
       "descriptions": [
@@ -6152,20 +6142,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Carolina.svg"
-        }
-      ],
-      "properties": {
-        "title": "South Carolina",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -6305,24 +6284,35 @@
                   32.033161
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1204",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1456",
       "names": [
         {
-          "toponym": "Illinois",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "South Carolina"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "South Carolina"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Illinois.svg"
         }
       ],
       "descriptions": [
@@ -6331,20 +6321,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Illinois.svg"
-        }
-      ],
-      "properties": {
-        "title": "Illinois",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -6660,24 +6639,35 @@
                   40.368596
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1415",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1204",
       "names": [
         {
-          "toponym": "Indiana",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Illinois"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Illinois"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indiana.svg"
         }
       ],
       "descriptions": [
@@ -6686,20 +6676,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indiana.svg"
-        }
-      ],
-      "properties": {
-        "title": "Indiana",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -6895,24 +6874,35 @@
                   37.819604
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1603",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1415",
       "names": [
         {
-          "toponym": "Kentucky",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Indiana"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Indiana"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kentucky.svg"
         }
       ],
       "descriptions": [
@@ -6921,20 +6911,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kentucky.svg"
-        }
-      ],
-      "properties": {
-        "title": "Kentucky",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -7266,24 +7245,35 @@
                   36.506196
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1454",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1603",
       "names": [
         {
-          "toponym": "North Carolina",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Kentucky"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Kentucky"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Carolina.svg"
         }
       ],
       "descriptions": [
@@ -7292,20 +7282,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Carolina.svg"
-        }
-      ],
-      "properties": {
-        "title": "North Carolina",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -7481,24 +7460,35 @@
                   34.979028
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1397",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1454",
       "names": [
         {
-          "toponym": "Ohio",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "North Carolina"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "North Carolina"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg"
         }
       ],
       "descriptions": [
@@ -7507,20 +7497,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg"
-        }
-      ],
-      "properties": {
-        "title": "Ohio",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -7744,24 +7723,35 @@
                   39.106528
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1509",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1397",
       "names": [
         {
-          "toponym": "Tennessee",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Ohio"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Ohio"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tennessee.svg"
         }
       ],
       "descriptions": [
@@ -7770,20 +7760,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tennessee.svg"
-        }
-      ],
-      "properties": {
-        "title": "Tennessee",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -7999,24 +7978,35 @@
                   35.020834
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1370",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1509",
       "names": [
         {
-          "toponym": "Virginia",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Tennessee"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Tennessee"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Virginia.svg"
         }
       ],
       "descriptions": [
@@ -8025,20 +8015,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Virginia.svg"
-        }
-      ],
-      "properties": {
-        "title": "Virginia",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "MultiPolygon",
             "coordinates": [
               [
                 [
@@ -8500,24 +8479,35 @@
                   ]
                 ]
               ]
-            ]
+            ],
+            "type": "MultiPolygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1537",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1370",
       "names": [
         {
-          "toponym": "Wisconsin",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Virginia"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Virginia"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wisconsin.svg"
         }
       ],
       "descriptions": [
@@ -8526,20 +8516,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wisconsin.svg"
-        }
-      ],
-      "properties": {
-        "title": "Wisconsin",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -8927,24 +8906,35 @@
                   43.501247
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1371",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1537",
       "names": [
         {
-          "toponym": "West Virginia",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Wisconsin"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Wisconsin"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Virginia.svg"
         }
       ],
       "descriptions": [
@@ -8953,20 +8943,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Virginia.svg"
-        }
-      ],
-      "properties": {
-        "title": "West Virginia",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -9354,24 +9333,35 @@
                   37.535952
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1393",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1371",
       "names": [
         {
-          "toponym": "Delaware",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "West Virginia"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "West Virginia"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delaware.svg"
         }
       ],
       "descriptions": [
@@ -9380,20 +9370,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delaware.svg"
-        }
-      ],
-      "properties": {
-        "title": "Delaware",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -9441,24 +9420,106 @@
                   38.448765
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1391",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1393",
       "names": [
         {
-          "toponym": "Maryland",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Delaware"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Delaware"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20District%20of%20Columbia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal district of the United States of America, containing the capital city of the United States, Washington"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -77.041235,
+                  38.789545
+                ],
+                [
+                  -77.041235,
+                  38.789545
+                ],
+                [
+                  -77.03648,
+                  38.848276
+                ],
+                [
+                  -77.11955,
+                  38.934007
+                ],
+                [
+                  -77.0386,
+                  38.982169
+                ],
+                [
+                  -76.911579,
+                  38.878454
+                ],
+                [
+                  -77.041235,
+                  38.789545
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3551781",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "District of Columbia"
+        }
+      ],
+      "properties": {
+        "ccode": "US",
+        "title": "District of Columbia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maryland.svg"
         }
       ],
       "descriptions": [
@@ -9467,20 +9528,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maryland.svg"
-        }
-      ],
-      "properties": {
-        "title": "Maryland",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -9692,24 +9742,35 @@
                   38.01538
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1408",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1391",
       "names": [
         {
-          "toponym": "New Jersey",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Maryland"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Maryland"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Jersey.svg"
         }
       ],
       "descriptions": [
@@ -9718,20 +9779,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Jersey.svg"
-        }
-      ],
-      "properties": {
-        "title": "New Jersey",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -9835,24 +9885,35 @@
                   39.498649
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1384",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1408",
       "names": [
         {
-          "toponym": "New York",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "New Jersey"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "New Jersey"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York.svg"
         }
       ],
       "descriptions": [
@@ -9861,20 +9922,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York.svg"
-        }
-      ],
-      "properties": {
-        "title": "New York",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -10090,24 +10140,35 @@
                   42.054513
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1400",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1384",
       "names": [
         {
-          "toponym": "Pennsylvania",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "New York"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "New York"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pennsylvania.svg"
         }
       ],
       "descriptions": [
@@ -10116,20 +10177,9 @@
           "value": "state of the United States"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pennsylvania.svg"
-        }
-      ],
-      "properties": {
-        "title": "Pennsylvania",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -10289,24 +10339,35 @@
                   40.641111
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q724",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1400",
       "names": [
         {
-          "toponym": "Maine",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Pennsylvania"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Pennsylvania"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maine.svg"
         }
       ],
       "descriptions": [
@@ -10315,20 +10376,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maine.svg"
-        }
-      ],
-      "properties": {
-        "title": "Maine",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -10412,24 +10462,35 @@
                   43.090083
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1166",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q724",
       "names": [
         {
-          "toponym": "Michigan",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Maine"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Maine"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Michigan.svg"
         }
       ],
       "descriptions": [
@@ -10438,20 +10499,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Michigan.svg"
-        }
-      ],
-      "properties": {
-        "title": "Michigan",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "Polygon",
             "coordinates": [
               [
                 [
@@ -10951,24 +11001,35 @@
                   47.286907
                 ]
               ]
-            ]
+            ],
+            "type": "Polygon"
           }
-        ]
-      }
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q797",
-      "type": "Feature",
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1166",
       "names": [
         {
-          "toponym": "Alaska",
-          "lang": "en"
+          "lang": "en",
+          "toponym": "Michigan"
         }
       ],
+      "properties": {
+        "ccode": "US",
+        "title": "Michigan"
+      },
+      "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alaska.svg"
         }
       ],
       "descriptions": [
@@ -10977,20 +11038,9 @@
           "value": "state of the United States of America"
         }
       ],
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alaska.svg"
-        }
-      ],
-      "properties": {
-        "title": "Alaska",
-        "ccode": "US"
-      },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
-            "type": "MultiPolygon",
             "coordinates": [
               [
                 [
@@ -11664,10 +11714,698 @@
                   ]
                 ]
               ]
-            ]
+            ],
+            "type": "MultiPolygon"
           }
-        ]
-      }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q797",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Alaska"
+        }
+      ],
+      "properties": {
+        "ccode": "US",
+        "title": "Alaska"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q35657",
+          "label": "state of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20American%20Samoa.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "US territory in the Pacific"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -170.72627,
+                  -14.351172
+                ],
+                [
+                  -170.769238,
+                  -14.359766
+                ],
+                [
+                  -170.820508,
+                  -14.312109
+                ],
+                [
+                  -170.72085,
+                  -14.275977
+                ],
+                [
+                  -170.68916,
+                  -14.257422
+                ],
+                [
+                  -170.568115,
+                  -14.266797
+                ],
+                [
+                  -170.640479,
+                  -14.282227
+                ],
+                [
+                  -170.72627,
+                  -14.351172
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16641",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "American Samoa"
+        }
+      ],
+      "properties": {
+        "ccode": "AS",
+        "title": "American Samoa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guam.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "island territory of the United States of America"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  144.741797,
+                  13.259277
+                ],
+                [
+                  144.699512,
+                  13.25752
+                ],
+                [
+                  144.662793,
+                  13.291064
+                ],
+                [
+                  144.65,
+                  13.313477
+                ],
+                [
+                  144.649316,
+                  13.428711
+                ],
+                [
+                  144.790332,
+                  13.526855
+                ],
+                [
+                  144.836719,
+                  13.622363
+                ],
+                [
+                  144.875391,
+                  13.614648
+                ],
+                [
+                  144.909668,
+                  13.599023
+                ],
+                [
+                  144.94082,
+                  13.570312
+                ],
+                [
+                  144.779883,
+                  13.411133
+                ],
+                [
+                  144.741797,
+                  13.259277
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16635",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Guam"
+        }
+      ],
+      "properties": {
+        "ccode": "GU",
+        "title": "Guam"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Northern%20Mariana%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "American-dependent insular area in the western Pacific"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  [
+                    145.708398,
+                    18.7625
+                  ],
+                  [
+                    145.678125,
+                    18.725244
+                  ],
+                  [
+                    145.652539,
+                    18.752637
+                  ],
+                  [
+                    145.645508,
+                    18.806787
+                  ],
+                  [
+                    145.690137,
+                    18.801611
+                  ],
+                  [
+                    145.706641,
+                    18.790479
+                  ],
+                  [
+                    145.708398,
+                    18.7625
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    145.712109,
+                    16.339111
+                  ],
+                  [
+                    145.690234,
+                    16.332129
+                  ],
+                  [
+                    145.658301,
+                    16.335791
+                  ],
+                  [
+                    145.636035,
+                    16.351514
+                  ],
+                  [
+                    145.631055,
+                    16.377979
+                  ],
+                  [
+                    145.695508,
+                    16.379639
+                  ],
+                  [
+                    145.719531,
+                    16.359766
+                  ],
+                  [
+                    145.712109,
+                    16.339111
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    145.264844,
+                    14.158105
+                  ],
+                  [
+                    145.215332,
+                    14.111328
+                  ],
+                  [
+                    145.17959,
+                    14.120996
+                  ],
+                  [
+                    145.157422,
+                    14.136914
+                  ],
+                  [
+                    145.152148,
+                    14.163623
+                  ],
+                  [
+                    145.232422,
+                    14.189453
+                  ],
+                  [
+                    145.26543,
+                    14.180225
+                  ],
+                  [
+                    145.264844,
+                    14.158105
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    145.777539,
+                    18.078955
+                  ],
+                  [
+                    145.729102,
+                    18.056934
+                  ],
+                  [
+                    145.789258,
+                    18.15542
+                  ],
+                  [
+                    145.807422,
+                    18.172656
+                  ],
+                  [
+                    145.835449,
+                    18.136768
+                  ],
+                  [
+                    145.777539,
+                    18.078955
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    145.751953,
+                    15.133154
+                  ],
+                  [
+                    145.749219,
+                    15.107227
+                  ],
+                  [
+                    145.698242,
+                    15.113525
+                  ],
+                  [
+                    145.684277,
+                    15.125098
+                  ],
+                  [
+                    145.713184,
+                    15.215283
+                  ],
+                  [
+                    145.786328,
+                    15.256885
+                  ],
+                  [
+                    145.821875,
+                    15.265381
+                  ],
+                  [
+                    145.788574,
+                    15.222656
+                  ],
+                  [
+                    145.782324,
+                    15.174609
+                  ],
+                  [
+                    145.751953,
+                    15.133154
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    145.662305,
+                    14.970508
+                  ],
+                  [
+                    145.620996,
+                    14.919531
+                  ],
+                  [
+                    145.591602,
+                    14.998828
+                  ],
+                  [
+                    145.586719,
+                    15.030811
+                  ],
+                  [
+                    145.624805,
+                    15.060156
+                  ],
+                  [
+                    145.647363,
+                    15.059473
+                  ],
+                  [
+                    145.662305,
+                    14.970508
+                  ]
+                ]
+              ]
+            ],
+            "type": "MultiPolygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16644",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Mariana Islands"
+        }
+      ],
+      "properties": {
+        "ccode": "MP",
+        "title": "Northern Mariana Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Puerto%20Rico.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "unincorporated territory of the United States"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -66.282434,
+                  18.514762
+                ],
+                [
+                  -65.771303,
+                  18.426679
+                ],
+                [
+                  -65.591004,
+                  18.228035
+                ],
+                [
+                  -65.847164,
+                  17.975906
+                ],
+                [
+                  -66.599934,
+                  17.981823
+                ],
+                [
+                  -67.184162,
+                  17.946553
+                ],
+                [
+                  -67.242428,
+                  18.37446
+                ],
+                [
+                  -67.100679,
+                  18.520601
+                ],
+                [
+                  -66.282434,
+                  18.514762
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1183",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Puerto Rico"
+        }
+      ],
+      "properties": {
+        "ccode": "PR",
+        "title": "Puerto Rico"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7252696",
+          "label": "Provincial deputation in Spanish America"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20Virgin%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "group of islands in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  [
+                    -64.84502,
+                    18.330078
+                  ],
+                  [
+                    -64.919971,
+                    18.321289
+                  ],
+                  [
+                    -65.023633,
+                    18.367578
+                  ],
+                  [
+                    -64.942041,
+                    18.385205
+                  ],
+                  [
+                    -64.889111,
+                    18.374219
+                  ],
+                  [
+                    -64.84502,
+                    18.330078
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -64.659814,
+                    18.354346
+                  ],
+                  [
+                    -64.725977,
+                    18.327881
+                  ],
+                  [
+                    -64.770605,
+                    18.331592
+                  ],
+                  [
+                    -64.787695,
+                    18.341113
+                  ],
+                  [
+                    -64.752441,
+                    18.371973
+                  ],
+                  [
+                    -64.659814,
+                    18.354346
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -64.765625,
+                    17.794336
+                  ],
+                  [
+                    -64.681836,
+                    17.750195
+                  ],
+                  [
+                    -64.580469,
+                    17.750195
+                  ],
+                  [
+                    -64.686279,
+                    17.706104
+                  ],
+                  [
+                    -64.889111,
+                    17.701709
+                  ],
+                  [
+                    -64.884717,
+                    17.772266
+                  ],
+                  [
+                    -64.765625,
+                    17.794336
+                  ]
+                ]
+              ]
+            ],
+            "type": "MultiPolygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q11703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "United States Virgin Islands"
+        }
+      ],
+      "properties": {
+        "ccode": "VI",
+        "title": "United States Virgin Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q47488809",
+          "label": "country for sports"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        }
+      ]
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

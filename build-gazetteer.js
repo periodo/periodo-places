@@ -3,8 +3,8 @@ const fs = require('fs')
     , n3 = require('n3')
     , jsonld = require('jsonld')
     , R = require('ramda')
+    , stringify = require('json-stable-stringify')
     , { sleep } = require('sleep')
-    , { red } = require('chalk')
 
 const GAZETTEER_TYPES = ['countries', 'us-states', 'historical']
 
@@ -66,11 +66,13 @@ const queryWikidata = (id, types, constraints) => {
   if (R.contains(['wdt:P297|wdt:P300', 'NL'], constraints)) {
     // confusion between the country and the kingdom; we want the former
     id = 'http://www.wikidata.org/entity/Q55'
+    // Q55 does not have ISO 3166-1 alpha-2 code
+    constraints = []
   }
 
   let query = queryTemplate.replace(
     '${bindings}',
-    R.isNil(id) ? '' : `BIND <${id}> AS ?place`
+    R.isNil(id) ? '' : `BIND(<${id}> AS ?place)`
   ).replace(
     '${types}',
     R.compose(
@@ -84,6 +86,8 @@ const queryWikidata = (id, types, constraints) => {
       R.map(([path, value]) => `?place ${path} "${value}" . `)
     )(constraints)
   )
+
+  //console.error(query)
 
   return request({
     uri: 'https://query.wikidata.org/sparql',
@@ -99,6 +103,18 @@ const parseTurtle = ttl => new Promise((resolve, reject) => {
     (err, quad) => err ? reject(err) : quad ? quads.push(quad) : resolve(quads)
   )
 })
+
+const isFeature = quad => (quad.predicate.id === `${context.rdf}type` &&
+                           quad.object.id === `${context.geojson}Feature`)
+
+const checkFeatureCount = quads => {
+  const count = R.reduce(
+    (count, quad) => (isFeature(quad) ? count + 1 : count), 0, quads)
+  if (count !== 1) {
+    throw new Error(`${count} results`)
+  }
+  return quads
+}
 
 const frameJSONLD = quads => jsonld.frame(quads, frame)
 
@@ -119,7 +135,7 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
   new Promise((resolve, reject) =>
     queryWikidata(id, types, constraints)
       .then(parseTurtle)
-      .then(R.when(R.isEmpty, () => reject('no results')))
+      .then(checkFeatureCount)
       .then(jsonld.fromRDF)
       .then(frameJSONLD)
       .then(R.path(['@graph', 0]))
@@ -138,8 +154,9 @@ const getWikidataCountry = code => getWikidataPlace(
 
 const getWikidataUSState = code => getWikidataPlace(
   null,
-  ['wd:Q35657'],       // US state
-  [['wdt:P300', code]] // ISO 3166-2 code
+  ['wd:Q852446'],               // administrative territorial entity of the US
+  [['wdt:P297|wdt:P300', code]] // ISO 3166-1 alpha-2 code or ISO 3166-2 code
+                                // (the former for unincorporated territories)
 )
 
 const getWikidataHistoricalPlace = id => getWikidataPlace(
@@ -151,15 +168,16 @@ const getWikidataHistoricalPlace = id => getWikidataPlace(
   ]
 )
 
-const makeFeature = (place, type, ccode) => new Promise(
+const makeFeature = (place, type) => new Promise(
   resolve => {
-    let promise
+    let promise, ccode
     switch (type) {
       case 'countries':
         promise = getWikidataCountry(place.code)
         break
       case 'us-states':
         promise = getWikidataUSState(place.code)
+        ccode = place.code.length === 2 ? place.code : 'US'
         break
       case 'historical':
         promise = getWikidataHistoricalPlace(place.id)
@@ -178,11 +196,11 @@ const makeFeature = (place, type, ccode) => new Promise(
         }
       }
       resolve(feature)
-    }).catch(resolve)
+    }).catch(o => resolve(`${o.error ? o.error : o}`))
   }
 )
 
-async function main(geometries, type, ccode) {
+async function main(geometries, type, debugPlace) {
   const gazetteer = {
     '@context': context,
     type: 'FeatureCollection',
@@ -190,19 +208,22 @@ async function main(geometries, type, ccode) {
   }
   const placeGeometries = JSON.parse(fs.readFileSync(geometries, 'utf8'))
   for (let place in placeGeometries) {
-    const result = await makeFeature(placeGeometries[place], type, ccode)
+    if (debugPlace && debugPlace !== place) {
+      continue
+    }
+    const result = await makeFeature(placeGeometries[place], type)
     if (R.is(String, result)) {
-      console.error(red(`${place}: ${result}`))
+      console.error(`${place}:\n${result}`)
     } else {
       gazetteer.features.push(result)
     }
     sleep(1)
   }
-  console.log(JSON.stringify(gazetteer, null, 2))
+  console.log(stringify(gazetteer, {space: '  '}))
 }
 
 const usage = () => {
-  console.log(`
+  console.error(`
 Usage: ${process.argv[1]} [geometries JSON] [type] [country code]
 
 [type] must be one of: ${GAZETTEER_TYPES}
@@ -211,16 +232,16 @@ Usage: ${process.argv[1]} [geometries JSON] [type] [country code]
   process.exit(1)
 }
 
-if (process.argv.length < 3) {
+if (process.argv.length < 4) {
   usage()
 }
 
 const geometries = process.argv[2]
     , type = process.argv[3]
-    , ccode = process.argv[4]
+    , debugPlace = process.argv[4]
 
 if (! R.contains(type, GAZETTEER_TYPES)) {
   usage()
 }
 
-main(geometries, type, ccode).catch(R.pipe(red, console.error))
+main(geometries, type, debugPlace).catch(console.error)

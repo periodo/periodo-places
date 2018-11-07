@@ -31,18 +31,26 @@ WHERE {
   json: true
 })
 
+const fixedMappings = {
+  'http://dbpedia.org/resource/Palestine':
+  'http://www.wikidata.org/entity/Q219060',
+
+  'http://dbpedia.org/resource/Carthage':
+  'http://www.wikidata.org/entity/Q2429397',
+
+  'http://dbpedia.org/resource/Burma':
+  'http://www.wikidata.org/entity/Q836'
+}
+
 async function main() {
   const ids = fs.readFileSync(process.argv[2], 'utf8').split('\n')
   for (let id of ids) {
     if (id.length === 0) {
       continue
     }
-    if (id === 'http://dbpedia.org/resource/Palestine') {
-      console.log(`${id}→http://www.wikidata.org/entity/Q219060`)
+    if (id in fixedMappings) {
+      console.log(`${id}→${fixedMappings[id]}`)
       continue
-    }
-    if (id === 'http://dbpedia.org/resource/Burma') {
-      id = 'http://dbpedia.org/resource/Myanmar'
     }
     const query = id.startsWith('http://dbpedia.org/')
       ? queryDBpedia

@@ -4,5 +4,3 @@
 | map({(.properties.name): {code: .properties.iso_3166_2, geometry}})
 # merge objects
 | add
-# delete non-states
-| del(."District of Columbia")
