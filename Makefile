@@ -1,7 +1,8 @@
 GAZETTEERS := \
 	gazetteers/countries.json \
 	gazetteers/us-states.json \
-	gazetteers/historical.json
+	gazetteers/historical.json \
+	gazetteers/continents.json
 
 ne_110m_%.zip:
 	curl -s -L http://www.naturalearthdata.com/\

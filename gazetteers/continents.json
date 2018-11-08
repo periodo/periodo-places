@@ -1,0 +1,256 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "continent on the Earth's northern and southern hemispheres"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q15",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Africa"
+        }
+      ],
+      "properties": {
+        "title": "Africa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "continent, mainly on the Earth's southwestern quadrant"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q18",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South America"
+        }
+      ],
+      "properties": {
+        "title": "South America"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q855697",
+          "label": "subcontinent"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "continent on Earth, mainly on the northeastern quadrant, i.e. north-western Eurasia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q46",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Europe"
+        }
+      ],
+      "properties": {
+        "title": "Europe"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q851990",
+          "label": "population group"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2418896",
+          "label": "continental area and surrounding islands"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "continent, mainly on the Earth's northeastern quadrant"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q48",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Asia"
+        }
+      ],
+      "properties": {
+        "title": "Asia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2418896",
+          "label": "continental area and surrounding islands"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "continent on the Earth's northwestern quadrant"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q49",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North America"
+        }
+      ],
+      "properties": {
+        "title": "North America"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q855697",
+          "label": "subcontinent"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "polar continent on the Earth's southern hemisphere"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q51",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Antarctica"
+        }
+      ],
+      "properties": {
+        "title": "Antarctica"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q8514",
+          "label": "desert"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "the western Pacific Ocean"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q538",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oceania"
+        }
+      ],
+      "properties": {
+        "title": "Oceania"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q944816",
+          "label": "ecozone"
+        }
+      ]
+    }
+  ],
+  "type": "FeatureCollection"
+}

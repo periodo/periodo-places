@@ -6,7 +6,7 @@ const fs = require('fs')
     , stringify = require('json-stable-stringify')
     , { sleep } = require('sleep')
 
-const GAZETTEER_TYPES = ['countries', 'us-states', 'historical']
+const GAZETTEER_TYPES = ['countries', 'us-states', 'historical', 'continents']
 
 const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
 
@@ -168,6 +168,11 @@ const getWikidataHistoricalPlace = id => getWikidataPlace(
   ]
 )
 
+const getWikidataContinent = id => getWikidataPlace(
+  id,
+  ['wd:Q5107'] // continent
+)
+
 const makeFeature = (place, type) => new Promise(
   resolve => {
     let promise, ccode
@@ -181,6 +186,9 @@ const makeFeature = (place, type) => new Promise(
         break
       case 'historical':
         promise = getWikidataHistoricalPlace(place.id)
+        break
+      case 'continents':
+        promise = getWikidataContinent(place.id)
         break
       default:
         throw new Error(`unknown gazetteer type: ${type}`)
