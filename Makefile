@@ -73,10 +73,10 @@ place-id-mappings.txt: legacy-place-ids.txt
 all: $(GAZETTEERS)
 
 stage: all
-	./gazetteers/stage.sh
+	./stage.sh
 
 deploy: all
-	./gazetteers/stage.sh
+	./deploy.sh
 
 check: \
 	place-id-mappings.txt \
