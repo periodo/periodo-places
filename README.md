@@ -8,6 +8,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * U.S. states gazetteer:<br>
   https://data.perio.do/graphs/places/us-states.json
 
+* Historical places gazetteer:<br>
+  https://data.perio.do/graphs/places/historical.json
+
 * All placename gazetteers:<br>
   https://data.perio.do/graphs/places/
 

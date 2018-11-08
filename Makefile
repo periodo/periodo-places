@@ -1,3 +1,8 @@
+GAZETTEERS := \
+	gazetteers/countries.json \
+	gazetteers/us-states.json \
+	gazetteers/historical.json
+
 ne_110m_%.zip:
 	curl -s -L http://www.naturalearthdata.com/\
 	http//www.naturalearthdata.com/download/110m/cultural/$@ > $@
@@ -52,7 +57,7 @@ us-states-geometries.json: \
 	admin-1-geometries.json us-territories-geometries.json
 	jq -s '.[0] * .[1]' $^ > $@
 
-%-gazetteer.json: %-geometries.json
+gazetteers/%.json: %-geometries.json
 	node build-gazetteer.js $< $* > $@
 
 periodo-dataset.json:
@@ -64,38 +69,21 @@ legacy-place-ids.txt: periodo-dataset.json
 place-id-mappings.txt: legacy-place-ids.txt
 	node map-legacy-ids.js $< > $@
 
-all: countries-gazetteer.json us-states-gazetteer.json historical-gazetteer.json
+all: $(GAZETTEERS)
 
-stage: \
-	countries-gazetteer.json \
-	us-states-gazetteer.json \
-	historical-gazetteer.json
-	periodo -s https://data.staging.perio.do\
-	 update-graph countries-gazetteer.json places/countries
-	periodo -s https://data.staging.perio.do\
-	 update-graph us-states-gazetteer.json places/us-states
-	periodo -s https://data.staging.perio.do\
-	 update-graph historical-gazetteer.json places/historical
+stage: all
+	./gazetteers/stage.sh
 
-deploy: \
-	countries-gazetteer.json \
-	us-states-gazetteer.json \
-	historical-gazetteer.json
-	periodo -s https://data.perio.do\
-	 update-graph countries-gazetteer.json places/countries
-	periodo -s https://data.perio.do\
-	 update-graph us-states-gazetteer.json places/us-states
-	periodo -s https://data.perio.do\
-	 update-graph historical-gazetteer.json places/historical
+deploy: all
+	./gazetteers/stage.sh
 
 check: \
 	place-id-mappings.txt \
-	countries-gazetteer.json \
-	us-states-gazetteer.json \
-	historical-gazetteer.json
+	$(GAZETTEERS) \
 	node check-mapping.js $^
 
 clean:
-	rm -f *.zip *.shp *.shx *.dbf *.prj \
-	ne_*.json countries-geometries.json us-states-geometries.json \
-	*gazetteer.json periodo-dataset.json legacy-place-ids.txt
+	rm -f *.zip *.shp *.shx *.dbf *.prj ne_*.json \
+	countries-geometries.json us-states-geometries.json \
+	gazetteers/*.json periodo-dataset.json \
+	legacy-place-ids.txt place-id-mappings.txt

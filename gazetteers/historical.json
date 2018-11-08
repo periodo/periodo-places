@@ -160,16 +160,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
         }
       ]
     },
@@ -226,12 +226,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q7275",
+          "label": "state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1620908",
           "label": "historical region"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
@@ -240,10 +244,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
         }
       ]
     },
@@ -461,12 +461,12 @@
           "label": "city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
         }
       ]
     },
@@ -682,12 +682,12 @@
           "label": "historical country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q417175",
-          "label": "kingdom"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q417175",
+          "label": "kingdom"
         }
       ]
     },
@@ -862,16 +862,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q22674925",
+          "label": "former populated place"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q755017",
           "label": "tell"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q22674925",
-          "label": "former populated place"
         }
       ]
     },
@@ -895,16 +895,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1250464",
           "label": "realm"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
         }
       ]
     },
@@ -1131,16 +1131,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q109607",
           "label": "ruins"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
         }
       ]
     },
@@ -1150,10 +1150,10 @@
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Papal%20States%20%281803-1825%29.svg"
         },
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Papal%20States%20%281825-1870%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Papal%20States%20%28pre%201808%29.svg"
         },
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Papal%20States%20%28pre%201808%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Papal%20States%20%281825-1870%29.svg"
         }
       ],
       "descriptions": [
@@ -1220,16 +1220,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q17431399",
-          "label": "national museum"
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
+          "identifier": "http://www.wikidata.org/entity/Q17431399",
+          "label": "national museum"
         }
       ]
     },
