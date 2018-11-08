@@ -12244,10 +12244,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q7252696",
-          "label": "Provincial deputation in Spanish America"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
           "label": "insular area"
         },
@@ -12262,6 +12258,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7252696",
+          "label": "Provincial deputation in Spanish America"
         }
       ]
     },
@@ -12407,5 +12407,6 @@
       ]
     }
   ],
+  "title": "US states",
   "type": "FeatureCollection"
 }

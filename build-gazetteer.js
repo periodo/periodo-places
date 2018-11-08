@@ -6,7 +6,12 @@ const fs = require('fs')
     , stringify = require('json-stable-stringify')
     , { sleep } = require('sleep')
 
-const GAZETTEER_TYPES = ['countries', 'us-states', 'historical', 'continents']
+const GAZETTEERS = {
+  continents: 'Continents',
+  countries: 'Countries',
+  historical: 'Historical places',
+  'us-states': 'US states'
+}
 
 const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
 
@@ -173,10 +178,10 @@ const getWikidataContinent = id => getWikidataPlace(
   ['wd:Q5107'] // continent
 )
 
-const makeFeature = (place, type) => new Promise(
+const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
-    switch (type) {
+    switch (gazetteer) {
       case 'countries':
         promise = getWikidataCountry(place.code)
         break
@@ -191,7 +196,7 @@ const makeFeature = (place, type) => new Promise(
         promise = getWikidataContinent(place.id)
         break
       default:
-        throw new Error(`unknown gazetteer type: ${type}`)
+        throw new Error(`unknown gazetteer: ${gazetteer}`)
     }
     promise.then(feature => {
       if (ccode || place.code) {
@@ -208,10 +213,11 @@ const makeFeature = (place, type) => new Promise(
   }
 )
 
-async function main(geometries, type, debugPlace) {
-  const gazetteer = {
+async function main(geometries, gazetteer, debugPlace) {
+  const g = {
     '@context': context,
     type: 'FeatureCollection',
+    title: GAZETTEERS[gazetteer],
     features: []
   }
   const placeGeometries = JSON.parse(fs.readFileSync(geometries, 'utf8'))
@@ -219,22 +225,22 @@ async function main(geometries, type, debugPlace) {
     if (debugPlace && debugPlace !== place) {
       continue
     }
-    const result = await makeFeature(placeGeometries[place], type)
+    const result = await makeFeature(placeGeometries[place], gazetteer)
     if (R.is(String, result)) {
       console.error(`${place}:\n${result}`)
     } else {
-      gazetteer.features.push(result)
+      g.features.push(result)
     }
     sleep(1)
   }
-  console.log(stringify(gazetteer, {space: '  '}))
+  console.log(stringify(g, {space: '  '}))
 }
 
 const usage = () => {
   console.error(`
-Usage: ${process.argv[1]} [geometries JSON] [type] [country code]
+Usage: ${process.argv[1]} [geometries JSON] [gazetteer] [country code]
 
-[type] must be one of: ${GAZETTEER_TYPES}
+[gazetteer] must be one of: ${Object.keys(GAZETTEERS)}
 [country code] is optional.
 `)
   process.exit(1)
@@ -245,11 +251,11 @@ if (process.argv.length < 4) {
 }
 
 const geometries = process.argv[2]
-    , type = process.argv[3]
+    , gazetteer = process.argv[3]
     , debugPlace = process.argv[4]
 
-if (! R.contains(type, GAZETTEER_TYPES)) {
+if (! R.has(gazetteer, GAZETTEERS)) {
   usage()
 }
 
-main(geometries, type, debugPlace).catch(console.error)
+main(geometries, gazetteer, debugPlace).catch(console.error)

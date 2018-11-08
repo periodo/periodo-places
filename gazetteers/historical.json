@@ -102,12 +102,12 @@
           "label": "people"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q17362920",
@@ -160,16 +160,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
         }
       ]
     },
@@ -301,12 +301,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -640,16 +640,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q465299",
           "label": "archaeological culture"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1620908",
           "label": "historical region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
         }
       ]
     },
@@ -678,16 +678,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q417175",
           "label": "kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
         }
       ]
     },
@@ -1224,12 +1224,12 @@
           "label": "national museum"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
         }
       ]
     },
@@ -1414,16 +1414,16 @@
           "label": "culture"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1063239",
-          "label": "polity"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q133442",
           "label": "city-state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1063239",
+          "label": "polity"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
@@ -1484,15 +1484,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1250464",
-          "label": "realm"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1250464",
+          "label": "realm"
         }
       ]
     }
   ],
+  "title": "Historical places",
   "type": "FeatureCollection"
 }

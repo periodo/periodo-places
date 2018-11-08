@@ -1453,12 +1453,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1951661",
-          "label": "member state of the Association of Southeast Asian Nations"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1951661",
+          "label": "member state of the Association of Southeast Asian Nations"
         }
       ]
     },
@@ -3252,12 +3252,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q112099",
           "label": "island nation"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -6655,20 +6655,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q7270",
           "label": "republic"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
         }
       ]
     },
@@ -8383,12 +8383,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q41614",
-          "label": "\":بالدارجة المغربية:\"لْمَغْريبْ"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41614",
+          "label": "\":بالدارجة المغربية:\"لْمَغْريبْ"
         }
       ]
     },
@@ -9777,12 +9777,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -10542,12 +10542,12 @@
           "label": "landlocked country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q619610",
-          "label": "social state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q179164",
           "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q619610",
+          "label": "social state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -10769,12 +10769,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q7270",
           "label": "republic"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -11514,12 +11514,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q12759805",
@@ -13991,12 +13991,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q123480",
           "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -16596,28 +16596,28 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q185145",
-          "label": "great power"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q619610",
           "label": "social state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q859563",
-          "label": "secular state"
+          "identifier": "http://www.wikidata.org/entity/Q185145",
+          "label": "great power"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1323642",
           "label": "transcontinental country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
+          "identifier": "http://www.wikidata.org/entity/Q859563",
+          "label": "secular state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q4209223",
           "label": "legal state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -17082,28 +17082,28 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7270",
           "label": "republic"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q43702",
           "label": "federation"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q619610",
-          "label": "social state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q4209223",
           "label": "legal state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q619610",
+          "label": "social state"
         }
       ]
     },
@@ -18450,12 +18450,12 @@
           "label": "landlocked country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q179164",
-          "label": "unitary state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q165116",
           "label": "grand duchy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -20467,16 +20467,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q123480",
           "label": "landlocked country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ]
     },
@@ -21790,12 +21790,12 @@
           "label": "republic"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
         }
       ]
     },
@@ -22397,12 +22397,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q112099",
-          "label": "island nation"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island nation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q202686",
@@ -22977,12 +22977,12 @@
           "label": "republic"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q123480",
           "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -24387,12 +24387,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -25337,12 +25337,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q179164",
           "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q619610",
@@ -25492,16 +25492,16 @@
           "label": "federation"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q170156",
           "label": "confederation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q206696",
           "label": "Helvetic Republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q687554",
@@ -27149,12 +27149,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -28147,12 +28147,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q179164",
-          "label": "unitary state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -29122,12 +29122,12 @@
           "label": "republic"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q123480",
           "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -29285,12 +29285,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q179164",
           "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -29814,12 +29814,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q112099",
-          "label": "island nation"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island nation"
         }
       ]
     },
@@ -31572,12 +31572,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q7270",
           "label": "republic"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -32530,16 +32530,16 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q208500",
           "label": "principality"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
         }
       ]
     },
@@ -33521,12 +33521,12 @@
           "label": "unitary state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q849866",
-          "label": "communist state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q849866",
+          "label": "communist state"
         }
       ]
     },
@@ -34430,12 +34430,12 @@
           "label": "republic"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q859563",
           "label": "secular state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -34959,12 +34959,12 @@
           "label": "landlocked country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q179164",
-          "label": "unitary state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
         }
       ]
     },
@@ -38833,12 +38833,12 @@
           "label": "federation"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1520223",
-          "label": "constitutional republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1520223",
+          "label": "constitutional republic"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q5255892",
@@ -38849,7 +38849,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada.svg"
         }
       ],
       "descriptions": [
@@ -43291,12 +43291,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -44286,12 +44286,12 @@
           "label": "country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1323642",
           "label": "transcontinental country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -44712,12 +44712,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q672729",
           "label": "Islamic republic"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -46010,12 +46010,12 @@
           "label": "Commonwealth realm"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q223832",
           "label": "dominion of the British Empire"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -48253,20 +48253,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
-          "label": "archipelagic state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q202686",
+          "label": "Commonwealth realm"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q202686",
-          "label": "Commonwealth realm"
+          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "label": "archipelagic state"
         }
       ]
     },
@@ -50750,12 +50750,12 @@
           "label": "island nation"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q202686",
           "label": "Commonwealth realm"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -52780,12 +52780,12 @@
           "label": "city-state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q2264924",
           "label": "port city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         }
       ]
     },
@@ -57792,5 +57792,6 @@
       ]
     }
   ],
+  "title": "Countries",
   "type": "FeatureCollection"
 }
