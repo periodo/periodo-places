@@ -2,6 +2,9 @@
 
 This repository contains custom placename gazetteers used for indicating the spatial coverage of PeriodO periods.
 
+* Continents gazetteer:<br>
+  https://data.perio.do/graphs/places/continents.json
+
 * Present-day countries gazetteer:<br>
   https://data.perio.do/graphs/places/countries.json
 
@@ -45,5 +48,3 @@ This gazetteer was created by:
 ### Historical places gazetteer
 
 This gazetteer was created by finding PeriodO periods with named historical places in their spatial coverage descriptions, and then looking for close equivalents in Wikidata. It currently does not have any geometries.
-
-
