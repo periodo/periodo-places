@@ -11908,16 +11908,16 @@
           "label": "island"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1048835",
-          "label": "political territorial entity"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
           "label": "insular area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",
           "label": "unincorporated territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
         }
       ]
     },
@@ -12244,12 +12244,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q7252696",
           "label": "Provincial deputation in Spanish America"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",

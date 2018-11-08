@@ -1,4 +1,8 @@
 .DS_Store
-node_modules/
-*geometries.json
+geometries/admin-0.json
+geometries/admin-1.json
+geometries/countries.json
+geometries/us-states.json
+geometries/us-territories.json
 ne_*.json
+node_modules/

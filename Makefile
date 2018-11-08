@@ -35,7 +35,7 @@ ne_10m_%.zip:
 
 # prioritize lower-res over higher-res: 110m > 50m > 10m
 # at each resolution, prioritize map_units over countries
-admin-0-geometries.json: \
+geometries/admin-0.json: \
 	ne_10m_admin_0_countries.json \
 	ne_10m_admin_0_map_units.json \
 	ne_50m_admin_0_countries.json \
@@ -44,20 +44,20 @@ admin-0-geometries.json: \
 	ne_110m_admin_0_map_units.json
 	jq -s -f jq/admin-0.jq $^ > $@
 
-admin-1-geometries.json: ne_110m_admin_1_states_provinces.json
+geometries/admin-1.json: ne_110m_admin_1_states_provinces.json
 	jq -f jq/admin-1.jq $< > $@
 
-countries-geometries.json: admin-0-geometries.json
+geometries/countries.json: geometries/admin-0.json
 	jq -f jq/countries.jq $< > $@
 
-us-territories-geometries.json: admin-0-geometries.json
+geometries/us-territories.json: geometries/admin-0.json
 	jq -f jq/us-territories.jq $< > $@
 
-us-states-geometries.json: \
-	admin-1-geometries.json us-territories-geometries.json
+geometries/us-states.json: \
+	geometries/admin-1.json geometries/us-territories.json
 	jq -s '.[0] * .[1]' $^ > $@
 
-gazetteers/%.json: %-geometries.json
+gazetteers/%.json: geometries/%.json
 	node build-gazetteer.js $< $* > $@
 
 periodo-dataset.json:
@@ -84,6 +84,6 @@ check: \
 
 clean:
 	rm -f *.zip *.shp *.shx *.dbf *.prj ne_*.json \
-	countries-geometries.json us-states-geometries.json \
+	geometries/countries.json geometries/us-states.json \
 	gazetteers/*.json periodo-dataset.json \
 	legacy-place-ids.txt place-id-mappings.txt
