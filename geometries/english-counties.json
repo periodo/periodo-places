@@ -1,0 +1,149 @@
+{
+  "Avon": {
+    "id": "http://www.wikidata.org/entity/Q929902"
+  },
+  "Bedfordshire": {
+    "id": "http://www.wikidata.org/entity/Q23143"
+  },
+  "Berkshire": {
+    "id": "http://www.wikidata.org/entity/Q23220"
+  },
+  "Buckinghamshire": {
+    "id": "http://www.wikidata.org/entity/Q23229"
+  },
+  "Cambridgeshire": {
+    "id": "http://www.wikidata.org/entity/Q23112"
+  },
+  "Cheshire": {
+    "id": "http://www.wikidata.org/entity/Q23064"
+  },
+  "City of Bristol": {
+    "id": "http://www.wikidata.org/entity/Q21693433"
+  },
+  "City of London": {
+    "id": "http://www.wikidata.org/entity/Q23311"
+  },
+  "Cornwall": {
+    "id": "http://www.wikidata.org/entity/Q23148"
+  },
+  "County Durham": {
+    "id": "http://www.wikidata.org/entity/Q23082"
+  },
+  "Cumbria": {
+    "id": "http://www.wikidata.org/entity/Q23066"
+  },
+  "Derbyshire": {
+    "id": "http://www.wikidata.org/entity/Q23098"
+  },
+  "Devon": {
+    "id": "http://www.wikidata.org/entity/Q23156"
+  },
+  "Dorset": {
+    "id": "http://www.wikidata.org/entity/Q23159"
+  },
+  "East Riding of Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23088"
+  },
+  "East Sussex": {
+    "id": "http://www.wikidata.org/entity/Q23293"
+  },
+  "Essex": {
+    "id": "http://www.wikidata.org/entity/Q23240"
+  },
+  "Gloucestershire": {
+    "id": "http://www.wikidata.org/entity/Q23165"
+  },
+  "Greater Manchester": {
+    "id": "http://www.wikidata.org/entity/Q23099"
+  },
+  "Hampshire": {
+    "id": "http://www.wikidata.org/entity/Q23204"
+  },
+  "Herefordshire": {
+    "id": "http://www.wikidata.org/entity/Q23129"
+  },
+  "Hertfordshire": {
+    "id": "http://www.wikidata.org/entity/Q3410"
+  },
+  "Humberside": {
+    "id": "http://www.wikidata.org/entity/Q1636805"
+  },
+  "Isle of Wight": {
+    "id": "http://www.wikidata.org/entity/Q9679"
+  },
+  "Kent": {
+    "id": "http://www.wikidata.org/entity/Q23298"
+  },
+  "Lancashire": {
+    "id": "http://www.wikidata.org/entity/Q23077"
+  },
+  "Leicestershire": {
+    "id": "http://www.wikidata.org/entity/Q23106"
+  },
+  "Lincolnshire": {
+    "id": "http://www.wikidata.org/entity/Q23090"
+  },
+  "Merseyside": {
+    "id": "http://www.wikidata.org/entity/Q23100"
+  },
+  "Norfolk": {
+    "id": "http://www.wikidata.org/entity/Q23109"
+  },
+  "North Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23086"
+  },
+  "Northamptonshire": {
+    "id": "http://www.wikidata.org/entity/Q23115"
+  },
+  "Northumberland": {
+    "id": "http://www.wikidata.org/entity/Q23079"
+  },
+  "Nottinghamshire": {
+    "id": "http://www.wikidata.org/entity/Q23092"
+  },
+  "Oxfordshire": {
+    "id": "http://www.wikidata.org/entity/Q23169"
+  },
+  "Rutland": {
+    "id": "http://www.wikidata.org/entity/Q23107"
+  },
+  "Shropshire": {
+    "id": "http://www.wikidata.org/entity/Q23103"
+  },
+  "Somerset": {
+    "id": "http://www.wikidata.org/entity/Q23157"
+  },
+  "South Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23095"
+  },
+  "Staffordshire": {
+    "id": "http://www.wikidata.org/entity/Q23105"
+  },
+  "Suffolk": {
+    "id": "http://www.wikidata.org/entity/Q23111"
+  },
+  "Surrey": {
+    "id": "http://www.wikidata.org/entity/Q23276"
+  },
+  "Tyne and Wear": {
+    "id": "http://www.wikidata.org/entity/Q23080"
+  },
+  "Warwickshire": {
+    "id": "http://www.wikidata.org/entity/Q23140"
+  },
+  "West Midlands": {
+    "id": "http://www.wikidata.org/entity/Q23124"
+  },
+  "West Sussex": {
+    "id": "http://www.wikidata.org/entity/Q23287"
+  },
+  "West Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23083"
+  },
+  "Wiltshire": {
+    "id": "http://www.wikidata.org/entity/Q23183"
+  },
+  "Worcestershire": {
+    "id": "http://www.wikidata.org/entity/Q23135"
+  }
+}

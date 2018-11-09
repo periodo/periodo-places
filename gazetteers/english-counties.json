@@ -1,0 +1,1738 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "non-metropolitan and ceremonial county in the west of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q929902",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Avon"
+        }
+      ],
+      "properties": {
+        "title": "Avon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bedfordshire%27s%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23143",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bedfordshire"
+        }
+      ],
+      "properties": {
+        "title": "Bedfordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berkshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial but non-administrative county of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23220",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Berkshire"
+        }
+      ],
+      "properties": {
+        "title": "Berkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Buckinghamshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694636 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23229",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Buckinghamshire"
+        }
+      ],
+      "properties": {
+        "title": "Buckinghamshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambridgeshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21272276 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23112",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cambridgeshire"
+        }
+      ],
+      "properties": {
+        "title": "Cambridgeshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Cheshire.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23064",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cheshire"
+        }
+      ],
+      "properties": {
+        "title": "Cheshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district and county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q21693433",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "City of Bristol"
+        }
+      ],
+      "properties": {
+        "title": "City of Bristol"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q21503295",
+          "label": "district with city status"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20City%20of%20London.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city and county within London; Roman settlement"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23311",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "City of London"
+        }
+      ],
+      "properties": {
+        "title": "City of London"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q211690",
+          "label": "London borough"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17601336",
+          "label": "district of the United Kingdom"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q738570",
+          "label": "central business district"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1066984",
+          "label": "financial centre"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cornwall.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic country and ceremonial county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23148",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cornwall"
+        }
+      ],
+      "properties": {
+        "title": "Cornwall"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Durham%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in North East England (use Q1137286 for administrative unitary authority)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23082",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "County Durham"
+        }
+      ],
+      "properties": {
+        "title": "County Durham"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7925010",
+          "label": "vice-county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Cumbria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23066",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cumbria"
+        }
+      ],
+      "properties": {
+        "title": "Cumbria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Derbyshire%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in East Midlands, England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23098",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Derbyshire"
+        }
+      ],
+      "properties": {
+        "title": "Derbyshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Devon.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694695 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23156",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Devon"
+        }
+      ],
+      "properties": {
+        "title": "Devon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dorset.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in South West England, UK"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23159",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dorset"
+        }
+      ],
+      "properties": {
+        "title": "Dorset"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21695028 for administrative unitary authority)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23088",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Riding of Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "East Riding of Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Sussex.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694646 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23293",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Sussex"
+        }
+      ],
+      "properties": {
+        "title": "East Sussex"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Essex.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21272241 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23240",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Essex"
+        }
+      ],
+      "properties": {
+        "title": "Essex"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Severn%20Cross.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694733 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23165",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gloucestershire"
+        }
+      ],
+      "properties": {
+        "title": "Gloucestershire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20County%20Flag%20of%20Greater%20Manchester.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in North West England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23099",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Greater Manchester"
+        }
+      ],
+      "properties": {
+        "title": "Greater Manchester"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hampshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694653 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23204",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hampshire"
+        }
+      ],
+      "properties": {
+        "title": "Hampshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Herefordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic county, ceremonial county, and unitary non-metropolitan county and district, in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23129",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Herefordshire"
+        }
+      ],
+      "properties": {
+        "title": "Herefordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Hertfordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q3410",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hertfordshire"
+        }
+      ],
+      "properties": {
+        "title": "Hertfordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Isle%20of%20Wight.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county and island of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q9679",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Isle of Wight"
+        }
+      ],
+      "properties": {
+        "title": "Isle of Wight"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kent.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694674 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23298",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kent"
+        }
+      ],
+      "properties": {
+        "title": "Kent"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lancashire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in North-West England (use Q21279371 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23077",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lancashire"
+        }
+      ],
+      "properties": {
+        "title": "Lancashire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Leicestershire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21272890 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23106",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Leicestershire"
+        }
+      ],
+      "properties": {
+        "title": "Leicestershire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lincolnshire%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in the east of England (use Q21269047 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23090",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lincolnshire"
+        }
+      ],
+      "properties": {
+        "title": "Lincolnshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Merseyside.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in North West England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23100",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Merseyside"
+        }
+      ],
+      "properties": {
+        "title": "Merseyside"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norfolk.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in East Anglia, England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23109",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Norfolk"
+        }
+      ],
+      "properties": {
+        "title": "Norfolk"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North-Yorkshire-Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21241814 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23086",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "North Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Northamptonshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England, UK"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23115",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northamptonshire"
+        }
+      ],
+      "properties": {
+        "title": "Northamptonshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Northumberland.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county and unitary authority in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23079",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northumberland"
+        }
+      ],
+      "properties": {
+        "title": "Northumberland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Nottinghamshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21272736 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23092",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nottinghamshire"
+        }
+      ],
+      "properties": {
+        "title": "Nottinghamshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Oxfordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23169",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oxfordshire"
+        }
+      ],
+      "properties": {
+        "title": "Oxfordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rutland%20County%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23107",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rutland"
+        }
+      ],
+      "properties": {
+        "title": "Rutland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shropshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in the United Kingdom"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23103",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shropshire"
+        }
+      ],
+      "properties": {
+        "title": "Shropshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somnew.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694741 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23157",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Somerset"
+        }
+      ],
+      "properties": {
+        "title": "Somerset"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23095",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "South Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Staffordshire%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694786 for administrative non-metropolitan county)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23105",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Staffordshire"
+        }
+      ],
+      "properties": {
+        "title": "Staffordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Suffolk.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23111",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Suffolk"
+        }
+      ],
+      "properties": {
+        "title": "Suffolk"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Surrey.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23276",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Surrey"
+        }
+      ],
+      "properties": {
+        "title": "Surrey"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Tyne%20%26%20Wear.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23080",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tyne and Wear"
+        }
+      ],
+      "properties": {
+        "title": "Tyne and Wear"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Warwickshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England, UK"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23140",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Warwickshire"
+        }
+      ],
+      "properties": {
+        "title": "Warwickshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7925010",
+          "label": "vice-county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20West%20Midlands%20County.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23124",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Midlands"
+        }
+      ],
+      "properties": {
+        "title": "West Midlands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sussex.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23287",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Sussex"
+        }
+      ],
+      "properties": {
+        "title": "West Sussex"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20Flag%20of%20West%20Yorkshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23083",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "West Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Wiltshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694746 for administrative unitary authority)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23183",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wiltshire"
+        }
+      ],
+      "properties": {
+        "title": "Wiltshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Worcestershire%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "non-metropolitan county in the West Midlands of England"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23135",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Worcestershire"
+        }
+      ],
+      "properties": {
+        "title": "Worcestershire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7925010",
+          "label": "vice-county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        }
+      ]
+    }
+  ],
+  "title": "English counties",
+  "type": "FeatureCollection"
+}

@@ -9,7 +9,9 @@ const fs = require('fs')
 const GAZETTEERS = {
   continents: 'Continents',
   countries: 'Countries',
+  'english-counties': 'English counties',
   historical: 'Historical places',
+  regions: 'Regions',
   'us-states': 'US states'
 }
 
@@ -178,6 +180,16 @@ const getWikidataContinent = id => getWikidataPlace(
   ['wd:Q5107'] // continent
 )
 
+const getWikidataRegion = id => getWikidataPlace(
+  id,
+  ['wd:Q82794'] // geographic region
+)
+
+const getWikidataEnglishCounty = id => getWikidataPlace(
+  id,
+  ['wd:Q180673'] // ceremonial county of England
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -194,6 +206,12 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'continents':
         promise = getWikidataContinent(place.id)
+        break
+      case 'regions':
+        promise = getWikidataRegion(place.id)
+        break
+      case 'english-counties':
+        promise = getWikidataEnglishCounty(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

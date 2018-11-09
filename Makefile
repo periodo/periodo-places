@@ -1,8 +1,10 @@
 GAZETTEERS := \
+	gazetteers/continents.json \
 	gazetteers/countries.json \
-	gazetteers/us-states.json \
+	gazetteers/english-counties.json \
 	gazetteers/historical.json \
-	gazetteers/continents.json
+	gazetteers/regions.json \
+	gazetteers/us-states.json
 
 ne_110m_%.zip:
 	curl -s -L http://www.naturalearthdata.com/\
@@ -78,9 +80,7 @@ stage: all
 deploy: all
 	./deploy.sh
 
-check: \
-	place-id-mappings.txt \
-	$(GAZETTEERS) \
+check: place-id-mappings.txt $(GAZETTEERS)
 	node check-mapping.js $^
 
 clean:

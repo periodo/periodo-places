@@ -5,11 +5,17 @@ This repository contains custom placename gazetteers used for indicating the spa
 * Continents gazetteer:<br>
   https://data.perio.do/graphs/places/continents.json
 
-* Present-day countries gazetteer:<br>
+* Regions gazetteer:<br>
+  https://data.perio.do/graphs/places/regions.json
+
+* Countries gazetteer:<br>
   https://data.perio.do/graphs/places/countries.json
 
 * U.S. states gazetteer:<br>
   https://data.perio.do/graphs/places/us-states.json
+
+* English counties gazetteer:<br>
+  https://data.perio.do/graphs/places/english-counties.json
 
 * Historical places gazetteer:<br>
   https://data.perio.do/graphs/places/historical.json
@@ -21,7 +27,17 @@ This repository contains custom placename gazetteers used for indicating the spa
   https://data.perio.do/graphs/
 
 
-### Present-day countries gazetteer
+### Continents gazetteer
+
+This gazetteer was created by querying Wikidata for instances of [Q5107 continent](https://www.wikidata.org/wiki/Q5107), then excluding [Australia](https://www.wikidata.org/wiki/Q3960) in favor of [Oceania](https://www.wikidata.org/wiki/Q538). It currently does not have any geometries.
+
+
+### Regions gazetteer
+
+This gazetteer was created by finding PeriodO periods with named regions in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q82794 geographic region](https://www.wikidata.org/wiki/Q82794). It currently does not have any geometries.
+
+
+### Countries gazetteer
 
 This gazetteer was created by:
 
@@ -47,4 +63,9 @@ This gazetteer was created by:
 
 ### Historical places gazetteer
 
-This gazetteer was created by finding PeriodO periods with named historical places in their spatial coverage descriptions, and then looking for close equivalents in Wikidata. It currently does not have any geometries.
+This gazetteer was created by finding PeriodO periods with named historical places in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q3024240 historical country](https://www.wikidata.org/wiki/Q3024240), [Q28171280 ancient civilization](https://www.wikidata.org/wiki/Q28171280), or [Q839954 archaeological site](https://www.wikidata.org/wiki/Q839954). It currently does not have any geometries.
+
+
+### English counties gazetteer
+
+This gazetteer was created by querying Wikidata for instances of [Q180673 ceremonial country of England](https://www.wikidata.org/wiki/Q180673). It currently does not have any geometries.

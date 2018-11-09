@@ -1,0 +1,944 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Asian part of Turkey"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q51614",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Anatolia"
+        }
+      ],
+      "properties": {
+        "title": "Anatolia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1496967",
+          "label": "territorial entity"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geopolitical and cultural region of southeastern Europe"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23522",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balkans"
+        }
+      ],
+      "properties": {
+        "title": "Balkans"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "group of islands in northwest Europe"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q38272",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "British Isles"
+        }
+      ],
+      "properties": {
+        "title": "British Isles"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q33837",
+          "label": "archipelago"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Eurasia bordered on the south by Iran, on the southwest by Turkey, on the west by the Black Sea, on the east by the Caspian Sea, and on the north by Russia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q18869",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Caucasus"
+        }
+      ],
+      "properties": {
+        "title": "Caucasus"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Corsica.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "territorial collectivity of France"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q14112",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Corsica"
+        }
+      ],
+      "properties": {
+        "title": "Corsica"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q22923920",
+          "label": "territorial collectivity of France with special status"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "island of Greece"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q34374",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Crete"
+        }
+      ],
+      "properties": {
+        "title": "Crete"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "easterly region of the African continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27407",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Africa"
+        }
+      ],
+      "properties": {
+        "title": "East Africa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "eastern part of the European continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27468",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Europe"
+        }
+      ],
+      "properties": {
+        "title": "Eastern Europe"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "crescent-shaped region containing the moist and fertile land of Western Asia, and the Nile Valley and Nile Delta of northeast Africa"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q170526",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fertile Crescent"
+        }
+      ],
+      "properties": {
+        "title": "Fertile Crescent"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "peninsula"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q43467",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Indochina"
+        }
+      ],
+      "properties": {
+        "title": "Indochina"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "island in north-west Europe, politically divided into the Republic of Ireland and Northern Ireland"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q22890",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ireland"
+        }
+      ],
+      "properties": {
+        "title": "Ireland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region in the land of lsrael. The birthplace of the Jewish entity"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q104028",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Judea"
+        }
+      ],
+      "properties": {
+        "title": "Judea"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "peninsula in East Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q483134",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Korean Peninsula"
+        }
+      ],
+      "properties": {
+        "title": "Korean Peninsula"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of central western Italy in which city of Rome was founded"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1048669",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Latium"
+        }
+      ],
+      "properties": {
+        "title": "Latium"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic and cultural region consisting of the eastern Mediterranean between Anatolia and Egypt"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q81483",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Levant"
+        }
+      ],
+      "properties": {
+        "title": "Levant"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mallorca.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "island in the Mediterranean Sea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q8828",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Majorca"
+        }
+      ],
+      "properties": {
+        "title": "Majorca"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "peninsula in Southeast Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q18758",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Malay Peninsula"
+        }
+      ],
+      "properties": {
+        "title": "Malay Peninsula"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of lands around the Mediterranean Sea that have a Mediterranean climate"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q72499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mediterranean Basin"
+        }
+      ],
+      "properties": {
+        "title": "Mediterranean Basin"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549534",
+          "label": "Greater Region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Cultural area in the Americas"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q13703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mesoamerica"
+        }
+      ],
+      "properties": {
+        "title": "Mesoamerica"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15733622",
+          "label": "super cultural area"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1247159",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Messenia"
+        }
+      ],
+      "properties": {
+        "title": "Messenia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region that encompasses majority of Western Asia and Egypt"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q7204",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Middle East"
+        }
+      ],
+      "properties": {
+        "title": "Middle East"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20England%20pine%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographical region in the northeastern United States"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q18389",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "New England"
+        }
+      ],
+      "properties": {
+        "title": "New England"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q518261",
+          "label": "cultural area"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "northernmost region of the African continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27381",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Africa"
+        }
+      ],
+      "properties": {
+        "title": "North Africa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1058785",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "north India"
+        }
+      ],
+      "properties": {
+        "title": "north India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "northern region of the European continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27479",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Europe"
+        }
+      ],
+      "properties": {
+        "title": "Northern Europe"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic region of Germany"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q152243",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rhineland"
+        }
+      ],
+      "properties": {
+        "title": "Rhineland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geopolitical region located on the border of Eastern Europe and Western Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q200173",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Caucasus"
+        }
+      ],
+      "properties": {
+        "title": "South Caucasus"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1496967",
+          "label": "territorial entity"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q542146",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South India"
+        }
+      ],
+      "properties": {
+        "title": "South India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "southernmost region of the African continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27394",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Southern Africa"
+        }
+      ],
+      "properties": {
+        "title": "Southern Africa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "area of Europe"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27449",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Southern Europe"
+        }
+      ],
+      "properties": {
+        "title": "Southern Europe"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tibet.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "plateau region in Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q17252",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tibet"
+        }
+      ],
+      "properties": {
+        "title": "Tibet"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q878223",
+          "label": "highland"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "westernmost region of the African continent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q4412",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Africa"
+        }
+      ],
+      "properties": {
+        "title": "West Africa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1151567",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West India"
+        }
+      ],
+      "properties": {
+        "title": "West India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region comprising the westerly countries of Europe"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q27496",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Western Europe"
+        }
+      ],
+      "properties": {
+        "title": "Western Europe"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    }
+  ],
+  "title": "Regions",
+  "type": "FeatureCollection"
+}
