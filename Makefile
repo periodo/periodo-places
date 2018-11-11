@@ -1,4 +1,5 @@
 GAZETTEERS := \
+	gazetteers/cities.json \
 	gazetteers/continents.json \
 	gazetteers/countries.json \
 	gazetteers/english-counties.json \
@@ -61,7 +62,7 @@ geometries/us-states.json: \
 	jq -s '.[0] * .[1]' $^ > $@
 
 gazetteers/%.json: geometries/%.json
-	node build-gazetteer.js $< $* > $@
+	node js/build-gazetteer.js $< $* > $@
 
 periodo-dataset.json:
 	curl -s -J -O https://data.perio.do/d.json
@@ -70,7 +71,7 @@ legacy-place-ids.txt: periodo-dataset.json
 	jq -r -f jq/periodo-place-ids.jq $< | sort | uniq > $@
 
 place-id-mappings.txt: legacy-place-ids.txt
-	node map-legacy-ids.js $< > $@
+	node js/map-legacy-ids.js $< > $@
 
 all: $(GAZETTEERS)
 
@@ -81,7 +82,7 @@ deploy: all
 	./deploy.sh
 
 check: place-id-mappings.txt $(GAZETTEERS)
-	node check-mapping.js $^
+	node js/check-mapping.js $^
 
 clean:
 	rm -f *.zip *.shp *.shx *.dbf *.prj ne_*.json \

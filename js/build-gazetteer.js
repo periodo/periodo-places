@@ -5,8 +5,10 @@ const fs = require('fs')
     , R = require('ramda')
     , stringify = require('json-stable-stringify')
     , { sleep } = require('sleep')
+    , linkedPlace = require('./linked-place')
 
 const GAZETTEERS = {
+  cities: 'Cities',
   continents: 'Continents',
   countries: 'Countries',
   'english-counties': 'English counties',
@@ -15,7 +17,7 @@ const GAZETTEERS = {
   'us-states': 'US states'
 }
 
-const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
+const queryTemplate = fs.readFileSync('new-wikidata-query.rq', 'utf8')
 
 const context = {
   dcterms: 'http://purl.org/dc/terms/',
@@ -68,6 +70,9 @@ const frame = {
   '@context': context
 }
 
+const replace = tag => replacement => string => string.replace(
+  new RegExp(`\\$\\{${tag}\\}`, 'g'), replacement)
+
 const queryWikidata = (id, types, constraints) => {
 
   if (R.contains(['wdt:P297|wdt:P300', 'NL'], constraints)) {
@@ -77,22 +82,23 @@ const queryWikidata = (id, types, constraints) => {
     constraints = []
   }
 
-  let query = queryTemplate.replace(
-    '${bindings}',
-    R.isNil(id) ? '' : `BIND(<${id}> AS ?place)`
-  ).replace(
-    '${types}',
-    R.compose(
-      R.join(' UNION '),
-      R.map(type => `{ ?place (wdt:P31/wdt:P279*) ${type} . }`)
-    )(types)
-  ).replace(
-    '${constraints}',
-    R.compose(
-      R.join(''),
-      R.map(([path, value]) => `?place ${path} "${value}" . `)
-    )(constraints)
-  )
+  let query = R.pipe(
+    replace('bindings')(
+      R.isNil(id) ? '' : `BIND(<${id}> AS ?place)`
+    ),
+    replace('types')(
+      R.compose(
+        R.join(' UNION '),
+        R.map(type => `{ ?place (wdt:P31/wdt:P279*) ${type} . }`)
+      )(types)
+    ),
+    replace('constraints')(
+      R.compose(
+        R.join(''),
+        R.map(([path, value]) => `?place ${path} "${value}" . `)
+      )(constraints)
+    )
+  )(queryTemplate)
 
   //console.error(query)
 
@@ -111,23 +117,11 @@ const parseTurtle = ttl => new Promise((resolve, reject) => {
   )
 })
 
-const isFeature = quad => (quad.predicate.id === `${context.rdf}type` &&
-                           quad.object.id === `${context.geojson}Feature`)
-
-const checkFeatureCount = quads => {
-  const count = R.reduce(
-    (count, quad) => (isFeature(quad) ? count + 1 : count), 0, quads)
-  if (count !== 1) {
-    throw new Error(`${count} results`)
-  }
-  return quads
-}
-
 const frameJSONLD = quads => jsonld.frame(quads, frame)
 
 const hasBlankNodeID = R.allPass([
   R.has('id'),
-  R.propSatisfies(R.startsWith('/b'), 'id')
+  R.propSatisfies(R.startsWith('/n3-'), 'id')
 ])
 
 const stripBlankNodeIDs = R.when(
@@ -142,7 +136,7 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
   new Promise((resolve, reject) =>
     queryWikidata(id, types, constraints)
       .then(parseTurtle)
-      .then(checkFeatureCount)
+      .then(linkedPlace)
       .then(jsonld.fromRDF)
       .then(frameJSONLD)
       .then(R.path(['@graph', 0]))
@@ -190,6 +184,11 @@ const getWikidataEnglishCounty = id => getWikidataPlace(
   ['wd:Q180673'] // ceremonial county of England
 )
 
+const getWikidataCity = id => getWikidataPlace(
+  id,
+  ['wd:Q486972'] // human settlement
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -212,6 +211,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'english-counties':
         promise = getWikidataEnglishCounty(place.id)
+        break
+      case 'cities':
+        promise = getWikidataCity(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

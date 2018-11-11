@@ -392,6 +392,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Minnesota"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minnesota, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Land of 10,000 Lakes"
+        },
+        {
+          "lang": "en",
           "toponym": "Minnesota"
         }
       ],
@@ -631,6 +643,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Montana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Montana, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Big Sky Country"
+        },
+        {
+          "lang": "en",
           "toponym": "Montana"
         }
       ],
@@ -780,6 +804,22 @@
       },
       "id": "http://www.wikidata.org/entity/Q1207",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of North Dakota"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Dakota, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "NoDak"
+        },
+        {
+          "lang": "en",
+          "toponym": "N. Dakota"
+        },
         {
           "lang": "en",
           "toponym": "North Dakota"
@@ -1029,6 +1069,26 @@
       },
       "id": "http://www.wikidata.org/entity/Q782",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "The Aloha State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Hawaii"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kaimana Hila"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hawaii, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hawaiʻi"
+        },
         {
           "lang": "en",
           "toponym": "Hawaii"
@@ -1306,6 +1366,26 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "US-ID"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Idaho"
+        },
+        {
+          "lang": "en",
+          "toponym": "Potato State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Idaho, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gem State"
+        },
+        {
+          "lang": "en",
           "toponym": "Idaho"
         }
       ],
@@ -1497,6 +1577,22 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Washington State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Washington (state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Washington"
+        },
+        {
+          "lang": "en",
+          "toponym": "Evergreen State"
+        },
+        {
+          "lang": "en",
           "toponym": "Washington"
         }
       ],
@@ -1674,6 +1770,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q816",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "The Grand Canyon State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Arizona"
+        },
         {
           "lang": "en",
           "toponym": "Arizona"
@@ -1875,6 +1979,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "The Golden State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of California"
+        },
+        {
+          "lang": "en",
           "toponym": "California"
         }
       ],
@@ -1980,6 +2092,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1261",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Colorado"
+        },
+        {
+          "lang": "en",
+          "toponym": "Colo."
+        },
         {
           "lang": "en",
           "toponym": "Colorado"
@@ -2109,6 +2229,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Nevada"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nevada, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Nevada"
         }
       ],
@@ -2218,6 +2346,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1522",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of New Mexico"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Mexico, United States"
+        },
         {
           "lang": "en",
           "toponym": "New Mexico"
@@ -2431,6 +2567,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Oregon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oregon, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ore."
+        },
+        {
+          "lang": "en",
           "toponym": "Oregon"
         }
       ],
@@ -2508,6 +2656,18 @@
       },
       "id": "http://www.wikidata.org/entity/Q829",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Utah, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Utah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Beehive State"
+        },
         {
           "lang": "en",
           "toponym": "Utah"
@@ -2619,6 +2779,22 @@
       },
       "id": "http://www.wikidata.org/entity/Q1214",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Wyoming, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Equality State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Cowboy State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Wyoming"
+        },
         {
           "lang": "en",
           "toponym": "Wyoming"
@@ -2814,6 +2990,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1612",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Arkansas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ark."
+        },
         {
           "lang": "en",
           "toponym": "Arkansas"
@@ -3083,6 +3267,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "The Land Between Two Rivers"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Iowa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Iowa, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Iowa"
         }
       ],
@@ -3216,6 +3412,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1558",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Kansas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kansas, United States of America"
+        },
         {
           "lang": "en",
           "toponym": "Kansas"
@@ -3509,6 +3713,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "The Show Me State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Missouri"
+        },
+        {
+          "lang": "en",
+          "toponym": "Missouri, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Missouri"
         }
       ],
@@ -3706,6 +3922,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q1553",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Nebraska"
+        },
         {
           "lang": "en",
           "toponym": "Nebraska"
@@ -3915,6 +4135,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "US-OK"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Oklahoma"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oklahoma, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Oklahoma"
         }
       ],
@@ -4096,6 +4328,26 @@
       },
       "id": "http://www.wikidata.org/entity/Q1211",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "The Mount Rushmore State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of South Dakota"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Dakota, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "SoDak"
+        },
+        {
+          "lang": "en",
+          "toponym": "S. Dakota"
+        },
         {
           "lang": "en",
           "toponym": "South Dakota"
@@ -4347,6 +4599,18 @@
       },
       "id": "http://www.wikidata.org/entity/Q1588",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Louisiana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Louisiana, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "18th State"
+        },
         {
           "lang": "en",
           "toponym": "Louisiana"
@@ -4708,6 +4972,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Texas, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Texas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lone Star State"
+        },
+        {
+          "lang": "en",
           "toponym": "Texas"
         }
       ],
@@ -4809,6 +5085,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q779",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Connecticut"
+        },
+        {
+          "lang": "en",
+          "toponym": "Connecticut, United States"
+        },
         {
           "lang": "en",
           "toponym": "Connecticut"
@@ -4936,6 +5220,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q771",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of Massachusetts"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bay State"
+        },
         {
           "lang": "en",
           "toponym": "Massachusetts"
@@ -5097,6 +5389,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "The Granite State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of New Hampshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Hampshire, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "New Hampshire"
         }
       ],
@@ -5170,6 +5474,26 @@
       },
       "id": "http://www.wikidata.org/entity/Q1387",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Rhode Island and Providence Plantations"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Rhode Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "Road Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rhode Island, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "little rhodie"
+        },
         {
           "lang": "en",
           "toponym": "Rhode Island"
@@ -5331,6 +5655,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Vermont, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Vermont"
+        },
+        {
+          "lang": "en",
           "toponym": "Vermont"
         }
       ],
@@ -5472,6 +5804,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q173",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Alabama"
+        },
         {
           "lang": "en",
           "toponym": "Alabama"
@@ -5675,6 +6011,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q812",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Florida"
+        },
         {
           "lang": "en",
           "toponym": "Florida"
@@ -5900,6 +6240,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Georgia, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Georgia"
+        },
+        {
+          "lang": "en",
           "toponym": "Georgia"
         }
       ],
@@ -6115,6 +6463,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Mississippi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mississippi, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Mississippi"
         }
       ],
@@ -6292,6 +6648,22 @@
       },
       "id": "http://www.wikidata.org/entity/Q1456",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of South Carolina"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Carolina, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "S.C."
+        },
+        {
+          "lang": "en",
+          "toponym": "S. C."
+        },
         {
           "lang": "en",
           "toponym": "South Carolina"
@@ -6649,6 +7021,26 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "The Land of Lincoln"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Illinois"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ills."
+        },
+        {
+          "lang": "en",
+          "toponym": "Illinois, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ill."
+        },
+        {
+          "lang": "en",
           "toponym": "Illinois"
         }
       ],
@@ -6882,6 +7274,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1415",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Indiana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Indiana, United States"
+        },
         {
           "lang": "en",
           "toponym": "Indiana"
@@ -7255,6 +7655,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Kentucky, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of Kentucky"
+        },
+        {
+          "lang": "en",
           "toponym": "Kentucky"
         }
       ],
@@ -7468,6 +7876,18 @@
       },
       "id": "http://www.wikidata.org/entity/Q1454",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of North Carolina"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Carolina, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "NC, United States"
+        },
         {
           "lang": "en",
           "toponym": "North Carolina"
@@ -7733,6 +8153,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Ohio"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ohio, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Ohio"
         }
       ],
@@ -7986,6 +8414,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1509",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Tennessee, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Tennessee"
+        },
         {
           "lang": "en",
           "toponym": "Tennessee"
@@ -8489,6 +8925,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Virginia, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Virginia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of Virginia"
+        },
+        {
+          "lang": "en",
           "toponym": "Virginia"
         }
       ],
@@ -8914,6 +9362,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q1537",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Wisconsin, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Wisconsin"
+        },
         {
           "lang": "en",
           "toponym": "Wisconsin"
@@ -9343,6 +9799,22 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "West Virginia, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Mountain State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of West Virginia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Almost Heaven"
+        },
+        {
+          "lang": "en",
           "toponym": "West Virginia"
         }
       ],
@@ -9430,6 +9902,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Delaware"
+        },
+        {
+          "lang": "en",
           "toponym": "Delaware"
         }
       ],
@@ -9499,6 +9975,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q3551781",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "D.C."
+        },
         {
           "lang": "en",
           "toponym": "District of Columbia"
@@ -9752,6 +10232,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Maryland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Maryland, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Maryland"
         }
       ],
@@ -9893,6 +10381,22 @@
       },
       "id": "http://www.wikidata.org/entity/Q1408",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Garden State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of New Jersey"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Jersey, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jersey"
+        },
         {
           "lang": "en",
           "toponym": "New Jersey"
@@ -10150,6 +10654,22 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Empire State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of New York"
+        },
+        {
+          "lang": "en",
+          "toponym": "New York, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "New York State"
+        },
+        {
+          "lang": "en",
           "toponym": "New York"
         }
       ],
@@ -10349,6 +10869,26 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Penna"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Pennsylvania"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pennsylvania, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Keystone State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of Pennsylvania"
+        },
+        {
+          "lang": "en",
           "toponym": "Pennsylvania"
         }
       ],
@@ -10470,6 +11010,14 @@
       },
       "id": "http://www.wikidata.org/entity/Q724",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Maine"
+        },
+        {
+          "lang": "en",
+          "toponym": "Maine, United States"
+        },
         {
           "lang": "en",
           "toponym": "Maine"
@@ -11009,6 +11557,18 @@
       },
       "id": "http://www.wikidata.org/entity/Q1166",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "State of Michigan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Michigan, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mich."
+        },
         {
           "lang": "en",
           "toponym": "Michigan"
@@ -11724,6 +12284,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Alaska"
+        },
+        {
+          "lang": "en",
+          "toponym": "Alaska, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Alaska"
         }
       ],
@@ -11799,6 +12367,30 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "US Samoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "U.S. Samoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of American Samoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Samoa (American)"
+        },
+        {
+          "lang": "en",
+          "toponym": "East Samoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇦🇸"
+        },
+        {
+          "lang": "en",
           "toponym": "American Samoa"
         }
       ],
@@ -11809,12 +12401,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1048835",
           "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
         }
       ]
     },
@@ -11894,6 +12486,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "🇬🇺"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of Guam"
+        },
+        {
+          "lang": "en",
           "toponym": "Guam"
         }
       ],
@@ -11904,20 +12504,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q23442",
-          "label": "island"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
           "label": "insular area"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1048835",
           "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
         }
       ]
     },
@@ -12155,6 +12755,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "🇲🇵"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of the Northern Maria Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "CNMI"
+        },
+        {
+          "lang": "en",
           "toponym": "Northern Mariana Islands"
         }
       ],
@@ -12234,6 +12846,30 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Territory of Puerto Rico"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Commonwealth of Puerto Rico"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇵🇷"
+        },
+        {
+          "lang": "en",
+          "toponym": "Porto Rico"
+        },
+        {
+          "lang": "en",
+          "toponym": "Estado Libre Asociado de Puerto Rico"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of Puerto Rico"
+        },
+        {
+          "lang": "en",
           "toponym": "Puerto Rico"
         }
       ],
@@ -12244,24 +12880,24 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q783733",
           "label": "unincorporated territory"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1048835",
-          "label": "political territorial entity"
+          "identifier": "http://www.wikidata.org/entity/Q7252696",
+          "label": "Provincial deputation in Spanish America"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q7252696",
-          "label": "Provincial deputation in Spanish America"
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
         }
       ]
     },
@@ -12377,6 +13013,26 @@
       },
       "id": "http://www.wikidata.org/entity/Q11703",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Virgin Islands of the United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "USVI"
+        },
+        {
+          "lang": "en",
+          "toponym": "US Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "U.S. Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "American Virgin Islands"
+        },
         {
           "lang": "en",
           "toponym": "United States Virgin Islands"

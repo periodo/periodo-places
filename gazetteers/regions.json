@@ -55,6 +55,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Asian Turkey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Asia minor"
+        },
+        {
+          "lang": "en",
           "toponym": "Anatolia"
         }
       ],
@@ -64,12 +72,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q34763",
-          "label": "peninsula"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1496967",
           "label": "territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
         }
       ]
     },
@@ -82,6 +90,66 @@
       ],
       "id": "http://www.wikidata.org/entity/Q23522",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "The Balkans"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Balkan area"
+        },
+        {
+          "lang": "en",
+          "toponym": "Peninsula of Haemus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Haemus Peninsula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkins"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkans peninsula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkanoid"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan Pennisula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan penninsula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan peninsula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan Peninisula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan countries"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balkan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balcans"
+        },
         {
           "lang": "en",
           "toponym": "Balkans"
@@ -113,6 +181,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Britain and Ireland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Atlantic Archipelago"
+        },
+        {
+          "lang": "en",
           "toponym": "British Isles"
         }
       ],
@@ -136,6 +212,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q18869",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Caucasia"
+        },
         {
           "lang": "en",
           "toponym": "Caucasus"
@@ -224,6 +304,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q27407",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Africa"
+        },
         {
           "lang": "en",
           "toponym": "East Africa"
@@ -326,6 +410,74 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Irland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Erin's Isle"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shan van vok"
+        },
+        {
+          "lang": "en",
+          "toponym": "Scotia major"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mikra Britannia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island of Ireland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island Ireland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ireland Ulster"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ireland and Ulster"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ireland (island)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Auld Sod"
+        },
+        {
+          "lang": "en",
+          "toponym": "Airlann"
+        },
+        {
+          "lang": "en",
+          "toponym": "Airlan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Irlande"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hiberna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Irlanda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Irlandia"
+        },
+        {
+          "lang": "en",
           "toponym": "Ireland"
         }
       ],
@@ -426,6 +578,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Eastern Mediterranean"
+        },
+        {
+          "lang": "en",
           "toponym": "Levant"
         }
       ],
@@ -456,6 +612,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Mallorca"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mallorca Island"
+        },
+        {
+          "lang": "en",
           "toponym": "Majorca"
         }
       ],
@@ -481,6 +645,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Malaysian peninsula"
+        },
+        {
+          "lang": "en",
           "toponym": "Malay Peninsula"
         }
       ],
@@ -504,6 +672,14 @@
       ],
       "id": "http://www.wikidata.org/entity/Q72499",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Mediterranea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mediterranean region"
+        },
         {
           "lang": "en",
           "toponym": "Mediterranean Basin"
@@ -581,6 +757,26 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Western Asia"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Asia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Middle East, Mideast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mid East"
+        },
+        {
+          "lang": "en",
+          "toponym": "Near East"
+        },
+        {
+          "lang": "en",
           "toponym": "Middle East"
         }
       ],
@@ -611,6 +807,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "New Englander"
+        },
+        {
+          "lang": "en",
           "toponym": "New England"
         }
       ],
@@ -634,6 +834,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q27381",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Africa"
+        },
         {
           "lang": "en",
           "toponym": "North Africa"
@@ -663,6 +867,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q1058785",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "northern India"
+        },
         {
           "lang": "en",
           "toponym": "north India"
@@ -740,6 +948,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Transcaucasia"
+        },
+        {
+          "lang": "en",
           "toponym": "South Caucasus"
         }
       ],
@@ -815,6 +1027,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Europe, Southern"
+        },
+        {
+          "lang": "en",
           "toponym": "Southern Europe"
         }
       ],
@@ -845,6 +1061,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Thibet"
+        },
+        {
+          "lang": "en",
+          "toponym": "Old Tibetan provinces"
+        },
+        {
+          "lang": "en",
           "toponym": "Tibet"
         }
       ],
@@ -854,12 +1078,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q878223",
           "label": "highland"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
         }
       ]
     },
@@ -872,6 +1096,34 @@
       ],
       "id": "http://www.wikidata.org/entity/Q4412",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Western Africa"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Afrika"
+        },
+        {
+          "lang": "en",
+          "toponym": "West African"
+        },
+        {
+          "lang": "en",
+          "toponym": "W Afr"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bulge of Africa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bilad es-Sudan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bilad el-Sudan"
+        },
         {
           "lang": "en",
           "toponym": "West Africa"
@@ -897,6 +1149,14 @@
       ],
       "id": "http://www.wikidata.org/entity/Q1151567",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Western region of India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western India"
+        },
         {
           "lang": "en",
           "toponym": "West India"

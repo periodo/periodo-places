@@ -55,6 +55,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "African continent"
+        },
+        {
+          "lang": "en",
           "toponym": "Africa"
         }
       ],
@@ -80,6 +84,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "América do Sul"
+        },
+        {
+          "lang": "en",
+          "toponym": "América del Sur"
+        },
+        {
+          "lang": "en",
           "toponym": "South America"
         }
       ],
@@ -89,12 +101,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q5107",
-          "label": "continent"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q855697",
           "label": "subcontinent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
         }
       ]
     },
@@ -107,6 +119,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q46",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Old continent"
+        },
         {
           "lang": "en",
           "toponym": "Europe"
@@ -122,12 +138,12 @@
           "label": "continent"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q851990",
-          "label": "population group"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q2418896",
           "label": "continental area and surrounding islands"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q851990",
+          "label": "population group"
         }
       ]
     },
@@ -151,12 +167,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q5107",
-          "label": "continent"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q2418896",
           "label": "continental area and surrounding islands"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
         }
       ]
     },
@@ -180,12 +196,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q5107",
-          "label": "continent"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q855697",
           "label": "subcontinent"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5107",
+          "label": "continent"
         }
       ]
     },
@@ -209,16 +225,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q5107",
           "label": "continent"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q8514",
           "label": "desert"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
         }
       ]
     },
@@ -231,6 +247,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q538",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Oceanica"
+        },
         {
           "lang": "en",
           "toponym": "Oceania"
