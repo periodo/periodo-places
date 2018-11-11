@@ -68,12 +68,12 @@
           "label": "former administrative territorial entity"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
         }
       ]
     },
@@ -110,12 +110,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
         }
       ]
     },
@@ -194,12 +194,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
         }
       ]
     },
@@ -282,12 +282,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
         }
       ]
     },
@@ -427,12 +427,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
         }
       ]
     },
@@ -579,12 +579,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
         }
       ]
     },
@@ -854,16 +854,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
         }
       ]
     },
@@ -896,16 +896,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
           "label": "non-metropolitan county"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
         }
       ]
     },
@@ -1199,16 +1199,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
           "label": "non-metropolitan county"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
         }
       ]
     },
@@ -1604,16 +1604,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
         }
       ]
     },
@@ -1717,6 +1717,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1138494",
           "label": "historic county of England"
         },
@@ -1727,10 +1731,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q7925010",
           "label": "vice-county"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
         }
       ]
     },
@@ -1797,12 +1797,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
         }
       ]
     },

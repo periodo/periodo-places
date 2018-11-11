@@ -4,7 +4,9 @@ GAZETTEERS := \
 	gazetteers/countries.json \
 	gazetteers/english-counties.json \
 	gazetteers/historical.json \
+	gazetteers/italian-regions.json \
 	gazetteers/regions.json \
+	gazetteers/spanish-communities.json \
 	gazetteers/us-states.json
 
 ne_110m_%.zip:

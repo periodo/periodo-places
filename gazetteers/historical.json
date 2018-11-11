@@ -517,16 +517,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
         }
       ]
     },
@@ -591,12 +591,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
         }
       ]
     },
@@ -658,16 +658,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
         }
       ]
     },
@@ -888,10 +888,10 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kingdom%20of%20Jerusalem.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vexillum%20Regni%20Hierosolymae.svg"
         },
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vexillum%20Regni%20Hierosolymae.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kingdom%20of%20Jerusalem.svg"
         }
       ],
       "descriptions": [
@@ -917,12 +917,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q190967",
-          "label": "Crusader states"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q190967",
+          "label": "Crusader states"
         }
       ]
     },
@@ -946,16 +946,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q755017",
-          "label": "tell"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q22674925",
           "label": "former populated place"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q755017",
+          "label": "tell"
         }
       ]
     },
@@ -970,15 +970,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Macedonian Empire"
+        },
+        {
+          "lang": "en",
           "toponym": "Macedonia"
         },
         {
           "lang": "en",
           "toponym": "Macedon"
-        },
-        {
-          "lang": "en",
-          "toponym": "Macedonian Empire"
         },
         {
           "lang": "en",
@@ -995,12 +995,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1250464",
-          "label": "realm"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q48349",
           "label": "empire"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1250464",
+          "label": "realm"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
@@ -1156,12 +1156,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },
@@ -1536,10 +1536,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Troia"
-        },
-        {
-          "lang": "en",
           "toponym": "Teukroi"
         },
         {
@@ -1576,15 +1572,19 @@
         },
         {
           "lang": "en",
-          "toponym": "Archaeological Site of Troy"
-        },
-        {
-          "lang": "en",
           "toponym": "Ancient Troya National Park"
         },
         {
           "lang": "en",
           "toponym": "Ancient Troy"
+        },
+        {
+          "lang": "en",
+          "toponym": "Archaeological Site of Troy"
+        },
+        {
+          "lang": "en",
+          "toponym": "Troia"
         },
         {
           "lang": "en",

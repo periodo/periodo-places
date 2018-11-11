@@ -45,6 +45,123 @@
   },
   "features": [
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20Abkhazia.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Abkhazia%20%28GE%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in the Caucasus, de facto independent state of Georgia and not recognized internationally"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23334",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Communications in Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Autonomous republic of Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apkhazeti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ap'khazet'is Avtonomiuri Respublika"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhaziya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazian Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazian Autonomous Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazia Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazeti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhkazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abchasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apsny"
+        },
+        {
+          "lang": "en",
+          "toponym": "აფხაზეთი"
+        },
+        {
+          "lang": "en",
+          "toponym": "Аҧсны Аҳәынҭқарра"
+        },
+        {
+          "lang": "en",
+          "toponym": "Аҧсны"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazia"
+        }
+      ],
+      "properties": {
+        "title": "Abkhazia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        }
+      ]
+    },
+    {
       "descriptions": [
         {
           "lang": "en",
@@ -144,11 +261,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Balkan"
+          "toponym": "Balcans"
         },
         {
           "lang": "en",
-          "toponym": "Balcans"
+          "toponym": "Balkan"
         },
         {
           "lang": "en",
@@ -375,6 +492,44 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region on the eastern coast of the Mediterranean Sea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q39760",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gaza"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gaza Strip"
+        }
+      ],
+      "properties": {
+        "title": "Gaza Strip"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2577883",
+          "label": "occupied territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q45220060",
+          "label": "region of Palestine"
+        }
+      ]
+    },
+    {
       "descriptions": [
         {
           "lang": "en",
@@ -514,6 +669,35 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q82794",
           "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former country, now a conflict territory between India and Pakistan"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q43100",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kashmir"
+        }
+      ],
+      "properties": {
+        "title": "Kashmir"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
         }
       ]
     },
@@ -1144,6 +1328,47 @@
       "descriptions": [
         {
           "lang": "en",
+          "value": "part of the Palestinian territories near the Mediterranean coast of Western Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q36678",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Palestine"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cisjordan"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Bank"
+        }
+      ],
+      "properties": {
+        "title": "West Bank"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q45220060",
+          "label": "region of Palestine"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2577883",
+          "label": "occupied territory"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
           "value": "geographic region"
         }
       ],
@@ -1199,6 +1424,6 @@
       ]
     }
   ],
-  "title": "Regions",
+  "title": "World regions",
   "type": "FeatureCollection"
 }

@@ -48,6 +48,79 @@
       "descriptions": [
         {
           "lang": "en",
+          "value": "third planet from the Sun in the Solar System"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q2",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Blue Planet"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Earth"
+        },
+        {
+          "lang": "en",
+          "toponym": "Terra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gaia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tellus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Blue Marble"
+        },
+        {
+          "lang": "en",
+          "toponym": "Planet Earth"
+        },
+        {
+          "lang": "en",
+          "toponym": "The world"
+        },
+        {
+          "lang": "en",
+          "toponym": "Terra Mater"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sol III"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sol d"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sol 3"
+        },
+        {
+          "lang": "en",
+          "toponym": "Earth"
+        }
+      ],
+      "properties": {
+        "title": "Earth"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3504248",
+          "label": "inner planet"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
           "value": "continent on the Earth's northern and southern hemispheres"
         }
       ],

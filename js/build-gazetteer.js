@@ -13,11 +13,13 @@ const GAZETTEERS = {
   countries: 'Countries',
   'english-counties': 'English counties',
   historical: 'Historical places',
-  regions: 'Regions',
+  'italian-regions': 'Italian regions',
+  regions: 'World regions',
+  'spanish-communities': 'Spanish autonomous communities',
   'us-states': 'US states'
 }
 
-const queryTemplate = fs.readFileSync('new-wikidata-query.rq', 'utf8')
+const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
 
 const context = {
   dcterms: 'http://purl.org/dc/terms/',
@@ -148,7 +150,11 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
 
 const getWikidataCountry = code => getWikidataPlace(
   null,
-  ['wd:Q6256'],                 // country
+  [
+    'wd:Q6256',   // country
+    'wd:Q185086', // British crown dependency
+    'wd:Q46395'   // British overseas territory
+  ],
   [['wdt:P297|wdt:P300', code]] // ISO 3166-1 alpha-2 code or ISO 3166-2 code
                                 // (the latter is for UK countries)
 )
@@ -171,7 +177,9 @@ const getWikidataHistoricalPlace = id => getWikidataPlace(
 
 const getWikidataContinent = id => getWikidataPlace(
   id,
-  ['wd:Q5107'] // continent
+  id === 'http://www.wikidata.org/entity/Q2' // Earth
+    ? []
+    : ['wd:Q5107'] // continent
 )
 
 const getWikidataRegion = id => getWikidataPlace(
@@ -187,6 +195,16 @@ const getWikidataEnglishCounty = id => getWikidataPlace(
 const getWikidataCity = id => getWikidataPlace(
   id,
   ['wd:Q486972'] // human settlement
+)
+
+const getWikidataSpanishCommunity = id => getWikidataPlace(
+  id,
+  ['wd:Q10742'] // autonomous community of Spain
+)
+
+const getWikidataItalianRegion = id => getWikidataPlace(
+  id,
+  ['wd:Q16110'] // region of Italy
 )
 
 const makeFeature = (place, gazetteer) => new Promise(
@@ -214,6 +232,12 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'cities':
         promise = getWikidataCity(place.id)
+        break
+      case 'spanish-communities':
+        promise = getWikidataSpanishCommunity(place.id)
+        break
+      case 'italian-regions':
+        promise = getWikidataItalianRegion(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

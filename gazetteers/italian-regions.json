@@ -1,0 +1,734 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Abruzzo.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1284",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Abruzzo region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abruzzo"
+        }
+      ],
+      "properties": {
+        "title": "Abruzzo"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valle%20d%27Aosta.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian mountainous semi-autonomous region in the North-West"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1222",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Val d'Aosta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Valle d'Aosta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aosta Valley"
+        }
+      ],
+      "properties": {
+        "title": "Aosta Valley"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Apulia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1447",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Puglia region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apulia region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Puglia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apulia"
+        }
+      ],
+      "properties": {
+        "title": "Apulia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Basilicata.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1452",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lucania region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basilicata region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basilicata"
+        }
+      ],
+      "properties": {
+        "title": "Basilicata"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Calabria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1458",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Calabria region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Calabria"
+        }
+      ],
+      "properties": {
+        "title": "Calabria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Campania.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Southern Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1438",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Campania"
+        }
+      ],
+      "properties": {
+        "title": "Campania"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Emilia-Romagna.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1263",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Emilia-Romagna"
+        }
+      ],
+      "properties": {
+        "title": "Emilia-Romagna"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Friuli-Venezia%20Giulia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1250",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Friuli-Venezia Giulia region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Friuli-Julian March"
+        },
+        {
+          "lang": "en",
+          "toponym": "Friuli–Venezia Giulia"
+        }
+      ],
+      "properties": {
+        "title": "Friuli–Venezia Giulia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lazio.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1282",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lazio"
+        }
+      ],
+      "properties": {
+        "title": "Lazio"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liguria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1256",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Liguria"
+        }
+      ],
+      "properties": {
+        "title": "Liguria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lombardy.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region in Northern Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1210",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lombardia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lombardy"
+        }
+      ],
+      "properties": {
+        "title": "Lombardy"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Marche.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1279",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Marche"
+        }
+      ],
+      "properties": {
+        "title": "Marche"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Molise.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1443",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Molise region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Molise"
+        }
+      ],
+      "properties": {
+        "title": "Molise"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Piedmont.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in North-West Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1216",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Piedmont"
+        }
+      ],
+      "properties": {
+        "title": "Piedmont"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sardinia%2C%20Italy.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Mediterranean island and an autonomous region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1462",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sardegna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sardinia"
+        }
+      ],
+      "properties": {
+        "title": "Sardinia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sicily%20%28revised%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1460",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sicilia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sicily"
+        }
+      ],
+      "properties": {
+        "title": "Sicily"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trentino-South%20Tyrol.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous region in Northern Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1237",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Trentino-Alto Adige/Südtirol"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trentino-Alto Adige region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trentino-Alto Adige"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Tyrol-Trentino"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trentino-South Tyrol"
+        }
+      ],
+      "properties": {
+        "title": "Trentino-South Tyrol"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tuscany.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in central Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1273",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Toscana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tuscany"
+        }
+      ],
+      "properties": {
+        "title": "Tuscany"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Umbria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1280",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Umbria"
+        }
+      ],
+      "properties": {
+        "title": "Umbria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Veneto.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Italy"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1243",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Veneto"
+        }
+      ],
+      "properties": {
+        "title": "Veneto"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16110",
+          "label": "region of Italy"
+        }
+      ]
+    }
+  ],
+  "title": "Italian regions",
+  "type": "FeatureCollection"
+}

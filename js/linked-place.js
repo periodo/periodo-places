@@ -14,6 +14,10 @@ const n = prefix => t => namedNode(prefix(t))
 
 module.exports = quads => {
 
+  if (quads.length === 0) {
+    throw new Error('zero results')
+  }
+
   const {place, types} = R.reduce(
     ({place, types}, q) => {
       if (q.predicate.id === rdf('type')) {

@@ -202,16 +202,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1187811",
+          "label": "college town"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1187811",
-          "label": "college town"
         }
       ]
     },
@@ -335,12 +335,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q484170",
-          "label": "commune of France"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q484170",
+          "label": "commune of France"
         }
       ]
     },
@@ -496,16 +496,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q2716259",
           "label": "metropolitan municipality in Turkey"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         }
       ]
     },
@@ -968,11 +968,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Roma"
+          "toponym": "The Eternal City"
         },
         {
           "lang": "en",
-          "toponym": "The Eternal City"
+          "toponym": "Roma"
         },
         {
           "lang": "en",
@@ -985,12 +985,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q5119",
           "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
         }
       ]
     },
@@ -1205,16 +1205,16 @@
           "label": "city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q245260",
+          "label": "conurbation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6501447",
           "label": "local government"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q245260",
-          "label": "conurbation"
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
         }
       ]
     },

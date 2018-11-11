@@ -1,4 +1,7 @@
 {
+  "Abkhazia": {
+    "id": "http://www.wikidata.org/entity/Q23334"
+  },
   "Anatolia": {
     "id": "http://www.wikidata.org/entity/Q51614"
   },
@@ -26,6 +29,9 @@
   "Fertile Crescent": {
     "id": "http://www.wikidata.org/entity/Q170526"
   },
+  "Gaza Strip": {
+    "id": "http://www.wikidata.org/entity/Q39760"
+  },
   "Indochina": {
     "id": "http://www.wikidata.org/entity/Q43467"
   },
@@ -35,14 +41,14 @@
   "Judea": {
     "id": "http://www.wikidata.org/entity/Q104028"
   },
+  "Kashmir": {
+    "id": "http://www.wikidata.org/entity/Q43100"
+  },
   "Korean Peninsula": {
     "id": "http://www.wikidata.org/entity/Q483134"
   },
   "Latium": {
     "id": "http://www.wikidata.org/entity/Q1048669"
-  },
-  "Levant": {
-    "id": "http://www.wikidata.org/entity/Q81483"
   },
   "Levant": {
     "id": "http://www.wikidata.org/entity/Q81483"
@@ -97,6 +103,9 @@
   },
   "West Africa": {
     "id": "http://www.wikidata.org/entity/Q4412"
+  },
+  "West Bank": {
+    "id": "http://www.wikidata.org/entity/Q36678"
   },
   "West India": {
     "id": "http://www.wikidata.org/entity/Q1151567"

@@ -11,6 +11,19 @@ const found = (id, gazetteers) => {
   return false
 }
 
+const findDuplicatePlaces = gazetteers => {
+  const ids = {}
+  for (let g of gazetteers) {
+    for (let f of g.features) {
+      if (f.id in ids) {
+        console.log(`Duplicate place in ${g.title}: ${f.id}`)
+      } else {
+        ids[f.id] = true
+      }
+    }
+  }
+}
+
 function main() {
   const mapping = fs.readFileSync(process.argv[2], 'utf8').split('\n')
   const gazetteers = []
@@ -24,6 +37,7 @@ function main() {
       console.log(line)
     }
   }
+  findDuplicatePlaces(gazetteers)
 }
 
 if (process.argv.length < 3) {

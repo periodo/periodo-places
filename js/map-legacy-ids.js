@@ -42,7 +42,7 @@ const fixedMappings = {
   'http://www.wikidata.org/entity/Q836',
 
   'http://dbpedia.org/resource/Messenia':
-  'https://www.wikidata.org/wiki/Q1247159'
+  'http://www.wikidata.org/entity/Q1247159'
 }
 
 async function main() {

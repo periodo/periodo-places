@@ -6240,11 +6240,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Georgia, United States"
+          "toponym": "State of Georgia"
         },
         {
           "lang": "en",
-          "toponym": "State of Georgia"
+          "toponym": "Georgia, United States"
         },
         {
           "lang": "en",
@@ -11559,15 +11559,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Mich."
+        },
+        {
+          "lang": "en",
           "toponym": "State of Michigan"
         },
         {
           "lang": "en",
           "toponym": "Michigan, United States"
-        },
-        {
-          "lang": "en",
-          "toponym": "Mich."
         },
         {
           "lang": "en",
@@ -12367,14 +12367,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "US Samoa"
-        },
-        {
-          "lang": "en",
-          "toponym": "U.S. Samoa"
-        },
-        {
-          "lang": "en",
           "toponym": "Territory of American Samoa"
         },
         {
@@ -12388,6 +12380,14 @@
         {
           "lang": "en",
           "toponym": "🇦🇸"
+        },
+        {
+          "lang": "en",
+          "toponym": "US Samoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "U.S. Samoa"
         },
         {
           "lang": "en",
