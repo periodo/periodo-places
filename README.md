@@ -2,7 +2,7 @@
 
 This repository contains custom placename gazetteers used for indicating the spatial coverage of PeriodO periods. Gazetteers in bold have geometry (boundary polygon) information.
 
-* Continents gazetteer<br>
+* **Continents gazetteer**<br>
   https://data.perio.do/graphs/places/continents.json
 
 * **Countries gazetteer**<br>
@@ -38,7 +38,11 @@ This repository contains custom placename gazetteers used for indicating the spa
 
 ### Continents gazetteer
 
-This gazetteer was created by querying Wikidata for instances of [Q5107 continent](https://www.wikidata.org/wiki/Q5107), then excluding [Q3960 Australia](https://www.wikidata.org/wiki/Q3960) in favor of [Q538 Oceania](https://www.wikidata.org/wiki/Q538). This gazetteer is also where we put [Q2 Earth](https://www.wikidata.org/wiki/Q2), for lack of a better place. This gazetteer currently does not have any geometries.
+This gazetteer was created by:
+
+1. taking continent geometries from the [Natural Earth 1:110m physical vectors for label areas](https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-physical-labels/), merging the geometries for Asia and the Malay Archipelago to get a broader geometry for Asia, and merging the geometries for the scale rank 0 areas in the Oceania region to get a geometry for Oceania,
+
+1. querying Wikidata for instances of [Q5107 continent](https://www.wikidata.org/wiki/Q5107), excluding [Q3960 Australia](https://www.wikidata.org/wiki/Q3960) in favor of [Q538 Oceania](https://www.wikidata.org/wiki/Q538). This gazetteer is also where we put [Q2 Earth](https://www.wikidata.org/wiki/Q2), for lack of a better place. (Earth does not have a geometry.)
 
 
 ### Countries gazetteer
