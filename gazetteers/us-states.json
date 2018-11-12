@@ -6240,11 +6240,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "State of Georgia"
+          "toponym": "Georgia, United States"
         },
         {
           "lang": "en",
-          "toponym": "Georgia, United States"
+          "toponym": "State of Georgia"
         },
         {
           "lang": "en",
@@ -10658,15 +10658,15 @@
         },
         {
           "lang": "en",
+          "toponym": "New York State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of New York"
         },
         {
           "lang": "en",
           "toponym": "New York, United States"
-        },
-        {
-          "lang": "en",
-          "toponym": "New York State"
         },
         {
           "lang": "en",
@@ -10694,7 +10694,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of the United States"
+          "value": "State of the United States"
         }
       ],
       "geometry": {
@@ -10869,23 +10869,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Penna"
-        },
-        {
-          "lang": "en",
-          "toponym": "State of Pennsylvania"
-        },
-        {
-          "lang": "en",
-          "toponym": "Pennsylvania, United States"
-        },
-        {
-          "lang": "en",
-          "toponym": "Keystone State"
-        },
-        {
-          "lang": "en",
           "toponym": "Commonwealth of Pennsylvania"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pennsylvania, United States (State of Pennsylvania) Keystone State (PA) Penna"
         },
         {
           "lang": "en",
@@ -11559,15 +11547,15 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Mich."
-        },
-        {
-          "lang": "en",
           "toponym": "State of Michigan"
         },
         {
           "lang": "en",
           "toponym": "Michigan, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mich."
         },
         {
           "lang": "en",
@@ -12486,11 +12474,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "🇬🇺"
+          "toponym": "Territory of Guam"
         },
         {
           "lang": "en",
-          "toponym": "Territory of Guam"
+          "toponym": "🇬🇺"
         },
         {
           "lang": "en",
@@ -12504,6 +12492,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
           "label": "insular area"
         },
@@ -12514,10 +12506,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q23442",
           "label": "island"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
         }
       ]
     },

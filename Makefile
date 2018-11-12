@@ -9,48 +9,69 @@ GAZETTEERS := \
 	gazetteers/spanish-communities.json \
 	gazetteers/us-states.json
 
-ne_110m_%.zip:
-	curl -s -L http://www.naturalearthdata.com/\
-	http//www.naturalearthdata.com/download/110m/cultural/$@ > $@
+NM := ./node_modules/.bin/
 
-ne_50m_%.zip:
-	curl -s -L http://www.naturalearthdata.com/\
-	http//www.naturalearthdata.com/download/50m/cultural/$@ > $@
+ne:
+	mkdir ne
 
-ne_10m_%.zip:
-	curl -s -L http://www.naturalearthdata.com/\
-	http//www.naturalearthdata.com/download/10m/cultural/$@ > $@
+ne/%.zip: ne
+	curl -s -L  $(shell node js/natural-earth-url.js $@) > $@
 
-%.shp: %.zip
-	unzip -q $< $@
+ne/%.shp: ne/%.zip
+	unzip -q -d ne $< $*.shp
 
-%.shx: %.zip
-	unzip -q $< $@
+ne/%.shx: ne/%.zip
+	unzip -q -d ne $< $*.shx
 
-%.dbf: %.zip
-	unzip -q $< $@
+ne/%.dbf: ne/%.zip
+	unzip -q -d ne $< $*.dbf
 
-%.prj: %.zip
-	unzip -q $< $@
+ne/%.prj: ne/%.zip
+	unzip -q -d ne $< $*.prj
 
-%.json: %.shp %.shx %.dbf %.prj
+ne/%.json: ne/%.shp ne/%.shx ne/%.dbf ne/%.prj
 	ogr2ogr -f GeoJSON \
 	-t_srs EPSG:4326 \
 	-lco COORDINATE_PRECISION=6 \
 	$@ $<
 
+geometries/continents-except-asia-and-oceania.json: \
+	ne/ne_110m_geography_regions_polys.json
+	jq -f jq/continents.jq $< > $@
+
+geometries/continents-oceania.json: \
+	ne/ne_110m_geography_regions_polys.json
+	jq -f jq/oceania.jq $< \
+	| $(NM)geojson-clipping union \
+	| jq '{Oceania: {geometry}}' \
+	> $@
+
+geometries/continents-asia.json: \
+	ne/ne_110m_geography_regions_polys.json
+	jq -f jq/asia.jq $< \
+	| $(NM)geojson-clipping union \
+	| jq '{Asia: {geometry}}' \
+	> $@
+
+geometries/continents.json: \
+	geometries/continents-ids.json \
+	geometries/continents-asia.json \
+	geometries/continents-oceania.json \
+	geometries/continents-except-asia-and-oceania.json
+	jq -s '.[0] * .[1] * .[2] * .[3]' $^ > $@
+
 # prioritize lower-res over higher-res: 110m > 50m > 10m
 # at each resolution, prioritize map_units over countries
 geometries/admin-0.json: \
-	ne_10m_admin_0_countries.json \
-	ne_10m_admin_0_map_units.json \
-	ne_50m_admin_0_countries.json \
-	ne_50m_admin_0_map_units.json \
-	ne_110m_admin_0_countries.json \
-	ne_110m_admin_0_map_units.json
+	ne/ne_10m_admin_0_countries.json \
+	ne/ne_10m_admin_0_map_units.json \
+	ne/ne_50m_admin_0_countries.json \
+	ne/ne_50m_admin_0_map_units.json \
+	ne/ne_110m_admin_0_countries.json \
+	ne/ne_110m_admin_0_map_units.json
 	jq -s -f jq/admin-0.jq $^ > $@
 
-geometries/admin-1.json: ne_110m_admin_1_states_provinces.json
+geometries/admin-1.json: ne/ne_110m_admin_1_states_provinces.json
 	jq -f jq/admin-1.jq $< > $@
 
 geometries/countries.json: geometries/admin-0.json
@@ -87,7 +108,23 @@ check: place-id-mappings.txt $(GAZETTEERS)
 	node js/check-mapping.js $^
 
 clean:
-	rm -f *.zip *.shp *.shx *.dbf *.prj ne_*.json \
-	geometries/countries.json geometries/us-states.json \
+	rm -f *.shp *.shx *.dbf *.prj \
+	geometries/admin-0.json \
+	geometries/admin-1.json \
+	geometries/continents-asia.json \
+	geometries/continents-except-asia-and-oceania.json \
+	geometries/continents-oceania.json \
+	geometries/continents.json \
+	geometries/countries.json \
+	geometries/us-states.json \
+	geometries/us-territories.json \
 	gazetteers/*.json periodo-dataset.json \
 	legacy-place-ids.txt place-id-mappings.txt
+
+superclean: clean
+	rm -rf ne
+
+europe:
+	jq -f jq/europe.jq geometries/countries.json \
+	| ./node_modules/.bin/geojson-clipping union \
+	| ./node_modules/.bin/geojsonio

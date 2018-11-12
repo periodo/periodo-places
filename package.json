@@ -8,15 +8,16 @@
   },
   "author": "Ryan Shaw <ryanshaw@unc.edu>",
   "dependencies": {
+    "geojson-clipping": "^0.3.0",
     "json-stable-stringify": "^1.0.1",
     "jsonld": "^1.1.0",
-    "n3": "^1.0.0-beta.2",
+    "n3": "^1.0.1",
     "ramda": "^0.25.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "sleep": "^5.2.3"
   },
   "devDependencies": {
-    "eslint": "^5.7.0"
+    "eslint": "^5.9.0"
   }
 }

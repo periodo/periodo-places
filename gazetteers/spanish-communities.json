@@ -266,19 +266,19 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Islas Canarias"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇨"
-        },
-        {
-          "lang": "en",
           "toponym": "Canary"
         },
         {
           "lang": "en",
           "toponym": "Canaries"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islas Canarias"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇮🇨"
         },
         {
           "lang": "en",
@@ -629,16 +629,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3297051",
-          "label": "chartered community"
+          "identifier": "http://www.wikidata.org/entity/Q162620",
+          "label": "province of Spain"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
+          "identifier": "http://www.wikidata.org/entity/Q3297051",
+          "label": "chartered community"
         }
       ]
     },
@@ -728,7 +728,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Valencian Countru"
+          "toponym": "València"
         },
         {
           "lang": "en",
@@ -736,7 +736,7 @@
         },
         {
           "lang": "en",
-          "toponym": "València"
+          "toponym": "Valencian Countru"
         },
         {
           "lang": "en",

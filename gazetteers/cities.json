@@ -202,16 +202,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1187811",
-          "label": "college town"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1187811",
+          "label": "college town"
         }
       ]
     },
@@ -265,7 +265,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "City of Broad Shoulders"
+          "toponym": "Chi-Town"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chicago, Illinois"
         },
         {
           "lang": "en",
@@ -293,11 +297,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Chicago, Illinois"
-        },
-        {
-          "lang": "en",
-          "toponym": "Chi-Town"
+          "toponym": "City of Broad Shoulders"
         },
         {
           "lang": "en",
@@ -431,6 +431,30 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2264924",
+          "label": "port city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q707813",
+          "label": "Hanseatic city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q57318",
+          "label": "Free imperial city"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1221156",
           "label": "state of Germany"
         },
@@ -445,30 +469,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q15974307",
           "label": "Einheitsgemeinde of Germany"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q133442",
-          "label": "city-state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1200957",
-          "label": "tourist destination"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q707813",
-          "label": "Hanseatic city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q57318",
-          "label": "Free imperial city"
         }
       ]
     },
@@ -496,16 +496,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q2716259",
           "label": "metropolitan municipality in Turkey"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
         }
       ]
     },
@@ -555,15 +555,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Liege"
+        },
+        {
+          "lang": "en",
           "toponym": "Lüttich"
         },
         {
           "lang": "en",
           "toponym": "Luik"
-        },
-        {
-          "lang": "en",
-          "toponym": "Liege"
         },
         {
           "lang": "en",
@@ -626,6 +626,14 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q200250",
+          "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "city with millions of inhabitants"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         },
@@ -636,14 +644,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q5119",
           "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q200250",
-          "label": "metropolis"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "city with millions of inhabitants"
         }
       ]
     },
@@ -713,7 +713,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Milan, Italy"
+          "toponym": "Milano, Italia"
         },
         {
           "lang": "en",
@@ -721,7 +721,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Milano, Italia"
+          "toponym": "Milan, Italy"
         },
         {
           "lang": "en",
@@ -734,12 +734,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },
@@ -851,12 +851,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },

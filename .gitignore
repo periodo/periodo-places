@@ -1,8 +1,12 @@
 .DS_Store
 geometries/admin-0.json
 geometries/admin-1.json
+geometries/continents.json
+geometries/continents-asia.json
+geometries/continents-oceania.json
+geometries/continents-except-asia-and-oceania.json
 geometries/countries.json
 geometries/us-states.json
 geometries/us-territories.json
-ne_*.json
+ne/
 node_modules/
