@@ -81,44 +81,6 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valle%20d%27Aosta.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Italian mountainous semi-autonomous region in the North-West"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q1222",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Val d'Aosta"
-        },
-        {
-          "lang": "en",
-          "toponym": "Valle d'Aosta"
-        },
-        {
-          "lang": "en",
-          "toponym": "Aosta Valley"
-        }
-      ],
-      "properties": {
-        "title": "Aosta Valley"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1710033",
-          "label": "autonomous region with special statute"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Apulia.svg"
         }
       ],
@@ -132,19 +94,19 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Puglia region"
-        },
-        {
-          "lang": "en",
           "toponym": "Apulia region"
         },
         {
           "lang": "en",
-          "toponym": "Puglia"
+          "toponym": "Apulia"
         },
         {
           "lang": "en",
-          "toponym": "Apulia"
+          "toponym": "Puglia region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Puglia"
         }
       ],
       "properties": {
@@ -174,15 +136,15 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Lucania region"
-        },
-        {
-          "lang": "en",
           "toponym": "Basilicata region"
         },
         {
           "lang": "en",
           "toponym": "Basilicata"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lucania region"
         }
       ],
       "properties": {
@@ -310,11 +272,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Friuli-Venezia Giulia region"
+          "toponym": "Friuli-Julian March"
         },
         {
           "lang": "en",
-          "toponym": "Friuli-Julian March"
+          "toponym": "Friuli-Venezia Giulia region"
         },
         {
           "lang": "en",
@@ -604,7 +566,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Trentino-Alto Adige/Südtirol"
+          "toponym": "South Tyrol-Trentino"
         },
         {
           "lang": "en",
@@ -616,7 +578,7 @@
         },
         {
           "lang": "en",
-          "toponym": "South Tyrol-Trentino"
+          "toponym": "Trentino-Alto Adige/Südtirol"
         },
         {
           "lang": "en",
@@ -695,6 +657,44 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q16110",
           "label": "region of Italy"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valle%20d%27Aosta.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian mountainous semi-autonomous region in the North-West"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1222",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aosta Valley"
+        },
+        {
+          "lang": "en",
+          "toponym": "Val d'Aosta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Valle d'Aosta"
+        }
+      ],
+      "properties": {
+        "title": "Aosta Valley"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
         }
       ]
     },

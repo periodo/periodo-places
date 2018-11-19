@@ -3,7 +3,7 @@ const fs = require('fs')
     , n3 = require('n3')
     , jsonld = require('jsonld')
     , R = require('ramda')
-    , stringify = require('json-stable-stringify')
+    , stringify = require('jsonld-stable-stringify')
     , { sleep } = require('sleep')
     , linkedPlace = require('./linked-place')
 

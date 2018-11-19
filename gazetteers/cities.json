@@ -45,27 +45,56 @@
   },
   "features": [
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Tarragona.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Italian comune"
+          "value": "city in Catalonia, Spain"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q13378",
+      "id": "http://www.wikidata.org/entity/Q15088",
       "names": [
         {
           "lang": "en",
-          "toponym": "Arezzo"
+          "toponym": "Tarqon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tarraco"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tarragona Spain"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tarragona"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tarragona, Spain"
+        },
+        {
+          "lang": "en",
+          "toponym": "טַרְקוֹן"
         }
       ],
       "properties": {
-        "title": "Arezzo"
+        "title": "Tarragona"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
+          "identifier": "http://www.wikidata.org/entity/Q33146843",
+          "label": "municipality of Catalonia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },
@@ -94,12 +123,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q51929311",
-          "label": "largest city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q50330360",
-          "label": "second largest city"
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q2264924",
@@ -110,8 +135,12 @@
           "label": "municipality of Catalonia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1200957",
-          "label": "tourist destination"
+          "identifier": "http://www.wikidata.org/entity/Q50330360",
+          "label": "second largest city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ]
     },
@@ -131,11 +160,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Berlin, Germany"
+          "toponym": "Berlin"
         },
         {
           "lang": "en",
-          "toponym": "Berlin"
+          "toponym": "Berlin, Germany"
         }
       ],
       "properties": {
@@ -148,6 +177,18 @@
           "label": "state of Germany"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15974307",
+          "label": "Einheitsgemeinde of Germany"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1901835",
+          "label": "seat of government"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q200250",
           "label": "metropolis"
         },
@@ -156,20 +197,8 @@
           "label": "federal capital"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q15974307",
-          "label": "Einheitsgemeinde of Germany"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1901835",
-          "label": "seat of government"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q707813",
@@ -202,16 +231,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
+          "identifier": "http://www.wikidata.org/entity/Q1187811",
+          "label": "college town"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1187811",
-          "label": "college town"
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
         }
       ]
     },
@@ -231,11 +260,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Charleston, South Carolina"
+          "toponym": "Charleston"
         },
         {
           "lang": "en",
-          "toponym": "Charleston"
+          "toponym": "Charleston, South Carolina"
         }
       ],
       "properties": {
@@ -269,27 +298,11 @@
         },
         {
           "lang": "en",
+          "toponym": "Chicago"
+        },
+        {
+          "lang": "en",
           "toponym": "Chicago, Illinois"
-        },
-        {
-          "lang": "en",
-          "toponym": "The Windy City"
-        },
-        {
-          "lang": "en",
-          "toponym": "The Second City"
-        },
-        {
-          "lang": "en",
-          "toponym": "The Queen of the West"
-        },
-        {
-          "lang": "en",
-          "toponym": "City of Chicago"
-        },
-        {
-          "lang": "en",
-          "toponym": "City by the Lake"
         },
         {
           "lang": "en",
@@ -297,11 +310,27 @@
         },
         {
           "lang": "en",
+          "toponym": "City by the Lake"
+        },
+        {
+          "lang": "en",
           "toponym": "City of Broad Shoulders"
         },
         {
           "lang": "en",
-          "toponym": "Chicago"
+          "toponym": "City of Chicago"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Queen of the West"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Second City"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Windy City"
         }
       ],
       "properties": {
@@ -312,89 +341,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1093829",
           "label": "city of the United States"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "commune in Puy-de-Dôme, France"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q42168",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Clermont-Ferrand"
-        }
-      ],
-      "properties": {
-        "title": "Clermont-Ferrand"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q484170",
-          "label": "commune of France"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "biggest city in East Friesland, Lower Saxony, Germany"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q4174",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Emden"
-        }
-      ],
-      "properties": {
-        "title": "Emden"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q22865",
-          "label": "independent city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port city"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Italian comune"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q6697",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Empoli"
-        }
-      ],
-      "properties": {
-        "title": "Empoli"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
         }
       ]
     },
@@ -414,15 +360,15 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Hamburg, Germany"
-        },
-        {
-          "lang": "en",
           "toponym": "Free and Hanseatic City of Hamburg"
         },
         {
           "lang": "en",
           "toponym": "Hamburg"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hamburg, Germany"
         }
       ],
       "properties": {
@@ -431,81 +377,44 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q133442",
-          "label": "city-state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1200957",
           "label": "tourist destination"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q707813",
-          "label": "Hanseatic city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q57318",
-          "label": "Free imperial city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1221156",
           "label": "state of Germany"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15974307",
+          "label": "Einheitsgemeinde of Germany"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q200250",
           "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2264924",
+          "label": "port city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q42744322",
           "label": "urban municipality of Germany"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q15974307",
-          "label": "Einheitsgemeinde of Germany"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "largest city in Turkey"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q406",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Constantinopole"
+          "identifier": "http://www.wikidata.org/entity/Q57318",
+          "label": "Free imperial city"
         },
         {
-          "lang": "en",
-          "toponym": "Istanbul"
-        }
-      ],
-      "properties": {
-        "title": "Istanbul"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2716259",
-          "label": "metropolitan municipality in Turkey"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
+          "identifier": "http://www.wikidata.org/entity/Q707813",
+          "label": "Hanseatic city"
         }
       ]
     },
@@ -542,114 +451,6 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/LuikVlag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "city in Liège, Belgium"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q3992",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Liege"
-        },
-        {
-          "lang": "en",
-          "toponym": "Lüttich"
-        },
-        {
-          "lang": "en",
-          "toponym": "Luik"
-        },
-        {
-          "lang": "en",
-          "toponym": "Liège"
-        }
-      ],
-      "properties": {
-        "title": "Liège"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q493522",
-          "label": "municipality of Belgium"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15273785",
-          "label": "Belgian municipality with city privileges"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20City%20of%20London.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "capital and largest city of the United Kingdom"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q84",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "London, United Kingdom"
-        },
-        {
-          "lang": "en",
-          "toponym": "London, UK"
-        },
-        {
-          "lang": "en",
-          "toponym": "London, England"
-        },
-        {
-          "lang": "en",
-          "toponym": "London"
-        }
-      ],
-      "properties": {
-        "title": "London"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q200250",
-          "label": "metropolis"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "city with millions of inhabitants"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1066984",
-          "label": "financial centre"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexican%20Federal%20District.svg"
         }
       ],
@@ -663,7 +464,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Mexico D.F."
+          "toponym": "City of Mexico"
         },
         {
           "lang": "en",
@@ -671,11 +472,11 @@
         },
         {
           "lang": "en",
-          "toponym": "City of Mexico"
+          "toponym": "Mexico City"
         },
         {
           "lang": "en",
-          "toponym": "Mexico City"
+          "toponym": "Mexico D.F."
         }
       ],
       "properties": {
@@ -709,15 +510,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Milano, Italy"
-        },
-        {
-          "lang": "en",
-          "toponym": "Milano, Italia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Milano"
+          "toponym": "Milan"
         },
         {
           "lang": "en",
@@ -725,7 +518,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Milan"
+          "toponym": "Milano"
+        },
+        {
+          "lang": "en",
+          "toponym": "Milano, Italia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Milano, Italy"
         }
       ],
       "properties": {
@@ -734,12 +535,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
         }
       ]
     },
@@ -759,15 +560,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Naples"
+        },
+        {
+          "lang": "en",
           "toponym": "Napoli"
         },
         {
           "lang": "en",
           "toponym": "Neapolis"
-        },
-        {
-          "lang": "en",
-          "toponym": "Naples"
         }
       ],
       "properties": {
@@ -776,49 +577,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "former town in Shizuoka prefecture, Japan"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q7079823",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ogasa, Shizuoka"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ogasa"
-        }
-      ],
-      "properties": {
-        "title": "Ogasa"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q18663566",
-          "label": "dissolved municipality of Japan"
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
         }
       ]
     },
@@ -838,11 +610,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Palermo, Italy"
+          "toponym": "Palermo"
         },
         {
           "lang": "en",
-          "toponym": "Palermo"
+          "toponym": "Palermo, Italy"
         }
       ],
       "properties": {
@@ -851,12 +623,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "comune of Italy"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
         }
       ]
     },
@@ -876,7 +648,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Philadelphia, Pennsylvania"
+          "toponym": "City of Brotherly Love"
         },
         {
           "lang": "en",
@@ -884,15 +656,15 @@
         },
         {
           "lang": "en",
-          "toponym": "City of Brotherly Love"
+          "toponym": "Philadelphia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Philadelphia, Pennsylvania"
         },
         {
           "lang": "en",
           "toponym": "Philly"
-        },
-        {
-          "lang": "en",
-          "toponym": "Philadelphia"
         }
       ],
       "properties": {
@@ -903,52 +675,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q21010817",
           "label": "city of Pennsylvania"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/ROU%20PH%20Ploiesti%20Flag.png"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "city in Prahova County, Romania"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q179585",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ploieşti"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ploiesti"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ploesti"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ploiești"
-        }
-      ],
-      "properties": {
-        "title": "Ploiești"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q34843301",
-          "label": "capital of  județ in Romania"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q640364",
-          "label": "municipiu of Romania"
         }
       ]
     },
@@ -968,15 +694,15 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "The Eternal City"
-        },
-        {
-          "lang": "en",
           "toponym": "Roma"
         },
         {
           "lang": "en",
           "toponym": "Rome"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Eternal City"
         }
       ],
       "properties": {
@@ -991,31 +717,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "commune in Loire-Atlantique, France"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q152027",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Saint-Nazaire"
-        }
-      ],
-      "properties": {
-        "title": "Saint-Nazaire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q484170",
-          "label": "commune of France"
         }
       ]
     },
@@ -1052,54 +753,344 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Tarragona.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Prefecture.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "city in Catalonia, Spain"
+          "value": "capital of Japan and one of 47 prefectures of Japan"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q15088",
+      "id": "http://www.wikidata.org/entity/Q1490",
       "names": [
         {
           "lang": "en",
-          "toponym": "Tarraco"
+          "toponym": "Tokio"
         },
         {
           "lang": "en",
-          "toponym": "טַרְקוֹן"
+          "toponym": "Tokyo Metropolis"
         },
         {
           "lang": "en",
-          "toponym": "Tarragona, Spain"
+          "toponym": "Tokyo Metropolitan prefecture"
         },
         {
           "lang": "en",
-          "toponym": "Tarragona Spain"
+          "toponym": "Tokyo Prefecture"
         },
         {
           "lang": "en",
-          "toponym": "Tarqon"
+          "toponym": "Tokyo"
         },
         {
           "lang": "en",
-          "toponym": "Tarragona"
+          "toponym": "Tokyo-to"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tôkyô"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tôkyô-to"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tōkyō"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tōkyō-to"
         }
       ],
       "properties": {
-        "title": "Tarragona"
+        "title": "Tokyo"
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q245260",
+          "label": "conurbation"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q50337",
+          "label": "prefecture of Japan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q33146843",
-          "label": "municipality of Catalonia"
+          "identifier": "http://www.wikidata.org/entity/Q6501447",
+          "label": "local government"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20City%20of%20London.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital and largest city of the United Kingdom"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q84",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "London"
+        },
+        {
+          "lang": "en",
+          "toponym": "London, England"
+        },
+        {
+          "lang": "en",
+          "toponym": "London, UK"
+        },
+        {
+          "lang": "en",
+          "toponym": "London, United Kingdom"
+        }
+      ],
+      "properties": {
+        "title": "London"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1066984",
+          "label": "financial centre"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "city with millions of inhabitants"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q200250",
+          "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/LuikVlag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Liège, Belgium"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q3992",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Liege"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liège"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luik"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lüttich"
+        }
+      ],
+      "properties": {
+        "title": "Liège"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15273785",
+          "label": "Belgian municipality with city privileges"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q493522",
+          "label": "municipality of Belgium"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/ROU%20PH%20Ploiesti%20Flag.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Prahova County, Romania"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q179585",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ploesti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ploiesti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ploieşti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ploiești"
+        }
+      ],
+      "properties": {
+        "title": "Ploiești"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34843301",
+          "label": "capital of  județ in Romania"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q640364",
+          "label": "municipiu of Romania"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian comune"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q13378",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Arezzo"
+        }
+      ],
+      "properties": {
+        "title": "Arezzo"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian comune"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q6697",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Empoli"
+        }
+      ],
+      "properties": {
+        "title": "Empoli"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q747074",
+          "label": "comune of Italy"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "biggest city in East Friesland, Lower Saxony, Germany"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q4174",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Emden"
+        }
+      ],
+      "properties": {
+        "title": "Emden"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2264924",
+          "label": "port city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q22865",
+          "label": "independent city"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Lower Saxony, Germany"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q3857",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wilhelmshaven"
+        }
+      ],
+      "properties": {
+        "title": "Wilhelmshaven"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q22865",
+          "label": "independent city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q253030",
+          "label": "major regional center"
         }
       ]
     },
@@ -1137,84 +1128,27 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Prefecture.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital of Japan and one of 47 prefectures of Japan"
+          "value": "commune in Loire-Atlantique, France"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q1490",
+      "id": "http://www.wikidata.org/entity/Q152027",
       "names": [
         {
           "lang": "en",
-          "toponym": "Tōkyō-to"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tôkyô-to"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokyo-to"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokyo Prefecture"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokyo Metropolitan prefecture"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokyo Metropolis"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tōkyō"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tôkyô"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokio"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tokyo"
+          "toponym": "Saint-Nazaire"
         }
       ],
       "properties": {
-        "title": "Tokyo"
+        "title": "Saint-Nazaire"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q50337",
-          "label": "prefecture of Japan"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q245260",
-          "label": "conurbation"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6501447",
-          "label": "local government"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q484170",
+          "label": "commune of France"
         }
       ]
     },
@@ -1222,28 +1156,118 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city in Lower Saxony, Germany"
+          "value": "commune in Puy-de-Dôme, France"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q3857",
+      "id": "http://www.wikidata.org/entity/Q42168",
       "names": [
         {
           "lang": "en",
-          "toponym": "Wilhelmshaven"
+          "toponym": "Clermont-Ferrand"
         }
       ],
       "properties": {
-        "title": "Wilhelmshaven"
+        "title": "Clermont-Ferrand"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22865",
-          "label": "independent city"
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q253030",
-          "label": "major regional center"
+          "identifier": "http://www.wikidata.org/entity/Q484170",
+          "label": "commune of France"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former town in Shizuoka prefecture, Japan"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q7079823",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ogasa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ogasa, Shizuoka"
+        }
+      ],
+      "properties": {
+        "title": "Ogasa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q18663566",
+          "label": "dissolved municipality of Japan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "largest city in Turkey"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q406",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Constantinopole"
+        },
+        {
+          "lang": "en",
+          "toponym": "Istanbul"
+        }
+      ],
+      "properties": {
+        "title": "Istanbul"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "city with millions of inhabitants"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q174844",
+          "label": "megacity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2264924",
+          "label": "port city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2716259",
+          "label": "metropolitan municipality in Turkey"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q27554677",
+          "label": "former capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ]
     }

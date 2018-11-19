@@ -47,6 +47,56 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Navarra.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Autonomous community in Spain"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q4018",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chartered Community of Navarre"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nafarroa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Navarra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Navarre"
+        }
+      ],
+      "properties": {
+        "title": "Navarre"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q162620",
+          "label": "province of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3297051",
+          "label": "chartered community"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andaluc%C3%ADa.svg"
         }
       ],
@@ -60,11 +110,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Andalucía"
+          "toponym": "Andalucia"
         },
         {
           "lang": "en",
-          "toponym": "Andalucia"
+          "toponym": "Andalucía"
         },
         {
           "lang": "en",
@@ -107,12 +157,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
         }
       ]
     },
@@ -132,11 +182,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Principáu d'Asturies"
-        },
-        {
-          "lang": "en",
-          "toponym": "Principality of Asturias"
+          "toponym": "Asturias"
         },
         {
           "lang": "en",
@@ -144,149 +190,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Asturias"
+          "toponym": "Principality of Asturias"
+        },
+        {
+          "lang": "en",
+          "toponym": "Principáu d'Asturies"
         }
       ],
       "properties": {
         "title": "Asturias"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Balearic%20Islands.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Spanish archipelago in the Mediterranean Sea"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q5765",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Islas baleares"
-        },
-        {
-          "lang": "en",
-          "toponym": "Balearic Islands"
-        }
-      ],
-      "properties": {
-        "title": "Balearic Islands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Basque%20Country.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "autonomous region of northern Spain"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q3995",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Vascongadas"
-        },
-        {
-          "lang": "en",
-          "toponym": "País Vasco"
-        },
-        {
-          "lang": "en",
-          "toponym": "Pais Vasco"
-        },
-        {
-          "lang": "en",
-          "toponym": "Euskal Autonomia Erkidegoa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Euskadi"
-        },
-        {
-          "lang": "en",
-          "toponym": "Autonomous Community of the Basque Country"
-        },
-        {
-          "lang": "en",
-          "toponym": "Basque Country"
-        }
-      ],
-      "properties": {
-        "title": "Basque Country"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands%20%28simple%29.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Spanish archipelago in the North Atlantic Ocean"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q5813",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Canary"
-        },
-        {
-          "lang": "en",
-          "toponym": "Canaries"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islas Canarias"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇨"
-        },
-        {
-          "lang": "en",
-          "toponym": "Canary Islands"
-        }
-      ],
-      "properties": {
-        "title": "Canary Islands"
       },
       "type": "Feature",
       "types": [
@@ -342,7 +254,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Castilla y León"
+          "toponym": "Castile and Leon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Castile and León"
         },
         {
           "lang": "en",
@@ -350,11 +266,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Castile and Leon"
-        },
-        {
-          "lang": "en",
-          "toponym": "Castile and León"
+          "toponym": "Castilla y León"
         }
       ],
       "properties": {
@@ -384,7 +296,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Castilla-La Mancha"
+          "toponym": "Castile-La Mancha"
         },
         {
           "lang": "en",
@@ -392,7 +304,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Castile-La Mancha"
+          "toponym": "Castilla-La Mancha"
         }
       ],
       "properties": {
@@ -422,65 +334,23 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Catalunya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Cataluña"
-        },
-        {
-          "lang": "en",
           "toponym": "Catalonha"
         },
         {
           "lang": "en",
           "toponym": "Catalonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Catalunya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cataluña"
         }
       ],
       "properties": {
         "title": "Catalonia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Community%20of%20Madrid.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "autonomous community of Spain"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q5756",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Madrid province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Madrid autonomous community"
-        },
-        {
-          "lang": "en",
-          "toponym": "Comunidad de Madrid"
-        },
-        {
-          "lang": "en",
-          "toponym": "Community of Madrid"
-        }
-      ],
-      "properties": {
-        "title": "Community of Madrid"
       },
       "type": "Feature",
       "types": [
@@ -536,11 +406,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Galiza"
+          "toponym": "Galicia"
         },
         {
           "lang": "en",
-          "toponym": "Galicia"
+          "toponym": "Galiza"
         }
       ],
       "properties": {
@@ -549,12 +419,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
         }
       ]
     },
@@ -583,9 +453,43 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q162620",
           "label": "province of Spain"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Balearic%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Spanish archipelago in the Mediterranean Sea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q5765",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balearic Islands"
         },
+        {
+          "lang": "en",
+          "toponym": "Islas baleares"
+        }
+      ],
+      "properties": {
+        "title": "Balearic Islands"
+      },
+      "type": "Feature",
+      "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
@@ -595,50 +499,146 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Navarra.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Basque%20Country.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community in Spain"
+          "value": "autonomous region of northern Spain"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q4018",
+      "id": "http://www.wikidata.org/entity/Q3995",
       "names": [
         {
           "lang": "en",
-          "toponym": "Chartered Community of Navarre"
+          "toponym": "Autonomous Community of the Basque Country"
         },
         {
           "lang": "en",
-          "toponym": "Nafarroa"
+          "toponym": "Basque Country"
         },
         {
           "lang": "en",
-          "toponym": "Navarra"
+          "toponym": "Euskadi"
         },
         {
           "lang": "en",
-          "toponym": "Navarre"
+          "toponym": "Euskal Autonomia Erkidegoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pais Vasco"
+        },
+        {
+          "lang": "en",
+          "toponym": "País Vasco"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vascongadas"
         }
       ],
       "properties": {
-        "title": "Navarre"
+        "title": "Basque Country"
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3297051",
-          "label": "chartered community"
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands%20%28simple%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Spanish archipelago in the North Atlantic Ocean"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q5813",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Canaries"
+        },
+        {
+          "lang": "en",
+          "toponym": "Canary Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Canary"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islas Canarias"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇮🇨"
+        }
+      ],
+      "properties": {
+        "title": "Canary Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Community%20of%20Madrid.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous community of Spain"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q5756",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Community of Madrid"
+        },
+        {
+          "lang": "en",
+          "toponym": "Comunidad de Madrid"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madrid autonomous community"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madrid province"
+        }
+      ],
+      "properties": {
+        "title": "Community of Madrid"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
         }
       ]
     },
@@ -658,31 +658,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Región de Murcia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Region de Murcia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Provincia de Murcia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Murcia region"
-        },
-        {
-          "lang": "en",
-          "toponym": "Murcia province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Comunidad Autónoma de la Región de Murcia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Comunidad Autonoma de la Region de Murcia"
+          "toponym": "Autonomous Community of the Region of Murcia"
         },
         {
           "lang": "en",
@@ -690,11 +666,35 @@
         },
         {
           "lang": "en",
-          "toponym": "Autonomous Community of the Region of Murcia"
+          "toponym": "Comunidad Autonoma de la Region de Murcia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Comunidad Autónoma de la Región de Murcia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Murcia province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Murcia region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Provincia de Murcia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region de Murcia"
         },
         {
           "lang": "en",
           "toponym": "Region of Murcia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Región de Murcia"
         }
       ],
       "properties": {
@@ -703,12 +703,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q162620",
+          "label": "province of Spain"
         }
       ]
     },
@@ -728,19 +728,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "València"
-        },
-        {
-          "lang": "en",
-          "toponym": "Valencian Country"
-        },
-        {
-          "lang": "en",
-          "toponym": "Valencian Countru"
-        },
-        {
-          "lang": "en",
-          "toponym": "País Valencià"
+          "toponym": "Comunitat Valenciana"
         },
         {
           "lang": "en",
@@ -748,11 +736,23 @@
         },
         {
           "lang": "en",
-          "toponym": "Comunitat Valenciana"
+          "toponym": "País Valencià"
         },
         {
           "lang": "en",
           "toponym": "Valencian Community"
+        },
+        {
+          "lang": "en",
+          "toponym": "Valencian Countru"
+        },
+        {
+          "lang": "en",
+          "toponym": "Valencian Country"
+        },
+        {
+          "lang": "en",
+          "toponym": "València"
         }
       ],
       "properties": {
@@ -761,12 +761,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
         }
       ]
     }
