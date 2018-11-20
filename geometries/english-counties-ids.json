@@ -56,12 +56,6 @@
       "Bristol"
     ]
   },
-  "City of London": {
-    "id": "http://www.wikidata.org/entity/Q23311",
-    "covers": [
-      "City of London"
-    ]
-  },
   "Cornwall": {
     "id": "http://www.wikidata.org/entity/Q23148",
     "covers": [
@@ -134,6 +128,44 @@
     "covers": [
       "Gloucestershire",
       "South Gloucestershire"
+    ]
+  },
+  "Greater London": {
+    "id": "http://www.wikidata.org/entity/Q23306",
+    "covers": [
+      "Barking and Dagenham",
+      "Barnet",
+      "Bexley",
+      "Brent",
+      "Bromley",
+      "Camden",
+      "City of London",
+      "Croydon",
+      "Ealing",
+      "Enfield",
+      "Greenwich",
+      "Hackney",
+      "Hammersmith and Fulham",
+      "Haringey",
+      "Harrow",
+      "Havering",
+      "Hillingdon",
+      "Hounslow",
+      "Islington",
+      "Kensington and Chelsea",
+      "Kingston upon Thames",
+      "Lambeth",
+      "Lewisham",
+      "Merton",
+      "Newham",
+      "Redbridge",
+      "Richmond upon Thames",
+      "Southwark",
+      "Sutton",
+      "Tower Hamlets",
+      "Waltham Forest",
+      "Wandsworth",
+      "Westminster"
     ]
   },
   "Greater Manchester": {

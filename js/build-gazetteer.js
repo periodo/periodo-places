@@ -64,6 +64,10 @@ const context = {
   depictions: {
     '@id': 'foaf:depiction',
     '@container': '@set'
+  },
+  coordinates: {
+    '@id': 'geojson:coordinates',
+    '@container': '@list'
   }
 }
 

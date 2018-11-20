@@ -9,7 +9,7 @@
   "author": "Ryan Shaw <ryanshaw@unc.edu>",
   "dependencies": {
     "geojson-clipping": "^0.3.0",
-    "jsonld-stable-stringify": "^1.0.1",
+    "jsonld-stable-stringify": "^1.1.1",
     "jsonld": "^1.1.0",
     "n3": "^1.0.1",
     "ramda": "^0.25.0",

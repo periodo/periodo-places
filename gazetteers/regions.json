@@ -6,6 +6,10 @@
     "MultiPolygon": "geojson:MultiPolygon",
     "Polygon": "geojson:Polygon",
     "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
     "dcterms": "http://purl.org/dc/terms/",
     "depictions": {
       "@container": "@set",
