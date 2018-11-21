@@ -1,0 +1,52 @@
+{
+  "Earth": {
+    "id": "http://www.wikidata.org/entity/Q2",
+    "covers": []
+  },
+  "Africa": {
+    "id": "http://www.wikidata.org/entity/Q15",
+    "covers": [
+      "Africa"
+    ]
+  },
+  "South America": {
+    "id": "http://www.wikidata.org/entity/Q18",
+    "covers": [
+      "South America"
+    ]
+  },
+  "Europe": {
+    "id": "http://www.wikidata.org/entity/Q46",
+    "covers": [
+      "Europe"
+    ]
+  },
+  "Asia": {
+    "id": "http://www.wikidata.org/entity/Q48",
+    "covers": [
+      "Asia",
+      "Malay Archipelago"
+    ]
+  },
+  "North America": {
+    "id": "http://www.wikidata.org/entity/Q49",
+    "covers": [
+      "North America"
+    ]
+  },
+  "Antarctica": {
+    "id": "http://www.wikidata.org/entity/Q51",
+    "covers": [
+      "Antarctica"
+    ]
+  },
+  "Oceania": {
+    "id": "http://www.wikidata.org/entity/Q538",
+    "covers": [
+      "Australia",
+      "Melanesia",
+      "Micronesia",
+      "Polynesia"
+    ]
+  }
+}

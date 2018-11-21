@@ -1,0 +1,408 @@
+{
+  "Avon": {
+    "id": "http://www.wikidata.org/entity/Q929902",
+    "covers": [
+      "Bath and North East Somerset",
+      "Bristol",
+      "North Somerset",
+      "South Gloucestershire"
+    ]
+  },
+  "Bedfordshire": {
+    "id": "http://www.wikidata.org/entity/Q23143",
+    "covers": [
+      "Bedford",
+      "Central Bedfordshire",
+      "Luton"
+    ]
+  },
+  "Berkshire": {
+    "id": "http://www.wikidata.org/entity/Q23220",
+    "covers": [
+      "Bracknell Forest",
+      "Reading",
+      "Slough",
+      "West Berkshire",
+      "Windsor and Maidenhead",
+      "Wokingham"
+    ]
+  },
+  "Buckinghamshire": {
+    "id": "http://www.wikidata.org/entity/Q23229",
+    "covers": [
+      "Buckinghamshire",
+      "Milton Keynes"
+    ]
+  },
+  "Cambridgeshire": {
+    "id": "http://www.wikidata.org/entity/Q23112",
+    "covers": [
+      "Cambridgeshire",
+      "Peterborough"
+    ]
+  },
+  "Cheshire": {
+    "id": "http://www.wikidata.org/entity/Q23064",
+    "covers": [
+      "Cheshire West and Chester",
+      "Cheshire East",
+      "Warrington",
+      "Halton"
+    ]
+  },
+  "Bristol": {
+    "id": "http://www.wikidata.org/entity/Q21693433",
+    "covers": [
+      "Bristol"
+    ]
+  },
+  "Cornwall": {
+    "id": "http://www.wikidata.org/entity/Q23148",
+    "covers": [
+      "Cornwall",
+      "Isles of Scilly"
+    ]
+  },
+  "County Durham": {
+    "id": "http://www.wikidata.org/entity/Q23082",
+    "covers": [
+      "County Durham",
+      "Hartlepool",
+      "Darlington",
+      "Stockton-on-Tees"
+    ]
+  },
+  "Cumbria": {
+    "id": "http://www.wikidata.org/entity/Q23066",
+    "covers": [
+      "Cumbria"
+    ]
+  },
+  "Derbyshire": {
+    "id": "http://www.wikidata.org/entity/Q23098",
+    "covers": [
+      "Derbyshire",
+      "Derby"
+    ]
+  },
+  "Devon": {
+    "id": "http://www.wikidata.org/entity/Q23156",
+    "covers": [
+      "Devon",
+      "Plymouth",
+      "Torbay"
+    ]
+  },
+  "Dorset": {
+    "id": "http://www.wikidata.org/entity/Q23159",
+    "covers": [
+      "Dorset",
+      "Bournemouth",
+      "Poole"
+    ]
+  },
+  "East Riding of Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23088",
+    "covers": [
+      "East Riding of Yorkshire",
+      "Kingston upon Hull"
+    ]
+  },
+  "East Sussex": {
+    "id": "http://www.wikidata.org/entity/Q23293",
+    "covers": [
+      "East Sussex",
+      "Brighton and Hove"
+    ]
+  },
+  "Essex": {
+    "id": "http://www.wikidata.org/entity/Q23240",
+    "covers": [
+      "Essex",
+      "Southend-on-Sea",
+      "Thurrock"
+    ]
+  },
+  "Gloucestershire": {
+    "id": "http://www.wikidata.org/entity/Q23165",
+    "covers": [
+      "Gloucestershire",
+      "South Gloucestershire"
+    ]
+  },
+  "Greater London": {
+    "id": "http://www.wikidata.org/entity/Q23306",
+    "covers": [
+      "Barking and Dagenham",
+      "Barnet",
+      "Bexley",
+      "Brent",
+      "Bromley",
+      "Camden",
+      "City of London",
+      "Croydon",
+      "Ealing",
+      "Enfield",
+      "Greenwich",
+      "Hackney",
+      "Hammersmith and Fulham",
+      "Haringey",
+      "Harrow",
+      "Havering",
+      "Hillingdon",
+      "Hounslow",
+      "Islington",
+      "Kensington and Chelsea",
+      "Kingston upon Thames",
+      "Lambeth",
+      "Lewisham",
+      "Merton",
+      "Newham",
+      "Redbridge",
+      "Richmond upon Thames",
+      "Southwark",
+      "Sutton",
+      "Tower Hamlets",
+      "Waltham Forest",
+      "Wandsworth",
+      "Westminster"
+    ]
+  },
+  "Greater Manchester": {
+    "id": "http://www.wikidata.org/entity/Q23099",
+    "covers": [
+      "Bolton",
+      "Bury",
+      "Oldham",
+      "Rochdale",
+      "Stockport",
+      "Tameside",
+      "Trafford",
+      "Wigan",
+      "Manchester",
+      "Salford"
+    ]
+  },
+  "Hampshire": {
+    "id": "http://www.wikidata.org/entity/Q23204",
+    "covers": [
+      "Hampshire",
+      "Portsmouth",
+      "Southampton"
+    ]
+  },
+  "Herefordshire": {
+    "id": "http://www.wikidata.org/entity/Q23129",
+    "covers": [
+      "Herefordshire"
+    ]
+  },
+  "Hertfordshire": {
+    "id": "http://www.wikidata.org/entity/Q3410",
+    "covers": [
+      "Hertfordshire"
+    ]
+  },
+  "Humberside": {
+    "id": "http://www.wikidata.org/entity/Q1636805",
+    "covers": [
+      "Kingston upon Hull",
+      "East Riding of Yorkshire",
+      "North Lincolnshire",
+      "North East Lincolnshire"
+    ]
+  },
+  "Isle of Wight": {
+    "id": "http://www.wikidata.org/entity/Q9679",
+    "covers": [
+      "Isle of Wight"
+    ]
+  },
+  "Kent": {
+    "id": "http://www.wikidata.org/entity/Q23298",
+    "covers": [
+      "Kent",
+      "Medway"
+    ]
+  },
+  "Lancashire": {
+    "id": "http://www.wikidata.org/entity/Q23077",
+    "covers": [
+      "Lancashire",
+      "Blackpool",
+      "Blackburn with Darwen"
+    ]
+  },
+  "Leicestershire": {
+    "id": "http://www.wikidata.org/entity/Q23106",
+    "covers": [
+      "Leicestershire",
+      "Leicester"
+    ]
+  },
+  "Lincolnshire": {
+    "id": "http://www.wikidata.org/entity/Q23090",
+    "covers": [
+      "North Lincolnshire",
+      "North East Lincolnshire",
+      "Lincolnshire"
+    ]
+  },
+  "Merseyside": {
+    "id": "http://www.wikidata.org/entity/Q23100",
+    "covers": [
+      "Liverpool",
+      "Sefton",
+      "Knowsley",
+      "St. Helens",
+      "Wirral"
+    ]
+  },
+  "Norfolk": {
+    "id": "http://www.wikidata.org/entity/Q23109",
+    "covers": [
+      "Norfolk"
+    ]
+  },
+  "North Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23086",
+    "covers": [
+      "North Yorkshire",
+      "York",
+      "Redcar and Cleveland",
+      "Middlesbrough",
+      "Stockton-on-Tees"
+    ]
+  },
+  "Northamptonshire": {
+    "id": "http://www.wikidata.org/entity/Q23115",
+    "covers": [
+      "Northamptonshire"
+    ]
+  },
+  "Northumberland": {
+    "id": "http://www.wikidata.org/entity/Q23079",
+    "covers": [
+      "Northumberland"
+    ]
+  },
+  "Nottinghamshire": {
+    "id": "http://www.wikidata.org/entity/Q23092",
+    "covers": [
+      "Nottinghamshire",
+      "Nottingham"
+    ]
+  },
+  "Oxfordshire": {
+    "id": "http://www.wikidata.org/entity/Q23169",
+    "covers": [
+      "Oxfordshire"
+    ]
+  },
+  "Rutland": {
+    "id": "http://www.wikidata.org/entity/Q23107",
+    "covers": [
+      "Rutland"
+    ]
+  },
+  "Shropshire": {
+    "id": "http://www.wikidata.org/entity/Q23103",
+    "covers": [
+      "Shropshire",
+      "Telford and Wrekin"
+    ]
+  },
+  "Somerset": {
+    "id": "http://www.wikidata.org/entity/Q23157",
+    "covers": [
+      "Somerset",
+      "Bath and North East Somerset",
+      "North Somerset"
+    ]
+  },
+  "South Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23095",
+    "covers": [
+      "Sheffield",
+      "Rotherham",
+      "Doncaster",
+      "Barnsley"
+    ]
+  },
+  "Staffordshire": {
+    "id": "http://www.wikidata.org/entity/Q23105",
+    "covers": [
+      "Staffordshire",
+      "Stoke-on-Trent"
+    ]
+  },
+  "Suffolk": {
+    "id": "http://www.wikidata.org/entity/Q23111",
+    "covers": [
+      "Suffolk"
+    ]
+  },
+  "Surrey": {
+    "id": "http://www.wikidata.org/entity/Q23276",
+    "covers": [
+      "Surrey"
+    ]
+  },
+  "Tyne and Wear": {
+    "id": "http://www.wikidata.org/entity/Q23080",
+    "covers": [
+      "Gateshead",
+      "Newcastle upon Tyne",
+      "North Tyneside",
+      "South Tyneside",
+      "City of Sunderland"
+    ]
+  },
+  "Warwickshire": {
+    "id": "http://www.wikidata.org/entity/Q23140",
+    "covers": [
+      "Warwickshire"
+    ]
+  },
+  "West Midlands": {
+    "id": "http://www.wikidata.org/entity/Q23124",
+    "covers": [
+      "Wolverhampton",
+      "Dudley",
+      "Walsall",
+      "Sandwell",
+      "Birmingham",
+      "Solihull",
+      "Coventry"
+    ]
+  },
+  "West Sussex": {
+    "id": "http://www.wikidata.org/entity/Q23287",
+    "covers": [
+      "West Sussex"
+    ]
+  },
+  "West Yorkshire": {
+    "id": "http://www.wikidata.org/entity/Q23083",
+    "covers": [
+      "Leeds",
+      "Wakefield",
+      "Kirklees",
+      "Calderdale",
+      "Bradford"
+    ]
+  },
+  "Wiltshire": {
+    "id": "http://www.wikidata.org/entity/Q23183",
+    "covers": [
+      "Wiltshire",
+      "Swindon"
+    ]
+  },
+  "Worcestershire": {
+    "id": "http://www.wikidata.org/entity/Q23135",
+    "covers": [
+      "Worcestershire"
+    ]
+  }
+}
