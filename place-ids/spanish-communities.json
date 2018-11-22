@@ -1,53 +1,137 @@
 {
   "Andalusia": {
-    "id": "http://www.wikidata.org/entity/Q5783"
+    "id": "http://www.wikidata.org/entity/Q5783",
+    "covers": [
+      "Almería",
+      "Cádiz",
+      "Córdoba",
+      "Granada",
+      "Huelva",
+      "Jaén",
+      "Málaga",
+      "Sevilla"
+    ]
   },
   "Aragon": {
-    "id": "http://www.wikidata.org/entity/Q4040"
+    "id": "http://www.wikidata.org/entity/Q4040",
+    "covers": [
+      "Huesca",
+      "Teruel",
+      "Zaragoza"
+    ]
   },
   "Asturias": {
-    "id": "http://www.wikidata.org/entity/Q3934"
+    "id": "http://www.wikidata.org/entity/Q3934",
+    "covers": [
+      "Asturias"
+    ]
   },
   "Balearic Islands": {
-    "id": "http://www.wikidata.org/entity/Q5765"
+    "id": "http://www.wikidata.org/entity/Q5765",
+    "covers": [
+      "Baleares"
+    ]
   },
   "Basque Country": {
-    "id": "http://www.wikidata.org/entity/Q3995"
+    "id": "http://www.wikidata.org/entity/Q3995",
+    "covers": [
+      "Bizkaia",
+      "Gipuzkoa",
+      "Álava"
+    ]
   },
   "Canary Islands": {
-    "id": "http://www.wikidata.org/entity/Q5813"
+    "id": "http://www.wikidata.org/entity/Q5813",
+    "covers": [
+      "Las Palmas",
+      "Santa Cruz de Tenerife"
+    ]
   },
   "Cantabria": {
-    "id": "http://www.wikidata.org/entity/Q3946"
+    "id": "http://www.wikidata.org/entity/Q3946",
+    "covers": [
+      "Cantabria"
+    ]
   },
   "Castile and León": {
-    "id": "http://www.wikidata.org/entity/Q5739"
+    "id": "http://www.wikidata.org/entity/Q5739",
+    "covers": [
+      "Burgos",
+      "León",
+      "Palencia",
+      "Salamanca",
+      "Segovia",
+      "Soria",
+      "Valladolid",
+      "Zamora",
+      "Ávila"
+    ]
   },
   "Castile-La Mancha": {
-    "id": "http://www.wikidata.org/entity/Q5748"
+    "id": "http://www.wikidata.org/entity/Q5748",
+    "covers": [
+      "Albacete",
+      "Ciudad Real",
+      "Cuenca",
+      "Guadalajara",
+      "Toledo"
+    ]
   },
   "Catalonia": {
-    "id": "http://www.wikidata.org/entity/Q5705"
+    "id": "http://www.wikidata.org/entity/Q5705",
+    "covers": [
+      "Barcelona",
+      "Gerona",
+      "Lérida",
+      "Tarragona"
+    ]
   },
   "Community of Madrid": {
-    "id": "http://www.wikidata.org/entity/Q5756"
+    "id": "http://www.wikidata.org/entity/Q5756",
+    "covers": [
+      "Madrid"
+    ]
   },
   "Extremadura": {
-    "id": "http://www.wikidata.org/entity/Q5777"
+    "id": "http://www.wikidata.org/entity/Q5777",
+    "covers": [
+      "Badajoz",
+      "Cáceres"
+    ]
   },
   "Galicia": {
-    "id": "http://www.wikidata.org/entity/Q3908"
+    "id": "http://www.wikidata.org/entity/Q3908",
+    "covers": [
+      "La Coruña",
+      "Lugo",
+      "Orense",
+      "Pontevedra"
+    ]
   },
   "La Rioja": {
-    "id": "http://www.wikidata.org/entity/Q5727"
+    "id": "http://www.wikidata.org/entity/Q5727",
+    "covers": [
+      "La Rioja"
+    ]
   },
   "Navarre": {
-    "id": "http://www.wikidata.org/entity/Q4018"
+    "id": "http://www.wikidata.org/entity/Q4018",
+    "covers": [
+      "Navarra"
+    ]
   },
   "Region of Murcia": {
-    "id": "http://www.wikidata.org/entity/Q5772"
+    "id": "http://www.wikidata.org/entity/Q5772",
+    "covers": [
+      "Murcia"
+    ]
   },
   "Valencian Community": {
-    "id": "http://www.wikidata.org/entity/Q5720"
+    "id": "http://www.wikidata.org/entity/Q5720",
+    "covers": [
+      "Alicante",
+      "Castellón",
+      "Valencia"
+    ]
   }
 }

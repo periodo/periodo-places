@@ -92,6 +92,23 @@ geometries/italian-regions/%.json: \
 	mkdir -p geometries/italian-regions
 	./sh/place.sh $^ $* > $@
 
+geometries/spanish-admin-1.json: \
+	jq/spanish-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/spanish-communities.json: \
+	place-ids/spanish-communities.json \
+	geometries/spanish-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/spanish-communities/%.json: \
+	place-ids/spanish-communities.json \
+	geometries/spanish-admin-1.json
+	mkdir -p geometries/spanish-communities
+	./sh/place.sh $^ $* > $@
+
 geometries/continents.json: \
 	place-ids/continents.json \
 	geometries/scale-rank-0.json

@@ -23,7 +23,7 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Italian regions gazetteer**<br>
   https://data.perio.do/graphs/places/italian-regions.json
 
-* Spanish autonomous communities gazetteer<br>
+* **Spanish autonomous communities gazetteer**<br>
   https://data.perio.do/graphs/places/spanish-communities.json
 
 * Historical places gazetteer<br>
@@ -101,7 +101,11 @@ This gazetteer was created by:
 
 ### Spanish autonomous communities gazetteer
 
-This gazetteer was created by querying Wikidata for instances of [Q10742 autonomous community of Spain](https://www.wikidata.org/wiki/Q10742). It currently does not have any geometries.
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the units found in the Natural Earth data into geometries for autonomous communities (see [geometries/spanish-communities-ids.json](geometries/spanish-communities-ids.json) for details), and
+
+1. querying Wikidata for instances of [Q10742 autonomous community of Spain](https://www.wikidata.org/wiki/Q10742) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Historical places gazetteer
