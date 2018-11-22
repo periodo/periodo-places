@@ -75,6 +75,23 @@ geometries/english-counties/%.json: \
 	mkdir -p geometries/english-counties
 	./sh/place.sh $^ $* > $@
 
+geometries/italian-admin-1.json: \
+	jq/italian-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/italian-regions.json: \
+	place-ids/italian-regions.json \
+	geometries/italian-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/italian-regions/%.json: \
+	place-ids/italian-regions.json \
+	geometries/italian-admin-1.json
+	mkdir -p geometries/italian-regions
+	./sh/place.sh $^ $* > $@
+
 geometries/continents.json: \
 	place-ids/continents.json \
 	geometries/scale-rank-0.json

@@ -1,62 +1,212 @@
 {
   "Abruzzo": {
-    "id": "http://www.wikidata.org/entity/Q1284"
+    "id": "http://www.wikidata.org/entity/Q1284",
+    "covers": [
+      "Chieti",
+      "L'Aquila",
+      "Pescara",
+      "Teramo"
+    ]
   },
   "Aosta Valley": {
-    "id": "http://www.wikidata.org/entity/Q1222"
+    "id": "http://www.wikidata.org/entity/Q1222",
+    "covers": [
+      "Aoste"
+    ]
   },
   "Apulia": {
-    "id": "http://www.wikidata.org/entity/Q1447"
+    "id": "http://www.wikidata.org/entity/Q1447",
+    "covers": [
+      "Bari",
+      "Barletta-Andria Trani",
+      "Brindisi",
+      "Foggia",
+      "Lecce",
+      "Taranto"
+    ]
   },
   "Basilicata": {
-    "id": "http://www.wikidata.org/entity/Q1452"
+    "id": "http://www.wikidata.org/entity/Q1452",
+    "covers": [
+      "Matera",
+      "Potenza"
+    ]
   },
   "Calabria": {
-    "id": "http://www.wikidata.org/entity/Q1458"
+    "id": "http://www.wikidata.org/entity/Q1458",
+    "covers": [
+      "Catanzaro",
+      "Cosenza",
+      "Crotene",
+      "Reggio Calabria",
+      "Vibo Valentia"
+    ]
   },
   "Campania": {
-    "id": "http://www.wikidata.org/entity/Q1438"
+    "id": "http://www.wikidata.org/entity/Q1438",
+    "covers": [
+      "Avellino",
+      "Benevento",
+      "Caserta",
+      "Napoli",
+      "Salerno"
+    ]
   },
   "Emilia-Romagna": {
-    "id": "http://www.wikidata.org/entity/Q1263"
+    "id": "http://www.wikidata.org/entity/Q1263",
+    "covers": [
+      "Bologna",
+      "Ferrara",
+      "Forlì-Cesena",
+      "Modena",
+      "Parma",
+      "Piacenza",
+      "Ravenna",
+      "Reggio Emilia",
+      "Rimini"
+    ]
   },
   "Friuli–Venezia Giulia": {
-    "id": "http://www.wikidata.org/entity/Q1250"
+    "id": "http://www.wikidata.org/entity/Q1250",
+    "covers": [
+      "Gorizia",
+      "Pordenone",
+      "Trieste",
+      "Udine"
+    ]
   },
   "Lazio": {
-    "id": "http://www.wikidata.org/entity/Q1282"
+    "id": "http://www.wikidata.org/entity/Q1282",
+    "covers": [
+      "Frosinone",
+      "Latina",
+      "Rieti",
+      "Roma",
+      "Viterbo"
+    ]
   },
   "Liguria": {
-    "id": "http://www.wikidata.org/entity/Q1256"
+    "id": "http://www.wikidata.org/entity/Q1256",
+    "covers": [
+      "Genova",
+      "Imperia",
+      "La Spezia",
+      "Savona"
+    ]
   },
   "Lombardy": {
-    "id": "http://www.wikidata.org/entity/Q1210"
+    "id": "http://www.wikidata.org/entity/Q1210",
+    "covers": [
+      "Bergamo",
+      "Brescia",
+      "Como",
+      "Cremona",
+      "Lecco",
+      "Lodi",
+      "Mantova",
+      "Milano",
+      "Monza e Brianza",
+      "Pavia",
+      "Sondrio",
+      "Varese"
+    ]
   },
   "Marche": {
-    "id": "http://www.wikidata.org/entity/Q1279"
+    "id": "http://www.wikidata.org/entity/Q1279",
+    "covers": [
+      "Ancona",
+      "Ascoli Piceno",
+      "Fermo",
+      "Macerata",
+      "Pesaro e Urbino"
+    ]
   },
   "Molise": {
-    "id": "http://www.wikidata.org/entity/Q1443"
+    "id": "http://www.wikidata.org/entity/Q1443",
+    "covers": [
+      "Campobasso",
+      "Isernia"
+    ]
   },
   "Piedmont": {
-    "id": "http://www.wikidata.org/entity/Q1216"
+    "id": "http://www.wikidata.org/entity/Q1216",
+    "covers": [
+      "Alessandria",
+      "Asti",
+      "Biella",
+      "Cuneo",
+      "Novara",
+      "Turin",
+      "Verbano-Cusio-Ossola",
+      "Vercelli"
+    ]
   },
   "Sardinia": {
-    "id": "http://www.wikidata.org/entity/Q1462"
+    "id": "http://www.wikidata.org/entity/Q1462",
+    "covers": [
+      "Cagliari",
+      "Carbonia-Iglesias",
+      "Medio Campidano",
+      "Nuoro",
+      "Ogliastra",
+      "Olbia-Tempio",
+      "Oristrano",
+      "Sassari"
+    ]
   },
   "Sicily": {
-    "id": "http://www.wikidata.org/entity/Q1460"
+    "id": "http://www.wikidata.org/entity/Q1460",
+    "covers": [
+      "Agrigento",
+      "Caltanissetta",
+      "Catania",
+      "Enna",
+      "Messina",
+      "Palermo",
+      "Ragusa",
+      "Siracusa",
+      "Trapani"
+    ]
   },
   "Trentino-South Tyrol": {
-    "id": "http://www.wikidata.org/entity/Q1237"
+    "id": "http://www.wikidata.org/entity/Q1237",
+    "covers": [
+      "Bozen",
+      "Trento"
+    ]
   },
   "Tuscany": {
-    "id": "http://www.wikidata.org/entity/Q1273"
+    "id": "http://www.wikidata.org/entity/Q1273",
+    "covers": [
+      "Arezzo",
+      "Firenze",
+      "Grosseto",
+      "Livorno",
+      "Lucca",
+      "Massa-Carrara",
+      "Pisa",
+      "Pistoia",
+      "Prato",
+      "Siena"
+    ]
   },
   "Umbria": {
-    "id": "http://www.wikidata.org/entity/Q1280"
+    "id": "http://www.wikidata.org/entity/Q1280",
+    "covers": [
+      "Perugia",
+      "Terni"
+    ]
   },
   "Veneto": {
-    "id": "http://www.wikidata.org/entity/Q1243"
+    "id": "http://www.wikidata.org/entity/Q1243",
+    "covers": [
+      "Belluno",
+      "Padova",
+      "Rovigo",
+      "Treviso",
+      "Venezia",
+      "Verona",
+      "Vicenza"
+    ]
   }
 }
