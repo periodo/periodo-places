@@ -2,6 +2,7 @@ const categoryOf = name => {
   switch (name) {
     case 'admin_0_countries':
     case 'admin_0_map_units':
+    case 'admin_0_scale_rank':
     case 'admin_1_states_provinces':
       return 'cultural'
     case 'geography_regions_polys':

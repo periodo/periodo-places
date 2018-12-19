@@ -1,0 +1,245 @@
+{
+  "Caribbean": {
+    "id": "http://www.wikidata.org/entity/Q664609",
+    "covers": [
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Antigua",
+      "Bahamas",
+      "Barbados",
+      "Cayman Islands",
+      "Cuba",
+      "Dominica",
+      "Dominican Republic",
+      "Grenada",
+      "Guadeloupe",
+      "Haiti",
+      "Jamaica",
+      "Martinique",
+      "Puerto Rico",
+      "Saint Lucia",
+      "Saint Vincent and the Grenadines",
+      "Trinidad and Tobago"
+    ]
+  },
+  "Central America": {
+    "id": "http://www.wikidata.org/entity/Q27611",
+    "covers": [
+      "Belize",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Mexico",
+      "Nicaragua",
+      "Panama"
+    ]
+  },
+  "Central Asia": {
+    "id": "http://www.wikidata.org/entity/Q27275",
+    "covers": [
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan",
+      "Uzbekistan"
+    ]
+  },
+  "East Africa": {
+    "id": "http://www.wikidata.org/entity/Q27407",
+    "covers": [
+      "Burundi",
+      "Djibouti",
+      "Eritrea",
+      "Ethiopia",
+      "Kenya",
+      "Madagascar",
+      "Malawi",
+      "Mozambique",
+      "Rwanda",
+      "Somalia",
+      "Somaliland",
+      "South Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ]
+  },
+  "East Asia": {
+    "id": "http://www.wikidata.org/entity/Q27231",
+    "covers": [
+      "China",
+      "Dem. Rep. Korea",
+      "Japan",
+      "Mongolia",
+      "Republic of Korea",
+      "Taiwan"
+    ]
+  },
+  "Eastern Europe": {
+    "id": "http://www.wikidata.org/entity/Q27468",
+    "covers": [
+      "Belarus",
+      "Bulgaria",
+      "Czech Republic",
+      "Hungary",
+      "Moldova",
+      "Poland",
+      "Romania",
+      "Slovakia",
+      "Ukraine",
+      "Western Russia"
+    ]
+  },
+  "Middle Africa": {
+    "covers": [
+      "Democratic Republic of the Congo",
+      "Chad",
+      "Cameroon",
+      "Central African Republic",
+      "Republic of the Congo",
+      "Gabon",
+      "Equatorial Guinea",
+      "Angola"
+    ],
+    "id": "http://www.wikidata.org/entity/Q22583595"
+  },
+  "Middle East": {
+    "covers": [
+      "Israel",
+      "Lebanon",
+      "Palestine",
+      "Jordan",
+      "United Arab Emirates",
+      "Qatar",
+      "Kuwait",
+      "Iraq",
+      "Oman",
+      "Syria",
+      "Armenia",
+      "Turkey",
+      "Azerbaijan",
+      "Georgia",
+      "Yemen",
+      "Saudi Arabia",
+      "Northern Cyprus",
+      "Cyprus"
+    ],
+    "id": "http://www.wikidata.org/entity/Q7204"
+  },
+  "North Africa": {
+    "covers": [
+      "Western Sahara",
+      "Sudan",
+      "Tunisia",
+      "Algeria",
+      "Morocco",
+      "Egypt",
+      "Libya"
+    ],
+    "id": "http://www.wikidata.org/entity/Q27381"
+  },
+  "Northern Europe": {
+    "covers": [
+      "Norway",
+      "Sweden",
+      "Lithuania",
+      "Latvia",
+      "Estonia",
+      "Ireland",
+      "Denmark",
+      "United Kingdom",
+      "Iceland",
+      "Finland"
+    ],
+    "id": "http://www.wikidata.org/entity/Q27479"
+  },
+  "South Asia": {
+    "covers": [
+      "India",
+      "Bangladesh",
+      "Bhutan",
+      "Nepal",
+      "Pakistan",
+      "Afghanistan",
+      "Iran",
+      "Sri Lanka"
+    ],
+    "id": "http://www.wikidata.org/entity/Q771405"
+  },
+  "Southeast Asia": {
+    "covers": [
+      "Indonesia",
+      "Timor-Leste",
+      "Cambodia",
+      "Thailand",
+      "Lao PDR",
+      "Myanmar",
+      "Vietnam",
+      "Philippines",
+      "Malaysia",
+      "Brunei Darussalam"
+    ],
+    "id": "http://www.wikidata.org/entity/Q11708"
+  },
+  "Southern Africa": {
+    "covers": [
+      "South Africa",
+      "Lesotho",
+      "Botswana",
+      "Namibia",
+      "eSwatini"
+    ],
+    "id": "http://www.wikidata.org/entity/Q27394"
+  },
+  "Southern Europe": {
+    "covers": [
+      "Greece",
+      "Albania",
+      "Croatia",
+      "Portugal",
+      "Spain",
+      "Italy",
+      "Slovenia",
+      "Bosnia and Herzegovina",
+      "Macedonia",
+      "Serbia",
+      "Montenegro",
+      "Kosovo"
+    ],
+    "id": "http://www.wikidata.org/entity/Q27449"
+  },
+  "West Africa": {
+    "covers": [
+      "Senegal",
+      "Mali",
+      "Mauritania",
+      "Benin",
+      "Niger",
+      "Nigeria",
+      "Togo",
+      "Ghana",
+      "Côte d'Ivoire",
+      "Guinea",
+      "Guinea-Bissau",
+      "Liberia",
+      "Sierra Leone",
+      "Burkina Faso",
+      "The Gambia"
+    ],
+    "id": "http://www.wikidata.org/entity/Q4412"
+  },
+  "Western Europe": {
+    "covers": [
+      "France",
+      "Austria",
+      "Germany",
+      "Switzerland",
+      "Luxembourg",
+      "Belgium",
+      "Netherlands"
+    ],
+    "id": "http://www.wikidata.org/entity/Q27496"
+  }
+}

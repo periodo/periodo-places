@@ -5,8 +5,8 @@ GAZETTEERS := \
 	gazetteers/english-counties.json \
 	gazetteers/historical.json \
 	gazetteers/italian-regions.json \
-	gazetteers/regions.json \
 	gazetteers/spanish-communities.json \
+	gazetteers/subregions.json \
 	gazetteers/us-states.json
 
 NM := ./node_modules/.bin/
@@ -46,6 +46,12 @@ geometries/admin-0.json: \
 	mkdir -p geometries
 	jq -s -f $^ > $@
 
+geometries/10m-admin-0.json: \
+	jq/admin-0.jq \
+	ne/ne_10m_admin_0_countries.json \
+	ne/ne_10m_admin_0_map_units.json
+	jq -s -f $^ > $@
+
 geometries/admin-1.json: \
 	jq/admin-1.jq \
 	ne/ne_110m_admin_1_states_provinces.json
@@ -57,6 +63,29 @@ geometries/scale-rank-0.json: \
 	ne/ne_110m_geography_regions_polys.json
 	mkdir -p geometries
 	jq -f $^ > $@
+
+geometries/western-russia.json: \
+	jq/western-russia.jq \
+	ne/ne_10m_admin_0_scale_rank.json
+	mkdir -p geometries
+	jq -f $^ \
+	| $(NM)/geojson-clipping union \
+	| jq '{"Western Russia":{geometry}}' > $@
+
+geometries/admin-0-and-western-russia.json: \
+	geometries/10m-admin-0.json geometries/western-russia.json
+	jq -s '.[0] * .[1]' $^ > $@
+
+geometries/subregions.json: \
+	place-ids/subregions.json \
+	geometries/admin-0-and-western-russia.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/subregions/%.json: \
+	place-ids/subregions.json \
+	geometries/admin-0-and-western-russia.json
+	mkdir -p geometries/subregions
+	./sh/place.sh $^ $* > $@
 
 geometries/english-admin-1.json: \
 	jq/english-admin-1.jq \
