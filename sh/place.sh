@@ -20,5 +20,5 @@ if [ -z "$PARTS" ]; then
 else
     jq "$PARTS | .geometry" "$GEOMETRIES" \
         | "$NM"geojson-clipping union \
-        | jq '{"'"$PLACE"'":{id:"'"$PLACE_ID"'", geometry}}'
+        | jq '{"'"$PLACE"'":{id:"'"$PLACE_ID"'", geometry, type: "Feature"}}'
 fi

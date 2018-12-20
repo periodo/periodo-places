@@ -19,10 +19,12 @@
       "@container": "@set",
       "@id": "dcterms:description"
     },
+    "easternmostPoint": "wdt:P1334",
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
     "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
     "identifier": {
       "@id": "dcterms:identifier",
@@ -35,9 +37,11 @@
       "@container": "@set",
       "@id": "lpo:name_attestation"
     },
+    "northernmostPoint": "wdt:P1332",
     "properties": "geojson:properties",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
     "title": "dcterms:title",
     "toponym": "lpo:toponym",
     "type": "@type",
@@ -45,7 +49,9 @@
       "@container": "@set",
       "@id": "lpo:type_attestation"
     },
-    "value": "rdf:value"
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
   },
   "features": [
     {
@@ -60,6 +66,66 @@
           "value": "city in Catalonia, Spain"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.158333,
+                  41.058333
+                ],
+                [
+                  1.133333,
+                  41.108333
+                ],
+                [
+                  1.133333,
+                  41.116667
+                ],
+                [
+                  1.166667,
+                  41.141667
+                ],
+                [
+                  1.25,
+                  41.2
+                ],
+                [
+                  1.266667,
+                  41.2
+                ],
+                [
+                  1.291667,
+                  41.183333
+                ],
+                [
+                  1.316667,
+                  41.141667
+                ],
+                [
+                  1.316667,
+                  41.125
+                ],
+                [
+                  1.175,
+                  41.05
+                ],
+                [
+                  1.166667,
+                  41.05
+                ],
+                [
+                  1.158333,
+                  41.058333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q15088",
       "names": [
         {
@@ -114,8 +180,88 @@
           "value": "city in Catalonia, Spain"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.875,
+                  41.35
+                ],
+                [
+                  1.791667,
+                  41.541667
+                ],
+                [
+                  1.791667,
+                  41.575
+                ],
+                [
+                  2.158333,
+                  41.7
+                ],
+                [
+                  2.283333,
+                  41.708333
+                ],
+                [
+                  2.291667,
+                  41.708333
+                ],
+                [
+                  2.441667,
+                  41.583333
+                ],
+                [
+                  2.45,
+                  41.575
+                ],
+                [
+                  2.458333,
+                  41.558333
+                ],
+                [
+                  2.458333,
+                  41.533333
+                ],
+                [
+                  2.45,
+                  41.525
+                ],
+                [
+                  2.141667,
+                  41.308333
+                ],
+                [
+                  2.041667,
+                  41.266667
+                ],
+                [
+                  1.983333,
+                  41.258333
+                ],
+                [
+                  1.916667,
+                  41.258333
+                ],
+                [
+                  1.875,
+                  41.35
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1492",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "B'na"
+        },
         {
           "lang": "en",
           "toponym": "Barcelona"
@@ -160,6 +306,90 @@
           "value": "capital and largest city of Germany"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.008333,
+                  52.366667
+                ],
+                [
+                  12.958333,
+                  52.4
+                ],
+                [
+                  12.958333,
+                  52.416667
+                ],
+                [
+                  13.016667,
+                  52.566667
+                ],
+                [
+                  13.041667,
+                  52.583333
+                ],
+                [
+                  13.058333,
+                  52.591667
+                ],
+                [
+                  13.208333,
+                  52.658333
+                ],
+                [
+                  13.358333,
+                  52.7
+                ],
+                [
+                  13.583333,
+                  52.708333
+                ],
+                [
+                  13.591667,
+                  52.708333
+                ],
+                [
+                  13.633333,
+                  52.7
+                ],
+                [
+                  13.925,
+                  52.6
+                ],
+                [
+                  13.925,
+                  52.583333
+                ],
+                [
+                  13.858333,
+                  52.525
+                ],
+                [
+                  13.45,
+                  52.275
+                ],
+                [
+                  13.416667,
+                  52.275
+                ],
+                [
+                  13.091667,
+                  52.333333
+                ],
+                [
+                  13.008333,
+                  52.366667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q64",
       "names": [
         {
@@ -201,6 +431,14 @@
           "label": "federal capital"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q42744322",
+          "label": "urban municipality of Germany"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         },
@@ -222,6 +460,89 @@
           "value": "city in Emilia-Romagna, Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          11.4336305,
+          44.5131147
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.233333,
+                  44.383333
+                ],
+                [
+                  11.208333,
+                  44.483333
+                ],
+                [
+                  11.208333,
+                  44.5
+                ],
+                [
+                  11.258333,
+                  44.566667
+                ],
+                [
+                  11.333333,
+                  44.641667
+                ],
+                [
+                  11.341667,
+                  44.65
+                ],
+                [
+                  11.366667,
+                  44.658333
+                ],
+                [
+                  11.383333,
+                  44.658333
+                ],
+                [
+                  11.45,
+                  44.558333
+                ],
+                [
+                  11.475,
+                  44.516667
+                ],
+                [
+                  11.475,
+                  44.5
+                ],
+                [
+                  11.45,
+                  44.45
+                ],
+                [
+                  11.341667,
+                  44.366667
+                ],
+                [
+                  11.325,
+                  44.366667
+                ],
+                [
+                  11.241667,
+                  44.375
+                ],
+                [
+                  11.233333,
+                  44.383333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1891",
       "names": [
         {
@@ -229,8 +550,22 @@
           "toponym": "Bologna"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          11.2478546,
+          44.560153
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Bologna"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          11.3172362,
+          44.4211136
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -246,7 +581,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          11.2295654,
+          44.5305877
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -260,6 +602,86 @@
           "value": "county seat of Charleston County, South Carolina, United States; oldest city in South Carolina"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -80.25,
+                  32.983333
+                ],
+                [
+                  -80.258333,
+                  33.008333
+                ],
+                [
+                  -80.258333,
+                  33.016667
+                ],
+                [
+                  -80.241667,
+                  33.058333
+                ],
+                [
+                  -80.133333,
+                  33.058333
+                ],
+                [
+                  -80.075,
+                  33.05
+                ],
+                [
+                  -80.025,
+                  33.041667
+                ],
+                [
+                  -80.016667,
+                  33.033333
+                ],
+                [
+                  -79.966667,
+                  32.975
+                ],
+                [
+                  -79.9,
+                  32.75
+                ],
+                [
+                  -79.9,
+                  32.741667
+                ],
+                [
+                  -79.908333,
+                  32.733333
+                ],
+                [
+                  -79.925,
+                  32.716667
+                ],
+                [
+                  -79.958333,
+                  32.691667
+                ],
+                [
+                  -79.966667,
+                  32.691667
+                ],
+                [
+                  -80.058333,
+                  32.783333
+                ],
+                [
+                  -80.25,
+                  32.983333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q47716",
       "names": [
         {
@@ -294,6 +716,110 @@
           "value": "county seat of Cook County, Illinois, United States; third largest city in the United States by population"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -88.391667,
+                  41.758333
+                ],
+                [
+                  -88.408333,
+                  41.933333
+                ],
+                [
+                  -88.408333,
+                  41.941667
+                ],
+                [
+                  -88.4,
+                  42.2
+                ],
+                [
+                  -88.391667,
+                  42.225
+                ],
+                [
+                  -88.383333,
+                  42.25
+                ],
+                [
+                  -88.325,
+                  42.3
+                ],
+                [
+                  -88.183333,
+                  42.408333
+                ],
+                [
+                  -88.083333,
+                  42.466667
+                ],
+                [
+                  -87.866667,
+                  42.491667
+                ],
+                [
+                  -87.816667,
+                  42.491667
+                ],
+                [
+                  -87.125,
+                  41.608333
+                ],
+                [
+                  -87.125,
+                  41.591667
+                ],
+                [
+                  -87.15,
+                  41.55
+                ],
+                [
+                  -87.35,
+                  41.391667
+                ],
+                [
+                  -87.391667,
+                  41.391667
+                ],
+                [
+                  -87.641667,
+                  41.416667
+                ],
+                [
+                  -88.15,
+                  41.475
+                ],
+                [
+                  -88.183333,
+                  41.483333
+                ],
+                [
+                  -88.233333,
+                  41.5
+                ],
+                [
+                  -88.375,
+                  41.675
+                ],
+                [
+                  -88.383333,
+                  41.691667
+                ],
+                [
+                  -88.391667,
+                  41.758333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1297",
       "names": [
         {
@@ -360,6 +886,86 @@
           "value": "city in Hamburg state in Germany"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  9.766667,
+                  53.458333
+                ],
+                [
+                  9.683333,
+                  53.575
+                ],
+                [
+                  9.683333,
+                  53.591667
+                ],
+                [
+                  9.75,
+                  53.683333
+                ],
+                [
+                  9.95,
+                  53.85
+                ],
+                [
+                  9.966667,
+                  53.85
+                ],
+                [
+                  10,
+                  53.841667
+                ],
+                [
+                  10.183333,
+                  53.7
+                ],
+                [
+                  10.333333,
+                  53.525
+                ],
+                [
+                  10.333333,
+                  53.516667
+                ],
+                [
+                  10.258333,
+                  53.341667
+                ],
+                [
+                  10.208333,
+                  53.325
+                ],
+                [
+                  9.958333,
+                  53.291667
+                ],
+                [
+                  9.95,
+                  53.291667
+                ],
+                [
+                  9.916667,
+                  53.3
+                ],
+                [
+                  9.9,
+                  53.308333
+                ],
+                [
+                  9.766667,
+                  53.458333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1055",
       "names": [
         {
@@ -434,6 +1040,45 @@
           "value": "city in Shizuoka Prefecture, Japan"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          138.101997,
+          34.816609
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  138.041117,
+                  34.920542
+                ],
+                [
+                  137.936949,
+                  34.791285
+                ],
+                [
+                  138.078451,
+                  34.642165
+                ],
+                [
+                  138.101997,
+                  34.816609
+                ],
+                [
+                  138.041117,
+                  34.920542
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q823988",
       "names": [
         {
@@ -441,8 +1086,22 @@
           "toponym": "Kakegawa"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          138.041117,
+          34.920542
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Kakegawa"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          138.078451,
+          34.642165
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -450,7 +1109,14 @@
           "identifier": "http://www.wikidata.org/entity/Q494721",
           "label": "city of Japan"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          137.936949,
+          34.791285
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -464,6 +1130,86 @@
           "value": "capital city of Mexico"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -99.325,
+                  19.341667
+                ],
+                [
+                  -99.366667,
+                  19.633333
+                ],
+                [
+                  -99.366667,
+                  19.641667
+                ],
+                [
+                  -99.216667,
+                  19.791667
+                ],
+                [
+                  -99.108333,
+                  19.891667
+                ],
+                [
+                  -98.933333,
+                  19.908333
+                ],
+                [
+                  -98.925,
+                  19.908333
+                ],
+                [
+                  -98.85,
+                  19.566667
+                ],
+                [
+                  -98.808333,
+                  19.266667
+                ],
+                [
+                  -98.808333,
+                  19.25
+                ],
+                [
+                  -98.95,
+                  19.2
+                ],
+                [
+                  -98.975,
+                  19.2
+                ],
+                [
+                  -99.108333,
+                  19.208333
+                ],
+                [
+                  -99.183333,
+                  19.233333
+                ],
+                [
+                  -99.241667,
+                  19.258333
+                ],
+                [
+                  -99.316667,
+                  19.333333
+                ],
+                [
+                  -99.325,
+                  19.341667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1489",
       "names": [
         {
@@ -510,6 +1256,105 @@
           "value": "second-largest city in Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          9.2781103,
+          45.5051987
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.6,
+                  45.808333
+                ],
+                [
+                  8.591667,
+                  45.883333
+                ],
+                [
+                  8.591667,
+                  45.908333
+                ],
+                [
+                  8.608333,
+                  45.925
+                ],
+                [
+                  8.625,
+                  45.925
+                ],
+                [
+                  9.408333,
+                  45.883333
+                ],
+                [
+                  9.875,
+                  45.841667
+                ],
+                [
+                  9.916667,
+                  45.816667
+                ],
+                [
+                  10.033333,
+                  45.591667
+                ],
+                [
+                  10.041667,
+                  45.575
+                ],
+                [
+                  10.041667,
+                  45.566667
+                ],
+                [
+                  10,
+                  45.541667
+                ],
+                [
+                  9.333333,
+                  45.341667
+                ],
+                [
+                  9.141667,
+                  45.308333
+                ],
+                [
+                  9.1,
+                  45.308333
+                ],
+                [
+                  9.058333,
+                  45.325
+                ],
+                [
+                  8.883333,
+                  45.408333
+                ],
+                [
+                  8.733333,
+                  45.516667
+                ],
+                [
+                  8.725,
+                  45.525
+                ],
+                [
+                  8.6,
+                  45.808333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q490",
       "names": [
         {
@@ -533,8 +1378,22 @@
           "toponym": "Milano, Italy"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          9.1755453,
+          45.5358482
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Milan"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          9.1926593,
+          45.3867381
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -546,7 +1405,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          9.0408867,
+          45.447447
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -560,6 +1426,97 @@
           "value": "city in Campania, Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          14.3537376,
+          40.8575122
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  14.041667,
+                  40.791667
+                ],
+                [
+                  14.025,
+                  40.908333
+                ],
+                [
+                  14.025,
+                  40.925
+                ],
+                [
+                  14.058333,
+                  41.016667
+                ],
+                [
+                  14.066667,
+                  41.025
+                ],
+                [
+                  14.191667,
+                  41.133333
+                ],
+                [
+                  14.25,
+                  41.141667
+                ],
+                [
+                  14.258333,
+                  41.141667
+                ],
+                [
+                  14.391667,
+                  41.108333
+                ],
+                [
+                  14.858333,
+                  40.841667
+                ],
+                [
+                  15.091667,
+                  40.625
+                ],
+                [
+                  15.1,
+                  40.616667
+                ],
+                [
+                  15.1,
+                  40.6
+                ],
+                [
+                  15.008333,
+                  40.583333
+                ],
+                [
+                  14.95,
+                  40.583333
+                ],
+                [
+                  14.5,
+                  40.666667
+                ],
+                [
+                  14.058333,
+                  40.783333
+                ],
+                [
+                  14.041667,
+                  40.791667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q2634",
       "names": [
         {
@@ -575,8 +1532,22 @@
           "toponym": "Neapolis"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          14.2478681,
+          40.916123
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Naples"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          14.1867859,
+          40.791193
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -596,7 +1567,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          14.1320999,
+          40.8560603
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -610,6 +1588,81 @@
           "value": "Italian comune"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          13.4522664,
+          38.0926378
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.066667,
+                  38.1
+                ],
+                [
+                  13.05,
+                  38.133333
+                ],
+                [
+                  13.05,
+                  38.141667
+                ],
+                [
+                  13.091667,
+                  38.183333
+                ],
+                [
+                  13.108333,
+                  38.191667
+                ],
+                [
+                  13.3,
+                  38.216667
+                ],
+                [
+                  13.333333,
+                  38.216667
+                ],
+                [
+                  13.541667,
+                  38.116667
+                ],
+                [
+                  13.591667,
+                  38.033333
+                ],
+                [
+                  13.591667,
+                  38.016667
+                ],
+                [
+                  13.575,
+                  38.016667
+                ],
+                [
+                  13.283333,
+                  38.033333
+                ],
+                [
+                  13.075,
+                  38.091667
+                ],
+                [
+                  13.066667,
+                  38.1
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q2656",
       "names": [
         {
@@ -621,8 +1674,22 @@
           "toponym": "Palermo, Italy"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          13.3164078,
+          38.2245866
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Palermo"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          13.3233038,
+          38.0498804
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -634,7 +1701,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          13.2422875,
+          38.1004867
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -648,6 +1722,106 @@
           "value": "county seat city in Philadelphia County, Pennsylvania; sixth largest city in the United States by population"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -75.85,
+                  39.6
+                ],
+                [
+                  -75.866667,
+                  39.966667
+                ],
+                [
+                  -75.866667,
+                  39.975
+                ],
+                [
+                  -75.858333,
+                  40
+                ],
+                [
+                  -75.733333,
+                  40.108333
+                ],
+                [
+                  -75.308333,
+                  40.4
+                ],
+                [
+                  -75.266667,
+                  40.4
+                ],
+                [
+                  -75.1,
+                  40.383333
+                ],
+                [
+                  -74.725,
+                  40.316667
+                ],
+                [
+                  -74.591667,
+                  40.241667
+                ],
+                [
+                  -74.591667,
+                  40.225
+                ],
+                [
+                  -74.6,
+                  40.191667
+                ],
+                [
+                  -74.725,
+                  39.85
+                ],
+                [
+                  -74.741667,
+                  39.816667
+                ],
+                [
+                  -74.825,
+                  39.75
+                ],
+                [
+                  -74.958333,
+                  39.658333
+                ],
+                [
+                  -74.975,
+                  39.65
+                ],
+                [
+                  -75.741667,
+                  39.55
+                ],
+                [
+                  -75.75,
+                  39.55
+                ],
+                [
+                  -75.825,
+                  39.575
+                ],
+                [
+                  -75.841667,
+                  39.583333
+                ],
+                [
+                  -75.85,
+                  39.6
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1345",
       "names": [
         {
@@ -694,6 +1868,97 @@
           "value": "capital and largest city of Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          12.8557603,
+          41.8731661
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  12.4,
+                  41.783333
+                ],
+                [
+                  12.333333,
+                  41.875
+                ],
+                [
+                  12.333333,
+                  41.883333
+                ],
+                [
+                  12.35,
+                  41.95
+                ],
+                [
+                  12.391667,
+                  42
+                ],
+                [
+                  12.4,
+                  42.008333
+                ],
+                [
+                  12.458333,
+                  42.05
+                ],
+                [
+                  12.466667,
+                  42.05
+                ],
+                [
+                  12.641667,
+                  42.008333
+                ],
+                [
+                  12.666667,
+                  41.991667
+                ],
+                [
+                  12.766667,
+                  41.883333
+                ],
+                [
+                  12.766667,
+                  41.866667
+                ],
+                [
+                  12.716667,
+                  41.683333
+                ],
+                [
+                  12.7,
+                  41.666667
+                ],
+                [
+                  12.691667,
+                  41.666667
+                ],
+                [
+                  12.65,
+                  41.675
+                ],
+                [
+                  12.5,
+                  41.716667
+                ],
+                [
+                  12.4,
+                  41.783333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q220",
       "names": [
         {
@@ -709,8 +1974,22 @@
           "toponym": "The Eternal City"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          12.3071373,
+          42.1410285
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Rome"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          12.4159448,
+          41.6556417
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -722,7 +2001,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          12.2344985,
+          41.7399709
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -736,6 +2022,58 @@
           "value": "city in Yamaguchi Prefecture, Japan"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  130.908333,
+                  33.908333
+                ],
+                [
+                  130.875,
+                  33.941667
+                ],
+                [
+                  130.875,
+                  33.95
+                ],
+                [
+                  130.916667,
+                  34.058333
+                ],
+                [
+                  131.025,
+                  34.075
+                ],
+                [
+                  131.05,
+                  34.075
+                ],
+                [
+                  131.1,
+                  34.05
+                ],
+                [
+                  131.1,
+                  34.041667
+                ],
+                [
+                  130.916667,
+                  33.908333
+                ],
+                [
+                  130.908333,
+                  33.908333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q203308",
       "names": [
         {
@@ -766,6 +2104,102 @@
           "value": "capital of Japan and one of 47 prefectures of Japan"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  139.2,
+                  35.316667
+                ],
+                [
+                  139.166667,
+                  35.366667
+                ],
+                [
+                  139.166667,
+                  35.408333
+                ],
+                [
+                  139.208333,
+                  36.216667
+                ],
+                [
+                  139.225,
+                  36.225
+                ],
+                [
+                  139.283333,
+                  36.241667
+                ],
+                [
+                  139.733333,
+                  36.241667
+                ],
+                [
+                  139.816667,
+                  36.233333
+                ],
+                [
+                  139.866667,
+                  36.225
+                ],
+                [
+                  140.408333,
+                  35.816667
+                ],
+                [
+                  140.416667,
+                  35.808333
+                ],
+                [
+                  140.433333,
+                  35.683333
+                ],
+                [
+                  140.433333,
+                  35.675
+                ],
+                [
+                  140.425,
+                  35.666667
+                ],
+                [
+                  140.325,
+                  35.583333
+                ],
+                [
+                  140.141667,
+                  35.441667
+                ],
+                [
+                  139.933333,
+                  35.291667
+                ],
+                [
+                  139.658333,
+                  35.175
+                ],
+                [
+                  139.641667,
+                  35.175
+                ],
+                [
+                  139.225,
+                  35.283333
+                ],
+                [
+                  139.2,
+                  35.316667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q1490",
       "names": [
         {
@@ -848,6 +2282,90 @@
           "value": "capital and largest city of the United Kingdom"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.841667,
+                  51.183333
+                ],
+                [
+                  -1.091667,
+                  51.433333
+                ],
+                [
+                  -1.091667,
+                  51.441667
+                ],
+                [
+                  -1.066667,
+                  51.483333
+                ],
+                [
+                  -0.808333,
+                  51.691667
+                ],
+                [
+                  -0.791667,
+                  51.7
+                ],
+                [
+                  -0.475,
+                  51.808333
+                ],
+                [
+                  -0.05,
+                  51.825
+                ],
+                [
+                  -0.008333,
+                  51.825
+                ],
+                [
+                  0.625,
+                  51.658333
+                ],
+                [
+                  0.816667,
+                  51.558333
+                ],
+                [
+                  0.816667,
+                  51.533333
+                ],
+                [
+                  0.8,
+                  51.525
+                ],
+                [
+                  0.366667,
+                  51.358333
+                ],
+                [
+                  -0.641667,
+                  51.133333
+                ],
+                [
+                  -0.65,
+                  51.133333
+                ],
+                [
+                  -0.833333,
+                  51.175
+                ],
+                [
+                  -0.841667,
+                  51.183333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q84",
       "names": [
         {
@@ -906,6 +2424,89 @@
           "value": "city in Liège, Belgium"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          5.675139,
+          50.66858
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.358333,
+                  50.55
+                ],
+                [
+                  5.333333,
+                  50.583333
+                ],
+                [
+                  5.333333,
+                  50.591667
+                ],
+                [
+                  5.341667,
+                  50.608333
+                ],
+                [
+                  5.5,
+                  50.733333
+                ],
+                [
+                  5.7,
+                  50.791667
+                ],
+                [
+                  5.725,
+                  50.791667
+                ],
+                [
+                  5.883333,
+                  50.708333
+                ],
+                [
+                  5.916667,
+                  50.608333
+                ],
+                [
+                  5.916667,
+                  50.575
+                ],
+                [
+                  5.908333,
+                  50.55
+                ],
+                [
+                  5.883333,
+                  50.533333
+                ],
+                [
+                  5.666667,
+                  50.5
+                ],
+                [
+                  5.566667,
+                  50.5
+                ],
+                [
+                  5.45,
+                  50.516667
+                ],
+                [
+                  5.358333,
+                  50.55
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q3992",
       "names": [
         {
@@ -925,8 +2526,22 @@
           "toponym": "Lüttich"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          5.55034,
+          50.688163
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Liège"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          5.552741,
+          50.561065
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -942,7 +2557,14 @@
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          5.523046,
+          50.649781
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -956,6 +2578,78 @@
           "value": "city in Prahova County, Romania"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  25.975,
+                  44.858333
+                ],
+                [
+                  25.966667,
+                  44.866667
+                ],
+                [
+                  25.966667,
+                  44.875
+                ],
+                [
+                  25.975,
+                  44.941667
+                ],
+                [
+                  25.983333,
+                  44.958333
+                ],
+                [
+                  26,
+                  44.966667
+                ],
+                [
+                  26.025,
+                  44.975
+                ],
+                [
+                  26.05,
+                  44.975
+                ],
+                [
+                  26.091667,
+                  44.958333
+                ],
+                [
+                  26.108333,
+                  44.95
+                ],
+                [
+                  26.108333,
+                  44.941667
+                ],
+                [
+                  26.05,
+                  44.841667
+                ],
+                [
+                  26.025,
+                  44.841667
+                ],
+                [
+                  25.991667,
+                  44.85
+                ],
+                [
+                  25.975,
+                  44.858333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q179585",
       "names": [
         {
@@ -997,15 +2691,68 @@
           "value": "Italian comune"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q13378",
+      "easternmostPoint": {
+        "coordinates": [
+          11.0044728,
+          43.6937995
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  10.9795045,
+                  43.741253
+                ],
+                [
+                  10.8770357,
+                  43.719392
+                ],
+                [
+                  10.9439517,
+                  43.6507409
+                ],
+                [
+                  11.0044728,
+                  43.6937995
+                ],
+                [
+                  10.9795045,
+                  43.741253
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q6697",
       "names": [
         {
           "lang": "en",
-          "toponym": "Arezzo"
+          "toponym": "Empoli"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          10.9795045,
+          43.741253
+        ],
+        "type": "Point"
+      },
       "properties": {
-        "title": "Arezzo"
+        "title": "Empoli"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          10.9439517,
+          43.6507409
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1013,7 +2760,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          10.8770357,
+          43.719392
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1022,15 +2776,100 @@
           "value": "Italian comune"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q6697",
+      "easternmostPoint": {
+        "coordinates": [
+          12.0778341,
+          43.3983039
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.866667,
+                  43.425
+                ],
+                [
+                  11.8,
+                  43.458333
+                ],
+                [
+                  11.8,
+                  43.466667
+                ],
+                [
+                  11.816667,
+                  43.483333
+                ],
+                [
+                  11.85,
+                  43.5
+                ],
+                [
+                  11.875,
+                  43.508333
+                ],
+                [
+                  11.891667,
+                  43.508333
+                ],
+                [
+                  11.9,
+                  43.5
+                ],
+                [
+                  11.916667,
+                  43.466667
+                ],
+                [
+                  11.916667,
+                  43.458333
+                ],
+                [
+                  11.908333,
+                  43.45
+                ],
+                [
+                  11.875,
+                  43.425
+                ],
+                [
+                  11.866667,
+                  43.425
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13378",
       "names": [
         {
           "lang": "en",
-          "toponym": "Empoli"
+          "toponym": "Arezzo"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          11.86302,
+          43.5575358
+        ],
+        "type": "Point"
+      },
       "properties": {
-        "title": "Empoli"
+        "title": "Arezzo"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          11.8328009,
+          43.3276491
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1038,7 +2877,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          11.7405448,
+          43.4576232
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1047,6 +2893,62 @@
           "value": "biggest city in East Friesland, Lower Saxony, Germany"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.166667,
+                  53.333333
+                ],
+                [
+                  7.141667,
+                  53.341667
+                ],
+                [
+                  7.141667,
+                  53.366667
+                ],
+                [
+                  7.175,
+                  53.416667
+                ],
+                [
+                  7.183333,
+                  53.425
+                ],
+                [
+                  7.191667,
+                  53.425
+                ],
+                [
+                  7.233333,
+                  53.391667
+                ],
+                [
+                  7.241667,
+                  53.375
+                ],
+                [
+                  7.241667,
+                  53.341667
+                ],
+                [
+                  7.233333,
+                  53.333333
+                ],
+                [
+                  7.166667,
+                  53.333333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q4174",
       "names": [
         {
@@ -1065,7 +2967,11 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q22865",
-          "label": "independent city"
+          "label": "independent city of Germany"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q42744322",
+          "label": "urban municipality of Germany"
         }
       ]
     },
@@ -1076,6 +2982,45 @@
           "value": "city in Lower Saxony, Germany"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          8.170984,
+          53.540434
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.090048,
+                  53.63775
+                ],
+                [
+                  7.993567,
+                  53.60349
+                ],
+                [
+                  8.087458,
+                  53.502071
+                ],
+                [
+                  8.170984,
+                  53.540434
+                ],
+                [
+                  8.090048,
+                  53.63775
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q3857",
       "names": [
         {
@@ -1083,20 +3028,45 @@
           "toponym": "Wilhelmshaven"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          8.090048,
+          53.63775
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Wilhelmshaven"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          8.087458,
+          53.502071
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q22865",
-          "label": "independent city"
+          "label": "independent city of Germany"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q253030",
           "label": "major regional center"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q42744322",
+          "label": "urban municipality of Germany"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          7.993567,
+          53.60349
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1105,6 +3075,45 @@
           "value": "city in the region Umbria, in Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          12.7871883,
+          42.5515455
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  12.6318582,
+                  42.6757773
+                ],
+                [
+                  12.5421496,
+                  42.6438747
+                ],
+                [
+                  12.7111355,
+                  42.5007943
+                ],
+                [
+                  12.7871883,
+                  42.5515455
+                ],
+                [
+                  12.6318582,
+                  42.6757773
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q8621",
       "names": [
         {
@@ -1112,8 +3121,22 @@
           "toponym": "Terni"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          12.6318582,
+          42.6757773
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Terni"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          12.7111355,
+          42.5007943
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1129,7 +3152,14 @@
           "identifier": "http://www.wikidata.org/entity/Q747074",
           "label": "comune of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          12.5421496,
+          42.6438747
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1138,6 +3168,45 @@
           "value": "commune in Loire-Atlantique, France"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -2.173214,
+          47.289399
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.249253,
+                  47.32063
+                ],
+                [
+                  -2.310499,
+                  47.282559
+                ],
+                [
+                  -2.298356,
+                  47.233221
+                ],
+                [
+                  -2.173214,
+                  47.289399
+                ],
+                [
+                  -2.249253,
+                  47.32063
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q152027",
       "names": [
         {
@@ -1145,8 +3214,22 @@
           "toponym": "Saint-Nazaire"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -2.249253,
+          47.32063
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Saint-Nazaire"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -2.298356,
+          47.233221
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1154,7 +3237,14 @@
           "identifier": "http://www.wikidata.org/entity/Q484170",
           "label": "commune of France"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -2.310499,
+          47.282559
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1163,6 +3253,70 @@
           "value": "commune in Puy-de-Dôme, France"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.033333,
+                  45.716667
+                ],
+                [
+                  3,
+                  45.758333
+                ],
+                [
+                  3,
+                  45.775
+                ],
+                [
+                  3.025,
+                  45.875
+                ],
+                [
+                  3.041667,
+                  45.916667
+                ],
+                [
+                  3.066667,
+                  45.941667
+                ],
+                [
+                  3.075,
+                  45.941667
+                ],
+                [
+                  3.141667,
+                  45.9
+                ],
+                [
+                  3.183333,
+                  45.808333
+                ],
+                [
+                  3.183333,
+                  45.8
+                ],
+                [
+                  3.15,
+                  45.725
+                ],
+                [
+                  3.05,
+                  45.716667
+                ],
+                [
+                  3.033333,
+                  45.716667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q42168",
       "names": [
         {
@@ -1192,6 +3346,45 @@
           "value": "former town in Shizuoka prefecture, Japan"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          138.145381,
+          34.697635
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  138.093665,
+                  34.703821
+                ],
+                [
+                  138.067616,
+                  34.677032
+                ],
+                [
+                  138.102032,
+                  34.657837
+                ],
+                [
+                  138.145381,
+                  34.697635
+                ],
+                [
+                  138.093665,
+                  34.703821
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q7079823",
       "names": [
         {
@@ -1203,8 +3396,22 @@
           "toponym": "Ogasa, Shizuoka"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          138.093665,
+          34.703821
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Ogasa"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          138.102032,
+          34.657837
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1212,7 +3419,14 @@
           "identifier": "http://www.wikidata.org/entity/Q18663566",
           "label": "dissolved municipality of Japan"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          138.067616,
+          34.677032
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
@@ -1221,6 +3435,74 @@
           "value": "largest city in Turkey"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.35,
+                  40.75
+                ],
+                [
+                  28.2,
+                  41.066667
+                ],
+                [
+                  28.2,
+                  41.091667
+                ],
+                [
+                  28.6,
+                  41.183333
+                ],
+                [
+                  28.975,
+                  41.25
+                ],
+                [
+                  29.05,
+                  41.258333
+                ],
+                [
+                  29.058333,
+                  41.258333
+                ],
+                [
+                  29.091667,
+                  41.25
+                ],
+                [
+                  29.116667,
+                  41.241667
+                ],
+                [
+                  29.475,
+                  40.883333
+                ],
+                [
+                  29.558333,
+                  40.791667
+                ],
+                [
+                  29.558333,
+                  40.766667
+                ],
+                [
+                  29.4,
+                  40.75
+                ],
+                [
+                  29.35,
+                  40.75
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
       "id": "http://www.wikidata.org/entity/Q406",
       "names": [
         {

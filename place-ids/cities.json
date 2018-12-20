@@ -1,86 +1,114 @@
 {
   "Arezzo": {
-    "id": "http://www.wikidata.org/entity/Q13378"
+    "id": "http://www.wikidata.org/entity/Q13378",
+    "covers": ["Arezzo"]
   },
   "Barcelona": {
-    "id": "http://www.wikidata.org/entity/Q1492"
+    "id": "http://www.wikidata.org/entity/Q1492",
+    "covers": ["Barcelona1"]
   },
   "Berlin": {
-    "id": "http://www.wikidata.org/entity/Q64"
+    "id": "http://www.wikidata.org/entity/Q64",
+    "covers": ["Berlin"]
   },
   "Bologna": {
-    "id": "http://www.wikidata.org/entity/Q1891"
+    "id": "http://www.wikidata.org/entity/Q1891",
+    "covers": ["Bologna"]
   },
   "Charleston": {
-    "id": "http://www.wikidata.org/entity/Q47716"
+    "id": "http://www.wikidata.org/entity/Q47716",
+    "covers": ["Charleston1"]
   },
   "Chicago": {
-    "id": "http://www.wikidata.org/entity/Q1297"
+    "id": "http://www.wikidata.org/entity/Q1297",
+    "covers": ["Chicago"]
   },
   "Clermont-Ferrand": {
-    "id": "http://www.wikidata.org/entity/Q42168"
+    "id": "http://www.wikidata.org/entity/Q42168",
+    "covers": ["Clermont-Ferrand"]
   },
   "Emden": {
-    "id": "http://www.wikidata.org/entity/Q4174"
+    "id": "http://www.wikidata.org/entity/Q4174",
+    "covers": ["Emden"]
   },
   "Empoli": {
-    "id": "http://www.wikidata.org/entity/Q6697"
+    "id": "http://www.wikidata.org/entity/Q6697",
+    "covers": []
   },
   "Hamburg": {
-    "id": "http://www.wikidata.org/entity/Q1055"
+    "id": "http://www.wikidata.org/entity/Q1055",
+    "covers": ["Hamburg"]
   },
   "Istanbul": {
-    "id": "http://www.wikidata.org/entity/Q406"
+    "id": "http://www.wikidata.org/entity/Q406",
+    "covers": ["Istanbul"]
   },
   "Kakegawa-shi": {
-    "id": "http://www.wikidata.org/entity/Q823988"
+    "id": "http://www.wikidata.org/entity/Q823988",
+    "covers": []
   },
   "Liège": {
-    "id": "http://www.wikidata.org/entity/Q3992"
+    "id": "http://www.wikidata.org/entity/Q3992",
+    "covers": ["Liege"]
   },
   "London": {
-    "id": "http://www.wikidata.org/entity/Q84"
+    "id": "http://www.wikidata.org/entity/Q84",
+    "covers": ["London2"]
   },
   "Mexico City": {
-    "id": "http://www.wikidata.org/entity/Q1489"
+    "id": "http://www.wikidata.org/entity/Q1489",
+    "covers": ["Mexico City"]
   },
   "Milan": {
-    "id": "http://www.wikidata.org/entity/Q490"
+    "id": "http://www.wikidata.org/entity/Q490",
+    "covers": ["Milan"]
   },
   "Naples": {
-    "id": "http://www.wikidata.org/entity/Q2634"
+    "id": "http://www.wikidata.org/entity/Q2634",
+    "covers": ["Naples2"]
   },
   "Ogasa": {
-    "id": "http://www.wikidata.org/entity/Q7079823"
+    "id": "http://www.wikidata.org/entity/Q7079823",
+    "covers": []
   },
   "Palermo": {
-    "id": "http://www.wikidata.org/entity/Q2656"
+    "id": "http://www.wikidata.org/entity/Q2656",
+    "covers": ["Palermo"]
   },
   "Philadelphia": {
-    "id": "http://www.wikidata.org/entity/Q1345"
+    "id": "http://www.wikidata.org/entity/Q1345",
+    "covers": ["Philadelphia"]
   },
   "Ploiești": {
-    "id": "http://www.wikidata.org/entity/Q179585"
+    "id": "http://www.wikidata.org/entity/Q179585",
+    "covers": ["Ploiesti"]
   },
   "Rome": {
-    "id": "http://www.wikidata.org/entity/Q220"
+    "id": "http://www.wikidata.org/entity/Q220",
+    "covers": ["Rome"]
   },
   "Saint-Nazaire": {
-    "id": "http://www.wikidata.org/entity/Q152027"
+    "id": "http://www.wikidata.org/entity/Q152027",
+    "covers": []
   },
   "Shimonoseki-shi": {
-    "id": "http://www.wikidata.org/entity/Q203308"
+    "id": "http://www.wikidata.org/entity/Q203308",
+    "covers": ["Shimonoseki"]
   },
   "Tarragona": {
-    "id": "http://www.wikidata.org/entity/Q15088"
+    "id": "http://www.wikidata.org/entity/Q15088",
+    "covers": ["Tarragona"]
   },
   "Terni": {
-    "id": "http://www.wikidata.org/entity/Q8621"
+    "id": "http://www.wikidata.org/entity/Q8621",
+    "covers": []
   },
   "Tokyo": {
-    "id": "http://www.wikidata.org/entity/Q1490"
+    "id": "http://www.wikidata.org/entity/Q1490",
+    "covers": ["Tokyo"]
   },
   "Wilhelmshaven": {
-    "id": "http://www.wikidata.org/entity/Q3857"
+    "id": "http://www.wikidata.org/entity/Q3857",
+    "covers": []
   }
 }

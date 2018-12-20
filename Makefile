@@ -64,6 +64,12 @@ geometries/scale-rank-0.json: \
 	mkdir -p geometries
 	jq -f $^ > $@
 
+geometries/urban-areas.json: \
+	jq/urban-areas.jq \
+	ne/ne_10m_urban_areas_landscan.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
 geometries/western-russia.json: \
 	jq/western-russia.jq \
 	ne/ne_10m_admin_0_scale_rank.json
@@ -85,6 +91,17 @@ geometries/subregions/%.json: \
 	place-ids/subregions.json \
 	geometries/admin-0-and-western-russia.json
 	mkdir -p geometries/subregions
+	./sh/place.sh $^ $* > $@
+
+geometries/cities.json: \
+	place-ids/cities.json \
+	geometries/urban-areas.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/cities/%.json: \
+	place-ids/cities.json \
+	geometries/urban-areas.json
+	mkdir -p geometries/cities
 	./sh/place.sh $^ $* > $@
 
 geometries/english-admin-1.json: \

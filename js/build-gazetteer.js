@@ -4,6 +4,8 @@ const fs = require('fs')
     , jsonld = require('jsonld')
     , R = require('ramda')
     , stringify = require('jsonld-stable-stringify')
+    , wkx = require('wkx')
+    , convex = require('@turf/convex').default
     , { sleep } = require('sleep')
     , linkedPlace = require('./linked-place')
 
@@ -26,9 +28,11 @@ const context = {
   foaf: 'http://xmlns.com/foaf/0.1/',
   geojson: 'https://purl.org/geojson/vocab#',
   gn: 'http://www.geonames.org/ontology#',
+  gsp: 'http://www.opengis.net/ont/geosparql#',
   lpo: 'http://linkedpasts.org/ontology/lpo_latest.ttl#',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+  wdt: 'http://www.wikidata.org/prop/direct/',
 
   id: '@id',
   type: '@type',
@@ -48,6 +52,10 @@ const context = {
   title: 'dcterms:title',
   toponym: 'lpo:toponym',
   value: 'rdf:value',
+  northernmostPoint: 'wdt:P1332',
+  southernmostPoint: 'wdt:P1333',
+  easternmostPoint: 'wdt:P1334',
+  westernmostPoint: 'wdt:P1335',
 
   types: {
     '@id': 'lpo:type_attestation',
@@ -138,6 +146,39 @@ const stripBlankNodeIDs = R.when(
   )
 )
 
+const wktToGeoJSON = value => value.type === 'gsp:wktLiteral'
+  ? R.pipe(R.toUpper, wkx.Geometry.parse, g => g.toGeoJSON())(value['@value'])
+  : value
+
+const addGeometryFromExtremePoints = place => {
+  if (R.has('northernmostPoint', place) &&
+      R.has('westernmostPoint',  place) &&
+      R.has('southernmostPoint', place) &&
+      R.has('easternmostPoint',  place)) {
+
+    return R.assoc(
+      'geometry',
+      {type: 'GeometryCollection',
+       geometries:[
+         {type: 'Polygon',
+          coordinates: [[
+            place.northernmostPoint.coordinates,
+            place.westernmostPoint.coordinates,
+            place.southernmostPoint.coordinates,
+            place.easternmostPoint.coordinates,
+            place.northernmostPoint.coordinates
+          ]]
+         }
+       ]
+      },
+      place
+    )
+
+  } else {
+    return place
+  }
+}
+
 const getWikidataPlace = (id = null, types = [], constraints = []) => (
   new Promise((resolve, reject) =>
     queryWikidata(id, types, constraints)
@@ -147,6 +188,8 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
       .then(frameJSONLD)
       .then(R.path(['@graph', 0]))
       .then(stripBlankNodeIDs)
+      .then(R.map(wktToGeoJSON))
+      .then(addGeometryFromExtremePoints)
       .then(resolve)
       .catch(reject)
   )
@@ -253,8 +296,12 @@ const makeFeature = (place, gazetteer) => new Promise(
       if (place.geometry) {
         feature.geometry = {
           type: 'GeometryCollection',
-          geometries: [place.geometry]
+          geometries: [convex(place).geometry]
         }
+      }
+      if (! feature.geometry) {
+        console.error(
+          `Missing geometry: ${feature.properties.title} <${feature.id}>`)
       }
       resolve(feature)
     }).catch(o => resolve(`${o.error ? o.error : o}`))
@@ -286,10 +333,9 @@ async function main(geometries, gazetteer, debugPlace) {
 
 const usage = () => {
   console.error(`
-Usage: ${process.argv[1]} [geometries JSON] [gazetteer] [country code]
+Usage: ${process.argv[1]} [geometries JSON] [gazetteer]
 
-[gazetteer] must be one of: ${Object.keys(GAZETTEERS)}
-[country code] is optional.
+[gazetteer] must be one of: ${R.join(', ', Object.keys(GAZETTEERS))}
 `)
   process.exit(1)
 }

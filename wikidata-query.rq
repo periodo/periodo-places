@@ -12,7 +12,11 @@ CONSTRUCT {
     rdfs:label ?label ;
     skos:altLabel ?altLabel ;
     schema:description ?description ;
-    foaf:depiction ?flag .
+    foaf:depiction ?flag ;
+    wdt:P1332 ?north ;
+    wdt:P1333 ?south ;
+    wdt:P1334 ?east ;
+    wdt:P1335 ?west .
 
   ?type rdfs:label ?typeLabel .
 }
@@ -32,6 +36,14 @@ WHERE {
   ?type rdfs:label ?typeLabel .
 
   OPTIONAL { ?place wdt:P41 ?flag . }
+
+  OPTIONAL {
+    ?place
+      wdt:P1332 ?north ;
+      wdt:P1333 ?south ;
+      wdt:P1334 ?east ;
+      wdt:P1335 ?west .
+  }
 
   OPTIONAL {
     ?place skos:altLabel ?altLabel .

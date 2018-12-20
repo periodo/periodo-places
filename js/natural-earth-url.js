@@ -4,6 +4,8 @@ const categoryOf = name => {
     case 'admin_0_map_units':
     case 'admin_0_scale_rank':
     case 'admin_1_states_provinces':
+    case 'populated_places':
+    case 'urban_areas_landscan':
       return 'cultural'
     case 'geography_regions_polys':
       return 'physical'
