@@ -50,6 +50,7 @@ del(
 ."New Caledonia",
 ."Norfolk Island",
 ."Northern Cyprus",
+."Northern Mariana Islands",
 ."Palmyra Atoll",
 ."Paracel Islands",
 ."Puerto Rico",
