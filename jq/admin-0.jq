@@ -6,6 +6,7 @@
 | map({(.properties.NAME_LONG): {code: .properties.ISO_A2,
                                  subregion: .properties.SUBREGION,
                                  scalerank: .properties.scalerank,
+                                 type: "Feature",
                                  geometry}})
 # merge objects (keys replacing existing keys where name is same)
 | add

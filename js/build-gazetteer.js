@@ -5,9 +5,9 @@ const fs = require('fs')
     , R = require('ramda')
     , stringify = require('jsonld-stable-stringify')
     , wkx = require('wkx')
-    , convex = require('@turf/convex').default
     , { sleep } = require('sleep')
     , linkedPlace = require('./linked-place')
+    , convexHull = require('./convex-hull')
 
 const GAZETTEERS = {
   cities: 'Cities',
@@ -296,7 +296,7 @@ const makeFeature = (place, gazetteer) => new Promise(
       if (place.geometry) {
         feature.geometry = {
           type: 'GeometryCollection',
-          geometries: [convex(place).geometry]
+          geometries: [convexHull(place.geometry)]
         }
       }
       if (! feature.geometry) {

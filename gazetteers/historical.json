@@ -19,10 +19,12 @@
       "@container": "@set",
       "@id": "dcterms:description"
     },
+    "easternmostPoint": "wdt:P1334",
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
     "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
     "identifier": {
       "@id": "dcterms:identifier",
@@ -35,9 +37,11 @@
       "@container": "@set",
       "@id": "lpo:name_attestation"
     },
+    "northernmostPoint": "wdt:P1332",
     "properties": "geojson:properties",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
     "title": "dcterms:title",
     "toponym": "lpo:toponym",
     "type": "@type",
@@ -45,7 +49,9 @@
       "@container": "@set",
       "@id": "lpo:type_attestation"
     },
-    "value": "rdf:value"
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
   },
   "features": [
     {
@@ -745,7 +751,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Iron Age kingdom centred on Lake Van in the Armenian Highlands"
+          "value": "Iron Age kingdom located in a large region around Lake Van"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q185068",
@@ -1108,7 +1114,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient kingdom on the northern periphery of Classical Greece"
+          "value": "ancient kingdom"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q83958",
@@ -1131,11 +1137,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Macedonian kingdom"
+          "toponym": "Macedonian Kingdom"
         }
       ],
       "properties": {
-        "title": "Macedonian kingdom"
+        "title": "Macedonia"
       },
       "type": "Feature",
       "types": [
@@ -1302,6 +1308,10 @@
       ],
       "id": "http://www.wikidata.org/entity/Q542854",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Gordion"
+        },
         {
           "lang": "en",
           "toponym": "Gordium"
