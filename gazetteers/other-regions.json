@@ -1,0 +1,651 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Abkhazia%20%28GE%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20Abkhazia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in the Caucasus, de facto independent state of Georgia and not recognized internationally"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q23334",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Abchasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abhkazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhasia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazeti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazia Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazian Autonomous Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazian Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhazis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abkhaziya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ap'khazet'is Avtonomiuri Respublika"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apkhazeti"
+        },
+        {
+          "lang": "en",
+          "toponym": "Apsny"
+        },
+        {
+          "lang": "en",
+          "toponym": "Autonomous republic of Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Communications in Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Abkhazia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Аҧсны Аҳәынҭқарра"
+        },
+        {
+          "lang": "en",
+          "toponym": "Аҧсны"
+        },
+        {
+          "lang": "en",
+          "toponym": "აფხაზეთი"
+        }
+      ],
+      "properties": {
+        "title": "Abkhazia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region on the eastern coast of the Mediterranean Sea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q39760",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gaza Strip"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gaza"
+        }
+      ],
+      "properties": {
+        "title": "Gaza Strip"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2577883",
+          "label": "occupied territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q45220060",
+          "label": "region of Palestine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20England%20pine%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographical region in the northeastern United States"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q18389",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "New England"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Englander"
+        }
+      ],
+      "properties": {
+        "title": "New England"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q518261",
+          "label": "cultural area"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Cultural area in the Americas"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q13703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mesoamerica"
+        }
+      ],
+      "properties": {
+        "title": "Mesoamerica"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15733622",
+          "label": "super cultural area"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1247159",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Messenia"
+        }
+      ],
+      "properties": {
+        "title": "Messenia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "crescent-shaped region containing the moist and fertile land of Western Asia, and the Nile Valley and Nile Delta of northeast Africa"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q170526",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fertile Crescent"
+        }
+      ],
+      "properties": {
+        "title": "Fertile Crescent"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former country, now a conflict territory between India and Pakistan"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q43100",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kashmir"
+        },
+        {
+          "lang": "en",
+          "toponym": "city of apples"
+        }
+      ],
+      "properties": {
+        "title": "Kashmir"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic and cultural region consisting of the eastern Mediterranean between Anatolia and Egypt"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q81483",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Mediterranean"
+        },
+        {
+          "lang": "en",
+          "toponym": "Levant"
+        }
+      ],
+      "properties": {
+        "title": "Levant"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region in the land of lsrael. The birthplace of the Jewish entity"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q104028",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Judea"
+        }
+      ],
+      "properties": {
+        "title": "Judea"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1058785",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "north India"
+        },
+        {
+          "lang": "en",
+          "toponym": "northern India"
+        }
+      ],
+      "properties": {
+        "title": "north India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1151567",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western region of India"
+        }
+      ],
+      "properties": {
+        "title": "West India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic region"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q542146",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South India"
+        }
+      ],
+      "properties": {
+        "title": "South India"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geopolitical region located on the border of Eastern Europe and Western Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q200173",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Caucasus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Transcaucasia"
+        }
+      ],
+      "properties": {
+        "title": "South Caucasus"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1496967",
+          "label": "territorial entity"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic region of Germany"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q152243",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rhineland"
+        }
+      ],
+      "properties": {
+        "title": "Rhineland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "part of the Palestinian territories near the Mediterranean coast of Western Asia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q36678",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cisjordan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Palestine"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Bank"
+        }
+      ],
+      "properties": {
+        "title": "West Bank"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2577883",
+          "label": "occupied territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q45220060",
+          "label": "region of Palestine"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of central western Italy in which city of Rome was founded"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1048669",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Latium"
+        }
+      ],
+      "properties": {
+        "title": "Latium"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of lands around the Mediterranean Sea that have a Mediterranean climate"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q72499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mediterranea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mediterranean Basin"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mediterranean region"
+        }
+      ],
+      "properties": {
+        "title": "Mediterranean Basin"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549534",
+          "label": "Greater Region"
+        }
+      ]
+    }
+  ],
+  "title": "Other regions",
+  "type": "FeatureCollection"
+}

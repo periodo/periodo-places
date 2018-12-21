@@ -17,6 +17,7 @@ const GAZETTEERS = {
   'geographic-regions': 'Geographic regions',
   historical: 'Historical places',
   'italian-regions': 'Italian regions',
+  'other-regions': 'Other regions',
   subregions: 'Subcontinental regions',
   'spanish-communities': 'Spanish autonomous communities',
   'us-states': 'US states'
@@ -272,8 +273,9 @@ const makeFeature = (place, gazetteer) => new Promise(
       case 'continents':
         promise = getWikidataContinent(place.id)
         break
-      case 'subregions':
       case 'geographic-regions':
+      case 'other-regions':
+      case 'subregions':
         promise = getWikidataRegion(place.id)
         break
       case 'english-counties':

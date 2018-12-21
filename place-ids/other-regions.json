@@ -1,0 +1,53 @@
+{
+  "Abkhazia": {
+    "id": "http://www.wikidata.org/entity/Q23334"
+  },
+  "Fertile Crescent": {
+    "id": "http://www.wikidata.org/entity/Q170526"
+  },
+  "Gaza Strip": {
+    "id": "http://www.wikidata.org/entity/Q39760"
+  },
+  "Judea": {
+    "id": "http://www.wikidata.org/entity/Q104028"
+  },
+  "Kashmir": {
+    "id": "http://www.wikidata.org/entity/Q43100"
+  },
+  "Latium": {
+    "id": "http://www.wikidata.org/entity/Q1048669"
+  },
+  "Levant": {
+    "id": "http://www.wikidata.org/entity/Q81483"
+  },
+  "Mediterranean Basin": {
+    "id": "http://www.wikidata.org/entity/Q72499"
+  },
+  "Mesoamerica": {
+    "id": "http://www.wikidata.org/entity/Q13703"
+  },
+  "Messenia": {
+    "id": "http://www.wikidata.org/entity/Q1247159"
+  },
+  "New England": {
+    "id": "http://www.wikidata.org/entity/Q18389"
+  },
+  "North India": {
+    "id": "http://www.wikidata.org/entity/Q1058785"
+  },
+  "Rhineland": {
+    "id": "http://www.wikidata.org/entity/Q152243"
+  },
+  "South Caucasus": {
+    "id": "http://www.wikidata.org/entity/Q200173"
+  },
+  "South India": {
+    "id": "http://www.wikidata.org/entity/Q542146"
+  },
+  "West Bank": {
+    "id": "http://www.wikidata.org/entity/Q36678"
+  },
+  "West India": {
+    "id": "http://www.wikidata.org/entity/Q1151567"
+  }
+}

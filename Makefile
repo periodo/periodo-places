@@ -6,6 +6,7 @@ GAZETTEERS := \
 	gazetteers/geographic-regions.json \
 	gazetteers/historical.json \
 	gazetteers/italian-regions.json \
+	gazetteers/other-regions.json \
 	gazetteers/spanish-communities.json \
 	gazetteers/subregions.json \
 	gazetteers/us-states.json

@@ -11,6 +11,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Geographic regions gazetteer**<br>
   https://data.perio.do/graphs/places/geographic-regions.json
 
+* Other regions gazetteer<br>
+  https://data.perio.do/graphs/places/other-regions.json
+
 * **Countries gazetteer**<br>
   https://data.perio.do/graphs/places/countries.json
 
@@ -64,6 +67,11 @@ This gazetteer was created by:
 1. finding PeriodO periods with geographic regions in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q82794 geographic region](https://www.wikidata.org/wiki/Q82794), and then
 
 1. taking region geometries from the [Natural Earth 1:10m physical vectors for label areas](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/).
+
+
+### Other regions gazetteer
+
+This gazetteer was created by finding PeriodO periods with miscellaneous regions in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q82794 geographic region](https://www.wikidata.org/wiki/Q82794). It currently does not have any geometries.
 
 
 ### Countries gazetteer
