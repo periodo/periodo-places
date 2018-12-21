@@ -1,6 +1,6 @@
 ## PeriodO placename gazetteers
 
-This repository contains custom placename gazetteers used for indicating the spatial coverage of PeriodO periods. Gazetteers in bold have geometry (boundary polygon) information.
+This repository contains custom placename gazetteers used for indicating the spatial coverage of PeriodO periods. Gazetteers in bold have geometry (boundary polygon) information. To keep these gazetteers as small as possible, and to communicate the sense in which we use them, the published geometries are [convex hulls](https://en.wikipedia.org/wiki/Convex_hull) of the more detailed boundary polygons.
 
 * **Continents gazetteer**<br>
   https://data.perio.do/graphs/places/continents.json
@@ -11,7 +11,7 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Countries gazetteer**<br>
   https://data.perio.do/graphs/places/countries.json
 
-* World cities gazetteer<br>
+* **World cities gazetteer**<br>
   https://data.perio.do/graphs/places/cities.json
 
 * **U.S. states gazetteer**<br>
@@ -69,7 +69,11 @@ The reason for the merging of countries and map units in step one is that in som
 
 ### World cities gazetteer
 
-This gazetteer was created by finding PeriodO periods with cities in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q486972 human settlement](https://www.wikidata.org/wiki/Q486972). It currently does not have any geometries.
+This gazetteer was created by:
+
+1. finding PeriodO periods with cities in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q486972 human settlement](https://www.wikidata.org/wiki/Q486972), and then
+
+1. using the [Natural Earth 1:10m landscan urban areas](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/) to derive geometries for these cities (see [place-ids/cities.json](place-ids/cities.json) for the mapping from Wikidata names to NE names).
 
 
 ### U.S. states gazetteer
