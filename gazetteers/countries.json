@@ -712,6 +712,77 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Anguilla.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British Overseas Territory in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -63.001221,
+                  18.221777
+                ],
+                [
+                  -63.16001,
+                  18.171387
+                ],
+                [
+                  -63.15332,
+                  18.200293
+                ],
+                [
+                  -63.026025,
+                  18.269727
+                ],
+                [
+                  -62.97959,
+                  18.264795
+                ],
+                [
+                  -63.001221,
+                  18.221777
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q25228",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Anguilla"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇦🇮"
+        }
+      ],
+      "properties": {
+        "ccode": "AI",
+        "title": "Anguilla"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Antigua%20and%20Barbuda.svg"
         }
       ],
@@ -2481,6 +2552,145 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bermuda.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British overseas territory in the North Atlantic Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -64.845068,
+                  32.262305
+                ],
+                [
+                  -64.862842,
+                  32.273877
+                ],
+                [
+                  -64.694629,
+                  32.386914
+                ],
+                [
+                  -64.668311,
+                  32.381934
+                ],
+                [
+                  -64.730273,
+                  32.293457
+                ],
+                [
+                  -64.820117,
+                  32.259619
+                ],
+                [
+                  -64.845068,
+                  32.262305
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23635",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Atlantic/Bermuda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bermoothes"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bermuda Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bermuda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bermudas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bermudian Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Colony of Bermuda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Devil's Isles"
+        },
+        {
+          "lang": "en",
+          "toponym": "Isle of Devils"
+        },
+        {
+          "lang": "en",
+          "toponym": "Somers Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Somers Isles"
+        },
+        {
+          "lang": "en",
+          "toponym": "Summer's Isles"
+        },
+        {
+          "lang": "en",
+          "toponym": "Summers' Isles"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of Bermuda"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Somers Isles"
+        },
+        {
+          "lang": "en",
+          "toponym": "Virgineola"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇧🇲"
+        }
+      ],
+      "properties": {
+        "ccode": "BM",
+        "title": "Bermuda"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1402592",
+          "label": "island group"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bhutan.svg"
         }
       ],
@@ -4072,10 +4282,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Cameroon"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇲"
         }
       ],
       "properties": {
@@ -14496,6 +14702,81 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montserrat.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British Overseas Territory in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -62.221631,
+                  16.699512
+                ],
+                [
+                  -62.223047,
+                  16.751562
+                ],
+                [
+                  -62.191357,
+                  16.804395
+                ],
+                [
+                  -62.175781,
+                  16.80957
+                ],
+                [
+                  -62.148438,
+                  16.740332
+                ],
+                [
+                  -62.154248,
+                  16.681201
+                ],
+                [
+                  -62.221631,
+                  16.699512
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13353",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Montserrat"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇲🇸"
+        }
+      ],
+      "properties": {
+        "ccode": "MS",
+        "title": "Montserrat"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Morocco.svg"
         }
       ],
@@ -17979,6 +18260,105 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Helena.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British overseas territory in the southern Atlantic Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -14.408691,
+                  -7.96748
+                ],
+                [
+                  -14.414941,
+                  -7.94375
+                ],
+                [
+                  -14.398584,
+                  -7.905762
+                ],
+                [
+                  -14.383643,
+                  -7.882617
+                ],
+                [
+                  -14.3604,
+                  -7.885938
+                ],
+                [
+                  -14.328857,
+                  -7.912598
+                ],
+                [
+                  -14.302539,
+                  -7.935449
+                ],
+                [
+                  -5.6625,
+                  -15.912793
+                ],
+                [
+                  -5.659717,
+                  -15.970898
+                ],
+                [
+                  -5.692139,
+                  -15.997754
+                ],
+                [
+                  -5.78252,
+                  -16.004004
+                ],
+                [
+                  -14.408691,
+                  -7.96748
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q192184",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saint Helena and Dependencies"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇸🇭"
+        }
+      ],
+      "properties": {
+        "ccode": "SH",
+        "title": "Saint Helena, Ascension and Tristan da Cunha"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Kitts%20and%20Nevis.svg"
         }
       ],
@@ -20161,6 +20541,117 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Georgia%20and%20the%20South%20Sandwich%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British overseas territory in the Southern Atlantic Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -36.123633,
+                  -54.85293
+                ],
+                [
+                  -38.017432,
+                  -54.008008
+                ],
+                [
+                  -37.945508,
+                  -53.995605
+                ],
+                [
+                  -37.382227,
+                  -53.984082
+                ],
+                [
+                  -36.703809,
+                  -54.108105
+                ],
+                [
+                  -36.326465,
+                  -54.251172
+                ],
+                [
+                  -26.303467,
+                  -58.382227
+                ],
+                [
+                  -26.279395,
+                  -58.401758
+                ],
+                [
+                  -26.264111,
+                  -58.435156
+                ],
+                [
+                  -26.259863,
+                  -58.492285
+                ],
+                [
+                  -26.415332,
+                  -58.439844
+                ],
+                [
+                  -36.123633,
+                  -54.85293
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q35086",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "SGSSI"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Georgia and South Sandwich Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Georgia"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Sandwich Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇬🇸"
+        }
+      ],
+      "properties": {
+        "ccode": "GS",
+        "title": "South Georgia and the South Sandwich Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
     },
     {
       "depictions": [
@@ -23997,6 +24488,283 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20British%20Indian%20Ocean%20Territory.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "country in South Asia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  72.429102,
+                  -7.435352
+                ],
+                [
+                  72.349707,
+                  -7.263379
+                ],
+                [
+                  72.445605,
+                  -7.22041
+                ],
+                [
+                  72.493555,
+                  -7.261719
+                ],
+                [
+                  72.498535,
+                  -7.294824
+                ],
+                [
+                  72.491992,
+                  -7.377441
+                ],
+                [
+                  72.46875,
+                  -7.417188
+                ],
+                [
+                  72.429102,
+                  -7.435352
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q43448",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "British Indian Ocean Territory"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇮🇴"
+        }
+      ],
+      "properties": {
+        "ccode": "IO",
+        "title": "British Indian Ocean Territory"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20British%20Virgin%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British overseas territory in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -64.671826,
+                  18.399121
+                ],
+                [
+                  -64.695117,
+                  18.41167
+                ],
+                [
+                  -64.411426,
+                  18.751172
+                ],
+                [
+                  -64.323096,
+                  18.752686
+                ],
+                [
+                  -64.287891,
+                  18.740576
+                ],
+                [
+                  -64.273584,
+                  18.707129
+                ],
+                [
+                  -64.324658,
+                  18.51748
+                ],
+                [
+                  -64.395215,
+                  18.4646
+                ],
+                [
+                  -64.593652,
+                  18.402832
+                ],
+                [
+                  -64.671826,
+                  18.399121
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q25305",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "British Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇻🇬"
+        }
+      ],
+      "properties": {
+        "ccode": "VG",
+        "title": "British Virgin Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Cayman%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British Overseas Territory in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -81.404785,
+                  19.278418
+                ],
+                [
+                  -81.419092,
+                  19.374756
+                ],
+                [
+                  -81.391016,
+                  19.384912
+                ],
+                [
+                  -80.083643,
+                  19.706104
+                ],
+                [
+                  -80.067578,
+                  19.709961
+                ],
+                [
+                  -79.785156,
+                  19.765625
+                ],
+                [
+                  -79.766357,
+                  19.765723
+                ],
+                [
+                  -79.742285,
+                  19.757129
+                ],
+                [
+                  -79.742285,
+                  19.750879
+                ],
+                [
+                  -79.823389,
+                  19.711914
+                ],
+                [
+                  -79.870068,
+                  19.69668
+                ],
+                [
+                  -81.107129,
+                  19.305176
+                ],
+                [
+                  -81.303711,
+                  19.271875
+                ],
+                [
+                  -81.404785,
+                  19.278418
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5785",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cayman Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇰🇾"
+        }
+      ],
+      "properties": {
+        "ccode": "KY",
+        "title": "Cayman Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1402592",
+          "label": "island group"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Central%20African%20Republic.svg"
         }
       ],
@@ -24771,6 +25539,105 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Falkland%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "archipelago in the South Atlantic Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -60.7,
+                  -52.3
+                ],
+                [
+                  -61.2,
+                  -51.85
+                ],
+                [
+                  -60,
+                  -51.25
+                ],
+                [
+                  -58.55,
+                  -51.1
+                ],
+                [
+                  -57.75,
+                  -51.55
+                ],
+                [
+                  -58.05,
+                  -51.9
+                ],
+                [
+                  -59.4,
+                  -52.2
+                ],
+                [
+                  -60.7,
+                  -52.3
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q9648",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Falkland Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Falklands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islas Malvinas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Malvinas"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇫🇰"
+        }
+      ],
+      "properties": {
+        "ccode": "FK",
+        "title": "Falkland Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1351282",
+          "label": "crown colony of the British Empire"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q33837",
+          "label": "archipelago"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Faroe%20Islands.svg"
         }
       ],
@@ -25436,6 +26303,129 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Northern%20Mariana%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "American-dependent insular area in the western Pacific"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  145.157422,
+                  14.136914
+                ],
+                [
+                  145.152148,
+                  14.163623
+                ],
+                [
+                  145.645508,
+                  18.806787
+                ],
+                [
+                  145.690137,
+                  18.801611
+                ],
+                [
+                  145.706641,
+                  18.790479
+                ],
+                [
+                  145.835449,
+                  18.136768
+                ],
+                [
+                  145.821875,
+                  15.265381
+                ],
+                [
+                  145.782324,
+                  15.174609
+                ],
+                [
+                  145.749219,
+                  15.107227
+                ],
+                [
+                  145.264844,
+                  14.158105
+                ],
+                [
+                  145.215332,
+                  14.111328
+                ],
+                [
+                  145.17959,
+                  14.120996
+                ],
+                [
+                  145.157422,
+                  14.136914
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16644",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "CNMI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of the Northern Maria Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Mariana Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇲🇵"
+        }
+      ],
+      "properties": {
+        "ccode": "MP",
+        "title": "Northern Mariana Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg"
         }
       ],
@@ -25744,6 +26734,97 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Pitcairn%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British Overseas Territory in the Pacific Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -128.342187,
+                  -24.370703
+                ],
+                [
+                  -128.350195,
+                  -24.340234
+                ],
+                [
+                  -128.330127,
+                  -24.323242
+                ],
+                [
+                  -128.303613,
+                  -24.333594
+                ],
+                [
+                  -128.29082,
+                  -24.364648
+                ],
+                [
+                  -128.290088,
+                  -24.397363
+                ],
+                [
+                  -128.3,
+                  -24.412598
+                ],
+                [
+                  -128.320654,
+                  -24.399707
+                ],
+                [
+                  -128.342187,
+                  -24.370703
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q35672",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Pitcairn Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pitcairn, Henderson, Ducie and Oeno Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇵🇳"
+        }
+      ],
+      "properties": {
+        "ccode": "PN",
+        "title": "Pitcairn Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q33837",
+          "label": "archipelago"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
         }
       ]
     },
@@ -26105,6 +27186,97 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Turks%20and%20Caicos%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "British Overseas Territory in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -72.335449,
+                  21.758008
+                ],
+                [
+                  -72.342383,
+                  21.795312
+                ],
+                [
+                  -72.332812,
+                  21.851367
+                ],
+                [
+                  -72.010645,
+                  21.950439
+                ],
+                [
+                  -71.931543,
+                  21.951904
+                ],
+                [
+                  -71.668359,
+                  21.833447
+                ],
+                [
+                  -71.636914,
+                  21.787549
+                ],
+                [
+                  -71.665381,
+                  21.751709
+                ],
+                [
+                  -72.300879,
+                  21.755225
+                ],
+                [
+                  -72.335449,
+                  21.758008
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q18221",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Turks & Caicos"
+        },
+        {
+          "lang": "en",
+          "toponym": "Turks and Caicos Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇹🇨"
+        }
+      ],
+      "properties": {
+        "ccode": "TC",
+        "title": "Turks and Caicos Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q46395",
+          "label": "British Overseas Territory"
         }
       ]
     },

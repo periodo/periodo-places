@@ -33,8 +33,9 @@ ne/%.json: ne/%.shp ne/%.shx ne/%.dbf ne/%.prj
 	-lco COORDINATE_PRECISION=6 \
 	$@ $<
 
-# prioritize lower-res over higher-res: 110m > 50m > 10m
-# at each resolution, prioritize map_units over countries
+# Prioritize lower resolutions over higher resolutions at each
+# resolution, and prioritize map units over countries. This avoids
+# weird hulls due to distant colonies or far offshore islands.
 geometries/admin-0.json: \
 	jq/admin-0.jq \
 	ne/ne_10m_admin_0_countries.json \
@@ -46,21 +47,9 @@ geometries/admin-0.json: \
 	mkdir -p geometries
 	jq -s -f $^ > $@
 
-geometries/10m-admin-0.json: \
-	jq/admin-0.jq \
-	ne/ne_10m_admin_0_countries.json \
-	ne/ne_10m_admin_0_map_units.json
-	jq -s -f $^ > $@
-
-geometries/admin-1.json: \
-	jq/admin-1.jq \
-	ne/ne_110m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
-
 geometries/scale-rank-0.json: \
 	jq/scale-rank-0.jq \
-	ne/ne_110m_geography_regions_polys.json
+	ne/ne_10m_geography_regions_polys.json
 	mkdir -p geometries
 	jq -f $^ > $@
 
@@ -69,6 +58,12 @@ geometries/urban-areas.json: \
 	ne/ne_10m_urban_areas_landscan.json
 	mkdir -p geometries
 	jq -f $^ > $@
+
+geometries/10m-admin-0.json: \
+	jq/admin-0.jq \
+	ne/ne_10m_admin_0_countries.json \
+	ne/ne_10m_admin_0_map_units.json
+	jq -s -f $^ > $@
 
 geometries/western-russia.json: \
 	jq/western-russia.jq \
@@ -79,7 +74,8 @@ geometries/western-russia.json: \
 	| jq '{"Western Russia":{geometry}}' > $@
 
 geometries/admin-0-and-western-russia.json: \
-	geometries/10m-admin-0.json geometries/western-russia.json
+	geometries/10m-admin-0.json \
+	geometries/western-russia.json
 	jq -s '.[0] * .[1]' $^ > $@
 
 geometries/subregions.json: \
@@ -176,8 +172,15 @@ geometries/us-territories.json: \
 	geometries/admin-0.json
 	jq -f $^ > $@
 
+geometries/us-admin-1.json: \
+	jq/us-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
 geometries/us-states.json: \
-	geometries/admin-1.json geometries/us-territories.json
+	geometries/us-admin-1.json \
+	geometries/us-territories.json
 	jq -s '.[0] * .[1]' $^ > $@
 
 geometries/%.json: place-ids/%.json

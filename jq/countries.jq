@@ -2,9 +2,7 @@
 del(
 ."Adjara",
 ."Akrotiri",
-."Åland Islands",
 ."American Samoa",
-."Anguilla",
 ."Antarctica",
 ."Antigua",
 ."Ashmore and Cartier Islands",
@@ -13,22 +11,17 @@ del(
 ."Bajo Nuevo Bank (Petrel Islands)",
 ."Baker Island",
 ."Barbuda",
-."Bermuda",
 ."Bougainville",
 ."Bouvet Island",
 ."Brcko District",
-."British Indian Ocean Territory",
-."British Virgin Islands",
 ."Brussels",
 ."Caribbean Netherlands",
-."Cayman Islands",
 ."Christmas Island",
 ."Clipperton Island",
 ."Cocos Islands",
 ."Coral Sea Islands",
 ."Cyprus U.N. Buffer Zone",
 ."Dhekelia",
-."Falkland Islands",
 ."Federation of Bosnia and Herzegovina",
 ."Flemish Region",
 ."French Guiana",
@@ -53,20 +46,16 @@ del(
 ."Martinique",
 ."Mayotte",
 ."Midway Islands",
-."Montserrat",
 ."Navassa Island",
 ."New Caledonia",
 ."Norfolk Island",
 ."Northern Cyprus",
-."Northern Mariana Islands",
 ."Palmyra Atoll",
 ."Paracel Islands",
-."Pitcairn Islands",
 ."Puerto Rico",
 ."Puntland",
 ."Republic Srpska",
 ."Réunion",
-."Saint Helena",
 ."Saint Pierre and Miquelon",
 ."Saint-Barthélemy",
 ."Saint-Martin",
@@ -74,12 +63,10 @@ del(
 ."Serranilla Bank",
 ."Siachen Glacier",
 ."Somaliland",
-."South Georgia and the Islands",
 ."Spratly Islands",
 ."Svalbard Islands",
 ."Syrian Arab Republic", # duplicate of Syria due to inconsistent naming in NE
 ."Tokelau",
-."Turks and Caicos Islands",
 ."UNDOF Zone",
 ."US Naval Base Guantanamo Bay",
 ."United States Minor Outlying Islands",
@@ -89,12 +76,19 @@ del(
 ."Wallis and Futuna Islands",
 ."Walloon Region",
 ."West Bank",
-."Zanzibar"
+."Zanzibar",
+."Åland Islands"
 )
 # supply missing ISO 3166-1 alpha-2 codes
+| ."France".code = "FR"
 | ."Norway".code = "NO"
-| ."Papua New Guinea".code = "PG"
+| ."Somalia".code = "SO"
+| ."Georgia".code = "GE"
+| ."Iraq".code = "IQ"
+| ."Netherlands".code = "NL"
 | ."Serbia".code = "RS"
+| ."Portugal".code = "PT"
+| ."Papua New Guinea".code = "PG"
 # use ISO 3166-2 code for UK countries
 | ."England".code = "GB-ENG"
 | ."Northern Ireland".code = "GB-NIR"

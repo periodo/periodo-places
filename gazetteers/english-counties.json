@@ -63,7 +63,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "ceremonial county of England (use Q1053723 for administrative non-metropolitan county)"
         }
       ],
       "geometry": {
@@ -311,7 +311,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Ceremonial county in England (use Q21694636 for administrative non-metropolitan county)"
+          "value": "ceremonial county in England (use Q21694636 for administrative non-metropolitan county)"
         }
       ],
       "geometry": {
@@ -5235,7 +5235,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "metropolitan and ceremonial county in England"
         }
       ],
       "geometry": {
@@ -5664,115 +5664,6 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city and county in South West England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.633503,
-                  51.382135
-                ],
-                [
-                  -2.729388,
-                  51.496219
-                ],
-                [
-                  -2.678751,
-                  51.531304
-                ],
-                [
-                  -2.528832,
-                  51.480476
-                ],
-                [
-                  -2.518135,
-                  51.472414
-                ],
-                [
-                  -2.518135,
-                  51.44301
-                ],
-                [
-                  -2.520823,
-                  51.422908
-                ],
-                [
-                  -2.527489,
-                  51.408206
-                ],
-                [
-                  -2.539529,
-                  51.393452
-                ],
-                [
-                  -2.562293,
-                  51.38012
-                ],
-                [
-                  -2.60645,
-                  51.38012
-                ],
-                [
-                  -2.633503,
-                  51.382135
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23154",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Bristol"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bristol, England"
-        },
-        {
-          "lang": "en",
-          "toponym": "City of Bristol"
-        }
-      ],
-      "properties": {
-        "title": "Bristol"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1006876",
-          "label": "borough in the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q21503295",
-          "label": "district with city status"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
           "value": "county in England"
         }
       ],
@@ -5984,6 +5875,111 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q769628",
           "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district and county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.633503,
+                  51.382135
+                ],
+                [
+                  -2.729388,
+                  51.496219
+                ],
+                [
+                  -2.678751,
+                  51.531304
+                ],
+                [
+                  -2.528832,
+                  51.480476
+                ],
+                [
+                  -2.518135,
+                  51.472414
+                ],
+                [
+                  -2.518135,
+                  51.44301
+                ],
+                [
+                  -2.520823,
+                  51.422908
+                ],
+                [
+                  -2.527489,
+                  51.408206
+                ],
+                [
+                  -2.539529,
+                  51.393452
+                ],
+                [
+                  -2.562293,
+                  51.38012
+                ],
+                [
+                  -2.60645,
+                  51.38012
+                ],
+                [
+                  -2.633503,
+                  51.382135
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q21693433",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "City and county of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "City of Bristol"
+        }
+      ],
+      "properties": {
+        "title": "City of Bristol"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1006876",
+          "label": "borough in the United Kingdom"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q21503295",
+          "label": "district with city status"
         }
       ]
     },
