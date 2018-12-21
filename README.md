@@ -8,6 +8,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Subcontintental regions gazetteer**<br>
   https://data.perio.do/graphs/places/subregions.json
 
+* **Geographic regions gazetteer**<br>
+  https://data.perio.do/graphs/places/geographic-regions.json
+
 * **Countries gazetteer**<br>
   https://data.perio.do/graphs/places/countries.json
 
@@ -52,6 +55,15 @@ This gazetteer was created by:
 1. merging geometries of the units found in the Natural Earth data into geometries for subcontinental regions (see [place-ids/subregions.json](place-ids/subregions.json) for details), and
 
 1. querying Wikidata for instances of [Q82794 geographic region](https://www.wikidata.org/wiki/Q82794) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Geographic regions gazetteer
+
+This gazetteer was created by:
+
+1. finding PeriodO periods with geographic regions in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q82794 geographic region](https://www.wikidata.org/wiki/Q82794), and then
+
+1. taking region geometries from the [Natural Earth 1:10m physical vectors for label areas](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/).
 
 
 ### Countries gazetteer

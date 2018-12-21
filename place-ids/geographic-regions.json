@@ -1,0 +1,74 @@
+{
+  "Anatolia": {
+    "id": "http://www.wikidata.org/entity/Q51614",
+    "covers": [
+      "Anatolia"
+    ]
+  },
+  "Balkans": {
+    "id": "http://www.wikidata.org/entity/Q23522",
+    "covers": [
+      "Balkans"
+    ]
+  },
+  "British Isles": {
+    "id": "http://www.wikidata.org/entity/Q38272",
+    "covers": [
+      "British Isles"
+    ]
+  },
+  "Caucasus": {
+    "id": "http://www.wikidata.org/entity/Q18869",
+    "covers": [
+      "Caucasus Mountains"
+    ]
+  },
+  "Corsica": {
+    "id": "http://www.wikidata.org/entity/Q14112",
+    "covers": [
+      "Corsica"
+    ]
+  },
+  "Crete": {
+    "id": "http://www.wikidata.org/entity/Q34374",
+    "covers": [
+      "Crete"
+    ]
+  },
+  "Indochina": {
+    "id": "http://www.wikidata.org/entity/Q43467",
+    "covers": [
+      "Mainland Southeast Asia"
+    ]
+  },
+  "Ireland": {
+    "id": "http://www.wikidata.org/entity/Q22890",
+    "covers": [
+      "Ireland"
+    ]
+  },
+  "Korean Peninsula": {
+    "id": "http://www.wikidata.org/entity/Q483134",
+    "covers": [
+      "Korean Peninsula"
+    ]
+  },
+  "Majorca": {
+    "id": "http://www.wikidata.org/entity/Q8828",
+    "covers": [
+      "Majorca"
+    ]
+  },
+  "Malay Peninsula": {
+    "id": "http://www.wikidata.org/entity/Q18758",
+    "covers": [
+      "Malay Peninsula"
+    ]
+  },
+  "Tibet": {
+    "id": "http://www.wikidata.org/entity/Q17252",
+    "covers": [
+      "Tibetan Plateau"
+    ]
+  }
+}

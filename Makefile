@@ -3,6 +3,7 @@ GAZETTEERS := \
 	gazetteers/continents.json \
 	gazetteers/countries.json \
 	gazetteers/english-counties.json \
+	gazetteers/geographic-regions.json \
 	gazetteers/historical.json \
 	gazetteers/italian-regions.json \
 	gazetteers/spanish-communities.json \
@@ -49,6 +50,12 @@ geometries/admin-0.json: \
 
 geometries/scale-rank-0.json: \
 	jq/scale-rank-0.jq \
+	ne/ne_10m_geography_regions_polys.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/scale-ranks-1-5.json: \
+	jq/scale-ranks-1-5.jq \
 	ne/ne_10m_geography_regions_polys.json
 	mkdir -p geometries
 	jq -f $^ > $@
@@ -160,6 +167,17 @@ geometries/continents/%.json: \
 	place-ids/continents.json \
 	geometries/scale-rank-0.json
 	mkdir -p geometries/continents
+	./sh/place.sh $^ $* > $@
+
+geometries/geographic-regions.json: \
+	place-ids/geographic-regions.json \
+	geometries/scale-ranks-1-5.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/geographic-regions/%.json: \
+	place-ids/geographic-regions.json \
+	geometries/scale-ranks-1-5.json
+	mkdir -p geometries/geographic-regions
 	./sh/place.sh $^ $* > $@
 
 geometries/countries.json: \
