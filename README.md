@@ -36,10 +36,10 @@ This repository contains custom placename gazetteers used for indicating the spa
   https://data.perio.do/graphs/places/historical.json
 
 * All placename gazetteers<br>
-  https://data.perio.do/graphs/places/
+  https://data.perio.do/graphs/places.json
 
 * All graphs including placename gazetteers and the PeriodO dataset<br>
-  https://data.perio.do/graphs/
+  https://data.perio.do/graphs.json
 
 
 ### Continents gazetteer
