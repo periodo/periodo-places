@@ -1,4 +1,5 @@
 const fs = require('fs')
+    , split = require('split')
 
 const found = (id, gazetteers) => {
   for (let g of gazetteers) {
@@ -24,25 +25,23 @@ const findDuplicatePlaces = gazetteers => {
   }
 }
 
-function main() {
-  const mapping = fs.readFileSync(process.argv[2], 'utf8').split('\n')
+const loadGazetteers = () => {
   const gazetteers = []
-  for (let arg of process.argv.slice(3)) {
+  for (let arg of process.argv.slice(2)) {
     gazetteers.push(JSON.parse(fs.readFileSync(arg, 'utf8')))
   }
-  for (let line of mapping) {
-    if (line.length === 0) continue
-    const id = line.split('→')[1]
-    if (! found(id, gazetteers)) {
-      console.log(line)
-    }
-  }
-  findDuplicatePlaces(gazetteers)
+  return gazetteers
 }
 
-if (process.argv.length < 3) {
-  console.log(`Usage: ${process.argv[1]} [id mapping file]`)
-  process.exit(1)
+function main() {
+  console.log()
+  const gazetteers = loadGazetteers()
+  findDuplicatePlaces(gazetteers)
+  process.stdin.pipe(split()).on('data', id => {
+    if (id.length > 0 && ! found(id, gazetteers)) {
+      console.log(`Missing: ${id}`)
+    }
+  })
 }
 
 main()

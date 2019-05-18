@@ -210,15 +210,6 @@ gazetteers/%.json: geometries/%.json
 	mkdir -p gazetteers
 	node js/build-gazetteer.js $< $* > $@
 
-periodo-dataset.json:
-	curl -s -J -O https://data.perio.do/d.json
-
-legacy-place-ids.txt: jq/periodo-place-ids.jq periodo-dataset.json
-	jq -r -f $^ | sort | uniq > $@
-
-place-id-mappings.txt: legacy-place-ids.txt
-	node js/map-legacy-ids.js $< > $@
-
 all: $(GAZETTEERS)
 
 stage: all
@@ -227,16 +218,13 @@ stage: all
 deploy: all
 	./sh/deploy.sh
 
-check: place-id-mappings.txt $(GAZETTEERS)
-	node js/check-mapping.js $^
+check: $(GAZETTEERS)
+	curl -L -s https://data.perio.do/d.json | jq -r -f jq/periodo-place-ids.jq | sort | uniq | node js/check-gazetteers.js $^
 
 clean:
 	rm -rf \
 	geometries \
-	gazetteers \
-	periodo-dataset.json \
-	legacy-place-ids.txt \
-	place-id-mappings.txt
+	gazetteers
 
 superclean: clean
 	rm -rf ne
