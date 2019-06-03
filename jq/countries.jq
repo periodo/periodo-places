@@ -77,6 +77,7 @@ del(
 ."Wallis and Futuna Islands",
 ."Walloon Region",
 ."West Bank",
+."Western Sahara",
 ."Zanzibar",
 ."Åland Islands"
 )
