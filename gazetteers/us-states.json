@@ -800,7 +800,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of the United States"
+          "value": "state of the United States of America"
         }
       ],
       "geometry": {
@@ -1326,6 +1326,81 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20District%20of%20Columbia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal district of the United States of America, containing the capital city of the United States, Washington"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -77.022933,
+                  38.802768
+                ],
+                [
+                  -77.119781,
+                  38.934064
+                ],
+                [
+                  -77.079089,
+                  38.966517
+                ],
+                [
+                  -77.041949,
+                  38.996136
+                ],
+                [
+                  -76.909315,
+                  38.892975
+                ],
+                [
+                  -77.022933,
+                  38.802768
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3551781",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "D.C."
+        },
+        {
+          "lang": "en",
+          "toponym": "District of Columbia"
+        }
+      ],
+      "properties": {
+        "ccode": "US",
+        "title": "District of Columbia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg"
         }
       ],
@@ -1659,6 +1734,18 @@
         {
           "lang": "en",
           "toponym": "State of Georgia"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Empire State of the South"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Goober State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Peach State"
         }
       ],
       "properties": {
@@ -2174,11 +2261,23 @@
         },
         {
           "lang": "en",
+          "toponym": "Land of Lincoln"
+        },
+        {
+          "lang": "en",
+          "toponym": "Prairie State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Illinois"
         },
         {
           "lang": "en",
           "toponym": "The Land of Lincoln"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Prairie State"
         }
       ],
       "properties": {
@@ -3344,6 +3443,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q2221906",
+          "label": "geographic location"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
         }
@@ -3835,7 +3938,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State of the United States of America"
+          "value": "state of the United States of America"
         }
       ],
       "geometry": {
@@ -4903,10 +5006,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Empire State"
-        },
-        {
-          "lang": "en",
           "toponym": "New York State"
         },
         {
@@ -5199,6 +5298,129 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Northern%20Mariana%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "American-dependent insular area in the western Pacific"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  145.157422,
+                  14.136914
+                ],
+                [
+                  145.152148,
+                  14.163623
+                ],
+                [
+                  145.645508,
+                  18.806787
+                ],
+                [
+                  145.690137,
+                  18.801611
+                ],
+                [
+                  145.706641,
+                  18.790479
+                ],
+                [
+                  145.835449,
+                  18.136768
+                ],
+                [
+                  145.821875,
+                  15.265381
+                ],
+                [
+                  145.782324,
+                  15.174609
+                ],
+                [
+                  145.749219,
+                  15.107227
+                ],
+                [
+                  145.264844,
+                  14.158105
+                ],
+                [
+                  145.215332,
+                  14.111328
+                ],
+                [
+                  145.17959,
+                  14.120996
+                ],
+                [
+                  145.157422,
+                  14.136914
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q16644",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "CNMI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of the Northern Maria Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Mariana Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇲🇵"
+        }
+      ],
+      "properties": {
+        "ccode": "MP",
+        "title": "Northern Mariana Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg"
         }
       ],
@@ -5282,6 +5504,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q1397",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Buckeye State"
+        },
         {
           "lang": "en",
           "toponym": "Ohio"
@@ -5407,6 +5633,10 @@
         {
           "lang": "en",
           "toponym": "State of Oklahoma"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Sooner State"
         },
         {
           "lang": "en",
@@ -5570,6 +5800,10 @@
         {
           "lang": "en",
           "toponym": "State of Oregon"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Beaver State"
         }
       ],
       "northernmostPoint": {
@@ -5728,6 +5962,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Penna."
+        },
+        {
+          "lang": "en",
           "toponym": "Pennsylvania"
         },
         {
@@ -5741,10 +5979,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q192611",
-          "label": "constituency"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
@@ -5879,7 +6113,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Eastern coastal state of the United States of America"
+          "value": "state on east coast of United States of America"
         }
       ],
       "geometry": {
@@ -5942,6 +6176,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Little Rhody"
+        },
+        {
+          "lang": "en",
           "toponym": "Rhode Island"
         },
         {
@@ -5959,6 +6197,10 @@
         {
           "lang": "en",
           "toponym": "State of Rhode Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Ocean State"
         },
         {
           "lang": "en",
@@ -6124,6 +6366,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Palmetto State"
+        },
+        {
+          "lang": "en",
           "toponym": "S. C."
         },
         {
@@ -6284,6 +6530,10 @@
         },
         {
           "lang": "en",
+          "toponym": "The Coyote State"
+        },
+        {
+          "lang": "en",
           "toponym": "The Mount Rushmore State"
         }
       ],
@@ -6408,6 +6658,10 @@
         {
           "lang": "en",
           "toponym": "Tennessee, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Volunteer State"
         }
       ],
       "properties": {
@@ -6620,6 +6874,101 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20Virgin%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "group of islands in the Caribbean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -64.889111,
+                  17.701709
+                ],
+                [
+                  -65.023633,
+                  18.367578
+                ],
+                [
+                  -64.942041,
+                  18.385205
+                ],
+                [
+                  -64.752441,
+                  18.371973
+                ],
+                [
+                  -64.659814,
+                  18.354346
+                ],
+                [
+                  -64.580469,
+                  17.750195
+                ],
+                [
+                  -64.686279,
+                  17.706104
+                ],
+                [
+                  -64.889111,
+                  17.701709
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q11703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "American Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "U.S. Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "US Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "USVI"
+        },
+        {
+          "lang": "en",
+          "toponym": "United States Virgin Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Virgin Islands of the United States"
+        }
+      ],
+      "properties": {
+        "ccode": "VI",
+        "title": "United States Virgin Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q783733",
+          "label": "unincorporated territory"
+        }
+      ]
     },
     {
       "depictions": [
@@ -6888,7 +7237,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State of the United States of America"
+          "value": "state of the United States of America"
         }
       ],
       "easternmostPoint": {
@@ -6963,6 +7312,10 @@
         {
           "lang": "en",
           "toponym": "Commonwealth of Virginia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Old Dominion"
         },
         {
           "lang": "en",
@@ -7444,6 +7797,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Badger State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Wisconsin"
         },
         {
@@ -7595,315 +7952,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
           "label": "state of the United States"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20District%20of%20Columbia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal district of the United States of America, containing the capital city of the United States, Washington"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -77.022933,
-                  38.802768
-                ],
-                [
-                  -77.119781,
-                  38.934064
-                ],
-                [
-                  -77.079089,
-                  38.966517
-                ],
-                [
-                  -77.041949,
-                  38.996136
-                ],
-                [
-                  -76.909315,
-                  38.892975
-                ],
-                [
-                  -77.022933,
-                  38.802768
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q3551781",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "D.C."
-        },
-        {
-          "lang": "en",
-          "toponym": "District of Columbia"
-        }
-      ],
-      "properties": {
-        "ccode": "US",
-        "title": "District of Columbia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1352230",
-          "label": "territory of the United States"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Northern%20Mariana%20Islands.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "American-dependent insular area in the western Pacific"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  145.157422,
-                  14.136914
-                ],
-                [
-                  145.152148,
-                  14.163623
-                ],
-                [
-                  145.645508,
-                  18.806787
-                ],
-                [
-                  145.690137,
-                  18.801611
-                ],
-                [
-                  145.706641,
-                  18.790479
-                ],
-                [
-                  145.835449,
-                  18.136768
-                ],
-                [
-                  145.821875,
-                  15.265381
-                ],
-                [
-                  145.782324,
-                  15.174609
-                ],
-                [
-                  145.749219,
-                  15.107227
-                ],
-                [
-                  145.264844,
-                  14.158105
-                ],
-                [
-                  145.215332,
-                  14.111328
-                ],
-                [
-                  145.17959,
-                  14.120996
-                ],
-                [
-                  145.157422,
-                  14.136914
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q16644",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "CNMI"
-        },
-        {
-          "lang": "en",
-          "toponym": "Commonwealth of the Northern Maria Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "Northern Mariana Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇵"
-        }
-      ],
-      "properties": {
-        "ccode": "MP",
-        "title": "Northern Mariana Islands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1048835",
-          "label": "political territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1352230",
-          "label": "territory of the United States"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20Virgin%20Islands.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "group of islands in the Caribbean"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -64.889111,
-                  17.701709
-                ],
-                [
-                  -65.023633,
-                  18.367578
-                ],
-                [
-                  -64.942041,
-                  18.385205
-                ],
-                [
-                  -64.752441,
-                  18.371973
-                ],
-                [
-                  -64.659814,
-                  18.354346
-                ],
-                [
-                  -64.580469,
-                  17.750195
-                ],
-                [
-                  -64.686279,
-                  17.706104
-                ],
-                [
-                  -64.889111,
-                  17.701709
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q11703",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "American Virgin Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "U.S. Virgin Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "US Virgin Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "USVI"
-        },
-        {
-          "lang": "en",
-          "toponym": "United States Virgin Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "Virgin Islands of the United States"
-        }
-      ],
-      "properties": {
-        "ccode": "VI",
-        "title": "United States Virgin Islands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1048835",
-          "label": "political territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1352230",
-          "label": "territory of the United States"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q47488809",
-          "label": "country for sports"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
         }
       ]
     }

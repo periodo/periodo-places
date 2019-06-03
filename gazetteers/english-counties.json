@@ -55,6 +55,111 @@
   },
   "features": [
     {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "non-metropolitan and ceremonial county in the west of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.975859,
+                  51.293278
+                ],
+                [
+                  -2.992177,
+                  51.321926
+                ],
+                [
+                  -2.987782,
+                  51.346666
+                ],
+                [
+                  -2.97468,
+                  51.384223
+                ],
+                [
+                  -2.556386,
+                  51.659247
+                ],
+                [
+                  -2.53549,
+                  51.67295
+                ],
+                [
+                  -2.28616,
+                  51.622715
+                ],
+                [
+                  -2.273086,
+                  51.612457
+                ],
+                [
+                  -2.245284,
+                  51.518561
+                ],
+                [
+                  -2.290139,
+                  51.324904
+                ],
+                [
+                  -2.345846,
+                  51.299944
+                ],
+                [
+                  -2.458113,
+                  51.272995
+                ],
+                [
+                  -2.889456,
+                  51.286327
+                ],
+                [
+                  -2.95723,
+                  51.290229
+                ],
+                [
+                  -2.975859,
+                  51.293278
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q929902",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Avon"
+        }
+      ],
+      "properties": {
+        "title": "Avon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
       "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bedfordshire%27s%20Flag.svg"
@@ -179,13 +284,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Durham%20Flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berkshire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in North East England (use Q1137286 for administrative unitary authority)"
+          "value": "ceremonial but non-administrative county of England"
         }
       ],
       "geometry": {
@@ -194,72 +299,72 @@
             "coordinates": [
               [
                 [
-                  -2.296418,
-                  54.602972
+                  -1.563362,
+                  51.412159
                 ],
                 [
-                  -2.353933,
-                  54.690771
+                  -1.584523,
+                  51.517373
                 ],
                 [
-                  -2.305022,
-                  54.78322
+                  -1.57473,
+                  51.540498
                 ],
                 [
-                  -2.129735,
-                  54.836886
+                  -1.567522,
+                  51.545795
                 ],
                 [
-                  -1.820064,
-                  54.904659
+                  -1.534216,
+                  51.550497
                 ],
                 [
-                  -1.648989,
-                  54.895564
+                  -0.718969,
+                  51.563339
                 ],
                 [
-                  -1.595323,
-                  54.892619
+                  -0.696825,
+                  51.559179
                 ],
                 [
-                  -1.34082,
-                  54.872682
+                  -0.568642,
+                  51.527139
                 ],
                 [
-                  -1.172231,
-                  54.701239
+                  -0.523606,
+                  51.506314
                 ],
                 [
-                  -1.164703,
-                  54.652777
+                  -0.519162,
+                  51.499958
                 ],
                 [
-                  -1.250848,
-                  54.486649
+                  -0.512806,
+                  51.475773
                 ],
                 [
-                  -1.326684,
-                  54.462154
+                  -0.518361,
+                  51.439393
                 ],
                 [
-                  -1.460319,
-                  54.441587
+                  -0.61975,
+                  51.387716
                 ],
                 [
-                  -2.138934,
-                  54.449648
+                  -0.765297,
+                  51.331337
                 ],
                 [
-                  -2.155186,
-                  54.455643
+                  -1.48701,
+                  51.332448
                 ],
                 [
-                  -2.285255,
-                  54.587986
+                  -1.533389,
+                  51.377433
                 ],
                 [
-                  -2.296418,
-                  54.602972
+                  -1.563362,
+                  51.412159
                 ]
               ]
             ],
@@ -268,23 +373,23 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q23082",
+      "id": "http://www.wikidata.org/entity/Q23220",
       "names": [
         {
           "lang": "en",
-          "toponym": "County Durham"
+          "toponym": "Berks"
         },
         {
           "lang": "en",
-          "toponym": "Durham"
+          "toponym": "Berkshire"
         },
         {
           "lang": "en",
-          "toponym": "VC66"
+          "toponym": "Royal County of Berkshire"
         }
       ],
       "properties": {
-        "title": "County Durham"
+        "title": "Berkshire"
       },
       "type": "Feature",
       "types": [
@@ -297,8 +402,8 @@
           "label": "ceremonial county of England"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q7925010",
-          "label": "vice-county"
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
         }
       ]
     },
@@ -411,6 +516,128 @@
       ],
       "properties": {
         "title": "Buckinghamshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambridgeshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21272276 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.485598,
+                  52.348562
+                ],
+                [
+                  -0.490714,
+                  52.636477
+                ],
+                [
+                  -0.46671,
+                  52.643247
+                ],
+                [
+                  -0.315014,
+                  52.663556
+                ],
+                [
+                  0.149402,
+                  52.725206
+                ],
+                [
+                  0.172372,
+                  52.724327
+                ],
+                [
+                  0.447213,
+                  52.432175
+                ],
+                [
+                  0.510491,
+                  52.281615
+                ],
+                [
+                  0.517209,
+                  52.210509
+                ],
+                [
+                  0.498606,
+                  52.160796
+                ],
+                [
+                  0.401376,
+                  52.042715
+                ],
+                [
+                  0.391067,
+                  52.03548
+                ],
+                [
+                  0.080543,
+                  52.002433
+                ],
+                [
+                  -0.109187,
+                  52.019357
+                ],
+                [
+                  -0.117274,
+                  52.023853
+                ],
+                [
+                  -0.458778,
+                  52.308771
+                ],
+                [
+                  -0.485598,
+                  52.348562
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23112",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cambridgeshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cambs."
+        },
+        {
+          "lang": "en",
+          "toponym": "County of Cambridge"
+        }
+      ],
+      "properties": {
+        "title": "Cambridgeshire"
       },
       "type": "Feature",
       "types": [
@@ -571,6 +798,343 @@
       ]
     },
     {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district and county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.633503,
+                  51.382135
+                ],
+                [
+                  -2.729388,
+                  51.496219
+                ],
+                [
+                  -2.678751,
+                  51.531304
+                ],
+                [
+                  -2.528832,
+                  51.480476
+                ],
+                [
+                  -2.518135,
+                  51.472414
+                ],
+                [
+                  -2.518135,
+                  51.44301
+                ],
+                [
+                  -2.520823,
+                  51.422908
+                ],
+                [
+                  -2.527489,
+                  51.408206
+                ],
+                [
+                  -2.539529,
+                  51.393452
+                ],
+                [
+                  -2.562293,
+                  51.38012
+                ],
+                [
+                  -2.60645,
+                  51.38012
+                ],
+                [
+                  -2.633503,
+                  51.382135
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q21693433",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "City and county of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "City of Bristol"
+        }
+      ],
+      "properties": {
+        "title": "City of Bristol"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1006876",
+          "label": "borough in the United Kingdom"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q21503295",
+          "label": "district with city status"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cornwall.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic country and ceremonial county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -6.348053,
+                  49.956204
+                ],
+                [
+                  -6.348948,
+                  49.964342
+                ],
+                [
+                  -4.548133,
+                  50.922991
+                ],
+                [
+                  -4.458353,
+                  50.921052
+                ],
+                [
+                  -4.182271,
+                  50.506607
+                ],
+                [
+                  -4.180043,
+                  50.356391
+                ],
+                [
+                  -4.180043,
+                  50.350165
+                ],
+                [
+                  -4.193756,
+                  50.322252
+                ],
+                [
+                  -5.191151,
+                  49.959133
+                ],
+                [
+                  -6.297271,
+                  49.909613
+                ],
+                [
+                  -6.309153,
+                  49.913642
+                ],
+                [
+                  -6.341217,
+                  49.94477
+                ],
+                [
+                  -6.348053,
+                  49.956204
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23148",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cornwall"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kernow"
+        },
+        {
+          "lang": "en",
+          "toponym": "The English Riviera"
+        }
+      ],
+      "properties": {
+        "title": "Cornwall"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Durham%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in North East England (use Q1137286 for administrative unitary authority)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.296418,
+                  54.602972
+                ],
+                [
+                  -2.353933,
+                  54.690771
+                ],
+                [
+                  -2.305022,
+                  54.78322
+                ],
+                [
+                  -2.129735,
+                  54.836886
+                ],
+                [
+                  -1.820064,
+                  54.904659
+                ],
+                [
+                  -1.648989,
+                  54.895564
+                ],
+                [
+                  -1.595323,
+                  54.892619
+                ],
+                [
+                  -1.34082,
+                  54.872682
+                ],
+                [
+                  -1.172231,
+                  54.701239
+                ],
+                [
+                  -1.164703,
+                  54.652777
+                ],
+                [
+                  -1.250848,
+                  54.486649
+                ],
+                [
+                  -1.326684,
+                  54.462154
+                ],
+                [
+                  -1.460319,
+                  54.441587
+                ],
+                [
+                  -2.138934,
+                  54.449648
+                ],
+                [
+                  -2.155186,
+                  54.455643
+                ],
+                [
+                  -2.285255,
+                  54.587986
+                ],
+                [
+                  -2.296418,
+                  54.602972
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23082",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "County Durham"
+        },
+        {
+          "lang": "en",
+          "toponym": "Durham"
+        },
+        {
+          "lang": "en",
+          "toponym": "VC66"
+        }
+      ],
+      "properties": {
+        "title": "County Durham"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7925010",
+          "label": "vice-county"
+        }
+      ]
+    },
+    {
       "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Cumbria.svg"
@@ -715,1128 +1279,6 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Herefordshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "historic county, ceremonial county, and unitary non-metropolitan county and district, in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -3.123758,
-                  52.075686
-                ],
-                [
-                  -3.124662,
-                  52.128964
-                ],
-                [
-                  -3.107661,
-                  52.172708
-                ],
-                [
-                  -2.991079,
-                  52.309651
-                ],
-                [
-                  -2.957414,
-                  52.341183
-                ],
-                [
-                  -2.902246,
-                  52.380782
-                ],
-                [
-                  -2.838917,
-                  52.391324
-                ],
-                [
-                  -2.65252,
-                  52.336056
-                ],
-                [
-                  -2.640893,
-                  52.332207
-                ],
-                [
-                  -2.447519,
-                  52.258464
-                ],
-                [
-                  -2.415377,
-                  52.219862
-                ],
-                [
-                  -2.406385,
-                  52.205754
-                ],
-                [
-                  -2.349774,
-                  52.106691
-                ],
-                [
-                  -2.348507,
-                  52.093875
-                ],
-                [
-                  -2.348507,
-                  52.077132
-                ],
-                [
-                  -2.351582,
-                  52.013931
-                ],
-                [
-                  -2.434471,
-                  51.896626
-                ],
-                [
-                  -2.519737,
-                  51.85885
-                ],
-                [
-                  -2.658877,
-                  51.817665
-                ],
-                [
-                  -2.734996,
-                  51.839886
-                ],
-                [
-                  -2.960848,
-                  51.911122
-                ],
-                [
-                  -2.982268,
-                  51.922827
-                ],
-                [
-                  -2.988211,
-                  51.927581
-                ],
-                [
-                  -3.050843,
-                  51.98303
-                ],
-                [
-                  -3.05125,
-                  51.983503
-                ],
-                [
-                  -3.079885,
-                  52.0168
-                ],
-                [
-                  -3.121717,
-                  52.070802
-                ],
-                [
-                  -3.123086,
-                  52.073257
-                ],
-                [
-                  -3.123758,
-                  52.075686
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23129",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Herefordshire"
-        }
-      ],
-      "properties": {
-        "title": "Herefordshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Hertfordshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.518619,
-                  51.607703
-                ],
-                [
-                  -0.730027,
-                  51.827715
-                ],
-                [
-                  -0.713078,
-                  51.848283
-                ],
-                [
-                  -0.146135,
-                  52.069664
-                ],
-                [
-                  0.051372,
-                  52.043284
-                ],
-                [
-                  0.189942,
-                  51.890218
-                ],
-                [
-                  0.197203,
-                  51.872441
-                ],
-                [
-                  0.199166,
-                  51.865775
-                ],
-                [
-                  0.190278,
-                  51.816631
-                ],
-                [
-                  0.158032,
-                  51.790482
-                ],
-                [
-                  -0.01126,
-                  51.677208
-                ],
-                [
-                  -0.493453,
-                  51.590934
-                ],
-                [
-                  -0.518619,
-                  51.607703
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q3410",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Hertfordshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Herts"
-        }
-      ],
-      "properties": {
-        "title": "Hertfordshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Merseyside.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "metropolitan county in North West England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -3.185211,
-                  53.377265
-                ],
-                [
-                  -3.18635,
-                  53.392768
-                ],
-                [
-                  -3.099477,
-                  53.572008
-                ],
-                [
-                  -3.087636,
-                  53.587714
-                ],
-                [
-                  -3.02184,
-                  53.652818
-                ],
-                [
-                  -2.951731,
-                  53.708075
-                ],
-                [
-                  -2.948476,
-                  53.709446
-                ],
-                [
-                  -2.603918,
-                  53.472447
-                ],
-                [
-                  -2.566427,
-                  53.435602
-                ],
-                [
-                  -2.648127,
-                  53.391341
-                ],
-                [
-                  -2.810333,
-                  53.321723
-                ],
-                [
-                  -2.945034,
-                  53.289357
-                ],
-                [
-                  -3.095944,
-                  53.287143
-                ],
-                [
-                  -3.171539,
-                  53.36225
-                ],
-                [
-                  -3.185211,
-                  53.377265
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23100",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Merseyside"
-        }
-      ],
-      "properties": {
-        "title": "Merseyside"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769628",
-          "label": "metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Nottinghamshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county of England (use Q21272736 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.321413,
-                  53.012992
-                ],
-                [
-                  -1.329732,
-                  53.050199
-                ],
-                [
-                  -1.312834,
-                  53.131021
-                ],
-                [
-                  -1.309759,
-                  53.142751
-                ],
-                [
-                  -1.118066,
-                  53.378551
-                ],
-                [
-                  -1.087551,
-                  53.402736
-                ],
-                [
-                  -0.96978,
-                  53.46299
-                ],
-                [
-                  -0.91937,
-                  53.487433
-                ],
-                [
-                  -0.797155,
-                  53.452293
-                ],
-                [
-                  -0.638948,
-                  53.241608
-                ],
-                [
-                  -0.6367,
-                  53.234684
-                ],
-                [
-                  -0.688635,
-                  53.049682
-                ],
-                [
-                  -0.766718,
-                  52.96116
-                ],
-                [
-                  -0.849788,
-                  52.892999
-                ],
-                [
-                  -0.979495,
-                  52.807733
-                ],
-                [
-                  -1.188191,
-                  52.772257
-                ],
-                [
-                  -1.225604,
-                  52.777993
-                ],
-                [
-                  -1.259763,
-                  52.799103
-                ],
-                [
-                  -1.268082,
-                  52.819102
-                ],
-                [
-                  -1.321413,
-                  53.012992
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23092",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Nottinghamshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Notts"
-        }
-      ],
-      "properties": {
-        "title": "Nottinghamshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Oxfordshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.675293,
-                  51.572718
-                ],
-                [
-                  -1.709218,
-                  51.774928
-                ],
-                [
-                  -1.652529,
-                  51.983933
-                ],
-                [
-                  -1.437529,
-                  52.107466
-                ],
-                [
-                  -1.321232,
-                  52.161519
-                ],
-                [
-                  -1.058173,
-                  51.996413
-                ],
-                [
-                  -1.053083,
-                  51.992718
-                ],
-                [
-                  -0.884488,
-                  51.716327
-                ],
-                [
-                  -0.876401,
-                  51.700514
-                ],
-                [
-                  -0.874179,
-                  51.668009
-                ],
-                [
-                  -0.873249,
-                  51.507477
-                ],
-                [
-                  -0.880483,
-                  51.497477
-                ],
-                [
-                  -0.88702,
-                  51.491173
-                ],
-                [
-                  -0.906864,
-                  51.476445
-                ],
-                [
-                  -0.964535,
-                  51.454689
-                ],
-                [
-                  -0.987221,
-                  51.453087
-                ],
-                [
-                  -1.584523,
-                  51.517373
-                ],
-                [
-                  -1.602791,
-                  51.520215
-                ],
-                [
-                  -1.675293,
-                  51.572718
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23169",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Oxfordshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Oxon."
-        }
-      ],
-      "properties": {
-        "title": "Oxfordshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Suffolk.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  0.408921,
-                  52.059303
-                ],
-                [
-                  0.3497,
-                  52.257715
-                ],
-                [
-                  0.388302,
-                  52.401918
-                ],
-                [
-                  0.392746,
-                  52.408016
-                ],
-                [
-                  0.447213,
-                  52.432175
-                ],
-                [
-                  0.558344,
-                  52.446334
-                ],
-                [
-                  1.690781,
-                  52.542168
-                ],
-                [
-                  1.747569,
-                  52.532782
-                ],
-                [
-                  1.771169,
-                  52.485907
-                ],
-                [
-                  1.7671,
-                  52.476955
-                ],
-                [
-                  1.587576,
-                  52.086982
-                ],
-                [
-                  1.582286,
-                  52.081488
-                ],
-                [
-                  1.343516,
-                  51.942857
-                ],
-                [
-                  1.332286,
-                  51.94009
-                ],
-                [
-                  0.787787,
-                  51.954659
-                ],
-                [
-                  0.408921,
-                  52.059303
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23111",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Suffolk"
-        }
-      ],
-      "properties": {
-        "title": "Suffolk"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Wiltshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county of England (use Q21694746 for administrative unitary authority)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.347526,
-                  51.094918
-                ],
-                [
-                  -2.35197,
-                  51.105201
-                ],
-                [
-                  -2.333676,
-                  51.346892
-                ],
-                [
-                  -2.320551,
-                  51.483835
-                ],
-                [
-                  -2.271639,
-                  51.577162
-                ],
-                [
-                  -2.057259,
-                  51.664108
-                ],
-                [
-                  -1.806137,
-                  51.697982
-                ],
-                [
-                  -1.683328,
-                  51.678603
-                ],
-                [
-                  -1.528377,
-                  51.45133
-                ],
-                [
-                  -1.521142,
-                  51.434122
-                ],
-                [
-                  -1.485847,
-                  51.343843
-                ],
-                [
-                  -1.48701,
-                  51.332448
-                ],
-                [
-                  -1.599742,
-                  50.976889
-                ],
-                [
-                  -1.610568,
-                  50.95968
-                ],
-                [
-                  -1.655036,
-                  50.950224
-                ],
-                [
-                  -2.099195,
-                  50.955753
-                ],
-                [
-                  -2.347526,
-                  51.094918
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23183",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "County of Wilts"
-        },
-        {
-          "lang": "en",
-          "toponym": "County of Wiltshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Wilts"
-        },
-        {
-          "lang": "en",
-          "toponym": "Wiltshire"
-        }
-      ],
-      "properties": {
-        "title": "Wiltshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Leicestershire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county in England (use Q21272890 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.545843,
-                  52.58077
-                ],
-                [
-                  -1.583076,
-                  52.68495
-                ],
-                [
-                  -1.541399,
-                  52.745773
-                ],
-                [
-                  -1.339189,
-                  52.849126
-                ],
-                [
-                  -1.30144,
-                  52.862458
-                ],
-                [
-                  -0.791703,
-                  52.95744
-                ],
-                [
-                  -0.766718,
-                  52.96116
-                ],
-                [
-                  -0.747236,
-                  52.935529
-                ],
-                [
-                  -0.676155,
-                  52.806906
-                ],
-                [
-                  -0.651066,
-                  52.74753
-                ],
-                [
-                  -0.729898,
-                  52.506666
-                ],
-                [
-                  -0.734472,
-                  52.504392
-                ],
-                [
-                  -0.884488,
-                  52.446877
-                ],
-                [
-                  -1.045202,
-                  52.402435
-                ],
-                [
-                  -1.156694,
-                  52.37825
-                ],
-                [
-                  -1.186615,
-                  52.381299
-                ],
-                [
-                  -1.545843,
-                  52.58077
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23106",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Leicestershire"
-        }
-      ],
-      "properties": {
-        "title": "Leicestershire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Surrey.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.823639,
-                  51.151607
-                ],
-                [
-                  -0.840021,
-                  51.203852
-                ],
-                [
-                  -0.829195,
-                  51.226021
-                ],
-                [
-                  -0.765297,
-                  51.331337
-                ],
-                [
-                  -0.720855,
-                  51.363842
-                ],
-                [
-                  -0.575722,
-                  51.445646
-                ],
-                [
-                  -0.512806,
-                  51.475773
-                ],
-                [
-                  -0.497199,
-                  51.477788
-                ],
-                [
-                  0.000006,
-                  51.329451
-                ],
-                [
-                  0.013131,
-                  51.320692
-                ],
-                [
-                  0.016309,
-                  51.318522
-                ],
-                [
-                  0.048323,
-                  51.294957
-                ],
-                [
-                  0.054421,
-                  51.289945
-                ],
-                [
-                  0.063852,
-                  51.242196
-                ],
-                [
-                  0.062741,
-                  51.135845
-                ],
-                [
-                  -0.541408,
-                  51.079105
-                ],
-                [
-                  -0.688066,
-                  51.070785
-                ],
-                [
-                  -0.731138,
-                  51.077994
-                ],
-                [
-                  -0.753695,
-                  51.088665
-                ],
-                [
-                  -0.823639,
-                  51.151607
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23276",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Surrey"
-        }
-      ],
-      "properties": {
-        "title": "Surrey"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Derbyshire%20flag.svg"
         }
       ],
@@ -1955,360 +1397,6 @@
       ],
       "properties": {
         "title": "Derbyshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berkshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial but non-administrative county of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.563362,
-                  51.412159
-                ],
-                [
-                  -1.584523,
-                  51.517373
-                ],
-                [
-                  -1.57473,
-                  51.540498
-                ],
-                [
-                  -1.567522,
-                  51.545795
-                ],
-                [
-                  -1.534216,
-                  51.550497
-                ],
-                [
-                  -0.718969,
-                  51.563339
-                ],
-                [
-                  -0.696825,
-                  51.559179
-                ],
-                [
-                  -0.568642,
-                  51.527139
-                ],
-                [
-                  -0.523606,
-                  51.506314
-                ],
-                [
-                  -0.519162,
-                  51.499958
-                ],
-                [
-                  -0.512806,
-                  51.475773
-                ],
-                [
-                  -0.518361,
-                  51.439393
-                ],
-                [
-                  -0.61975,
-                  51.387716
-                ],
-                [
-                  -0.765297,
-                  51.331337
-                ],
-                [
-                  -1.48701,
-                  51.332448
-                ],
-                [
-                  -1.533389,
-                  51.377433
-                ],
-                [
-                  -1.563362,
-                  51.412159
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23220",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Berks"
-        },
-        {
-          "lang": "en",
-          "toponym": "Berkshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Royal County of Berkshire"
-        }
-      ],
-      "properties": {
-        "title": "Berkshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambridgeshire.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county of England (use Q21272276 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.485598,
-                  52.348562
-                ],
-                [
-                  -0.490714,
-                  52.636477
-                ],
-                [
-                  -0.46671,
-                  52.643247
-                ],
-                [
-                  -0.315014,
-                  52.663556
-                ],
-                [
-                  0.149402,
-                  52.725206
-                ],
-                [
-                  0.172372,
-                  52.724327
-                ],
-                [
-                  0.447213,
-                  52.432175
-                ],
-                [
-                  0.510491,
-                  52.281615
-                ],
-                [
-                  0.517209,
-                  52.210509
-                ],
-                [
-                  0.498606,
-                  52.160796
-                ],
-                [
-                  0.401376,
-                  52.042715
-                ],
-                [
-                  0.391067,
-                  52.03548
-                ],
-                [
-                  0.080543,
-                  52.002433
-                ],
-                [
-                  -0.109187,
-                  52.019357
-                ],
-                [
-                  -0.117274,
-                  52.023853
-                ],
-                [
-                  -0.458778,
-                  52.308771
-                ],
-                [
-                  -0.485598,
-                  52.348562
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23112",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Cambridgeshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Cambs."
-        },
-        {
-          "lang": "en",
-          "toponym": "County of Cambridge"
-        }
-      ],
-      "properties": {
-        "title": "Cambridgeshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cornwall.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "historic country and ceremonial county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -6.348053,
-                  49.956204
-                ],
-                [
-                  -6.348948,
-                  49.964342
-                ],
-                [
-                  -4.548133,
-                  50.922991
-                ],
-                [
-                  -4.458353,
-                  50.921052
-                ],
-                [
-                  -4.182271,
-                  50.506607
-                ],
-                [
-                  -4.180043,
-                  50.356391
-                ],
-                [
-                  -4.180043,
-                  50.350165
-                ],
-                [
-                  -4.193756,
-                  50.322252
-                ],
-                [
-                  -5.191151,
-                  49.959133
-                ],
-                [
-                  -6.297271,
-                  49.909613
-                ],
-                [
-                  -6.309153,
-                  49.913642
-                ],
-                [
-                  -6.341217,
-                  49.94477
-                ],
-                [
-                  -6.348053,
-                  49.956204
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23148",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Cornwall"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kernow"
-        },
-        {
-          "lang": "en",
-          "toponym": "The English Riviera"
-        }
-      ],
-      "properties": {
-        "title": "Cornwall"
       },
       "type": "Feature",
       "types": [
@@ -2587,6 +1675,115 @@
       ]
     },
     {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21695028 for administrative unitary authority)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.073934,
+                  53.647682
+                ],
+                [
+                  -1.109746,
+                  53.675484
+                ],
+                [
+                  -1.093881,
+                  53.713569
+                ],
+                [
+                  -0.929757,
+                  53.969109
+                ],
+                [
+                  -0.927974,
+                  53.971848
+                ],
+                [
+                  -0.918078,
+                  53.986886
+                ],
+                [
+                  -0.889346,
+                  54.007143
+                ],
+                [
+                  -0.398084,
+                  54.169924
+                ],
+                [
+                  -0.199894,
+                  54.15245
+                ],
+                [
+                  -0.11144,
+                  54.131578
+                ],
+                [
+                  -0.07551,
+                  54.112128
+                ],
+                [
+                  0.149262,
+                  53.609605
+                ],
+                [
+                  0.136892,
+                  53.577135
+                ],
+                [
+                  0.131196,
+                  53.573432
+                ],
+                [
+                  0.10963,
+                  53.562893
+                ],
+                [
+                  -0.860717,
+                  53.612438
+                ],
+                [
+                  -1.073934,
+                  53.647682
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23088",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Riding of Yorkshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "East Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "East Riding of Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
       "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Sussex.svg"
@@ -2829,6 +2026,351 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Severn%20Cross.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694733 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.684043,
+                  51.662119
+                ],
+                [
+                  -2.684353,
+                  51.721935
+                ],
+                [
+                  -2.680994,
+                  51.772267
+                ],
+                [
+                  -2.679341,
+                  51.778365
+                ],
+                [
+                  -2.675775,
+                  51.786659
+                ],
+                [
+                  -2.641952,
+                  51.847172
+                ],
+                [
+                  -2.636138,
+                  51.853528
+                ],
+                [
+                  -2.460878,
+                  52.019667
+                ],
+                [
+                  -1.75782,
+                  52.10576
+                ],
+                [
+                  -1.715885,
+                  52.084935
+                ],
+                [
+                  -1.612273,
+                  52.026592
+                ],
+                [
+                  -1.612532,
+                  51.939362
+                ],
+                [
+                  -1.61279,
+                  51.931611
+                ],
+                [
+                  -1.644184,
+                  51.679688
+                ],
+                [
+                  -1.649274,
+                  51.673745
+                ],
+                [
+                  -2.280656,
+                  51.420273
+                ],
+                [
+                  -2.397703,
+                  51.402858
+                ],
+                [
+                  -2.473952,
+                  51.404201
+                ],
+                [
+                  -2.503433,
+                  51.405545
+                ],
+                [
+                  -2.522683,
+                  51.418826
+                ],
+                [
+                  -2.666679,
+                  51.520628
+                ],
+                [
+                  -2.675878,
+                  51.528483
+                ],
+                [
+                  -2.678751,
+                  51.531304
+                ],
+                [
+                  -2.684043,
+                  51.662119
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23165",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gloucestershire"
+        }
+      ],
+      "properties": {
+        "title": "Gloucestershire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative area, ceremonial county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.312249,
+                  51.324103
+                ],
+                [
+                  -0.497199,
+                  51.477788
+                ],
+                [
+                  -0.493453,
+                  51.590934
+                ],
+                [
+                  -0.481412,
+                  51.616049
+                ],
+                [
+                  -0.238378,
+                  51.672195
+                ],
+                [
+                  -0.148099,
+                  51.689093
+                ],
+                [
+                  -0.01126,
+                  51.677208
+                ],
+                [
+                  0.248078,
+                  51.627443
+                ],
+                [
+                  0.308307,
+                  51.578816
+                ],
+                [
+                  0.336109,
+                  51.539955
+                ],
+                [
+                  0.093824,
+                  51.288291
+                ],
+                [
+                  0.068839,
+                  51.282451
+                ],
+                [
+                  -0.1281,
+                  51.289118
+                ],
+                [
+                  -0.312249,
+                  51.324103
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23306",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Greater London"
+        }
+      ],
+      "properties": {
+        "title": "Greater London"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20County%20Flag%20of%20Greater%20Manchester.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in North West England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.690037,
+                  53.47162
+                ],
+                [
+                  -2.752023,
+                  53.511101
+                ],
+                [
+                  -2.686704,
+                  53.599674
+                ],
+                [
+                  -2.67779,
+                  53.602723
+                ],
+                [
+                  -2.353623,
+                  53.666905
+                ],
+                [
+                  -2.151388,
+                  53.696516
+                ],
+                [
+                  -2.046433,
+                  53.684114
+                ],
+                [
+                  -1.897217,
+                  53.533012
+                ],
+                [
+                  -1.981424,
+                  53.398291
+                ],
+                [
+                  -2.004472,
+                  53.374107
+                ],
+                [
+                  -2.049482,
+                  53.35217
+                ],
+                [
+                  -2.159501,
+                  53.321345
+                ],
+                [
+                  -2.283369,
+                  53.342171
+                ],
+                [
+                  -2.36476,
+                  53.362428
+                ],
+                [
+                  -2.455891,
+                  53.385786
+                ],
+                [
+                  -2.690037,
+                  53.47162
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23099",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Greater Manchester"
+        }
+      ],
+      "properties": {
+        "title": "Greater Manchester"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hampshire.svg"
         }
       ],
@@ -2953,6 +2495,513 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Herefordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "historic county, ceremonial county, and unitary non-metropolitan county and district, in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -3.123758,
+                  52.075686
+                ],
+                [
+                  -3.124662,
+                  52.128964
+                ],
+                [
+                  -3.107661,
+                  52.172708
+                ],
+                [
+                  -2.991079,
+                  52.309651
+                ],
+                [
+                  -2.957414,
+                  52.341183
+                ],
+                [
+                  -2.902246,
+                  52.380782
+                ],
+                [
+                  -2.838917,
+                  52.391324
+                ],
+                [
+                  -2.65252,
+                  52.336056
+                ],
+                [
+                  -2.640893,
+                  52.332207
+                ],
+                [
+                  -2.447519,
+                  52.258464
+                ],
+                [
+                  -2.415377,
+                  52.219862
+                ],
+                [
+                  -2.406385,
+                  52.205754
+                ],
+                [
+                  -2.349774,
+                  52.106691
+                ],
+                [
+                  -2.348507,
+                  52.093875
+                ],
+                [
+                  -2.348507,
+                  52.077132
+                ],
+                [
+                  -2.351582,
+                  52.013931
+                ],
+                [
+                  -2.434471,
+                  51.896626
+                ],
+                [
+                  -2.519737,
+                  51.85885
+                ],
+                [
+                  -2.658877,
+                  51.817665
+                ],
+                [
+                  -2.734996,
+                  51.839886
+                ],
+                [
+                  -2.960848,
+                  51.911122
+                ],
+                [
+                  -2.982268,
+                  51.922827
+                ],
+                [
+                  -2.988211,
+                  51.927581
+                ],
+                [
+                  -3.050843,
+                  51.98303
+                ],
+                [
+                  -3.05125,
+                  51.983503
+                ],
+                [
+                  -3.079885,
+                  52.0168
+                ],
+                [
+                  -3.121717,
+                  52.070802
+                ],
+                [
+                  -3.123086,
+                  52.073257
+                ],
+                [
+                  -3.123758,
+                  52.075686
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23129",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Herefordshire"
+        }
+      ],
+      "properties": {
+        "title": "Herefordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Hertfordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.518619,
+                  51.607703
+                ],
+                [
+                  -0.730027,
+                  51.827715
+                ],
+                [
+                  -0.713078,
+                  51.848283
+                ],
+                [
+                  -0.146135,
+                  52.069664
+                ],
+                [
+                  0.051372,
+                  52.043284
+                ],
+                [
+                  0.189942,
+                  51.890218
+                ],
+                [
+                  0.197203,
+                  51.872441
+                ],
+                [
+                  0.199166,
+                  51.865775
+                ],
+                [
+                  0.190278,
+                  51.816631
+                ],
+                [
+                  0.158032,
+                  51.790482
+                ],
+                [
+                  -0.01126,
+                  51.677208
+                ],
+                [
+                  -0.493453,
+                  51.590934
+                ],
+                [
+                  -0.518619,
+                  51.607703
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3410",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hertfordshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Herts"
+        }
+      ],
+      "properties": {
+        "title": "Hertfordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "non-metropolitan and ceremonial county of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.910016,
+                  53.46051
+                ],
+                [
+                  -1.109746,
+                  53.675484
+                ],
+                [
+                  -1.093881,
+                  53.713569
+                ],
+                [
+                  -0.929757,
+                  53.969109
+                ],
+                [
+                  -0.927974,
+                  53.971848
+                ],
+                [
+                  -0.918078,
+                  53.986886
+                ],
+                [
+                  -0.889346,
+                  54.007143
+                ],
+                [
+                  -0.398084,
+                  54.169924
+                ],
+                [
+                  -0.199894,
+                  54.15245
+                ],
+                [
+                  -0.11144,
+                  54.131578
+                ],
+                [
+                  -0.07551,
+                  54.112128
+                ],
+                [
+                  0.149262,
+                  53.609605
+                ],
+                [
+                  0.136892,
+                  53.577135
+                ],
+                [
+                  0.131196,
+                  53.573432
+                ],
+                [
+                  -0.072807,
+                  53.442449
+                ],
+                [
+                  -0.101694,
+                  53.427437
+                ],
+                [
+                  -0.113631,
+                  53.426868
+                ],
+                [
+                  -0.797155,
+                  53.452293
+                ],
+                [
+                  -0.90503,
+                  53.457719
+                ],
+                [
+                  -0.910016,
+                  53.46051
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1636805",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Humberside"
+        }
+      ],
+      "properties": {
+        "title": "Humberside"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Isle%20of%20Wight.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "island and county of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.315541,
+                  50.589179
+                ],
+                [
+                  -1.569488,
+                  50.658026
+                ],
+                [
+                  -1.545318,
+                  50.686103
+                ],
+                [
+                  -1.50593,
+                  50.707709
+                ],
+                [
+                  -1.318512,
+                  50.772162
+                ],
+                [
+                  -1.295766,
+                  50.773179
+                ],
+                [
+                  -1.10912,
+                  50.732856
+                ],
+                [
+                  -1.097035,
+                  50.726955
+                ],
+                [
+                  -1.082753,
+                  50.713324
+                ],
+                [
+                  -1.062327,
+                  50.692816
+                ],
+                [
+                  -1.062327,
+                  50.685289
+                ],
+                [
+                  -1.168446,
+                  50.603461
+                ],
+                [
+                  -1.279205,
+                  50.582506
+                ],
+                [
+                  -1.315541,
+                  50.589179
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q9679",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Isle of Wight"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wight"
+        }
+      ],
+      "properties": {
+        "title": "Isle of Wight"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
         }
       ]
     },
@@ -3207,6 +3256,388 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Leicestershire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21272890 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.545843,
+                  52.58077
+                ],
+                [
+                  -1.583076,
+                  52.68495
+                ],
+                [
+                  -1.541399,
+                  52.745773
+                ],
+                [
+                  -1.339189,
+                  52.849126
+                ],
+                [
+                  -1.30144,
+                  52.862458
+                ],
+                [
+                  -0.791703,
+                  52.95744
+                ],
+                [
+                  -0.766718,
+                  52.96116
+                ],
+                [
+                  -0.747236,
+                  52.935529
+                ],
+                [
+                  -0.676155,
+                  52.806906
+                ],
+                [
+                  -0.651066,
+                  52.74753
+                ],
+                [
+                  -0.729898,
+                  52.506666
+                ],
+                [
+                  -0.734472,
+                  52.504392
+                ],
+                [
+                  -0.884488,
+                  52.446877
+                ],
+                [
+                  -1.045202,
+                  52.402435
+                ],
+                [
+                  -1.156694,
+                  52.37825
+                ],
+                [
+                  -1.186615,
+                  52.381299
+                ],
+                [
+                  -1.545843,
+                  52.58077
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23106",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Leicestershire"
+        }
+      ],
+      "properties": {
+        "title": "Leicestershire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lincolnshire%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in the east of England (use Q21269047 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.7631,
+                  52.894653
+                ],
+                [
+                  -0.943348,
+                  53.518
+                ],
+                [
+                  -0.904487,
+                  53.571614
+                ],
+                [
+                  -0.860717,
+                  53.612438
+                ],
+                [
+                  -0.67748,
+                  53.702826
+                ],
+                [
+                  -0.64981,
+                  53.710598
+                ],
+                [
+                  -0.619537,
+                  53.711859
+                ],
+                [
+                  -0.30724,
+                  53.71426
+                ],
+                [
+                  -0.279368,
+                  53.707099
+                ],
+                [
+                  0.151866,
+                  53.475816
+                ],
+                [
+                  0.167817,
+                  53.464504
+                ],
+                [
+                  0.219493,
+                  53.419501
+                ],
+                [
+                  0.244884,
+                  53.390937
+                ],
+                [
+                  0.256114,
+                  53.375067
+                ],
+                [
+                  0.342133,
+                  53.226304
+                ],
+                [
+                  0.356212,
+                  53.188544
+                ],
+                [
+                  0.356619,
+                  53.145738
+                ],
+                [
+                  0.278852,
+                  52.762465
+                ],
+                [
+                  0.276345,
+                  52.756341
+                ],
+                [
+                  0.199657,
+                  52.72164
+                ],
+                [
+                  0.0322,
+                  52.648001
+                ],
+                [
+                  -0.137531,
+                  52.638544
+                ],
+                [
+                  -0.435575,
+                  52.636632
+                ],
+                [
+                  -0.490714,
+                  52.636477
+                ],
+                [
+                  -0.508904,
+                  52.64242
+                ],
+                [
+                  -0.650291,
+                  52.746341
+                ],
+                [
+                  -0.753669,
+                  52.870778
+                ],
+                [
+                  -0.7631,
+                  52.894653
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23090",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lincolnshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lincs"
+        }
+      ],
+      "properties": {
+        "title": "Lincolnshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Merseyside.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in North West England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -3.185211,
+                  53.377265
+                ],
+                [
+                  -3.18635,
+                  53.392768
+                ],
+                [
+                  -3.099477,
+                  53.572008
+                ],
+                [
+                  -3.087636,
+                  53.587714
+                ],
+                [
+                  -3.02184,
+                  53.652818
+                ],
+                [
+                  -2.951731,
+                  53.708075
+                ],
+                [
+                  -2.948476,
+                  53.709446
+                ],
+                [
+                  -2.603918,
+                  53.472447
+                ],
+                [
+                  -2.566427,
+                  53.435602
+                ],
+                [
+                  -2.648127,
+                  53.391341
+                ],
+                [
+                  -2.810333,
+                  53.321723
+                ],
+                [
+                  -2.945034,
+                  53.289357
+                ],
+                [
+                  -3.095944,
+                  53.287143
+                ],
+                [
+                  -3.171539,
+                  53.36225
+                ],
+                [
+                  -3.185211,
+                  53.377265
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23100",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Merseyside"
+        }
+      ],
+      "properties": {
+        "title": "Merseyside"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norfolk.svg"
         }
       ],
@@ -3371,6 +3802,144 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
           "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North-Yorkshire-Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21241814 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.545033,
+                  54.113545
+                ],
+                [
+                  -2.551441,
+                  54.128273
+                ],
+                [
+                  -2.547565,
+                  54.151062
+                ],
+                [
+                  -2.295565,
+                  54.417712
+                ],
+                [
+                  -2.276703,
+                  54.435489
+                ],
+                [
+                  -2.244741,
+                  54.447995
+                ],
+                [
+                  -1.388489,
+                  54.626692
+                ],
+                [
+                  -1.138051,
+                  54.646552
+                ],
+                [
+                  -0.787913,
+                  54.560777
+                ],
+                [
+                  -0.778836,
+                  54.557411
+                ],
+                [
+                  -0.562978,
+                  54.477362
+                ],
+                [
+                  -0.534657,
+                  54.461005
+                ],
+                [
+                  -0.199894,
+                  54.15245
+                ],
+                [
+                  -0.209749,
+                  54.139667
+                ],
+                [
+                  -0.925571,
+                  53.722716
+                ],
+                [
+                  -1.073934,
+                  53.647682
+                ],
+                [
+                  -1.126437,
+                  53.633833
+                ],
+                [
+                  -1.214752,
+                  53.619932
+                ],
+                [
+                  -1.229971,
+                  53.620655
+                ],
+                [
+                  -2.032558,
+                  53.847618
+                ],
+                [
+                  -2.066122,
+                  53.862733
+                ],
+                [
+                  -2.448631,
+                  54.039906
+                ],
+                [
+                  -2.458346,
+                  54.047166
+                ],
+                [
+                  -2.545033,
+                  54.113545
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23086",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "North Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
         }
       ]
     },
@@ -3645,6 +4214,380 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Nottinghamshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21272736 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.321413,
+                  53.012992
+                ],
+                [
+                  -1.329732,
+                  53.050199
+                ],
+                [
+                  -1.312834,
+                  53.131021
+                ],
+                [
+                  -1.309759,
+                  53.142751
+                ],
+                [
+                  -1.118066,
+                  53.378551
+                ],
+                [
+                  -1.087551,
+                  53.402736
+                ],
+                [
+                  -0.96978,
+                  53.46299
+                ],
+                [
+                  -0.91937,
+                  53.487433
+                ],
+                [
+                  -0.797155,
+                  53.452293
+                ],
+                [
+                  -0.638948,
+                  53.241608
+                ],
+                [
+                  -0.6367,
+                  53.234684
+                ],
+                [
+                  -0.688635,
+                  53.049682
+                ],
+                [
+                  -0.766718,
+                  52.96116
+                ],
+                [
+                  -0.849788,
+                  52.892999
+                ],
+                [
+                  -0.979495,
+                  52.807733
+                ],
+                [
+                  -1.188191,
+                  52.772257
+                ],
+                [
+                  -1.225604,
+                  52.777993
+                ],
+                [
+                  -1.259763,
+                  52.799103
+                ],
+                [
+                  -1.268082,
+                  52.819102
+                ],
+                [
+                  -1.321413,
+                  53.012992
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23092",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nottinghamshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Notts"
+        }
+      ],
+      "properties": {
+        "title": "Nottinghamshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Oxfordshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.675293,
+                  51.572718
+                ],
+                [
+                  -1.709218,
+                  51.774928
+                ],
+                [
+                  -1.652529,
+                  51.983933
+                ],
+                [
+                  -1.437529,
+                  52.107466
+                ],
+                [
+                  -1.321232,
+                  52.161519
+                ],
+                [
+                  -1.058173,
+                  51.996413
+                ],
+                [
+                  -1.053083,
+                  51.992718
+                ],
+                [
+                  -0.884488,
+                  51.716327
+                ],
+                [
+                  -0.876401,
+                  51.700514
+                ],
+                [
+                  -0.874179,
+                  51.668009
+                ],
+                [
+                  -0.873249,
+                  51.507477
+                ],
+                [
+                  -0.880483,
+                  51.497477
+                ],
+                [
+                  -0.88702,
+                  51.491173
+                ],
+                [
+                  -0.906864,
+                  51.476445
+                ],
+                [
+                  -0.964535,
+                  51.454689
+                ],
+                [
+                  -0.987221,
+                  51.453087
+                ],
+                [
+                  -1.584523,
+                  51.517373
+                ],
+                [
+                  -1.602791,
+                  51.520215
+                ],
+                [
+                  -1.675293,
+                  51.572718
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23169",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oxfordshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oxon."
+        }
+      ],
+      "properties": {
+        "title": "Oxfordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rutland%20County%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.802633,
+                  52.620639
+                ],
+                [
+                  -0.805113,
+                  52.688567
+                ],
+                [
+                  -0.805113,
+                  52.708669
+                ],
+                [
+                  -0.782479,
+                  52.718746
+                ],
+                [
+                  -0.651066,
+                  52.74753
+                ],
+                [
+                  -0.608355,
+                  52.745515
+                ],
+                [
+                  -0.563655,
+                  52.740502
+                ],
+                [
+                  -0.415318,
+                  52.686604
+                ],
+                [
+                  -0.420305,
+                  52.675493
+                ],
+                [
+                  -0.548075,
+                  52.590485
+                ],
+                [
+                  -0.729898,
+                  52.506666
+                ],
+                [
+                  -0.742223,
+                  52.51248
+                ],
+                [
+                  -0.764883,
+                  52.532608
+                ],
+                [
+                  -0.787517,
+                  52.565267
+                ],
+                [
+                  -0.800101,
+                  52.595498
+                ],
+                [
+                  -0.802633,
+                  52.620639
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23107",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rutland"
+        }
+      ],
+      "properties": {
+        "title": "Rutland"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1136601",
+          "label": "unitary authority of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shropshire.svg"
         }
       ],
@@ -3823,6 +4766,708 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somnew.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694741 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -3.825885,
+                  51.141892
+                ],
+                [
+                  -3.82728,
+                  51.171347
+                ],
+                [
+                  -3.821131,
+                  51.177187
+                ],
+                [
+                  -3.712239,
+                  51.238329
+                ],
+                [
+                  -2.780873,
+                  51.489081
+                ],
+                [
+                  -2.76122,
+                  51.492865
+                ],
+                [
+                  -2.729388,
+                  51.496219
+                ],
+                [
+                  -2.280656,
+                  51.420273
+                ],
+                [
+                  -2.236163,
+                  51.264106
+                ],
+                [
+                  -2.337785,
+                  50.982987
+                ],
+                [
+                  -2.61446,
+                  50.885473
+                ],
+                [
+                  -2.948523,
+                  50.82248
+                ],
+                [
+                  -3.599749,
+                  51.011874
+                ],
+                [
+                  -3.812785,
+                  51.128817
+                ],
+                [
+                  -3.825885,
+                  51.141892
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23157",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Somerset"
+        },
+        {
+          "lang": "en",
+          "toponym": "Somerset, England"
+        }
+      ],
+      "properties": {
+        "title": "Somerset"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.793089,
+                  53.477718
+                ],
+                [
+                  -1.816137,
+                  53.516062
+                ],
+                [
+                  -1.806732,
+                  53.531875
+                ],
+                [
+                  -1.560571,
+                  53.606625
+                ],
+                [
+                  -0.996419,
+                  53.659955
+                ],
+                [
+                  -0.94141,
+                  53.65688
+                ],
+                [
+                  -0.860019,
+                  53.632437
+                ],
+                [
+                  -0.855291,
+                  53.598279
+                ],
+                [
+                  -0.871957,
+                  53.53079
+                ],
+                [
+                  -0.91937,
+                  53.487433
+                ],
+                [
+                  -0.977532,
+                  53.434361
+                ],
+                [
+                  -1.004739,
+                  53.412166
+                ],
+                [
+                  -1.176021,
+                  53.292923
+                ],
+                [
+                  -1.242528,
+                  53.290779
+                ],
+                [
+                  -1.531426,
+                  53.289667
+                ],
+                [
+                  -1.610051,
+                  53.305791
+                ],
+                [
+                  -1.614754,
+                  53.308013
+                ],
+                [
+                  -1.734204,
+                  53.410797
+                ],
+                [
+                  -1.78725,
+                  53.468571
+                ],
+                [
+                  -1.793089,
+                  53.477718
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23095",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Yorkshire"
+        }
+      ],
+      "properties": {
+        "title": "South Yorkshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Staffordshire%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county in England (use Q21694786 for administrative non-metropolitan county)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.449457,
+                  52.885506
+                ],
+                [
+                  -2.45031,
+                  52.896617
+                ],
+                [
+                  -2.442559,
+                  52.912688
+                ],
+                [
+                  -2.365871,
+                  53.052163
+                ],
+                [
+                  -2.138081,
+                  53.173809
+                ],
+                [
+                  -1.952537,
+                  53.213806
+                ],
+                [
+                  -1.856677,
+                  53.176341
+                ],
+                [
+                  -1.824198,
+                  53.163009
+                ],
+                [
+                  -1.803683,
+                  53.148539
+                ],
+                [
+                  -1.798903,
+                  53.141614
+                ],
+                [
+                  -1.590853,
+                  52.810782
+                ],
+                [
+                  -1.580027,
+                  52.676888
+                ],
+                [
+                  -1.634778,
+                  52.588005
+                ],
+                [
+                  -1.643357,
+                  52.579943
+                ],
+                [
+                  -2.153868,
+                  52.42295
+                ],
+                [
+                  -2.171128,
+                  52.421607
+                ],
+                [
+                  -2.26058,
+                  52.436335
+                ],
+                [
+                  -2.28616,
+                  52.444577
+                ],
+                [
+                  -2.29864,
+                  52.475505
+                ],
+                [
+                  -2.449457,
+                  52.885506
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23105",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Staffordshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Staffs"
+        }
+      ],
+      "properties": {
+        "title": "Staffordshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Suffolk.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  0.408921,
+                  52.059303
+                ],
+                [
+                  0.3497,
+                  52.257715
+                ],
+                [
+                  0.388302,
+                  52.401918
+                ],
+                [
+                  0.392746,
+                  52.408016
+                ],
+                [
+                  0.447213,
+                  52.432175
+                ],
+                [
+                  0.558344,
+                  52.446334
+                ],
+                [
+                  1.690781,
+                  52.542168
+                ],
+                [
+                  1.747569,
+                  52.532782
+                ],
+                [
+                  1.771169,
+                  52.485907
+                ],
+                [
+                  1.7671,
+                  52.476955
+                ],
+                [
+                  1.587576,
+                  52.086982
+                ],
+                [
+                  1.582286,
+                  52.081488
+                ],
+                [
+                  1.343516,
+                  51.942857
+                ],
+                [
+                  1.332286,
+                  51.94009
+                ],
+                [
+                  0.787787,
+                  51.954659
+                ],
+                [
+                  0.408921,
+                  52.059303
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23111",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Suffolk"
+        }
+      ],
+      "properties": {
+        "title": "Suffolk"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Surrey.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county of England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.823639,
+                  51.151607
+                ],
+                [
+                  -0.840021,
+                  51.203852
+                ],
+                [
+                  -0.829195,
+                  51.226021
+                ],
+                [
+                  -0.765297,
+                  51.331337
+                ],
+                [
+                  -0.720855,
+                  51.363842
+                ],
+                [
+                  -0.575722,
+                  51.445646
+                ],
+                [
+                  -0.512806,
+                  51.475773
+                ],
+                [
+                  -0.497199,
+                  51.477788
+                ],
+                [
+                  0.000006,
+                  51.329451
+                ],
+                [
+                  0.013131,
+                  51.320692
+                ],
+                [
+                  0.016309,
+                  51.318522
+                ],
+                [
+                  0.048323,
+                  51.294957
+                ],
+                [
+                  0.054421,
+                  51.289945
+                ],
+                [
+                  0.063852,
+                  51.242196
+                ],
+                [
+                  0.062741,
+                  51.135845
+                ],
+                [
+                  -0.541408,
+                  51.079105
+                ],
+                [
+                  -0.688066,
+                  51.070785
+                ],
+                [
+                  -0.731138,
+                  51.077994
+                ],
+                [
+                  -0.753695,
+                  51.088665
+                ],
+                [
+                  -0.823639,
+                  51.151607
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23276",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Surrey"
+        }
+      ],
+      "properties": {
+        "title": "Surrey"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.848926,
+                  54.912462
+                ],
+                [
+                  -1.850579,
+                  54.919671
+                ],
+                [
+                  -1.800065,
+                  54.972175
+                ],
+                [
+                  -1.696687,
+                  55.066329
+                ],
+                [
+                  -1.688909,
+                  55.072143
+                ],
+                [
+                  -1.455585,
+                  55.069712
+                ],
+                [
+                  -1.370229,
+                  54.975531
+                ],
+                [
+                  -1.36266,
+                  54.964789
+                ],
+                [
+                  -1.34082,
+                  54.872682
+                ],
+                [
+                  -1.411278,
+                  54.801281
+                ],
+                [
+                  -1.440449,
+                  54.796966
+                ],
+                [
+                  -1.474168,
+                  54.796966
+                ],
+                [
+                  -1.506362,
+                  54.79986
+                ],
+                [
+                  -1.848926,
+                  54.912462
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23080",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tyne and Wear"
+        }
+      ],
+      "properties": {
+        "title": "Tyne and Wear"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Warwickshire.svg"
         }
       ],
@@ -3951,6 +5596,128 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q7925010",
           "label": "vice-county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20West%20Midlands%20County.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "metropolitan county in England"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.177536,
+                  52.501059
+                ],
+                [
+                  -2.200584,
+                  52.579375
+                ],
+                [
+                  -2.180585,
+                  52.599942
+                ],
+                [
+                  -2.139735,
+                  52.624954
+                ],
+                [
+                  -2.131131,
+                  52.629398
+                ],
+                [
+                  -1.941168,
+                  52.665209
+                ],
+                [
+                  -1.934476,
+                  52.665209
+                ],
+                [
+                  -1.897217,
+                  52.649396
+                ],
+                [
+                  -1.4428,
+                  52.435198
+                ],
+                [
+                  -1.438098,
+                  52.429358
+                ],
+                [
+                  -1.43169,
+                  52.383573
+                ],
+                [
+                  -1.462799,
+                  52.365796
+                ],
+                [
+                  -1.536955,
+                  52.355771
+                ],
+                [
+                  -1.682527,
+                  52.342438
+                ],
+                [
+                  -1.759215,
+                  52.337167
+                ],
+                [
+                  -1.995842,
+                  52.378819
+                ],
+                [
+                  -2.153868,
+                  52.42295
+                ],
+                [
+                  -2.177536,
+                  52.501059
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23124",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Midlands county"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Midlands"
+        }
+      ],
+      "properties": {
+        "title": "West Midlands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769628",
+          "label": "metropolitan county"
         }
       ]
     },
@@ -4095,1140 +5862,6 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Isle%20of%20Wight.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county and island of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.315541,
-                  50.589179
-                ],
-                [
-                  -1.569488,
-                  50.658026
-                ],
-                [
-                  -1.545318,
-                  50.686103
-                ],
-                [
-                  -1.50593,
-                  50.707709
-                ],
-                [
-                  -1.318512,
-                  50.772162
-                ],
-                [
-                  -1.295766,
-                  50.773179
-                ],
-                [
-                  -1.10912,
-                  50.732856
-                ],
-                [
-                  -1.097035,
-                  50.726955
-                ],
-                [
-                  -1.082753,
-                  50.713324
-                ],
-                [
-                  -1.062327,
-                  50.692816
-                ],
-                [
-                  -1.062327,
-                  50.685289
-                ],
-                [
-                  -1.168446,
-                  50.603461
-                ],
-                [
-                  -1.279205,
-                  50.582506
-                ],
-                [
-                  -1.315541,
-                  50.589179
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q9679",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Isle of Wight"
-        }
-      ],
-      "properties": {
-        "title": "Isle of Wight"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q23442",
-          "label": "island"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20West%20Midlands%20County.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "metropolitan county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.177536,
-                  52.501059
-                ],
-                [
-                  -2.200584,
-                  52.579375
-                ],
-                [
-                  -2.180585,
-                  52.599942
-                ],
-                [
-                  -2.139735,
-                  52.624954
-                ],
-                [
-                  -2.131131,
-                  52.629398
-                ],
-                [
-                  -1.941168,
-                  52.665209
-                ],
-                [
-                  -1.934476,
-                  52.665209
-                ],
-                [
-                  -1.897217,
-                  52.649396
-                ],
-                [
-                  -1.4428,
-                  52.435198
-                ],
-                [
-                  -1.438098,
-                  52.429358
-                ],
-                [
-                  -1.43169,
-                  52.383573
-                ],
-                [
-                  -1.462799,
-                  52.365796
-                ],
-                [
-                  -1.536955,
-                  52.355771
-                ],
-                [
-                  -1.682527,
-                  52.342438
-                ],
-                [
-                  -1.759215,
-                  52.337167
-                ],
-                [
-                  -1.995842,
-                  52.378819
-                ],
-                [
-                  -2.153868,
-                  52.42295
-                ],
-                [
-                  -2.177536,
-                  52.501059
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23124",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "West Midlands county"
-        },
-        {
-          "lang": "en",
-          "toponym": "West Midlands"
-        }
-      ],
-      "properties": {
-        "title": "West Midlands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769628",
-          "label": "metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lincolnshire%20flag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county in the east of England (use Q21269047 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.7631,
-                  52.894653
-                ],
-                [
-                  -0.943348,
-                  53.518
-                ],
-                [
-                  -0.904487,
-                  53.571614
-                ],
-                [
-                  -0.860717,
-                  53.612438
-                ],
-                [
-                  -0.67748,
-                  53.702826
-                ],
-                [
-                  -0.64981,
-                  53.710598
-                ],
-                [
-                  -0.619537,
-                  53.711859
-                ],
-                [
-                  -0.30724,
-                  53.71426
-                ],
-                [
-                  -0.279368,
-                  53.707099
-                ],
-                [
-                  0.151866,
-                  53.475816
-                ],
-                [
-                  0.167817,
-                  53.464504
-                ],
-                [
-                  0.219493,
-                  53.419501
-                ],
-                [
-                  0.244884,
-                  53.390937
-                ],
-                [
-                  0.256114,
-                  53.375067
-                ],
-                [
-                  0.342133,
-                  53.226304
-                ],
-                [
-                  0.356212,
-                  53.188544
-                ],
-                [
-                  0.356619,
-                  53.145738
-                ],
-                [
-                  0.278852,
-                  52.762465
-                ],
-                [
-                  0.276345,
-                  52.756341
-                ],
-                [
-                  0.199657,
-                  52.72164
-                ],
-                [
-                  0.0322,
-                  52.648001
-                ],
-                [
-                  -0.137531,
-                  52.638544
-                ],
-                [
-                  -0.435575,
-                  52.636632
-                ],
-                [
-                  -0.490714,
-                  52.636477
-                ],
-                [
-                  -0.508904,
-                  52.64242
-                ],
-                [
-                  -0.650291,
-                  52.746341
-                ],
-                [
-                  -0.753669,
-                  52.870778
-                ],
-                [
-                  -0.7631,
-                  52.894653
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23090",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Lincolnshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Lincs"
-        }
-      ],
-      "properties": {
-        "title": "Lincolnshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North-Yorkshire-Flag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county in England (use Q21241814 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.545033,
-                  54.113545
-                ],
-                [
-                  -2.551441,
-                  54.128273
-                ],
-                [
-                  -2.547565,
-                  54.151062
-                ],
-                [
-                  -2.295565,
-                  54.417712
-                ],
-                [
-                  -2.276703,
-                  54.435489
-                ],
-                [
-                  -2.244741,
-                  54.447995
-                ],
-                [
-                  -1.388489,
-                  54.626692
-                ],
-                [
-                  -1.138051,
-                  54.646552
-                ],
-                [
-                  -0.787913,
-                  54.560777
-                ],
-                [
-                  -0.778836,
-                  54.557411
-                ],
-                [
-                  -0.562978,
-                  54.477362
-                ],
-                [
-                  -0.534657,
-                  54.461005
-                ],
-                [
-                  -0.199894,
-                  54.15245
-                ],
-                [
-                  -0.209749,
-                  54.139667
-                ],
-                [
-                  -0.925571,
-                  53.722716
-                ],
-                [
-                  -1.073934,
-                  53.647682
-                ],
-                [
-                  -1.126437,
-                  53.633833
-                ],
-                [
-                  -1.214752,
-                  53.619932
-                ],
-                [
-                  -1.229971,
-                  53.620655
-                ],
-                [
-                  -2.032558,
-                  53.847618
-                ],
-                [
-                  -2.066122,
-                  53.862733
-                ],
-                [
-                  -2.448631,
-                  54.039906
-                ],
-                [
-                  -2.458346,
-                  54.047166
-                ],
-                [
-                  -2.545033,
-                  54.113545
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23086",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "North Yorkshire"
-        }
-      ],
-      "properties": {
-        "title": "North Yorkshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rutland%20County%20Flag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.802633,
-                  52.620639
-                ],
-                [
-                  -0.805113,
-                  52.688567
-                ],
-                [
-                  -0.805113,
-                  52.708669
-                ],
-                [
-                  -0.782479,
-                  52.718746
-                ],
-                [
-                  -0.651066,
-                  52.74753
-                ],
-                [
-                  -0.608355,
-                  52.745515
-                ],
-                [
-                  -0.563655,
-                  52.740502
-                ],
-                [
-                  -0.415318,
-                  52.686604
-                ],
-                [
-                  -0.420305,
-                  52.675493
-                ],
-                [
-                  -0.548075,
-                  52.590485
-                ],
-                [
-                  -0.729898,
-                  52.506666
-                ],
-                [
-                  -0.742223,
-                  52.51248
-                ],
-                [
-                  -0.764883,
-                  52.532608
-                ],
-                [
-                  -0.787517,
-                  52.565267
-                ],
-                [
-                  -0.800101,
-                  52.595498
-                ],
-                [
-                  -0.802633,
-                  52.620639
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23107",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Rutland"
-        }
-      ],
-      "properties": {
-        "title": "Rutland"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Severn%20Cross.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county in England (use Q21694733 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.684043,
-                  51.662119
-                ],
-                [
-                  -2.684353,
-                  51.721935
-                ],
-                [
-                  -2.680994,
-                  51.772267
-                ],
-                [
-                  -2.679341,
-                  51.778365
-                ],
-                [
-                  -2.675775,
-                  51.786659
-                ],
-                [
-                  -2.641952,
-                  51.847172
-                ],
-                [
-                  -2.636138,
-                  51.853528
-                ],
-                [
-                  -2.460878,
-                  52.019667
-                ],
-                [
-                  -1.75782,
-                  52.10576
-                ],
-                [
-                  -1.715885,
-                  52.084935
-                ],
-                [
-                  -1.612273,
-                  52.026592
-                ],
-                [
-                  -1.612532,
-                  51.939362
-                ],
-                [
-                  -1.61279,
-                  51.931611
-                ],
-                [
-                  -1.644184,
-                  51.679688
-                ],
-                [
-                  -1.649274,
-                  51.673745
-                ],
-                [
-                  -2.280656,
-                  51.420273
-                ],
-                [
-                  -2.397703,
-                  51.402858
-                ],
-                [
-                  -2.473952,
-                  51.404201
-                ],
-                [
-                  -2.503433,
-                  51.405545
-                ],
-                [
-                  -2.522683,
-                  51.418826
-                ],
-                [
-                  -2.666679,
-                  51.520628
-                ],
-                [
-                  -2.675878,
-                  51.528483
-                ],
-                [
-                  -2.678751,
-                  51.531304
-                ],
-                [
-                  -2.684043,
-                  51.662119
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23165",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Gloucestershire"
-        }
-      ],
-      "properties": {
-        "title": "Gloucestershire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somnew.png"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county of England (use Q21694741 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -3.825885,
-                  51.141892
-                ],
-                [
-                  -3.82728,
-                  51.171347
-                ],
-                [
-                  -3.821131,
-                  51.177187
-                ],
-                [
-                  -3.712239,
-                  51.238329
-                ],
-                [
-                  -2.780873,
-                  51.489081
-                ],
-                [
-                  -2.76122,
-                  51.492865
-                ],
-                [
-                  -2.729388,
-                  51.496219
-                ],
-                [
-                  -2.280656,
-                  51.420273
-                ],
-                [
-                  -2.236163,
-                  51.264106
-                ],
-                [
-                  -2.337785,
-                  50.982987
-                ],
-                [
-                  -2.61446,
-                  50.885473
-                ],
-                [
-                  -2.948523,
-                  50.82248
-                ],
-                [
-                  -3.599749,
-                  51.011874
-                ],
-                [
-                  -3.812785,
-                  51.128817
-                ],
-                [
-                  -3.825885,
-                  51.141892
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23157",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Somerset"
-        },
-        {
-          "lang": "en",
-          "toponym": "Somerset, England"
-        }
-      ],
-      "properties": {
-        "title": "Somerset"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Staffordshire%20Flag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county in England (use Q21694786 for administrative non-metropolitan county)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.449457,
-                  52.885506
-                ],
-                [
-                  -2.45031,
-                  52.896617
-                ],
-                [
-                  -2.442559,
-                  52.912688
-                ],
-                [
-                  -2.365871,
-                  53.052163
-                ],
-                [
-                  -2.138081,
-                  53.173809
-                ],
-                [
-                  -1.952537,
-                  53.213806
-                ],
-                [
-                  -1.856677,
-                  53.176341
-                ],
-                [
-                  -1.824198,
-                  53.163009
-                ],
-                [
-                  -1.803683,
-                  53.148539
-                ],
-                [
-                  -1.798903,
-                  53.141614
-                ],
-                [
-                  -1.590853,
-                  52.810782
-                ],
-                [
-                  -1.580027,
-                  52.676888
-                ],
-                [
-                  -1.634778,
-                  52.588005
-                ],
-                [
-                  -1.643357,
-                  52.579943
-                ],
-                [
-                  -2.153868,
-                  52.42295
-                ],
-                [
-                  -2.171128,
-                  52.421607
-                ],
-                [
-                  -2.26058,
-                  52.436335
-                ],
-                [
-                  -2.28616,
-                  52.444577
-                ],
-                [
-                  -2.29864,
-                  52.475505
-                ],
-                [
-                  -2.449457,
-                  52.885506
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23105",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Staffordshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Staffs"
-        }
-      ],
-      "properties": {
-        "title": "Staffordshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20County%20Flag%20of%20Greater%20Manchester.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "metropolitan county in North West England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.690037,
-                  53.47162
-                ],
-                [
-                  -2.752023,
-                  53.511101
-                ],
-                [
-                  -2.686704,
-                  53.599674
-                ],
-                [
-                  -2.67779,
-                  53.602723
-                ],
-                [
-                  -2.353623,
-                  53.666905
-                ],
-                [
-                  -2.151388,
-                  53.696516
-                ],
-                [
-                  -2.046433,
-                  53.684114
-                ],
-                [
-                  -1.897217,
-                  53.533012
-                ],
-                [
-                  -1.981424,
-                  53.398291
-                ],
-                [
-                  -2.004472,
-                  53.374107
-                ],
-                [
-                  -2.049482,
-                  53.35217
-                ],
-                [
-                  -2.159501,
-                  53.321345
-                ],
-                [
-                  -2.283369,
-                  53.342171
-                ],
-                [
-                  -2.36476,
-                  53.362428
-                ],
-                [
-                  -2.455891,
-                  53.385786
-                ],
-                [
-                  -2.690037,
-                  53.47162
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23099",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Greater Manchester"
-        }
-      ],
-      "properties": {
-        "title": "Greater Manchester"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769628",
-          "label": "metropolitan county"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20Flag%20of%20West%20Yorkshire.svg"
         }
       ],
@@ -5337,6 +5970,132 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q769628",
           "label": "metropolitan county"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Wiltshire.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ceremonial county of England (use Q21694746 for administrative unitary authority)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.347526,
+                  51.094918
+                ],
+                [
+                  -2.35197,
+                  51.105201
+                ],
+                [
+                  -2.333676,
+                  51.346892
+                ],
+                [
+                  -2.320551,
+                  51.483835
+                ],
+                [
+                  -2.271639,
+                  51.577162
+                ],
+                [
+                  -2.057259,
+                  51.664108
+                ],
+                [
+                  -1.806137,
+                  51.697982
+                ],
+                [
+                  -1.683328,
+                  51.678603
+                ],
+                [
+                  -1.528377,
+                  51.45133
+                ],
+                [
+                  -1.521142,
+                  51.434122
+                ],
+                [
+                  -1.485847,
+                  51.343843
+                ],
+                [
+                  -1.48701,
+                  51.332448
+                ],
+                [
+                  -1.599742,
+                  50.976889
+                ],
+                [
+                  -1.610568,
+                  50.95968
+                ],
+                [
+                  -1.655036,
+                  50.950224
+                ],
+                [
+                  -2.099195,
+                  50.955753
+                ],
+                [
+                  -2.347526,
+                  51.094918
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q23183",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "County of Wilts"
+        },
+        {
+          "lang": "en",
+          "toponym": "County of Wiltshire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wilts"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wiltshire"
+        }
+      ],
+      "properties": {
+        "title": "Wiltshire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1138494",
+          "label": "historic county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q180673",
+          "label": "ceremonial county of England"
         }
       ]
     },
@@ -5455,761 +6214,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q7925010",
           "label": "vice-county"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "administrative area, ceremonial county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.312249,
-                  51.324103
-                ],
-                [
-                  -0.497199,
-                  51.477788
-                ],
-                [
-                  -0.493453,
-                  51.590934
-                ],
-                [
-                  -0.481412,
-                  51.616049
-                ],
-                [
-                  -0.238378,
-                  51.672195
-                ],
-                [
-                  -0.148099,
-                  51.689093
-                ],
-                [
-                  -0.01126,
-                  51.677208
-                ],
-                [
-                  0.248078,
-                  51.627443
-                ],
-                [
-                  0.308307,
-                  51.578816
-                ],
-                [
-                  0.336109,
-                  51.539955
-                ],
-                [
-                  0.093824,
-                  51.288291
-                ],
-                [
-                  0.068839,
-                  51.282451
-                ],
-                [
-                  -0.1281,
-                  51.289118
-                ],
-                [
-                  -0.312249,
-                  51.324103
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23306",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Greater London"
-        }
-      ],
-      "properties": {
-        "title": "Greater London"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ceremonial county of England (use Q21695028 for administrative unitary authority)"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.073934,
-                  53.647682
-                ],
-                [
-                  -1.109746,
-                  53.675484
-                ],
-                [
-                  -1.093881,
-                  53.713569
-                ],
-                [
-                  -0.929757,
-                  53.969109
-                ],
-                [
-                  -0.927974,
-                  53.971848
-                ],
-                [
-                  -0.918078,
-                  53.986886
-                ],
-                [
-                  -0.889346,
-                  54.007143
-                ],
-                [
-                  -0.398084,
-                  54.169924
-                ],
-                [
-                  -0.199894,
-                  54.15245
-                ],
-                [
-                  -0.11144,
-                  54.131578
-                ],
-                [
-                  -0.07551,
-                  54.112128
-                ],
-                [
-                  0.149262,
-                  53.609605
-                ],
-                [
-                  0.136892,
-                  53.577135
-                ],
-                [
-                  0.131196,
-                  53.573432
-                ],
-                [
-                  0.10963,
-                  53.562893
-                ],
-                [
-                  -0.860717,
-                  53.612438
-                ],
-                [
-                  -1.073934,
-                  53.647682
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23088",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "East Riding of Yorkshire"
-        },
-        {
-          "lang": "en",
-          "toponym": "East Yorkshire"
-        }
-      ],
-      "properties": {
-        "title": "East Riding of Yorkshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.848926,
-                  54.912462
-                ],
-                [
-                  -1.850579,
-                  54.919671
-                ],
-                [
-                  -1.800065,
-                  54.972175
-                ],
-                [
-                  -1.696687,
-                  55.066329
-                ],
-                [
-                  -1.688909,
-                  55.072143
-                ],
-                [
-                  -1.455585,
-                  55.069712
-                ],
-                [
-                  -1.370229,
-                  54.975531
-                ],
-                [
-                  -1.36266,
-                  54.964789
-                ],
-                [
-                  -1.34082,
-                  54.872682
-                ],
-                [
-                  -1.411278,
-                  54.801281
-                ],
-                [
-                  -1.440449,
-                  54.796966
-                ],
-                [
-                  -1.474168,
-                  54.796966
-                ],
-                [
-                  -1.506362,
-                  54.79986
-                ],
-                [
-                  -1.848926,
-                  54.912462
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23080",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Tyne and Wear"
-        }
-      ],
-      "properties": {
-        "title": "Tyne and Wear"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769628",
-          "label": "metropolitan county"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "county of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -1.793089,
-                  53.477718
-                ],
-                [
-                  -1.816137,
-                  53.516062
-                ],
-                [
-                  -1.806732,
-                  53.531875
-                ],
-                [
-                  -1.560571,
-                  53.606625
-                ],
-                [
-                  -0.996419,
-                  53.659955
-                ],
-                [
-                  -0.94141,
-                  53.65688
-                ],
-                [
-                  -0.860019,
-                  53.632437
-                ],
-                [
-                  -0.855291,
-                  53.598279
-                ],
-                [
-                  -0.871957,
-                  53.53079
-                ],
-                [
-                  -0.91937,
-                  53.487433
-                ],
-                [
-                  -0.977532,
-                  53.434361
-                ],
-                [
-                  -1.004739,
-                  53.412166
-                ],
-                [
-                  -1.176021,
-                  53.292923
-                ],
-                [
-                  -1.242528,
-                  53.290779
-                ],
-                [
-                  -1.531426,
-                  53.289667
-                ],
-                [
-                  -1.610051,
-                  53.305791
-                ],
-                [
-                  -1.614754,
-                  53.308013
-                ],
-                [
-                  -1.734204,
-                  53.410797
-                ],
-                [
-                  -1.78725,
-                  53.468571
-                ],
-                [
-                  -1.793089,
-                  53.477718
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q23095",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "South Yorkshire"
-        }
-      ],
-      "properties": {
-        "title": "South Yorkshire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769628",
-          "label": "metropolitan county"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "district and county in England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.633503,
-                  51.382135
-                ],
-                [
-                  -2.729388,
-                  51.496219
-                ],
-                [
-                  -2.678751,
-                  51.531304
-                ],
-                [
-                  -2.528832,
-                  51.480476
-                ],
-                [
-                  -2.518135,
-                  51.472414
-                ],
-                [
-                  -2.518135,
-                  51.44301
-                ],
-                [
-                  -2.520823,
-                  51.422908
-                ],
-                [
-                  -2.527489,
-                  51.408206
-                ],
-                [
-                  -2.539529,
-                  51.393452
-                ],
-                [
-                  -2.562293,
-                  51.38012
-                ],
-                [
-                  -2.60645,
-                  51.38012
-                ],
-                [
-                  -2.633503,
-                  51.382135
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q21693433",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Bristol"
-        },
-        {
-          "lang": "en",
-          "toponym": "City and county of Bristol"
-        },
-        {
-          "lang": "en",
-          "toponym": "City of Bristol"
-        }
-      ],
-      "properties": {
-        "title": "City of Bristol"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1006876",
-          "label": "borough in the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q21503295",
-          "label": "district with city status"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "non-metropolitan and ceremonial county in the west of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.975859,
-                  51.293278
-                ],
-                [
-                  -2.992177,
-                  51.321926
-                ],
-                [
-                  -2.987782,
-                  51.346666
-                ],
-                [
-                  -2.97468,
-                  51.384223
-                ],
-                [
-                  -2.556386,
-                  51.659247
-                ],
-                [
-                  -2.53549,
-                  51.67295
-                ],
-                [
-                  -2.28616,
-                  51.622715
-                ],
-                [
-                  -2.273086,
-                  51.612457
-                ],
-                [
-                  -2.245284,
-                  51.518561
-                ],
-                [
-                  -2.290139,
-                  51.324904
-                ],
-                [
-                  -2.345846,
-                  51.299944
-                ],
-                [
-                  -2.458113,
-                  51.272995
-                ],
-                [
-                  -2.889456,
-                  51.286327
-                ],
-                [
-                  -2.95723,
-                  51.290229
-                ],
-                [
-                  -2.975859,
-                  51.293278
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q929902",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Avon"
-        }
-      ],
-      "properties": {
-        "title": "Avon"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q19953632",
-          "label": "former administrative territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "non-metropolitan and ceremonial county of England"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -0.910016,
-                  53.46051
-                ],
-                [
-                  -1.109746,
-                  53.675484
-                ],
-                [
-                  -1.093881,
-                  53.713569
-                ],
-                [
-                  -0.929757,
-                  53.969109
-                ],
-                [
-                  -0.927974,
-                  53.971848
-                ],
-                [
-                  -0.918078,
-                  53.986886
-                ],
-                [
-                  -0.889346,
-                  54.007143
-                ],
-                [
-                  -0.398084,
-                  54.169924
-                ],
-                [
-                  -0.199894,
-                  54.15245
-                ],
-                [
-                  -0.11144,
-                  54.131578
-                ],
-                [
-                  -0.07551,
-                  54.112128
-                ],
-                [
-                  0.149262,
-                  53.609605
-                ],
-                [
-                  0.136892,
-                  53.577135
-                ],
-                [
-                  0.131196,
-                  53.573432
-                ],
-                [
-                  -0.072807,
-                  53.442449
-                ],
-                [
-                  -0.101694,
-                  53.427437
-                ],
-                [
-                  -0.113631,
-                  53.426868
-                ],
-                [
-                  -0.797155,
-                  53.452293
-                ],
-                [
-                  -0.90503,
-                  53.457719
-                ],
-                [
-                  -0.910016,
-                  53.46051
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q1636805",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Humberside"
-        }
-      ],
-      "properties": {
-        "title": "Humberside"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q180673",
-          "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q19953632",
-          "label": "former administrative territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q769603",
-          "label": "non-metropolitan county"
         }
       ]
     }

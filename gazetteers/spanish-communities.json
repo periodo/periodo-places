@@ -57,187 +57,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Navarra.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Autonomous community in Spain"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.493279,
-                  42.595307
-                ],
-                [
-                  -2.494545,
-                  42.601999
-                ],
-                [
-                  -2.492736,
-                  42.609337
-                ],
-                [
-                  -2.231693,
-                  42.935157
-                ],
-                [
-                  -2.22544,
-                  42.94141
-                ],
-                [
-                  -1.908534,
-                  43.218344
-                ],
-                [
-                  -1.773452,
-                  43.289709
-                ],
-                [
-                  -1.74973,
-                  43.294793
-                ],
-                [
-                  -1.683019,
-                  43.304929
-                ],
-                [
-                  -1.673872,
-                  43.304154
-                ],
-                [
-                  -1.539204,
-                  43.283561
-                ],
-                [
-                  -1.432233,
-                  43.265009
-                ],
-                [
-                  -0.759665,
-                  42.946501
-                ],
-                [
-                  -0.745032,
-                  42.918727
-                ],
-                [
-                  -1.315961,
-                  42.03715
-                ],
-                [
-                  -1.322369,
-                  42.027771
-                ],
-                [
-                  -1.38314,
-                  41.943693
-                ],
-                [
-                  -1.40903,
-                  41.915736
-                ],
-                [
-                  -1.414663,
-                  41.910827
-                ],
-                [
-                  -1.419288,
-                  41.908863
-                ],
-                [
-                  -1.546644,
-                  41.910672
-                ],
-                [
-                  -1.555946,
-                  41.911602
-                ],
-                [
-                  -1.573749,
-                  41.916744
-                ],
-                [
-                  -1.72361,
-                  41.960592
-                ],
-                [
-                  -1.852414,
-                  42.001209
-                ],
-                [
-                  -1.890603,
-                  42.025316
-                ],
-                [
-                  -2.406075,
-                  42.497096
-                ],
-                [
-                  -2.493279,
-                  42.595307
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q4018",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Chartered Community of Navarre"
-        },
-        {
-          "lang": "en",
-          "toponym": "Nafarroa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Navarra"
-        },
-        {
-          "lang": "en",
-          "toponym": "Navarre"
-        }
-      ],
-      "properties": {
-        "title": "Navarre"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3297051",
-          "label": "chartered community"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andaluc%C3%ADa.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous community of Spain"
+          "value": "Autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -581,7 +407,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous community of Spain"
+          "value": "autonomous community of Spain, situated in the northwest part of the country"
         }
       ],
       "geometry": {
@@ -737,13 +563,467 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Balearic%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Autonomous community of Spain"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.216645,
+                  38.885077
+                ],
+                [
+                  1.212169,
+                  38.903225
+                ],
+                [
+                  1.218435,
+                  38.954088
+                ],
+                [
+                  1.292817,
+                  39.033271
+                ],
+                [
+                  1.304454,
+                  39.043443
+                ],
+                [
+                  1.356781,
+                  39.077623
+                ],
+                [
+                  2.710623,
+                  39.818549
+                ],
+                [
+                  2.813243,
+                  39.872585
+                ],
+                [
+                  2.933279,
+                  39.914496
+                ],
+                [
+                  3.179454,
+                  39.968777
+                ],
+                [
+                  3.891531,
+                  40.059556
+                ],
+                [
+                  4.105072,
+                  40.079413
+                ],
+                [
+                  4.170502,
+                  40.064602
+                ],
+                [
+                  4.254568,
+                  39.997463
+                ],
+                [
+                  4.264903,
+                  39.986396
+                ],
+                [
+                  4.298025,
+                  39.941962
+                ],
+                [
+                  4.328787,
+                  39.88345
+                ],
+                [
+                  4.337087,
+                  39.867174
+                ],
+                [
+                  4.300059,
+                  39.821763
+                ],
+                [
+                  2.962154,
+                  39.116062
+                ],
+                [
+                  1.581391,
+                  38.653062
+                ],
+                [
+                  1.557486,
+                  38.648839
+                ],
+                [
+                  1.396977,
+                  38.638646
+                ],
+                [
+                  1.38295,
+                  38.642061
+                ],
+                [
+                  1.216645,
+                  38.885077
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5765",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balearic Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islas baleares"
+        }
+      ],
+      "properties": {
+        "title": "Balearic Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Basque%20Country.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Autonomous community of Spain"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -3.440947,
+                  43.188062
+                ],
+                [
+                  -3.44503,
+                  43.224235
+                ],
+                [
+                  -3.441645,
+                  43.233305
+                ],
+                [
+                  -3.430896,
+                  43.243459
+                ],
+                [
+                  -3.335812,
+                  43.29529
+                ],
+                [
+                  -3.322944,
+                  43.300096
+                ],
+                [
+                  -2.930084,
+                  43.437934
+                ],
+                [
+                  -2.768625,
+                  43.452501
+                ],
+                [
+                  -1.811269,
+                  43.395087
+                ],
+                [
+                  -1.794075,
+                  43.386015
+                ],
+                [
+                  -1.75578,
+                  43.318546
+                ],
+                [
+                  -1.74973,
+                  43.294793
+                ],
+                [
+                  -2.406075,
+                  42.497096
+                ],
+                [
+                  -2.583454,
+                  42.496683
+                ],
+                [
+                  -2.617871,
+                  42.507716
+                ],
+                [
+                  -2.632082,
+                  42.512522
+                ],
+                [
+                  -2.813001,
+                  42.580812
+                ],
+                [
+                  -2.821037,
+                  42.584274
+                ],
+                [
+                  -3.136315,
+                  42.769896
+                ],
+                [
+                  -3.231451,
+                  42.835887
+                ],
+                [
+                  -3.275919,
+                  42.874696
+                ],
+                [
+                  -3.280078,
+                  42.880355
+                ],
+                [
+                  -3.423791,
+                  43.140623
+                ],
+                [
+                  -3.440947,
+                  43.188062
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3995",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Autonomous Community of the Basque Country"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basque Country"
+        },
+        {
+          "lang": "en",
+          "toponym": "Euskadi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Euskal Autonomia Erkidegoa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pais Vasco"
+        },
+        {
+          "lang": "en",
+          "toponym": "País Vasco"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vascongadas"
+        }
+      ],
+      "properties": {
+        "title": "Basque Country"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Autonomous community of Spain"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -18.16039,
+                  27.722357
+                ],
+                [
+                  -18.167226,
+                  27.757554
+                ],
+                [
+                  -18.002187,
+                  28.749579
+                ],
+                [
+                  -17.996816,
+                  28.780097
+                ],
+                [
+                  -17.970693,
+                  28.813218
+                ],
+                [
+                  -17.93635,
+                  28.840318
+                ],
+                [
+                  -17.911145,
+                  28.855619
+                ],
+                [
+                  -13.508168,
+                  29.289455
+                ],
+                [
+                  -13.486684,
+                  29.284613
+                ],
+                [
+                  -13.417795,
+                  29.20893
+                ],
+                [
+                  -13.465566,
+                  29.023912
+                ],
+                [
+                  -13.911285,
+                  28.277248
+                ],
+                [
+                  -13.933705,
+                  28.244208
+                ],
+                [
+                  -13.966786,
+                  28.227973
+                ],
+                [
+                  -14.30134,
+                  28.067857
+                ],
+                [
+                  -14.34317,
+                  28.050686
+                ],
+                [
+                  -15.577952,
+                  27.734361
+                ],
+                [
+                  -17.979482,
+                  27.642524
+                ],
+                [
+                  -17.99413,
+                  27.642239
+                ],
+                [
+                  -18.146637,
+                  27.708564
+                ],
+                [
+                  -18.16039,
+                  27.722357
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5813",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Canaries"
+        },
+        {
+          "lang": "en",
+          "toponym": "Canary Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Canary"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islas Canarias"
+        },
+        {
+          "lang": "en",
+          "toponym": "🇮🇨"
+        }
+      ],
+      "properties": {
+        "title": "Canary Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cantabria%20%28Official%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Spanish autonomous community / historical region"
+          "value": "Autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -877,7 +1157,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Spanish autonomous community"
+          "value": "Autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -1264,6 +1544,13 @@
           "value": "autonomous community of Spain"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          3.322194444,
+          42.3195
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1403,8 +1690,171 @@
           "toponym": "Cataluña"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          0.7,
+          42.85
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Catalonia"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          0.85,
+          40.516666666
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10742",
+          "label": "autonomous community of Spain"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          0.166666666,
+          40.716666666
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Community%20of%20Madrid.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous community of Spain"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -4.549303,
+                  40.200596
+                ],
+                [
+                  -4.571886,
+                  40.212016
+                ],
+                [
+                  -4.537624,
+                  40.334076
+                ],
+                [
+                  -4.318488,
+                  40.682356
+                ],
+                [
+                  -4.29935,
+                  40.696232
+                ],
+                [
+                  -3.902082,
+                  40.958534
+                ],
+                [
+                  -3.623882,
+                  41.139401
+                ],
+                [
+                  -3.592204,
+                  41.154077
+                ],
+                [
+                  -3.545773,
+                  41.161751
+                ],
+                [
+                  -3.436451,
+                  41.077415
+                ],
+                [
+                  -3.141947,
+                  40.405906
+                ],
+                [
+                  -3.086524,
+                  40.239327
+                ],
+                [
+                  -3.083114,
+                  40.227674
+                ],
+                [
+                  -3.062236,
+                  40.10533
+                ],
+                [
+                  -3.063037,
+                  40.098121
+                ],
+                [
+                  -3.068696,
+                  40.090551
+                ],
+                [
+                  -3.07867,
+                  40.082308
+                ],
+                [
+                  -3.093759,
+                  40.072645
+                ],
+                [
+                  -3.797695,
+                  39.896015
+                ],
+                [
+                  -3.80971,
+                  39.893534
+                ],
+                [
+                  -3.825704,
+                  39.895446
+                ],
+                [
+                  -4.549303,
+                  40.200596
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5756",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Community of Madrid"
+        },
+        {
+          "lang": "en",
+          "toponym": "Comunidad de Madrid"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madrid autonomous community"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madrid province"
+        }
+      ],
+      "properties": {
+        "title": "Community of Madrid"
       },
       "type": "Feature",
       "types": [
@@ -1423,9 +1873,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Spanish autonomous community with the capital city of Mérida"
+          "value": "Autonomous community of Spain"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -4.6476,
+          39.1685
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1545,8 +2002,22 @@
           "toponym": "Extremadura"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -6.2307,
+          40.4866
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Extremadura"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -6.1802,
+          37.941
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1554,7 +2025,14 @@
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -7.5411,
+          39.6637
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -1565,7 +2043,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous community and first-level administrative division in Spain"
+          "value": "Autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -1871,13 +2349,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Balearic%20Islands.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20Navarra.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Spanish archipelago in the Mediterranean Sea"
+          "value": "Autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -1886,246 +2364,116 @@
             "coordinates": [
               [
                 [
-                  1.216645,
-                  38.885077
+                  -2.493279,
+                  42.595307
                 ],
                 [
-                  1.212169,
-                  38.903225
+                  -2.494545,
+                  42.601999
                 ],
                 [
-                  1.218435,
-                  38.954088
+                  -2.492736,
+                  42.609337
                 ],
                 [
-                  1.292817,
-                  39.033271
+                  -2.231693,
+                  42.935157
                 ],
                 [
-                  1.304454,
-                  39.043443
+                  -2.22544,
+                  42.94141
                 ],
                 [
-                  1.356781,
-                  39.077623
+                  -1.908534,
+                  43.218344
                 ],
                 [
-                  2.710623,
-                  39.818549
-                ],
-                [
-                  2.813243,
-                  39.872585
-                ],
-                [
-                  2.933279,
-                  39.914496
-                ],
-                [
-                  3.179454,
-                  39.968777
-                ],
-                [
-                  3.891531,
-                  40.059556
-                ],
-                [
-                  4.105072,
-                  40.079413
-                ],
-                [
-                  4.170502,
-                  40.064602
-                ],
-                [
-                  4.254568,
-                  39.997463
-                ],
-                [
-                  4.264903,
-                  39.986396
-                ],
-                [
-                  4.298025,
-                  39.941962
-                ],
-                [
-                  4.328787,
-                  39.88345
-                ],
-                [
-                  4.337087,
-                  39.867174
-                ],
-                [
-                  4.300059,
-                  39.821763
-                ],
-                [
-                  2.962154,
-                  39.116062
-                ],
-                [
-                  1.581391,
-                  38.653062
-                ],
-                [
-                  1.557486,
-                  38.648839
-                ],
-                [
-                  1.396977,
-                  38.638646
-                ],
-                [
-                  1.38295,
-                  38.642061
-                ],
-                [
-                  1.216645,
-                  38.885077
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5765",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Balearic Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islas baleares"
-        }
-      ],
-      "properties": {
-        "title": "Balearic Islands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Basque%20Country.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "autonomous region of northern Spain"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -3.440947,
-                  43.188062
-                ],
-                [
-                  -3.44503,
-                  43.224235
-                ],
-                [
-                  -3.441645,
-                  43.233305
-                ],
-                [
-                  -3.430896,
-                  43.243459
-                ],
-                [
-                  -3.335812,
-                  43.29529
-                ],
-                [
-                  -3.322944,
-                  43.300096
-                ],
-                [
-                  -2.930084,
-                  43.437934
-                ],
-                [
-                  -2.768625,
-                  43.452501
-                ],
-                [
-                  -1.811269,
-                  43.395087
-                ],
-                [
-                  -1.794075,
-                  43.386015
-                ],
-                [
-                  -1.75578,
-                  43.318546
+                  -1.773452,
+                  43.289709
                 ],
                 [
                   -1.74973,
                   43.294793
                 ],
                 [
+                  -1.683019,
+                  43.304929
+                ],
+                [
+                  -1.673872,
+                  43.304154
+                ],
+                [
+                  -1.539204,
+                  43.283561
+                ],
+                [
+                  -1.432233,
+                  43.265009
+                ],
+                [
+                  -0.759665,
+                  42.946501
+                ],
+                [
+                  -0.745032,
+                  42.918727
+                ],
+                [
+                  -1.315961,
+                  42.03715
+                ],
+                [
+                  -1.322369,
+                  42.027771
+                ],
+                [
+                  -1.38314,
+                  41.943693
+                ],
+                [
+                  -1.40903,
+                  41.915736
+                ],
+                [
+                  -1.414663,
+                  41.910827
+                ],
+                [
+                  -1.419288,
+                  41.908863
+                ],
+                [
+                  -1.546644,
+                  41.910672
+                ],
+                [
+                  -1.555946,
+                  41.911602
+                ],
+                [
+                  -1.573749,
+                  41.916744
+                ],
+                [
+                  -1.72361,
+                  41.960592
+                ],
+                [
+                  -1.852414,
+                  42.001209
+                ],
+                [
+                  -1.890603,
+                  42.025316
+                ],
+                [
                   -2.406075,
                   42.497096
                 ],
                 [
-                  -2.583454,
-                  42.496683
-                ],
-                [
-                  -2.617871,
-                  42.507716
-                ],
-                [
-                  -2.632082,
-                  42.512522
-                ],
-                [
-                  -2.813001,
-                  42.580812
-                ],
-                [
-                  -2.821037,
-                  42.584274
-                ],
-                [
-                  -3.136315,
-                  42.769896
-                ],
-                [
-                  -3.231451,
-                  42.835887
-                ],
-                [
-                  -3.275919,
-                  42.874696
-                ],
-                [
-                  -3.280078,
-                  42.880355
-                ],
-                [
-                  -3.423791,
-                  43.140623
-                ],
-                [
-                  -3.440947,
-                  43.188062
+                  -2.493279,
+                  42.595307
                 ]
               ]
             ],
@@ -2134,39 +2482,19 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q3995",
+      "id": "http://www.wikidata.org/entity/Q4018",
       "names": [
         {
           "lang": "en",
-          "toponym": "Autonomous Community of the Basque Country"
+          "toponym": "Chartered Community of Navarre"
         },
         {
           "lang": "en",
-          "toponym": "Basque Country"
-        },
-        {
-          "lang": "en",
-          "toponym": "Euskadi"
-        },
-        {
-          "lang": "en",
-          "toponym": "Euskal Autonomia Erkidegoa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Pais Vasco"
-        },
-        {
-          "lang": "en",
-          "toponym": "País Vasco"
-        },
-        {
-          "lang": "en",
-          "toponym": "Vascongadas"
+          "toponym": "Navarre"
         }
       ],
       "properties": {
-        "title": "Basque Country"
+        "title": "Navarre"
       },
       "type": "Feature",
       "types": [
@@ -2175,292 +2503,12 @@
           "label": "autonomous community of Spain"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Spanish archipelago in the North Atlantic Ocean"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -18.16039,
-                  27.722357
-                ],
-                [
-                  -18.167226,
-                  27.757554
-                ],
-                [
-                  -18.002187,
-                  28.749579
-                ],
-                [
-                  -17.996816,
-                  28.780097
-                ],
-                [
-                  -17.970693,
-                  28.813218
-                ],
-                [
-                  -17.93635,
-                  28.840318
-                ],
-                [
-                  -17.911145,
-                  28.855619
-                ],
-                [
-                  -13.508168,
-                  29.289455
-                ],
-                [
-                  -13.486684,
-                  29.284613
-                ],
-                [
-                  -13.417795,
-                  29.20893
-                ],
-                [
-                  -13.465566,
-                  29.023912
-                ],
-                [
-                  -13.911285,
-                  28.277248
-                ],
-                [
-                  -13.933705,
-                  28.244208
-                ],
-                [
-                  -13.966786,
-                  28.227973
-                ],
-                [
-                  -14.30134,
-                  28.067857
-                ],
-                [
-                  -14.34317,
-                  28.050686
-                ],
-                [
-                  -15.577952,
-                  27.734361
-                ],
-                [
-                  -17.979482,
-                  27.642524
-                ],
-                [
-                  -17.99413,
-                  27.642239
-                ],
-                [
-                  -18.146637,
-                  27.708564
-                ],
-                [
-                  -18.16039,
-                  27.722357
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5813",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Canaries"
+          "identifier": "http://www.wikidata.org/entity/Q162620",
+          "label": "province of Spain"
         },
         {
-          "lang": "en",
-          "toponym": "Canary Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "Canary"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islas Canarias"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇨"
-        }
-      ],
-      "properties": {
-        "title": "Canary Islands"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Community%20of%20Madrid.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "autonomous community of Spain"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -4.549303,
-                  40.200596
-                ],
-                [
-                  -4.571886,
-                  40.212016
-                ],
-                [
-                  -4.537624,
-                  40.334076
-                ],
-                [
-                  -4.318488,
-                  40.682356
-                ],
-                [
-                  -4.29935,
-                  40.696232
-                ],
-                [
-                  -3.902082,
-                  40.958534
-                ],
-                [
-                  -3.623882,
-                  41.139401
-                ],
-                [
-                  -3.592204,
-                  41.154077
-                ],
-                [
-                  -3.545773,
-                  41.161751
-                ],
-                [
-                  -3.436451,
-                  41.077415
-                ],
-                [
-                  -3.141947,
-                  40.405906
-                ],
-                [
-                  -3.086524,
-                  40.239327
-                ],
-                [
-                  -3.083114,
-                  40.227674
-                ],
-                [
-                  -3.062236,
-                  40.10533
-                ],
-                [
-                  -3.063037,
-                  40.098121
-                ],
-                [
-                  -3.068696,
-                  40.090551
-                ],
-                [
-                  -3.07867,
-                  40.082308
-                ],
-                [
-                  -3.093759,
-                  40.072645
-                ],
-                [
-                  -3.797695,
-                  39.896015
-                ],
-                [
-                  -3.80971,
-                  39.893534
-                ],
-                [
-                  -3.825704,
-                  39.895446
-                ],
-                [
-                  -4.549303,
-                  40.200596
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5756",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Community of Madrid"
-        },
-        {
-          "lang": "en",
-          "toponym": "Comunidad de Madrid"
-        },
-        {
-          "lang": "en",
-          "toponym": "Madrid autonomous community"
-        },
-        {
-          "lang": "en",
-          "toponym": "Madrid province"
-        }
-      ],
-      "properties": {
-        "title": "Community of Madrid"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
+          "identifier": "http://www.wikidata.org/entity/Q3297051",
+          "label": "chartered community"
         }
       ]
     },
@@ -2473,7 +2521,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "single-province autonomous community of Spain"
+          "value": "Autonomous community and province of Spain"
         }
       ],
       "geometry": {
@@ -2783,10 +2831,6 @@
         {
           "lang": "en",
           "toponym": "Valencian Community"
-        },
-        {
-          "lang": "en",
-          "toponym": "Valencian Countru"
         },
         {
           "lang": "en",

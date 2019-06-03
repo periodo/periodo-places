@@ -55,18 +55,10 @@
   },
   "features": [
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Abkhazia%20%28GE%29.svg"
-        },
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20Abkhazia.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in the Caucasus, de facto independent state of Georgia and not recognized internationally"
+          "value": "autonomous region in Georgia and breakaway republic which is not recognized internationally"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q23334",
@@ -166,12 +158,33 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q15239622",
           "label": "disputed territory"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "crescent-shaped region containing the moist and fertile land of Western Asia, and the Nile Valley and Nile Delta of northeast Africa"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q170526",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fertile Crescent"
+        }
+      ],
+      "properties": {
+        "title": "Fertile Crescent"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
         }
       ]
     },
@@ -214,36 +227,147 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20England%20pine%20flag.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "geographical region in the northeastern United States"
+          "value": "geographic region in the land of lsrael. The birthplace of the Jewish entity"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q18389",
+      "id": "http://www.wikidata.org/entity/Q104028",
       "names": [
         {
           "lang": "en",
-          "toponym": "New England"
-        },
-        {
-          "lang": "en",
-          "toponym": "New Englander"
+          "toponym": "Judea"
         }
       ],
       "properties": {
-        "title": "New England"
+        "title": "Judea"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q518261",
-          "label": "cultural area"
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former princely state, now a conflict territory between India, Pakistan and China"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q43100",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kashir"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kashmeer"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kashmir"
+        }
+      ],
+      "properties": {
+        "title": "Kashmir"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of central western Italy in which city of Rome was founded"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1048669",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Latium"
+        }
+      ],
+      "properties": {
+        "title": "Latium"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "geographic and cultural region consisting of the eastern Mediterranean between Anatolia and Egypt"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q81483",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Mediterranean"
+        },
+        {
+          "lang": "en",
+          "toponym": "Levant"
+        }
+      ],
+      "properties": {
+        "title": "Levant"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of lands around the Mediterranean Sea that have a Mediterranean climate"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q72499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mediterranea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mediterranean Basin"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mediterranean region"
+        }
+      ],
+      "properties": {
+        "title": "Mediterranean Basin"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549534",
+          "label": "Greater Region"
         }
       ]
     },
@@ -298,27 +422,32 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20England%20pine%20flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "crescent-shaped region containing the moist and fertile land of Western Asia, and the Nile Valley and Nile Delta of northeast Africa"
+          "value": "geographical region in the northeastern United States"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q170526",
+      "id": "http://www.wikidata.org/entity/Q18389",
       "names": [
         {
           "lang": "en",
-          "toponym": "Fertile Crescent"
+          "toponym": "New England"
         }
       ],
       "properties": {
-        "title": "Fertile Crescent"
+        "title": "New England"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
+          "identifier": "http://www.wikidata.org/entity/Q518261",
+          "label": "cultural area"
         }
       ]
     },
@@ -326,163 +455,18 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former country, now a conflict territory between India and Pakistan"
+          "value": "historic region of Germany"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q43100",
+      "id": "http://www.wikidata.org/entity/Q152243",
       "names": [
         {
           "lang": "en",
-          "toponym": "Kashmir"
-        },
-        {
-          "lang": "en",
-          "toponym": "city of apples"
+          "toponym": "Rhineland"
         }
       ],
       "properties": {
-        "title": "Kashmir"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15239622",
-          "label": "disputed territory"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "geographic and cultural region consisting of the eastern Mediterranean between Anatolia and Egypt"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q81483",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Eastern Mediterranean"
-        },
-        {
-          "lang": "en",
-          "toponym": "Levant"
-        }
-      ],
-      "properties": {
-        "title": "Levant"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "geographic region in the land of lsrael. The birthplace of the Jewish entity"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q104028",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Judea"
-        }
-      ],
-      "properties": {
-        "title": "Judea"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "geographic region"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q1058785",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "north India"
-        },
-        {
-          "lang": "en",
-          "toponym": "northern India"
-        }
-      ],
-      "properties": {
-        "title": "north India"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "geographic region"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q1151567",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "West India"
-        },
-        {
-          "lang": "en",
-          "toponym": "Western India"
-        },
-        {
-          "lang": "en",
-          "toponym": "Western region of India"
-        }
-      ],
-      "properties": {
-        "title": "West India"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "geographic region"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q542146",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "South India"
-        }
-      ],
-      "properties": {
-        "title": "South India"
+        "title": "Rhineland"
       },
       "type": "Feature",
       "types": [
@@ -525,18 +509,18 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "historic region of Germany"
+          "value": "geographic region"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q152243",
+      "id": "http://www.wikidata.org/entity/Q542146",
       "names": [
         {
           "lang": "en",
-          "toponym": "Rhineland"
+          "toponym": "South India"
         }
       ],
       "properties": {
-        "title": "Rhineland"
+        "title": "South India"
       },
       "type": "Feature",
       "types": [
@@ -591,18 +575,26 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of central western Italy in which city of Rome was founded"
+          "value": "geographic region"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q1048669",
+      "id": "http://www.wikidata.org/entity/Q1151567",
       "names": [
         {
           "lang": "en",
-          "toponym": "Latium"
+          "toponym": "West India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western region of India"
         }
       ],
       "properties": {
-        "title": "Latium"
+        "title": "West India"
       },
       "type": "Feature",
       "types": [
@@ -616,32 +608,28 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of lands around the Mediterranean Sea that have a Mediterranean climate"
+          "value": "geographic region"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q72499",
+      "id": "http://www.wikidata.org/entity/Q1058785",
       "names": [
         {
           "lang": "en",
-          "toponym": "Mediterranea"
+          "toponym": "north India"
         },
         {
           "lang": "en",
-          "toponym": "Mediterranean Basin"
-        },
-        {
-          "lang": "en",
-          "toponym": "Mediterranean region"
+          "toponym": "northern India"
         }
       ],
       "properties": {
-        "title": "Mediterranean Basin"
+        "title": "north India"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549534",
-          "label": "Greater Region"
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
         }
       ]
     }

@@ -255,6 +255,140 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valle%20d%27Aosta.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Italian mountainous semi-autonomous region in the North-West"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.784681,
+                  45.759585
+                ],
+                [
+                  6.781994,
+                  45.777465
+                ],
+                [
+                  6.782717,
+                  45.795294
+                ],
+                [
+                  6.788092,
+                  45.811727
+                ],
+                [
+                  6.800804,
+                  45.826455
+                ],
+                [
+                  7.007717,
+                  45.920506
+                ],
+                [
+                  7.022083,
+                  45.92526
+                ],
+                [
+                  7.541121,
+                  45.984119
+                ],
+                [
+                  7.84962,
+                  45.939712
+                ],
+                [
+                  7.915041,
+                  45.738242
+                ],
+                [
+                  7.916294,
+                  45.729662
+                ],
+                [
+                  7.919546,
+                  45.649044
+                ],
+                [
+                  7.912734,
+                  45.635872
+                ],
+                [
+                  7.880171,
+                  45.602693
+                ],
+                [
+                  7.749324,
+                  45.564142
+                ],
+                [
+                  7.741721,
+                  45.562648
+                ],
+                [
+                  7.224551,
+                  45.484206
+                ],
+                [
+                  7.075369,
+                  45.466286
+                ],
+                [
+                  6.982808,
+                  45.511125
+                ],
+                [
+                  6.795946,
+                  45.718141
+                ],
+                [
+                  6.784681,
+                  45.759585
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1222",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aosta Valley"
+        },
+        {
+          "lang": "en",
+          "toponym": "Val d'Aosta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Valle d'Aosta"
+        }
+      ],
+      "properties": {
+        "title": "Aosta Valley"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1710033",
+          "label": "autonomous region with special statute"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Apulia.svg"
         }
       ],
@@ -1435,6 +1569,10 @@
         {
           "lang": "en",
           "toponym": "Liguria"
+        },
+        {
+          "lang": "en",
+          "toponym": "Regio IX"
         }
       ],
       "properties": {
@@ -2455,7 +2593,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Region in central Italy with an area of about 23,000 square kilometres (8,900 square miles). The regional capital is Florence"
+          "value": "region in central Italy with an area of about 23,000 square kilometres (8,900 square miles). The regional capital is Florence"
         }
       ],
       "geometry": {
@@ -2771,140 +2909,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q16110",
           "label": "region of Italy"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valle%20d%27Aosta.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Italian mountainous semi-autonomous region in the North-West"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  6.784681,
-                  45.759585
-                ],
-                [
-                  6.781994,
-                  45.777465
-                ],
-                [
-                  6.782717,
-                  45.795294
-                ],
-                [
-                  6.788092,
-                  45.811727
-                ],
-                [
-                  6.800804,
-                  45.826455
-                ],
-                [
-                  7.007717,
-                  45.920506
-                ],
-                [
-                  7.022083,
-                  45.92526
-                ],
-                [
-                  7.541121,
-                  45.984119
-                ],
-                [
-                  7.84962,
-                  45.939712
-                ],
-                [
-                  7.915041,
-                  45.738242
-                ],
-                [
-                  7.916294,
-                  45.729662
-                ],
-                [
-                  7.919546,
-                  45.649044
-                ],
-                [
-                  7.912734,
-                  45.635872
-                ],
-                [
-                  7.880171,
-                  45.602693
-                ],
-                [
-                  7.749324,
-                  45.564142
-                ],
-                [
-                  7.741721,
-                  45.562648
-                ],
-                [
-                  7.224551,
-                  45.484206
-                ],
-                [
-                  7.075369,
-                  45.466286
-                ],
-                [
-                  6.982808,
-                  45.511125
-                ],
-                [
-                  6.795946,
-                  45.718141
-                ],
-                [
-                  6.784681,
-                  45.759585
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q1222",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Aosta Valley"
-        },
-        {
-          "lang": "en",
-          "toponym": "Val d'Aosta"
-        },
-        {
-          "lang": "en",
-          "toponym": "Valle d'Aosta"
-        }
-      ],
-      "properties": {
-        "title": "Aosta Valley"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1710033",
-          "label": "autonomous region with special statute"
         }
       ]
     },

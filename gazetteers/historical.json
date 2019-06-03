@@ -57,86 +57,6 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandeirareinogaliza.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "kingdom in Iberia"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q303421",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Kingdom of Galicia"
-        }
-      ],
-      "properties": {
-        "title": "Kingdom of Galicia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q417175",
-          "label": "kingdom"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Banner%20of%20the%20Holy%20Roman%20Emperor%20with%20haloes%20%281400-1806%29.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "varying complex of lands that existed from 962 to 1806 in Central Europe"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q12548",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "First Reich"
-        },
-        {
-          "lang": "en",
-          "toponym": "Holy Roman Empire of the German Nation"
-        },
-        {
-          "lang": "en",
-          "toponym": "Holy Roman Empire"
-        }
-      ],
-      "properties": {
-        "title": "Holy Roman Empire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%20flag.svg"
         }
       ],
@@ -154,6 +74,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Abbasid Empire"
+        },
+        {
+          "lang": "en",
           "toponym": "Abbasid period"
         }
       ],
@@ -165,6 +89,282 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "empire defined as the Phoenician city-state of Carthage and its sphere of influence, esp. during 7th to 3rd centuries BC"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q2429397",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ancient Carthage"
+        },
+        {
+          "lang": "en",
+          "toponym": "Carthage"
+        },
+        {
+          "lang": "en",
+          "toponym": "Carthaginian Empire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Carthaginian Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Αρχαία Καρχηδόνα"
+        }
+      ],
+      "properties": {
+        "title": "Ancient Carthage"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2472587",
+          "label": "people"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient civilization on the island of Crete"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q4752820",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ancient Crete"
+        }
+      ],
+      "properties": {
+        "title": "Ancient Crete"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient civilization of Northeastern Africa"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q11768",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ancient Egypt"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ta-Kemet"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ta-Meri"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ta-Ui"
+        }
+      ],
+      "properties": {
+        "title": "Ancient Egypt"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "civilization belonging to an early period of Greek history"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q11772",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ancient Greece"
+        },
+        {
+          "lang": "en",
+          "toponym": "Greece"
+        },
+        {
+          "lang": "en",
+          "toponym": "Greek antiquity"
+        }
+      ],
+      "properties": {
+        "title": "Ancient Greece"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11042",
+          "label": "culture"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rubenid%20Flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former country"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q335088",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Armenian Kingdom of Cilicia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Little Armenia"
+        }
+      ],
+      "properties": {
+        "title": "Armenian Kingdom of Cilicia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "archaeological site in Iraq"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q5684",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Babylon"
+        }
+      ],
+      "properties": {
+        "title": "Babylon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient Akkadian region in Mesopotamia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q47690",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Babylonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Babylonian Kingdom"
+        }
+      ],
+      "properties": {
+        "title": "Babylonia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -211,6 +411,35 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q48349",
           "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city of the Eastern Roman or Byzantine Empire, the Latin and the Ottoman Empire"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q16869",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Constantinople"
+        }
+      ],
+      "properties": {
+        "title": "Constantinople"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -295,43 +524,259 @@
       ]
     },
     {
-      "depictions": [
+      "descriptions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kingdom%20of%20Jerusalem.svg"
+          "lang": "en",
+          "value": "ancient Pre-Iranic civilization"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q128904",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Elam"
         },
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vexillum%20Regni%20Hierosolymae.svg"
+          "lang": "en",
+          "toponym": "Elamites"
+        },
+        {
+          "lang": "en",
+          "toponym": "Susiana"
+        }
+      ],
+      "properties": {
+        "title": "Elam"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of ancient Europe"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q38060",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gallia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gaul"
+        }
+      ],
+      "properties": {
+        "title": "Gaul"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6266",
+          "label": "nation"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city of ancient Phrygia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q542854",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gordion"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gordium"
+        }
+      ],
+      "properties": {
+        "title": "Gordium"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Banner%20of%20the%20Holy%20Roman%20Emperor%20with%20haloes%20%281400-1806%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "medieval Christian kingdom in the Middle East"
+          "value": "varying complex of lands that existed from 962 to 1806 in Central Europe"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q55502",
+      "id": "http://www.wikidata.org/entity/Q12548",
       "names": [
         {
           "lang": "en",
-          "toponym": "Kingdom of Jerusalem"
+          "toponym": "First Reich"
         },
         {
           "lang": "en",
-          "toponym": "Latin Kingdom of Jerusalem"
+          "toponym": "Holy Roman Empire of the German Nation"
+        },
+        {
+          "lang": "en",
+          "toponym": "Holy Roman Empire"
         }
       ],
       "properties": {
-        "title": "Kingdom of Jerusalem"
+        "title": "Holy Roman Empire"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q190967",
-          "label": "Crusader states"
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
         },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "classical region in the western part of the Balkan Peninsula"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q32047",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Illyria"
+        }
+      ],
+      "properties": {
+        "title": "Illyria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Bronze Age civilisation in the Indian subcontinent"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q42534",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Harappan Civilization"
+        },
+        {
+          "lang": "en",
+          "toponym": "Indus Valley Civilization"
+        }
+      ],
+      "properties": {
+        "title": "Indus Valley Civilization"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465299",
+          "label": "archaeological culture"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Si%C3%B1al%20d%27Arag%C3%B3n.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "medieval and early modern kingdom in the Iberian Peninsula"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q199442",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aragon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kingdom of Aragon"
+        }
+      ],
+      "properties": {
+        "title": "Kingdom of Aragon"
+      },
+      "type": "Feature",
+      "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q417175",
+          "label": "kingdom"
         }
       ]
     },
@@ -366,6 +811,453 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q417175",
           "label": "kingdom"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Banner%20of%20the%20Kingdom%20of%20Castile.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former country"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q179293",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kingdom of Castile"
+        }
+      ],
+      "properties": {
+        "title": "Kingdom of Castile"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1250464",
+          "label": "realm"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandeirareinogaliza.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "kingdom in Iberia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q303421",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kingdom of Galicia"
+        }
+      ],
+      "properties": {
+        "title": "Kingdom of Galicia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q417175",
+          "label": "kingdom"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kingdom%20of%20Jerusalem.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vexillum%20Regni%20Hierosolymae.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "medieval Christian kingdom in the Middle East"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q55502",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jerusalem"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kingdom of Jerusalem"
+        },
+        {
+          "lang": "en",
+          "toponym": "Latin Kingdom of Jerusalem"
+        }
+      ],
+      "properties": {
+        "title": "Kingdom of Jerusalem"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q190967",
+          "label": "Crusader state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "human settlement"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q848509",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lachish"
+        }
+      ],
+      "properties": {
+        "title": "Lachish"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q22674925",
+          "label": "former populated place"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q755017",
+          "label": "tell"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient kingdom"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q83958",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ancient Macedonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Macedon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Macedonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Macedonian Empire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Macedonian Kingdom"
+        }
+      ],
+      "properties": {
+        "title": "Macedonia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1250464",
+          "label": "realm"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient Sumerian and Amorite city"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q244762",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mari"
+        }
+      ],
+      "properties": {
+        "title": "Mari"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q755017",
+          "label": "tell"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "area of the Tigris–Euphrates river system"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q11767",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mesopotamia"
+        },
+        {
+          "lang": "en",
+          "toponym": "ancient Mesopotamia"
+        }
+      ],
+      "properties": {
+        "title": "Mesopotamia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1129474",
+          "label": "cultural landscape"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Bronze Age Aegean civilization flourishing on the island of Crete and other Aegean islands  from c. 2600 to 1100 BC"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q134178",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Minoan civilisation"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoan civilization"
+        }
+      ],
+      "properties": {
+        "title": "Minoan civilization"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q28171280",
+          "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465299",
+          "label": "archaeological culture"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Historical state in Mesopotamia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q10914393",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Neo-Assyrian Empire"
+        }
+      ],
+      "properties": {
+        "title": "Neo-Assyrian Empire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient Mesopotamian city"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q584605",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nuzi"
+        }
+      ],
+      "properties": {
+        "title": "Nuzi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "archaeological site in Israel"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q15726304",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Old City of Jerusalem and its Walls"
+        }
+      ],
+      "properties": {
+        "title": "Old City of Jerusalem and its Walls"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former country"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q583038",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ostrogothic Kingdom"
+        }
+      ],
+      "properties": {
+        "title": "Ostrogothic Kingdom"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1371288",
+          "label": "vassal state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient city in Homs Governorate, Syria"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q5747",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Palmira"
+        },
+        {
+          "lang": "en",
+          "toponym": "Palmyra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tadmor"
+        }
+      ],
+      "properties": {
+        "title": "Palmyra"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q109607",
+          "label": "ruins"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -430,120 +1322,35 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Banner%20of%20the%20Kingdom%20of%20Castile.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "former country"
+          "value": "ancient Roman town-city near modern Naples, Italy"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q179293",
+      "id": "http://www.wikidata.org/entity/Q43332",
       "names": [
         {
           "lang": "en",
-          "toponym": "Kingdom of Castile"
+          "toponym": "Pompeii"
         }
       ],
       "properties": {
-        "title": "Kingdom of Castile"
+        "title": "Pompeii"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1250464",
-          "label": "realm"
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
+          "identifier": "http://www.wikidata.org/entity/Q17431399",
+          "label": "national museum"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rubenid%20Flag.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "former country"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q335088",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Armenian Kingdom of Cilicia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Little Armenia"
-        }
-      ],
-      "properties": {
-        "title": "Armenian Kingdom of Cilicia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Si%C3%B1al%20d%27Arag%C3%B3n.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "medieval and early modern kingdom in the Iberian Peninsula"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q199442",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Aragon"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kingdom of Aragon"
-        }
-      ],
-      "properties": {
-        "title": "Kingdom of Aragon"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q417175",
-          "label": "kingdom"
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -551,28 +1358,122 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Bronze Age Aegean civilization flourishing on the island of Crete and other Aegean islands  from c. 2600 to 1100 BC"
+          "value": "period of Imperial Rome following the Roman Republic (27 BC–395 AD)"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q134178",
+      "id": "http://www.wikidata.org/entity/Q2277",
       "names": [
         {
           "lang": "en",
-          "toponym": "Minoan civilisation"
+          "toponym": "Imperium Romanum"
         },
         {
           "lang": "en",
-          "toponym": "Minoan civilization"
+          "toponym": "Roman Empire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Romanum imperium"
+        },
+        {
+          "lang": "en",
+          "toponym": "Senatus Populusque Romanus"
+        },
+        {
+          "lang": "en",
+          "toponym": "imperium romanum"
         }
       ],
       "properties": {
-        "title": "Minoan civilization"
+        "title": "Roman Empire"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11514315",
+          "label": "historical period"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "period of ancient Roman civilization (509 BC-27 BC)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q17167",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Roman Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rome"
+        },
+        {
+          "lang": "en",
+          "toponym": "res publica"
+        }
+      ],
+      "properties": {
+        "title": "Roman Republic"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11514315",
+          "label": "historical period"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7270",
+          "label": "republic"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient civilization and historical region in southern Mesopotamia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q35355",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sumer"
+        }
+      ],
+      "properties": {
+        "title": "Sumer"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q465299",
@@ -584,22 +1485,18 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Bronze Age civilisation in the Indian subcontinent"
+          "value": "kingdom of Thracians"
         }
       ],
-      "id": "http://www.wikidata.org/entity/Q42534",
+      "id": "http://www.wikidata.org/entity/Q41741",
       "names": [
         {
           "lang": "en",
-          "toponym": "Harappan Civilization"
-        },
-        {
-          "lang": "en",
-          "toponym": "Indus Valley Civilization"
+          "toponym": "Thrace"
         }
       ],
       "properties": {
-        "title": "Indus Valley Civilization"
+        "title": "Thrace"
       },
       "type": "Feature",
       "types": [
@@ -612,33 +1509,8 @@
           "label": "ancient civilization"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q465299",
-          "label": "archaeological culture"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Historical state in Mesopotamia"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q10914393",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Neo-Assyrian Empire"
-        }
-      ],
-      "properties": {
-        "title": "Neo-Assyrian Empire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
+          "identifier": "http://www.wikidata.org/entity/Q6266",
+          "label": "nation"
         }
       ]
     },
@@ -751,6 +1623,55 @@
       "descriptions": [
         {
           "lang": "en",
+          "value": "archaeological site in Syria"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q191369",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ras Shamra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ugarit"
+        }
+      ],
+      "properties": {
+        "title": "Ugarit"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1063239",
+          "label": "polity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11042",
+          "label": "culture"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3241965",
+          "label": "tributary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
           "value": "Iron Age kingdom located in a large region around Lake Van"
         }
       ],
@@ -809,558 +1730,6 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient Akkadian region in Mesopotamia"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q47690",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Babylonia"
-        }
-      ],
-      "properties": {
-        "title": "Babylonia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient Mesopotamian city"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q584605",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Nuzi"
-        }
-      ],
-      "properties": {
-        "title": "Nuzi"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient Pre-Iranic civilization"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q128904",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Elam"
-        },
-        {
-          "lang": "en",
-          "toponym": "Elamites"
-        },
-        {
-          "lang": "en",
-          "toponym": "Susiana"
-        }
-      ],
-      "properties": {
-        "title": "Elam"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient Roman town-city near modern Naples, Italy"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q43332",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Pompeii"
-        }
-      ],
-      "properties": {
-        "title": "Pompeii"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q17431399",
-          "label": "national museum"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient Sumerian and Amorite city"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q244762",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Mari"
-        }
-      ],
-      "properties": {
-        "title": "Mari"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q755017",
-          "label": "tell"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient city in Homs Governorate, Syria"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q5747",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Palmira"
-        },
-        {
-          "lang": "en",
-          "toponym": "Palmyra"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tadmor"
-        }
-      ],
-      "properties": {
-        "title": "Palmyra"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q109607",
-          "label": "ruins"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient civilization and historical region in southern Mesopotamia"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q35355",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Sumer"
-        }
-      ],
-      "properties": {
-        "title": "Sumer"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q465299",
-          "label": "archaeological culture"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient civilization of Northeastern Africa"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q11768",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ancient Egypt"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ta-Kemet"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ta-Meri"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ta-Ui"
-        }
-      ],
-      "properties": {
-        "title": "Ancient Egypt"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient civilization on the island of Crete"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q4752820",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ancient Crete"
-        }
-      ],
-      "properties": {
-        "title": "Ancient Crete"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "ancient kingdom"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q83958",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ancient Macedonia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Macedon"
-        },
-        {
-          "lang": "en",
-          "toponym": "Macedonia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Macedonian Empire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Macedonian Kingdom"
-        }
-      ],
-      "properties": {
-        "title": "Macedonia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1250464",
-          "label": "realm"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "archaeological site in Iraq"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q5684",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Babylon"
-        }
-      ],
-      "properties": {
-        "title": "Babylon"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "archaeological site in Israel"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q15726304",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Old City of Jerusalem and its Walls"
-        }
-      ],
-      "properties": {
-        "title": "Old City of Jerusalem and its Walls"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "archaeological site in Syria"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q191369",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ras Shamra"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ugarit"
-        }
-      ],
-      "properties": {
-        "title": "Ugarit"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1063239",
-          "label": "polity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q11042",
-          "label": "culture"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q133442",
-          "label": "city-state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3241965",
-          "label": "tributary state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "area of the Tigris–Euphrates river system"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q11767",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Mesopotamia"
-        },
-        {
-          "lang": "en",
-          "toponym": "ancient Mesopotamia"
-        }
-      ],
-      "properties": {
-        "title": "Mesopotamia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1129474",
-          "label": "cultural landscape"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q8432",
-          "label": "civilization"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "capital city of ancient Phrygia"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q542854",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Gordion"
-        },
-        {
-          "lang": "en",
-          "toponym": "Gordium"
-        }
-      ],
-      "properties": {
-        "title": "Gordium"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "capital city of the Eastern Roman or Byzantine Empire, the Latin and the Ottoman Empire"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q16869",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Constantinople"
-        }
-      ],
-      "properties": {
-        "title": "Constantinople"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
           "value": "civilisation that began growing on the Italian Peninsula from 8th century BC"
         }
       ],
@@ -1381,301 +1750,9 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
         },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "civilization belonging to an early period of Greek history"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q11772",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ancient Greece"
-        },
-        {
-          "lang": "en",
-          "toponym": "Greek antiquity"
-        }
-      ],
-      "properties": {
-        "title": "Ancient Greece"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "classical region in the western part of the Balkan Peninsula"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q32047",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Illyria"
-        }
-      ],
-      "properties": {
-        "title": "Illyria"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "empire defined as the Phoenician city-state of Carthage and its sphere of influence, esp. during 7th to 3rd centuries BC"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q2429397",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ancient Carthage"
-        },
-        {
-          "lang": "en",
-          "toponym": "Carthage"
-        },
-        {
-          "lang": "en",
-          "toponym": "Carthaginian Empire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Carthaginian Republic"
-        }
-      ],
-      "properties": {
-        "title": "Ancient Carthage"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q17362920",
-          "label": "Wikimedia duplicated page"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2472587",
-          "label": "people"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "former country"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q583038",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ostrogothic Kingdom"
-        }
-      ],
-      "properties": {
-        "title": "Ostrogothic Kingdom"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1371288",
-          "label": "vassal state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "human settlement"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q848509",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Lachish"
-        }
-      ],
-      "properties": {
-        "title": "Lachish"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q22674925",
-          "label": "former populated place"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q755017",
-          "label": "tell"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "kingdom of Thracians"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q41741",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Thrace"
-        }
-      ],
-      "properties": {
-        "title": "Thrace"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "period of Imperial Rome following the Roman Republic (27 BC–395 AD)"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q2277",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Imperium Romanum"
-        },
-        {
-          "lang": "en",
-          "toponym": "Roman Empire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Romanum imperium"
-        },
-        {
-          "lang": "en",
-          "toponym": "Senatus Populusque Romanus"
-        },
-        {
-          "lang": "en",
-          "toponym": "imperium romanum"
-        }
-      ],
-      "properties": {
-        "title": "Roman Empire"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "period of ancient Roman civilization (509 BC-27 BC)"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q17167",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Roman Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "res publica"
-        }
-      ],
-      "properties": {
-        "title": "Roman Republic"
-      },
-      "type": "Feature",
-      "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
@@ -1683,47 +1760,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q816829",
-          "label": "periodization"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "region of ancient Europe"
-        }
-      ],
-      "id": "http://www.wikidata.org/entity/Q38060",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Gallia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Gaul"
-        }
-      ],
-      "properties": {
-        "title": "Gaul"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q28171280",
-          "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
         }
       ]
     }

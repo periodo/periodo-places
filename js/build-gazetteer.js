@@ -313,13 +313,8 @@ const makeFeature = (place, gazetteer) => new Promise(
 )
 
 async function main(geometries, gazetteer, debugPlace) {
-  const g = {
-    '@context': context,
-    type: 'FeatureCollection',
-    title: GAZETTEERS[gazetteer],
-    features: []
-  }
   const placeGeometries = JSON.parse(fs.readFileSync(geometries, 'utf8'))
+  const features = []
   for (let place in placeGeometries) {
     if (debugPlace && debugPlace !== place) {
       continue
@@ -328,11 +323,25 @@ async function main(geometries, gazetteer, debugPlace) {
     if (R.is(String, result)) {
       console.error(`${place}:\n${result}`)
     } else {
-      g.features.push(result)
+      features.push(result)
     }
     sleep(1)
   }
-  console.log(stringify(g, {space: '  '}))
+  const g = {
+    '@context': R.clone(context),
+    type: 'FeatureCollection',
+    title: GAZETTEERS[gazetteer],
+    features: R.sortBy(R.path(['properties', 'title']), features)
+  }
+  // ugly hack: pretend features is a list so it doesn't get re-sorted
+  g['@context']['features'] = {
+    '@id': 'geojson:features',
+    '@container': '@list'
+  }
+  console.log(stringify(g, {
+    space: '  ',
+    replacer: (k, v) => (k === '@context') ? context : v
+  }))
 }
 
 const usage = () => {
