@@ -9,6 +9,10 @@ const fs = require('fs')
     , linkedPlace = require('./linked-place')
     , convexHull = require('./convex-hull')
 
+const userAgent = (
+  'PeriodO/1.0 (http://perio.do/; ryanshaw@unc.edu) request/2.88'
+)
+
 const GAZETTEERS = {
   cities: 'Cities',
   continents: 'Continents',
@@ -121,7 +125,7 @@ const queryWikidata = (id, types, constraints) => {
   return request({
     uri: 'https://query.wikidata.org/sparql',
     qs: {query},
-    headers: {accept: 'text/turtle'}
+    headers: {accept: 'text/turtle', 'user-agent': userAgent}
   })
 }
 
