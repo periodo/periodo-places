@@ -58,7 +58,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Asian part of Turkey"
+          "value": "peninsula in West Asia"
         }
       ],
       "geometry": {
@@ -217,7 +217,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Asia minor"
+          "toponym": "Asia Minor"
         },
         {
           "lang": "en",
@@ -229,18 +229,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1496967",
-          "label": "territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q17362920",
-          "label": "Wikimedia duplicated page"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q34763",
           "label": "peninsula"
@@ -952,6 +940,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q2221906",
+          "label": "geographic location"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q33837",
           "label": "archipelago"
         }
@@ -1115,7 +1107,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "territorial collectivity of France"
+          "value": "French territorial collectivity"
         }
       ],
       "geometry": {
@@ -1258,7 +1250,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Corse"
+        },
+        {
+          "lang": "en",
           "toponym": "Corsica"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territorial Collectivity of Corsica"
         }
       ],
       "properties": {
@@ -1269,6 +1269,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q22923920",
           "label": "territorial collectivity of France with special status"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q36784",
@@ -1386,6 +1390,168 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q23442",
           "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q570116",
+          "label": "tourist attraction"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hokkaido%20Prefecture.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "second largest island of Japan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  139.777354,
+                  42.272345
+                ],
+                [
+                  139.767467,
+                  42.312201
+                ],
+                [
+                  139.83253,
+                  42.590033
+                ],
+                [
+                  139.843272,
+                  42.628119
+                ],
+                [
+                  141.647838,
+                  45.438361
+                ],
+                [
+                  141.665538,
+                  45.451667
+                ],
+                [
+                  141.9192,
+                  45.517035
+                ],
+                [
+                  141.944835,
+                  45.521552
+                ],
+                [
+                  145.341319,
+                  44.346686
+                ],
+                [
+                  145.366954,
+                  44.304084
+                ],
+                [
+                  145.372935,
+                  44.293402
+                ],
+                [
+                  145.824718,
+                  43.374823
+                ],
+                [
+                  145.81837,
+                  43.365668
+                ],
+                [
+                  145.530528,
+                  43.169989
+                ],
+                [
+                  143.241466,
+                  41.929206
+                ],
+                [
+                  140.208873,
+                  41.40235
+                ],
+                [
+                  140.184947,
+                  41.405036
+                ],
+                [
+                  140.100108,
+                  41.414679
+                ],
+                [
+                  140.088267,
+                  41.417975
+                ],
+                [
+                  140.052013,
+                  41.435797
+                ],
+                [
+                  140.038097,
+                  41.443732
+                ],
+                [
+                  140.028087,
+                  41.462653
+                ],
+                [
+                  139.983409,
+                  41.561713
+                ],
+                [
+                  139.777354,
+                  42.272345
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q35581",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ainu Moshiri"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hokkaido Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hokkaido"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hokkaidō Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hokkaidō"
+        }
+      ],
+      "properties": {
+        "title": "Hokkaidō"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17308006",
+          "label": "island of Japan"
         }
       ]
     },
@@ -1393,7 +1559,204 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "peninsula"
+          "value": "largest island of Japan"
+        }
+      ],
+      "easternmostPoint": {
+        "coordinates": [
+          142.072416666,
+          39.547944444
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  130.879161,
+                  33.939093
+                ],
+                [
+                  130.861461,
+                  34.113959
+                ],
+                [
+                  130.871471,
+                  34.280402
+                ],
+                [
+                  130.892833,
+                  34.344733
+                ],
+                [
+                  130.899669,
+                  34.356269
+                ],
+                [
+                  130.939098,
+                  34.408881
+                ],
+                [
+                  130.94752,
+                  34.420111
+                ],
+                [
+                  130.958629,
+                  34.428595
+                ],
+                [
+                  140.33961,
+                  41.247016
+                ],
+                [
+                  140.917369,
+                  41.532599
+                ],
+                [
+                  140.931163,
+                  41.530219
+                ],
+                [
+                  141.456309,
+                  41.41175
+                ],
+                [
+                  141.468761,
+                  41.408393
+                ],
+                [
+                  141.949474,
+                  39.997748
+                ],
+                [
+                  141.959483,
+                  39.965461
+                ],
+                [
+                  142.070201,
+                  39.551398
+                ],
+                [
+                  142.069224,
+                  39.541693
+                ],
+                [
+                  142.05836,
+                  39.467536
+                ],
+                [
+                  140.882335,
+                  35.694953
+                ],
+                [
+                  140.87794,
+                  35.686347
+                ],
+                [
+                  140.401378,
+                  35.189154
+                ],
+                [
+                  140.342784,
+                  35.14112
+                ],
+                [
+                  140.33314,
+                  35.133429
+                ],
+                [
+                  139.957408,
+                  34.9159
+                ],
+                [
+                  139.937266,
+                  34.906684
+                ],
+                [
+                  135.770152,
+                  33.436713
+                ],
+                [
+                  135.759898,
+                  33.434516
+                ],
+                [
+                  132.041148,
+                  33.777411
+                ],
+                [
+                  130.90504,
+                  33.92237
+                ],
+                [
+                  130.899058,
+                  33.925482
+                ],
+                [
+                  130.879161,
+                  33.939093
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13989",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Honshu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Honshū"
+        }
+      ],
+      "northernmostPoint": {
+        "coordinates": [
+          140.9125,
+          41.546388888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "title": "Honshu"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          135.75,
+          33.433333333
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17308006",
+          "label": "island of Japan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          130.860277777,
+          34.110833333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Region in Southeast Asia"
         }
       ],
       "geometry": {
@@ -1563,6 +1926,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q34763",
           "label": "peninsula"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
         }
       ]
     },
@@ -1570,7 +1937,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island in north-west Europe, politically divided into the Republic of Ireland and Northern Ireland"
+          "value": "island in north-west Europe, politically divided between the states of 'Ireland' and the 'United Kingdom of Great Britain & Northern Ireland'"
         }
       ],
       "geometry": {
@@ -1737,7 +2104,23 @@
         },
         {
           "lang": "en",
-          "toponym": "Erin's Isle"
+          "toponym": "Banba"
+        },
+        {
+          "lang": "en",
+          "toponym": "Britannia Minor"
+        },
+        {
+          "lang": "en",
+          "toponym": "Emerald Isle"
+        },
+        {
+          "lang": "en",
+          "toponym": "Erin"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fódhla"
         },
         {
           "lang": "en",
@@ -1745,15 +2128,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Ierne"
+        },
+        {
+          "lang": "en",
           "toponym": "Ireland (island)"
         },
         {
           "lang": "en",
-          "toponym": "Ireland Ulster"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ireland and Ulster"
+          "toponym": "Ireland and Northern Ireland"
         },
         {
           "lang": "en",
@@ -1781,7 +2164,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Island of Ireland"
+          "toponym": "Ivernia"
         },
         {
           "lang": "en",
@@ -1793,7 +2176,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Shan van vok"
+          "toponym": "Éire"
         }
       ],
       "properties": {
@@ -1977,6 +2360,155 @@
       ]
     },
     {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "third largest island of Japan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  129.741466,
+                  32.568061
+                ],
+                [
+                  129.563975,
+                  33.212287
+                ],
+                [
+                  129.580333,
+                  33.346869
+                ],
+                [
+                  129.585582,
+                  33.365973
+                ],
+                [
+                  129.858897,
+                  33.541266
+                ],
+                [
+                  130.48878,
+                  33.856513
+                ],
+                [
+                  130.548106,
+                  33.881964
+                ],
+                [
+                  130.692271,
+                  33.938483
+                ],
+                [
+                  130.705089,
+                  33.939887
+                ],
+                [
+                  131.005748,
+                  33.955634
+                ],
+                [
+                  131.646983,
+                  33.670966
+                ],
+                [
+                  131.727061,
+                  33.580878
+                ],
+                [
+                  131.908336,
+                  33.260688
+                ],
+                [
+                  132.003184,
+                  33.088813
+                ],
+                [
+                  132.013316,
+                  33.06507
+                ],
+                [
+                  132.072032,
+                  32.924262
+                ],
+                [
+                  131.363658,
+                  31.420844
+                ],
+                [
+                  131.338145,
+                  31.373847
+                ],
+                [
+                  131.331065,
+                  31.368842
+                ],
+                [
+                  130.956065,
+                  31.132392
+                ],
+                [
+                  130.94044,
+                  31.122565
+                ],
+                [
+                  130.923839,
+                  31.114203
+                ],
+                [
+                  130.685069,
+                  31.00434
+                ],
+                [
+                  130.668224,
+                  30.998297
+                ],
+                [
+                  130.236095,
+                  31.251105
+                ],
+                [
+                  130.227916,
+                  31.26142
+                ],
+                [
+                  130.118907,
+                  31.409796
+                ],
+                [
+                  129.741466,
+                  32.568061
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13987",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kyushu"
+        }
+      ],
+      "properties": {
+        "title": "Kyushu"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ]
+    },
+    {
       "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mallorca.svg"
@@ -1985,7 +2517,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island in the Mediterranean Sea"
+          "value": "island in Spain"
         }
       ],
       "geometry": {
@@ -2108,10 +2640,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Mallorca Island"
-        },
-        {
-          "lang": "en",
           "toponym": "Mallorca"
         }
       ],
@@ -2123,6 +2651,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q23442",
           "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
         }
       ]
     },
@@ -2300,6 +2832,357 @@
       ]
     },
     {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Japanese islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  127.651622,
+                  26.085517
+                ],
+                [
+                  127.635753,
+                  26.192511
+                ],
+                [
+                  127.63795,
+                  26.215888
+                ],
+                [
+                  127.722423,
+                  26.431159
+                ],
+                [
+                  127.878184,
+                  26.695685
+                ],
+                [
+                  128.254893,
+                  26.887458
+                ],
+                [
+                  128.331309,
+                  26.814582
+                ],
+                [
+                  128.337413,
+                  26.798102
+                ],
+                [
+                  128.337535,
+                  26.765509
+                ],
+                [
+                  128.307872,
+                  26.702094
+                ],
+                [
+                  128.264293,
+                  26.653571
+                ],
+                [
+                  127.796764,
+                  26.140937
+                ],
+                [
+                  127.775645,
+                  26.122931
+                ],
+                [
+                  127.72523,
+                  26.090827
+                ],
+                [
+                  127.709972,
+                  26.085517
+                ],
+                [
+                  127.651622,
+                  26.085517
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q697589",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Okinawa Islands"
+        }
+      ],
+      "properties": {
+        "title": "Okinawa Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1402592",
+          "label": "island group"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "large Russian island in the North Pacific Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  141.814098,
+                  46.539618
+                ],
+                [
+                  141.638927,
+                  51.885688
+                ],
+                [
+                  141.641734,
+                  52.319342
+                ],
+                [
+                  141.768565,
+                  53.37287
+                ],
+                [
+                  142.282481,
+                  54.305182
+                ],
+                [
+                  142.69044,
+                  54.425055
+                ],
+                [
+                  142.703868,
+                  54.428046
+                ],
+                [
+                  142.723033,
+                  54.426764
+                ],
+                [
+                  142.733409,
+                  54.422614
+                ],
+                [
+                  142.751598,
+                  54.40412
+                ],
+                [
+                  143.003795,
+                  54.136664
+                ],
+                [
+                  143.012706,
+                  54.120246
+                ],
+                [
+                  144.690807,
+                  48.865241
+                ],
+                [
+                  144.75648,
+                  48.644477
+                ],
+                [
+                  143.625621,
+                  46.375861
+                ],
+                [
+                  143.474864,
+                  46.088446
+                ],
+                [
+                  143.442638,
+                  46.038031
+                ],
+                [
+                  143.437144,
+                  46.029792
+                ],
+                [
+                  143.430431,
+                  46.026374
+                ],
+                [
+                  142.085216,
+                  45.901984
+                ],
+                [
+                  142.053111,
+                  45.917182
+                ],
+                [
+                  142.039561,
+                  45.925482
+                ],
+                [
+                  141.941905,
+                  46.025519
+                ],
+                [
+                  141.932384,
+                  46.036994
+                ],
+                [
+                  141.827159,
+                  46.451545
+                ],
+                [
+                  141.814098,
+                  46.539618
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q7792",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Karafuto"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kuye"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sakhalin"
+        }
+      ],
+      "properties": {
+        "title": "Sakhalin"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q35798",
+          "label": "executive branch"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "second smallest of the five main islands of Japan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  132.030528,
+                  33.335761
+                ],
+                [
+                  132.024058,
+                  33.347602
+                ],
+                [
+                  132.894542,
+                  34.109809
+                ],
+                [
+                  132.943004,
+                  34.130316
+                ],
+                [
+                  133.911876,
+                  34.37049
+                ],
+                [
+                  133.936778,
+                  34.376227
+                ],
+                [
+                  133.9463,
+                  34.377326
+                ],
+                [
+                  134.143443,
+                  34.392951
+                ],
+                [
+                  134.655406,
+                  34.233344
+                ],
+                [
+                  134.750987,
+                  33.836066
+                ],
+                [
+                  134.739024,
+                  33.818183
+                ],
+                [
+                  134.189342,
+                  33.23963
+                ],
+                [
+                  133.010631,
+                  32.705207
+                ],
+                [
+                  132.640636,
+                  32.753607
+                ],
+                [
+                  132.030528,
+                  33.335761
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13991",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shikoku"
+        }
+      ],
+      "properties": {
+        "title": "Shikoku"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        }
+      ]
+    },
+    {
       "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tibet.svg"
@@ -2308,7 +3191,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "plateau region in Asia"
+          "value": "plateau region in East Asia"
         }
       ],
       "geometry": {
