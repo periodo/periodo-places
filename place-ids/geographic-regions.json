@@ -35,6 +35,18 @@
       "Crete"
     ]
   },
+  "Hokkaidō": {
+    "id": "http://www.wikidata.org/entity/Q35581",
+    "covers": [
+      "Hokkaidō"
+    ]
+  },
+  "Honshu": {
+    "id": "http://www.wikidata.org/entity/Q13989",
+    "covers": [
+      "Honshu"
+    ]
+  },
   "Indochina": {
     "id": "http://www.wikidata.org/entity/Q43467",
     "covers": [
@@ -53,6 +65,12 @@
       "Korean Peninsula"
     ]
   },
+  "Kyushu": {
+    "id": "http://www.wikidata.org/entity/Q13987",
+    "covers": [
+      "Kyushu"
+    ]
+  },
   "Majorca": {
     "id": "http://www.wikidata.org/entity/Q8828",
     "covers": [
@@ -63,6 +81,24 @@
     "id": "http://www.wikidata.org/entity/Q18758",
     "covers": [
       "Malay Peninsula"
+    ]
+  },
+  "Okinawa Islands": {
+    "id": "http://www.wikidata.org/entity/Q697589",
+    "covers": [
+      "Okinawa"
+    ]
+  },
+  "Sakhalin": {
+    "id": "http://www.wikidata.org/entity/Q7792",
+    "covers": [
+      "Sakhalin"
+    ]
+  },
+  "Shikoku": {
+    "id": "http://www.wikidata.org/entity/Q13991",
+    "covers": [
+      "Shikoku"
     ]
   },
   "Tibet": {
