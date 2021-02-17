@@ -10,7 +10,7 @@
   "dependencies": {
     "concaveman": "^1.1.1",
     "geojson-clipping": "^0.3.0",
-    "jsonld": "^1.6.1",
+    "jsonld": "^4.0.1",
     "jsonld-stable-stringify": "^1.1.1",
     "n3": "^1.1.1",
     "ramda": "^0.26.1",
