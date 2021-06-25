@@ -141,7 +141,7 @@ const frameJSONLD = quads => jsonld.frame(quads, frame)
 
 const hasBlankNodeID = R.allPass([
   R.has('id'),
-  R.propSatisfies(R.startsWith('/n3-'), 'id')
+  R.propSatisfies(R.startsWith('n3-'), 'id')
 ])
 
 const stripBlankNodeIDs = R.when(
@@ -192,7 +192,7 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
       .then(linkedPlace)
       .then(jsonld.fromRDF)
       .then(frameJSONLD)
-      .then(R.path(['@graph', 0]))
+      .then(R.dissoc('@context'))
       .then(stripBlankNodeIDs)
       .then(R.map(wktToGeoJSON))
       .then(addGeometryFromExtremePoints)
