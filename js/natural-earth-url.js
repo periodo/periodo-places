@@ -8,6 +8,7 @@ const categoryOf = name => {
     case 'urban_areas_landscan':
       return 'cultural'
     case 'geography_regions_polys':
+    case 'rivers_lake_centerlines':
       return 'physical'
     default:
       throw new Error(name)
