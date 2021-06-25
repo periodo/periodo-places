@@ -5,6 +5,18 @@
       "Anatolia"
     ]
   },
+  "Andes": {
+    "id": "http://www.wikidata.org/entity/Q5456",
+    "covers": [
+      "Andes"
+    ]
+  },
+  "Arabian Peninsula": {
+    "id": "http://www.wikidata.org/entity/Q31945",
+    "covers": [
+      "Arabian Peninsula"
+    ]
+  },
   "Balkans": {
     "id": "http://www.wikidata.org/entity/Q23522",
     "covers": [
@@ -45,6 +57,12 @@
     "id": "http://www.wikidata.org/entity/Q13989",
     "covers": [
       "Honshu"
+    ]
+  },
+  "Iberian Peninsula": {
+    "id": "http://www.wikidata.org/entity/Q12837",
+    "covers": [
+      "Iberian Peninsula"
     ]
   },
   "Indochina": {
@@ -95,10 +113,28 @@
       "Sakhalin"
     ]
   },
+  "Scandinavia": {
+    "id": "http://www.wikidata.org/entity/Q21195",
+    "covers": [
+      "Scandinavia"
+    ]
+  },
   "Shikoku": {
     "id": "http://www.wikidata.org/entity/Q13991",
     "covers": [
       "Shikoku"
+    ]
+  },
+  "Siberia": {
+    "id": "http://www.wikidata.org/entity/Q5428",
+    "covers": [
+      "Siberia"
+    ]
+  },
+  "Sumatra": {
+    "id": "http://www.wikidata.org/entity/Q3492",
+    "covers": [
+      "Sumatra"
     ]
   },
   "Tibet": {
