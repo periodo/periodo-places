@@ -237,7 +237,7 @@ const getWikidataContinent = id => getWikidataPlace(
 
 const getWikidataRegion = id => getWikidataPlace(
   id,
-  ['wd:Q618123'] // geographical object
+  ['wd:Q618123'] // geographical feature
 )
 
 const getWikidataEnglishCounty = id => getWikidataPlace(
