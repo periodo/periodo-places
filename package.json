@@ -13,7 +13,7 @@
     "jsonld": "^1.6.1",
     "jsonld-stable-stringify": "^1.1.1",
     "n3": "^1.1.1",
-    "ramda": "^0.26.1",
+    "ramda": "^0.27.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "sleep": "^6.1.0",
