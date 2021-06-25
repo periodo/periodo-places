@@ -27,6 +27,10 @@
     "id": "http://www.wikidata.org/entity/Q42168",
     "covers": ["Clermont-Ferrand"]
   },
+  "Cuenca": {
+    "id": "http://www.wikidata.org/entity/Q15098",
+    "covers": ["Cuenca"]
+  },
   "Emden": {
     "id": "http://www.wikidata.org/entity/Q4174",
     "covers": ["Emden"]
@@ -34,6 +38,10 @@
   "Empoli": {
     "id": "http://www.wikidata.org/entity/Q6697",
     "covers": []
+  },
+  "Florence": {
+    "id": "http://www.wikidata.org/entity/Q2044",
+    "covers": ["Florence3"]
   },
   "Hamburg": {
     "id": "http://www.wikidata.org/entity/Q1055",
@@ -46,6 +54,14 @@
   "Kakegawa-shi": {
     "id": "http://www.wikidata.org/entity/Q823988",
     "covers": []
+  },
+  "Kolkata": {
+    "id": "http://www.wikidata.org/entity/Q1348",
+    "covers": ["Calcutta"]
+  },
+  "Kyoto": {
+    "id": "http://www.wikidata.org/entity/Q34600",
+    "covers": ["Kyoto"]
   },
   "Liège": {
     "id": "http://www.wikidata.org/entity/Q3992",
@@ -67,6 +83,10 @@
     "id": "http://www.wikidata.org/entity/Q2634",
     "covers": ["Naples2"]
   },
+  "New York": {
+    "id": "http://www.wikidata.org/entity/Q60",
+    "covers": ["New York"]
+  },
   "Ogasa": {
     "id": "http://www.wikidata.org/entity/Q7079823",
     "covers": []
@@ -74,6 +94,10 @@
   "Palermo": {
     "id": "http://www.wikidata.org/entity/Q2656",
     "covers": ["Palermo"]
+  },
+  "Paris": {
+    "id": "http://www.wikidata.org/entity/Q90",
+    "covers": ["Paris"]
   },
   "Philadelphia": {
     "id": "http://www.wikidata.org/entity/Q1345",
@@ -91,6 +115,10 @@
     "id": "http://www.wikidata.org/entity/Q152027",
     "covers": []
   },
+  "San Francisco": {
+    "id": "http://www.wikidata.org/entity/Q62",
+    "covers": ["San Francisco1"]
+  },
   "Shimonoseki-shi": {
     "id": "http://www.wikidata.org/entity/Q203308",
     "covers": ["Shimonoseki"]
@@ -106,6 +134,14 @@
   "Tokyo": {
     "id": "http://www.wikidata.org/entity/Q1490",
     "covers": ["Tokyo"]
+  },
+  "Venice": {
+    "id": "http://www.wikidata.org/entity/Q641",
+    "covers": ["Venice"]
+  },
+  "Vientiane": {
+    "id": "http://www.wikidata.org/entity/Q9326",
+    "covers": ["Vientiane"]
   },
   "Wilhelmshaven": {
     "id": "http://www.wikidata.org/entity/Q3857",
