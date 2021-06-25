@@ -27,10 +27,6 @@
     "id": "http://www.wikidata.org/entity/Q42168",
     "covers": ["Clermont-Ferrand"]
   },
-  "Cuenca": {
-    "id": "http://www.wikidata.org/entity/Q15098",
-    "covers": ["Cuenca"]
-  },
   "Emden": {
     "id": "http://www.wikidata.org/entity/Q4174",
     "covers": ["Emden"]
@@ -83,7 +79,7 @@
     "id": "http://www.wikidata.org/entity/Q2634",
     "covers": ["Naples2"]
   },
-  "New York": {
+  "New York City": {
     "id": "http://www.wikidata.org/entity/Q60",
     "covers": ["New York"]
   },
