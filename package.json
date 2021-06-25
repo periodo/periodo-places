@@ -21,6 +21,6 @@
     "wkx": "^0.4.6"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^7.29.0"
   }
 }
