@@ -14,7 +14,7 @@
     "jsonld-stable-stringify": "^1.1.1",
     "n3": "^1.1.1",
     "ramda": "^0.27.1",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "sleep": "^6.1.0",
     "split": "^1.0.1",
