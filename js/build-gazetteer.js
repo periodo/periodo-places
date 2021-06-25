@@ -196,6 +196,7 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
       .then(stripBlankNodeIDs)
       .then(R.map(wktToGeoJSON))
       .then(addGeometryFromExtremePoints)
+      //.then(R.tap(console.error))
       .then(resolve)
       .catch(reject)
   )
