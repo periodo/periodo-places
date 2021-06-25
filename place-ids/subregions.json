@@ -44,6 +44,19 @@
       "Uzbekistan"
     ]
   },
+  "Central Europe": {
+    "id": "http://www.wikidata.org/entity/Q27509",
+    "covers": [
+      "Austria",
+      "Germany",
+      "Poland",
+      "Czech Republic",
+      "Slovakia",
+      "Switzerland",
+      "Hungary",
+      "Slovenia"
+    ]
+  },
   "East Africa": {
     "id": "http://www.wikidata.org/entity/Q27407",
     "covers": [
@@ -208,6 +221,55 @@
       "Kosovo"
     ],
     "id": "http://www.wikidata.org/entity/Q27449"
+  },
+  "Sub-Saharan Africa": {
+    "id": "http://www.wikidata.org/entity/Q132959",
+    "covers": [
+      "Burundi",
+      "Djibouti",
+      "Eritrea",
+      "Ethiopia",
+      "Kenya",
+      "Madagascar",
+      "Malawi",
+      "Mozambique",
+      "Rwanda",
+      "Somalia",
+      "Somaliland",
+      "South Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe",
+      "Democratic Republic of the Congo",
+      "Chad",
+      "Cameroon",
+      "Central African Republic",
+      "Republic of the Congo",
+      "Gabon",
+      "Equatorial Guinea",
+      "Angola",
+      "South Africa",
+      "Lesotho",
+      "Botswana",
+      "Namibia",
+      "eSwatini",
+      "Senegal",
+      "Mali",
+      "Mauritania",
+      "Benin",
+      "Niger",
+      "Nigeria",
+      "Togo",
+      "Ghana",
+      "Côte d'Ivoire",
+      "Guinea",
+      "Guinea-Bissau",
+      "Liberia",
+      "Sierra Leone",
+      "Burkina Faso",
+      "The Gambia"
+    ]
   },
   "West Africa": {
     "covers": [
