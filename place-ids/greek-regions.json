@@ -1,57 +1,57 @@
 {
-  "": {
+  "Attica": {
     "id": "http://www.wikidata.org/entity/Q758056",
     "covers": [ "Attiki" ]
   },
-  "": {
+  "Central Greece": {
     "id": "http://www.wikidata.org/entity/Q199580",
     "covers": [ "Stereá Elláda" ]
   },
-  "": {
+  "Central Macedonia": {
     "id": "http://www.wikidata.org/entity/Q17152",
     "covers": [ "Kentriki Makedonia" ]
   },
-  "": {
+  "Crete": {
     "id": "http://www.wikidata.org/entity/Q1267522",
     "covers": [ "Kriti" ]
   },
-  "": {
+  "Eastern Macedonia and Thrace": {
     "id": "http://www.wikidata.org/entity/Q171314",
     "covers": [ "Anatoliki Makedonia kai Thraki" ]
   },
-  "": {
+  "Epirus": {
     "id": "http://www.wikidata.org/entity/Q180484",
     "covers": [ "Ipeiros" ]
   },
-  "": {
+  "Ionian Islands": {
     "id": "http://www.wikidata.org/entity/Q1147674",
     "covers": [ "Ionioi Nisoi" ]
   },
-  "": {
+  "North Aegean": {
     "id": "http://www.wikidata.org/entity/Q173620",
     "covers": [ "Voreio Aigaio" ]
   },
-  "": {
+  "Peloponnese": {
     "id": "http://www.wikidata.org/entity/Q202484",
     "covers": [ "Peloponnisos" ]
   },
-  "": {
+  "South Aegean": {
     "id": "http://www.wikidata.org/entity/Q173616",
     "covers": [ "Notio Aigaio" ]
   },
-  "": {
+  "Thessaly": {
     "id": "http://www.wikidata.org/entity/Q22807284",
     "covers": [ "Thessalia" ]
   },
-  "": {
+  "Western Greece": {
     "id": "http://www.wikidata.org/entity/Q170291",
     "covers": [ "Dytiki Ellada" ]
   },
-  "": {
+  "Western Macedonia": {
     "id": "http://www.wikidata.org/entity/Q165408",
     "covers": [ "Dytiki Makedonia" ]
   },
-  "": {
+  "Monastic Republic of Mount Athos": {
     "id": "http://www.wikidata.org/entity/Q780149",
     "covers": [ "Ayion Oros" ]
   }
