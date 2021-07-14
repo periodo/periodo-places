@@ -6,6 +6,7 @@ GAZETTEERS := \
 	gazetteers/geographic-regions.json \
 	gazetteers/greek-regions.json \
 	gazetteers/historical.json \
+	gazetteers/indian-states.json \
 	gazetteers/italian-regions.json \
 	gazetteers/other-regions.json \
 	gazetteers/spanish-communities.json \
@@ -141,6 +142,23 @@ geometries/greek-regions/%.json: \
 	place-ids/greek-regions.json \
 	geometries/greek-admin-1.json
 	mkdir -p geometries/greek-regions
+	./sh/place.sh $^ $* > $@
+
+geometries/indian-admin-1.json: \
+	jq/indian-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/indian-states.json: \
+	place-ids/indian-states.json \
+	geometries/indian-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/indian-states/%.json: \
+	place-ids/indian-states.json \
+	geometries/indian-admin-1.json
+	mkdir -p geometries/indian-states
 	./sh/place.sh $^ $* > $@
 
 geometries/italian-admin-1.json: \

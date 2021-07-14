@@ -1,0 +1,141 @@
+{
+  "Andhra Pradesh": {
+    "id": "http://www.wikidata.org/entity/Q1159",
+    "covers": [ "Andhra Pradesh" ]
+  },
+  "Arunachal Pradesh": {
+    "id": "http://www.wikidata.org/entity/Q1162",
+    "covers": [ "Arunachal Pradesh" ]
+  },
+  "Assam": {
+    "id": "http://www.wikidata.org/entity/Q1164",
+    "covers": [ "Assam" ]
+  },
+  "Bihar": {
+    "id": "http://www.wikidata.org/entity/Q1165",
+    "covers": [ "Bihar" ]
+  },
+  "Chhattisgarh": {
+    "id": "http://www.wikidata.org/entity/Q1168",
+    "covers": [ "Chhattisgarh" ]
+  },
+  "Goa": {
+    "id": "http://www.wikidata.org/entity/Q1171",
+    "covers": [ "Goa" ]
+  },
+  "Gujarat": {
+    "id": "http://www.wikidata.org/entity/Q1061",
+    "covers": [ "Gujarat" ]
+  },
+  "Haryana": {
+    "id": "http://www.wikidata.org/entity/Q1174",
+    "covers": [ "Haryana" ]
+  },
+  "Himachal Pradesh": {
+    "id": "http://www.wikidata.org/entity/Q1177",
+    "covers": [ "Himachal Pradesh" ]
+  },
+  "Jharkhand": {
+    "id": "http://www.wikidata.org/entity/Q1184",
+    "covers": [ "Jharkhand" ]
+  },
+  "Karnataka": {
+    "id": "http://www.wikidata.org/entity/Q1185",
+    "covers": [ "Karnataka" ]
+  },
+  "Kerala": {
+    "id": "http://www.wikidata.org/entity/Q1186",
+    "covers": [ "Kerala" ]
+  },
+  "Madhya Pradesh": {
+    "id": "http://www.wikidata.org/entity/Q1188",
+    "covers": [ "Madhya Pradesh" ]
+  },
+  "Maharashtra": {
+    "id": "http://www.wikidata.org/entity/Q1191",
+    "covers": [ "Maharashtra" ]
+  },
+  "Manipur": {
+    "id": "http://www.wikidata.org/entity/Q1193",
+    "covers": [ "Manipur" ]
+  },
+  "Meghalaya": {
+    "id": "http://www.wikidata.org/entity/Q1195",
+    "covers": [ "Meghalaya" ]
+  },
+  "Mizoram": {
+    "id": "http://www.wikidata.org/entity/Q1502",
+    "covers": [ "Mizoram" ]
+  },
+  "Nagaland": {
+    "id": "http://www.wikidata.org/entity/Q1599",
+    "covers": [ "Nagaland" ]
+  },
+  "Odisha": {
+    "id": "http://www.wikidata.org/entity/Q22048",
+    "covers": [ "Orissa" ]
+  },
+  "Punjab": {
+    "id": "http://www.wikidata.org/entity/Q22424",
+    "covers": [ "Punjab" ]
+  },
+  "Rajasthan": {
+    "id": "http://www.wikidata.org/entity/Q1437",
+    "covers": [ "Rajasthan" ]
+  },
+  "Sikkim": {
+    "id": "http://www.wikidata.org/entity/Q1505",
+    "covers": [ "Sikkim" ]
+  },
+  "Tamil Nadu": {
+    "id": "http://www.wikidata.org/entity/Q1445",
+    "covers": [ "Tamil Nadu" ]
+  },
+  "Tripura": {
+    "id": "http://www.wikidata.org/entity/Q1363",
+    "covers": [ "Tripura" ]
+  },
+  "Uttar Pradesh": {
+    "id": "http://www.wikidata.org/entity/Q1498",
+    "covers": [ "Uttar Pradesh" ]
+  },
+  "Uttarakhand": {
+    "id": "http://www.wikidata.org/entity/Q1499",
+    "covers": [ "Uttaranchal" ]
+  },
+  "West Bengal": {
+    "id": "http://www.wikidata.org/entity/Q1356",
+    "covers": [ "West Bengal" ]
+  },
+  "Andaman and Nicobar Islands": {
+    "id": "http://www.wikidata.org/entity/Q40888",
+    "covers": [ "Andaman and Nicobar" ]
+  },
+  "Chandigarh": {
+    "id": "http://www.wikidata.org/entity/Q43433",
+    "covers": [ "Chandigarh" ]
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "id": "http://www.wikidata.org/entity/Q77997266",
+    "covers": [
+      "Dadra and Nagar Haveli",
+      "Daman and Diu"
+    ]
+  },
+  "Delhi": {
+    "id": "http://www.wikidata.org/entity/Q1353",
+    "covers": [ "Delhi" ]
+  },
+  "Jammu and Kashmir": {
+    "id": "http://www.wikidata.org/entity/Q66278313",
+    "covers": [ "Jammu and Kashmir" ]
+  },
+  "Lakshadweep": {
+    "id": "http://www.wikidata.org/entity/Q26927",
+    "covers": [ "Lakshadweep" ]
+  },
+  "Puducherry": {
+    "id": "http://www.wikidata.org/entity/Q66743",
+    "covers": [ "Puducherry" ]
+  }
+}

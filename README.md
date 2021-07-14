@@ -29,6 +29,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Italian regions gazetteer**<br>
   https://data.perio.do/graphs/places/italian-regions.json
 
+* **Indian states and union territories gazetteer**<br>
+  https://data.perio.do/graphs/places/indian-states.json
+
 * **Greek administrative regions gazetteer**<br>
   https://data.perio.do/graphs/places/greek-regions.json
 
@@ -129,6 +132,16 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q207299 administrative region of Greece](https://www.wikidata.org/wiki/Q207299) (or [Q788176 autonomous administrative territorial entity](https://www.wikidata.org/wiki/Q788176) in the case of the Monastic Republic of Mount Athos) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
+
+### Indian states and union territories gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/indian-states.json](place-ids/indian-states.json) for details), and
+
+1. querying Wikidata for instances of [Q131541 states and union territories of India](https://www.wikidata.org/wiki/Q131541) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that the state of Telangana (recently separated from Andhra Pradesh) and the union territory of Ladakh (recently separated from Jammu and Kashmir) are not included, as the geometries for these administrative units are not yet included in the Natural Earth data.
 
 ### Italian regions gazetteer
 
