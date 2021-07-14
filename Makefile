@@ -4,6 +4,7 @@ GAZETTEERS := \
 	gazetteers/countries.json \
 	gazetteers/english-counties.json \
 	gazetteers/geographic-regions.json \
+	gazetteers/greek-regions.json \
 	gazetteers/historical.json \
 	gazetteers/italian-regions.json \
 	gazetteers/other-regions.json \
@@ -123,6 +124,23 @@ geometries/english-counties/%.json: \
 	place-ids/english-counties.json \
 	geometries/english-admin-1.json
 	mkdir -p geometries/english-counties
+	./sh/place.sh $^ $* > $@
+
+geometries/greek-admin-1.json: \
+	jq/greek-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/greek-regions.json: \
+	place-ids/greek-regions.json \
+	geometries/greek-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/greek-regions/%.json: \
+	place-ids/greek-regions.json \
+	geometries/greek-admin-1.json
+	mkdir -p geometries/greek-regions
 	./sh/place.sh $^ $* > $@
 
 geometries/italian-admin-1.json: \

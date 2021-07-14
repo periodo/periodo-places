@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous administrative territory in Greece"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.001671,
+                  40.319771
+                ],
+                [
+                  23.991222,
+                  40.434068
+                ],
+                [
+                  23.991222,
+                  40.447699
+                ],
+                [
+                  24.011404,
+                  40.449164
+                ],
+                [
+                  24.179861,
+                  40.351508
+                ],
+                [
+                  24.233409,
+                  40.316881
+                ],
+                [
+                  24.266287,
+                  40.289049
+                ],
+                [
+                  24.383311,
+                  40.179145
+                ],
+                [
+                  24.393809,
+                  40.152493
+                ],
+                [
+                  24.361095,
+                  40.132392
+                ],
+                [
+                  24.318614,
+                  40.124701
+                ],
+                [
+                  24.299978,
+                  40.128079
+                ],
+                [
+                  24.001671,
+                  40.319771
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q780149",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Athonite State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Monastic Republic of Mount Athos"
+        }
+      ],
+      "properties": {
+        "title": "Monastic Republic of Mount Athos"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q788176",
+          "label": "autonomous administrative territorial entity"
+        }
+      ]
+    }
+  ],
+  "title": "Greek administrative regions",
+  "type": "FeatureCollection"
+}

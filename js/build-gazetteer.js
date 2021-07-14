@@ -21,6 +21,7 @@ const GAZETTEERS = {
   'geographic-regions': 'Geographic regions',
   historical: 'Historical places',
   'italian-regions': 'Italian regions',
+  'greek-regions': 'Greek administrative regions',
   'other-regions': 'Other regions',
   subregions: 'Subcontinental regions',
   'spanish-communities': 'Spanish autonomous communities',
@@ -261,6 +262,13 @@ const getWikidataItalianRegion = id => getWikidataPlace(
   ['wd:Q16110'] // region of Italy
 )
 
+const getWikidataGreekRegion = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q780149' // Monastic Republic of Mount Athos
+    ? ['wd:Q788176'] // autonomous administrative territorial entity
+    : ['wd:Q207299'] // administrative region of Greece
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -294,6 +302,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'italian-regions':
         promise = getWikidataItalianRegion(place.id)
+        break
+      case 'greek-regions':
+        promise = getWikidataGreekRegion(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)
