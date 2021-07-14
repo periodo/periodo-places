@@ -15,6 +15,9 @@ PLACE=${3//_/ }
 PLACE_ID=$(jq -r '."'"$PLACE"'".id' "$IDS")
 PARTS=$(jq -r '[."'"$PLACE"'".covers[] | ".\"\(.)\""] | join(",")' "$IDS")
 
+# for debugging
+# >&2 echo "$PLACE"
+
 if [ -z "$PARTS" ]; then
     echo '{"'"$PLACE"'":{"id":"'"$PLACE_ID"'"}}'
 else

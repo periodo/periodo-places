@@ -1,0 +1,338 @@
+{
+  "Altai Krai": {
+    "id": "http://www.wikidata.org/entity/Q5942",
+    "covers": [ "Altay" ]
+  },
+  "Altai Republic": {
+    "id": "http://www.wikidata.org/entity/Q5971",
+    "covers": [ "Gorno-Altay" ]
+  },
+  "Amur Oblast": {
+    "id": "http://www.wikidata.org/entity/Q6886",
+    "covers": [ "Amur" ]
+  },
+  "Arkhangelsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q1875",
+    "covers": [ "Arkhangel'sk" ]
+  },
+  "Astrakhan Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3941",
+    "covers": [ "Astrakhan'" ]
+  },
+  "Bashkortostan": {
+    "id": "http://www.wikidata.org/entity/Q5710",
+    "covers": [ "Bashkortostan" ]
+  },
+  "Belgorod Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3329",
+    "covers": [ "Belgorod" ]
+  },
+  "Bryansk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2810",
+    "covers": [ "Bryansk" ]
+  },
+  "Chechen Republic": {
+    "id": "http://www.wikidata.org/entity/Q5187",
+    "covers": [ "Chechnya" ]
+  },
+  "Chelyabinsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5714",
+    "covers": [ "Chelyabinsk" ]
+  },
+  "Chukotka Autonomous Okrug": {
+    "id": "http://www.wikidata.org/entity/Q7984",
+    "covers": [ "Chukchi Autonomous Okrug" ]
+  },
+  "Chuvash Republic": {
+    "id": "http://www.wikidata.org/entity/Q5466",
+    "covers": [ "Chuvash" ]
+  },
+  "Irkutsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q6585",
+    "covers": [ "Irkutsk" ]
+  },
+  "Ivanovo Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2654",
+    "covers": [ "Ivanovo" ]
+  },
+  "Jewish Autonomous Oblast": {
+    "id": "http://www.wikidata.org/entity/Q7730",
+    "covers": [ "Yevrey" ]
+  },
+  "Kabardino-Balkaria": {
+    "id": "http://www.wikidata.org/entity/Q5267",
+    "covers": [ "Kabardin-Balkar" ]
+  },
+  "Kaliningrad Oblast": {
+    "id": "http://www.wikidata.org/entity/Q1749",
+    "covers": [ "Kaliningrad" ]
+  },
+  "Kaluga Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2842",
+    "covers": [ "Kaluga" ]
+  },
+  "Kamchatka Krai": {
+    "id": "http://www.wikidata.org/entity/Q7948",
+    "covers": [ "Kamchatka" ]
+  },
+  "Karachay-Cherkess Republic": {
+    "id": "http://www.wikidata.org/entity/Q5328",
+    "covers": [ "Karachay-Cherkess" ]
+  },
+  "Karelia": {
+    "id": "http://www.wikidata.org/entity/Q1914",
+    "covers": [ "Karelia" ]
+  },
+  "Kemerovo Oblast": {
+    "id": "http://www.wikidata.org/entity/Q6076",
+    "covers": [ "Kemerovo" ]
+  },
+  "Khabarovsk Krai": {
+    "id": "http://www.wikidata.org/entity/Q7788",
+    "covers": [ "Khabarovsk" ]
+  },
+  "Khanty-Mansi Autonomous Okrug": {
+    "id": "http://www.wikidata.org/entity/Q6320",
+    "covers": [ "Khanty-Mansiy" ]
+  },
+  "Kirov Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5387",
+    "covers": [ "Kirov" ]
+  },
+  "Komi Republic": {
+    "id": "http://www.wikidata.org/entity/Q2073",
+    "covers": [ "Komi" ]
+  },
+  "Kostroma Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2596",
+    "covers": [ "Kostroma" ]
+  },
+  "Krasnodar Krai": {
+    "id": "http://www.wikidata.org/entity/Q3680",
+    "covers": [ "Krasnodar" ]
+  },
+  "Krasnoyarsk Krai": {
+    "id": "http://www.wikidata.org/entity/Q6563",
+    "covers": [ "Krasnoyarsk" ]
+  },
+  "Kurgan Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5741",
+    "covers": [ "Kurgan" ]
+  },
+  "Kursk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3178",
+    "covers": [ "Kursk" ]
+  },
+  "Leningrad Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2191",
+    "covers": [ "Leningrad" ]
+  },
+  "Lipetsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3510",
+    "covers": [ "Lipetsk" ]
+  },
+  "Magadan Oblast": {
+    "id": "http://www.wikidata.org/entity/Q7971",
+    "covers": [ "Maga Buryatdan" ]
+  },
+  "Mari El Republic": {
+    "id": "http://www.wikidata.org/entity/Q5446",
+    "covers": [ "Mariy-El" ]
+  },
+  "Moscow": {
+    "id": "http://www.wikidata.org/entity/Q649",
+    "covers": [ "Moskva" ]
+  },
+  "Moscow Oblast": {
+    "id": "http://www.wikidata.org/entity/Q1697",
+    "covers": [ "Moskovsskaya" ]
+  },
+  "Murmansk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q1759",
+    "covers": [ "Murmansk" ]
+  },
+  "Nenets Autonomous Okrug": {
+    "id": "http://www.wikidata.org/entity/Q2164",
+    "covers": [ "Nenets" ]
+  },
+  "Nizhny Novgorod Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2246",
+    "covers": [ "Nizhegorod" ]
+  },
+  "Novgorod Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2240",
+    "covers": [ "Novgorod" ]
+  },
+  "Novosibirsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5851",
+    "covers": [ "Novosibirsk" ]
+  },
+  "Omsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5835",
+    "covers": [ "Omsk" ]
+  },
+  "Orenburg Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5338",
+    "covers": [ "Orenburg" ]
+  },
+  "Oryol Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3129",
+    "covers": [ "Orel" ]
+  },
+  "Penza Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5545",
+    "covers": [ "Penza" ]
+  },
+  "Perm Krai": {
+    "id": "http://www.wikidata.org/entity/Q5400",
+    "covers": [ "Perm'" ]
+  },
+  "Primorsky Krai": {
+    "id": "http://www.wikidata.org/entity/Q4341",
+    "covers": [ "Primor'ye" ]
+  },
+  "Pskov Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2218",
+    "covers": [ "Pskov" ]
+  },
+  "Republic of Adygea": {
+    "id": "http://www.wikidata.org/entity/Q3734",
+    "covers": [ "Adygey" ]
+  },
+  "Republic of Buryatia": {
+    "id": "http://www.wikidata.org/entity/Q6809",
+    "covers": [ "Buryat" ]
+  },
+  "Republic of Dagestan": {
+    "id": "http://www.wikidata.org/entity/Q5118",
+    "covers": [ "Dagestan" ]
+  },
+  "Republic of Ingushetia": {
+    "id": "http://www.wikidata.org/entity/Q5219",
+    "covers": [ "Ingush" ]
+  },
+  "Republic of Kalmykia": {
+    "id": "http://www.wikidata.org/entity/Q3953",
+    "covers": [ "Kalmyk" ]
+  },
+  "Republic of Khakassia": {
+    "id": "http://www.wikidata.org/entity/Q6543",
+    "covers": [ "Khakass" ]
+  },
+  "Republic of Mordovia": {
+    "id": "http://www.wikidata.org/entity/Q5340",
+    "covers": [ "Mordovia" ]
+  },
+  "Republic of North Ossetia-Alania": {
+    "id": "http://www.wikidata.org/entity/Q5237",
+    "covers": [ "North Ossetia" ]
+  },
+  "Republic of Tatarstan": {
+    "id": "http://www.wikidata.org/entity/Q5481",
+    "covers": [ "Tatarstan" ]
+  },
+  "Rostov Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3573",
+    "covers": [ "Rostov" ]
+  },
+  "Ryazan Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2753",
+    "covers": [ "Ryazan'" ]
+  },
+  "Saint Petersburg": {
+    "id": "http://www.wikidata.org/entity/Q656",
+    "covers": [ "City of St. Petersburg" ]
+  },
+  "Sakha Republic": {
+    "id": "http://www.wikidata.org/entity/Q6605",
+    "covers": [ "Sakha (Yakutia)" ]
+  },
+  "Sakhalin Oblast": {
+    "id": "http://www.wikidata.org/entity/Q7797",
+    "covers": [ "Sakhalin" ]
+  },
+  "Samara Oblast": {
+    "id": "http://www.wikidata.org/entity/Q1727",
+    "covers": [ "Samara" ]
+  },
+  "Saratov Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5334",
+    "covers": [ "Saratov" ]
+  },
+  "Sevastopol": {
+    "id": "http://www.wikidata.org/entity/Q7525",
+    "covers": [ "Sevastopol" ]
+  },
+  "Smolensk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2347",
+    "covers": [ "Smolensk" ]
+  },
+  "Stavropol Krai": {
+    "id": "http://www.wikidata.org/entity/Q5207",
+    "covers": [ "Stavropol'" ]
+  },
+  "Sverdlovsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5462",
+    "covers": [ "Sverdlovsk" ]
+  },
+  "Tambov Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3550",
+    "covers": [ "Tambov" ]
+  },
+  "Tomsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5884",
+    "covers": [ "Tomsk" ]
+  },
+  "Tula Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2792",
+    "covers": [ "Tula" ]
+  },
+  "Tuva Republic": {
+    "id": "http://www.wikidata.org/entity/Q960",
+    "covers": [ "Tuva" ]
+  },
+  "Tver Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2292",
+    "covers": [ "Tver'" ]
+  },
+  "Tyumen Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5824",
+    "covers": [ "Tyumen'" ]
+  },
+  "Udmurt Republic": {
+    "id": "http://www.wikidata.org/entity/Q5422",
+    "covers": [ "Udmurt" ]
+  },
+  "Ulyanovsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q5634",
+    "covers": [ "Ul'yanovsk" ]
+  },
+  "Vladimir Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2702",
+    "covers": [ "Vladimir" ]
+  },
+  "Volgograd Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3819",
+    "covers": [ "Volgograd" ]
+  },
+  "Vologda Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2015",
+    "covers": [ "Vologda" ]
+  },
+  "Voronezh Oblast": {
+    "id": "http://www.wikidata.org/entity/Q3447",
+    "covers": [ "Voronezh" ]
+  },
+  "Yamalo-Nenets Autonomous Okrug": {
+    "id": "http://www.wikidata.org/entity/Q6407",
+    "covers": [ "Yamal-Nenets" ]
+  },
+  "Yaroslavl Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2448",
+    "covers": [ "Yaroslavl'" ]
+  },
+  "Zabaykalsky Krai": {
+    "id": "http://www.wikidata.org/entity/Q6838",
+    "covers": [ "Chita" ]
+  }
+}

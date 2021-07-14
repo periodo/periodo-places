@@ -26,14 +26,17 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **English counties gazetteer**<br>
   https://data.perio.do/graphs/places/english-counties.json
 
+* **Greek administrative regions gazetteer**<br>
+  https://data.perio.do/graphs/places/greek-regions.json
+
 * **Italian regions gazetteer**<br>
   https://data.perio.do/graphs/places/italian-regions.json
 
 * **Indian states and union territories gazetteer**<br>
   https://data.perio.do/graphs/places/indian-states.json
 
-* **Greek administrative regions gazetteer**<br>
-  https://data.perio.do/graphs/places/greek-regions.json
+* **Russian federal subjects gazetteer**<br>
+  https://data.perio.do/graphs/places/russian-federal-subjects.json
 
 * **Spanish autonomous communities gazetteer**<br>
   https://data.perio.do/graphs/places/spanish-communities.json
@@ -150,6 +153,15 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/italian-regions.json](place-ids/italian-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q16110 region of Italy](https://www.wikidata.org/wiki/Q16110) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Russian federal subjects gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/russian-federal-subjects.json](place-ids/russian-federal-subjects.json) for details), and
+
+1. querying Wikidata for instances of [Q43263 federal subject of Russia](https://www.wikidata.org/wiki/Q43263) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Spanish autonomous communities gazetteer

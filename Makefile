@@ -9,6 +9,7 @@ GAZETTEERS := \
 	gazetteers/indian-states.json \
 	gazetteers/italian-regions.json \
 	gazetteers/other-regions.json \
+	gazetteers/russian-federal-subjects.json \
 	gazetteers/spanish-communities.json \
 	gazetteers/subregions.json \
 	gazetteers/us-states.json
@@ -176,6 +177,23 @@ geometries/italian-regions/%.json: \
 	place-ids/italian-regions.json \
 	geometries/italian-admin-1.json
 	mkdir -p geometries/italian-regions
+	./sh/place.sh $^ $* > $@
+
+geometries/russian-admin-1.json: \
+	jq/russian-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
+
+geometries/russian-federal-subjects.json: \
+	place-ids/russian-federal-subjects.json \
+	geometries/russian-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
+
+geometries/russian-federal-subjects/%.json: \
+	place-ids/russian-federal-subjects.json \
+	geometries/russian-admin-1.json
+	mkdir -p geometries/russian-federal-subjects
 	./sh/place.sh $^ $* > $@
 
 geometries/spanish-admin-1.json: \
