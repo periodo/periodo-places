@@ -155,7 +155,10 @@ deploy: all
 	./sh/deploy.sh
 
 check: $(GAZETTEERS)
-	curl -L -s https://data.perio.do/d.json | jq -r -f jq/periodo-place-ids.jq | sort | uniq | node js/check-gazetteers.js $^
+	curl -L -s https://data.perio.do/d.json \
+	| jq -r -f jq/periodo-place-ids.jq \
+	| sort | uniq \
+	| node js/check-gazetteers.js $^
 
 clean:
 	rm -rf \
