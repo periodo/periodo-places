@@ -209,9 +209,11 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
 const getWikidataCountry = code => getWikidataPlace(
   null,
   [
-    'wd:Q6256',   // country
-    'wd:Q185086', // British crown dependency
-    'wd:Q46395'   // British overseas territory
+    'wd:Q6256',     // country
+    'wd:Q15634554', // state with limited recognition
+    'wd:Q1763527',  // constituent state
+    'wd:Q185086',   // British crown dependency
+    'wd:Q46395'     // British overseas territory
   ],
   [['wdt:P297|wdt:P300', code]] // ISO 3166-1 alpha-2 code or ISO 3166-2 code
                                 // (the latter is for UK countries)
