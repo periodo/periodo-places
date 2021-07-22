@@ -94,110 +94,50 @@ geometries/subregions.json: \
 	geometries/admin-0-and-western-russia.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/subregions/%.json: \
-	place-ids/subregions.json \
-	geometries/admin-0-and-western-russia.json
-	mkdir -p geometries/subregions
-	./sh/place.sh $^ $* > $@
-
 geometries/cities.json: \
 	place-ids/cities.json \
 	geometries/urban-areas.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/cities/%.json: \
-	place-ids/cities.json \
-	geometries/urban-areas.json
-	mkdir -p geometries/cities
-	./sh/place.sh $^ $* > $@
 
 geometries/english-counties.json: \
 	place-ids/english-counties.json \
 	geometries/english-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/english-counties/%.json: \
-	place-ids/english-counties.json \
-	geometries/english-admin-1.json
-	mkdir -p geometries/english-counties
-	./sh/place.sh $^ $* > $@
-
 geometries/greek-regions.json: \
 	place-ids/greek-regions.json \
 	geometries/greek-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/greek-regions/%.json: \
-	place-ids/greek-regions.json \
-	geometries/greek-admin-1.json
-	mkdir -p geometries/greek-regions
-	./sh/place.sh $^ $* > $@
 
 geometries/indian-states.json: \
 	place-ids/indian-states.json \
 	geometries/indian-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/indian-states/%.json: \
-	place-ids/indian-states.json \
-	geometries/indian-admin-1.json
-	mkdir -p geometries/indian-states
-	./sh/place.sh $^ $* > $@
-
 geometries/italian-regions.json: \
 	place-ids/italian-regions.json \
 	geometries/italian-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/italian-regions/%.json: \
-	place-ids/italian-regions.json \
-	geometries/italian-admin-1.json
-	mkdir -p geometries/italian-regions
-	./sh/place.sh $^ $* > $@
 
 geometries/russian-federal-subjects.json: \
 	place-ids/russian-federal-subjects.json \
 	geometries/russian-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/russian-federal-subjects/%.json: \
-	place-ids/russian-federal-subjects.json \
-	geometries/russian-admin-1.json
-	mkdir -p geometries/russian-federal-subjects
-	./sh/place.sh $^ $* > $@
-
 geometries/spanish-communities.json: \
 	place-ids/spanish-communities.json \
 	geometries/spanish-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/spanish-communities/%.json: \
-	place-ids/spanish-communities.json \
-	geometries/spanish-admin-1.json
-	mkdir -p geometries/spanish-communities
-	./sh/place.sh $^ $* > $@
 
 geometries/continents.json: \
 	place-ids/continents.json \
 	geometries/scale-rank-0.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/continents/%.json: \
-	place-ids/continents.json \
-	geometries/scale-rank-0.json
-	mkdir -p geometries/continents
-	./sh/place.sh $^ $* > $@
-
 geometries/geographic-regions.json: \
 	place-ids/geographic-regions.json \
 	geometries/scale-ranks-1-5.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/geographic-regions/%.json: \
-	place-ids/geographic-regions.json \
-	geometries/scale-ranks-1-5.json
-	mkdir -p geometries/geographic-regions
-	./sh/place.sh $^ $* > $@
 
 geometries/countries.json: \
 	jq/countries.jq \
