@@ -111,12 +111,6 @@ geometries/cities/%.json: \
 	mkdir -p geometries/cities
 	./sh/place.sh $^ $* > $@
 
-geometries/english-admin-1.json: \
-	jq/english-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
-
 geometries/english-counties.json: \
 	place-ids/english-counties.json \
 	geometries/english-admin-1.json
@@ -127,12 +121,6 @@ geometries/english-counties/%.json: \
 	geometries/english-admin-1.json
 	mkdir -p geometries/english-counties
 	./sh/place.sh $^ $* > $@
-
-geometries/greek-admin-1.json: \
-	jq/greek-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
 
 geometries/greek-regions.json: \
 	place-ids/greek-regions.json \
@@ -145,12 +133,6 @@ geometries/greek-regions/%.json: \
 	mkdir -p geometries/greek-regions
 	./sh/place.sh $^ $* > $@
 
-geometries/indian-admin-1.json: \
-	jq/indian-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
-
 geometries/indian-states.json: \
 	place-ids/indian-states.json \
 	geometries/indian-admin-1.json
@@ -161,12 +143,6 @@ geometries/indian-states/%.json: \
 	geometries/indian-admin-1.json
 	mkdir -p geometries/indian-states
 	./sh/place.sh $^ $* > $@
-
-geometries/italian-admin-1.json: \
-	jq/italian-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
 
 geometries/italian-regions.json: \
 	place-ids/italian-regions.json \
@@ -179,12 +155,6 @@ geometries/italian-regions/%.json: \
 	mkdir -p geometries/italian-regions
 	./sh/place.sh $^ $* > $@
 
-geometries/russian-admin-1.json: \
-	jq/russian-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
-
 geometries/russian-federal-subjects.json: \
 	place-ids/russian-federal-subjects.json \
 	geometries/russian-admin-1.json
@@ -195,12 +165,6 @@ geometries/russian-federal-subjects/%.json: \
 	geometries/russian-admin-1.json
 	mkdir -p geometries/russian-federal-subjects
 	./sh/place.sh $^ $* > $@
-
-geometries/spanish-admin-1.json: \
-	jq/spanish-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
 
 geometries/spanish-communities.json: \
 	place-ids/spanish-communities.json \
@@ -245,16 +209,16 @@ geometries/us-territories.json: \
 	geometries/admin-0.json
 	jq -f $^ > $@
 
-geometries/us-admin-1.json: \
-	jq/us-admin-1.jq \
-	ne/ne_10m_admin_1_states_provinces.json
-	mkdir -p geometries
-	jq -f $^ > $@
-
 geometries/us-states.json: \
 	geometries/us-admin-1.json \
 	geometries/us-territories.json
 	jq -s '.[0] * .[1]' $^ > $@
+
+geometries/%-admin-1.json: \
+	jq/%-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json
+	mkdir -p geometries
+	jq -f $^ > $@
 
 geometries/%.json: place-ids/%.json
 	mkdir -p geometries
