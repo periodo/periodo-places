@@ -14,20 +14,20 @@ const userAgent = (
 )
 
 const GAZETTEERS = {
-  cities: 'Cities',
-  continents: 'Continents',
-  countries: 'Countries',
+  'cities': 'Cities',
+  'continents': 'Continents',
+  'countries': 'Countries',
   'english-counties': 'English counties',
   'geographic-regions': 'Geographic regions',
-  historical: 'Historical places',
+  'greek-regions': 'Greek administrative regions',
+  'historical': 'Historical places',
   'indian-states': 'Indian states and union territories',
   'italian-regions': 'Italian regions',
-  'greek-regions': 'Greek administrative regions',
   'kuwaiti-governorates': 'Kuwaiti governorates',
   'other-regions': 'Other regions',
   'russian-federal-subjects': 'Russian federal subjects',
-  subregions: 'Subcontinental regions',
   'spanish-communities': 'Spanish autonomous communities',
+  'subregions': 'Subcontinental regions',
   'us-states': 'US states'
 }
 
