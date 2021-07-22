@@ -23,6 +23,7 @@ const GAZETTEERS = {
   'indian-states': 'Indian states and union territories',
   'italian-regions': 'Italian regions',
   'greek-regions': 'Greek administrative regions',
+  'kuwaiti-governorates': 'Kuwaiti governorates',
   'other-regions': 'Other regions',
   'russian-federal-subjects': 'Russian federal subjects',
   subregions: 'Subcontinental regions',
@@ -281,6 +282,11 @@ const getWikidataRussianFederalSubject = id => getWikidataPlace(
   ['wd:Q43263'] // federal subject of Russia
 )
 
+const getWikidataKuwaitiGovernorate = id => getWikidataPlace(
+  id,
+  ['wd:Q842876'] // governorate of Kuwait
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -323,6 +329,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'russian-federal-subjects':
         promise = getWikidataRussianFederalSubject(place.id)
+        break
+      case 'kuwaiti-governorates':
+        promise = getWikidataKuwaitiGovernorate(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

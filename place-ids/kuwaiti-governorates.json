@@ -1,0 +1,26 @@
+{
+  "Al Ahmadi Governorate": {
+    "id": "http://www.wikidata.org/entity/Q552354",
+    "covers": [ "Al Ahmadi" ]
+  },
+  "Al Farwaniyah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q1072757",
+    "covers": [ "Al Farwaniyah" ]
+  },
+  "Al Jahra Governorate": {
+    "id": "http://www.wikidata.org/entity/Q405701",
+    "covers": [ "Al Jahrah" ]
+  },
+  "Capital Governorate": {
+    "id": "http://www.wikidata.org/entity/Q1046645",
+    "covers": [ "Al Asimah" ]
+  },
+  "Hawally Governorate": {
+    "id": "http://www.wikidata.org/entity/Q747432",
+    "covers": [ "Hawalli" ]
+  },
+  "Mubarak Al-Kabeer Governorate": {
+    "id": "http://www.wikidata.org/entity/Q913370",
+    "covers": [ "Mubarak Al-Kabeer" ]
+  }
+}

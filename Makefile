@@ -8,6 +8,7 @@ GAZETTEERS := \
 	gazetteers/historical.json \
 	gazetteers/indian-states.json \
 	gazetteers/italian-regions.json \
+	gazetteers/kuwaiti-governorates.json \
 	gazetteers/other-regions.json \
 	gazetteers/russian-federal-subjects.json \
 	gazetteers/spanish-communities.json \

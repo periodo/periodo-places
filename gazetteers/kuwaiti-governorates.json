@@ -1,0 +1,566 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.568031,
+                  28.660991
+                ],
+                [
+                  47.446323,
+                  28.976243
+                ],
+                [
+                  47.841659,
+                  29.26625
+                ],
+                [
+                  48.106131,
+                  29.213525
+                ],
+                [
+                  48.393565,
+                  28.743394
+                ],
+                [
+                  48.432781,
+                  28.54048
+                ],
+                [
+                  47.721821,
+                  28.53397
+                ],
+                [
+                  47.668129,
+                  28.533505
+                ],
+                [
+                  47.596815,
+                  28.608823
+                ],
+                [
+                  47.581674,
+                  28.631483
+                ],
+                [
+                  47.568031,
+                  28.660991
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q552354",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Ahmadi Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Ahmadi Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.877212,
+                  29.185041
+                ],
+                [
+                  47.841659,
+                  29.26625
+                ],
+                [
+                  47.845896,
+                  29.30754
+                ],
+                [
+                  47.909097,
+                  29.32082
+                ],
+                [
+                  47.991779,
+                  29.330355
+                ],
+                [
+                  48.023767,
+                  29.264312
+                ],
+                [
+                  48.034567,
+                  29.208734
+                ],
+                [
+                  47.877212,
+                  29.185041
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1072757",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Farwaniyah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Farwaniyah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.446323,
+                  28.976243
+                ],
+                [
+                  46.532436,
+                  29.095745
+                ],
+                [
+                  47.110488,
+                  29.960911
+                ],
+                [
+                  47.144698,
+                  30.003338
+                ],
+                [
+                  47.197098,
+                  30.03424
+                ],
+                [
+                  47.358225,
+                  30.092118
+                ],
+                [
+                  47.415793,
+                  30.098216
+                ],
+                [
+                  47.674175,
+                  30.098216
+                ],
+                [
+                  48.109223,
+                  30.027981
+                ],
+                [
+                  48.175792,
+                  29.991889
+                ],
+                [
+                  48.188731,
+                  29.983547
+                ],
+                [
+                  48.344493,
+                  29.790595
+                ],
+                [
+                  48.359548,
+                  29.754462
+                ],
+                [
+                  48.352712,
+                  29.709784
+                ],
+                [
+                  48.333832,
+                  29.679267
+                ],
+                [
+                  48.303071,
+                  29.645209
+                ],
+                [
+                  47.769932,
+                  29.055798
+                ],
+                [
+                  47.746781,
+                  29.048977
+                ],
+                [
+                  47.446323,
+                  28.976243
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q405701",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Jahra Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Jahra Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.859539,
+                  29.319864
+                ],
+                [
+                  47.858488,
+                  29.323203
+                ],
+                [
+                  47.905387,
+                  29.359263
+                ],
+                [
+                  47.969883,
+                  29.387239
+                ],
+                [
+                  47.98574,
+                  29.393761
+                ],
+                [
+                  48.281098,
+                  29.471096
+                ],
+                [
+                  48.298513,
+                  29.473131
+                ],
+                [
+                  48.338227,
+                  29.462795
+                ],
+                [
+                  48.353852,
+                  29.457424
+                ],
+                [
+                  48.37322,
+                  29.443061
+                ],
+                [
+                  48.381114,
+                  29.433987
+                ],
+                [
+                  48.389008,
+                  29.424872
+                ],
+                [
+                  48.399464,
+                  29.397639
+                ],
+                [
+                  48.397356,
+                  29.387497
+                ],
+                [
+                  47.864862,
+                  29.309968
+                ],
+                [
+                  47.859539,
+                  29.319864
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1046645",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Asimah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Kuwayt"
+        },
+        {
+          "lang": "en",
+          "toponym": "Capital Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "al Kuwait"
+        },
+        {
+          "lang": "en",
+          "toponym": "al-Kuwayt"
+        }
+      ],
+      "properties": {
+        "title": "Capital Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.008722,
+                  29.295373
+                ],
+                [
+                  47.979687,
+                  29.351284
+                ],
+                [
+                  48.008364,
+                  29.369155
+                ],
+                [
+                  48.100266,
+                  29.349954
+                ],
+                [
+                  48.093825,
+                  29.310418
+                ],
+                [
+                  48.049961,
+                  29.295373
+                ],
+                [
+                  48.008722,
+                  29.295373
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q747432",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hawally Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Hawally Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Kuwait"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.034567,
+                  29.208734
+                ],
+                [
+                  48.008722,
+                  29.295373
+                ],
+                [
+                  48.093825,
+                  29.310418
+                ],
+                [
+                  48.106131,
+                  29.213525
+                ],
+                [
+                  48.097406,
+                  29.212507
+                ],
+                [
+                  48.034567,
+                  29.208734
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q913370",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mubarak Al-Kabeer Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Mubarak Al-Kabeer Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    }
+  ],
+  "title": "Kuwaiti governorates",
+  "type": "FeatureCollection"
+}
