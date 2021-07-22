@@ -144,6 +144,8 @@ gazetteers/%.json: geometries/%.json
 	mkdir -p gazetteers
 	node js/build-gazetteer.js $< $* > $@
 
+.PHONY: all stage deploy check clean superclean
+
 all: $(GAZETTEERS)
 
 stage: all
