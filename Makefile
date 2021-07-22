@@ -99,36 +99,6 @@ geometries/cities.json: \
 	geometries/urban-areas.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
-geometries/english-counties.json: \
-	place-ids/english-counties.json \
-	geometries/english-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/greek-regions.json: \
-	place-ids/greek-regions.json \
-	geometries/greek-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/indian-states.json: \
-	place-ids/indian-states.json \
-	geometries/indian-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/italian-regions.json: \
-	place-ids/italian-regions.json \
-	geometries/italian-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/russian-federal-subjects.json: \
-	place-ids/russian-federal-subjects.json \
-	geometries/russian-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/spanish-communities.json: \
-	place-ids/spanish-communities.json \
-	geometries/spanish-admin-1.json
-	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
 geometries/continents.json: \
 	place-ids/continents.json \
 	geometries/scale-rank-0.json
@@ -159,6 +129,12 @@ geometries/%-admin-1.json: \
 	ne/ne_10m_admin_1_states_provinces.json
 	mkdir -p geometries
 	jq -f $^ > $@
+
+.SECONDEXPANSION:
+geometries/%.json: \
+	place-ids/%.json \
+	geometries/$$(firstword $$(subst -, ,$$*))-admin-1.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
 geometries/%.json: place-ids/%.json
 	mkdir -p geometries
