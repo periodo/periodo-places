@@ -35,6 +35,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Indian states and union territories gazetteer**<br>
   https://data.perio.do/graphs/places/indian-states.json
 
+* **Laotian provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/laotian-provinces.json
+
 * **Russian federal subjects gazetteer**<br>
   https://data.perio.do/graphs/places/russian-federal-subjects.json
 
@@ -153,6 +156,17 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/italian-regions.json](place-ids/italian-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q16110 region of Italy](https://www.wikidata.org/wiki/Q16110) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Laotian provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/laotian-provinces.json](place-ids/laotian-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q15673297 province of Laos](https://www.wikidata.org/wiki/Q15673297) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that the province of Xaisomboun (recently established as a province, having been a special administrative zone) is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
 
 
 ### Russian federal subjects gazetteer

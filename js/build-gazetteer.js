@@ -24,6 +24,7 @@ const GAZETTEERS = {
   'indian-states': 'Indian states and union territories',
   'italian-regions': 'Italian regions',
   'kuwaiti-governorates': 'Kuwaiti governorates',
+  'laotian-provinces': 'Laotian provinces',
   'other-regions': 'Other regions',
   'russian-federal-subjects': 'Russian federal subjects',
   'saudi-arabian-provinces': 'Saudi Arabian provinces',
@@ -292,7 +293,12 @@ const getWikidataKuwaitiGovernorate = id => getWikidataPlace(
 
 const getWikidataSaudiProvince = id => getWikidataPlace(
   id,
-  ['wd:Q15623255'] // administrative territorial entity of Saudi Arabia 
+  ['wd:Q15623255'] // administrative territorial entity of Saudi Arabia
+)
+
+const getWikidataLaotianProvince = id => getWikidataPlace(
+  id,
+  ['wd:Q15673297'] // province of Laos
 )
 
 const makeFeature = (place, gazetteer) => new Promise(
@@ -343,6 +349,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'saudi-arabian-provinces':
         promise = getWikidataSaudiProvince(place.id)
+        break
+      case 'laotian-provinces':
+        promise = getWikidataLaotianProvince(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

@@ -1,0 +1,70 @@
+{
+  "Attapeu Province": {
+    "id": "http://www.wikidata.org/entity/Q503004",
+    "covers": [ "Attapu" ]
+  },
+  "Bokeo Province": {
+    "id": "http://www.wikidata.org/entity/Q334884",
+    "covers": [ "Bokeo" ]
+  },
+  "Bolikhamsai Province": {
+    "id": "http://www.wikidata.org/entity/Q2403514",
+    "covers": [ "Bolikhamxai" ]
+  },
+  "Champasak Province": {
+    "id": "http://www.wikidata.org/entity/Q334888",
+    "covers": [ "Champasak" ]
+  },
+  "Houaphanh Province": {
+    "id": "http://www.wikidata.org/entity/Q502997",
+    "covers": [ "Houaphan" ]
+  },
+  "Khammouane Province": {
+    "id": "http://www.wikidata.org/entity/Q506641",
+    "covers": [ "Khammouan" ]
+  },
+  "Luang Namtha Province": {
+    "id": "http://www.wikidata.org/entity/Q948691",
+    "covers": [ "Louang Namtha" ]
+  },
+  "Luang Prabang Province": {
+    "id": "http://www.wikidata.org/entity/Q747881",
+    "covers": [ "Louangphrabang" ]
+  },
+  "Oudomxay Province": {
+    "id": "http://www.wikidata.org/entity/Q465961",
+    "covers": [ "Oudômxai" ]
+  },
+  "Phongsaly Province": {
+    "id": "http://www.wikidata.org/entity/Q334868",
+    "covers": [ "Phôngsali" ]
+  },
+  "Sainyabuli Province": {
+    "id": "http://www.wikidata.org/entity/Q465929",
+    "covers": [ "Xaignabouri" ]
+  },
+  "Salavan Province": {
+    "id": "http://www.wikidata.org/entity/Q302656",
+    "covers": [ "Saravan" ]
+  },
+  "Savannakhet Province": {
+    "id": "http://www.wikidata.org/entity/Q465940",
+    "covers": [ "Savannakhét" ]
+  },
+  "Sekong Province": {
+    "id": "http://www.wikidata.org/entity/Q585707",
+    "covers": [ "Xékong" ]
+  },
+  "Vientiane Prefecture": {
+    "id": "http://www.wikidata.org/entity/Q390377",
+    "covers": [ "Vientiane [prefecture]" ]
+  },
+  "Vientiane Province": {
+    "id": "http://www.wikidata.org/entity/Q720066",
+    "covers": [ "Vientiane" ]
+  },
+  "Xiangkhouang Province": {
+    "id": "http://www.wikidata.org/entity/Q465947",
+    "covers": [ "Xiangkhoang" ]
+  }
+}
