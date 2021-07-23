@@ -1,0 +1,110 @@
+{
+  "Al Sharqia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31074",
+    "covers": [ "Ash Sharqiyah" ]
+  },
+  "Alexandria Governorate": {
+    "id": "http://www.wikidata.org/entity/Q29943",
+    "covers": [ "Al Iskandariyah" ]
+  },
+  "Aswan Governorate": {
+    "id": "http://www.wikidata.org/entity/Q29937",
+    "covers": [ "Aswan" ]
+  },
+  "Asyut Governorate": {
+    "id": "http://www.wikidata.org/entity/Q29965",
+    "covers": [ "Asyut" ]
+  },
+  "Beheira Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30630",
+    "covers": [ "Al Buhayrah" ]
+  },
+  "Beni Suef Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30683",
+    "covers": [ "Bani Suwayf" ]
+  },
+  "Cairo Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30805",
+    "covers": [ "Al Qahirah" ]
+  },
+  "Dakahlia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31068",
+    "covers": [ "Ad Daqahliyah" ]
+  },
+  "Damietta Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30644",
+    "covers": [ "Dumyat" ]
+  },
+  "Faiyum Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30656",
+    "covers": [ "Al Fayyum" ]
+  },
+  "Gharbia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30835",
+    "covers": [ "Al Gharbiyah" ]
+  },
+  "Giza Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30832",
+    "covers": [ "Al Jizah" ]
+  },
+  "Ismailia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31067",
+    "covers": [ "Al Isma`iliyah" ]
+  },
+  "Kafr el-Sheikh Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30946",
+    "covers": [ "Kafr ash Shaykh" ]
+  },
+  "Luxor Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30797",
+    "covers": [ "Luxor" ]
+  },
+  "Matrouh Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30682",
+    "covers": [ "Matruh" ]
+  },
+  "Minya Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30675",
+    "covers": [ "Al Minya" ]
+  },
+  "Monufia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30786",
+    "covers": [ "Al Minufiyah" ]
+  },
+  "New Valley Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30650",
+    "covers": [ "Al Wadi at Jadid" ]
+  },
+  "North Sinai Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30662",
+    "covers": [ "Shamal Sina'" ]
+  },
+  "Port Said Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31079",
+    "covers": [ "Bur Sa`id" ]
+  },
+  "Qalyubia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31075",
+    "covers": [ "Al Qalyubiyah" ]
+  },
+  "Qena Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31065",
+    "covers": [ "Qina" ]
+  },
+  "Red Sea Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30831",
+    "covers": [ "Al Bahr al Ahmar" ]
+  },
+  "Sohag Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30669",
+    "covers": [ "Suhaj" ]
+  },
+  "South Sinai Governorate": {
+    "id": "http://www.wikidata.org/entity/Q30815",
+    "covers": [ "Janub Sina'" ]
+  },
+  "Suez Governorate": {
+    "id": "http://www.wikidata.org/entity/Q31070",
+    "covers": [ "As Suways" ]
+  }
+}

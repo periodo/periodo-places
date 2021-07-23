@@ -2,6 +2,7 @@ GAZETTEERS := \
 	gazetteers/cities.json \
 	gazetteers/continents.json \
 	gazetteers/countries.json \
+	gazetteers/egyptian-governorates.json \
 	gazetteers/english-counties.json \
 	gazetteers/french-regions.json \
 	gazetteers/geographic-regions.json \

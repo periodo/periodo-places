@@ -1,0 +1,2978 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ash%20Sharqiyah.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.367626,
+                  30.298177
+                ],
+                [
+                  31.272541,
+                  30.43698
+                ],
+                [
+                  31.274246,
+                  30.464601
+                ],
+                [
+                  31.288509,
+                  30.516975
+                ],
+                [
+                  31.361115,
+                  30.760448
+                ],
+                [
+                  31.367316,
+                  30.771688
+                ],
+                [
+                  31.375584,
+                  30.780189
+                ],
+                [
+                  31.783518,
+                  31.065856
+                ],
+                [
+                  32.052337,
+                  31.128774
+                ],
+                [
+                  32.262462,
+                  31.169623
+                ],
+                [
+                  32.286469,
+                  31.170356
+                ],
+                [
+                  32.287364,
+                  31.170152
+                ],
+                [
+                  32.288138,
+                  31.169028
+                ],
+                [
+                  32.289998,
+                  31.113786
+                ],
+                [
+                  32.119621,
+                  30.716058
+                ],
+                [
+                  32.098641,
+                  30.677275
+                ],
+                [
+                  31.843101,
+                  30.339027
+                ],
+                [
+                  31.593865,
+                  30.190431
+                ],
+                [
+                  31.385661,
+                  30.280452
+                ],
+                [
+                  31.375894,
+                  30.288772
+                ],
+                [
+                  31.367626,
+                  30.298177
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31074",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Sharqia Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Eastern Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sharqia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Sharqia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20d%27Alexandria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.62489,
+                  30.337089
+                ],
+                [
+                  29.59807,
+                  31.008754
+                ],
+                [
+                  29.59807,
+                  31.009506
+                ],
+                [
+                  29.618663,
+                  31.029283
+                ],
+                [
+                  29.781505,
+                  31.147935
+                ],
+                [
+                  29.876964,
+                  31.213568
+                ],
+                [
+                  30.042247,
+                  31.320502
+                ],
+                [
+                  30.069591,
+                  31.333482
+                ],
+                [
+                  30.098481,
+                  31.284654
+                ],
+                [
+                  30.01267,
+                  30.698307
+                ],
+                [
+                  29.985695,
+                  30.653995
+                ],
+                [
+                  29.960838,
+                  30.621154
+                ],
+                [
+                  29.928437,
+                  30.590924
+                ],
+                [
+                  29.62489,
+                  30.337089
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q29943",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Alexandria Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate of Alexandria"
+        },
+        {
+          "lang": "en",
+          "toponym": "al-Iskandariyya"
+        }
+      ],
+      "properties": {
+        "title": "Alexandria Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20d%27Aswan.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.227066,
+                  22.186243
+                ],
+                [
+                  31.22505,
+                  22.196888
+                ],
+                [
+                  31.228306,
+                  22.210608
+                ],
+                [
+                  32.704753,
+                  25.269879
+                ],
+                [
+                  32.907583,
+                  25.128983
+                ],
+                [
+                  32.944997,
+                  25.085187
+                ],
+                [
+                  32.979569,
+                  25.031186
+                ],
+                [
+                  32.992436,
+                  25.001627
+                ],
+                [
+                  33.131497,
+                  24.523801
+                ],
+                [
+                  33.132893,
+                  24.515842
+                ],
+                [
+                  33.331537,
+                  22.743134
+                ],
+                [
+                  33.333707,
+                  22.717554
+                ],
+                [
+                  33.329677,
+                  22.706315
+                ],
+                [
+                  33.321098,
+                  22.701199
+                ],
+                [
+                  31.494719,
+                  21.995387
+                ],
+                [
+                  31.435476,
+                  21.995351
+                ],
+                [
+                  31.251405,
+                  22.156348
+                ],
+                [
+                  31.241174,
+                  22.165676
+                ],
+                [
+                  31.232337,
+                  22.175391
+                ],
+                [
+                  31.227066,
+                  22.186243
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q29937",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aswan Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Aswan Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Assiut%20Governorate.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.670304,
+                  27.568085
+                ],
+                [
+                  30.667203,
+                  27.595396
+                ],
+                [
+                  30.671234,
+                  27.634024
+                ],
+                [
+                  30.76544,
+                  27.630924
+                ],
+                [
+                  30.941244,
+                  27.620149
+                ],
+                [
+                  31.288354,
+                  27.283374
+                ],
+                [
+                  31.474854,
+                  27.083257
+                ],
+                [
+                  31.489014,
+                  27.067805
+                ],
+                [
+                  31.512113,
+                  27.033027
+                ],
+                [
+                  31.619032,
+                  26.833194
+                ],
+                [
+                  31.578982,
+                  26.828776
+                ],
+                [
+                  31.299981,
+                  26.83738
+                ],
+                [
+                  30.806523,
+                  27.320348
+                ],
+                [
+                  30.790865,
+                  27.337453
+                ],
+                [
+                  30.773657,
+                  27.360087
+                ],
+                [
+                  30.681001,
+                  27.536588
+                ],
+                [
+                  30.670304,
+                  27.568085
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q29965",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Asyut Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Asyut Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Behira%20Govenorate.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.67176,
+                  30.251978
+                ],
+                [
+                  29.62489,
+                  30.337089
+                ],
+                [
+                  29.867614,
+                  31.075571
+                ],
+                [
+                  29.868854,
+                  31.079085
+                ],
+                [
+                  29.870249,
+                  31.08061
+                ],
+                [
+                  30.098481,
+                  31.284654
+                ],
+                [
+                  30.343923,
+                  31.497992
+                ],
+                [
+                  30.350759,
+                  31.497992
+                ],
+                [
+                  30.415281,
+                  31.441027
+                ],
+                [
+                  30.513724,
+                  31.334418
+                ],
+                [
+                  30.723221,
+                  31.062265
+                ],
+                [
+                  30.763632,
+                  30.983613
+                ],
+                [
+                  30.816497,
+                  30.827163
+                ],
+                [
+                  30.87949,
+                  30.372901
+                ],
+                [
+                  30.328619,
+                  29.898201
+                ],
+                [
+                  29.67176,
+                  30.251978
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30630",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beheira Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Beheira Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Bani%20Suwayf.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.944189,
+                  28.715664
+                ],
+                [
+                  29.749223,
+                  28.759304
+                ],
+                [
+                  29.814852,
+                  29.088432
+                ],
+                [
+                  31.101854,
+                  29.400118
+                ],
+                [
+                  31.146864,
+                  29.401229
+                ],
+                [
+                  31.172599,
+                  29.397922
+                ],
+                [
+                  31.202365,
+                  29.389886
+                ],
+                [
+                  31.217299,
+                  29.383297
+                ],
+                [
+                  31.226291,
+                  29.377949
+                ],
+                [
+                  31.234817,
+                  29.371541
+                ],
+                [
+                  31.241639,
+                  29.363893
+                ],
+                [
+                  31.251095,
+                  29.349242
+                ],
+                [
+                  31.255901,
+                  29.339346
+                ],
+                [
+                  31.258588,
+                  29.329218
+                ],
+                [
+                  31.258899,
+                  29.318366
+                ],
+                [
+                  31.254971,
+                  29.216899
+                ],
+                [
+                  31.253266,
+                  29.202714
+                ],
+                [
+                  31.245979,
+                  29.184214
+                ],
+                [
+                  31.216989,
+                  29.122073
+                ],
+                [
+                  31.204432,
+                  29.100214
+                ],
+                [
+                  30.944189,
+                  28.715664
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30683",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beni Suef Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Beni Suef Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cairo.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.225671,
+                  29.989539
+                ],
+                [
+                  31.221175,
+                  30.007859
+                ],
+                [
+                  31.237608,
+                  30.114777
+                ],
+                [
+                  31.323287,
+                  30.163896
+                ],
+                [
+                  31.843101,
+                  30.339027
+                ],
+                [
+                  31.887336,
+                  30.232367
+                ],
+                [
+                  31.914776,
+                  30.077932
+                ],
+                [
+                  31.936377,
+                  29.872518
+                ],
+                [
+                  31.928935,
+                  29.783169
+                ],
+                [
+                  31.29161,
+                  29.759863
+                ],
+                [
+                  31.283497,
+                  29.772705
+                ],
+                [
+                  31.225671,
+                  29.989539
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30805",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cairo Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Cairo Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Daqahliya.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.253731,
+                  30.588392
+                ],
+                [
+                  31.213888,
+                  30.837033
+                ],
+                [
+                  31.218384,
+                  31.031078
+                ],
+                [
+                  31.245049,
+                  31.455341
+                ],
+                [
+                  31.245979,
+                  31.463894
+                ],
+                [
+                  31.24815,
+                  31.472653
+                ],
+                [
+                  31.251716,
+                  31.478518
+                ],
+                [
+                  31.276882,
+                  31.496011
+                ],
+                [
+                  31.349907,
+                  31.529664
+                ],
+                [
+                  32.093761,
+                  31.365668
+                ],
+                [
+                  32.104259,
+                  31.361477
+                ],
+                [
+                  32.256602,
+                  31.288804
+                ],
+                [
+                  32.25646,
+                  31.276219
+                ],
+                [
+                  31.352898,
+                  30.573767
+                ],
+                [
+                  31.309438,
+                  30.570873
+                ],
+                [
+                  31.295796,
+                  30.570331
+                ],
+                [
+                  31.253731,
+                  30.588392
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31068",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dakahlia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Dakahlia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Damietta%20Governorate.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.500331,
+                  31.364959
+                ],
+                [
+                  31.499246,
+                  31.37054
+                ],
+                [
+                  31.501726,
+                  31.374338
+                ],
+                [
+                  31.519089,
+                  31.39165
+                ],
+                [
+                  31.571612,
+                  31.443752
+                ],
+                [
+                  31.837901,
+                  31.525336
+                ],
+                [
+                  31.87436,
+                  31.53559
+                ],
+                [
+                  31.912934,
+                  31.534898
+                ],
+                [
+                  31.944835,
+                  31.520941
+                ],
+                [
+                  32.093761,
+                  31.365668
+                ],
+                [
+                  32.086703,
+                  31.360954
+                ],
+                [
+                  32.082917,
+                  31.359007
+                ],
+                [
+                  31.622287,
+                  31.165643
+                ],
+                [
+                  31.61004,
+                  31.164791
+                ],
+                [
+                  31.603064,
+                  31.169441
+                ],
+                [
+                  31.500331,
+                  31.364959
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30644",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Damietta Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Damietta Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Faium.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.316372,
+                  28.976242
+                ],
+                [
+                  29.814852,
+                  29.088432
+                ],
+                [
+                  30.281594,
+                  29.485048
+                ],
+                [
+                  30.354974,
+                  29.53644
+                ],
+                [
+                  30.536255,
+                  29.630362
+                ],
+                [
+                  30.74601,
+                  29.714285
+                ],
+                [
+                  30.955816,
+                  29.737074
+                ],
+                [
+                  31.002377,
+                  29.705396
+                ],
+                [
+                  31.030489,
+                  29.680514
+                ],
+                [
+                  31.101854,
+                  29.400118
+                ],
+                [
+                  31.023151,
+                  29.298264
+                ],
+                [
+                  30.932252,
+                  29.185997
+                ],
+                [
+                  30.864297,
+                  29.120626
+                ],
+                [
+                  30.780168,
+                  29.082385
+                ],
+                [
+                  30.363708,
+                  28.979756
+                ],
+                [
+                  30.316372,
+                  28.976242
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30656",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Faiyum Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Faiyum Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Gharbiya.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.753245,
+                  30.775538
+                ],
+                [
+                  30.751643,
+                  30.976766
+                ],
+                [
+                  30.772882,
+                  31.00325
+                ],
+                [
+                  31.070796,
+                  31.121227
+                ],
+                [
+                  31.190117,
+                  31.132441
+                ],
+                [
+                  31.201641,
+                  31.133087
+                ],
+                [
+                  31.212338,
+                  31.132234
+                ],
+                [
+                  31.22195,
+                  31.129806
+                ],
+                [
+                  31.227996,
+                  31.126653
+                ],
+                [
+                  31.24846,
+                  31.109859
+                ],
+                [
+                  31.305407,
+                  31.029708
+                ],
+                [
+                  31.305717,
+                  31.017022
+                ],
+                [
+                  31.268975,
+                  30.634125
+                ],
+                [
+                  31.251199,
+                  30.565086
+                ],
+                [
+                  30.796084,
+                  30.680221
+                ],
+                [
+                  30.774432,
+                  30.716446
+                ],
+                [
+                  30.755053,
+                  30.764479
+                ],
+                [
+                  30.753245,
+                  30.775538
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30835",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gharbia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Gharbia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Giza%20Governorate.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  28.653218,
+                  27.667898
+                ],
+                [
+                  27.324772,
+                  27.667898
+                ],
+                [
+                  27.757097,
+                  28.483559
+                ],
+                [
+                  27.784589,
+                  28.520585
+                ],
+                [
+                  27.831873,
+                  28.566474
+                ],
+                [
+                  30.833085,
+                  30.333808
+                ],
+                [
+                  30.882746,
+                  30.345822
+                ],
+                [
+                  30.909566,
+                  30.339931
+                ],
+                [
+                  30.917007,
+                  30.336185
+                ],
+                [
+                  31.928935,
+                  29.783169
+                ],
+                [
+                  31.932656,
+                  29.736764
+                ],
+                [
+                  31.869146,
+                  28.968206
+                ],
+                [
+                  28.653218,
+                  27.667898
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30832",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Giza Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Giza Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20d%27Ismailiya.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.843101,
+                  30.339027
+                ],
+                [
+                  31.763467,
+                  30.546844
+                ],
+                [
+                  31.763777,
+                  30.557205
+                ],
+                [
+                  31.765999,
+                  30.560693
+                ],
+                [
+                  32.14184,
+                  31.087358
+                ],
+                [
+                  32.311237,
+                  31.118773
+                ],
+                [
+                  32.602072,
+                  30.973743
+                ],
+                [
+                  32.79865,
+                  30.254045
+                ],
+                [
+                  32.459135,
+                  30.203764
+                ],
+                [
+                  32.446578,
+                  30.203893
+                ],
+                [
+                  31.887336,
+                  30.232367
+                ],
+                [
+                  31.843101,
+                  30.339027
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31067",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ismailia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ismailia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kafr%20El-Sheikh%20Governorate-official.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.370616,
+                  31.461615
+                ],
+                [
+                  30.355724,
+                  31.491116
+                ],
+                [
+                  30.362153,
+                  31.508734
+                ],
+                [
+                  31.01238,
+                  31.59691
+                ],
+                [
+                  31.097423,
+                  31.607896
+                ],
+                [
+                  31.128673,
+                  31.604926
+                ],
+                [
+                  31.220958,
+                  31.579901
+                ],
+                [
+                  31.349907,
+                  31.529664
+                ],
+                [
+                  31.299516,
+                  31.130968
+                ],
+                [
+                  31.24846,
+                  31.109859
+                ],
+                [
+                  31.023771,
+                  31.019037
+                ],
+                [
+                  30.908481,
+                  30.99015
+                ],
+                [
+                  30.849053,
+                  30.982502
+                ],
+                [
+                  30.763632,
+                  30.983613
+                ],
+                [
+                  30.525403,
+                  31.196494
+                ],
+                [
+                  30.494346,
+                  31.238068
+                ],
+                [
+                  30.370616,
+                  31.461615
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30946",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kafr el-Sheikh Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Kafr el-Sheikh Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eg%20luxor1.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.637149,
+                  25.684477
+                ],
+                [
+                  32.624912,
+                  25.687206
+                ],
+                [
+                  32.649684,
+                  25.729935
+                ],
+                [
+                  32.66937,
+                  25.721108
+                ],
+                [
+                  32.668353,
+                  25.712967
+                ],
+                [
+                  32.651394,
+                  25.683121
+                ],
+                [
+                  32.637149,
+                  25.684477
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30797",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Luxor Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Luxor Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Matrouh%20Governorate-logo.PNG"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.981245,
+                  27.666503
+                ],
+                [
+                  24.688343,
+                  30.144156
+                ],
+                [
+                  24.688653,
+                  30.182758
+                ],
+                [
+                  24.848953,
+                  31.34863
+                ],
+                [
+                  24.861252,
+                  31.38036
+                ],
+                [
+                  25.088422,
+                  31.613524
+                ],
+                [
+                  25.15089,
+                  31.65648
+                ],
+                [
+                  25.966807,
+                  31.616604
+                ],
+                [
+                  26.965505,
+                  31.449652
+                ],
+                [
+                  29.59807,
+                  31.009506
+                ],
+                [
+                  30.328619,
+                  29.898201
+                ],
+                [
+                  27.324772,
+                  27.667898
+                ],
+                [
+                  25.000004,
+                  27.666503
+                ],
+                [
+                  24.981245,
+                  27.666503
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30682",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Matrouh Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Matrouh Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Al-Minya.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.83448,
+                  27.608703
+                ],
+                [
+                  28.653218,
+                  27.667898
+                ],
+                [
+                  28.724738,
+                  27.806236
+                ],
+                [
+                  28.774864,
+                  27.873157
+                ],
+                [
+                  29.749223,
+                  28.759304
+                ],
+                [
+                  30.768696,
+                  28.780957
+                ],
+                [
+                  30.944189,
+                  28.715664
+                ],
+                [
+                  30.960002,
+                  27.731718
+                ],
+                [
+                  30.959227,
+                  27.715725
+                ],
+                [
+                  30.941244,
+                  27.620149
+                ],
+                [
+                  30.83448,
+                  27.608703
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30675",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Minya Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Minya Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Menoufia%20Governorate.PNG"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.798307,
+                  30.637665
+                ],
+                [
+                  30.796084,
+                  30.680221
+                ],
+                [
+                  30.822078,
+                  30.69438
+                ],
+                [
+                  30.83231,
+                  30.69699
+                ],
+                [
+                  30.915767,
+                  30.71518
+                ],
+                [
+                  30.927601,
+                  30.71673
+                ],
+                [
+                  30.939073,
+                  30.715748
+                ],
+                [
+                  31.060564,
+                  30.688127
+                ],
+                [
+                  31.172134,
+                  30.634952
+                ],
+                [
+                  31.179575,
+                  30.63056
+                ],
+                [
+                  31.186086,
+                  30.625134
+                ],
+                [
+                  31.251199,
+                  30.565086
+                ],
+                [
+                  31.262154,
+                  30.552218
+                ],
+                [
+                  31.145417,
+                  30.175445
+                ],
+                [
+                  31.008888,
+                  30.20981
+                ],
+                [
+                  30.991215,
+                  30.215365
+                ],
+                [
+                  30.833085,
+                  30.333808
+                ],
+                [
+                  30.826574,
+                  30.347967
+                ],
+                [
+                  30.798307,
+                  30.637665
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30786",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Monufia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Monufia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Wadi%20al-Jadid.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  25.0785,
+                  21.995299
+                ],
+                [
+                  24.981245,
+                  21.995351
+                ],
+                [
+                  24.981245,
+                  27.666503
+                ],
+                [
+                  27.324772,
+                  27.667898
+                ],
+                [
+                  28.653218,
+                  27.667898
+                ],
+                [
+                  30.687822,
+                  27.66764
+                ],
+                [
+                  32.717518,
+                  26.094816
+                ],
+                [
+                  32.727284,
+                  26.08647
+                ],
+                [
+                  32.735811,
+                  26.076574
+                ],
+                [
+                  32.742322,
+                  26.06598
+                ],
+                [
+                  32.746663,
+                  26.055516
+                ],
+                [
+                  32.750384,
+                  26.035259
+                ],
+                [
+                  32.930321,
+                  24.649038
+                ],
+                [
+                  32.886396,
+                  24.126331
+                ],
+                [
+                  32.765577,
+                  23.380227
+                ],
+                [
+                  32.761856,
+                  23.361753
+                ],
+                [
+                  32.75581,
+                  23.348368
+                ],
+                [
+                  32.48146,
+                  22.841164
+                ],
+                [
+                  32.445338,
+                  22.782615
+                ],
+                [
+                  32.435984,
+                  22.772693
+                ],
+                [
+                  31.261637,
+                  22.001759
+                ],
+                [
+                  31.248407,
+                  21.994369
+                ],
+                [
+                  31.112912,
+                  21.994369
+                ],
+                [
+                  29.944818,
+                  21.994524
+                ],
+                [
+                  26.830383,
+                  21.994989
+                ],
+                [
+                  25.0785,
+                  21.995299
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30650",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Wādī al-Jadīd"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Valley Governorate"
+        }
+      ],
+      "properties": {
+        "title": "New Valley Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Sinai-Sinai%20del%20nord.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.602072,
+                  30.973743
+                ],
+                [
+                  32.59954,
+                  31.060404
+                ],
+                [
+                  32.599678,
+                  31.061516
+                ],
+                [
+                  33.104747,
+                  31.240302
+                ],
+                [
+                  34.200269,
+                  31.314267
+                ],
+                [
+                  34.224608,
+                  31.275715
+                ],
+                [
+                  34.480407,
+                  30.651205
+                ],
+                [
+                  34.733208,
+                  30.012588
+                ],
+                [
+                  34.824365,
+                  29.7417
+                ],
+                [
+                  34.8501,
+                  29.63876
+                ],
+                [
+                  34.886729,
+                  29.490058
+                ],
+                [
+                  34.885509,
+                  29.489496
+                ],
+                [
+                  34.46816,
+                  29.546466
+                ],
+                [
+                  32.854822,
+                  29.913756
+                ],
+                [
+                  32.84738,
+                  29.923032
+                ],
+                [
+                  32.838699,
+                  29.936571
+                ],
+                [
+                  32.829862,
+                  29.957577
+                ],
+                [
+                  32.651992,
+                  30.504107
+                ],
+                [
+                  32.648426,
+                  30.517492
+                ],
+                [
+                  32.645171,
+                  30.538007
+                ],
+                [
+                  32.602072,
+                  30.973743
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30662",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Sinai Governorate"
+        }
+      ],
+      "properties": {
+        "title": "North Sinai Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Port%20Said%20Governorate.PNG"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.289998,
+                  31.113786
+                ],
+                [
+                  32.25646,
+                  31.276219
+                ],
+                [
+                  32.25646,
+                  31.281786
+                ],
+                [
+                  32.256602,
+                  31.288804
+                ],
+                [
+                  32.300466,
+                  31.28144
+                ],
+                [
+                  32.331391,
+                  31.27143
+                ],
+                [
+                  32.389903,
+                  31.226508
+                ],
+                [
+                  32.599678,
+                  31.061516
+                ],
+                [
+                  32.602072,
+                  30.973743
+                ],
+                [
+                  32.289998,
+                  31.113786
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31079",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Port Said Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Port Said Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Qalubiya%20Governorate.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.115496,
+                  30.215494
+                ],
+                [
+                  31.056069,
+                  30.374684
+                ],
+                [
+                  31.253731,
+                  30.588392
+                ],
+                [
+                  31.331039,
+                  30.579322
+                ],
+                [
+                  31.352898,
+                  30.573767
+                ],
+                [
+                  31.593865,
+                  30.190431
+                ],
+                [
+                  31.237608,
+                  30.114777
+                ],
+                [
+                  31.166553,
+                  30.156015
+                ],
+                [
+                  31.145417,
+                  30.175445
+                ],
+                [
+                  31.115496,
+                  30.215494
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qalyubia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Qalyubia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Qena%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.52864,
+                  25.244842
+                ],
+                [
+                  31.952345,
+                  26.139852
+                ],
+                [
+                  31.991619,
+                  26.172821
+                ],
+                [
+                  32.002471,
+                  26.179229
+                ],
+                [
+                  32.013013,
+                  26.184061
+                ],
+                [
+                  32.126442,
+                  26.232689
+                ],
+                [
+                  32.13714,
+                  26.236797
+                ],
+                [
+                  32.620831,
+                  26.262506
+                ],
+                [
+                  32.684445,
+                  26.25894
+                ],
+                [
+                  32.762476,
+                  26.238347
+                ],
+                [
+                  32.781751,
+                  26.229175
+                ],
+                [
+                  32.806401,
+                  26.213517
+                ],
+                [
+                  32.840869,
+                  26.184733
+                ],
+                [
+                  32.880298,
+                  26.136777
+                ],
+                [
+                  32.894406,
+                  26.114014
+                ],
+                [
+                  32.904948,
+                  26.091147
+                ],
+                [
+                  32.919211,
+                  26.044535
+                ],
+                [
+                  32.929908,
+                  25.971283
+                ],
+                [
+                  32.931148,
+                  25.935523
+                ],
+                [
+                  32.929443,
+                  25.912088
+                ],
+                [
+                  32.924327,
+                  25.885061
+                ],
+                [
+                  32.693746,
+                  25.179213
+                ],
+                [
+                  32.689406,
+                  25.169989
+                ],
+                [
+                  32.679639,
+                  25.163296
+                ],
+                [
+                  32.653852,
+                  25.145701
+                ],
+                [
+                  32.558923,
+                  25.211691
+                ],
+                [
+                  32.538097,
+                  25.232129
+                ],
+                [
+                  32.52864,
+                  25.244842
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31065",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qena Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Qena Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20la%20mar%20Roja.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.494719,
+                  21.995387
+                ],
+                [
+                  30.815411,
+                  28.258715
+                ],
+                [
+                  30.817737,
+                  28.276646
+                ],
+                [
+                  30.823783,
+                  28.299384
+                ],
+                [
+                  30.953026,
+                  28.765428
+                ],
+                [
+                  30.971784,
+                  28.811549
+                ],
+                [
+                  31.255281,
+                  29.298755
+                ],
+                [
+                  32.656174,
+                  29.120649
+                ],
+                [
+                  34.028494,
+                  27.502021
+                ],
+                [
+                  36.895383,
+                  22.066133
+                ],
+                [
+                  36.899181,
+                  22.029853
+                ],
+                [
+                  36.898448,
+                  22.017483
+                ],
+                [
+                  36.891856,
+                  22.006741
+                ],
+                [
+                  36.883637,
+                  21.995714
+                ],
+                [
+                  36.184592,
+                  21.995609
+                ],
+                [
+                  34.323103,
+                  21.995454
+                ],
+                [
+                  33.15976,
+                  21.995403
+                ],
+                [
+                  31.494719,
+                  21.995387
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30831",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Red Sea Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Red Sea Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Suhaj.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.438888,
+                  26.683462
+                ],
+                [
+                  31.299981,
+                  26.83738
+                ],
+                [
+                  31.444779,
+                  26.936392
+                ],
+                [
+                  31.45098,
+                  26.939803
+                ],
+                [
+                  31.461987,
+                  26.940113
+                ],
+                [
+                  31.474699,
+                  26.935307
+                ],
+                [
+                  31.786928,
+                  26.728421
+                ],
+                [
+                  31.831008,
+                  26.689973
+                ],
+                [
+                  32.155278,
+                  26.346842
+                ],
+                [
+                  32.165717,
+                  26.33555
+                ],
+                [
+                  32.307517,
+                  26.158197
+                ],
+                [
+                  32.280542,
+                  26.132126
+                ],
+                [
+                  32.27,
+                  26.131196
+                ],
+                [
+                  31.952345,
+                  26.139852
+                ],
+                [
+                  31.438888,
+                  26.683462
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30669",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sohag Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Souhaj Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Sohag Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Sinai%20del%20sud.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.680837,
+                  29.599921
+                ],
+                [
+                  32.651775,
+                  29.790019
+                ],
+                [
+                  32.65194,
+                  29.79012
+                ],
+                [
+                  32.854822,
+                  29.913756
+                ],
+                [
+                  33.130257,
+                  29.925202
+                ],
+                [
+                  33.768306,
+                  29.827043
+                ],
+                [
+                  34.885509,
+                  29.489496
+                ],
+                [
+                  34.732162,
+                  27.918943
+                ],
+                [
+                  34.257335,
+                  27.728583
+                ],
+                [
+                  34.249848,
+                  27.728583
+                ],
+                [
+                  34.078461,
+                  27.800686
+                ],
+                [
+                  34.054454,
+                  27.814521
+                ],
+                [
+                  33.879405,
+                  27.934638
+                ],
+                [
+                  33.763357,
+                  28.023993
+                ],
+                [
+                  33.29477,
+                  28.499416
+                ],
+                [
+                  33.239431,
+                  28.556586
+                ],
+                [
+                  33.228689,
+                  28.569403
+                ],
+                [
+                  32.715017,
+                  29.455959
+                ],
+                [
+                  32.680837,
+                  29.599921
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q30815",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Sinai Governorate"
+        }
+      ],
+      "properties": {
+        "title": "South Sinai Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suez%20Governorate.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Egyptian governorate"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.91152,
+                  28.951334
+                ],
+                [
+                  31.869146,
+                  28.968206
+                ],
+                [
+                  31.887336,
+                  30.232367
+                ],
+                [
+                  32.608739,
+                  30.265646
+                ],
+                [
+                  32.79865,
+                  30.254045
+                ],
+                [
+                  32.817563,
+                  30.161105
+                ],
+                [
+                  32.854822,
+                  29.913756
+                ],
+                [
+                  32.656174,
+                  29.120649
+                ],
+                [
+                  32.166492,
+                  28.973865
+                ],
+                [
+                  32.145046,
+                  28.967896
+                ],
+                [
+                  32.129853,
+                  28.965261
+                ],
+                [
+                  31.91152,
+                  28.951334
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q31070",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Suez Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Suez Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    }
+  ],
+  "title": "Egyptian governorates",
+  "type": "FeatureCollection"
+}
