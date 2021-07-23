@@ -26,6 +26,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **English counties gazetteer**<br>
   https://data.perio.do/graphs/places/english-counties.json
 
+* **French regions gazetteer**<br>
+  https://data.perio.do/graphs/places/french-regions.json
+
 * **Greek administrative regions gazetteer**<br>
   https://data.perio.do/graphs/places/greek-regions.json
 
@@ -134,6 +137,19 @@ This gazetteer was created by:
 1. merging geometries of the administrative units found in the Natural Earth data into geometries for (non-administrative) ceremonial counties (see [place-ids/english-counties.json](place-ids/english-counties.json) for details), and
 
 1. querying Wikidata for instances of [Q180673 ceremonial country of England](https://www.wikidata.org/wiki/Q180673) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### French regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the administrative units (departments) found in the Natural Earth data into geometries for (pre-2016) regions (see [place-ids/french-regions.json](place-ids/french-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q36784 region of France](https://www.wikidata.org/wiki/Q36784), [Q22670030 former French region](https://www.wikidata.org/wiki/Q22670030), or [Q202216 overseas department and region of France](https://www.wikidata.org/wiki/Q202216) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that these are the pre-2016 (22 metropolitan, 5 overseas) regions, not the current (13 metropolitan, 5 overseas) regions.
 
 
 ### Greek administrative regions gazetteer

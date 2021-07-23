@@ -3,6 +3,7 @@ GAZETTEERS := \
 	gazetteers/continents.json \
 	gazetteers/countries.json \
 	gazetteers/english-counties.json \
+	gazetteers/french-regions.json \
 	gazetteers/geographic-regions.json \
 	gazetteers/greek-regions.json \
 	gazetteers/historical.json \

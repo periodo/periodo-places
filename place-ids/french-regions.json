@@ -1,0 +1,238 @@
+{
+  "Alsace": {
+    "id": "http://www.wikidata.org/entity/Q1142",
+    "covers": [
+      "Bas-Rhin",
+      "Haute-Rhin"
+    ]
+  },
+  "Aquitaine": {
+    "id": "http://www.wikidata.org/entity/Q1179",
+    "covers": [
+      "Dordogne",
+      "Gironde",
+      "Landes",
+      "Lot-et-Garonne",
+      "Pyrénées-Atlantiques"
+    ]
+  },
+  "Auvergne": {
+    "id": "http://www.wikidata.org/entity/Q1152",
+    "covers": [
+      "Allier",
+      "Cantal",
+      "Haute-Loire",
+      "Puy-de-Dôme"
+    ]
+  },
+  "Brittany": {
+    "id": "http://www.wikidata.org/entity/Q12130",
+    "covers": [
+      "Côtes-d'Armor",
+      "Finistère",
+      "Ille-et-Vilaine",
+      "Morbihan"
+    ]
+  },
+  "Burgundy": {
+    "id": "http://www.wikidata.org/entity/Q1173",
+    "covers": [
+      "Côte-d'Or",
+      "Saône-et-Loire",
+      "Yonne",
+      "Nièvre"
+    ]
+  },
+  "Centre-Val de Loire": {
+    "id": "http://www.wikidata.org/entity/Q13947",
+    "covers": [
+      "Cher",
+      "Eure-et-Loir",
+      "Indre",
+      "Indre-et-Loire",
+      "Loir-et-Cher",
+      "Loiret"
+    ]
+  },
+  "Champagne-Ardenne": {
+    "id": "http://www.wikidata.org/entity/Q14103",
+    "covers": [
+      "Ardennes",
+      "Aube",
+      "Marne",
+      "Haute-Marne"
+    ]
+  },
+  "Corsica": {
+    "id": "http://www.wikidata.org/entity/Q14112",
+    "covers": [
+      "Haute-Corse",
+      "Corse-du-Sud"
+    ]
+  },
+  "Franche-Comté": {
+    "id": "http://www.wikidata.org/entity/Q16394",
+    "covers": [
+      "Doubs",
+      "Jura",
+      "Haute-Saône",
+      "Territoire de Belfort"
+    ]
+  },
+  "French Guiana": {
+    "id": "http://www.wikidata.org/entity/Q3769",
+    "covers": [
+      "Guyane française"
+    ]
+  },
+  "Guadeloupe": {
+    "id": "http://www.wikidata.org/entity/Q17012",
+    "covers": [
+      "Guadeloupe"
+    ]
+  },
+  "Île-de-France": {
+    "id": "http://www.wikidata.org/entity/Q13917",
+    "covers": [
+      "Paris",
+      "Essonne",
+      "Hauts-de-Seine",
+      "Seine-Saint-Denis",
+      "Seien-et-Marne",
+      "Val-de-Marne",
+      "Val-d'Oise",
+      "Yvelines"
+    ]
+  },
+  "Languedoc-Roussillon": {
+    "id": "http://www.wikidata.org/entity/Q17005",
+    "covers": [
+      "Aude",
+      "Gard",
+      "Hérault",
+      "Lozère",
+      "Pyrénées-Orientales"
+    ]
+  },
+  "Limousin": {
+    "id": "http://www.wikidata.org/entity/Q1190",
+    "covers": [
+      "Corrèze",
+      "Creuse",
+      "Haute-Vienne"
+    ]
+  },
+  "Lorraine": {
+    "id": "http://www.wikidata.org/entity/Q22248793",
+    "covers": [
+      "Meurthe-et-Moselle",
+      "Meuse",
+      "Moselle",
+      "Vosges"
+    ]
+  },
+  "Lower Normandy": {
+    "id": "http://www.wikidata.org/entity/Q16954",
+    "covers": [
+      "Calvados",
+      "Manche",
+      "Orne"
+    ]
+  },
+  "Martinique": {
+    "id": "http://www.wikidata.org/entity/Q17054",
+    "covers": [
+      "Martinique"
+    ]
+  },
+  "Mayotte": {
+    "id": "http://www.wikidata.org/entity/Q17063",
+    "covers": [
+      "Mayotte"
+    ]
+  },
+  "Midi-Pyrénées": {
+    "id": "http://www.wikidata.org/entity/Q16393",
+    "covers": [
+      "Ariège",
+      "Aveyron",
+      "Haute-Garonne",
+      "Gers",
+      "Lot",
+      "Hautes-Pyrénées",
+      "Tarn",
+      "Tarn-et-Garonne"
+    ]
+  },
+  "Nord-Pas-de-Calais": {
+    "id": "http://www.wikidata.org/entity/Q16987",
+    "covers": [
+      "Nord",
+      "Pas-de-Calais"
+    ]
+  },
+  "Pays de la Loire": {
+    "id": "http://www.wikidata.org/entity/Q16994",
+    "covers": [
+      "Loire-Atlantique",
+      "Maine-et-Loire",
+      "Mayenne",
+      "Sarthe",
+      "Vendée"
+    ]
+  },
+  "Picardy": {
+    "id": "http://www.wikidata.org/entity/Q13950",
+    "covers": [
+      "Aisne",
+      "Oise",
+      "Somme"
+    ]
+  },
+  "Poitou-Charentes": {
+    "id": "http://www.wikidata.org/entity/Q17009",
+    "covers": [
+      "Charente",
+      "Charente-Maritime",
+      "Deux-Sèvres",
+      "Vienne"
+    ]
+  },
+  "Provence-Alpes-Côte d'Azur": {
+    "id": "http://www.wikidata.org/entity/Q15104",
+    "covers": [
+      "Alpes-de-Haute-Provence",
+      "Alpes-Maritimes",
+      "Bouches-du-Rhône",
+      "Hautes-Alpes",
+      "Var",
+      "Vaucluse"
+    ]
+  },
+  "Réunion": {
+    "id": "http://www.wikidata.org/entity/Q17070",
+    "covers": [
+      "La Réunion"
+    ]
+  },
+  "Rhône-Alpes": {
+    "id": "http://www.wikidata.org/entity/Q463",
+    "covers": [
+      "Ain",
+      "Ardèche",
+      "Drôme",
+      "Isère",
+      "Loire",
+      "Rhône",
+      "Savoie",
+      "Haute-Savoie"
+    ]
+  },
+  "Upper Normandy": {
+    "id": "http://www.wikidata.org/entity/Q16961",
+    "covers": [
+      "Seine-Maritime",
+      "Eure"
+    ]
+  }
+}
