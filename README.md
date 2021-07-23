@@ -35,11 +35,17 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Indian states and union territories gazetteer**<br>
   https://data.perio.do/graphs/places/indian-states.json
 
+* **Kuwaiti governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/kuwaiti-governorates.json
+
 * **Laotian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/laotian-provinces.json
 
 * **Russian federal subjects gazetteer**<br>
   https://data.perio.do/graphs/places/russian-federal-subjects.json
+
+* **Saudi Arabian provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/saudi-arabian-provinces.json
 
 * **Spanish autonomous communities gazetteer**<br>
   https://data.perio.do/graphs/places/spanish-communities.json
