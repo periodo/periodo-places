@@ -47,6 +47,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Laotian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/laotian-provinces.json
 
+* **Libyan districts gazetteer**<br>
+  https://data.perio.do/graphs/places/libyan-districts.json
+
 * **Russian federal subjects gazetteer**<br>
   https://data.perio.do/graphs/places/russian-federal-subjects.json
 
@@ -214,6 +217,15 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 1. querying Wikidata for instances of [Q15673297 province of Laos](https://www.wikidata.org/wiki/Q15673297) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the province of Xaisomboun (recently established as a province, having been a special administrative zone) is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
+
+
+### Libyan districts gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/libyan-districts.json](place-ids/libyan-districts.json) for details), and
+
+1. querying Wikidata for instances of [Q48242 district of Libya](https://www.wikidata.org/wiki/Q48242) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Russian federal subjects gazetteer

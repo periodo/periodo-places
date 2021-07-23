@@ -12,6 +12,7 @@ GAZETTEERS := \
 	gazetteers/italian-regions.json \
 	gazetteers/kuwaiti-governorates.json \
 	gazetteers/laotian-provinces.json \
+	gazetteers/libyan-districts.json \
 	gazetteers/other-regions.json \
 	gazetteers/russian-federal-subjects.json \
 	gazetteers/saudi-arabian-provinces.json \

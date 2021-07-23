@@ -1,0 +1,2386 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  19.169817,
+                  27.012873
+                ],
+                [
+                  18.499264,
+                  28.502085
+                ],
+                [
+                  18.499884,
+                  28.87599
+                ],
+                [
+                  18.51363,
+                  29.164706
+                ],
+                [
+                  18.780528,
+                  30.375922
+                ],
+                [
+                  20.132859,
+                  31.260702
+                ],
+                [
+                  20.189187,
+                  31.262821
+                ],
+                [
+                  22.258931,
+                  31.145154
+                ],
+                [
+                  23.057022,
+                  30.769957
+                ],
+                [
+                  24.981245,
+                  28.096701
+                ],
+                [
+                  24.981245,
+                  27.049239
+                ],
+                [
+                  24.630879,
+                  27.041347
+                ],
+                [
+                  24.261806,
+                  27.033053
+                ],
+                [
+                  23.091852,
+                  27.014682
+                ],
+                [
+                  21.922828,
+                  27.007628
+                ],
+                [
+                  19.169817,
+                  27.012873
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26000",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Wahat District"
+        }
+      ],
+      "properties": {
+        "title": "Al Wahat District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  19.920665,
+                  31.717719
+                ],
+                [
+                  19.917247,
+                  31.759223
+                ],
+                [
+                  19.919688,
+                  31.804674
+                ],
+                [
+                  19.940115,
+                  31.95775
+                ],
+                [
+                  19.944591,
+                  31.967515
+                ],
+                [
+                  20.048025,
+                  32.146064
+                ],
+                [
+                  20.071544,
+                  32.176418
+                ],
+                [
+                  20.32545,
+                  32.409817
+                ],
+                [
+                  20.562673,
+                  32.557847
+                ],
+                [
+                  20.576033,
+                  32.562712
+                ],
+                [
+                  21.215377,
+                  31.541047
+                ],
+                [
+                  21.288861,
+                  31.276257
+                ],
+                [
+                  21.31904,
+                  31.035057
+                ],
+                [
+                  20.59371,
+                  31.006997
+                ],
+                [
+                  20.523533,
+                  31.025393
+                ],
+                [
+                  20.141648,
+                  31.223858
+                ],
+                [
+                  20.128103,
+                  31.242987
+                ],
+                [
+                  20.022227,
+                  31.396796
+                ],
+                [
+                  19.954845,
+                  31.559475
+                ],
+                [
+                  19.920665,
+                  31.717719
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q33507",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Benghazi district"
+        }
+      ],
+      "properties": {
+        "title": "Benghazi district"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district in Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  23.062086,
+                  28.139265
+                ],
+                [
+                  22.955633,
+                  31.080661
+                ],
+                [
+                  22.956563,
+                  31.233339
+                ],
+                [
+                  22.985398,
+                  31.403639
+                ],
+                [
+                  23.118414,
+                  31.848005
+                ],
+                [
+                  23.168746,
+                  32.003473
+                ],
+                [
+                  23.251356,
+                  32.216726
+                ],
+                [
+                  23.299083,
+                  32.224189
+                ],
+                [
+                  23.669688,
+                  32.183254
+                ],
+                [
+                  24.733735,
+                  32.033149
+                ],
+                [
+                  24.9817,
+                  31.967922
+                ],
+                [
+                  25.017914,
+                  31.949042
+                ],
+                [
+                  25.156261,
+                  31.663072
+                ],
+                [
+                  24.981245,
+                  28.096701
+                ],
+                [
+                  23.062086,
+                  28.139265
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q25931",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Butnan District"
+        }
+      ],
+      "properties": {
+        "title": "Butnan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  22.11248,
+                  31.119884
+                ],
+                [
+                  21.917763,
+                  31.282019
+                ],
+                [
+                  21.969336,
+                  32.756399
+                ],
+                [
+                  21.979982,
+                  32.901145
+                ],
+                [
+                  21.986179,
+                  32.913095
+                ],
+                [
+                  22.11671,
+                  32.944159
+                ],
+                [
+                  22.138845,
+                  32.947577
+                ],
+                [
+                  22.149587,
+                  32.947943
+                ],
+                [
+                  22.161388,
+                  32.944159
+                ],
+                [
+                  23.086436,
+                  32.64647
+                ],
+                [
+                  23.10613,
+                  32.639838
+                ],
+                [
+                  23.118663,
+                  32.62934
+                ],
+                [
+                  23.251356,
+                  32.216726
+                ],
+                [
+                  22.968862,
+                  30.799361
+                ],
+                [
+                  22.888763,
+                  30.793004
+                ],
+                [
+                  22.789855,
+                  30.791558
+                ],
+                [
+                  22.619219,
+                  30.829023
+                ],
+                [
+                  22.11248,
+                  31.119884
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26124",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Derna District"
+        }
+      ],
+      "properties": {
+        "title": "Derna District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  9.401162,
+                  26.113394
+                ],
+                [
+                  9.377804,
+                  26.168946
+                ],
+                [
+                  9.793903,
+                  27.569739
+                ],
+                [
+                  9.931274,
+                  27.818642
+                ],
+                [
+                  10.89177,
+                  27.531498
+                ],
+                [
+                  11.020237,
+                  27.48933
+                ],
+                [
+                  11.106847,
+                  27.436233
+                ],
+                [
+                  11.164001,
+                  27.325878
+                ],
+                [
+                  11.358925,
+                  26.357668
+                ],
+                [
+                  11.374738,
+                  26.21747
+                ],
+                [
+                  11.480984,
+                  24.463003
+                ],
+                [
+                  11.46724,
+                  24.326339
+                ],
+                [
+                  10.410506,
+                  24.473288
+                ],
+                [
+                  10.391799,
+                  24.47998
+                ],
+                [
+                  10.260335,
+                  24.576641
+                ],
+                [
+                  10.242248,
+                  24.595115
+                ],
+                [
+                  10.044534,
+                  24.829622
+                ],
+                [
+                  9.401162,
+                  26.113394
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48236",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ghat District"
+        }
+      ],
+      "properties": {
+        "title": "Ghat District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  21.334853,
+                  32.428822
+                ],
+                [
+                  21.331856,
+                  32.511711
+                ],
+                [
+                  21.357044,
+                  32.780337
+                ],
+                [
+                  21.608653,
+                  32.930732
+                ],
+                [
+                  21.62322,
+                  32.936754
+                ],
+                [
+                  21.716319,
+                  32.950385
+                ],
+                [
+                  21.986179,
+                  32.913095
+                ],
+                [
+                  22.02494,
+                  32.626407
+                ],
+                [
+                  22.033208,
+                  32.552613
+                ],
+                [
+                  22.11248,
+                  31.119884
+                ],
+                [
+                  21.717155,
+                  31.065623
+                ],
+                [
+                  21.334853,
+                  32.428822
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q32841",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jabal al Akhdar"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jebel el-Akhdar"
+        }
+      ],
+      "properties": {
+        "title": "Jabal al Akhdar"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16966004",
+          "label": "shabiyah"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.619684,
+                  30.032741
+                ],
+                [
+                  11.589918,
+                  30.542425
+                ],
+                [
+                  11.862666,
+                  32.307563
+                ],
+                [
+                  13.250799,
+                  32.317382
+                ],
+                [
+                  13.300201,
+                  32.270434
+                ],
+                [
+                  13.363247,
+                  32.201626
+                ],
+                [
+                  14.950127,
+                  30.409204
+                ],
+                [
+                  14.970797,
+                  30.258412
+                ],
+                [
+                  14.982373,
+                  30.131805
+                ],
+                [
+                  14.979686,
+                  30.017109
+                ],
+                [
+                  14.752413,
+                  29.405337
+                ],
+                [
+                  14.712002,
+                  29.355728
+                ],
+                [
+                  14.506639,
+                  29.231963
+                ],
+                [
+                  12.688456,
+                  28.430306
+                ],
+                [
+                  12.58903,
+                  28.426973
+                ],
+                [
+                  11.95186,
+                  28.595051
+                ],
+                [
+                  11.729341,
+                  29.08701
+                ],
+                [
+                  11.619684,
+                  30.032741
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q25632",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jabal al Gharbi District"
+        }
+      ],
+      "properties": {
+        "title": "Jabal al Gharbi District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.050398,
+                  32.279477
+                ],
+                [
+                  12.819611,
+                  32.260202
+                ],
+                [
+                  12.823331,
+                  32.406989
+                ],
+                [
+                  12.897745,
+                  32.560209
+                ],
+                [
+                  12.925547,
+                  32.602506
+                ],
+                [
+                  12.969266,
+                  32.668962
+                ],
+                [
+                  13.076339,
+                  32.721207
+                ],
+                [
+                  13.163156,
+                  32.649222
+                ],
+                [
+                  13.250799,
+                  32.317382
+                ],
+                [
+                  13.155094,
+                  32.293016
+                ],
+                [
+                  13.050398,
+                  32.279477
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q329060",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Jfara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jafara"
+        }
+      ],
+      "properties": {
+        "title": "Jafara"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Lybian district"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  14.42251,
+                  28.878496
+                ],
+                [
+                  14.408144,
+                  28.988102
+                ],
+                [
+                  14.419823,
+                  29.209096
+                ],
+                [
+                  14.763058,
+                  29.737487
+                ],
+                [
+                  14.854215,
+                  29.86195
+                ],
+                [
+                  17.580147,
+                  29.394563
+                ],
+                [
+                  19.172194,
+                  28.347417
+                ],
+                [
+                  19.168991,
+                  26.508305
+                ],
+                [
+                  19.16806,
+                  26.003762
+                ],
+                [
+                  17.409821,
+                  26.052286
+                ],
+                [
+                  16.940496,
+                  26.163416
+                ],
+                [
+                  16.727589,
+                  26.326197
+                ],
+                [
+                  16.620722,
+                  26.425777
+                ],
+                [
+                  15.017616,
+                  28.144846
+                ],
+                [
+                  14.527,
+                  28.719488
+                ],
+                [
+                  14.469226,
+                  28.798888
+                ],
+                [
+                  14.42251,
+                  28.878496
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48247",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jofra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jufra"
+        }
+      ],
+      "properties": {
+        "title": "Jufra"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  19.185837,
+                  21.864177
+                ],
+                [
+                  19.16806,
+                  26.003762
+                ],
+                [
+                  19.169817,
+                  27.012873
+                ],
+                [
+                  24.981245,
+                  27.049239
+                ],
+                [
+                  24.981245,
+                  21.870811
+                ],
+                [
+                  24.981141,
+                  21.372443
+                ],
+                [
+                  24.980831,
+                  20.500352
+                ],
+                [
+                  24.980521,
+                  20.002062
+                ],
+                [
+                  24.979591,
+                  20.000512
+                ],
+                [
+                  24.977731,
+                  19.997463
+                ],
+                [
+                  24.976801,
+                  19.995964
+                ],
+                [
+                  23.981306,
+                  19.496124
+                ],
+                [
+                  21.634472,
+                  20.654968
+                ],
+                [
+                  20.893329,
+                  21.02094
+                ],
+                [
+                  19.534652,
+                  21.691855
+                ],
+                [
+                  19.185837,
+                  21.864177
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48200",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cufra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kofra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kufra District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kufra"
+        }
+      ],
+      "properties": {
+        "title": "Kufra District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division of northeastern Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  20.350417,
+                  31.928697
+                ],
+                [
+                  20.309283,
+                  32.035306
+                ],
+                [
+                  20.31104,
+                  32.109048
+                ],
+                [
+                  20.357238,
+                  32.21899
+                ],
+                [
+                  20.576033,
+                  32.562712
+                ],
+                [
+                  20.934093,
+                  32.722602
+                ],
+                [
+                  21.050955,
+                  32.772284
+                ],
+                [
+                  21.09669,
+                  32.781073
+                ],
+                [
+                  21.387356,
+                  32.780558
+                ],
+                [
+                  21.45805,
+                  32.697901
+                ],
+                [
+                  21.661758,
+                  31.906322
+                ],
+                [
+                  21.711781,
+                  31.281786
+                ],
+                [
+                  21.717155,
+                  31.065623
+                ],
+                [
+                  21.655247,
+                  31.043144
+                ],
+                [
+                  21.397485,
+                  31.032783
+                ],
+                [
+                  21.31904,
+                  31.035057
+                ],
+                [
+                  20.548545,
+                  31.579726
+                ],
+                [
+                  20.506273,
+                  31.63117
+                ],
+                [
+                  20.350417,
+                  31.928697
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26023",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Marj District"
+        }
+      ],
+      "properties": {
+        "title": "Marj District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.489854,
+                  31.813562
+                ],
+                [
+                  13.397663,
+                  32.050783
+                ],
+                [
+                  14.755825,
+                  32.449675
+                ],
+                [
+                  14.911143,
+                  32.443915
+                ],
+                [
+                  15.114757,
+                  32.412787
+                ],
+                [
+                  15.181977,
+                  32.395494
+                ],
+                [
+                  15.195974,
+                  32.389797
+                ],
+                [
+                  15.269705,
+                  32.328843
+                ],
+                [
+                  15.283051,
+                  32.317288
+                ],
+                [
+                  16.137378,
+                  31.261236
+                ],
+                [
+                  16.4659,
+                  29.920655
+                ],
+                [
+                  16.531219,
+                  29.632946
+                ],
+                [
+                  16.510135,
+                  29.530523
+                ],
+                [
+                  16.418564,
+                  29.4088
+                ],
+                [
+                  15.879682,
+                  29.37676
+                ],
+                [
+                  15.740569,
+                  29.393994
+                ],
+                [
+                  15.051929,
+                  29.70196
+                ],
+                [
+                  14.854215,
+                  29.86195
+                ],
+                [
+                  14.21167,
+                  30.721045
+                ],
+                [
+                  13.632378,
+                  31.508284
+                ],
+                [
+                  13.489854,
+                  31.813562
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q32845",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Misrata District"
+        }
+      ],
+      "properties": {
+        "title": "Misrata District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.397663,
+                  32.050783
+                ],
+                [
+                  13.236433,
+                  32.333737
+                ],
+                [
+                  13.451303,
+                  32.528609
+                ],
+                [
+                  13.954436,
+                  32.758236
+                ],
+                [
+                  14.175548,
+                  32.717678
+                ],
+                [
+                  14.185313,
+                  32.714504
+                ],
+                [
+                  14.755825,
+                  32.449675
+                ],
+                [
+                  14.758407,
+                  32.238523
+                ],
+                [
+                  14.754996,
+                  32.179354
+                ],
+                [
+                  14.666733,
+                  31.967765
+                ],
+                [
+                  14.601207,
+                  31.958825
+                ],
+                [
+                  14.470466,
+                  31.945596
+                ],
+                [
+                  13.397663,
+                  32.050783
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q209778",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Marqab"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Murgub"
+        },
+        {
+          "lang": "en",
+          "toponym": "Murqub"
+        },
+        {
+          "lang": "en",
+          "toponym": "al-Morqib"
+        }
+      ],
+      "properties": {
+        "title": "Murqub"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.334017,
+                  24.796781
+                ],
+                [
+                  11.33257,
+                  25.389329
+                ],
+                [
+                  11.399542,
+                  25.551438
+                ],
+                [
+                  11.594052,
+                  25.651975
+                ],
+                [
+                  14.82755,
+                  26.757902
+                ],
+                [
+                  14.974001,
+                  26.806943
+                ],
+                [
+                  15.099782,
+                  26.836864
+                ],
+                [
+                  15.277962,
+                  26.876706
+                ],
+                [
+                  16.279658,
+                  27.075169
+                ],
+                [
+                  18.204088,
+                  26.376452
+                ],
+                [
+                  19.125996,
+                  26.022288
+                ],
+                [
+                  19.16806,
+                  26.003762
+                ],
+                [
+                  19.170334,
+                  25.506609
+                ],
+                [
+                  19.18346,
+                  22.523845
+                ],
+                [
+                  19.18563,
+                  22.026692
+                ],
+                [
+                  19.185734,
+                  21.995118
+                ],
+                [
+                  19.185837,
+                  21.963543
+                ],
+                [
+                  19.185837,
+                  21.864177
+                ],
+                [
+                  14.216217,
+                  22.616295
+                ],
+                [
+                  11.968861,
+                  23.517351
+                ],
+                [
+                  11.46724,
+                  24.326339
+                ],
+                [
+                  11.334017,
+                  24.796781
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48239",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Murzuq District"
+        }
+      ],
+      "properties": {
+        "title": "Murzuq District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the districts of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  9.827276,
+                  28.618647
+                ],
+                [
+                  9.286544,
+                  30.117129
+                ],
+                [
+                  10.116881,
+                  31.494409
+                ],
+                [
+                  10.13259,
+                  31.517561
+                ],
+                [
+                  10.263952,
+                  31.680496
+                ],
+                [
+                  10.628477,
+                  31.974122
+                ],
+                [
+                  10.873217,
+                  32.136696
+                ],
+                [
+                  11.526085,
+                  32.417863
+                ],
+                [
+                  11.862666,
+                  32.307563
+                ],
+                [
+                  11.963022,
+                  31.080894
+                ],
+                [
+                  11.95186,
+                  28.595051
+                ],
+                [
+                  11.950103,
+                  28.592157
+                ],
+                [
+                  11.93181,
+                  28.569471
+                ],
+                [
+                  11.89791,
+                  28.529008
+                ],
+                [
+                  11.323888,
+                  28.544899
+                ],
+                [
+                  9.827276,
+                  28.618647
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q27659",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nalut District"
+        }
+      ],
+      "properties": {
+        "title": "Nalut District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.449926,
+                  32.637957
+                ],
+                [
+                  11.449203,
+                  32.693018
+                ],
+                [
+                  11.456541,
+                  32.902101
+                ],
+                [
+                  11.474937,
+                  33.025841
+                ],
+                [
+                  11.477418,
+                  33.041214
+                ],
+                [
+                  11.505112,
+                  33.181225
+                ],
+                [
+                  11.52589,
+                  33.176947
+                ],
+                [
+                  11.691091,
+                  33.135972
+                ],
+                [
+                  11.847016,
+                  33.082831
+                ],
+                [
+                  12.573216,
+                  32.812568
+                ],
+                [
+                  12.501387,
+                  32.657077
+                ],
+                [
+                  12.462113,
+                  32.600801
+                ],
+                [
+                  12.286413,
+                  32.474194
+                ],
+                [
+                  12.097588,
+                  32.354408
+                ],
+                [
+                  11.862666,
+                  32.307563
+                ],
+                [
+                  11.700713,
+                  32.305729
+                ],
+                [
+                  11.643145,
+                  32.322446
+                ],
+                [
+                  11.526085,
+                  32.417863
+                ],
+                [
+                  11.449926,
+                  32.637957
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26161",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nuqat al Khams"
+        }
+      ],
+      "properties": {
+        "title": "Nuqat al Khams"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.934375,
+                  26.246874
+                ],
+                [
+                  13.932308,
+                  26.348159
+                ],
+                [
+                  13.983157,
+                  27.128913
+                ],
+                [
+                  14.921291,
+                  27.573795
+                ],
+                [
+                  15.068466,
+                  27.632009
+                ],
+                [
+                  15.564146,
+                  27.741149
+                ],
+                [
+                  15.795863,
+                  27.721202
+                ],
+                [
+                  16.257954,
+                  27.151728
+                ],
+                [
+                  16.280691,
+                  27.083463
+                ],
+                [
+                  16.279658,
+                  27.075169
+                ],
+                [
+                  14.24743,
+                  26.307387
+                ],
+                [
+                  14.133019,
+                  26.267699
+                ],
+                [
+                  13.934478,
+                  26.245013
+                ],
+                [
+                  13.934375,
+                  26.246874
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26132",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sabha District"
+        }
+      ],
+      "properties": {
+        "title": "Sabha District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  16.115637,
+                  31.049268
+                ],
+                [
+                  16.114603,
+                  31.215769
+                ],
+                [
+                  16.13207,
+                  31.251194
+                ],
+                [
+                  16.137341,
+                  31.261167
+                ],
+                [
+                  16.137378,
+                  31.261236
+                ],
+                [
+                  16.728038,
+                  31.223822
+                ],
+                [
+                  16.941905,
+                  31.183295
+                ],
+                [
+                  17.365896,
+                  31.086615
+                ],
+                [
+                  17.848643,
+                  30.923651
+                ],
+                [
+                  18.175304,
+                  30.786078
+                ],
+                [
+                  18.208344,
+                  30.769232
+                ],
+                [
+                  18.780528,
+                  30.375922
+                ],
+                [
+                  18.733151,
+                  29.666019
+                ],
+                [
+                  18.499264,
+                  28.484618
+                ],
+                [
+                  18.225482,
+                  28.555337
+                ],
+                [
+                  16.418564,
+                  29.4088
+                ],
+                [
+                  16.115637,
+                  31.049268
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26417",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sirte District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Surt"
+        }
+      ],
+      "properties": {
+        "title": "Sirte District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  13.187547,
+                  32.389806
+                ],
+                [
+                  13.076339,
+                  32.721207
+                ],
+                [
+                  13.103204,
+                  32.877419
+                ],
+                [
+                  13.147716,
+                  32.903998
+                ],
+                [
+                  13.164724,
+                  32.912746
+                ],
+                [
+                  13.187755,
+                  32.916246
+                ],
+                [
+                  13.257091,
+                  32.918647
+                ],
+                [
+                  13.351736,
+                  32.904242
+                ],
+                [
+                  13.830333,
+                  32.794094
+                ],
+                [
+                  13.915294,
+                  32.772773
+                ],
+                [
+                  13.954436,
+                  32.758236
+                ],
+                [
+                  13.808904,
+                  32.620852
+                ],
+                [
+                  13.384847,
+                  32.383166
+                ],
+                [
+                  13.350328,
+                  32.363916
+                ],
+                [
+                  13.236433,
+                  32.333737
+                ],
+                [
+                  13.187547,
+                  32.389806
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q32837",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tripoli District"
+        }
+      ],
+      "properties": {
+        "title": "Tripoli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16966004",
+          "label": "shabiyah"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.334643,
+                  25.637703
+                ],
+                [
+                  11.303666,
+                  25.749218
+                ],
+                [
+                  11.316057,
+                  25.941271
+                ],
+                [
+                  11.374738,
+                  26.21747
+                ],
+                [
+                  12.773722,
+                  27.1131
+                ],
+                [
+                  13.012364,
+                  27.250352
+                ],
+                [
+                  13.190544,
+                  27.292185
+                ],
+                [
+                  13.349397,
+                  27.267845
+                ],
+                [
+                  13.983157,
+                  27.128913
+                ],
+                [
+                  14.022431,
+                  27.090388
+                ],
+                [
+                  14.134672,
+                  26.727206
+                ],
+                [
+                  14.146248,
+                  26.671189
+                ],
+                [
+                  13.934375,
+                  26.246874
+                ],
+                [
+                  13.205427,
+                  25.876767
+                ],
+                [
+                  12.159909,
+                  25.575907
+                ],
+                [
+                  12.045601,
+                  25.563039
+                ],
+                [
+                  11.858429,
+                  25.547795
+                ],
+                [
+                  11.399542,
+                  25.551438
+                ],
+                [
+                  11.334643,
+                  25.637703
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48233",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wadi al Hayaa District"
+        }
+      ],
+      "properties": {
+        "title": "Wadi al Hayaa District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  9.789872,
+                  28.209442
+                ],
+                [
+                  9.776953,
+                  28.267578
+                ],
+                [
+                  9.827276,
+                  28.618647
+                ],
+                [
+                  9.922837,
+                  28.657295
+                ],
+                [
+                  10.001591,
+                  28.680937
+                ],
+                [
+                  10.091508,
+                  28.705122
+                ],
+                [
+                  10.137914,
+                  28.717266
+                ],
+                [
+                  13.9105,
+                  29.56755
+                ],
+                [
+                  13.992046,
+                  29.55246
+                ],
+                [
+                  14.181801,
+                  29.466574
+                ],
+                [
+                  14.287015,
+                  29.400609
+                ],
+                [
+                  15.792142,
+                  28.15637
+                ],
+                [
+                  15.878855,
+                  28.079191
+                ],
+                [
+                  15.894048,
+                  27.996276
+                ],
+                [
+                  15.870691,
+                  27.915351
+                ],
+                [
+                  15.795863,
+                  27.721202
+                ],
+                [
+                  14.421167,
+                  27.172709
+                ],
+                [
+                  11.374738,
+                  26.21747
+                ],
+                [
+                  9.931274,
+                  27.818642
+                ],
+                [
+                  9.789872,
+                  28.209442
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q48232",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wadi al Shatii District"
+        }
+      ],
+      "properties": {
+        "title": "Wadi al Shatii District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "in Libya"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  12.648975,
+                  32.232607
+                ],
+                [
+                  11.862666,
+                  32.307563
+                ],
+                [
+                  12.573216,
+                  32.812568
+                ],
+                [
+                  13.103204,
+                  32.877419
+                ],
+                [
+                  13.103211,
+                  32.877348
+                ],
+                [
+                  13.103831,
+                  32.870655
+                ],
+                [
+                  13.110962,
+                  32.782961
+                ],
+                [
+                  12.819611,
+                  32.260202
+                ],
+                [
+                  12.648975,
+                  32.232607
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q26153",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zawiya District"
+        }
+      ],
+      "properties": {
+        "title": "Zawiya District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48242",
+          "label": "district of Libya"
+        }
+      ]
+    }
+  ],
+  "title": "Libyan districts",
+  "type": "FeatureCollection"
+}

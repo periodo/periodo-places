@@ -1,0 +1,90 @@
+{
+  "Al Wahat District": {
+    "id": "http://www.wikidata.org/entity/Q26000",
+    "covers": [ "Ajdabiya" ]
+  },
+  "Benghazi district": {
+    "id": "http://www.wikidata.org/entity/Q33507",
+    "covers": [ "Benghazi" ]
+  },
+  "Butnan District": {
+    "id": "http://www.wikidata.org/entity/Q25931",
+    "covers": [ "Al Butnan" ]
+  },
+  "Derna District": {
+    "id": "http://www.wikidata.org/entity/Q26124",
+    "covers": [ "Al Qubbah" ]
+  },
+  "Ghat District": {
+    "id": "http://www.wikidata.org/entity/Q48236",
+    "covers": [ "Ghat" ]
+  },
+  "Jabal al Akhdar": {
+    "id": "http://www.wikidata.org/entity/Q32841",
+    "covers": [ "Al Jabal al Akhdar" ]
+  },
+  "Jabal al Gharbi District": {
+    "id": "http://www.wikidata.org/entity/Q25632",
+    "covers": [ "Mizdah" ]
+  },
+  "Jafara": {
+    "id": "http://www.wikidata.org/entity/Q329060",
+    "covers": [ "Al Jifarah" ]
+  },
+  "Jufra": {
+    "id": "http://www.wikidata.org/entity/Q48247",
+    "covers": [ "Al Jufrah" ]
+  },
+  "Kufra District": {
+    "id": "http://www.wikidata.org/entity/Q48200",
+    "covers": [ "Al Kufrah" ]
+  },
+  "Marj District": {
+    "id": "http://www.wikidata.org/entity/Q26023",
+    "covers": [ "Al Marj" ]
+  },
+  "Misrata District": {
+    "id": "http://www.wikidata.org/entity/Q32845",
+    "covers": [ "Misratah" ]
+  },
+  "Murqub": {
+    "id": "http://www.wikidata.org/entity/Q209778",
+    "covers": [ "Al Marqab" ]
+  },
+  "Murzuq District": {
+    "id": "http://www.wikidata.org/entity/Q48239",
+    "covers": [ "Murzuq" ]
+  },
+  "Nalut District": {
+    "id": "http://www.wikidata.org/entity/Q27659",
+    "covers": [ "Ghadamis" ]
+  },
+  "Nuqat al Khams": {
+    "id": "http://www.wikidata.org/entity/Q26161",
+    "covers": [ "An Nuqat al Khams" ]
+  },
+  "Sabha District": {
+    "id": "http://www.wikidata.org/entity/Q26132",
+    "covers": [ "Sabha" ]
+  },
+  "Sirte District": {
+    "id": "http://www.wikidata.org/entity/Q26417",
+    "covers": [ "Surt" ]
+  },
+  "Tripoli District": {
+    "id": "http://www.wikidata.org/entity/Q32837",
+    "covers": [ "Tajura' wa an Nawahi al Arba" ]
+  },
+  "Wadi al Hayaa District": {
+    "id": "http://www.wikidata.org/entity/Q48233",
+    "covers": [ "Wadi al Hayaa" ]
+  },
+  "Wadi al Shatii District": {
+    "id": "http://www.wikidata.org/entity/Q48232",
+    "covers": [ "Ash Shati'" ]
+  },
+  "Zawiya District": {
+    "id": "http://www.wikidata.org/entity/Q26153",
+    "covers": [ "Az Zawiyah" ]
+  }
+}
