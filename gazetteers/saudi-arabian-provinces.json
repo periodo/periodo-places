@@ -1,0 +1,2261 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.389288,
+                  18.878874
+                ],
+                [
+                  41.383707,
+                  18.920422
+                ],
+                [
+                  41.390528,
+                  19.153405
+                ],
+                [
+                  41.393939,
+                  19.171182
+                ],
+                [
+                  42.032039,
+                  20.624865
+                ],
+                [
+                  43.667547,
+                  20.976239
+                ],
+                [
+                  43.813688,
+                  20.853508
+                ],
+                [
+                  43.868775,
+                  20.793072
+                ],
+                [
+                  44.042718,
+                  20.584713
+                ],
+                [
+                  44.055947,
+                  20.560657
+                ],
+                [
+                  44.516797,
+                  19.512634
+                ],
+                [
+                  44.516952,
+                  19.386905
+                ],
+                [
+                  44.513077,
+                  19.354426
+                ],
+                [
+                  44.38895,
+                  18.897374
+                ],
+                [
+                  44.379131,
+                  18.872776
+                ],
+                [
+                  43.638446,
+                  17.43851
+                ],
+                [
+                  43.341985,
+                  17.48245
+                ],
+                [
+                  42.629109,
+                  17.660757
+                ],
+                [
+                  42.606475,
+                  17.669309
+                ],
+                [
+                  41.943259,
+                  18.050061
+                ],
+                [
+                  41.926671,
+                  18.064686
+                ],
+                [
+                  41.414609,
+                  18.817818
+                ],
+                [
+                  41.402931,
+                  18.837507
+                ],
+                [
+                  41.394869,
+                  18.858177
+                ],
+                [
+                  41.389288,
+                  18.878874
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q779855",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "'Asir Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "'Asir Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aseer Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aseer"
+        }
+      ],
+      "properties": {
+        "title": "'Asir Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "geographic region"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  40.969107,
+                  19.579632
+                ],
+                [
+                  40.79904,
+                  20.064925
+                ],
+                [
+                  40.801985,
+                  20.084097
+                ],
+                [
+                  41.249658,
+                  20.721009
+                ],
+                [
+                  41.265316,
+                  20.737391
+                ],
+                [
+                  41.28516,
+                  20.751964
+                ],
+                [
+                  41.306761,
+                  20.760361
+                ],
+                [
+                  41.33079,
+                  20.762867
+                ],
+                [
+                  41.931632,
+                  20.680857
+                ],
+                [
+                  41.956437,
+                  20.677265
+                ],
+                [
+                  41.975867,
+                  20.670651
+                ],
+                [
+                  42.032039,
+                  20.624865
+                ],
+                [
+                  42.0339,
+                  20.349973
+                ],
+                [
+                  42.027337,
+                  20.325116
+                ],
+                [
+                  41.698726,
+                  19.797061
+                ],
+                [
+                  41.348619,
+                  19.398506
+                ],
+                [
+                  41.33017,
+                  19.383649
+                ],
+                [
+                  41.309861,
+                  19.374141
+                ],
+                [
+                  41.288416,
+                  19.36781
+                ],
+                [
+                  41.265781,
+                  19.36471
+                ],
+                [
+                  41.242372,
+                  19.364942
+                ],
+                [
+                  41.21581,
+                  19.370032
+                ],
+                [
+                  41.191936,
+                  19.380652
+                ],
+                [
+                  41.17049,
+                  19.396904
+                ],
+                [
+                  40.995307,
+                  19.544854
+                ],
+                [
+                  40.979959,
+                  19.560098
+                ],
+                [
+                  40.969107,
+                  19.579632
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q852774",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Baaha Province Emirate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Baaha Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Baha Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Bahah Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bahah (province)"
+        }
+      ],
+      "properties": {
+        "title": "Al-Baha Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.842781,
+                  28.884564
+                ],
+                [
+                  34.825369,
+                  28.894232
+                ],
+                [
+                  34.825369,
+                  28.900377
+                ],
+                [
+                  34.85255,
+                  29.045071
+                ],
+                [
+                  34.909353,
+                  29.230658
+                ],
+                [
+                  34.949385,
+                  29.351686
+                ],
+                [
+                  36.959532,
+                  31.490999
+                ],
+                [
+                  37.702742,
+                  31.681116
+                ],
+                [
+                  37.950479,
+                  31.744472
+                ],
+                [
+                  37.986522,
+                  31.753358
+                ],
+                [
+                  40.918826,
+                  30.723784
+                ],
+                [
+                  41.494346,
+                  30.52098
+                ],
+                [
+                  41.53145,
+                  30.500568
+                ],
+                [
+                  41.551759,
+                  30.482145
+                ],
+                [
+                  41.897629,
+                  30.121986
+                ],
+                [
+                  41.90476,
+                  30.102452
+                ],
+                [
+                  41.899799,
+                  30.08266
+                ],
+                [
+                  41.882746,
+                  30.061835
+                ],
+                [
+                  40.684525,
+                  28.939164
+                ],
+                [
+                  40.543603,
+                  28.816252
+                ],
+                [
+                  39.000131,
+                  28.167919
+                ],
+                [
+                  38.685732,
+                  28.136784
+                ],
+                [
+                  38.661858,
+                  28.139523
+                ],
+                [
+                  36.464576,
+                  28.562288
+                ],
+                [
+                  34.842781,
+                  28.884564
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1471266",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Jawf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Jowf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawf (province)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jowf (province)"
+        }
+      ],
+      "properties": {
+        "title": "Al-Jowf Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.649996,
+                  25.102137
+                ],
+                [
+                  41.409804,
+                  25.536504
+                ],
+                [
+                  42.195079,
+                  26.2423
+                ],
+                [
+                  42.535109,
+                  26.510501
+                ],
+                [
+                  42.798401,
+                  26.701807
+                ],
+                [
+                  43.342915,
+                  27.087882
+                ],
+                [
+                  43.417536,
+                  27.13129
+                ],
+                [
+                  43.796945,
+                  27.304613
+                ],
+                [
+                  43.845986,
+                  27.321563
+                ],
+                [
+                  43.869395,
+                  27.326343
+                ],
+                [
+                  43.892546,
+                  27.327893
+                ],
+                [
+                  43.915025,
+                  27.324922
+                ],
+                [
+                  44.627592,
+                  27.22237
+                ],
+                [
+                  44.69229,
+                  27.196764
+                ],
+                [
+                  44.737146,
+                  27.169479
+                ],
+                [
+                  44.778435,
+                  27.137801
+                ],
+                [
+                  44.798279,
+                  27.119017
+                ],
+                [
+                  44.815332,
+                  27.098501
+                ],
+                [
+                  44.828096,
+                  27.077004
+                ],
+                [
+                  44.837398,
+                  27.055584
+                ],
+                [
+                  44.843134,
+                  27.034913
+                ],
+                [
+                  44.845459,
+                  27.017059
+                ],
+                [
+                  44.845149,
+                  27.001479
+                ],
+                [
+                  44.844994,
+                  26.999334
+                ],
+                [
+                  44.73544,
+                  25.633371
+                ],
+                [
+                  44.730634,
+                  25.612365
+                ],
+                [
+                  44.723503,
+                  25.593916
+                ],
+                [
+                  44.712134,
+                  25.578542
+                ],
+                [
+                  43.073681,
+                  24.697485
+                ],
+                [
+                  43.050272,
+                  24.686866
+                ],
+                [
+                  43.029291,
+                  24.682008
+                ],
+                [
+                  42.096273,
+                  24.611521
+                ],
+                [
+                  42.008733,
+                  24.670794
+                ],
+                [
+                  41.992145,
+                  24.685444
+                ],
+                [
+                  41.669994,
+                  25.07462
+                ],
+                [
+                  41.649996,
+                  25.102137
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1105411",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Qassim Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Qaseem"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Qasim Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Qassim Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Qassim Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qassim Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qassim Region"
+        }
+      ],
+      "properties": {
+        "title": "Al-Qassim Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.942404,
+                  27.599737
+                ],
+                [
+                  44.938684,
+                  27.619529
+                ],
+                [
+                  44.93889,
+                  27.637926
+                ],
+                [
+                  44.941164,
+                  27.654178
+                ],
+                [
+                  44.948812,
+                  27.683375
+                ],
+                [
+                  44.974392,
+                  27.73978
+                ],
+                [
+                  44.995321,
+                  27.772982
+                ],
+                [
+                  45.564847,
+                  28.602311
+                ],
+                [
+                  45.62474,
+                  28.681531
+                ],
+                [
+                  45.702306,
+                  28.758348
+                ],
+                [
+                  45.801008,
+                  28.838163
+                ],
+                [
+                  45.940948,
+                  28.906298
+                ],
+                [
+                  46.427322,
+                  29.076143
+                ],
+                [
+                  46.488614,
+                  29.08758
+                ],
+                [
+                  46.532436,
+                  29.095745
+                ],
+                [
+                  46.755781,
+                  29.071534
+                ],
+                [
+                  46.867351,
+                  29.059416
+                ],
+                [
+                  46.97923,
+                  29.04722
+                ],
+                [
+                  47.078759,
+                  29.035748
+                ],
+                [
+                  47.377552,
+                  29.001202
+                ],
+                [
+                  47.433466,
+                  28.994717
+                ],
+                [
+                  47.433983,
+                  28.994614
+                ],
+                [
+                  47.434086,
+                  28.994588
+                ],
+                [
+                  48.432781,
+                  28.54048
+                ],
+                [
+                  48.49464,
+                  28.500149
+                ],
+                [
+                  55.186843,
+                  22.703577
+                ],
+                [
+                  55.250405,
+                  22.605495
+                ],
+                [
+                  55.412049,
+                  22.355691
+                ],
+                [
+                  55.573589,
+                  22.105939
+                ],
+                [
+                  55.626713,
+                  22.023773
+                ],
+                [
+                  55.637048,
+                  22.001914
+                ],
+                [
+                  55.637565,
+                  21.97897
+                ],
+                [
+                  55.59519,
+                  21.851019
+                ],
+                [
+                  55.570075,
+                  21.775416
+                ],
+                [
+                  55.357478,
+                  21.135559
+                ],
+                [
+                  55.035741,
+                  20.167556
+                ],
+                [
+                  54.97838,
+                  19.995421
+                ],
+                [
+                  47.428569,
+                  17.093104
+                ],
+                [
+                  44.942404,
+                  27.599737
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q953508",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Eastern Province, Saudi Arabia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Eastern Region"
+        }
+      ],
+      "properties": {
+        "title": "Eastern Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.755614,
+                  16.878387
+                ],
+                [
+                  41.593516,
+                  18.095893
+                ],
+                [
+                  41.597138,
+                  18.121127
+                ],
+                [
+                  41.615527,
+                  18.163181
+                ],
+                [
+                  41.625914,
+                  18.180389
+                ],
+                [
+                  41.641469,
+                  18.196848
+                ],
+                [
+                  41.770712,
+                  18.313999
+                ],
+                [
+                  41.883521,
+                  18.322448
+                ],
+                [
+                  41.92264,
+                  18.312061
+                ],
+                [
+                  42.925163,
+                  17.992726
+                ],
+                [
+                  43.241888,
+                  17.622956
+                ],
+                [
+                  43.259096,
+                  17.602543
+                ],
+                [
+                  43.341985,
+                  17.48245
+                ],
+                [
+                  43.212845,
+                  16.783886
+                ],
+                [
+                  43.186077,
+                  16.683272
+                ],
+                [
+                  43.179979,
+                  16.664617
+                ],
+                [
+                  43.036267,
+                  16.536304
+                ],
+                [
+                  42.898187,
+                  16.418896
+                ],
+                [
+                  42.872452,
+                  16.401636
+                ],
+                [
+                  42.837312,
+                  16.387218
+                ],
+                [
+                  42.78948,
+                  16.370958
+                ],
+                [
+                  42.155836,
+                  16.584977
+                ],
+                [
+                  41.955457,
+                  16.670115
+                ],
+                [
+                  41.894087,
+                  16.710394
+                ],
+                [
+                  41.867396,
+                  16.728569
+                ],
+                [
+                  41.843368,
+                  16.74672
+                ],
+                [
+                  41.778168,
+                  16.81269
+                ],
+                [
+                  41.755614,
+                  16.878387
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q269973",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jazan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jazan"
+        }
+      ],
+      "properties": {
+        "title": "Jazan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  38.646537,
+                  23.400726
+                ],
+                [
+                  38.643837,
+                  23.419474
+                ],
+                [
+                  41.792416,
+                  23.96399
+                ],
+                [
+                  41.855461,
+                  23.967323
+                ],
+                [
+                  41.986409,
+                  23.949314
+                ],
+                [
+                  43.470298,
+                  22.517463
+                ],
+                [
+                  43.485232,
+                  22.501831
+                ],
+                [
+                  43.486163,
+                  22.497723
+                ],
+                [
+                  43.667547,
+                  20.976239
+                ],
+                [
+                  41.752418,
+                  18.27475
+                ],
+                [
+                  41.740119,
+                  18.259609
+                ],
+                [
+                  41.722136,
+                  18.241678
+                ],
+                [
+                  41.597138,
+                  18.121127
+                ],
+                [
+                  41.493337,
+                  18.223944
+                ],
+                [
+                  39.646495,
+                  20.461575
+                ],
+                [
+                  39.29713,
+                  20.923977
+                ],
+                [
+                  39.174327,
+                  21.108873
+                ],
+                [
+                  39.08074,
+                  21.315009
+                ],
+                [
+                  38.931254,
+                  22.006073
+                ],
+                [
+                  38.646537,
+                  23.400726
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q234167",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Emirate Of Makkah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Emirate of Mecca Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Makkah Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Makkah Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Makkah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mecca Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mecca Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mecca"
+        }
+      ],
+      "properties": {
+        "title": "Mecca Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  37.382823,
+                  24.53957
+                ],
+                [
+                  36.77913,
+                  27.198573
+                ],
+                [
+                  36.785486,
+                  27.216194
+                ],
+                [
+                  36.80285,
+                  27.231439
+                ],
+                [
+                  36.82414,
+                  27.240663
+                ],
+                [
+                  37.195745,
+                  27.374505
+                ],
+                [
+                  37.218431,
+                  27.380784
+                ],
+                [
+                  37.749562,
+                  27.394375
+                ],
+                [
+                  37.768217,
+                  27.389517
+                ],
+                [
+                  39.742153,
+                  26.726896
+                ],
+                [
+                  39.764943,
+                  26.714494
+                ],
+                [
+                  41.629532,
+                  25.473613
+                ],
+                [
+                  41.64488,
+                  25.454338
+                ],
+                [
+                  42.096273,
+                  24.611521
+                ],
+                [
+                  42.096428,
+                  24.57664
+                ],
+                [
+                  41.986409,
+                  23.949314
+                ],
+                [
+                  41.44267,
+                  23.204527
+                ],
+                [
+                  41.423446,
+                  23.185407
+                ],
+                [
+                  40.664939,
+                  22.58627
+                ],
+                [
+                  40.64122,
+                  22.576168
+                ],
+                [
+                  40.214786,
+                  22.493253
+                ],
+                [
+                  40.192772,
+                  22.49116
+                ],
+                [
+                  40.169466,
+                  22.49116
+                ],
+                [
+                  40.104922,
+                  22.499816
+                ],
+                [
+                  40.100426,
+                  22.500901
+                ],
+                [
+                  40.080427,
+                  22.512735
+                ],
+                [
+                  38.643837,
+                  23.419474
+                ],
+                [
+                  37.52272,
+                  24.267732
+                ],
+                [
+                  37.500636,
+                  24.2887
+                ],
+                [
+                  37.429403,
+                  24.367307
+                ],
+                [
+                  37.417958,
+                  24.400966
+                ],
+                [
+                  37.382823,
+                  24.53957
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236027",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Madinah Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Madinah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Madinah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madinah Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Medina Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Medina State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Medina"
+        }
+      ],
+      "properties": {
+        "title": "Medina Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.638446,
+                  17.43851
+                ],
+                [
+                  43.638195,
+                  18.169072
+                ],
+                [
+                  43.63928,
+                  18.194161
+                ],
+                [
+                  43.648013,
+                  18.222092
+                ],
+                [
+                  43.668012,
+                  18.258266
+                ],
+                [
+                  44.516797,
+                  19.512634
+                ],
+                [
+                  47.745127,
+                  19.531263
+                ],
+                [
+                  47.428569,
+                  17.093104
+                ],
+                [
+                  47.427575,
+                  17.091826
+                ],
+                [
+                  47.190897,
+                  16.958914
+                ],
+                [
+                  47.161338,
+                  16.947442
+                ],
+                [
+                  47.128782,
+                  16.94305
+                ],
+                [
+                  46.997026,
+                  16.948514
+                ],
+                [
+                  46.983003,
+                  16.949096
+                ],
+                [
+                  43.915128,
+                  17.301839
+                ],
+                [
+                  43.903294,
+                  17.30432
+                ],
+                [
+                  43.750642,
+                  17.345661
+                ],
+                [
+                  43.730643,
+                  17.35243
+                ],
+                [
+                  43.689302,
+                  17.38385
+                ],
+                [
+                  43.638446,
+                  17.43851
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q464718",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Najran Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Najran Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Najran"
+        }
+      ],
+      "properties": {
+        "title": "Najran Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  37.867177,
+                  31.276463
+                ],
+                [
+                  37.861596,
+                  31.338398
+                ],
+                [
+                  37.866092,
+                  31.371936
+                ],
+                [
+                  37.986522,
+                  31.753358
+                ],
+                [
+                  39.136246,
+                  32.115353
+                ],
+                [
+                  39.154953,
+                  32.120573
+                ],
+                [
+                  39.157744,
+                  32.121348
+                ],
+                [
+                  39.355561,
+                  32.092564
+                ],
+                [
+                  40.029008,
+                  31.994482
+                ],
+                [
+                  40.37028,
+                  31.938465
+                ],
+                [
+                  40.424126,
+                  31.920533
+                ],
+                [
+                  46.427322,
+                  29.076143
+                ],
+                [
+                  44.948502,
+                  27.479873
+                ],
+                [
+                  44.927677,
+                  27.46835
+                ],
+                [
+                  44.901632,
+                  27.458195
+                ],
+                [
+                  44.878791,
+                  27.460546
+                ],
+                [
+                  40.657963,
+                  28.773903
+                ],
+                [
+                  40.543603,
+                  28.816252
+                ],
+                [
+                  38.147264,
+                  30.930128
+                ],
+                [
+                  38.12959,
+                  30.94868
+                ],
+                [
+                  37.899785,
+                  31.19714
+                ],
+                [
+                  37.883817,
+                  31.214581
+                ],
+                [
+                  37.876479,
+                  31.231091
+                ],
+                [
+                  37.873068,
+                  31.243959
+                ],
+                [
+                  37.867177,
+                  31.276463
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q201781",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Borders Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Borders Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Borders"
+        }
+      ],
+      "properties": {
+        "title": "Northern Borders Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.979278,
+                  23.791933
+                ],
+                [
+                  41.976177,
+                  23.854591
+                ],
+                [
+                  41.983309,
+                  24.041866
+                ],
+                [
+                  41.999897,
+                  24.390424
+                ],
+                [
+                  42.001292,
+                  24.405203
+                ],
+                [
+                  42.007028,
+                  24.4213
+                ],
+                [
+                  42.096273,
+                  24.611521
+                ],
+                [
+                  42.115187,
+                  24.649684
+                ],
+                [
+                  42.181591,
+                  24.741126
+                ],
+                [
+                  44.693531,
+                  27.464112
+                ],
+                [
+                  44.725363,
+                  27.490803
+                ],
+                [
+                  44.738541,
+                  27.499898
+                ],
+                [
+                  44.740711,
+                  27.500983
+                ],
+                [
+                  44.798899,
+                  27.520414
+                ],
+                [
+                  44.99005,
+                  27.532635
+                ],
+                [
+                  45.000179,
+                  27.527777
+                ],
+                [
+                  46.830248,
+                  26.623078
+                ],
+                [
+                  47.402978,
+                  26.282608
+                ],
+                [
+                  47.415432,
+                  26.274417
+                ],
+                [
+                  47.430005,
+                  26.261705
+                ],
+                [
+                  47.443027,
+                  26.243799
+                ],
+                [
+                  47.452484,
+                  26.225428
+                ],
+                [
+                  48.265302,
+                  24.071012
+                ],
+                [
+                  48.289642,
+                  23.999853
+                ],
+                [
+                  48.304576,
+                  23.878207
+                ],
+                [
+                  48.299099,
+                  23.654965
+                ],
+                [
+                  48.014207,
+                  21.500161
+                ],
+                [
+                  47.745127,
+                  19.531263
+                ],
+                [
+                  47.614954,
+                  19.496149
+                ],
+                [
+                  45.272617,
+                  19.256913
+                ],
+                [
+                  45.014286,
+                  19.273733
+                ],
+                [
+                  44.919925,
+                  19.295386
+                ],
+                [
+                  44.866543,
+                  19.314196
+                ],
+                [
+                  44.795023,
+                  19.347682
+                ],
+                [
+                  44.516797,
+                  19.512634
+                ],
+                [
+                  44.499434,
+                  19.524312
+                ],
+                [
+                  44.106383,
+                  19.866953
+                ],
+                [
+                  43.952439,
+                  20.082573
+                ],
+                [
+                  43.936781,
+                  20.106938
+                ],
+                [
+                  42.353053,
+                  23.000715
+                ],
+                [
+                  41.986564,
+                  23.771728
+                ],
+                [
+                  41.979278,
+                  23.791933
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1249255",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ar-Riyadh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Riyadh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Riyadh Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Riyadh"
+        }
+      ],
+      "properties": {
+        "title": "Riyadh Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.574392,
+                  28.094062
+                ],
+                [
+                  34.572765,
+                  28.112779
+                ],
+                [
+                  34.842781,
+                  28.884564
+                ],
+                [
+                  35.578842,
+                  28.963865
+                ],
+                [
+                  35.790043,
+                  28.984123
+                ],
+                [
+                  35.855207,
+                  28.984278
+                ],
+                [
+                  37.716386,
+                  28.867386
+                ],
+                [
+                  37.73809,
+                  28.863045
+                ],
+                [
+                  39.43442,
+                  28.042733
+                ],
+                [
+                  39.471989,
+                  28.02444
+                ],
+                [
+                  39.61105,
+                  27.933282
+                ],
+                [
+                  39.728459,
+                  27.847474
+                ],
+                [
+                  39.787474,
+                  27.795539
+                ],
+                [
+                  39.800651,
+                  27.774429
+                ],
+                [
+                  40.16559,
+                  27.187256
+                ],
+                [
+                  40.169931,
+                  27.166688
+                ],
+                [
+                  40.16652,
+                  27.145604
+                ],
+                [
+                  40.157529,
+                  27.125425
+                ],
+                [
+                  39.848297,
+                  26.68819
+                ],
+                [
+                  39.831192,
+                  26.666848
+                ],
+                [
+                  37.96681,
+                  24.813886
+                ],
+                [
+                  37.94371,
+                  24.796988
+                ],
+                [
+                  37.382823,
+                  24.53957
+                ],
+                [
+                  36.497732,
+                  25.623969
+                ],
+                [
+                  34.613048,
+                  28.030219
+                ],
+                [
+                  34.574392,
+                  28.094062
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1315953",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Emirate Of Tabouk Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Emirate Tabouk"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabouk Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabouk Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabuk Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabuk Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabuk Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tabuk"
+        }
+      ],
+      "properties": {
+        "title": "Tabuk Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  39.952838,
+                  25.394755
+                ],
+                [
+                  39.000131,
+                  28.167919
+                ],
+                [
+                  39.109375,
+                  28.273882
+                ],
+                [
+                  39.13201,
+                  28.289359
+                ],
+                [
+                  39.156349,
+                  28.302717
+                ],
+                [
+                  40.080427,
+                  28.690445
+                ],
+                [
+                  40.458905,
+                  28.827155
+                ],
+                [
+                  40.48092,
+                  28.8293
+                ],
+                [
+                  41.342417,
+                  28.875964
+                ],
+                [
+                  41.383397,
+                  28.874982
+                ],
+                [
+                  42.000982,
+                  28.830876
+                ],
+                [
+                  42.342356,
+                  28.760596
+                ],
+                [
+                  43.715503,
+                  28.415398
+                ],
+                [
+                  43.741703,
+                  28.406561
+                ],
+                [
+                  43.764802,
+                  28.390567
+                ],
+                [
+                  44.759005,
+                  27.576508
+                ],
+                [
+                  44.785256,
+                  27.54943
+                ],
+                [
+                  44.798899,
+                  27.520414
+                ],
+                [
+                  44.627592,
+                  27.22237
+                ],
+                [
+                  44.508581,
+                  27.093256
+                ],
+                [
+                  44.496023,
+                  27.083102
+                ],
+                [
+                  44.478298,
+                  27.073464
+                ],
+                [
+                  41.932097,
+                  25.712255
+                ],
+                [
+                  41.409804,
+                  25.536504
+                ],
+                [
+                  40.113759,
+                  25.316388
+                ],
+                [
+                  40.090349,
+                  25.31277
+                ],
+                [
+                  40.06725,
+                  25.31197
+                ],
+                [
+                  40.044719,
+                  25.314993
+                ],
+                [
+                  40.02348,
+                  25.321039
+                ],
+                [
+                  40.005341,
+                  25.32941
+                ],
+                [
+                  39.993663,
+                  25.337368
+                ],
+                [
+                  39.97754,
+                  25.352458
+                ],
+                [
+                  39.964207,
+                  25.370648
+                ],
+                [
+                  39.952838,
+                  25.394755
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q243656",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ha'il Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hael"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ḥaʼil Province"
+        }
+      ],
+      "properties": {
+        "title": "Ḥaʼil Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623255",
+          "label": "administrative territorial entity of Saudi Arabia"
+        }
+      ]
+    }
+  ],
+  "title": "Saudi Arabian provinces",
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,54 @@
+{
+  "'Asir Province": {
+    "id": "http://www.wikidata.org/entity/Q779855",
+    "covers": [ "`Asir" ]
+  },
+  "Al-Baha Province": {
+    "id": "http://www.wikidata.org/entity/Q852774",
+    "covers": [ "Al Bahah" ]
+  },
+  "Al-Jowf Province": {
+    "id": "http://www.wikidata.org/entity/Q1471266",
+    "covers": [ "Al Jawf" ]
+  },
+  "Al-Qassim Province": {
+    "id": "http://www.wikidata.org/entity/Q1105411",
+    "covers": [ "Al Quassim" ]
+  },
+  "Eastern Province": {
+    "id": "http://www.wikidata.org/entity/Q953508",
+    "covers": [ "Ash Sharqiyah" ]
+  },
+  "Ḥaʼil Province": {
+    "id": "http://www.wikidata.org/entity/Q243656",
+    "covers": [ "Ha'il" ]
+  },
+  "Jazan Province": {
+    "id": "http://www.wikidata.org/entity/Q269973",
+    "covers": [ "Jizan" ]
+  },
+  "Mecca Province": {
+    "id": "http://www.wikidata.org/entity/Q234167",
+    "covers": [ "Makkah" ]
+  },
+  "Medina Province": {
+    "id": "http://www.wikidata.org/entity/Q236027",
+    "covers": [ "Al Madinah" ]
+  },
+  "Najran Province": {
+    "id": "http://www.wikidata.org/entity/Q464718",
+    "covers": [ "Najran" ]
+  },
+  "Northern Borders Province": {
+    "id": "http://www.wikidata.org/entity/Q201781",
+    "covers": [ "Al Hudud ash Shamaliyah" ]
+  },
+  "Riyadh Province": {
+    "id": "http://www.wikidata.org/entity/Q1249255",
+    "covers": [ "Ar Riyad" ]
+  },
+  "Tabuk Province": {
+    "id": "http://www.wikidata.org/entity/Q1315953",
+    "covers": [ "Tabuk" ]
+  }
+}
