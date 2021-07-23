@@ -1,0 +1,58 @@
+{
+  "Al-Hasakah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q233914",
+    "covers": [ "Hasaka (Al Haksa)" ]
+  },
+  "Al-Raqqah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q235563",
+    "covers": [ "Ar Raqqah" ]
+  },
+  "Aleppo Governorate": {
+    "id": "http://www.wikidata.org/entity/Q214064",
+    "covers": [ "Aleppo" ]
+  },
+  "As-Suwayda Governorate": {
+    "id": "http://www.wikidata.org/entity/Q236797",
+    "covers": [ "As Suwayda'" ]
+  },
+  "Damascus Governorate": {
+    "id": "http://www.wikidata.org/entity/Q2007044",
+    "covers": [ "Damascus" ]
+  },
+  "Daraa Governorate": {
+    "id": "http://www.wikidata.org/entity/Q1689560",
+    "covers": [ "Dar`a" ]
+  },
+  "Deir ez-Zor Governorate": {
+    "id": "http://www.wikidata.org/entity/Q232387",
+    "covers": [ "Dayr Az Zawr" ]
+  },
+  "Hama Governorate": {
+    "id": "http://www.wikidata.org/entity/Q232355",
+    "covers": [ "Hamah" ]
+  },
+  "Homs Governorate": {
+    "id": "http://www.wikidata.org/entity/Q214094",
+    "covers": [ "Homs (Hims)" ]
+  },
+  "Idlib Governorate": {
+    "id": "http://www.wikidata.org/entity/Q233218",
+    "covers": [ "Idlib" ]
+  },
+  "Latakia Governorate": {
+    "id": "http://www.wikidata.org/entity/Q233236",
+    "covers": [ "Lattakia" ]
+  },
+  "Quneitra Governorate": {
+    "id": "http://www.wikidata.org/entity/Q219690",
+    "covers": [ "Quneitra" ]
+  },
+  "Rif Dimashq Governorate": {
+    "id": "http://www.wikidata.org/entity/Q232399",
+    "covers": [ "Rif Dimashq" ]
+  },
+  "Tartus Governorate": {
+    "id": "http://www.wikidata.org/entity/Q232382",
+    "covers": [ "Tartus" ]
+  }
+}

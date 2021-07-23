@@ -53,6 +53,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Spanish autonomous communities gazetteer**<br>
   https://data.perio.do/graphs/places/spanish-communities.json
 
+* **Syrian governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/syrian-governorates.json
+
 * Historical places gazetteer<br>
   https://data.perio.do/graphs/places/historical.json
 
@@ -226,6 +229,15 @@ Note that the province of Xaisomboun (recently established as a province, having
 1. merging geometries of the units found in the Natural Earth data into geometries for autonomous communities (see [place-ids/spanish-communities.json](place-ids/spanish-communities.json) for details), and
 
 1. querying Wikidata for instances of [Q10742 autonomous community of Spain](https://www.wikidata.org/wiki/Q10742) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Syrian governorates gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/syrian-governorates.json](place-ids/syrian-governorates.json) for details), and
+
+1. querying Wikidata for instances of [Q517351 governorate of Syria](https://www.wikidata.org/wiki/Q517351) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Historical places gazetteer

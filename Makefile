@@ -16,6 +16,7 @@ GAZETTEERS := \
 	gazetteers/saudi-arabian-provinces.json \
 	gazetteers/spanish-communities.json \
 	gazetteers/subregions.json \
+	gazetteers/syrian-governorates.json \
 	gazetteers/us-states.json
 
 NM := ./node_modules/.bin/

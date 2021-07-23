@@ -1,0 +1,1798 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  39.465168,
+                  36.636007
+                ],
+                [
+                  39.441708,
+                  36.692373
+                ],
+                [
+                  40.659461,
+                  37.085257
+                ],
+                [
+                  40.708967,
+                  37.100476
+                ],
+                [
+                  42.211201,
+                  37.324906
+                ],
+                [
+                  42.292023,
+                  37.285064
+                ],
+                [
+                  42.346696,
+                  37.239769
+                ],
+                [
+                  42.353208,
+                  37.227031
+                ],
+                [
+                  42.376875,
+                  37.076756
+                ],
+                [
+                  42.377186,
+                  37.062235
+                ],
+                [
+                  41.34221,
+                  35.593694
+                ],
+                [
+                  41.308458,
+                  35.552248
+                ],
+                [
+                  40.999493,
+                  35.56925
+                ],
+                [
+                  40.923012,
+                  35.582144
+                ],
+                [
+                  40.825395,
+                  35.60408
+                ],
+                [
+                  40.806946,
+                  35.61085
+                ],
+                [
+                  40.774959,
+                  35.626301
+                ],
+                [
+                  39.524751,
+                  36.566761
+                ],
+                [
+                  39.474004,
+                  36.619471
+                ],
+                [
+                  39.465168,
+                  36.636007
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233914",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Hasakah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hasaka governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al-Hasakah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  38.021432,
+                  35.633071
+                ],
+                [
+                  38.020811,
+                  35.638161
+                ],
+                [
+                  38.020811,
+                  35.642967
+                ],
+                [
+                  38.05838,
+                  36.126736
+                ],
+                [
+                  38.059775,
+                  36.134022
+                ],
+                [
+                  38.062101,
+                  36.140921
+                ],
+                [
+                  38.065977,
+                  36.147716
+                ],
+                [
+                  38.109436,
+                  36.212984
+                ],
+                [
+                  38.120133,
+                  36.225128
+                ],
+                [
+                  38.635192,
+                  36.744039
+                ],
+                [
+                  39.441708,
+                  36.692373
+                ],
+                [
+                  39.782513,
+                  36.500821
+                ],
+                [
+                  39.793365,
+                  36.49183
+                ],
+                [
+                  39.799876,
+                  36.483562
+                ],
+                [
+                  39.801426,
+                  36.480461
+                ],
+                [
+                  39.802666,
+                  36.476559
+                ],
+                [
+                  39.804527,
+                  36.463666
+                ],
+                [
+                  39.674974,
+                  35.770866
+                ],
+                [
+                  39.666551,
+                  35.757559
+                ],
+                [
+                  39.242029,
+                  35.24927
+                ],
+                [
+                  38.301673,
+                  35.382337
+                ],
+                [
+                  38.234804,
+                  35.435874
+                ],
+                [
+                  38.042671,
+                  35.603098
+                ],
+                [
+                  38.027943,
+                  35.618601
+                ],
+                [
+                  38.025617,
+                  35.622167
+                ],
+                [
+                  38.023447,
+                  35.626456
+                ],
+                [
+                  38.021432,
+                  35.633071
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235563",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Raqqah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Raqqah"
+        }
+      ],
+      "properties": {
+        "title": "Al-Raqqah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.533821,
+                  36.462478
+                ],
+                [
+                  36.531237,
+                  36.479015
+                ],
+                [
+                  36.603274,
+                  36.746957
+                ],
+                [
+                  36.639861,
+                  36.828089
+                ],
+                [
+                  38.224261,
+                  36.908394
+                ],
+                [
+                  38.28989,
+                  36.901702
+                ],
+                [
+                  38.479956,
+                  36.855736
+                ],
+                [
+                  38.529358,
+                  36.833722
+                ],
+                [
+                  38.635192,
+                  36.744039
+                ],
+                [
+                  38.670384,
+                  36.629031
+                ],
+                [
+                  38.671004,
+                  36.625258
+                ],
+                [
+                  38.669454,
+                  36.558079
+                ],
+                [
+                  38.664958,
+                  36.529864
+                ],
+                [
+                  38.649714,
+                  36.46625
+                ],
+                [
+                  38.643357,
+                  36.449093
+                ],
+                [
+                  38.234804,
+                  35.435874
+                ],
+                [
+                  37.808525,
+                  35.434943
+                ],
+                [
+                  37.723827,
+                  35.445201
+                ],
+                [
+                  37.35341,
+                  35.502226
+                ],
+                [
+                  37.346124,
+                  35.504009
+                ],
+                [
+                  37.174661,
+                  35.565659
+                ],
+                [
+                  37.169546,
+                  35.568475
+                ],
+                [
+                  37.129341,
+                  35.591575
+                ],
+                [
+                  37.09787,
+                  35.622296
+                ],
+                [
+                  37.092238,
+                  35.629118
+                ],
+                [
+                  36.726213,
+                  36.126477
+                ],
+                [
+                  36.577643,
+                  36.332874
+                ],
+                [
+                  36.533821,
+                  36.462478
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q214064",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aleppo Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Aleppo Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.354246,
+                  32.715988
+                ],
+                [
+                  36.336263,
+                  32.899207
+                ],
+                [
+                  36.336418,
+                  32.901351
+                ],
+                [
+                  36.341224,
+                  32.943907
+                ],
+                [
+                  36.474187,
+                  33.16118
+                ],
+                [
+                  36.477185,
+                  33.165754
+                ],
+                [
+                  36.481991,
+                  33.170844
+                ],
+                [
+                  36.487727,
+                  33.175314
+                ],
+                [
+                  36.50478,
+                  33.186398
+                ],
+                [
+                  36.508966,
+                  33.186941
+                ],
+                [
+                  36.82383,
+                  33.224691
+                ],
+                [
+                  36.825536,
+                  33.223657
+                ],
+                [
+                  36.885273,
+                  33.186502
+                ],
+                [
+                  37.257189,
+                  32.94631
+                ],
+                [
+                  37.264217,
+                  32.940057
+                ],
+                [
+                  37.477537,
+                  32.708805
+                ],
+                [
+                  37.494606,
+                  32.690056
+                ],
+                [
+                  36.819385,
+                  32.316788
+                ],
+                [
+                  36.806569,
+                  32.313042
+                ],
+                [
+                  36.792513,
+                  32.313533
+                ],
+                [
+                  36.689574,
+                  32.319656
+                ],
+                [
+                  36.516684,
+                  32.357014
+                ],
+                [
+                  36.400652,
+                  32.578503
+                ],
+                [
+                  36.355797,
+                  32.70741
+                ],
+                [
+                  36.355177,
+                  32.709813
+                ],
+                [
+                  36.354246,
+                  32.715988
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236797",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Suwayda Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "As-Suwayda Governorate"
+        }
+      ],
+      "properties": {
+        "title": "As-Suwayda Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.190745,
+                  33.513227
+                ],
+                [
+                  36.18316,
+                  33.531489
+                ],
+                [
+                  36.221629,
+                  33.549457
+                ],
+                [
+                  36.307141,
+                  33.564078
+                ],
+                [
+                  36.334955,
+                  33.562112
+                ],
+                [
+                  36.351098,
+                  33.543883
+                ],
+                [
+                  36.352092,
+                  33.514351
+                ],
+                [
+                  36.343102,
+                  33.492437
+                ],
+                [
+                  36.316609,
+                  33.460691
+                ],
+                [
+                  36.297505,
+                  33.4635
+                ],
+                [
+                  36.214345,
+                  33.476423
+                ],
+                [
+                  36.190745,
+                  33.513227
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2007044",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Damascus Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Damascus Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.066253,
+                  32.517319
+                ],
+                [
+                  35.769734,
+                  32.748054
+                ],
+                [
+                  35.961661,
+                  33.204821
+                ],
+                [
+                  36.234926,
+                  33.290862
+                ],
+                [
+                  36.50664,
+                  33.294816
+                ],
+                [
+                  36.510826,
+                  33.294764
+                ],
+                [
+                  36.514392,
+                  33.29218
+                ],
+                [
+                  36.516252,
+                  33.290268
+                ],
+                [
+                  36.563123,
+                  33.230866
+                ],
+                [
+                  36.564363,
+                  33.229238
+                ],
+                [
+                  36.566223,
+                  33.226163
+                ],
+                [
+                  36.566843,
+                  33.224458
+                ],
+                [
+                  36.567463,
+                  33.222598
+                ],
+                [
+                  36.567929,
+                  33.220763
+                ],
+                [
+                  36.570874,
+                  33.193969
+                ],
+                [
+                  36.527311,
+                  32.47869
+                ],
+                [
+                  36.521058,
+                  32.39425
+                ],
+                [
+                  36.516684,
+                  32.357014
+                ],
+                [
+                  36.480181,
+                  32.360791
+                ],
+                [
+                  36.407627,
+                  32.374227
+                ],
+                [
+                  36.387887,
+                  32.379317
+                ],
+                [
+                  36.066253,
+                  32.517319
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1689560",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Daraa Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Daraa Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  39.440621,
+                  34.942415
+                ],
+                [
+                  39.242029,
+                  35.24927
+                ],
+                [
+                  39.804527,
+                  36.463666
+                ],
+                [
+                  41.308458,
+                  35.552248
+                ],
+                [
+                  41.204234,
+                  34.793123
+                ],
+                [
+                  41.195656,
+                  34.768473
+                ],
+                [
+                  40.98802,
+                  34.42852
+                ],
+                [
+                  40.965282,
+                  34.401855
+                ],
+                [
+                  40.936033,
+                  34.386068
+                ],
+                [
+                  40.173111,
+                  34.072283
+                ],
+                [
+                  39.444549,
+                  34.936395
+                ],
+                [
+                  39.440621,
+                  34.942415
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q232387",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dayr az-Zawr"
+        },
+        {
+          "lang": "en",
+          "toponym": "Deir ez-Zor Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Deir ez-Zor, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Deir ez-Zor Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.144027,
+                  34.975333
+                ],
+                [
+                  36.136844,
+                  35.002205
+                ],
+                [
+                  36.199424,
+                  35.673068
+                ],
+                [
+                  36.199889,
+                  35.677254
+                ],
+                [
+                  36.202835,
+                  35.682473
+                ],
+                [
+                  36.238646,
+                  35.744382
+                ],
+                [
+                  36.254821,
+                  35.755932
+                ],
+                [
+                  36.325876,
+                  35.747095
+                ],
+                [
+                  38.234804,
+                  35.435874
+                ],
+                [
+                  38.274698,
+                  35.411534
+                ],
+                [
+                  38.286325,
+                  35.401457
+                ],
+                [
+                  38.301673,
+                  35.382337
+                ],
+                [
+                  38.303068,
+                  35.364973
+                ],
+                [
+                  38.299967,
+                  35.253637
+                ],
+                [
+                  38.295317,
+                  35.237178
+                ],
+                [
+                  38.243175,
+                  35.096049
+                ],
+                [
+                  38.239764,
+                  35.091398
+                ],
+                [
+                  38.001588,
+                  34.902418
+                ],
+                [
+                  37.999417,
+                  34.901333
+                ],
+                [
+                  37.991976,
+                  34.898749
+                ],
+                [
+                  37.98872,
+                  34.898284
+                ],
+                [
+                  36.972762,
+                  34.860896
+                ],
+                [
+                  36.340449,
+                  34.849811
+                ],
+                [
+                  36.336573,
+                  34.852033
+                ],
+                [
+                  36.144027,
+                  34.975333
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q232355",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hama Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hama, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Hama Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.603554,
+                  34.200101
+                ],
+                [
+                  36.11214,
+                  34.629532
+                ],
+                [
+                  36.11607,
+                  34.659952
+                ],
+                [
+                  36.11824,
+                  34.666825
+                ],
+                [
+                  36.186505,
+                  34.768731
+                ],
+                [
+                  36.279626,
+                  34.888129
+                ],
+                [
+                  36.282261,
+                  34.890635
+                ],
+                [
+                  36.283811,
+                  34.891669
+                ],
+                [
+                  36.287067,
+                  34.893581
+                ],
+                [
+                  36.294819,
+                  34.896268
+                ],
+                [
+                  36.495013,
+                  34.952544
+                ],
+                [
+                  38.301673,
+                  35.382337
+                ],
+                [
+                  38.390298,
+                  35.390915
+                ],
+                [
+                  38.684182,
+                  35.372312
+                ],
+                [
+                  39.242029,
+                  35.24927
+                ],
+                [
+                  39.342746,
+                  35.181987
+                ],
+                [
+                  39.374372,
+                  35.149224
+                ],
+                [
+                  40.173111,
+                  34.072283
+                ],
+                [
+                  38.315742,
+                  33.13118
+                ],
+                [
+                  37.71592,
+                  33.4839
+                ],
+                [
+                  36.603554,
+                  34.200101
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q214094",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Homs Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Homs, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Homs Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.149763,
+                  35.798022
+                ],
+                [
+                  36.149453,
+                  35.801639
+                ],
+                [
+                  36.150228,
+                  35.80536
+                ],
+                [
+                  36.174877,
+                  35.922666
+                ],
+                [
+                  36.361429,
+                  36.218152
+                ],
+                [
+                  36.373004,
+                  36.227609
+                ],
+                [
+                  36.661204,
+                  36.311169
+                ],
+                [
+                  36.754274,
+                  36.331219
+                ],
+                [
+                  36.761147,
+                  36.332666
+                ],
+                [
+                  36.766263,
+                  36.332201
+                ],
+                [
+                  36.769363,
+                  36.330031
+                ],
+                [
+                  36.839023,
+                  36.24616
+                ],
+                [
+                  36.843054,
+                  36.239339
+                ],
+                [
+                  37.216416,
+                  35.551474
+                ],
+                [
+                  37.142054,
+                  35.34885
+                ],
+                [
+                  37.140503,
+                  35.346008
+                ],
+                [
+                  37.093168,
+                  35.322702
+                ],
+                [
+                  37.089034,
+                  35.32079
+                ],
+                [
+                  37.083246,
+                  35.319085
+                ],
+                [
+                  37.07813,
+                  35.318361
+                ],
+                [
+                  37.03467,
+                  35.316863
+                ],
+                [
+                  37.025058,
+                  35.316837
+                ],
+                [
+                  37.020407,
+                  35.317638
+                ],
+                [
+                  36.537078,
+                  35.408175
+                ],
+                [
+                  36.426128,
+                  35.436597
+                ],
+                [
+                  36.419617,
+                  35.442591
+                ],
+                [
+                  36.150848,
+                  35.794715
+                ],
+                [
+                  36.149763,
+                  35.798022
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233218",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Idlib Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Idlib, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Idlib Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.770518,
+                  35.504218
+                ],
+                [
+                  35.723399,
+                  35.575914
+                ],
+                [
+                  35.723399,
+                  35.582099
+                ],
+                [
+                  35.798595,
+                  35.849677
+                ],
+                [
+                  35.911305,
+                  35.91775
+                ],
+                [
+                  35.96073,
+                  35.924372
+                ],
+                [
+                  35.980263,
+                  35.926852
+                ],
+                [
+                  36.279471,
+                  35.795748
+                ],
+                [
+                  36.283501,
+                  35.793578
+                ],
+                [
+                  36.287067,
+                  35.789728
+                ],
+                [
+                  36.288462,
+                  35.785878
+                ],
+                [
+                  36.288462,
+                  35.78177
+                ],
+                [
+                  36.252961,
+                  35.223432
+                ],
+                [
+                  36.025636,
+                  35.219504
+                ],
+                [
+                  36.018608,
+                  35.2209
+                ],
+                [
+                  35.931203,
+                  35.261491
+                ],
+                [
+                  35.770518,
+                  35.504218
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233236",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Latakia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Latakia Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.846628,
+                  32.836472
+                ],
+                [
+                  35.819343,
+                  33.284429
+                ],
+                [
+                  35.842976,
+                  33.3228
+                ],
+                [
+                  35.843218,
+                  33.322695
+                ],
+                [
+                  35.884714,
+                  33.304634
+                ],
+                [
+                  35.895256,
+                  33.298665
+                ],
+                [
+                  35.96104,
+                  33.249702
+                ],
+                [
+                  35.963366,
+                  33.247893
+                ],
+                [
+                  35.963831,
+                  33.246033
+                ],
+                [
+                  35.964141,
+                  33.24394
+                ],
+                [
+                  35.979696,
+                  33.128779
+                ],
+                [
+                  35.980006,
+                  33.126118
+                ],
+                [
+                  35.987137,
+                  32.954526
+                ],
+                [
+                  35.987292,
+                  32.950651
+                ],
+                [
+                  35.986362,
+                  32.9491
+                ],
+                [
+                  35.936701,
+                  32.906751
+                ],
+                [
+                  35.846802,
+                  32.835777
+                ],
+                [
+                  35.846628,
+                  32.836472
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q219690",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Quneitra Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Quneitra, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Quneitra Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.834949,
+                  33.339026
+                ],
+                [
+                  35.830195,
+                  33.35148
+                ],
+                [
+                  35.830195,
+                  33.36476
+                ],
+                [
+                  35.925383,
+                  33.661667
+                ],
+                [
+                  35.948431,
+                  33.70921
+                ],
+                [
+                  35.955872,
+                  33.718124
+                ],
+                [
+                  35.994009,
+                  33.760705
+                ],
+                [
+                  36.05044,
+                  33.816438
+                ],
+                [
+                  36.603554,
+                  34.200101
+                ],
+                [
+                  36.648182,
+                  34.21662
+                ],
+                [
+                  36.66446,
+                  34.219204
+                ],
+                [
+                  36.865275,
+                  34.228144
+                ],
+                [
+                  36.870081,
+                  34.227937
+                ],
+                [
+                  37.255535,
+                  33.942011
+                ],
+                [
+                  38.315742,
+                  33.13118
+                ],
+                [
+                  37.494606,
+                  32.690056
+                ],
+                [
+                  35.999694,
+                  33.179215
+                ],
+                [
+                  35.889985,
+                  33.240555
+                ],
+                [
+                  35.88735,
+                  33.242932
+                ],
+                [
+                  35.842976,
+                  33.3228
+                ],
+                [
+                  35.834949,
+                  33.339026
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q232399",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Damascus Surroundings"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate of the Countryside of Damascus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rif Dimashq Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rif Dimashq, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Rif Dimashq Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Syria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.931163,
+                  34.740953
+                ],
+                [
+                  35.866873,
+                  34.924221
+                ],
+                [
+                  35.887869,
+                  35.109198
+                ],
+                [
+                  35.931203,
+                  35.261491
+                ],
+                [
+                  36.214462,
+                  35.239038
+                ],
+                [
+                  36.252961,
+                  35.223432
+                ],
+                [
+                  36.313164,
+                  34.900919
+                ],
+                [
+                  36.273425,
+                  34.843197
+                ],
+                [
+                  36.11214,
+                  34.629532
+                ],
+                [
+                  36.060775,
+                  34.627913
+                ],
+                [
+                  36.037934,
+                  34.62843
+                ],
+                [
+                  36.01623,
+                  34.633649
+                ],
+                [
+                  35.9699,
+                  34.649849
+                ],
+                [
+                  35.947439,
+                  34.69953
+                ],
+                [
+                  35.931163,
+                  34.740953
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q232382",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tartus Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tartus, Syria"
+        }
+      ],
+      "properties": {
+        "title": "Tartus Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q517351",
+          "label": "governorate of Syria"
+        }
+      ]
+    }
+  ],
+  "title": "Syrian governorates",
+  "type": "FeatureCollection"
+}
