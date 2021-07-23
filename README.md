@@ -149,6 +149,7 @@ This gazetteer was created by:
 
 Note that the state of Telangana (recently separated from Andhra Pradesh) and the union territory of Ladakh (recently separated from Jammu and Kashmir) are not included, as the geometries for these administrative units are not yet included in the Natural Earth data.
 
+
 ### Italian regions gazetteer
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
@@ -156,6 +157,15 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/italian-regions.json](place-ids/italian-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q16110 region of Italy](https://www.wikidata.org/wiki/Q16110) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Kuwaiti governorates gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/kuwaiti-governorates.json](place-ids/kuwaiti-governorates.json) for details), and
+
+1. querying Wikidata for instances of [Q842876 governorate of Kuwait](https://www.wikidata.org/wiki/Q842876) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Laotian provinces gazetteer
@@ -176,6 +186,15 @@ Note that the province of Xaisomboun (recently established as a province, having
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/russian-federal-subjects.json](place-ids/russian-federal-subjects.json) for details), and
 
 1. querying Wikidata for instances of [Q43263 federal subject of Russia](https://www.wikidata.org/wiki/Q43263) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Saudi Arabian provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/saudi-arabian-provinces.json](place-ids/saudi-arabian-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q15623255 administrative territorial entity of Saudi Arabia](https://www.wikidata.org/wiki/Q15623255) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Spanish autonomous communities gazetteer
