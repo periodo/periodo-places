@@ -17,11 +17,8 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Countries gazetteer**<br>
   https://data.perio.do/graphs/places/countries.json
 
-* **World cities gazetteer**<br>
-  https://data.perio.do/graphs/places/cities.json
-
-* **U.S. states gazetteer**<br>
-  https://data.perio.do/graphs/places/us-states.json
+* **Algerian provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/algerian-provinces.json
 
 * **English counties gazetteer**<br>
   https://data.perio.do/graphs/places/english-counties.json
@@ -61,6 +58,12 @@ This repository contains custom placename gazetteers used for indicating the spa
 
 * **Syrian governorates gazetteer**<br>
   https://data.perio.do/graphs/places/syrian-governorates.json
+
+* **U.S. states gazetteer**<br>
+  https://data.perio.do/graphs/places/us-states.json
+
+* **World cities gazetteer**<br>
+  https://data.perio.do/graphs/places/cities.json
 
 * Historical places gazetteer<br>
   https://data.perio.do/graphs/places/historical.json
@@ -117,24 +120,13 @@ This gazetteer was created by:
 The reason for the merging of countries and map units in step one is that in some cases (e.g. France) we want to separate the contiguous primary country geometry from the geometries of former colonial or territorial holdings around the world, and the procedure above achieves this. As a result the list also includes countries like Scotland and Wales, even though these are technically parts of the sovereign country of the United Kingdom.
 
 
-### World cities gazetteer
+### Algerian provinces gazetteer
 
-This gazetteer was created by:
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
-1. finding PeriodO periods with cities in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q486972 human settlement](https://www.wikidata.org/wiki/Q486972), and then
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/algerian-provinces.json](place-ids/algerian-provinces.json) for details), and
 
-1. using the [Natural Earth 1:10m landscan urban areas](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/) to derive geometries for these cities (see [place-ids/cities.json](place-ids/cities.json) for the mapping from Wikidata names to NE names).
-
-
-### U.S. states gazetteer
-
-This gazetteer was created by:
-
-1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [U.S. states](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/) and
-
-1. the geometries for U.S. unincorporated territories extracted from the merged Natural Earth cultural vectors for countries and map units (see [above](#present-day-countries-gazetteer)), and then
-
-1. using the ISO 3166-2 (or, in the case of unincorporated territories, ISO 3166-1 alpha-2) codes from the Natural Earth data to query Wikidata for the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+1. querying Wikidata for instances of [Q240601 province of Algeria](https://www.wikidata.org/wiki/Q240601) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Egyptian governorates gazetteer
@@ -262,6 +254,26 @@ Note that the province of Xaisomboun (recently established as a province, having
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/syrian-governorates.json](place-ids/syrian-governorates.json) for details), and
 
 1. querying Wikidata for instances of [Q517351 governorate of Syria](https://www.wikidata.org/wiki/Q517351) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### U.S. states gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [U.S. states](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/) and
+
+1. the geometries for U.S. unincorporated territories extracted from the merged Natural Earth cultural vectors for countries and map units (see [above](#present-day-countries-gazetteer)), and then
+
+1. using the ISO 3166-2 (or, in the case of unincorporated territories, ISO 3166-1 alpha-2) codes from the Natural Earth data to query Wikidata for the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### World cities gazetteer
+
+This gazetteer was created by:
+
+1. finding PeriodO periods with cities in their spatial coverage descriptions, and then looking for close equivalents in Wikidata that are instances of [Q486972 human settlement](https://www.wikidata.org/wiki/Q486972), and then
+
+1. using the [Natural Earth 1:10m landscan urban areas](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/) to derive geometries for these cities (see [place-ids/cities.json](place-ids/cities.json) for the mapping from Wikidata names to NE names).
 
 
 ### Historical places gazetteer

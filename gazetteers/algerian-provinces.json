@@ -1,0 +1,6052 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.158597,
+                  19.08155
+                ],
+                [
+                  -5.661525,
+                  25.508881
+                ],
+                [
+                  -5.661525,
+                  25.508881
+                ],
+                [
+                  -3.750644,
+                  28.566887
+                ],
+                [
+                  0.842461,
+                  31.096939
+                ],
+                [
+                  1.033043,
+                  31.201791
+                ],
+                [
+                  2.085382,
+                  31.658585
+                ],
+                [
+                  3.751482,
+                  20.778293
+                ],
+                [
+                  3.782229,
+                  20.549418
+                ],
+                [
+                  3.790291,
+                  19.062713
+                ],
+                [
+                  3.790291,
+                  19.06077
+                ],
+                [
+                  3.358689,
+                  18.976853
+                ],
+                [
+                  3.333057,
+                  18.975561
+                ],
+                [
+                  3.318381,
+                  18.977706
+                ],
+                [
+                  3.308356,
+                  18.981685
+                ],
+                [
+                  3.284895,
+                  18.995741
+                ],
+                [
+                  3.158597,
+                  19.08155
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188166",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Adrar Province"
+        }
+      ],
+      "properties": {
+        "title": "Adrar Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.968791,
+                  36.744088
+                ],
+                [
+                  2.96631,
+                  36.748145
+                ],
+                [
+                  2.984874,
+                  36.814968
+                ],
+                [
+                  3.014171,
+                  36.811713
+                ],
+                [
+                  3.173269,
+                  36.742621
+                ],
+                [
+                  3.229808,
+                  36.685125
+                ],
+                [
+                  3.181853,
+                  36.666134
+                ],
+                [
+                  3.111108,
+                  36.650554
+                ],
+                [
+                  3.097413,
+                  36.649934
+                ],
+                [
+                  3.082531,
+                  36.653965
+                ],
+                [
+                  3.070748,
+                  36.660037
+                ],
+                [
+                  2.968791,
+                  36.744088
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q141026",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Algiers Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Algiers"
+        },
+        {
+          "lang": "en",
+          "toponym": "DZ-16"
+        }
+      ],
+      "properties": {
+        "title": "Algiers Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.263671,
+                  37.070451
+                ],
+                [
+                  7.262677,
+                  37.076005
+                ],
+                [
+                  7.292654,
+                  37.082506
+                ],
+                [
+                  7.297699,
+                  37.082953
+                ],
+                [
+                  7.383474,
+                  37.082994
+                ],
+                [
+                  7.798595,
+                  36.993598
+                ],
+                [
+                  7.791189,
+                  36.918443
+                ],
+                [
+                  7.752581,
+                  36.771968
+                ],
+                [
+                  7.74731,
+                  36.764836
+                ],
+                [
+                  7.62985,
+                  36.637661
+                ],
+                [
+                  7.621633,
+                  36.629547
+                ],
+                [
+                  7.612332,
+                  36.622623
+                ],
+                [
+                  7.60272,
+                  36.618334
+                ],
+                [
+                  7.592178,
+                  36.615543
+                ],
+                [
+                  7.562981,
+                  36.612443
+                ],
+                [
+                  7.548098,
+                  36.613114
+                ],
+                [
+                  7.533783,
+                  36.615388
+                ],
+                [
+                  7.519211,
+                  36.62022
+                ],
+                [
+                  7.481073,
+                  36.634095
+                ],
+                [
+                  7.475596,
+                  36.638849
+                ],
+                [
+                  7.384232,
+                  36.726131
+                ],
+                [
+                  7.307234,
+                  36.929219
+                ],
+                [
+                  7.263671,
+                  37.070451
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213944",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Annaba Province"
+        }
+      ],
+      "properties": {
+        "title": "Annaba Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.554717,
+                  36.351322
+                ],
+                [
+                  1.553167,
+                  36.367677
+                ],
+                [
+                  1.559523,
+                  36.380984
+                ],
+                [
+                  1.647786,
+                  36.443151
+                ],
+                [
+                  2.14326,
+                  36.438319
+                ],
+                [
+                  2.476263,
+                  36.42062
+                ],
+                [
+                  2.643384,
+                  36.397262
+                ],
+                [
+                  2.64788,
+                  36.396125
+                ],
+                [
+                  2.652686,
+                  36.392094
+                ],
+                [
+                  2.661109,
+                  36.363104
+                ],
+                [
+                  2.660179,
+                  36.350727
+                ],
+                [
+                  2.643694,
+                  36.191538
+                ],
+                [
+                  2.639043,
+                  36.181564
+                ],
+                [
+                  2.571554,
+                  36.099089
+                ],
+                [
+                  2.311777,
+                  35.866958
+                ],
+                [
+                  1.853562,
+                  35.860499
+                ],
+                [
+                  1.8424,
+                  35.865227
+                ],
+                [
+                  1.712692,
+                  35.923415
+                ],
+                [
+                  1.588513,
+                  36.143298
+                ],
+                [
+                  1.584948,
+                  36.154848
+                ],
+                [
+                  1.554717,
+                  36.351322
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q168953",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aïn Defla Province"
+        }
+      ],
+      "properties": {
+        "title": "Aïn Defla Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.347277,
+                  35.219349
+                ],
+                [
+                  -1.361976,
+                  35.319899
+                ],
+                [
+                  -1.183339,
+                  35.576483
+                ],
+                [
+                  -1.117014,
+                  35.616889
+                ],
+                [
+                  -1.106353,
+                  35.623236
+                ],
+                [
+                  -0.689436,
+                  35.476052
+                ],
+                [
+                  -0.672382,
+                  35.46197
+                ],
+                [
+                  -0.634245,
+                  35.422386
+                ],
+                [
+                  -0.629491,
+                  35.409622
+                ],
+                [
+                  -0.633108,
+                  35.398305
+                ],
+                [
+                  -0.651712,
+                  35.34606
+                ],
+                [
+                  -0.668868,
+                  35.332004
+                ],
+                [
+                  -0.890457,
+                  35.159896
+                ],
+                [
+                  -1.000528,
+                  35.087393
+                ],
+                [
+                  -1.048277,
+                  35.097315
+                ],
+                [
+                  -1.330947,
+                  35.18824
+                ],
+                [
+                  -1.337665,
+                  35.190824
+                ],
+                [
+                  -1.342212,
+                  35.19457
+                ],
+                [
+                  -1.343866,
+                  35.199557
+                ],
+                [
+                  -1.347277,
+                  35.219349
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233670",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aïn Témouchent Province"
+        }
+      ],
+      "properties": {
+        "title": "Aïn Témouchent Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.779016,
+                  35.17284
+                ],
+                [
+                  4.777001,
+                  35.180644
+                ],
+                [
+                  4.876478,
+                  35.51915
+                ],
+                [
+                  4.880199,
+                  35.525403
+                ],
+                [
+                  5.778335,
+                  35.907085
+                ],
+                [
+                  5.800091,
+                  35.913467
+                ],
+                [
+                  5.82288,
+                  35.914733
+                ],
+                [
+                  5.976669,
+                  35.915793
+                ],
+                [
+                  6.339438,
+                  35.886802
+                ],
+                [
+                  6.351065,
+                  35.884735
+                ],
+                [
+                  6.649496,
+                  35.796678
+                ],
+                [
+                  6.698072,
+                  35.765492
+                ],
+                [
+                  6.769127,
+                  35.68392
+                ],
+                [
+                  6.787266,
+                  35.591006
+                ],
+                [
+                  6.78587,
+                  35.575607
+                ],
+                [
+                  6.587898,
+                  34.778549
+                ],
+                [
+                  6.581025,
+                  34.769661
+                ],
+                [
+                  6.574359,
+                  34.76762
+                ],
+                [
+                  6.558546,
+                  34.764493
+                ],
+                [
+                  6.540407,
+                  34.765682
+                ],
+                [
+                  5.184831,
+                  35.03104
+                ],
+                [
+                  5.004325,
+                  35.085456
+                ],
+                [
+                  4.798757,
+                  35.158113
+                ],
+                [
+                  4.78899,
+                  35.16173
+                ],
+                [
+                  4.782427,
+                  35.166872
+                ],
+                [
+                  4.779016,
+                  35.17284
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q215452",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Batna Province"
+        }
+      ],
+      "properties": {
+        "title": "Batna Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.209387,
+                  34.181635
+                ],
+                [
+                  4.184427,
+                  34.508204
+                ],
+                [
+                  4.195744,
+                  34.525748
+                ],
+                [
+                  4.273311,
+                  34.625845
+                ],
+                [
+                  4.394647,
+                  34.746587
+                ],
+                [
+                  4.414077,
+                  34.762323
+                ],
+                [
+                  5.038639,
+                  35.083311
+                ],
+                [
+                  5.820865,
+                  35.287924
+                ],
+                [
+                  5.830632,
+                  35.288441
+                ],
+                [
+                  5.842259,
+                  35.284823
+                ],
+                [
+                  5.998063,
+                  35.229685
+                ],
+                [
+                  6.429303,
+                  35.064785
+                ],
+                [
+                  6.720086,
+                  34.78457
+                ],
+                [
+                  6.727993,
+                  34.775371
+                ],
+                [
+                  6.742721,
+                  34.743099
+                ],
+                [
+                  6.748457,
+                  34.726098
+                ],
+                [
+                  6.749542,
+                  34.712223
+                ],
+                [
+                  6.739775,
+                  34.637679
+                ],
+                [
+                  6.734969,
+                  34.602023
+                ],
+                [
+                  6.705514,
+                  34.411957
+                ],
+                [
+                  6.695902,
+                  34.376093
+                ],
+                [
+                  6.661123,
+                  34.351237
+                ],
+                [
+                  6.62619,
+                  34.33315
+                ],
+                [
+                  5.121786,
+                  33.57268
+                ],
+                [
+                  4.406636,
+                  33.927645
+                ],
+                [
+                  4.362401,
+                  33.957385
+                ],
+                [
+                  4.341317,
+                  33.976118
+                ],
+                [
+                  4.210627,
+                  34.174607
+                ],
+                [
+                  4.209387,
+                  34.181635
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q458402",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Biskra Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Biskra, Algeria"
+        },
+        {
+          "lang": "en",
+          "toponym": "DZ-07"
+        }
+      ],
+      "properties": {
+        "title": "Biskra Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.48758,
+                  36.401293
+                ],
+                [
+                  2.476263,
+                  36.42062
+                ],
+                [
+                  2.486185,
+                  36.459325
+                ],
+                [
+                  2.491972,
+                  36.464932
+                ],
+                [
+                  2.499724,
+                  36.470384
+                ],
+                [
+                  2.837378,
+                  36.637867
+                ],
+                [
+                  3.025118,
+                  36.710059
+                ],
+                [
+                  3.3544,
+                  36.71347
+                ],
+                [
+                  3.371764,
+                  36.710421
+                ],
+                [
+                  3.477442,
+                  36.688562
+                ],
+                [
+                  3.508189,
+                  36.64257
+                ],
+                [
+                  3.51036,
+                  36.631563
+                ],
+                [
+                  3.51005,
+                  36.623165
+                ],
+                [
+                  3.467365,
+                  36.583168
+                ],
+                [
+                  3.456358,
+                  36.576837
+                ],
+                [
+                  3.162319,
+                  36.429095
+                ],
+                [
+                  3.024963,
+                  36.363956
+                ],
+                [
+                  3.008065,
+                  36.356437
+                ],
+                [
+                  2.996283,
+                  36.353285
+                ],
+                [
+                  2.522513,
+                  36.363982
+                ],
+                [
+                  2.513986,
+                  36.3707
+                ],
+                [
+                  2.48758,
+                  36.401293
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233637",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Blida Province"
+        }
+      ],
+      "properties": {
+        "title": "Blida Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.11053,
+                  36.001317
+                ],
+                [
+                  4.08433,
+                  36.029093
+                ],
+                [
+                  4.093632,
+                  36.046069
+                ],
+                [
+                  4.176366,
+                  36.160739
+                ],
+                [
+                  4.190628,
+                  36.1765
+                ],
+                [
+                  4.356355,
+                  36.340444
+                ],
+                [
+                  4.758242,
+                  36.424625
+                ],
+                [
+                  4.767234,
+                  36.42478
+                ],
+                [
+                  5.062823,
+                  36.301376
+                ],
+                [
+                  5.198164,
+                  36.241406
+                ],
+                [
+                  5.24736,
+                  36.204871
+                ],
+                [
+                  5.253561,
+                  36.197377
+                ],
+                [
+                  5.254181,
+                  36.18066
+                ],
+                [
+                  5.251235,
+                  36.169136
+                ],
+                [
+                  5.139976,
+                  35.856623
+                ],
+                [
+                  5.13455,
+                  35.847993
+                ],
+                [
+                  5.054452,
+                  35.777326
+                ],
+                [
+                  5.016624,
+                  35.778798
+                ],
+                [
+                  4.498155,
+                  35.823705
+                ],
+                [
+                  4.481722,
+                  35.826031
+                ],
+                [
+                  4.466684,
+                  35.832283
+                ],
+                [
+                  4.111925,
+                  36.000077
+                ],
+                [
+                  4.11053,
+                  36.001317
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q266411",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bordj Bou Arreridj Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bordj Bou Arréridj Province"
+        }
+      ],
+      "properties": {
+        "title": "Bordj Bou Arréridj Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.174101,
+                  36.741608
+                ],
+                [
+                  3.173269,
+                  36.742621
+                ],
+                [
+                  3.227306,
+                  36.812323
+                ],
+                [
+                  3.827485,
+                  36.912909
+                ],
+                [
+                  3.873871,
+                  36.917222
+                ],
+                [
+                  4.039463,
+                  36.89692
+                ],
+                [
+                  4.037614,
+                  36.863125
+                ],
+                [
+                  4.033739,
+                  36.849637
+                ],
+                [
+                  3.965009,
+                  36.712126
+                ],
+                [
+                  3.959118,
+                  36.704013
+                ],
+                [
+                  3.932246,
+                  36.679519
+                ],
+                [
+                  3.920464,
+                  36.670734
+                ],
+                [
+                  3.733654,
+                  36.607611
+                ],
+                [
+                  3.666113,
+                  36.597456
+                ],
+                [
+                  3.65123,
+                  36.597327
+                ],
+                [
+                  3.229808,
+                  36.685125
+                ],
+                [
+                  3.174101,
+                  36.741608
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Boumerdes Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Boumerdès Province"
+        }
+      ],
+      "properties": {
+        "title": "Boumerdès Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.578934,
+                  35.999353
+                ],
+                [
+                  3.283035,
+                  36.490176
+                ],
+                [
+                  3.293732,
+                  36.514154
+                ],
+                [
+                  3.304739,
+                  36.533636
+                ],
+                [
+                  3.312026,
+                  36.542395
+                ],
+                [
+                  3.477442,
+                  36.688562
+                ],
+                [
+                  3.623169,
+                  36.695797
+                ],
+                [
+                  3.635727,
+                  36.694401
+                ],
+                [
+                  3.647354,
+                  36.691818
+                ],
+                [
+                  4.370927,
+                  36.472658
+                ],
+                [
+                  4.4009,
+                  36.435709
+                ],
+                [
+                  4.404465,
+                  36.425942
+                ],
+                [
+                  4.398729,
+                  36.373697
+                ],
+                [
+                  4.396404,
+                  36.366127
+                ],
+                [
+                  4.0418,
+                  35.879722
+                ],
+                [
+                  4.035134,
+                  35.870808
+                ],
+                [
+                  4.022266,
+                  35.866855
+                ],
+                [
+                  3.872663,
+                  35.861119
+                ],
+                [
+                  3.850804,
+                  35.861972
+                ],
+                [
+                  3.62844,
+                  35.922795
+                ],
+                [
+                  3.578934,
+                  35.999353
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233655",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bouïra Province"
+        }
+      ],
+      "properties": {
+        "title": "Bouïra Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -5.266779,
+                  28.207245
+                ],
+                [
+                  -6.000765,
+                  29.579127
+                ],
+                [
+                  -3.659507,
+                  31.647821
+                ],
+                [
+                  -2.938731,
+                  32.048639
+                ],
+                [
+                  -2.881189,
+                  32.076286
+                ],
+                [
+                  -2.516147,
+                  32.1322
+                ],
+                [
+                  -1.115921,
+                  32.243355
+                ],
+                [
+                  -0.039449,
+                  32.327304
+                ],
+                [
+                  0.399128,
+                  30.708694
+                ],
+                [
+                  -0.199233,
+                  29.745032
+                ],
+                [
+                  -0.825655,
+                  29.008204
+                ],
+                [
+                  -0.95836,
+                  28.923015
+                ],
+                [
+                  -2.812924,
+                  28.294346
+                ],
+                [
+                  -5.266779,
+                  28.207245
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q215467",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bechar Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Béchar Province"
+        }
+      ],
+      "properties": {
+        "title": "Béchar Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.390616,
+                  36.267812
+                ],
+                [
+                  4.356355,
+                  36.340444
+                ],
+                [
+                  4.370927,
+                  36.472658
+                ],
+                [
+                  4.591482,
+                  36.89525
+                ],
+                [
+                  4.622895,
+                  36.896389
+                ],
+                [
+                  4.769054,
+                  36.898017
+                ],
+                [
+                  4.78712,
+                  36.895413
+                ],
+                [
+                  4.94988,
+                  36.839789
+                ],
+                [
+                  5.428039,
+                  36.663878
+                ],
+                [
+                  5.475459,
+                  36.590635
+                ],
+                [
+                  5.463677,
+                  36.508831
+                ],
+                [
+                  5.46068,
+                  36.502785
+                ],
+                [
+                  5.457889,
+                  36.499917
+                ],
+                [
+                  5.303222,
+                  36.389304
+                ],
+                [
+                  5.277125,
+                  36.381397
+                ],
+                [
+                  4.526577,
+                  36.22797
+                ],
+                [
+                  4.511384,
+                  36.225748
+                ],
+                [
+                  4.444308,
+                  36.222906
+                ],
+                [
+                  4.423379,
+                  36.226161
+                ],
+                [
+                  4.408186,
+                  36.23846
+                ],
+                [
+                  4.390616,
+                  36.267812
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233665",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Béjaïa Province"
+        }
+      ],
+      "properties": {
+        "title": "Béjaïa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  0.704071,
+                  36.186525
+                ],
+                [
+                  0.702366,
+                  36.206938
+                ],
+                [
+                  0.740408,
+                  36.337755
+                ],
+                [
+                  0.945567,
+                  36.452338
+                ],
+                [
+                  1.04477,
+                  36.486884
+                ],
+                [
+                  1.34669,
+                  36.544989
+                ],
+                [
+                  1.367686,
+                  36.547919
+                ],
+                [
+                  1.700938,
+                  36.547187
+                ],
+                [
+                  1.719203,
+                  35.964782
+                ],
+                [
+                  1.712692,
+                  35.923415
+                ],
+                [
+                  1.411625,
+                  35.841559
+                ],
+                [
+                  1.377053,
+                  35.853161
+                ],
+                [
+                  0.956355,
+                  36.027078
+                ],
+                [
+                  0.948139,
+                  36.032013
+                ],
+                [
+                  0.704071,
+                  36.186525
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q231752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chlef Province"
+        }
+      ],
+      "properties": {
+        "title": "Chlef Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.320834,
+                  36.358505
+                ],
+                [
+                  6.317734,
+                  36.367832
+                ],
+                [
+                  6.321609,
+                  36.378762
+                ],
+                [
+                  6.504079,
+                  36.577716
+                ],
+                [
+                  6.652442,
+                  36.607895
+                ],
+                [
+                  6.663914,
+                  36.607146
+                ],
+                [
+                  6.911082,
+                  36.560404
+                ],
+                [
+                  6.920126,
+                  36.557149
+                ],
+                [
+                  7.045648,
+                  36.275771
+                ],
+                [
+                  7.048283,
+                  36.238409
+                ],
+                [
+                  7.045028,
+                  36.213165
+                ],
+                [
+                  7.039137,
+                  36.195207
+                ],
+                [
+                  7.01056,
+                  36.155158
+                ],
+                [
+                  6.898525,
+                  36.106892
+                ],
+                [
+                  6.584797,
+                  36.108701
+                ],
+                [
+                  6.577149,
+                  36.109192
+                ],
+                [
+                  6.572653,
+                  36.111569
+                ],
+                [
+                  6.516326,
+                  36.165648
+                ],
+                [
+                  6.320834,
+                  36.358505
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q232043",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Constantine Province"
+        }
+      ],
+      "properties": {
+        "title": "Constantine Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.293483,
+                  34.47495
+                ],
+                [
+                  2.285732,
+                  35.439077
+                ],
+                [
+                  2.890759,
+                  35.791666
+                ],
+                [
+                  2.899441,
+                  35.79549
+                ],
+                [
+                  2.912308,
+                  35.797686
+                ],
+                [
+                  2.960264,
+                  35.80474
+                ],
+                [
+                  3.265465,
+                  35.799314
+                ],
+                [
+                  3.379515,
+                  35.751203
+                ],
+                [
+                  3.680427,
+                  35.49556
+                ],
+                [
+                  3.690039,
+                  35.485069
+                ],
+                [
+                  5.121786,
+                  33.57268
+                ],
+                [
+                  4.97828,
+                  32.840761
+                ],
+                [
+                  4.176211,
+                  33.029638
+                ],
+                [
+                  2.474867,
+                  33.923718
+                ],
+                [
+                  2.466341,
+                  33.936947
+                ],
+                [
+                  2.30449,
+                  34.412628
+                ],
+                [
+                  2.295809,
+                  34.439035
+                ],
+                [
+                  2.293483,
+                  34.47495
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233233",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Djelfa Province"
+        }
+      ],
+      "properties": {
+        "title": "Djelfa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.400823,
+                  31.390668
+                ],
+                [
+                  -0.401133,
+                  31.429348
+                ],
+                [
+                  0.086021,
+                  34.04831
+                ],
+                [
+                  0.097493,
+                  34.075156
+                ],
+                [
+                  0.107725,
+                  34.092235
+                ],
+                [
+                  0.116872,
+                  34.10412
+                ],
+                [
+                  0.229991,
+                  34.221787
+                ],
+                [
+                  0.235418,
+                  34.22587
+                ],
+                [
+                  0.243789,
+                  34.230133
+                ],
+                [
+                  0.69601,
+                  34.424307
+                ],
+                [
+                  0.729496,
+                  34.435469
+                ],
+                [
+                  0.757608,
+                  34.438182
+                ],
+                [
+                  0.973719,
+                  34.382088
+                ],
+                [
+                  1.014233,
+                  34.355371
+                ],
+                [
+                  1.776925,
+                  33.831346
+                ],
+                [
+                  1.793979,
+                  33.816412
+                ],
+                [
+                  1.811497,
+                  33.795224
+                ],
+                [
+                  2.019288,
+                  33.499041
+                ],
+                [
+                  2.031225,
+                  33.468552
+                ],
+                [
+                  2.291468,
+                  32.695989
+                ],
+                [
+                  2.299374,
+                  32.66426
+                ],
+                [
+                  2.305265,
+                  32.618164
+                ],
+                [
+                  2.344849,
+                  32.172791
+                ],
+                [
+                  2.343299,
+                  32.132664
+                ],
+                [
+                  2.239326,
+                  31.773539
+                ],
+                [
+                  2.222118,
+                  31.752739
+                ],
+                [
+                  2.199432,
+                  31.735247
+                ],
+                [
+                  2.085382,
+                  31.658585
+                ],
+                [
+                  0.399128,
+                  30.708694
+                ],
+                [
+                  -0.154016,
+                  31.123785
+                ],
+                [
+                  -0.37023,
+                  31.337002
+                ],
+                [
+                  -0.400823,
+                  31.390668
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "El Bayadh Province"
+        }
+      ],
+      "properties": {
+        "title": "El Bayadh Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.030868,
+                  32.052953
+                ],
+                [
+                  5.008046,
+                  33.441887
+                ],
+                [
+                  5.187777,
+                  34.36891
+                ],
+                [
+                  5.191963,
+                  34.381416
+                ],
+                [
+                  5.199249,
+                  34.393689
+                ],
+                [
+                  5.20638,
+                  34.40312
+                ],
+                [
+                  5.311748,
+                  34.498256
+                ],
+                [
+                  5.315779,
+                  34.499807
+                ],
+                [
+                  6.211435,
+                  34.428416
+                ],
+                [
+                  6.695902,
+                  34.376093
+                ],
+                [
+                  7.539228,
+                  34.113758
+                ],
+                [
+                  9.033743,
+                  32.090756
+                ],
+                [
+                  9.045008,
+                  32.071842
+                ],
+                [
+                  9.063304,
+                  32.000192
+                ],
+                [
+                  9.063096,
+                  32.000192
+                ],
+                [
+                  7.313797,
+                  32.002259
+                ],
+                [
+                  7.16993,
+                  32.016366
+                ],
+                [
+                  7.030868,
+                  32.052953
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233651",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "El Oued Province"
+        }
+      ],
+      "properties": {
+        "title": "El Oued Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.012979,
+                  36.406099
+                ],
+                [
+                  7.649745,
+                  36.663395
+                ],
+                [
+                  7.760385,
+                  36.883382
+                ],
+                [
+                  7.762865,
+                  36.886586
+                ],
+                [
+                  7.773774,
+                  36.889757
+                ],
+                [
+                  8.233165,
+                  36.958075
+                ],
+                [
+                  8.60251,
+                  36.939511
+                ],
+                [
+                  8.642552,
+                  36.848501
+                ],
+                [
+                  8.641725,
+                  36.836357
+                ],
+                [
+                  8.407941,
+                  36.642622
+                ],
+                [
+                  8.096281,
+                  36.430361
+                ],
+                [
+                  8.083259,
+                  36.422144
+                ],
+                [
+                  8.068841,
+                  36.415452
+                ],
+                [
+                  8.054889,
+                  36.410491
+                ],
+                [
+                  8.039954,
+                  36.40677
+                ],
+                [
+                  8.023211,
+                  36.404135
+                ],
+                [
+                  8.012979,
+                  36.406099
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236788",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "El Taref Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "El Tarf Province"
+        }
+      ],
+      "properties": {
+        "title": "El Tarf Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province in Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.079336,
+                  29.036367
+                ],
+                [
+                  1.943427,
+                  30.094804
+                ],
+                [
+                  2.085382,
+                  31.658585
+                ],
+                [
+                  2.291468,
+                  32.695989
+                ],
+                [
+                  3.738615,
+                  33.000467
+                ],
+                [
+                  3.764039,
+                  33.003412
+                ],
+                [
+                  4.176211,
+                  33.029638
+                ],
+                [
+                  4.97828,
+                  32.840761
+                ],
+                [
+                  3.802538,
+                  29.989849
+                ],
+                [
+                  3.72151,
+                  29.863345
+                ],
+                [
+                  3.39755,
+                  29.364875
+                ],
+                [
+                  3.344478,
+                  29.306558
+                ],
+                [
+                  2.985999,
+                  29.123546
+                ],
+                [
+                  2.079336,
+                  29.036367
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q17601",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ghardaïa Province"
+        }
+      ],
+      "properties": {
+        "title": "Ghardaïa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.018621,
+                  36.112034
+                ],
+                [
+                  6.937954,
+                  36.432867
+                ],
+                [
+                  6.961519,
+                  36.466353
+                ],
+                [
+                  7.10244,
+                  36.571179
+                ],
+                [
+                  7.123989,
+                  36.585829
+                ],
+                [
+                  7.347593,
+                  36.712643
+                ],
+                [
+                  7.367282,
+                  36.721376
+                ],
+                [
+                  7.384232,
+                  36.726131
+                ],
+                [
+                  7.697029,
+                  36.657737
+                ],
+                [
+                  7.707933,
+                  36.652104
+                ],
+                [
+                  7.965643,
+                  36.512216
+                ],
+                [
+                  7.974635,
+                  36.507281
+                ],
+                [
+                  7.978511,
+                  36.503147
+                ],
+                [
+                  7.979906,
+                  36.500847
+                ],
+                [
+                  7.987864,
+                  36.484388
+                ],
+                [
+                  7.829424,
+                  36.315045
+                ],
+                [
+                  7.81387,
+                  36.304916
+                ],
+                [
+                  7.357515,
+                  36.129759
+                ],
+                [
+                  7.133601,
+                  36.053149
+                ],
+                [
+                  7.106316,
+                  36.046017
+                ],
+                [
+                  7.078979,
+                  36.042503
+                ],
+                [
+                  7.066422,
+                  36.047283
+                ],
+                [
+                  7.023737,
+                  36.098624
+                ],
+                [
+                  7.018621,
+                  36.112034
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235727",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Guelma Province"
+        }
+      ],
+      "properties": {
+        "title": "Guelma Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.840398,
+                  27.202707
+                ],
+                [
+                  5.815749,
+                  27.321356
+                ],
+                [
+                  5.952743,
+                  28.490794
+                ],
+                [
+                  6.420931,
+                  28.73127
+                ],
+                [
+                  9.369485,
+                  30.022793
+                ],
+                [
+                  9.421729,
+                  29.968714
+                ],
+                [
+                  9.54968,
+                  29.802316
+                ],
+                [
+                  9.667709,
+                  29.608323
+                ],
+                [
+                  11.71014,
+                  24.000137
+                ],
+                [
+                  11.709859,
+                  24.000137
+                ],
+                [
+                  8.712471,
+                  24.001378
+                ],
+                [
+                  8.698674,
+                  24.003471
+                ],
+                [
+                  8.691697,
+                  24.006003
+                ],
+                [
+                  7.9489,
+                  24.369908
+                ],
+                [
+                  7.362166,
+                  24.673042
+                ],
+                [
+                  7.35643,
+                  24.676918
+                ],
+                [
+                  7.320153,
+                  24.702756
+                ],
+                [
+                  7.314107,
+                  24.707639
+                ],
+                [
+                  7.125385,
+                  24.895096
+                ],
+                [
+                  7.113757,
+                  24.909048
+                ],
+                [
+                  6.178827,
+                  26.231552
+                ],
+                [
+                  5.950418,
+                  26.861823
+                ],
+                [
+                  5.840398,
+                  27.202707
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233659",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Illizi Province"
+        }
+      ],
+      "properties": {
+        "title": "Illizi Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.427814,
+                  36.612753
+                ],
+                [
+                  5.427349,
+                  36.617248
+                ],
+                [
+                  5.428039,
+                  36.663878
+                ],
+                [
+                  5.593923,
+                  36.773871
+                ],
+                [
+                  5.71046,
+                  36.825507
+                ],
+                [
+                  5.733735,
+                  36.832343
+                ],
+                [
+                  6.247831,
+                  36.935315
+                ],
+                [
+                  6.25257,
+                  36.932656
+                ],
+                [
+                  6.269468,
+                  36.91878
+                ],
+                [
+                  6.331996,
+                  36.846743
+                ],
+                [
+                  6.474778,
+                  36.669054
+                ],
+                [
+                  6.478499,
+                  36.660372
+                ],
+                [
+                  6.457363,
+                  36.579886
+                ],
+                [
+                  5.869286,
+                  36.543093
+                ],
+                [
+                  5.554731,
+                  36.524076
+                ],
+                [
+                  5.542794,
+                  36.523972
+                ],
+                [
+                  5.532097,
+                  36.525471
+                ],
+                [
+                  5.52047,
+                  36.530484
+                ],
+                [
+                  5.510961,
+                  36.538519
+                ],
+                [
+                  5.427814,
+                  36.612753
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235718",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jijel Province"
+        }
+      ],
+      "properties": {
+        "title": "Jijel Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.51214,
+                  35.052383
+                ],
+                [
+                  6.5109,
+                  35.069178
+                ],
+                [
+                  6.513071,
+                  35.107754
+                ],
+                [
+                  6.514931,
+                  35.119717
+                ],
+                [
+                  6.587433,
+                  35.422205
+                ],
+                [
+                  6.592704,
+                  35.436959
+                ],
+                [
+                  6.769127,
+                  35.68392
+                ],
+                [
+                  7.249046,
+                  35.625164
+                ],
+                [
+                  7.267546,
+                  35.621237
+                ],
+                [
+                  7.28832,
+                  35.612607
+                ],
+                [
+                  7.385162,
+                  35.571757
+                ],
+                [
+                  7.462263,
+                  35.539123
+                ],
+                [
+                  7.470635,
+                  35.531578
+                ],
+                [
+                  7.544842,
+                  35.447811
+                ],
+                [
+                  7.402835,
+                  34.746045
+                ],
+                [
+                  7.400355,
+                  34.734521
+                ],
+                [
+                  7.397719,
+                  34.726382
+                ],
+                [
+                  7.204708,
+                  34.296615
+                ],
+                [
+                  7.135772,
+                  34.160577
+                ],
+                [
+                  7.017381,
+                  34.178508
+                ],
+                [
+                  6.960588,
+                  34.193934
+                ],
+                [
+                  6.744891,
+                  34.298734
+                ],
+                [
+                  6.71497,
+                  34.326613
+                ],
+                [
+                  6.695902,
+                  34.376093
+                ],
+                [
+                  6.573739,
+                  34.812113
+                ],
+                [
+                  6.51214,
+                  35.052383
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213950",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khenchela Province"
+        }
+      ],
+      "properties": {
+        "title": "Khenchela Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.389766,
+                  33.978185
+                ],
+                [
+                  1.336229,
+                  34.068929
+                ],
+                [
+                  1.770104,
+                  34.423584
+                ],
+                [
+                  1.806226,
+                  34.449086
+                ],
+                [
+                  1.832788,
+                  34.464305
+                ],
+                [
+                  2.220568,
+                  34.67468
+                ],
+                [
+                  2.238396,
+                  34.679951
+                ],
+                [
+                  2.315032,
+                  34.69119
+                ],
+                [
+                  2.357717,
+                  34.69287
+                ],
+                [
+                  3.093538,
+                  34.240029
+                ],
+                [
+                  3.103925,
+                  34.229746
+                ],
+                [
+                  4.05906,
+                  33.252518
+                ],
+                [
+                  4.084485,
+                  33.223993
+                ],
+                [
+                  4.117713,
+                  33.169294
+                ],
+                [
+                  4.165617,
+                  33.062659
+                ],
+                [
+                  4.176211,
+                  33.029638
+                ],
+                [
+                  3.321327,
+                  32.78079
+                ],
+                [
+                  3.295127,
+                  32.776992
+                ],
+                [
+                  2.291468,
+                  32.695989
+                ],
+                [
+                  1.389766,
+                  33.978185
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q231748",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Laghouat Province"
+        }
+      ],
+      "properties": {
+        "title": "Laghouat Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.473566,
+                  35.157958
+                ],
+                [
+                  3.379515,
+                  35.751203
+                ],
+                [
+                  3.394294,
+                  35.793836
+                ],
+                [
+                  3.400961,
+                  35.800192
+                ],
+                [
+                  3.411038,
+                  35.805928
+                ],
+                [
+                  3.62844,
+                  35.922795
+                ],
+                [
+                  4.08433,
+                  36.029093
+                ],
+                [
+                  4.494124,
+                  36.028447
+                ],
+                [
+                  4.500635,
+                  36.025708
+                ],
+                [
+                  4.865626,
+                  35.869542
+                ],
+                [
+                  5.379703,
+                  35.632916
+                ],
+                [
+                  5.041119,
+                  34.918644
+                ],
+                [
+                  5.028407,
+                  34.900196
+                ],
+                [
+                  5.001225,
+                  34.874357
+                ],
+                [
+                  4.31274,
+                  34.244137
+                ],
+                [
+                  4.297702,
+                  34.238996
+                ],
+                [
+                  4.28561,
+                  34.236464
+                ],
+                [
+                  4.213728,
+                  34.2322
+                ],
+                [
+                  4.197605,
+                  34.241192
+                ],
+                [
+                  4.068517,
+                  34.334545
+                ],
+                [
+                  4.047691,
+                  34.354079
+                ],
+                [
+                  3.671125,
+                  34.79028
+                ],
+                [
+                  3.658826,
+                  34.805576
+                ],
+                [
+                  3.60963,
+                  34.872239
+                ],
+                [
+                  3.599243,
+                  34.886321
+                ],
+                [
+                  3.476667,
+                  35.147932
+                ],
+                [
+                  3.473566,
+                  35.157958
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q240870",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "M'Sila Province"
+        }
+      ],
+      "properties": {
+        "title": "M'Sila Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.165178,
+                  35.122921
+                ],
+                [
+                  -0.545362,
+                  35.411973
+                ],
+                [
+                  -0.541951,
+                  35.420474
+                ],
+                [
+                  -0.500713,
+                  35.482641
+                ],
+                [
+                  -0.498233,
+                  35.486206
+                ],
+                [
+                  -0.407334,
+                  35.574108
+                ],
+                [
+                  -0.302482,
+                  35.669399
+                ],
+                [
+                  -0.11438,
+                  35.783759
+                ],
+                [
+                  0.104469,
+                  35.756732
+                ],
+                [
+                  0.109895,
+                  35.755441
+                ],
+                [
+                  0.827888,
+                  35.44347
+                ],
+                [
+                  0.880494,
+                  35.386367
+                ],
+                [
+                  0.878169,
+                  35.37474
+                ],
+                [
+                  0.867627,
+                  35.358049
+                ],
+                [
+                  0.819981,
+                  35.306114
+                ],
+                [
+                  0.802101,
+                  35.290456
+                ],
+                [
+                  0.492249,
+                  35.086334
+                ],
+                [
+                  0.44879,
+                  35.059075
+                ],
+                [
+                  0.431426,
+                  35.050729
+                ],
+                [
+                  0.40936,
+                  35.046621
+                ],
+                [
+                  0.209838,
+                  35.02148
+                ],
+                [
+                  0.189994,
+                  35.023496
+                ],
+                [
+                  -0.014335,
+                  35.063855
+                ],
+                [
+                  -0.165178,
+                  35.122921
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236776",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mascara Province"
+        }
+      ],
+      "properties": {
+        "title": "Mascara Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.766243,
+                  36.452607
+                ],
+                [
+                  5.737201,
+                  36.555133
+                ],
+                [
+                  5.775699,
+                  36.562807
+                ],
+                [
+                  6.003179,
+                  36.603296
+                ],
+                [
+                  6.02323,
+                  36.605931
+                ],
+                [
+                  6.294583,
+                  36.62407
+                ],
+                [
+                  6.303006,
+                  36.624251
+                ],
+                [
+                  6.504079,
+                  36.577716
+                ],
+                [
+                  6.525008,
+                  36.204664
+                ],
+                [
+                  6.516326,
+                  36.165648
+                ],
+                [
+                  6.395765,
+                  36.028757
+                ],
+                [
+                  6.378557,
+                  36.013254
+                ],
+                [
+                  6.35029,
+                  35.997441
+                ],
+                [
+                  6.149217,
+                  35.900393
+                ],
+                [
+                  6.068033,
+                  35.892797
+                ],
+                [
+                  6.027725,
+                  35.900961
+                ],
+                [
+                  5.976669,
+                  35.915793
+                ],
+                [
+                  5.766243,
+                  36.452607
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235723",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mila Province"
+        }
+      ],
+      "properties": {
+        "title": "Mila Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.113398,
+                  35.777093
+                ],
+                [
+                  -0.11438,
+                  35.783759
+                ],
+                [
+                  -0.113678,
+                  35.788804
+                ],
+                [
+                  0.127289,
+                  36.050767
+                ],
+                [
+                  0.202159,
+                  36.106513
+                ],
+                [
+                  0.342296,
+                  36.205959
+                ],
+                [
+                  0.360037,
+                  36.213853
+                ],
+                [
+                  0.644054,
+                  36.328843
+                ],
+                [
+                  0.663259,
+                  36.332587
+                ],
+                [
+                  0.740408,
+                  36.337755
+                ],
+                [
+                  0.741278,
+                  36.317396
+                ],
+                [
+                  0.739108,
+                  36.299077
+                ],
+                [
+                  0.735077,
+                  36.285486
+                ],
+                [
+                  0.704071,
+                  36.186525
+                ],
+                [
+                  0.431271,
+                  35.826806
+                ],
+                [
+                  0.423985,
+                  35.817633
+                ],
+                [
+                  0.412926,
+                  35.806807
+                ],
+                [
+                  0.392462,
+                  35.790865
+                ],
+                [
+                  0.229371,
+                  35.695935
+                ],
+                [
+                  0.155836,
+                  35.68206
+                ],
+                [
+                  0.152115,
+                  35.682628
+                ],
+                [
+                  -0.038623,
+                  35.713505
+                ],
+                [
+                  -0.043997,
+                  35.714461
+                ],
+                [
+                  -0.091333,
+                  35.735003
+                ],
+                [
+                  -0.098154,
+                  35.741281
+                ],
+                [
+                  -0.1119,
+                  35.773372
+                ],
+                [
+                  -0.113398,
+                  35.777093
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q221445",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mostaganem Province"
+        }
+      ],
+      "properties": {
+        "title": "Mostaganem Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.160365,
+                  35.684075
+                ],
+                [
+                  2.158194,
+                  35.698235
+                ],
+                [
+                  2.16269,
+                  35.708983
+                ],
+                [
+                  2.491352,
+                  36.266986
+                ],
+                [
+                  2.497708,
+                  36.273548
+                ],
+                [
+                  2.520343,
+                  36.294736
+                ],
+                [
+                  2.526854,
+                  36.300007
+                ],
+                [
+                  2.661109,
+                  36.363104
+                ],
+                [
+                  3.220042,
+                  36.481236
+                ],
+                [
+                  3.283035,
+                  36.490176
+                ],
+                [
+                  3.508964,
+                  36.43881
+                ],
+                [
+                  3.545551,
+                  36.428733
+                ],
+                [
+                  3.555525,
+                  36.422945
+                ],
+                [
+                  3.560486,
+                  36.412041
+                ],
+                [
+                  3.58095,
+                  36.349151
+                ],
+                [
+                  3.58312,
+                  36.338661
+                ],
+                [
+                  3.633866,
+                  35.889541
+                ],
+                [
+                  3.630921,
+                  35.880394
+                ],
+                [
+                  3.551442,
+                  35.678701
+                ],
+                [
+                  3.543226,
+                  35.672397
+                ],
+                [
+                  2.671031,
+                  35.446571
+                ],
+                [
+                  2.653771,
+                  35.442385
+                ],
+                [
+                  2.636873,
+                  35.441842
+                ],
+                [
+                  2.285732,
+                  35.439077
+                ],
+                [
+                  2.160365,
+                  35.684075
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235810",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Medea Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Médéa Province"
+        }
+      ],
+      "properties": {
+        "title": "Médéa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.683381,
+                  33.270839
+                ],
+                [
+                  -1.746788,
+                  33.702388
+                ],
+                [
+                  -1.718728,
+                  33.898087
+                ],
+                [
+                  -1.672085,
+                  34.092021
+                ],
+                [
+                  -1.658265,
+                  34.100141
+                ],
+                [
+                  -1.479878,
+                  34.190523
+                ],
+                [
+                  -1.443498,
+                  34.198714
+                ],
+                [
+                  -1.120417,
+                  34.271293
+                ],
+                [
+                  -0.597813,
+                  34.31372
+                ],
+                [
+                  -0.578176,
+                  34.312945
+                ],
+                [
+                  -0.557351,
+                  34.308449
+                ],
+                [
+                  0.086021,
+                  34.04831
+                ],
+                [
+                  0.068089,
+                  33.376077
+                ],
+                [
+                  0.06349,
+                  33.308096
+                ],
+                [
+                  -0.003586,
+                  32.443963
+                ],
+                [
+                  -0.011958,
+                  32.401201
+                ],
+                [
+                  -0.039449,
+                  32.327304
+                ],
+                [
+                  -0.845085,
+                  32.11003
+                ],
+                [
+                  -0.895625,
+                  32.10463
+                ],
+                [
+                  -0.918207,
+                  32.10773
+                ],
+                [
+                  -1.273423,
+                  32.229442
+                ],
+                [
+                  -1.558789,
+                  32.93365
+                ],
+                [
+                  -1.674234,
+                  33.237972
+                ],
+                [
+                  -1.683381,
+                  33.270839
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233675",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Naama Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naâma Province"
+        }
+      ],
+      "properties": {
+        "title": "Naama Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.070601,
+                  35.424556
+                ],
+                [
+                  -1.106353,
+                  35.623236
+                ],
+                [
+                  -1.032948,
+                  35.682603
+                ],
+                [
+                  -0.946278,
+                  35.719306
+                ],
+                [
+                  -0.825022,
+                  35.768541
+                ],
+                [
+                  -0.479482,
+                  35.890041
+                ],
+                [
+                  -0.473785,
+                  35.891262
+                ],
+                [
+                  -0.348541,
+                  35.90705
+                ],
+                [
+                  -0.336171,
+                  35.900824
+                ],
+                [
+                  -0.113678,
+                  35.788804
+                ],
+                [
+                  -0.11438,
+                  35.783759
+                ],
+                [
+                  -0.203574,
+                  35.695031
+                ],
+                [
+                  -0.611766,
+                  35.310403
+                ],
+                [
+                  -0.621843,
+                  35.303582
+                ],
+                [
+                  -0.632281,
+                  35.298156
+                ],
+                [
+                  -0.645097,
+                  35.294538
+                ],
+                [
+                  -0.655071,
+                  35.297174
+                ],
+                [
+                  -1.059025,
+                  35.411534
+                ],
+                [
+                  -1.067035,
+                  35.416133
+                ],
+                [
+                  -1.070601,
+                  35.424556
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q231331",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oran Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oran Wilaya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oran, Algeria"
+        }
+      ],
+      "properties": {
+        "title": "Oran Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.815561,
+                  28.545906
+                ],
+                [
+                  2.985999,
+                  29.123546
+                ],
+                [
+                  4.11084,
+                  31.791393
+                ],
+                [
+                  4.20179,
+                  31.97394
+                ],
+                [
+                  4.322041,
+                  32.200205
+                ],
+                [
+                  5.008046,
+                  33.441887
+                ],
+                [
+                  6.192987,
+                  33.376981
+                ],
+                [
+                  6.378557,
+                  33.317553
+                ],
+                [
+                  9.063304,
+                  32.000192
+                ],
+                [
+                  9.094514,
+                  31.879606
+                ],
+                [
+                  9.434752,
+                  30.559066
+                ],
+                [
+                  9.463071,
+                  30.449047
+                ],
+                [
+                  9.519708,
+                  30.228905
+                ],
+                [
+                  9.369485,
+                  30.022793
+                ],
+                [
+                  7.146365,
+                  28.839377
+                ],
+                [
+                  5.952743,
+                  28.490794
+                ],
+                [
+                  4.750491,
+                  28.461855
+                ],
+                [
+                  3.815561,
+                  28.545906
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235709",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ouargla Province"
+        }
+      ],
+      "properties": {
+        "title": "Ouargla Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.149217,
+                  35.900393
+                ],
+                [
+                  6.148442,
+                  35.927471
+                ],
+                [
+                  6.151387,
+                  35.935275
+                ],
+                [
+                  6.158519,
+                  35.945041
+                ],
+                [
+                  6.446976,
+                  36.144667
+                ],
+                [
+                  6.477104,
+                  36.15862
+                ],
+                [
+                  6.492142,
+                  36.163193
+                ],
+                [
+                  6.5078,
+                  36.165958
+                ],
+                [
+                  6.772693,
+                  36.192442
+                ],
+                [
+                  6.786801,
+                  36.191435
+                ],
+                [
+                  7.290801,
+                  36.143324
+                ],
+                [
+                  7.779453,
+                  35.925611
+                ],
+                [
+                  7.796196,
+                  35.916283
+                ],
+                [
+                  7.865856,
+                  35.858716
+                ],
+                [
+                  7.864616,
+                  35.821199
+                ],
+                [
+                  7.843842,
+                  35.629479
+                ],
+                [
+                  7.840741,
+                  35.615165
+                ],
+                [
+                  7.544842,
+                  35.447811
+                ],
+                [
+                  6.824989,
+                  35.623562
+                ],
+                [
+                  6.149217,
+                  35.900393
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235705",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oum El Bouaghi Province"
+        }
+      ],
+      "properties": {
+        "title": "Oum El Bouaghi Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  0.29314,
+                  35.584185
+                ],
+                [
+                  0.229371,
+                  35.695935
+                ],
+                [
+                  0.235883,
+                  35.711929
+                ],
+                [
+                  0.451735,
+                  35.951966
+                ],
+                [
+                  0.548267,
+                  36.05475
+                ],
+                [
+                  0.704071,
+                  36.186525
+                ],
+                [
+                  0.870107,
+                  36.200866
+                ],
+                [
+                  0.886541,
+                  36.201357
+                ],
+                [
+                  0.897393,
+                  36.197636
+                ],
+                [
+                  1.288893,
+                  35.965867
+                ],
+                [
+                  1.294784,
+                  35.960596
+                ],
+                [
+                  1.411625,
+                  35.841559
+                ],
+                [
+                  1.404183,
+                  35.816522
+                ],
+                [
+                  1.245588,
+                  35.647333
+                ],
+                [
+                  0.873673,
+                  35.438406
+                ],
+                [
+                  0.866077,
+                  35.43608
+                ],
+                [
+                  0.858119,
+                  35.436339
+                ],
+                [
+                  0.847887,
+                  35.437992
+                ],
+                [
+                  0.781327,
+                  35.45055
+                ],
+                [
+                  0.319082,
+                  35.557778
+                ],
+                [
+                  0.304974,
+                  35.56801
+                ],
+                [
+                  0.29314,
+                  35.584185
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236758",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Relizane Province"
+        }
+      ],
+      "properties": {
+        "title": "Relizane Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.494822,
+                  34.173806
+                ],
+                [
+                  -0.49968,
+                  34.193159
+                ],
+                [
+                  -0.498129,
+                  34.205587
+                ],
+                [
+                  -0.367905,
+                  34.874461
+                ],
+                [
+                  -0.250703,
+                  35.093569
+                ],
+                [
+                  -0.246879,
+                  35.098892
+                ],
+                [
+                  -0.242641,
+                  35.10225
+                ],
+                [
+                  -0.237577,
+                  35.104731
+                ],
+                [
+                  -0.119703,
+                  35.157544
+                ],
+                [
+                  -0.111693,
+                  35.160593
+                ],
+                [
+                  0.625058,
+                  35.09592
+                ],
+                [
+                  0.65255,
+                  35.089796
+                ],
+                [
+                  0.754197,
+                  35.007838
+                ],
+                [
+                  0.774506,
+                  34.984583
+                ],
+                [
+                  0.781637,
+                  34.972698
+                ],
+                [
+                  0.785048,
+                  34.957867
+                ],
+                [
+                  0.856878,
+                  34.499858
+                ],
+                [
+                  0.856258,
+                  34.49743
+                ],
+                [
+                  0.853933,
+                  34.491719
+                ],
+                [
+                  0.847732,
+                  34.484252
+                ],
+                [
+                  0.837655,
+                  34.47725
+                ],
+                [
+                  0.086021,
+                  34.04831
+                ],
+                [
+                  0.000031,
+                  34.006813
+                ],
+                [
+                  -0.0441,
+                  33.987254
+                ],
+                [
+                  -0.049733,
+                  33.985704
+                ],
+                [
+                  -0.356123,
+                  33.915036
+                ],
+                [
+                  -0.361084,
+                  33.916457
+                ],
+                [
+                  -0.366561,
+                  33.920333
+                ],
+                [
+                  -0.384028,
+                  33.938601
+                ],
+                [
+                  -0.387645,
+                  33.946094
+                ],
+                [
+                  -0.488879,
+                  34.158122
+                ],
+                [
+                  -0.494822,
+                  34.173806
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233640",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saïda Province"
+        }
+      ],
+      "properties": {
+        "title": "Saïda Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.094269,
+                  34.258168
+                ],
+                [
+                  -1.120417,
+                  34.271293
+                ],
+                [
+                  -1.000528,
+                  35.087393
+                ],
+                [
+                  -0.880845,
+                  35.254308
+                ],
+                [
+                  -0.869786,
+                  35.260742
+                ],
+                [
+                  -0.753669,
+                  35.318258
+                ],
+                [
+                  -0.560658,
+                  35.41019
+                ],
+                [
+                  -0.555594,
+                  35.412361
+                ],
+                [
+                  -0.464436,
+                  35.429388
+                ],
+                [
+                  -0.459372,
+                  35.427347
+                ],
+                [
+                  -0.206158,
+                  35.30999
+                ],
+                [
+                  -0.198458,
+                  35.305804
+                ],
+                [
+                  -0.189208,
+                  35.299319
+                ],
+                [
+                  -0.055004,
+                  34.604038
+                ],
+                [
+                  -0.052575,
+                  34.587553
+                ],
+                [
+                  -0.052834,
+                  34.581404
+                ],
+                [
+                  -0.055314,
+                  34.567709
+                ],
+                [
+                  -0.060895,
+                  34.550088
+                ],
+                [
+                  -0.068492,
+                  34.53474
+                ],
+                [
+                  -0.071902,
+                  34.529701
+                ],
+                [
+                  -0.485727,
+                  34.229332
+                ],
+                [
+                  -0.836197,
+                  34.215121
+                ],
+                [
+                  -0.912109,
+                  34.220185
+                ],
+                [
+                  -1.063315,
+                  34.249486
+                ],
+                [
+                  -1.08073,
+                  34.252897
+                ],
+                [
+                  -1.094269,
+                  34.258168
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235714",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sidi Bel Abbes Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sidi Bel Abbès Province"
+        }
+      ],
+      "properties": {
+        "title": "Sidi Bel Abbès Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.271328,
+                  36.870411
+                ],
+                [
+                  6.247831,
+                  36.935315
+                ],
+                [
+                  6.254405,
+                  36.998969
+                ],
+                [
+                  6.266856,
+                  37.017768
+                ],
+                [
+                  6.274425,
+                  37.024237
+                ],
+                [
+                  6.338715,
+                  37.069281
+                ],
+                [
+                  6.371593,
+                  37.083482
+                ],
+                [
+                  6.415782,
+                  37.092963
+                ],
+                [
+                  6.462413,
+                  37.09394
+                ],
+                [
+                  7.222667,
+                  37.089789
+                ],
+                [
+                  7.232758,
+                  37.087226
+                ],
+                [
+                  7.262677,
+                  37.076005
+                ],
+                [
+                  7.363871,
+                  36.881108
+                ],
+                [
+                  7.384232,
+                  36.726131
+                ],
+                [
+                  7.314727,
+                  36.651613
+                ],
+                [
+                  7.071538,
+                  36.499271
+                ],
+                [
+                  6.937954,
+                  36.432867
+                ],
+                [
+                  6.863798,
+                  36.44806
+                ],
+                [
+                  6.832431,
+                  36.455734
+                ],
+                [
+                  6.457363,
+                  36.579886
+                ],
+                [
+                  6.271328,
+                  36.870411
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q234227",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Skikda Province"
+        }
+      ],
+      "properties": {
+        "title": "Skikda Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.368264,
+                  36.00279
+                ],
+                [
+                  7.324959,
+                  36.08002
+                ],
+                [
+                  7.325889,
+                  36.127408
+                ],
+                [
+                  7.795266,
+                  36.44098
+                ],
+                [
+                  7.987864,
+                  36.484388
+                ],
+                [
+                  8.16789,
+                  36.491995
+                ],
+                [
+                  8.295597,
+                  36.46868
+                ],
+                [
+                  8.333837,
+                  36.456381
+                ],
+                [
+                  8.349237,
+                  36.448784
+                ],
+                [
+                  8.357712,
+                  36.430387
+                ],
+                [
+                  8.359675,
+                  36.411215
+                ],
+                [
+                  8.358125,
+                  36.369926
+                ],
+                [
+                  8.317094,
+                  36.145909
+                ],
+                [
+                  8.272446,
+                  35.981732
+                ],
+                [
+                  8.268423,
+                  35.969864
+                ],
+                [
+                  7.865856,
+                  35.858716
+                ],
+                [
+                  7.641632,
+                  35.830992
+                ],
+                [
+                  7.577243,
+                  35.833498
+                ],
+                [
+                  7.563911,
+                  35.83988
+                ],
+                [
+                  7.452031,
+                  35.9191
+                ],
+                [
+                  7.398339,
+                  35.967004
+                ],
+                [
+                  7.368264,
+                  36.00279
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q236772",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Souk Ahras Province"
+        }
+      ],
+      "properties": {
+        "title": "Souk Ahras Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.78992,
+                  36.333855
+                ],
+                [
+                  4.785217,
+                  36.346645
+                ],
+                [
+                  4.786303,
+                  36.358401
+                ],
+                [
+                  4.7893,
+                  36.365946
+                ],
+                [
+                  4.801082,
+                  36.379744
+                ],
+                [
+                  4.956421,
+                  36.509503
+                ],
+                [
+                  5.076517,
+                  36.574305
+                ],
+                [
+                  5.08985,
+                  36.577096
+                ],
+                [
+                  5.101632,
+                  36.577664
+                ],
+                [
+                  5.475459,
+                  36.590635
+                ],
+                [
+                  5.737201,
+                  36.555133
+                ],
+                [
+                  5.75229,
+                  36.542395
+                ],
+                [
+                  5.757871,
+                  36.536323
+                ],
+                [
+                  5.862774,
+                  36.419664
+                ],
+                [
+                  5.872386,
+                  36.401887
+                ],
+                [
+                  5.933519,
+                  36.224973
+                ],
+                [
+                  5.983335,
+                  36.058471
+                ],
+                [
+                  5.978529,
+                  35.946385
+                ],
+                [
+                  5.976669,
+                  35.915793
+                ],
+                [
+                  5.949797,
+                  35.86546
+                ],
+                [
+                  5.736425,
+                  35.771047
+                ],
+                [
+                  5.438201,
+                  35.641856
+                ],
+                [
+                  5.423473,
+                  35.635655
+                ],
+                [
+                  5.40952,
+                  35.632399
+                ],
+                [
+                  5.379703,
+                  35.632916
+                ],
+                [
+                  5.226224,
+                  35.664025
+                ],
+                [
+                  5.199404,
+                  35.677202
+                ],
+                [
+                  5.079618,
+                  35.752262
+                ],
+                [
+                  5.065769,
+                  35.762081
+                ],
+                [
+                  5.060343,
+                  35.76805
+                ],
+                [
+                  5.054452,
+                  35.777326
+                ],
+                [
+                  4.78992,
+                  36.333855
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q237164",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Setif Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sétif Province"
+        }
+      ],
+      "properties": {
+        "title": "Sétif Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.300055,
+                  22.270114
+                ],
+                [
+                  0.825407,
+                  26.268836
+                ],
+                [
+                  2.079336,
+                  29.036367
+                ],
+                [
+                  2.985999,
+                  29.123546
+                ],
+                [
+                  5.952743,
+                  28.490794
+                ],
+                [
+                  6.450232,
+                  28.141719
+                ],
+                [
+                  11.71014,
+                  24.000137
+                ],
+                [
+                  11.968861,
+                  23.517351
+                ],
+                [
+                  5.794302,
+                  19.449796
+                ],
+                [
+                  5.749344,
+                  19.433699
+                ],
+                [
+                  5.620463,
+                  19.408997
+                ],
+                [
+                  4.22861,
+                  19.142244
+                ],
+                [
+                  3.886512,
+                  19.07863
+                ],
+                [
+                  3.790291,
+                  19.06077
+                ],
+                [
+                  1.319021,
+                  22.237144
+                ],
+                [
+                  1.300055,
+                  22.270114
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q229467",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tamanghasset Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tamanrasset Province"
+        }
+      ],
+      "properties": {
+        "title": "Tamanghasset Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  0.757608,
+                  34.438182
+                ],
+                [
+                  0.492249,
+                  35.086334
+                ],
+                [
+                  0.513798,
+                  35.1346
+                ],
+                [
+                  0.604129,
+                  35.261646
+                ],
+                [
+                  0.617771,
+                  35.276038
+                ],
+                [
+                  0.827888,
+                  35.44347
+                ],
+                [
+                  0.959456,
+                  35.547753
+                ],
+                [
+                  0.969998,
+                  35.553567
+                ],
+                [
+                  1.010977,
+                  35.575038
+                ],
+                [
+                  1.018729,
+                  35.578449
+                ],
+                [
+                  1.18554,
+                  35.640228
+                ],
+                [
+                  1.333748,
+                  35.688055
+                ],
+                [
+                  1.346461,
+                  35.689812
+                ],
+                [
+                  2.249713,
+                  35.559613
+                ],
+                [
+                  2.616719,
+                  35.042357
+                ],
+                [
+                  2.620285,
+                  35.031144
+                ],
+                [
+                  2.357717,
+                  34.69287
+                ],
+                [
+                  1.336229,
+                  34.068929
+                ],
+                [
+                  1.02369,
+                  34.191247
+                ],
+                [
+                  0.757608,
+                  34.438182
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233258",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tiaret Province"
+        }
+      ],
+      "properties": {
+        "title": "Tiaret Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -5.804628,
+                  25.592961
+                ],
+                [
+                  -8.682385,
+                  27.285416
+                ],
+                [
+                  -8.682385,
+                  28.6659
+                ],
+                [
+                  -8.678768,
+                  28.692823
+                ],
+                [
+                  -8.667606,
+                  28.711685
+                ],
+                [
+                  -8.648847,
+                  28.725948
+                ],
+                [
+                  -8.368451,
+                  28.916531
+                ],
+                [
+                  -8.250474,
+                  28.994769
+                ],
+                [
+                  -7.653611,
+                  29.376193
+                ],
+                [
+                  -7.619453,
+                  29.389422
+                ],
+                [
+                  -7.146934,
+                  29.509238
+                ],
+                [
+                  -7.070057,
+                  29.516227
+                ],
+                [
+                  -6.27333,
+                  29.579127
+                ],
+                [
+                  -6.000765,
+                  29.579127
+                ],
+                [
+                  -3.750644,
+                  28.566887
+                ],
+                [
+                  -2.974257,
+                  27.203275
+                ],
+                [
+                  -5.661525,
+                  25.508881
+                ],
+                [
+                  -5.804628,
+                  25.592961
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q231151",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tindouf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tindouf"
+        }
+      ],
+      "properties": {
+        "title": "Tindouf Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.708351,
+                  36.367677
+                ],
+                [
+                  1.647786,
+                  36.443151
+                ],
+                [
+                  1.651869,
+                  36.461082
+                ],
+                [
+                  1.700938,
+                  36.547187
+                ],
+                [
+                  1.750173,
+                  36.559149
+                ],
+                [
+                  1.761241,
+                  36.561591
+                ],
+                [
+                  2.933116,
+                  36.80858
+                ],
+                [
+                  2.977061,
+                  36.815863
+                ],
+                [
+                  2.984874,
+                  36.814968
+                ],
+                [
+                  3.026668,
+                  36.73334
+                ],
+                [
+                  3.03473,
+                  36.674222
+                ],
+                [
+                  3.03504,
+                  36.670966
+                ],
+                [
+                  3.033955,
+                  36.666238
+                ],
+                [
+                  3.029924,
+                  36.662233
+                ],
+                [
+                  3.022793,
+                  36.658745
+                ],
+                [
+                  2.602456,
+                  36.467438
+                ],
+                [
+                  2.476263,
+                  36.42062
+                ],
+                [
+                  1.716722,
+                  36.366669
+                ],
+                [
+                  1.708351,
+                  36.367677
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235814",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tipasa Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tipaza Province"
+        }
+      ],
+      "properties": {
+        "title": "Tipasa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.26967,
+                  35.622658
+                ],
+                [
+                  1.245588,
+                  35.647333
+                ],
+                [
+                  1.263623,
+                  35.749446
+                ],
+                [
+                  1.267809,
+                  35.764432
+                ],
+                [
+                  1.275716,
+                  35.775491
+                ],
+                [
+                  1.548361,
+                  36.003953
+                ],
+                [
+                  1.553322,
+                  36.005658
+                ],
+                [
+                  1.562313,
+                  36.004831
+                ],
+                [
+                  2.171682,
+                  35.917601
+                ],
+                [
+                  2.196331,
+                  35.911555
+                ],
+                [
+                  2.311777,
+                  35.866958
+                ],
+                [
+                  2.26103,
+                  35.605579
+                ],
+                [
+                  2.249713,
+                  35.559613
+                ],
+                [
+                  2.079801,
+                  35.544032
+                ],
+                [
+                  1.65807,
+                  35.547934
+                ],
+                [
+                  1.634609,
+                  35.550466
+                ],
+                [
+                  1.279747,
+                  35.619066
+                ],
+                [
+                  1.26967,
+                  35.622658
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235805",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tissemsilt Province"
+        }
+      ],
+      "properties": {
+        "title": "Tissemsilt Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.761869,
+                  36.567794
+                ],
+                [
+                  3.733654,
+                  36.607611
+                ],
+                [
+                  3.735514,
+                  36.640761
+                ],
+                [
+                  3.738304,
+                  36.647918
+                ],
+                [
+                  3.744661,
+                  36.656264
+                ],
+                [
+                  4.039463,
+                  36.89692
+                ],
+                [
+                  4.261974,
+                  36.911607
+                ],
+                [
+                  4.440684,
+                  36.911607
+                ],
+                [
+                  4.591482,
+                  36.89525
+                ],
+                [
+                  4.642642,
+                  36.811707
+                ],
+                [
+                  4.646673,
+                  36.804136
+                ],
+                [
+                  4.648068,
+                  36.79548
+                ],
+                [
+                  4.646518,
+                  36.785171
+                ],
+                [
+                  4.640317,
+                  36.762924
+                ],
+                [
+                  4.592051,
+                  36.661613
+                ],
+                [
+                  4.537739,
+                  36.581333
+                ],
+                [
+                  4.528127,
+                  36.568543
+                ],
+                [
+                  4.453661,
+                  36.501545
+                ],
+                [
+                  4.450044,
+                  36.499064
+                ],
+                [
+                  4.426635,
+                  36.488522
+                ],
+                [
+                  4.370927,
+                  36.472658
+                ],
+                [
+                  4.309329,
+                  36.470048
+                ],
+                [
+                  4.186287,
+                  36.46625
+                ],
+                [
+                  3.936122,
+                  36.474415
+                ],
+                [
+                  3.888786,
+                  36.488522
+                ],
+                [
+                  3.851424,
+                  36.506299
+                ],
+                [
+                  3.792306,
+                  36.546762
+                ],
+                [
+                  3.761869,
+                  36.567794
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233645",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tizi Ouzou Province"
+        }
+      ],
+      "properties": {
+        "title": "Tizi Ouzou Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.221126,
+                  35.049955
+                ],
+                [
+                  -2.222564,
+                  35.089301
+                ],
+                [
+                  -2.200103,
+                  35.096137
+                ],
+                [
+                  -1.510365,
+                  35.295478
+                ],
+                [
+                  -1.490875,
+                  35.300971
+                ],
+                [
+                  -1.361976,
+                  35.319899
+                ],
+                [
+                  -1.333324,
+                  35.302187
+                ],
+                [
+                  -0.933193,
+                  35.051814
+                ],
+                [
+                  -0.929834,
+                  35.047163
+                ],
+                [
+                  -0.758837,
+                  34.718915
+                ],
+                [
+                  -0.758475,
+                  34.711913
+                ],
+                [
+                  -0.761162,
+                  34.702378
+                ],
+                [
+                  -0.875832,
+                  34.475364
+                ],
+                [
+                  -0.880018,
+                  34.467612
+                ],
+                [
+                  -0.895935,
+                  34.451748
+                ],
+                [
+                  -1.120417,
+                  34.271293
+                ],
+                [
+                  -1.138504,
+                  34.259408
+                ],
+                [
+                  -1.149976,
+                  34.25331
+                ],
+                [
+                  -1.24227,
+                  34.20892
+                ],
+                [
+                  -1.249918,
+                  34.206233
+                ],
+                [
+                  -1.672085,
+                  34.092021
+                ],
+                [
+                  -2.211669,
+                  35.023445
+                ],
+                [
+                  -2.221126,
+                  35.049955
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233632",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tlemcen Province"
+        }
+      ],
+      "properties": {
+        "title": "Tlemcen Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.202382,
+                  34.130992
+                ],
+                [
+                  7.135772,
+                  34.160577
+                ],
+                [
+                  7.219746,
+                  34.937842
+                ],
+                [
+                  7.222226,
+                  34.946291
+                ],
+                [
+                  7.413067,
+                  35.386626
+                ],
+                [
+                  7.902495,
+                  35.900238
+                ],
+                [
+                  7.90637,
+                  35.903494
+                ],
+                [
+                  7.984919,
+                  35.963593
+                ],
+                [
+                  7.99174,
+                  35.967159
+                ],
+                [
+                  8.002747,
+                  35.971293
+                ],
+                [
+                  8.037474,
+                  35.977649
+                ],
+                [
+                  8.194053,
+                  36.004211
+                ],
+                [
+                  8.199944,
+                  36.003074
+                ],
+                [
+                  8.268423,
+                  35.969864
+                ],
+                [
+                  8.431299,
+                  35.241726
+                ],
+                [
+                  8.236479,
+                  34.647654
+                ],
+                [
+                  8.228831,
+                  34.63644
+                ],
+                [
+                  8.17519,
+                  34.58528
+                ],
+                [
+                  8.167232,
+                  34.578562
+                ],
+                [
+                  7.752787,
+                  34.232149
+                ],
+                [
+                  7.539228,
+                  34.113758
+                ],
+                [
+                  7.327594,
+                  34.108306
+                ],
+                [
+                  7.271112,
+                  34.113835
+                ],
+                [
+                  7.202382,
+                  34.130992
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q267224",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tebessa Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tébessa Province"
+        }
+      ],
+      "properties": {
+        "title": "Tébessa Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    }
+  ],
+  "title": "Algerian provinces",
+  "type": "FeatureCollection"
+}

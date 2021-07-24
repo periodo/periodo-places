@@ -1,0 +1,194 @@
+{
+  "Adrar Province": {
+    "id": "http://www.wikidata.org/entity/Q188166",
+    "covers": [ "Adrar" ]
+  },
+  "Aïn Defla Province": {
+    "id": "http://www.wikidata.org/entity/Q168953",
+    "covers": [ "Aïn Defla" ]
+  },
+  "Aïn Témouchent Province": {
+    "id": "http://www.wikidata.org/entity/Q233670",
+    "covers": [ "Aïn Témouchent" ]
+  },
+  "Algiers Province": {
+    "id": "http://www.wikidata.org/entity/Q141026",
+    "covers": [ "Alger" ]
+  },
+  "Annaba Province": {
+    "id": "http://www.wikidata.org/entity/Q213944",
+    "covers": [ "Annaba" ]
+  },
+  "Batna Province": {
+    "id": "http://www.wikidata.org/entity/Q215452",
+    "covers": [ "Batna" ]
+  },
+  "Béchar Province": {
+    "id": "http://www.wikidata.org/entity/Q215467",
+    "covers": [ "Béchar" ]
+  },
+  "Béjaïa Province": {
+    "id": "http://www.wikidata.org/entity/Q233665",
+    "covers": [ "Béjaïa" ]
+  },
+  "Biskra Province": {
+    "id": "http://www.wikidata.org/entity/Q458402",
+    "covers": [ "Biskra" ]
+  },
+  "Blida Province": {
+    "id": "http://www.wikidata.org/entity/Q233637",
+    "covers": [ "Blida" ]
+  },
+  "Bordj Bou Arréridj Province": {
+    "id": "http://www.wikidata.org/entity/Q266411",
+    "covers": [ "Bordj Bou Arréridj" ]
+  },
+  "Bouïra Province": {
+    "id": "http://www.wikidata.org/entity/Q233655",
+    "covers": [ "Bouira" ]
+  },
+  "Boumerdès Province": {
+    "id": "http://www.wikidata.org/entity/Q236752",
+    "covers": [ "Boumerdès" ]
+  },
+  "Chlef Province": {
+    "id": "http://www.wikidata.org/entity/Q231752",
+    "covers": [ "Chlef" ]
+  },
+  "Constantine Province": {
+    "id": "http://www.wikidata.org/entity/Q232043",
+    "covers": [ "Constantine" ]
+  },
+  "Djelfa Province": {
+    "id": "http://www.wikidata.org/entity/Q233233",
+    "covers": [ "Djelfa" ]
+  },
+  "El Bayadh Province": {
+    "id": "http://www.wikidata.org/entity/Q235703",
+    "covers": [ "El Bayadh" ]
+  },
+  "El Oued Province": {
+    "id": "http://www.wikidata.org/entity/Q233651",
+    "covers": [ "El Oued" ]
+  },
+  "El Tarf Province": {
+    "id": "http://www.wikidata.org/entity/Q236788",
+    "covers": [ "El Tarf" ]
+  },
+  "Ghardaïa Province": {
+    "id": "http://www.wikidata.org/entity/Q17601",
+    "covers": [ "Ghardaïa" ]
+  },
+  "Guelma Province": {
+    "id": "http://www.wikidata.org/entity/Q235727",
+    "covers": [ "Guelma" ]
+  },
+  "Illizi Province": {
+    "id": "http://www.wikidata.org/entity/Q233659",
+    "covers": [ "Illizi" ]
+  },
+  "Jijel Province": {
+    "id": "http://www.wikidata.org/entity/Q235718",
+    "covers": [ "Jijel" ]
+  },
+  "Khenchela Province": {
+    "id": "http://www.wikidata.org/entity/Q213950",
+    "covers": [ "Khenchela" ]
+  },
+  "Laghouat Province": {
+    "id": "http://www.wikidata.org/entity/Q231748",
+    "covers": [ "Laghouat" ]
+  },
+  "M'Sila Province": {
+    "id": "http://www.wikidata.org/entity/Q240870",
+    "covers": [ "M'Sila" ]
+  },
+  "Mascara Province": {
+    "id": "http://www.wikidata.org/entity/Q236776",
+    "covers": [ "Mascara" ]
+  },
+  "Médéa Province": {
+    "id": "http://www.wikidata.org/entity/Q235810",
+    "covers": [ "Médéa" ]
+  },
+  "Mila Province": {
+    "id": "http://www.wikidata.org/entity/Q235723",
+    "covers": [ "Mila" ]
+  },
+  "Mostaganem Province": {
+    "id": "http://www.wikidata.org/entity/Q221445",
+    "covers": [ "Mostaganem" ]
+  },
+  "Naama Province": {
+    "id": "http://www.wikidata.org/entity/Q233675",
+    "covers": [ "Naâma" ]
+  },
+  "Oran Province": {
+    "id": "http://www.wikidata.org/entity/Q231331",
+    "covers": [ "Oran" ]
+  },
+  "Ouargla Province": {
+    "id": "http://www.wikidata.org/entity/Q235709",
+    "covers": [ "Ouargla" ]
+  },
+  "Oum El Bouaghi Province": {
+    "id": "http://www.wikidata.org/entity/Q235705",
+    "covers": [ "Oum el Bouaghi" ]
+  },
+  "Relizane Province": {
+    "id": "http://www.wikidata.org/entity/Q236758",
+    "covers": [ "Relizane" ]
+  },
+  "Saïda Province": {
+    "id": "http://www.wikidata.org/entity/Q233640",
+    "covers": [ "Saïda" ]
+  },
+  "Sétif Province": {
+    "id": "http://www.wikidata.org/entity/Q237164",
+    "covers": [ "Sétif" ]
+  },
+  "Sidi Bel Abbès Province": {
+    "id": "http://www.wikidata.org/entity/Q235714",
+    "covers": [ "Sidi Bel Abbès" ]
+  },
+  "Skikda Province": {
+    "id": "http://www.wikidata.org/entity/Q234227",
+    "covers": [ "Skikda" ]
+  },
+  "Souk Ahras Province": {
+    "id": "http://www.wikidata.org/entity/Q236772",
+    "covers": [ "Souk Ahras" ]
+  },
+  "Tamanghasset Province": {
+    "id": "http://www.wikidata.org/entity/Q229467",
+    "covers": [ "Tamanghasset" ]
+  },
+  "Tébessa Province": {
+    "id": "http://www.wikidata.org/entity/Q267224",
+    "covers": [ "Tébessa" ]
+  },
+  "Tiaret Province": {
+    "id": "http://www.wikidata.org/entity/Q233258",
+    "covers": [ "Tiaret" ]
+  },
+  "Tindouf Province": {
+    "id": "http://www.wikidata.org/entity/Q231151",
+    "covers": [ "Tindouf" ]
+  },
+  "Tipasa Province": {
+    "id": "http://www.wikidata.org/entity/Q235814",
+    "covers": [ "Tipaza" ]
+  },
+  "Tissemsilt Province": {
+    "id": "http://www.wikidata.org/entity/Q235805",
+    "covers": [ "Tissemsilt" ]
+  },
+  "Tizi Ouzou Province": {
+    "id": "http://www.wikidata.org/entity/Q233645",
+    "covers": [ "Tizi Ouzou" ]
+  },
+  "Tlemcen Province": {
+    "id": "http://www.wikidata.org/entity/Q233632",
+    "covers": [ "Tlemcen" ]
+  }
+}
