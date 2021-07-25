@@ -1,0 +1,752 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous region of Tajikistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.274915,
+                  38.024062
+                ],
+                [
+                  70.27383,
+                  38.035456
+                ],
+                [
+                  70.341939,
+                  38.418275
+                ],
+                [
+                  70.355634,
+                  38.442047
+                ],
+                [
+                  70.545079,
+                  38.717275
+                ],
+                [
+                  70.5488,
+                  38.721332
+                ],
+                [
+                  70.647812,
+                  38.775489
+                ],
+                [
+                  70.66316,
+                  38.783395
+                ],
+                [
+                  72.31634,
+                  39.328815
+                ],
+                [
+                  72.393234,
+                  39.350829
+                ],
+                [
+                  72.519015,
+                  39.375686
+                ],
+                [
+                  72.633737,
+                  39.394496
+                ],
+                [
+                  73.476889,
+                  39.464776
+                ],
+                [
+                  73.512236,
+                  39.467411
+                ],
+                [
+                  73.604323,
+                  39.459608
+                ],
+                [
+                  73.632642,
+                  39.448343
+                ],
+                [
+                  74.776345,
+                  38.510674
+                ],
+                [
+                  74.826161,
+                  38.469643
+                ],
+                [
+                  74.832879,
+                  38.463648
+                ],
+                [
+                  74.835773,
+                  38.455173
+                ],
+                [
+                  75.164125,
+                  37.400638
+                ],
+                [
+                  75.06842,
+                  37.312142
+                ],
+                [
+                  74.912667,
+                  37.238994
+                ],
+                [
+                  74.892307,
+                  37.231114
+                ],
+                [
+                  71.797612,
+                  36.686082
+                ],
+                [
+                  71.748519,
+                  36.678641
+                ],
+                [
+                  71.699943,
+                  36.678641
+                ],
+                [
+                  71.653021,
+                  36.687012
+                ],
+                [
+                  71.61106,
+                  36.704841
+                ],
+                [
+                  71.577367,
+                  36.733263
+                ],
+                [
+                  70.298583,
+                  37.998134
+                ],
+                [
+                  70.281426,
+                  38.015923
+                ],
+                [
+                  70.274915,
+                  38.024062
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q207319",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "GBAO"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gorno-Badakhshan Autonomous Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gorno-Badakhshan Autonomous Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gorno-Badakhshan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kuhistani Badakhshan Autonomous Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kuhistoni Badakhshon Autonoumous Region"
+        }
+      ],
+      "properties": {
+        "title": "Gorno-Badakhshan Autonomous Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867545",
+          "label": "region of Tajikistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Tajikistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  67.773051,
+                  37.109984
+                ],
+                [
+                  67.771966,
+                  37.12497
+                ],
+                [
+                  67.797339,
+                  37.424435
+                ],
+                [
+                  67.801215,
+                  37.466448
+                ],
+                [
+                  67.829224,
+                  37.527943
+                ],
+                [
+                  67.871857,
+                  37.586802
+                ],
+                [
+                  68.122229,
+                  37.908333
+                ],
+                [
+                  68.590987,
+                  38.315362
+                ],
+                [
+                  68.60928,
+                  38.328152
+                ],
+                [
+                  69.986922,
+                  38.73376
+                ],
+                [
+                  70.0001,
+                  38.734794
+                ],
+                [
+                  70.018755,
+                  38.730556
+                ],
+                [
+                  70.359819,
+                  38.604414
+                ],
+                [
+                  70.36478,
+                  38.601365
+                ],
+                [
+                  70.413511,
+                  38.568835
+                ],
+                [
+                  70.417852,
+                  38.565347
+                ],
+                [
+                  70.421263,
+                  38.561342
+                ],
+                [
+                  70.423898,
+                  38.557001
+                ],
+                [
+                  70.428239,
+                  38.547647
+                ],
+                [
+                  70.439091,
+                  38.515686
+                ],
+                [
+                  70.283079,
+                  37.704831
+                ],
+                [
+                  70.275121,
+                  37.675479
+                ],
+                [
+                  70.253934,
+                  37.630805
+                ],
+                [
+                  70.248301,
+                  37.623338
+                ],
+                [
+                  70.246079,
+                  37.621271
+                ],
+                [
+                  70.157867,
+                  37.541431
+                ],
+                [
+                  69.323913,
+                  37.120991
+                ],
+                [
+                  69.312079,
+                  37.117477
+                ],
+                [
+                  69.265777,
+                  37.105411
+                ],
+                [
+                  68.032725,
+                  36.925241
+                ],
+                [
+                  68.02482,
+                  36.925518
+                ],
+                [
+                  68.02022,
+                  36.92568
+                ],
+                [
+                  68.011125,
+                  36.930874
+                ],
+                [
+                  67.78535,
+                  37.096548
+                ],
+                [
+                  67.773051,
+                  37.109984
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q633511",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khatlon Province"
+        }
+      ],
+      "properties": {
+        "title": "Khatlon Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867545",
+          "label": "region of Tajikistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Tajikistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  67.350037,
+                  39.220058
+                ],
+                [
+                  67.34269,
+                  39.259569
+                ],
+                [
+                  67.344395,
+                  39.273831
+                ],
+                [
+                  67.346462,
+                  39.280808
+                ],
+                [
+                  67.427284,
+                  39.47661
+                ],
+                [
+                  67.487642,
+                  39.538001
+                ],
+                [
+                  67.507435,
+                  39.552936
+                ],
+                [
+                  69.355074,
+                  40.780354
+                ],
+                [
+                  69.369285,
+                  40.789398
+                ],
+                [
+                  69.385253,
+                  40.796116
+                ],
+                [
+                  69.417757,
+                  40.804229
+                ],
+                [
+                  70.363539,
+                  41.032432
+                ],
+                [
+                  70.40116,
+                  41.039977
+                ],
+                [
+                  70.565904,
+                  41.018376
+                ],
+                [
+                  70.593448,
+                  41.009384
+                ],
+                [
+                  70.61665,
+                  40.99352
+                ],
+                [
+                  70.6305,
+                  40.976415
+                ],
+                [
+                  70.767132,
+                  40.737618
+                ],
+                [
+                  70.979522,
+                  40.214084
+                ],
+                [
+                  70.655564,
+                  39.494644
+                ],
+                [
+                  70.586989,
+                  39.441624
+                ],
+                [
+                  70.578307,
+                  39.437386
+                ],
+                [
+                  70.485031,
+                  39.401988
+                ],
+                [
+                  69.55899,
+                  39.072086
+                ],
+                [
+                  68.374359,
+                  38.920209
+                ],
+                [
+                  68.367848,
+                  38.919563
+                ],
+                [
+                  68.229769,
+                  38.905998
+                ],
+                [
+                  68.153386,
+                  38.899403
+                ],
+                [
+                  67.690524,
+                  38.989611
+                ],
+                [
+                  67.378192,
+                  39.199495
+                ],
+                [
+                  67.35008,
+                  39.219829
+                ],
+                [
+                  67.350037,
+                  39.220058
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q241582",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sogdia Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sogdiana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sughd Province"
+        }
+      ],
+      "properties": {
+        "title": "Sughd Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867545",
+          "label": "region of Tajikistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Tajikistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  68.052518,
+                  38.558268
+                ],
+                [
+                  68.037635,
+                  38.691645
+                ],
+                [
+                  68.066729,
+                  38.787969
+                ],
+                [
+                  68.153386,
+                  38.899403
+                ],
+                [
+                  68.590057,
+                  39.048056
+                ],
+                [
+                  68.597653,
+                  39.049813
+                ],
+                [
+                  70.655564,
+                  39.494644
+                ],
+                [
+                  71.441251,
+                  39.610658
+                ],
+                [
+                  71.459545,
+                  39.612105
+                ],
+                [
+                  72.049793,
+                  39.368864
+                ],
+                [
+                  72.06695,
+                  39.358477
+                ],
+                [
+                  72.203272,
+                  39.24081
+                ],
+                [
+                  72.206373,
+                  39.234609
+                ],
+                [
+                  72.228668,
+                  39.189502
+                ],
+                [
+                  72.224047,
+                  39.137611
+                ],
+                [
+                  72.220481,
+                  39.128103
+                ],
+                [
+                  72.062661,
+                  38.808071
+                ],
+                [
+                  72.002768,
+                  38.755774
+                ],
+                [
+                  71.974243,
+                  38.735956
+                ],
+                [
+                  71.426938,
+                  38.475068
+                ],
+                [
+                  68.435027,
+                  37.903139
+                ],
+                [
+                  68.429136,
+                  37.902545
+                ],
+                [
+                  68.314621,
+                  37.904715
+                ],
+                [
+                  68.289817,
+                  37.906601
+                ],
+                [
+                  68.23845,
+                  37.942361
+                ],
+                [
+                  68.238025,
+                  37.942716
+                ],
+                [
+                  68.055153,
+                  38.536305
+                ],
+                [
+                  68.052518,
+                  38.558268
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q633490",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "districts of Republican Subordination"
+        }
+      ],
+      "properties": {
+        "title": "districts of Republican Subordination"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867545",
+          "label": "region of Tajikistan"
+        }
+      ]
+    }
+  ],
+  "title": "Tajikistani regions",
+  "type": "FeatureCollection"
+}

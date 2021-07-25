@@ -1,0 +1,18 @@
+{
+  "districts of Republican Subordination": {
+    "id": "http://www.wikidata.org/entity/Q633490",
+    "covers": [ "Tadzhikistan Territories" ]
+  },
+  "Gorno-Badakhshan Autonomous Region": {
+    "id": "http://www.wikidata.org/entity/Q207319",
+    "covers": [ "Gorno-Badakhshan" ]
+  },
+  "Khatlon Province": {
+    "id": "http://www.wikidata.org/entity/Q633511",
+    "covers": [ "Khatlon" ]
+  },
+  "Sughd Province": {
+    "id": "http://www.wikidata.org/entity/Q241582",
+    "covers": [ "Leninabad" ]
+  }
+}
