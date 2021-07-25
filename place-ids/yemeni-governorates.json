@@ -1,0 +1,86 @@
+{
+  "'Adan Governorate": {
+    "id": "http://www.wikidata.org/entity/Q275729",
+    "covers": [ "`Adan" ]
+  },
+  "'Amran Governorate": {
+    "id": "http://www.wikidata.org/entity/Q275720",
+    "covers": [ "Amran" ]
+  },
+  "Abyan Governorate": {
+    "id": "http://www.wikidata.org/entity/Q241774",
+    "covers": [ "Abyan" ]
+  },
+  "Ad Dali' Governorate": {
+    "id": "http://www.wikidata.org/entity/Q328187",
+    "covers": [ "Al Dali'" ]
+  },
+  "Al Bayda' Governorate": {
+    "id": "http://www.wikidata.org/entity/Q221212",
+    "covers": [ "Al Bayda'" ]
+  },
+  "Al Hudaydah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q275755",
+    "covers": [ "Al Hudaydah" ]
+  },
+  "Al Jawf Governorate": {
+    "id": "http://www.wikidata.org/entity/Q328128",
+    "covers": [ "Al Jawf" ]
+  },
+  "Al Mahrah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q275752",
+    "covers": [ "Al Mahrah" ]
+  },
+  "Al Mahwit Governorate": {
+    "id": "http://www.wikidata.org/entity/Q388280",
+    "covers": [ "Al Mahwit" ]
+  },
+  "Amanat Al Asimah": {
+    "id": "http://www.wikidata.org/entity/Q2471",
+    "covers": [ "Amanat Al Asimah" ]
+  },
+  "Dhamar Governorate": {
+    "id": "http://www.wikidata.org/entity/Q328193",
+    "covers": [ "Dhamar" ]
+  },
+  "Hadhramaut Governorate": {
+    "id": "http://www.wikidata.org/entity/Q241135",
+    "covers": [ "Hadramawt" ]
+  },
+  "Hajjah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q328158",
+    "covers": [ "Hajjah" ]
+  },
+  "Ibb Governorate": {
+    "id": "http://www.wikidata.org/entity/Q388274",
+    "covers": [ "Ibb" ]
+  },
+  "Lahij Governorate": {
+    "id": "http://www.wikidata.org/entity/Q388318",
+    "covers": [ "Lahij" ]
+  },
+  "Ma'rib Governorate": {
+    "id": "http://www.wikidata.org/entity/Q498465",
+    "covers": [ "Ma'rib" ]
+  },
+  "Raymah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q475033",
+    "covers": [ "Raymah" ]
+  },
+  "Saada Governorate": {
+    "id": "http://www.wikidata.org/entity/Q275732",
+    "covers": [ "Sa`dah" ]
+  },
+  "Sana'a Governorate": {
+    "id": "http://www.wikidata.org/entity/Q388291",
+    "covers": [ "Sana'a" ]
+  },
+  "Shabwah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q328180",
+    "covers": [ "Shabwah" ]
+  },
+  "Ta'izz Governorate": {
+    "id": "http://www.wikidata.org/entity/Q388330",
+    "covers": [ "Ta`izz" ]
+  }
+}

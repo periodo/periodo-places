@@ -354,6 +354,15 @@ This gazetteer was created by:
 1. using the ISO 3166-2 (or, in the case of unincorporated territories, ISO 3166-1 alpha-2) codes from the Natural Earth data to query Wikidata for the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
+### Yemeni governorates gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/yemeni-governorates.json](place-ids/yemeni-governorates.json) for details), and
+
+1. querying Wikidata for instances of [Q331130 governorate of Yemen](https://www.wikidata.org/wiki/Q331130) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
 ### World cities gazetteer
 
 This gazetteer was created by:

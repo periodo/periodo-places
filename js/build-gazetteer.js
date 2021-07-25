@@ -42,7 +42,8 @@ const GAZETTEERS = {
   'tajikistani-regions': 'Tajikistani regions',
   'turkish-provinces': 'Turkish provinces',
   'turkmen-regions': 'Turkmen regions',
-  'us-states': 'US states'
+  'us-states': 'US states',
+  'yemeni-governorates': 'Yemeni governorates'
 }
 
 const queryTemplate = fs.readFileSync('wikidata-query.rq', 'utf8')
@@ -384,6 +385,11 @@ const getWikidataIraqiGovernorate = id => getWikidataPlace(
   ['wd:Q841753'] // governorate of Iraq
 )
 
+const getWikidataYemeniGovernorate = id => getWikidataPlace(
+  id,
+  ['wd:Q331130'] // governorate of Yemen
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -471,6 +477,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'iraqi-governorates':
         promise = getWikidataIraqiGovernorate(place.id)
+        break
+      case 'yemeni-governorates':
+        promise = getWikidataYemeniGovernorate(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

@@ -1,0 +1,2541 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.415538,
+                  12.670152
+                ],
+                [
+                  44.414692,
+                  12.673289
+                ],
+                [
+                  44.484189,
+                  12.777644
+                ],
+                [
+                  44.527804,
+                  12.803637
+                ],
+                [
+                  44.61891,
+                  12.835677
+                ],
+                [
+                  45.009015,
+                  12.918411
+                ],
+                [
+                  45.093191,
+                  12.924709
+                ],
+                [
+                  45.062022,
+                  12.776557
+                ],
+                [
+                  45.058604,
+                  12.76203
+                ],
+                [
+                  45.039317,
+                  12.756293
+                ],
+                [
+                  44.881358,
+                  12.729885
+                ],
+                [
+                  44.415538,
+                  12.670152
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275729",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "'Adan Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aden Governorate"
+        }
+      ],
+      "properties": {
+        "title": "'Adan Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.605949,
+                  16.243453
+                ],
+                [
+                  43.59551,
+                  16.436103
+                ],
+                [
+                  43.599902,
+                  16.608521
+                ],
+                [
+                  43.791674,
+                  16.670921
+                ],
+                [
+                  43.817925,
+                  16.678982
+                ],
+                [
+                  43.856838,
+                  16.678517
+                ],
+                [
+                  44.188755,
+                  16.631466
+                ],
+                [
+                  44.25609,
+                  16.590538
+                ],
+                [
+                  44.314277,
+                  16.549016
+                ],
+                [
+                  44.328902,
+                  16.533901
+                ],
+                [
+                  44.334948,
+                  16.517674
+                ],
+                [
+                  44.366109,
+                  16.357451
+                ],
+                [
+                  44.425847,
+                  16.028273
+                ],
+                [
+                  44.167206,
+                  15.620623
+                ],
+                [
+                  44.106383,
+                  15.574579
+                ],
+                [
+                  43.98422,
+                  15.504739
+                ],
+                [
+                  43.705271,
+                  15.526288
+                ],
+                [
+                  43.608584,
+                  16.214153
+                ],
+                [
+                  43.605949,
+                  16.243453
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275720",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "'Amran Governorate"
+        }
+      ],
+      "properties": {
+        "title": "'Amran Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.700694,
+                  13.430325
+                ],
+                [
+                  45.099457,
+                  12.936184
+                ],
+                [
+                  45.131282,
+                  13.162969
+                ],
+                [
+                  45.215514,
+                  13.666996
+                ],
+                [
+                  45.279335,
+                  13.767687
+                ],
+                [
+                  45.368373,
+                  13.88662
+                ],
+                [
+                  46.043836,
+                  14.191692
+                ],
+                [
+                  46.367382,
+                  14.299903
+                ],
+                [
+                  46.396579,
+                  14.302435
+                ],
+                [
+                  47.206091,
+                  14.16079
+                ],
+                [
+                  47.241902,
+                  14.137561
+                ],
+                [
+                  47.255597,
+                  14.095781
+                ],
+                [
+                  47.324481,
+                  13.632785
+                ],
+                [
+                  46.700694,
+                  13.430325
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q241774",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Abyan Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Abyan Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.41422,
+                  13.643224
+                ],
+                [
+                  44.406933,
+                  13.761047
+                ],
+                [
+                  44.411119,
+                  13.792543
+                ],
+                [
+                  44.418715,
+                  13.81063
+                ],
+                [
+                  44.450393,
+                  13.860653
+                ],
+                [
+                  44.509666,
+                  13.945506
+                ],
+                [
+                  44.642474,
+                  14.109165
+                ],
+                [
+                  44.651621,
+                  14.11733
+                ],
+                [
+                  44.718025,
+                  14.161694
+                ],
+                [
+                  44.780916,
+                  14.18916
+                ],
+                [
+                  44.906593,
+                  14.221665
+                ],
+                [
+                  44.974702,
+                  14.216704
+                ],
+                [
+                  45.007465,
+                  14.205154
+                ],
+                [
+                  45.148645,
+                  14.045629
+                ],
+                [
+                  45.174122,
+                  14.014778
+                ],
+                [
+                  45.179703,
+                  13.990542
+                ],
+                [
+                  45.180478,
+                  13.964368
+                ],
+                [
+                  45.118724,
+                  13.830216
+                ],
+                [
+                  45.083016,
+                  13.796678
+                ],
+                [
+                  44.853056,
+                  13.590902
+                ],
+                [
+                  44.654877,
+                  13.521914
+                ],
+                [
+                  44.628057,
+                  13.516798
+                ],
+                [
+                  44.429257,
+                  13.627334
+                ],
+                [
+                  44.41422,
+                  13.643224
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q328187",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ad Dali' Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ad Dali' Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.662628,
+                  14.200296
+                ],
+                [
+                  44.630382,
+                  14.276597
+                ],
+                [
+                  44.792543,
+                  14.666754
+                ],
+                [
+                  44.868714,
+                  14.756231
+                ],
+                [
+                  45.005915,
+                  14.814264
+                ],
+                [
+                  45.680912,
+                  14.688975
+                ],
+                [
+                  45.704167,
+                  14.677812
+                ],
+                [
+                  45.72184,
+                  14.66324
+                ],
+                [
+                  46.001616,
+                  14.293676
+                ],
+                [
+                  46.043836,
+                  14.191692
+                ],
+                [
+                  46.028953,
+                  14.108312
+                ],
+                [
+                  45.985958,
+                  14.02364
+                ],
+                [
+                  45.949061,
+                  13.991162
+                ],
+                [
+                  45.777547,
+                  13.867914
+                ],
+                [
+                  45.73662,
+                  13.844142
+                ],
+                [
+                  45.705717,
+                  13.831017
+                ],
+                [
+                  45.677812,
+                  13.82479
+                ],
+                [
+                  45.657451,
+                  13.8228
+                ],
+                [
+                  45.636987,
+                  13.8228
+                ],
+                [
+                  45.180478,
+                  13.964368
+                ],
+                [
+                  44.718025,
+                  14.161694
+                ],
+                [
+                  44.671672,
+                  14.185594
+                ],
+                [
+                  44.662628,
+                  14.200296
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q221212",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Bayda Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Bayda' Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Bayda' Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.685802,
+                  13.678453
+                ],
+                [
+                  42.545746,
+                  15.29442
+                ],
+                [
+                  42.545909,
+                  15.316962
+                ],
+                [
+                  42.55893,
+                  15.392971
+                ],
+                [
+                  42.691905,
+                  15.702094
+                ],
+                [
+                  42.699229,
+                  15.717434
+                ],
+                [
+                  42.752452,
+                  15.816392
+                ],
+                [
+                  42.765798,
+                  15.835761
+                ],
+                [
+                  42.834556,
+                  15.914064
+                ],
+                [
+                  43.285348,
+                  15.863554
+                ],
+                [
+                  43.311393,
+                  15.84446
+                ],
+                [
+                  43.724649,
+                  14.973143
+                ],
+                [
+                  43.805006,
+                  14.069064
+                ],
+                [
+                  43.79896,
+                  14.041676
+                ],
+                [
+                  43.722169,
+                  13.9176
+                ],
+                [
+                  43.444408,
+                  13.74681
+                ],
+                [
+                  43.287673,
+                  13.666427
+                ],
+                [
+                  43.284286,
+                  13.664872
+                ],
+                [
+                  42.688487,
+                  13.663764
+                ],
+                [
+                  42.685802,
+                  13.678453
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275755",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Hudaydah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Hodeidah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Hudaydah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.368899,
+                  16.1108
+                ],
+                [
+                  44.188755,
+                  16.631466
+                ],
+                [
+                  44.21542,
+                  16.716499
+                ],
+                [
+                  44.235781,
+                  16.752983
+                ],
+                [
+                  44.248493,
+                  16.770269
+                ],
+                [
+                  44.972466,
+                  17.429696
+                ],
+                [
+                  44.997336,
+                  17.429532
+                ],
+                [
+                  45.165387,
+                  17.428395
+                ],
+                [
+                  46.710099,
+                  17.275381
+                ],
+                [
+                  46.747203,
+                  17.254762
+                ],
+                [
+                  46.997026,
+                  16.948514
+                ],
+                [
+                  47.038659,
+                  16.345359
+                ],
+                [
+                  46.832728,
+                  16.149686
+                ],
+                [
+                  45.564227,
+                  15.790354
+                ],
+                [
+                  45.449557,
+                  15.780071
+                ],
+                [
+                  45.238975,
+                  15.812963
+                ],
+                [
+                  44.425847,
+                  16.028273
+                ],
+                [
+                  44.401042,
+                  16.055739
+                ],
+                [
+                  44.368899,
+                  16.1108
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q328128",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Jawf Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Jawf Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.257067,
+                  15.327747
+                ],
+                [
+                  50.192368,
+                  15.609306
+                ],
+                [
+                  50.235363,
+                  16.145578
+                ],
+                [
+                  50.292465,
+                  16.514806
+                ],
+                [
+                  50.309674,
+                  16.553951
+                ],
+                [
+                  51.712275,
+                  18.596204
+                ],
+                [
+                  51.985644,
+                  18.979669
+                ],
+                [
+                  51.985689,
+                  18.979732
+                ],
+                [
+                  52.801562,
+                  17.267423
+                ],
+                [
+                  52.840319,
+                  17.183707
+                ],
+                [
+                  53.090343,
+                  16.642401
+                ],
+                [
+                  52.233572,
+                  15.621772
+                ],
+                [
+                  52.228363,
+                  15.616116
+                ],
+                [
+                  51.676443,
+                  15.340277
+                ],
+                [
+                  51.367849,
+                  15.229722
+                ],
+                [
+                  51.268809,
+                  15.201809
+                ],
+                [
+                  51.069835,
+                  15.149644
+                ],
+                [
+                  50.80499,
+                  15.097378
+                ],
+                [
+                  50.279133,
+                  15.293976
+                ],
+                [
+                  50.264043,
+                  15.311262
+                ],
+                [
+                  50.257067,
+                  15.327747
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Mahrah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Mahrah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.316354,
+                  15.467247
+                ],
+                [
+                  43.313873,
+                  15.509674
+                ],
+                [
+                  43.370097,
+                  15.528923
+                ],
+                [
+                  43.54528,
+                  15.545563
+                ],
+                [
+                  43.862574,
+                  15.563676
+                ],
+                [
+                  43.880764,
+                  15.561118
+                ],
+                [
+                  43.894716,
+                  15.556234
+                ],
+                [
+                  43.98422,
+                  15.504739
+                ],
+                [
+                  43.965772,
+                  15.417741
+                ],
+                [
+                  43.948873,
+                  15.400197
+                ],
+                [
+                  43.571015,
+                  15.04425
+                ],
+                [
+                  43.545901,
+                  15.057738
+                ],
+                [
+                  43.514998,
+                  15.087348
+                ],
+                [
+                  43.359039,
+                  15.265813
+                ],
+                [
+                  43.332218,
+                  15.305552
+                ],
+                [
+                  43.325397,
+                  15.355936
+                ],
+                [
+                  43.316354,
+                  15.467247
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388280",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Mahwit Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Mahwit Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.566054,
+                  14.189238
+                ],
+                [
+                  43.531586,
+                  14.359847
+                ],
+                [
+                  43.538769,
+                  14.373438
+                ],
+                [
+                  43.823971,
+                  14.85036
+                ],
+                [
+                  43.837924,
+                  14.863331
+                ],
+                [
+                  44.097495,
+                  14.973815
+                ],
+                [
+                  44.132738,
+                  14.985546
+                ],
+                [
+                  44.164261,
+                  14.991566
+                ],
+                [
+                  44.656272,
+                  15.029367
+                ],
+                [
+                  44.707328,
+                  15.029057
+                ],
+                [
+                  44.732495,
+                  15.026783
+                ],
+                [
+                  44.755129,
+                  15.01203
+                ],
+                [
+                  44.784481,
+                  14.971541
+                ],
+                [
+                  44.867629,
+                  14.790493
+                ],
+                [
+                  44.868714,
+                  14.756231
+                ],
+                [
+                  44.749083,
+                  14.427595
+                ],
+                [
+                  44.723968,
+                  14.379743
+                ],
+                [
+                  44.630382,
+                  14.276597
+                ],
+                [
+                  44.610228,
+                  14.268225
+                ],
+                [
+                  43.741392,
+                  14.078056
+                ],
+                [
+                  43.725734,
+                  14.07604
+                ],
+                [
+                  43.705994,
+                  14.083999
+                ],
+                [
+                  43.618971,
+                  14.12689
+                ],
+                [
+                  43.596027,
+                  14.141256
+                ],
+                [
+                  43.579387,
+                  14.15557
+                ],
+                [
+                  43.566054,
+                  14.189238
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q328193",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dhamar Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Dhamar Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.668336,
+                  14.650476
+                ],
+                [
+                  46.339735,
+                  15.570729
+                ],
+                [
+                  46.997026,
+                  16.948514
+                ],
+                [
+                  48.161949,
+                  18.148919
+                ],
+                [
+                  48.184428,
+                  18.163931
+                ],
+                [
+                  48.312585,
+                  18.226589
+                ],
+                [
+                  48.675974,
+                  18.40402
+                ],
+                [
+                  49.035849,
+                  18.57972
+                ],
+                [
+                  49.128815,
+                  18.612095
+                ],
+                [
+                  49.257851,
+                  18.62951
+                ],
+                [
+                  50.699365,
+                  18.823529
+                ],
+                [
+                  51.978615,
+                  18.995638
+                ],
+                [
+                  51.985689,
+                  18.979732
+                ],
+                [
+                  54.540294,
+                  12.550238
+                ],
+                [
+                  54.527927,
+                  12.537446
+                ],
+                [
+                  54.444684,
+                  12.484721
+                ],
+                [
+                  54.140498,
+                  12.351344
+                ],
+                [
+                  53.310267,
+                  12.111444
+                ],
+                [
+                  52.330577,
+                  12.146186
+                ],
+                [
+                  52.24023,
+                  12.156877
+                ],
+                [
+                  52.179861,
+                  12.172838
+                ],
+                [
+                  52.112315,
+                  12.198635
+                ],
+                [
+                  52.068487,
+                  12.222008
+                ],
+                [
+                  48.672461,
+                  14.043872
+                ],
+                [
+                  47.744507,
+                  14.600789
+                ],
+                [
+                  47.668336,
+                  14.650476
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q241135",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hadhramaut Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Hadhramaut Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.834556,
+                  15.914064
+                ],
+                [
+                  42.78948,
+                  16.370958
+                ],
+                [
+                  43.084946,
+                  16.672575
+                ],
+                [
+                  43.097762,
+                  16.677794
+                ],
+                [
+                  43.185679,
+                  16.684847
+                ],
+                [
+                  43.599902,
+                  16.608521
+                ],
+                [
+                  43.785162,
+                  15.892958
+                ],
+                [
+                  43.816685,
+                  15.730513
+                ],
+                [
+                  43.811207,
+                  15.694184
+                ],
+                [
+                  43.804076,
+                  15.667261
+                ],
+                [
+                  43.705271,
+                  15.526288
+                ],
+                [
+                  43.313873,
+                  15.509674
+                ],
+                [
+                  42.834556,
+                  15.914064
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q328158",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hajjah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Hajjah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.711782,
+                  13.861247
+                ],
+                [
+                  43.68429,
+                  13.911994
+                ],
+                [
+                  43.698243,
+                  13.963541
+                ],
+                [
+                  43.701808,
+                  13.976098
+                ],
+                [
+                  43.84273,
+                  14.207815
+                ],
+                [
+                  43.865674,
+                  14.245539
+                ],
+                [
+                  43.969957,
+                  14.344603
+                ],
+                [
+                  44.082612,
+                  14.425425
+                ],
+                [
+                  44.101526,
+                  14.433719
+                ],
+                [
+                  44.252989,
+                  14.443563
+                ],
+                [
+                  44.269267,
+                  14.437982
+                ],
+                [
+                  44.630382,
+                  14.276597
+                ],
+                [
+                  44.663455,
+                  14.256649
+                ],
+                [
+                  44.718025,
+                  14.161694
+                ],
+                [
+                  44.707328,
+                  14.13012
+                ],
+                [
+                  44.622476,
+                  13.981007
+                ],
+                [
+                  44.383782,
+                  13.731669
+                ],
+                [
+                  44.345335,
+                  13.705417
+                ],
+                [
+                  44.321254,
+                  13.703014
+                ],
+                [
+                  44.22989,
+                  13.725881
+                ],
+                [
+                  43.711782,
+                  13.861247
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388274",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ibb Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ibb Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.9463,
+                  12.598049
+                ],
+                [
+                  43.530748,
+                  12.695478
+                ],
+                [
+                  43.566674,
+                  12.767206
+                ],
+                [
+                  43.72589,
+                  13.056826
+                ],
+                [
+                  43.739532,
+                  13.067213
+                ],
+                [
+                  44.53323,
+                  13.577053
+                ],
+                [
+                  45.180478,
+                  13.964368
+                ],
+                [
+                  45.360932,
+                  14.028679
+                ],
+                [
+                  45.383566,
+                  14.031805
+                ],
+                [
+                  45.399121,
+                  14.023201
+                ],
+                [
+                  45.411678,
+                  13.972687
+                ],
+                [
+                  45.405012,
+                  13.896594
+                ],
+                [
+                  45.253548,
+                  13.395384
+                ],
+                [
+                  45.099457,
+                  12.936184
+                ],
+                [
+                  45.093191,
+                  12.924709
+                ],
+                [
+                  44.414692,
+                  12.673289
+                ],
+                [
+                  44.289561,
+                  12.638983
+                ],
+                [
+                  44.191173,
+                  12.619127
+                ],
+                [
+                  44.033702,
+                  12.604315
+                ],
+                [
+                  43.9463,
+                  12.598049
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388318",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lahij Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Lahij Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.64697,
+                  15.414718
+                ],
+                [
+                  44.642474,
+                  15.430661
+                ],
+                [
+                  44.660975,
+                  16.011426
+                ],
+                [
+                  46.832728,
+                  16.149686
+                ],
+                [
+                  45.514876,
+                  14.591745
+                ],
+                [
+                  45.498753,
+                  14.585854
+                ],
+                [
+                  45.215049,
+                  14.49772
+                ],
+                [
+                  45.183113,
+                  14.498418
+                ],
+                [
+                  45.16389,
+                  14.509399
+                ],
+                [
+                  45.151436,
+                  14.528364
+                ],
+                [
+                  44.64697,
+                  15.414718
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q498465",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ma'rib Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ma'rib Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.558303,
+                  14.374317
+                ],
+                [
+                  43.534532,
+                  14.633603
+                ],
+                [
+                  43.534532,
+                  14.683032
+                ],
+                [
+                  43.541043,
+                  14.80442
+                ],
+                [
+                  43.556908,
+                  14.848396
+                ],
+                [
+                  43.575821,
+                  14.874028
+                ],
+                [
+                  43.631528,
+                  14.934024
+                ],
+                [
+                  43.701963,
+                  14.933404
+                ],
+                [
+                  43.823971,
+                  14.85036
+                ],
+                [
+                  43.945153,
+                  14.664945
+                ],
+                [
+                  43.972283,
+                  14.61717
+                ],
+                [
+                  43.981429,
+                  14.598747
+                ],
+                [
+                  43.972593,
+                  14.574227
+                ],
+                [
+                  43.942517,
+                  14.535961
+                ],
+                [
+                  43.907584,
+                  14.506014
+                ],
+                [
+                  43.830328,
+                  14.458033
+                ],
+                [
+                  43.59861,
+                  14.377314
+                ],
+                [
+                  43.581867,
+                  14.375144
+                ],
+                [
+                  43.558303,
+                  14.374317
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q475033",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Raymah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Raymah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.112644,
+                  16.910028
+                ],
+                [
+                  43.108717,
+                  16.926978
+                ],
+                [
+                  43.118432,
+                  17.086245
+                ],
+                [
+                  43.165044,
+                  17.32592
+                ],
+                [
+                  43.167887,
+                  17.33052
+                ],
+                [
+                  43.215946,
+                  17.387209
+                ],
+                [
+                  43.303072,
+                  17.459039
+                ],
+                [
+                  43.391025,
+                  17.511955
+                ],
+                [
+                  43.412885,
+                  17.519965
+                ],
+                [
+                  43.43495,
+                  17.522859
+                ],
+                [
+                  44.972466,
+                  17.429696
+                ],
+                [
+                  44.950208,
+                  17.111436
+                ],
+                [
+                  44.188755,
+                  16.631466
+                ],
+                [
+                  44.1177,
+                  16.610899
+                ],
+                [
+                  43.599902,
+                  16.608521
+                ],
+                [
+                  43.412885,
+                  16.613302
+                ],
+                [
+                  43.392266,
+                  16.616402
+                ],
+                [
+                  43.20618,
+                  16.672316
+                ],
+                [
+                  43.185679,
+                  16.684847
+                ],
+                [
+                  43.170677,
+                  16.723476
+                ],
+                [
+                  43.112644,
+                  16.910028
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275732",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saada Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Saada Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.725702,
+                  14.879989
+                ],
+                [
+                  43.571015,
+                  15.04425
+                ],
+                [
+                  43.623002,
+                  15.195455
+                ],
+                [
+                  43.640055,
+                  15.21703
+                ],
+                [
+                  44.254539,
+                  15.973806
+                ],
+                [
+                  44.312572,
+                  16.003313
+                ],
+                [
+                  44.370605,
+                  16.024552
+                ],
+                [
+                  44.509511,
+                  16.057005
+                ],
+                [
+                  44.594829,
+                  16.050804
+                ],
+                [
+                  44.660975,
+                  16.011426
+                ],
+                [
+                  45.154071,
+                  15.238476
+                ],
+                [
+                  45.164303,
+                  15.203982
+                ],
+                [
+                  45.164613,
+                  15.182484
+                ],
+                [
+                  45.164923,
+                  15.139154
+                ],
+                [
+                  45.153606,
+                  15.10789
+                ],
+                [
+                  45.005915,
+                  14.814264
+                ],
+                [
+                  44.963695,
+                  14.779744
+                ],
+                [
+                  44.92163,
+                  14.763569
+                ],
+                [
+                  44.868714,
+                  14.756231
+                ],
+                [
+                  43.823971,
+                  14.85036
+                ],
+                [
+                  43.781949,
+                  14.862281
+                ],
+                [
+                  43.725702,
+                  14.879989
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388291",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sana'a Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Sana'a Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.142142,
+                  15.351754
+                ],
+                [
+                  44.119801,
+                  15.456972
+                ],
+                [
+                  44.121963,
+                  15.464899
+                ],
+                [
+                  44.209885,
+                  15.5521
+                ],
+                [
+                  44.282673,
+                  15.601106
+                ],
+                [
+                  44.292041,
+                  15.60615
+                ],
+                [
+                  44.306455,
+                  15.611195
+                ],
+                [
+                  44.319427,
+                  15.611916
+                ],
+                [
+                  44.336002,
+                  15.60615
+                ],
+                [
+                  44.352578,
+                  15.598944
+                ],
+                [
+                  44.390773,
+                  15.566513
+                ],
+                [
+                  44.39798,
+                  15.557145
+                ],
+                [
+                  44.399421,
+                  15.549217
+                ],
+                [
+                  44.25817,
+                  15.320765
+                ],
+                [
+                  44.23655,
+                  15.294821
+                ],
+                [
+                  44.228622,
+                  15.29338
+                ],
+                [
+                  44.181058,
+                  15.29338
+                ],
+                [
+                  44.176734,
+                  15.298424
+                ],
+                [
+                  44.142142,
+                  15.351754
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2471",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Amanat Al Asimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat Al-Asemah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al-Asimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sanaa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sanaa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sana‘a"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ṣan‘ā’"
+        }
+      ],
+      "properties": {
+        "title": "Sanaa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.534565,
+                  14.715588
+                ],
+                [
+                  45.525418,
+                  14.743364
+                ],
+                [
+                  45.527743,
+                  14.797831
+                ],
+                [
+                  45.5372,
+                  14.875371
+                ],
+                [
+                  45.562057,
+                  14.953765
+                ],
+                [
+                  45.614301,
+                  15.060192
+                ],
+                [
+                  45.753208,
+                  15.173415
+                ],
+                [
+                  46.339735,
+                  15.570729
+                ],
+                [
+                  47.74921,
+                  15.675168
+                ],
+                [
+                  47.839799,
+                  15.645014
+                ],
+                [
+                  48.617219,
+                  14.186757
+                ],
+                [
+                  48.626056,
+                  14.167198
+                ],
+                [
+                  48.681488,
+                  14.043606
+                ],
+                [
+                  47.398204,
+                  13.654853
+                ],
+                [
+                  47.324481,
+                  13.632785
+                ],
+                [
+                  46.043836,
+                  14.191692
+                ],
+                [
+                  45.859196,
+                  14.355274
+                ],
+                [
+                  45.546812,
+                  14.701351
+                ],
+                [
+                  45.534565,
+                  14.715588
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q328180",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shabwah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Shabwah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.392751,
+                  12.653062
+                ],
+                [
+                  43.226329,
+                  13.283881
+                ],
+                [
+                  43.254242,
+                  13.526557
+                ],
+                [
+                  43.284286,
+                  13.664872
+                ],
+                [
+                  43.541043,
+                  13.875484
+                ],
+                [
+                  43.576906,
+                  13.890729
+                ],
+                [
+                  43.600988,
+                  13.898377
+                ],
+                [
+                  43.68429,
+                  13.911994
+                ],
+                [
+                  43.8865,
+                  13.877732
+                ],
+                [
+                  44.406933,
+                  13.761047
+                ],
+                [
+                  44.525324,
+                  13.6101
+                ],
+                [
+                  44.530905,
+                  13.597284
+                ],
+                [
+                  44.53323,
+                  13.577053
+                ],
+                [
+                  44.525014,
+                  13.555891
+                ],
+                [
+                  44.451633,
+                  13.386754
+                ],
+                [
+                  44.356807,
+                  13.251259
+                ],
+                [
+                  44.333708,
+                  13.233844
+                ],
+                [
+                  43.525564,
+                  12.690375
+                ],
+                [
+                  43.447439,
+                  12.638658
+                ],
+                [
+                  43.435802,
+                  12.632148
+                ],
+                [
+                  43.428884,
+                  12.63467
+                ],
+                [
+                  43.392751,
+                  12.653062
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388330",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ta'izz Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Taiz Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Taiz"
+        },
+        {
+          "lang": "en",
+          "toponym": "Taizz"
+        }
+      ],
+      "properties": {
+        "title": "Ta'izz Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    }
+  ],
+  "title": "Yemeni governorates",
+  "type": "FeatureCollection"
+}

@@ -27,7 +27,8 @@ GAZETTEERS := \
 	gazetteers/tajikistani-regions.json \
 	gazetteers/turkish-provinces.json \
 	gazetteers/turkmen-regions.json \
-	gazetteers/us-states.json
+	gazetteers/us-states.json \
+	gazetteers/yemeni-governorates.json
 
 NM := ./node_modules/.bin/
 
