@@ -80,6 +80,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **U.S. states gazetteer**<br>
   https://data.perio.do/graphs/places/us-states.json
 
+* **Yemeni governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/yemeni-governorates.json
+
 * **World cities gazetteer**<br>
   https://data.perio.do/graphs/places/cities.json
 
@@ -361,6 +364,8 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/yemeni-governorates.json](place-ids/yemeni-governorates.json) for details), and
 
 1. querying Wikidata for instances of [Q331130 governorate of Yemen](https://www.wikidata.org/wiki/Q331130) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that this gazetteer includes the Socotra Archipelago as part of the Hadhramaut Governorate, as it was prior to 2014.
 
 
 ### World cities gazetteer
