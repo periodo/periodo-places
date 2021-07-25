@@ -47,6 +47,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Libyan districts gazetteer**<br>
   https://data.perio.do/graphs/places/libyan-districts.json
 
+* **Pakistani provinces and territories gazetteer**<br>
+  https://data.perio.do/graphs/places/pakistani-provinces.json
+
 * **Russian federal subjects gazetteer**<br>
   https://data.perio.do/graphs/places/russian-federal-subjects.json
 
@@ -218,6 +221,17 @@ Note that the province of Xaisomboun (recently established as a province, having
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/libyan-districts.json](place-ids/libyan-districts.json) for details), and
 
 1. querying Wikidata for instances of [Q48242 district of Libya](https://www.wikidata.org/wiki/Q48242) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Pakistani provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/pakistani-provinces.json](place-ids/pakistani-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q270496 administrative territorial entity of Pakistan](https://www.wikidata.org/wiki/Q270496) that are also instances of [Q10864048 first-level administrative country subdivision](https://www.wikidata.org/wiki/Q10864048) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that the Federally Administered Tribal Areas are included as a separate territory, as theywere prior to their 2018 merger with the province of Khyber Pakhtunkhwa.
 
 
 ### Russian federal subjects gazetteer

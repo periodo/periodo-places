@@ -1,0 +1,34 @@
+{
+  "Azad Kashmir": {
+    "id": "http://www.wikidata.org/entity/Q200130",
+    "covers": [ "Azad Kashmir" ]
+  },
+  "Balochistan": {
+    "id": "http://www.wikidata.org/entity/Q163239",
+    "covers": [ "Baluchistan" ]
+  },
+  "Federally Administered Tribal Areas": {
+    "id": "http://www.wikidata.org/entity/Q208270",
+    "covers": [ "F.A.T.A." ]
+  },
+  "Gilgit-Baltistan": {
+    "id": "http://www.wikidata.org/entity/Q200697",
+    "covers": [ "Northern Areas" ]
+  },
+  "Islamabad Capital Territory": {
+    "id": "http://www.wikidata.org/entity/Q848613",
+    "covers": [ "F.C.T." ]
+  },
+  "Khyber Pakhtunkhwa": {
+    "id": "http://www.wikidata.org/entity/Q183314",
+    "covers": [ "K.P." ]
+  },
+  "Punjab": {
+    "id": "http://www.wikidata.org/entity/Q4478",
+    "covers": [ "Punjab" ]
+  },
+  "Sindh": {
+    "id": "http://www.wikidata.org/entity/Q37211",
+    "covers": [ "Sind" ]
+  }
+}

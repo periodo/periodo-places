@@ -30,6 +30,7 @@ const GAZETTEERS = {
   'laotian-provinces': 'Laotian provinces',
   'libyan-districts': 'Libyan districts',
   'other-regions': 'Other regions',
+  'pakistani-provinces': 'Pakistani provinces and territories',
   'russian-federal-subjects': 'Russian federal subjects',
   'saudi-arabian-provinces': 'Saudi Arabian provinces',
   'spanish-communities': 'Spanish autonomous communities',
@@ -104,6 +105,8 @@ const frame = {
 const replace = tag => replacement => string => string.replace(
   new RegExp(`\\$\\{${tag}\\}`, 'g'), replacement)
 
+const quote = value => `"${value}"`
+
 const queryWikidata = (id, types, constraints) => {
 
   if (R.contains(['wdt:P297|wdt:P300', 'NL'], constraints)) {
@@ -126,7 +129,11 @@ const queryWikidata = (id, types, constraints) => {
     replace('constraints')(
       R.compose(
         R.join(''),
-        R.map(([path, value]) => `?place ${path} "${value}" . `)
+        R.map(
+          ([path, value]) => (
+            `?place ${path} ${R.startsWith('wd:', value) ? value : quote(value)} . `
+          )
+        )
       )(constraints)
     )
   )(queryTemplate)
@@ -335,6 +342,12 @@ const getWikidataAlgerianProvince = id => getWikidataPlace(
   ['wd:Q240601'] // province of Algeria
 )
 
+const getWikidataPakistaniProvince = id => getWikidataPlace(
+  id,
+  ['wd:Q270496'], // administrative territorial entity of Pakistan
+  [['(wdt:P31/wdt:P279*)', 'wd:Q10864048']] // first-level administrative country subdivision
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -401,6 +414,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'algerian-provinces':
         promise = getWikidataAlgerianProvince(place.id)
+        break
+      case 'pakistani-provinces':
+        promise = getWikidataPakistaniProvince(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

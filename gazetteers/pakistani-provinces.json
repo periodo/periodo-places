@@ -1,0 +1,1451 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azad%20Kashmir.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Region administered by Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  73.581172,
+                  33.229161
+                ],
+                [
+                  73.400201,
+                  34.375526
+                ],
+                [
+                  73.436685,
+                  34.522157
+                ],
+                [
+                  73.447124,
+                  34.558047
+                ],
+                [
+                  73.450121,
+                  34.562594
+                ],
+                [
+                  73.454462,
+                  34.566367
+                ],
+                [
+                  74.088428,
+                  35.085043
+                ],
+                [
+                  74.099384,
+                  35.092743
+                ],
+                [
+                  74.124701,
+                  35.099201
+                ],
+                [
+                  74.463767,
+                  35.123654
+                ],
+                [
+                  74.488881,
+                  35.120089
+                ],
+                [
+                  75.14109,
+                  34.870337
+                ],
+                [
+                  75.161399,
+                  34.861965
+                ],
+                [
+                  75.207959,
+                  34.821502
+                ],
+                [
+                  75.231885,
+                  34.794579
+                ],
+                [
+                  75.248938,
+                  34.762307
+                ],
+                [
+                  75.255295,
+                  34.728769
+                ],
+                [
+                  75.251729,
+                  34.696859
+                ],
+                [
+                  75.224544,
+                  34.638622
+                ],
+                [
+                  74.333788,
+                  32.849262
+                ],
+                [
+                  74.322936,
+                  32.830529
+                ],
+                [
+                  74.316989,
+                  32.823067
+                ],
+                [
+                  73.805861,
+                  33.015144
+                ],
+                [
+                  73.773202,
+                  33.030646
+                ],
+                [
+                  73.672743,
+                  33.084907
+                ],
+                [
+                  73.640497,
+                  33.103304
+                ],
+                [
+                  73.622513,
+                  33.124491
+                ],
+                [
+                  73.581172,
+                  33.229161
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200130",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "AJ&K"
+        },
+        {
+          "lang": "en",
+          "toponym": "Azad Jammu & Kashmir"
+        },
+        {
+          "lang": "en",
+          "toponym": "Azad Jammu and Kashmir"
+        },
+        {
+          "lang": "en",
+          "toponym": "Azad Kashmir"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pakistan-occupied Kashmir"
+        }
+      ],
+      "properties": {
+        "title": "Azad Kashmir"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q270496",
+          "label": "administrative territorial entity of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Balochistan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Islamic Republic of Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  61.588227,
+                  25.202094
+                ],
+                [
+                  60.844379,
+                  29.858179
+                ],
+                [
+                  68.138559,
+                  31.824674
+                ],
+                [
+                  69.792671,
+                  32.061144
+                ],
+                [
+                  69.821661,
+                  32.057604
+                ],
+                [
+                  69.824917,
+                  32.053418
+                ],
+                [
+                  69.943617,
+                  31.894953
+                ],
+                [
+                  70.22913,
+                  31.480534
+                ],
+                [
+                  70.23254,
+                  31.475237
+                ],
+                [
+                  70.257707,
+                  31.392477
+                ],
+                [
+                  70.258172,
+                  31.385681
+                ],
+                [
+                  70.238948,
+                  30.831633
+                ],
+                [
+                  70.237708,
+                  30.822047
+                ],
+                [
+                  69.707456,
+                  29.129824
+                ],
+                [
+                  69.38515,
+                  28.486556
+                ],
+                [
+                  67.010721,
+                  25.092939
+                ],
+                [
+                  66.990878,
+                  25.066894
+                ],
+                [
+                  66.966331,
+                  25.042968
+                ],
+                [
+                  66.952534,
+                  25.034364
+                ],
+                [
+                  66.704438,
+                  24.892035
+                ],
+                [
+                  61.754868,
+                  25.013467
+                ],
+                [
+                  61.729551,
+                  25.021783
+                ],
+                [
+                  61.588227,
+                  25.202094
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q163239",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balochistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baluchistan"
+        }
+      ],
+      "properties": {
+        "title": "Balochistan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15058985",
+          "label": "province of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20FATA.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former semi-autonomous tribal region in northwestern Pakistan (1947–2018)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  69.251049,
+                  32.13065
+                ],
+                [
+                  69.228001,
+                  32.421304
+                ],
+                [
+                  69.232859,
+                  32.462671
+                ],
+                [
+                  69.841091,
+                  33.941805
+                ],
+                [
+                  69.872613,
+                  34.017227
+                ],
+                [
+                  69.889253,
+                  34.031206
+                ],
+                [
+                  71.324928,
+                  34.897561
+                ],
+                [
+                  71.445239,
+                  34.937757
+                ],
+                [
+                  71.779009,
+                  34.784492
+                ],
+                [
+                  71.78366,
+                  34.781004
+                ],
+                [
+                  71.798698,
+                  34.758395
+                ],
+                [
+                  71.859728,
+                  33.767061
+                ],
+                [
+                  71.839367,
+                  33.629705
+                ],
+                [
+                  71.837972,
+                  33.626372
+                ],
+                [
+                  70.403899,
+                  31.19174
+                ],
+                [
+                  70.256311,
+                  31.069112
+                ],
+                [
+                  70.251351,
+                  31.065753
+                ],
+                [
+                  70.245925,
+                  31.066321
+                ],
+                [
+                  70.242979,
+                  31.068001
+                ],
+                [
+                  69.301157,
+                  31.941282
+                ],
+                [
+                  69.270634,
+                  32.035978
+                ],
+                [
+                  69.251049,
+                  32.13065
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q208270",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "FATA"
+        },
+        {
+          "lang": "en",
+          "toponym": "Federally Administered Tribal Areas"
+        }
+      ],
+      "properties": {
+        "title": "Federally Administered Tribal Areas"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q270496",
+          "label": "administrative territorial entity of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gilgit-Baltistan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Territory administered by Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  73.72783,
+                  35.211547
+                ],
+                [
+                  72.515604,
+                  35.903959
+                ],
+                [
+                  72.529247,
+                  36.102604
+                ],
+                [
+                  72.53028,
+                  36.108081
+                ],
+                [
+                  72.564904,
+                  36.230141
+                ],
+                [
+                  72.568004,
+                  36.236756
+                ],
+                [
+                  72.572035,
+                  36.242698
+                ],
+                [
+                  72.578029,
+                  36.249881
+                ],
+                [
+                  72.585988,
+                  36.25784
+                ],
+                [
+                  73.0734,
+                  36.698536
+                ],
+                [
+                  73.078154,
+                  36.70081
+                ],
+                [
+                  73.176546,
+                  36.734865
+                ],
+                [
+                  73.711842,
+                  36.894139
+                ],
+                [
+                  74.66245,
+                  37.054484
+                ],
+                [
+                  75.100149,
+                  36.994125
+                ],
+                [
+                  75.118546,
+                  36.991232
+                ],
+                [
+                  75.31347,
+                  36.928755
+                ],
+                [
+                  75.351297,
+                  36.915784
+                ],
+                [
+                  75.728741,
+                  36.723186
+                ],
+                [
+                  75.790547,
+                  36.687839
+                ],
+                [
+                  75.849768,
+                  36.644741
+                ],
+                [
+                  75.874779,
+                  36.619471
+                ],
+                [
+                  76.555461,
+                  35.897862
+                ],
+                [
+                  76.777351,
+                  35.646112
+                ],
+                [
+                  76.913161,
+                  35.378277
+                ],
+                [
+                  77.048971,
+                  35.110442
+                ],
+                [
+                  77.035225,
+                  35.034503
+                ],
+                [
+                  77.02861,
+                  35.003394
+                ],
+                [
+                  77.013108,
+                  34.986393
+                ],
+                [
+                  76.933836,
+                  34.928877
+                ],
+                [
+                  76.652613,
+                  34.746976
+                ],
+                [
+                  76.63959,
+                  34.741136
+                ],
+                [
+                  75.795818,
+                  34.507921
+                ],
+                [
+                  75.777111,
+                  34.503812
+                ],
+                [
+                  75.655568,
+                  34.496965
+                ],
+                [
+                  75.611643,
+                  34.49836
+                ],
+                [
+                  75.348093,
+                  34.55722
+                ],
+                [
+                  73.732274,
+                  35.209377
+                ],
+                [
+                  73.732193,
+                  35.209416
+                ],
+                [
+                  73.732109,
+                  35.209457
+                ],
+                [
+                  73.72783,
+                  35.211547
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200697",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gilgit-Baltistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gilgit–Baltistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Areas"
+        }
+      ],
+      "properties": {
+        "title": "Gilgit-Baltistan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q270496",
+          "label": "administrative territorial entity of Pakistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal territory of Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  72.817395,
+                  33.60937
+                ],
+                [
+                  72.804993,
+                  33.635053
+                ],
+                [
+                  72.810264,
+                  33.661925
+                ],
+                [
+                  72.832795,
+                  33.686032
+                ],
+                [
+                  72.927466,
+                  33.727451
+                ],
+                [
+                  73.031388,
+                  33.771143
+                ],
+                [
+                  73.126214,
+                  33.804345
+                ],
+                [
+                  73.215304,
+                  33.768973
+                ],
+                [
+                  73.228792,
+                  33.761299
+                ],
+                [
+                  73.242899,
+                  33.750705
+                ],
+                [
+                  73.312404,
+                  33.697013
+                ],
+                [
+                  73.320517,
+                  33.687091
+                ],
+                [
+                  73.320517,
+                  33.675748
+                ],
+                [
+                  73.313179,
+                  33.663372
+                ],
+                [
+                  73.238558,
+                  33.551492
+                ],
+                [
+                  73.231737,
+                  33.543302
+                ],
+                [
+                  73.186107,
+                  33.498886
+                ],
+                [
+                  73.182541,
+                  33.496328
+                ],
+                [
+                  73.163628,
+                  33.492271
+                ],
+                [
+                  73.142957,
+                  33.496457
+                ],
+                [
+                  72.854809,
+                  33.574385
+                ],
+                [
+                  72.83388,
+                  33.589552
+                ],
+                [
+                  72.817395,
+                  33.60937
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q848613",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Federal Capital Territory of Islamabad"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islamabad CT"
+        },
+        {
+          "lang": "en",
+          "toponym": "Islamabad Capital Territory"
+        }
+      ],
+      "properties": {
+        "title": "Islamabad Capital Territory"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q270496",
+          "label": "administrative territorial entity of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khyber%20Pakhtunkhwa.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.068416,
+                  32.152586
+                ],
+                [
+                  70.067796,
+                  32.155376
+                ],
+                [
+                  70.068106,
+                  32.158554
+                ],
+                [
+                  70.071206,
+                  32.17367
+                ],
+                [
+                  71.165919,
+                  36.045708
+                ],
+                [
+                  71.175376,
+                  36.061159
+                ],
+                [
+                  71.223073,
+                  36.125393
+                ],
+                [
+                  71.61044,
+                  36.457931
+                ],
+                [
+                  72.169682,
+                  36.711352
+                ],
+                [
+                  72.213607,
+                  36.726442
+                ],
+                [
+                  72.565214,
+                  36.820596
+                ],
+                [
+                  72.629602,
+                  36.832947
+                ],
+                [
+                  73.191842,
+                  36.877027
+                ],
+                [
+                  73.640083,
+                  36.896638
+                ],
+                [
+                  73.711335,
+                  36.894157
+                ],
+                [
+                  73.711842,
+                  36.894139
+                ],
+                [
+                  73.86901,
+                  36.784991
+                ],
+                [
+                  73.880999,
+                  36.776464
+                ],
+                [
+                  73.887304,
+                  36.770522
+                ],
+                [
+                  73.891119,
+                  36.756516
+                ],
+                [
+                  73.891231,
+                  36.756104
+                ],
+                [
+                  73.892058,
+                  36.751505
+                ],
+                [
+                  74.124395,
+                  35.105093
+                ],
+                [
+                  74.124696,
+                  35.099372
+                ],
+                [
+                  74.124701,
+                  35.099201
+                ],
+                [
+                  74.100314,
+                  35.009647
+                ],
+                [
+                  74.056802,
+                  34.932908
+                ],
+                [
+                  73.518644,
+                  34.00777
+                ],
+                [
+                  70.77814,
+                  31.294163
+                ],
+                [
+                  70.417232,
+                  31.245277
+                ],
+                [
+                  70.400592,
+                  31.247059
+                ],
+                [
+                  70.068416,
+                  32.152586
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q183314",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khyber Pakhtunkhwa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sarhad Province"
+        }
+      ],
+      "properties": {
+        "title": "Khyber Pakhtunkhwa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15058985",
+          "label": "province of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Punjab.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  69.331458,
+                  28.563606
+                ],
+                [
+                  69.330993,
+                  28.569264
+                ],
+                [
+                  69.332389,
+                  28.577326
+                ],
+                [
+                  69.600227,
+                  29.646537
+                ],
+                [
+                  69.604723,
+                  29.658035
+                ],
+                [
+                  70.256622,
+                  31.144921
+                ],
+                [
+                  70.258792,
+                  31.149856
+                ],
+                [
+                  71.155378,
+                  32.929747
+                ],
+                [
+                  71.179563,
+                  32.963053
+                ],
+                [
+                  71.418876,
+                  33.241382
+                ],
+                [
+                  72.240635,
+                  33.938084
+                ],
+                [
+                  72.255311,
+                  33.944543
+                ],
+                [
+                  72.430907,
+                  34.011464
+                ],
+                [
+                  72.467804,
+                  34.020611
+                ],
+                [
+                  72.509714,
+                  34.022781
+                ],
+                [
+                  73.492135,
+                  34.018131
+                ],
+                [
+                  73.498646,
+                  34.018053
+                ],
+                [
+                  73.518644,
+                  34.00777
+                ],
+                [
+                  75.326906,
+                  32.312473
+                ],
+                [
+                  75.35295,
+                  32.284387
+                ],
+                [
+                  75.359048,
+                  32.261675
+                ],
+                [
+                  75.34861,
+                  32.242012
+                ],
+                [
+                  75.294659,
+                  32.148892
+                ],
+                [
+                  74.658833,
+                  31.083789
+                ],
+                [
+                  73.944354,
+                  30.188288
+                ],
+                [
+                  72.918164,
+                  29.032854
+                ],
+                [
+                  71.874403,
+                  27.95969
+                ],
+                [
+                  71.860864,
+                  27.950207
+                ],
+                [
+                  71.70139,
+                  27.906773
+                ],
+                [
+                  71.560727,
+                  27.868533
+                ],
+                [
+                  70.91379,
+                  27.717818
+                ],
+                [
+                  70.831573,
+                  27.701463
+                ],
+                [
+                  70.761758,
+                  27.709783
+                ],
+                [
+                  70.189028,
+                  27.89179
+                ],
+                [
+                  70.074307,
+                  27.939716
+                ],
+                [
+                  70.012089,
+                  27.973125
+                ],
+                [
+                  69.996069,
+                  27.984649
+                ],
+                [
+                  69.38515,
+                  28.486556
+                ],
+                [
+                  69.332854,
+                  28.558696
+                ],
+                [
+                  69.331458,
+                  28.563606
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q4478",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Panjab"
+        },
+        {
+          "lang": "en",
+          "toponym": "Punjab (Pakistan)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Punjab Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Punjab"
+        },
+        {
+          "lang": "en",
+          "toponym": "Punjab, Pakistan"
+        }
+      ],
+      "properties": {
+        "title": "Punjab"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15058985",
+          "label": "province of Pakistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sindh.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Islamic Republic of Pakistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  67.478526,
+                  23.891506
+                ],
+                [
+                  66.654145,
+                  24.839179
+                ],
+                [
+                  66.656749,
+                  24.85871
+                ],
+                [
+                  67.142755,
+                  27.3335
+                ],
+                [
+                  67.18575,
+                  27.512585
+                ],
+                [
+                  67.192881,
+                  27.531627
+                ],
+                [
+                  67.205748,
+                  27.557698
+                ],
+                [
+                  67.272669,
+                  27.663376
+                ],
+                [
+                  67.38982,
+                  27.8452
+                ],
+                [
+                  67.402067,
+                  27.863881
+                ],
+                [
+                  68.46686,
+                  28.452501
+                ],
+                [
+                  68.472906,
+                  28.454827
+                ],
+                [
+                  68.501018,
+                  28.462578
+                ],
+                [
+                  68.604319,
+                  28.474955
+                ],
+                [
+                  69.505246,
+                  28.52844
+                ],
+                [
+                  69.530413,
+                  28.528207
+                ],
+                [
+                  69.557698,
+                  28.524719
+                ],
+                [
+                  69.583484,
+                  28.517769
+                ],
+                [
+                  69.732416,
+                  28.466196
+                ],
+                [
+                  69.799492,
+                  28.395192
+                ],
+                [
+                  70.189028,
+                  27.89179
+                ],
+                [
+                  71.063858,
+                  24.682577
+                ],
+                [
+                  71.082772,
+                  24.411508
+                ],
+                [
+                  71.073057,
+                  24.402103
+                ],
+                [
+                  70.851468,
+                  24.264877
+                ],
+                [
+                  70.776021,
+                  24.236687
+                ],
+                [
+                  70.755453,
+                  24.231442
+                ],
+                [
+                  68.157481,
+                  23.696234
+                ],
+                [
+                  68.149099,
+                  23.694525
+                ],
+                [
+                  67.637706,
+                  23.801744
+                ],
+                [
+                  67.631602,
+                  23.803453
+                ],
+                [
+                  67.491059,
+                  23.883124
+                ],
+                [
+                  67.478526,
+                  23.891506
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q37211",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mehran"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sindh"
+        }
+      ],
+      "properties": {
+        "title": "Sindh"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15058985",
+          "label": "province of Pakistan"
+        }
+      ]
+    }
+  ],
+  "title": "Pakistani provinces and territories",
+  "type": "FeatureCollection"
+}
