@@ -1,0 +1,74 @@
+{
+  "Al Anbar Governorate": {
+    "id": "http://www.wikidata.org/entity/Q187334",
+    "covers": [ "Al-Anbar" ]
+  },
+  "Al Muthanna Governorate": {
+    "id": "http://www.wikidata.org/entity/Q212761",
+    "covers": [ "Al-Muthannia" ]
+  },
+  "Al-Qādisiyyah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q62987",
+    "covers": [ "Al-Qādisiyyah" ]
+  },
+  "Babylon Governorate": {
+    "id": "http://www.wikidata.org/entity/Q59202",
+    "covers": [ "Babil" ]
+  },
+  "Baghdad Governorate": {
+    "id": "http://www.wikidata.org/entity/Q191075",
+    "covers": [ "Baghdad" ]
+  },
+  "Basra Governorate": {
+    "id": "http://www.wikidata.org/entity/Q193551",
+    "covers": [ "Al-Basrah" ]
+  },
+  "Dhi Qar Governorate": {
+    "id": "http://www.wikidata.org/entity/Q215649",
+    "covers": [ "Dhi-Qar" ]
+  },
+  "Diyala Governorate": {
+    "id": "http://www.wikidata.org/entity/Q217075",
+    "covers": [ "Diyala" ]
+  },
+  "Duhok Governorate": {
+    "id": "http://www.wikidata.org/entity/Q189541",
+    "covers": [ "Dihok" ]
+  },
+  "Erbil Governorate": {
+    "id": "http://www.wikidata.org/entity/Q213189",
+    "covers": [ "Arbil" ]
+  },
+  "Karbala Governorate": {
+    "id": "http://www.wikidata.org/entity/Q214104",
+    "covers": [ "Karbala'" ]
+  },
+  "Kirkuk Governorate": {
+    "id": "http://www.wikidata.org/entity/Q193268",
+    "covers": [ "At-Ta'mim" ]
+  },
+  "Maysan Governorate": {
+    "id": "http://www.wikidata.org/entity/Q213170",
+    "covers": [ "Maysan" ]
+  },
+  "Najaf Governorate": {
+    "id": "http://www.wikidata.org/entity/Q192882",
+    "covers": [ "An-Najaf" ]
+  },
+  "Nineveh Governorate": {
+    "id": "http://www.wikidata.org/entity/Q189352",
+    "covers": [ "Ninawa" ]
+  },
+  "Saladin Governorate": {
+    "id": "http://www.wikidata.org/entity/Q190131",
+    "covers": [ "Sala ad-Din" ]
+  },
+  "Sulaymaniyah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q213182",
+    "covers": [ "As-Sulaymaniyah" ]
+  },
+  "Wasit Governorate": {
+    "id": "http://www.wikidata.org/entity/Q189747",
+    "covers": [ "Wasit" ]
+  }
+}

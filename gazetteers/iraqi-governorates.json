@@ -1,0 +1,2367 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  38.97822,
+                  32.47497
+                ],
+                [
+                  38.774511,
+                  33.371685
+                ],
+                [
+                  41.192326,
+                  35.158904
+                ],
+                [
+                  41.213743,
+                  35.158397
+                ],
+                [
+                  41.342211,
+                  35.148501
+                ],
+                [
+                  42.491288,
+                  34.972723
+                ],
+                [
+                  44.03631,
+                  33.636991
+                ],
+                [
+                  44.051916,
+                  33.622728
+                ],
+                [
+                  44.244773,
+                  33.433334
+                ],
+                [
+                  44.277849,
+                  33.378571
+                ],
+                [
+                  44.279189,
+                  33.374139
+                ],
+                [
+                  44.287251,
+                  33.189163
+                ],
+                [
+                  44.129637,
+                  32.781152
+                ],
+                [
+                  43.789503,
+                  32.033756
+                ],
+                [
+                  42.790908,
+                  30.56121
+                ],
+                [
+                  42.783413,
+                  30.551045
+                ],
+                [
+                  39.146375,
+                  32.118144
+                ],
+                [
+                  39.036201,
+                  32.313352
+                ],
+                [
+                  39.028759,
+                  32.328338
+                ],
+                [
+                  38.978633,
+                  32.47373
+                ],
+                [
+                  38.97822,
+                  32.47497
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q187334",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Anbar Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Anbar Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Anbar"
+        }
+      ],
+      "properties": {
+        "title": "Al Anbar Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.890065,
+                  29.767383
+                ],
+                [
+                  43.824013,
+                  29.81398
+                ],
+                [
+                  44.236401,
+                  30.615289
+                ],
+                [
+                  44.271954,
+                  30.676242
+                ],
+                [
+                  44.726914,
+                  31.407463
+                ],
+                [
+                  45.02488,
+                  31.679204
+                ],
+                [
+                  45.220114,
+                  31.72964
+                ],
+                [
+                  45.292047,
+                  31.727599
+                ],
+                [
+                  45.785764,
+                  31.651531
+                ],
+                [
+                  45.81739,
+                  31.620396
+                ],
+                [
+                  46.574656,
+                  30.514081
+                ],
+                [
+                  46.73568,
+                  30.16356
+                ],
+                [
+                  46.741674,
+                  30.143535
+                ],
+                [
+                  46.744775,
+                  30.117852
+                ],
+                [
+                  46.744568,
+                  30.089301
+                ],
+                [
+                  46.649484,
+                  29.48156
+                ],
+                [
+                  46.645246,
+                  29.455877
+                ],
+                [
+                  46.561468,
+                  29.124167
+                ],
+                [
+                  46.532436,
+                  29.095745
+                ],
+                [
+                  46.444896,
+                  29.079415
+                ],
+                [
+                  46.427322,
+                  29.076143
+                ],
+                [
+                  46.357459,
+                  29.063137
+                ],
+                [
+                  46.17592,
+                  29.077477
+                ],
+                [
+                  45.434932,
+                  29.136207
+                ],
+                [
+                  44.888712,
+                  29.179512
+                ],
+                [
+                  44.717456,
+                  29.193103
+                ],
+                [
+                  44.710893,
+                  29.195273
+                ],
+                [
+                  44.691825,
+                  29.201836
+                ],
+                [
+                  44.614878,
+                  29.256071
+                ],
+                [
+                  44.233661,
+                  29.524995
+                ],
+                [
+                  43.890065,
+                  29.767383
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q212761",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Muthanna Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muthanna Province"
+        }
+      ],
+      "properties": {
+        "title": "Al Muthanna Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.450858,
+                  31.551408
+                ],
+                [
+                  44.429257,
+                  31.585308
+                ],
+                [
+                  44.499537,
+                  31.952727
+                ],
+                [
+                  44.506565,
+                  31.984095
+                ],
+                [
+                  44.514937,
+                  32.008305
+                ],
+                [
+                  44.58656,
+                  32.104397
+                ],
+                [
+                  44.629865,
+                  32.159459
+                ],
+                [
+                  45.160996,
+                  32.388463
+                ],
+                [
+                  45.175155,
+                  32.393139
+                ],
+                [
+                  45.183733,
+                  32.395077
+                ],
+                [
+                  45.198409,
+                  32.394431
+                ],
+                [
+                  45.256287,
+                  32.387791
+                ],
+                [
+                  45.3584,
+                  32.355622
+                ],
+                [
+                  45.391886,
+                  32.335081
+                ],
+                [
+                  45.686028,
+                  32.068921
+                ],
+                [
+                  45.725716,
+                  31.947792
+                ],
+                [
+                  45.785764,
+                  31.651531
+                ],
+                [
+                  45.777496,
+                  31.643883
+                ],
+                [
+                  44.978268,
+                  31.26264
+                ],
+                [
+                  44.897239,
+                  31.300002
+                ],
+                [
+                  44.534574,
+                  31.475288
+                ],
+                [
+                  44.51597,
+                  31.485624
+                ],
+                [
+                  44.450858,
+                  31.551408
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q62987",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Qādisiyyah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al-Qādisiyyah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.825367,
+                  33.180611
+                ],
+                [
+                  43.820349,
+                  33.201705
+                ],
+                [
+                  43.854202,
+                  33.20557
+                ],
+                [
+                  44.300376,
+                  33.190817
+                ],
+                [
+                  44.504808,
+                  33.176011
+                ],
+                [
+                  44.963695,
+                  32.702707
+                ],
+                [
+                  45.193965,
+                  32.446599
+                ],
+                [
+                  45.196756,
+                  32.415205
+                ],
+                [
+                  45.198409,
+                  32.394431
+                ],
+                [
+                  44.758023,
+                  32.125404
+                ],
+                [
+                  44.749651,
+                  32.121451
+                ],
+                [
+                  44.740246,
+                  32.118841
+                ],
+                [
+                  44.728257,
+                  32.118712
+                ],
+                [
+                  44.373654,
+                  32.144989
+                ],
+                [
+                  44.358461,
+                  32.162249
+                ],
+                [
+                  44.339547,
+                  32.18695
+                ],
+                [
+                  44.320634,
+                  32.212685
+                ],
+                [
+                  43.825367,
+                  33.180611
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q59202",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Babil Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Babylon Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Babylon Province"
+        }
+      ],
+      "properties": {
+        "title": "Babylon Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.222448,
+                  33.261174
+                ],
+                [
+                  44.222242,
+                  33.282181
+                ],
+                [
+                  44.226272,
+                  33.30143
+                ],
+                [
+                  44.238158,
+                  33.321067
+                ],
+                [
+                  44.277849,
+                  33.378571
+                ],
+                [
+                  44.349779,
+                  33.432507
+                ],
+                [
+                  44.42719,
+                  33.429148
+                ],
+                [
+                  44.437112,
+                  33.427495
+                ],
+                [
+                  44.525789,
+                  33.410881
+                ],
+                [
+                  44.5292,
+                  33.408116
+                ],
+                [
+                  44.533334,
+                  33.403569
+                ],
+                [
+                  44.542636,
+                  33.369152
+                ],
+                [
+                  44.543256,
+                  33.366258
+                ],
+                [
+                  44.538501,
+                  33.280811
+                ],
+                [
+                  44.536124,
+                  33.273396
+                ],
+                [
+                  44.504808,
+                  33.176011
+                ],
+                [
+                  44.338824,
+                  33.183091
+                ],
+                [
+                  44.287251,
+                  33.189163
+                ],
+                [
+                  44.248803,
+                  33.21389
+                ],
+                [
+                  44.237124,
+                  33.223605
+                ],
+                [
+                  44.227203,
+                  33.24084
+                ],
+                [
+                  44.222448,
+                  33.261174
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q191075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Baghdad Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baghdad Province"
+        }
+      ],
+      "properties": {
+        "title": "Baghdad Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Basra%20Governorate.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in southern Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.546886,
+                  29.934719
+                ],
+                [
+                  46.561468,
+                  29.124167
+                ],
+                [
+                  46.574656,
+                  30.514081
+                ],
+                [
+                  47.155913,
+                  31.216234
+                ],
+                [
+                  47.176273,
+                  31.230936
+                ],
+                [
+                  47.211,
+                  31.244941
+                ],
+                [
+                  47.349699,
+                  31.275947
+                ],
+                [
+                  47.394761,
+                  31.27915
+                ],
+                [
+                  47.537491,
+                  31.266981
+                ],
+                [
+                  47.676088,
+                  31.236595
+                ],
+                [
+                  47.676443,
+                  31.236517
+                ],
+                [
+                  48.012242,
+                  30.989066
+                ],
+                [
+                  48.554942,
+                  29.956488
+                ],
+                [
+                  48.559255,
+                  29.946601
+                ],
+                [
+                  48.546886,
+                  29.934719
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q193551",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Baṣra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basra Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basra Province"
+        }
+      ],
+      "properties": {
+        "title": "Basra Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.719825,
+                  30.837627
+                ],
+                [
+                  45.705975,
+                  30.977308
+                ],
+                [
+                  45.717448,
+                  31.90888
+                ],
+                [
+                  45.718998,
+                  31.923194
+                ],
+                [
+                  45.725716,
+                  31.947792
+                ],
+                [
+                  46.057582,
+                  32.004636
+                ],
+                [
+                  46.317411,
+                  32.005437
+                ],
+                [
+                  46.339735,
+                  31.986472
+                ],
+                [
+                  47.126147,
+                  31.129806
+                ],
+                [
+                  47.134725,
+                  31.046865
+                ],
+                [
+                  47.122116,
+                  30.838816
+                ],
+                [
+                  47.094521,
+                  30.601828
+                ],
+                [
+                  47.088423,
+                  30.573793
+                ],
+                [
+                  47.058141,
+                  30.568935
+                ],
+                [
+                  46.541583,
+                  30.50726
+                ],
+                [
+                  46.528251,
+                  30.507751
+                ],
+                [
+                  45.719825,
+                  30.837627
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q215649",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dhi Qar Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Dhi Qar Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.274848,
+                  33.377885
+                ],
+                [
+                  44.244773,
+                  33.433334
+                ],
+                [
+                  44.289421,
+                  34.013428
+                ],
+                [
+                  44.290041,
+                  34.01826
+                ],
+                [
+                  44.304511,
+                  34.072313
+                ],
+                [
+                  44.506049,
+                  34.562955
+                ],
+                [
+                  44.517727,
+                  34.575538
+                ],
+                [
+                  44.848043,
+                  34.801726
+                ],
+                [
+                  44.859722,
+                  34.809374
+                ],
+                [
+                  44.965969,
+                  34.867484
+                ],
+                [
+                  45.713003,
+                  35.109924
+                ],
+                [
+                  45.719515,
+                  35.110028
+                ],
+                [
+                  45.726129,
+                  35.106643
+                ],
+                [
+                  45.733777,
+                  35.101243
+                ],
+                [
+                  45.738428,
+                  35.097264
+                ],
+                [
+                  45.812429,
+                  35.03042
+                ],
+                [
+                  45.823178,
+                  35.01608
+                ],
+                [
+                  45.964461,
+                  33.495966
+                ],
+                [
+                  45.916092,
+                  33.415222
+                ],
+                [
+                  45.908857,
+                  33.407625
+                ],
+                [
+                  45.5033,
+                  33.074157
+                ],
+                [
+                  45.491828,
+                  33.068757
+                ],
+                [
+                  45.483663,
+                  33.066018
+                ],
+                [
+                  44.562273,
+                  33.00026
+                ],
+                [
+                  44.540052,
+                  33.005996
+                ],
+                [
+                  44.274848,
+                  33.377885
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q217075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Diyala Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Diyala Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Duhok Governorate is part of Iraqi Kurdistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.383801,
+                  37.040711
+                ],
+                [
+                  42.357238,
+                  37.109984
+                ],
+                [
+                  42.715666,
+                  37.355292
+                ],
+                [
+                  42.722177,
+                  37.358909
+                ],
+                [
+                  42.77158,
+                  37.374903
+                ],
+                [
+                  42.780468,
+                  37.375498
+                ],
+                [
+                  43.114815,
+                  37.371131
+                ],
+                [
+                  44.035586,
+                  37.31824
+                ],
+                [
+                  44.069025,
+                  37.313727
+                ],
+                [
+                  44.086953,
+                  37.280025
+                ],
+                [
+                  44.088296,
+                  37.277441
+                ],
+                [
+                  44.099355,
+                  37.214266
+                ],
+                [
+                  44.099458,
+                  37.210391
+                ],
+                [
+                  44.098528,
+                  37.207678
+                ],
+                [
+                  44.05574,
+                  37.158559
+                ],
+                [
+                  43.701653,
+                  36.851239
+                ],
+                [
+                  43.698346,
+                  36.848423
+                ],
+                [
+                  43.64884,
+                  36.826512
+                ],
+                [
+                  42.843411,
+                  36.692515
+                ],
+                [
+                  42.754011,
+                  36.711506
+                ],
+                [
+                  42.596501,
+                  36.796023
+                ],
+                [
+                  42.514852,
+                  36.843359
+                ],
+                [
+                  42.504,
+                  36.851317
+                ],
+                [
+                  42.397547,
+                  37.017043
+                ],
+                [
+                  42.383801,
+                  37.040711
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189541",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Duhok Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Duhok Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Duhok Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Iraqi Kurdistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.321625,
+                  35.685781
+                ],
+                [
+                  43.315837,
+                  35.769109
+                ],
+                [
+                  43.344776,
+                  35.988837
+                ],
+                [
+                  43.828157,
+                  37.01185
+                ],
+                [
+                  44.069025,
+                  37.313727
+                ],
+                [
+                  44.088037,
+                  37.31116
+                ],
+                [
+                  44.733786,
+                  37.167242
+                ],
+                [
+                  44.753836,
+                  37.159154
+                ],
+                [
+                  44.880754,
+                  37.024925
+                ],
+                [
+                  44.887368,
+                  37.015933
+                ],
+                [
+                  45.045911,
+                  36.668047
+                ],
+                [
+                  45.04431,
+                  36.64934
+                ],
+                [
+                  44.977648,
+                  35.898713
+                ],
+                [
+                  44.977131,
+                  35.89644
+                ],
+                [
+                  44.97341,
+                  35.888223
+                ],
+                [
+                  44.971447,
+                  35.885433
+                ],
+                [
+                  44.965039,
+                  35.881221
+                ],
+                [
+                  43.552205,
+                  35.450317
+                ],
+                [
+                  43.45464,
+                  35.427631
+                ],
+                [
+                  43.444511,
+                  35.426029
+                ],
+                [
+                  43.433866,
+                  35.426339
+                ],
+                [
+                  43.412885,
+                  35.431068
+                ],
+                [
+                  43.403274,
+                  35.434762
+                ],
+                [
+                  43.358212,
+                  35.458224
+                ],
+                [
+                  43.321625,
+                  35.685781
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213189",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Arbil Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Erbil Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Erbil Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hawler Province"
+        }
+      ],
+      "properties": {
+        "title": "Erbil Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.217652,
+                  32.540701
+                ],
+                [
+                  43.210727,
+                  32.570984
+                ],
+                [
+                  43.679742,
+                  32.784149
+                ],
+                [
+                  43.759014,
+                  32.816809
+                ],
+                [
+                  43.84366,
+                  32.825723
+                ],
+                [
+                  43.958175,
+                  32.8258
+                ],
+                [
+                  44.222862,
+                  32.776811
+                ],
+                [
+                  44.22896,
+                  32.774718
+                ],
+                [
+                  44.235781,
+                  32.770403
+                ],
+                [
+                  44.260069,
+                  32.749578
+                ],
+                [
+                  44.2641,
+                  32.741671
+                ],
+                [
+                  44.319497,
+                  32.343711
+                ],
+                [
+                  44.301203,
+                  32.301388
+                ],
+                [
+                  44.296449,
+                  32.295962
+                ],
+                [
+                  43.690595,
+                  32.16845
+                ],
+                [
+                  43.477378,
+                  32.308235
+                ],
+                [
+                  43.241836,
+                  32.510135
+                ],
+                [
+                  43.217652,
+                  32.540701
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q214104",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Karbala Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Karbala Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.269535,
+                  35.411482
+                ],
+                [
+                  43.267365,
+                  35.421017
+                ],
+                [
+                  43.267365,
+                  35.451764
+                ],
+                [
+                  43.273876,
+                  35.466699
+                ],
+                [
+                  43.911873,
+                  35.845771
+                ],
+                [
+                  43.927273,
+                  35.848122
+                ],
+                [
+                  44.614983,
+                  35.907834
+                ],
+                [
+                  44.61829,
+                  35.907343
+                ],
+                [
+                  44.62139,
+                  35.903778
+                ],
+                [
+                  44.777143,
+                  35.705418
+                ],
+                [
+                  44.785411,
+                  35.6856
+                ],
+                [
+                  44.803395,
+                  35.459205
+                ],
+                [
+                  44.752752,
+                  35.306347
+                ],
+                [
+                  44.739109,
+                  35.271723
+                ],
+                [
+                  44.736319,
+                  35.265574
+                ],
+                [
+                  44.694874,
+                  35.188343
+                ],
+                [
+                  44.340477,
+                  34.729999
+                ],
+                [
+                  44.336137,
+                  34.724677
+                ],
+                [
+                  44.313502,
+                  34.702507
+                ],
+                [
+                  44.298413,
+                  34.702197
+                ],
+                [
+                  44.288387,
+                  34.704523
+                ],
+                [
+                  43.570809,
+                  35.065405
+                ],
+                [
+                  43.547761,
+                  35.078092
+                ],
+                [
+                  43.493914,
+                  35.110674
+                ],
+                [
+                  43.407201,
+                  35.189713
+                ],
+                [
+                  43.397072,
+                  35.200952
+                ],
+                [
+                  43.388391,
+                  35.213536
+                ],
+                [
+                  43.269535,
+                  35.411482
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q193268",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kirkuk Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirkuk Province"
+        }
+      ],
+      "properties": {
+        "title": "Kirkuk Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.432649,
+                  31.691218
+                ],
+                [
+                  46.3109,
+                  31.935415
+                ],
+                [
+                  46.317411,
+                  32.005437
+                ],
+                [
+                  46.481122,
+                  32.60062
+                ],
+                [
+                  46.546131,
+                  32.766967
+                ],
+                [
+                  46.553572,
+                  32.776578
+                ],
+                [
+                  46.600598,
+                  32.822519
+                ],
+                [
+                  46.604421,
+                  32.820685
+                ],
+                [
+                  47.343342,
+                  32.458692
+                ],
+                [
+                  47.410832,
+                  32.395285
+                ],
+                [
+                  47.416413,
+                  32.387973
+                ],
+                [
+                  47.834475,
+                  31.805708
+                ],
+                [
+                  47.837266,
+                  31.784469
+                ],
+                [
+                  47.831323,
+                  31.761835
+                ],
+                [
+                  47.676443,
+                  31.236517
+                ],
+                [
+                  47.126147,
+                  31.129806
+                ],
+                [
+                  46.845854,
+                  31.139107
+                ],
+                [
+                  46.806683,
+                  31.156652
+                ],
+                [
+                  46.749529,
+                  31.198122
+                ],
+                [
+                  46.742605,
+                  31.205925
+                ],
+                [
+                  46.605042,
+                  31.396043
+                ],
+                [
+                  46.432649,
+                  31.691218
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213170",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Maysan Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Maysan Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.858707,
+                  30.494677
+                ],
+                [
+                  42.783413,
+                  30.551045
+                ],
+                [
+                  43.111508,
+                  31.33987
+                ],
+                [
+                  43.239253,
+                  31.631532
+                ],
+                [
+                  43.253515,
+                  31.65352
+                ],
+                [
+                  43.409165,
+                  31.850304
+                ],
+                [
+                  43.690595,
+                  32.16845
+                ],
+                [
+                  44.319497,
+                  32.343711
+                ],
+                [
+                  44.629865,
+                  32.159459
+                ],
+                [
+                  44.726914,
+                  31.407463
+                ],
+                [
+                  44.651259,
+                  31.054926
+                ],
+                [
+                  44.627075,
+                  31.006945
+                ],
+                [
+                  44.579429,
+                  30.93434
+                ],
+                [
+                  43.824013,
+                  29.81398
+                ],
+                [
+                  43.431746,
+                  30.090568
+                ],
+                [
+                  42.858707,
+                  30.494677
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q192882",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Najaf Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Najaf Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.192326,
+                  35.158904
+                ],
+                [
+                  41.191521,
+                  35.182143
+                ],
+                [
+                  41.236583,
+                  36.077024
+                ],
+                [
+                  41.268829,
+                  36.327965
+                ],
+                [
+                  41.276994,
+                  36.354785
+                ],
+                [
+                  41.365258,
+                  36.494001
+                ],
+                [
+                  41.365361,
+                  36.494156
+                ],
+                [
+                  41.385411,
+                  36.516377
+                ],
+                [
+                  42.376806,
+                  37.062001
+                ],
+                [
+                  43.660519,
+                  37.048617
+                ],
+                [
+                  43.664756,
+                  37.048385
+                ],
+                [
+                  43.768729,
+                  37.026758
+                ],
+                [
+                  43.828157,
+                  37.01185
+                ],
+                [
+                  43.926032,
+                  36.979965
+                ],
+                [
+                  44.23175,
+                  36.808839
+                ],
+                [
+                  44.256968,
+                  36.794137
+                ],
+                [
+                  44.262446,
+                  36.789874
+                ],
+                [
+                  44.299963,
+                  36.746104
+                ],
+                [
+                  44.301823,
+                  36.743106
+                ],
+                [
+                  44.30265,
+                  36.739437
+                ],
+                [
+                  44.302133,
+                  36.734631
+                ],
+                [
+                  44.297069,
+                  36.725846
+                ],
+                [
+                  43.035647,
+                  35.102612
+                ],
+                [
+                  43.024899,
+                  35.09685
+                ],
+                [
+                  42.491288,
+                  34.972723
+                ],
+                [
+                  42.273317,
+                  34.948436
+                ],
+                [
+                  41.984239,
+                  34.964274
+                ],
+                [
+                  41.192326,
+                  35.158904
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189352",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nineveh Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Nineveh Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.499866,
+                  34.740076
+                ],
+                [
+                  42.491288,
+                  34.972723
+                ],
+                [
+                  42.516403,
+                  35.070082
+                ],
+                [
+                  42.891987,
+                  35.49419
+                ],
+                [
+                  42.895088,
+                  35.497084
+                ],
+                [
+                  43.334337,
+                  35.723453
+                ],
+                [
+                  44.865923,
+                  35.02626
+                ],
+                [
+                  44.951913,
+                  34.976728
+                ],
+                [
+                  44.964005,
+                  34.964765
+                ],
+                [
+                  44.966486,
+                  34.960425
+                ],
+                [
+                  44.967416,
+                  34.9566
+                ],
+                [
+                  44.965969,
+                  34.867484
+                ],
+                [
+                  44.393084,
+                  33.570897
+                ],
+                [
+                  44.244773,
+                  33.433334
+                ],
+                [
+                  44.171082,
+                  33.437029
+                ],
+                [
+                  44.099975,
+                  33.465994
+                ],
+                [
+                  43.429629,
+                  33.765329
+                ],
+                [
+                  43.292169,
+                  33.865349
+                ],
+                [
+                  43.131869,
+                  33.999501
+                ],
+                [
+                  42.53976,
+                  34.595305
+                ],
+                [
+                  42.499866,
+                  34.740076
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q190131",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saladin Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saladin Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Salah ad Din Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Saladin Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Kurdistan region"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.562066,
+                  35.129071
+                ],
+                [
+                  44.539535,
+                  36.347782
+                ],
+                [
+                  44.539845,
+                  36.368969
+                ],
+                [
+                  44.6032,
+                  36.423824
+                ],
+                [
+                  44.633793,
+                  36.442608
+                ],
+                [
+                  44.65467,
+                  36.448111
+                ],
+                [
+                  45.009525,
+                  36.516196
+                ],
+                [
+                  45.221301,
+                  36.42093
+                ],
+                [
+                  46.302992,
+                  35.826548
+                ],
+                [
+                  46.319632,
+                  35.816885
+                ],
+                [
+                  46.327074,
+                  35.8035
+                ],
+                [
+                  46.325058,
+                  35.787843
+                ],
+                [
+                  46.151064,
+                  35.111605
+                ],
+                [
+                  46.143106,
+                  35.099512
+                ],
+                [
+                  45.835011,
+                  34.890171
+                ],
+                [
+                  45.250086,
+                  34.528875
+                ],
+                [
+                  45.217323,
+                  34.512803
+                ],
+                [
+                  44.562066,
+                  35.129071
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213182",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Slemani Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sulaymaniyah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Sulaymaniyah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Iraq"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.534264,
+                  32.86678
+                ],
+                [
+                  44.523309,
+                  32.997934
+                ],
+                [
+                  44.605061,
+                  33.074157
+                ],
+                [
+                  44.834711,
+                  33.174332
+                ],
+                [
+                  45.964461,
+                  33.495966
+                ],
+                [
+                  45.968232,
+                  33.494236
+                ],
+                [
+                  45.971385,
+                  33.492763
+                ],
+                [
+                  45.974434,
+                  33.490799
+                ],
+                [
+                  46.008023,
+                  33.455659
+                ],
+                [
+                  46.600598,
+                  32.822519
+                ],
+                [
+                  46.603698,
+                  32.133724
+                ],
+                [
+                  46.576827,
+                  31.983578
+                ],
+                [
+                  46.555743,
+                  31.981407
+                ],
+                [
+                  45.825968,
+                  31.94234
+                ],
+                [
+                  45.725716,
+                  31.947792
+                ],
+                [
+                  44.553901,
+                  32.820839
+                ],
+                [
+                  44.546976,
+                  32.826317
+                ],
+                [
+                  44.540362,
+                  32.84213
+                ],
+                [
+                  44.534264,
+                  32.86678
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189747",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wasit Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Wasit Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q841753",
+          "label": "governorate of Iraq"
+        }
+      ]
+    }
+  ],
+  "title": "Iraqi and Kurdish governorates",
+  "type": "FeatureCollection"
+}

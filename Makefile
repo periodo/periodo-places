@@ -11,6 +11,7 @@ GAZETTEERS := \
 	gazetteers/historical.json \
 	gazetteers/indian-states.json \
 	gazetteers/iranian-provinces.json \
+	gazetteers/iraqi-governorates.json \
 	gazetteers/italian-regions.json \
 	gazetteers/kuwaiti-governorates.json \
 	gazetteers/laotian-provinces.json \
