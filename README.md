@@ -71,6 +71,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Tajikistani regions gazetteer**<br>
   https://data.perio.do/graphs/places/tajikistani-regions.json
 
+* **Turkish provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/turkish-provinces.json
+
 * **Turkmen regions gazetteer**<br>
   https://data.perio.do/graphs/places/turkmen-regions.json
 
@@ -309,6 +312,15 @@ Note that the Federally Administered Tribal Areas are included as a separate ter
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/tajikistani-regions.json](place-ids/tajikistani-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q867545 region of Tajikistan](https://www.wikidata.org/wiki/Q867545) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Turkish provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/turkish-provinces.json](place-ids/turkish-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q48336 province of Turkey](https://www.wikidata.org/wiki/Q48336) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Turkmen regions gazetteer

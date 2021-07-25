@@ -1,0 +1,326 @@
+{
+  "Adana Province": {
+    "id": "http://www.wikidata.org/entity/Q40549",
+    "covers": [ "Adana" ]
+  },
+  "Adıyaman Province": {
+    "id": "http://www.wikidata.org/entity/Q43924",
+    "covers": [ "Adiyaman" ]
+  },
+  "Afyonkarahisar Province": {
+    "id": "http://www.wikidata.org/entity/Q45220",
+    "covers": [ "Afyonkarahisar" ]
+  },
+  "Ağrı Province": {
+    "id": "http://www.wikidata.org/entity/Q80051",
+    "covers": [ "Agri" ]
+  },
+  "Aksaray Province": {
+    "id": "http://www.wikidata.org/entity/Q83073",
+    "covers": [ "Aksaray" ]
+  },
+  "Amasya Province": {
+    "id": "http://www.wikidata.org/entity/Q80036",
+    "covers": [ "Amasya" ]
+  },
+  "Ankara Province": {
+    "id": "http://www.wikidata.org/entity/Q2297724",
+    "covers": [ "Ankara" ]
+  },
+  "Antalya Province": {
+    "id": "http://www.wikidata.org/entity/Q40249",
+    "covers": [ "Antalya" ]
+  },
+  "Ardahan Province": {
+    "id": "http://www.wikidata.org/entity/Q79840",
+    "covers": [ "Ardahan" ]
+  },
+  "Artvin Province": {
+    "id": "http://www.wikidata.org/entity/Q43745",
+    "covers": [ "Artvin" ]
+  },
+  "Aydın Province": {
+    "id": "http://www.wikidata.org/entity/Q79846",
+    "covers": [ "Aydin" ]
+  },
+  "Balıkesir Province": {
+    "id": "http://www.wikidata.org/entity/Q47117",
+    "covers": [ "Balikesir" ]
+  },
+  "Bartın Province": {
+    "id": "http://www.wikidata.org/entity/Q83342",
+    "covers": [ "Bartın" ]
+  },
+  "Batman Province": {
+    "id": "http://www.wikidata.org/entity/Q80370",
+    "covers": [ "Batman" ]
+  },
+  "Bayburt Province": {
+    "id": "http://www.wikidata.org/entity/Q483063",
+    "covers": [ "Bayburt" ]
+  },
+  "Bilecik Province": {
+    "id": "http://www.wikidata.org/entity/Q46763",
+    "covers": [ "Bilecik" ]
+  },
+  "Bingöl Province": {
+    "id": "http://www.wikidata.org/entity/Q79760",
+    "covers": [ "Bingöl" ]
+  },
+  "Bitlis Province": {
+    "id": "http://www.wikidata.org/entity/Q83239",
+    "covers": [ "Bitlis" ]
+  },
+  "Bolu Province": {
+    "id": "http://www.wikidata.org/entity/Q82089",
+    "covers": [ "Bolu" ]
+  },
+  "Burdur Province": {
+    "id": "http://www.wikidata.org/entity/Q80088",
+    "covers": [ "Burdur" ]
+  },
+  "Bursa Province": {
+    "id": "http://www.wikidata.org/entity/Q43690",
+    "covers": [ "Bursa" ]
+  },
+  "Çanakkale Province": {
+    "id": "http://www.wikidata.org/entity/Q47813",
+    "covers": [ "Çanakkale" ]
+  },
+  "Çankırı Province": {
+    "id": "http://www.wikidata.org/entity/Q272662",
+    "covers": [ "Çankiri" ]
+  },
+  "Çorum Province": {
+    "id": "http://www.wikidata.org/entity/Q272947",
+    "covers": [ "Çorum" ]
+  },
+  "Denizli Province": {
+    "id": "http://www.wikidata.org/entity/Q82096",
+    "covers": [ "Denizli" ]
+  },
+  "Diyarbakır Province": {
+    "id": "http://www.wikidata.org/entity/Q83081",
+    "covers": [ "Diyarbakir" ]
+  },
+  "Düzce Province": {
+    "id": "http://www.wikidata.org/entity/Q432391",
+    "covers": [ "Düzce" ]
+  },
+  "Edirne Province": {
+    "id": "http://www.wikidata.org/entity/Q83102",
+    "covers": [ "Edirne" ]
+  },
+  "Elazığ Province": {
+    "id": "http://www.wikidata.org/entity/Q483091",
+    "covers": [ "Elazig" ]
+  },
+  "Erzincan Province": {
+    "id": "http://www.wikidata.org/entity/Q483173",
+    "covers": [ "Erzincan" ]
+  },
+  "Erzurum Province": {
+    "id": "http://www.wikidata.org/entity/Q376797",
+    "covers": [ "Erzurum" ]
+  },
+  "Eskişehir Province": {
+    "id": "http://www.wikidata.org/entity/Q483053",
+    "covers": [ "Eskisehir" ]
+  },
+  "Gaziantep Province": {
+    "id": "http://www.wikidata.org/entity/Q483154",
+    "covers": [ "Gaziantep" ]
+  },
+  "Giresun Province": {
+    "id": "http://www.wikidata.org/entity/Q482779",
+    "covers": [ "Giresun" ]
+  },
+  "Gümüşhane Province": {
+    "id": "http://www.wikidata.org/entity/Q482788",
+    "covers": [ "Gümüshane" ]
+  },
+  "Hakkâri Province": {
+    "id": "http://www.wikidata.org/entity/Q93209",
+    "covers": [ "Hakkari" ]
+  },
+  "Hatay Province": {
+    "id": "http://www.wikidata.org/entity/Q83274",
+    "covers": [ "Hatay" ]
+  },
+  "Iğdır Province": {
+    "id": "http://www.wikidata.org/entity/Q125506",
+    "covers": [ "Iğdir" ]
+  },
+  "Isparta Province": {
+    "id": "http://www.wikidata.org/entity/Q268043",
+    "covers": [ "Isparta" ]
+  },
+  "Istanbul Province": {
+    "id": "http://www.wikidata.org/entity/Q534799",
+    "covers": [ "Istanbul" ]
+  },
+  "İzmir Province": {
+    "id": "http://www.wikidata.org/entity/Q344490",
+    "covers": [ "Izmir" ]
+  },
+  "Kahramanmaraş Province": {
+    "id": "http://www.wikidata.org/entity/Q482834",
+    "covers": [ "K. Maras" ]
+  },
+  "Karabük Province": {
+    "id": "http://www.wikidata.org/entity/Q483168",
+    "covers": [ "Karabük" ]
+  },
+  "Karaman Province": {
+    "id": "http://www.wikidata.org/entity/Q482975",
+    "covers": [ "Karaman" ]
+  },
+  "Kars Province": {
+    "id": "http://www.wikidata.org/entity/Q83077",
+    "covers": [ "Kars" ]
+  },
+  "Kastamonu Province": {
+    "id": "http://www.wikidata.org/entity/Q483191",
+    "covers": [ "Kastamonu" ]
+  },
+  "Kayseri Province": {
+    "id": "http://www.wikidata.org/entity/Q483472",
+    "covers": [ "Kayseri" ]
+  },
+  "Kilis Province": {
+    "id": "http://www.wikidata.org/entity/Q128978",
+    "covers": [ "Kilis" ]
+  },
+  "Kırıkkale Province": {
+    "id": "http://www.wikidata.org/entity/Q484392",
+    "covers": [ "Kinkkale" ]
+  },
+  "Kırklareli Province": {
+    "id": "http://www.wikidata.org/entity/Q131597",
+    "covers": [ "Kirklareli" ]
+  },
+  "Kırşehir Province": {
+    "id": "http://www.wikidata.org/entity/Q134187",
+    "covers": [ "Kirsehir" ]
+  },
+  "Kocaeli Province": {
+    "id": "http://www.wikidata.org/entity/Q83965",
+    "covers": [ "Kocaeli" ]
+  },
+  "Konya Province": {
+    "id": "http://www.wikidata.org/entity/Q81551",
+    "covers": [ "Konya" ]
+  },
+  "Kütahya Province": {
+    "id": "http://www.wikidata.org/entity/Q126874",
+    "covers": [ "Kütahya" ]
+  },
+  "Malatya Province": {
+    "id": "http://www.wikidata.org/entity/Q131384",
+    "covers": [ "Malatya" ]
+  },
+  "Manisa Province": {
+    "id": "http://www.wikidata.org/entity/Q130553",
+    "covers": [ "Manisa" ]
+  },
+  "Mardin Province": {
+    "id": "http://www.wikidata.org/entity/Q131293",
+    "covers": [ "Mardin" ]
+  },
+  "Mersin Province": {
+    "id": "http://www.wikidata.org/entity/Q132637",
+    "covers": [ "Mersin" ]
+  },
+  "Muğla Province": {
+    "id": "http://www.wikidata.org/entity/Q123934",
+    "covers": [ "Mugla" ]
+  },
+  "Muş Province": {
+    "id": "http://www.wikidata.org/entity/Q131387",
+    "covers": [ "Mus" ]
+  },
+  "Nevşehir Province": {
+    "id": "http://www.wikidata.org/entity/Q430693",
+    "covers": [ "Nevsehir" ]
+  },
+  "Niğde Province": {
+    "id": "http://www.wikidata.org/entity/Q155219",
+    "covers": [ "Nigde" ]
+  },
+  "Ordu Province": {
+    "id": "http://www.wikidata.org/entity/Q483180",
+    "covers": [ "Ordu" ]
+  },
+  "Osmaniye Province": {
+    "id": "http://www.wikidata.org/entity/Q281206",
+    "covers": [ "Osmaniye" ]
+  },
+  "Rize Province": {
+    "id": "http://www.wikidata.org/entity/Q483481",
+    "covers": [ "Rize" ]
+  },
+  "Sakarya Province": {
+    "id": "http://www.wikidata.org/entity/Q83069",
+    "covers": [ "Sakarya" ]
+  },
+  "Samsun Province": {
+    "id": "http://www.wikidata.org/entity/Q483040",
+    "covers": [ "Samsun" ]
+  },
+  "Şanlıurfa Province": {
+    "id": "http://www.wikidata.org/entity/Q388469",
+    "covers": [ "Sanliurfa" ]
+  },
+  "Siirt Province": {
+    "id": "http://www.wikidata.org/entity/Q482825",
+    "covers": [ "Siirt" ]
+  },
+  "Sinop Province": {
+    "id": "http://www.wikidata.org/entity/Q134413",
+    "covers": [ "Sinop" ]
+  },
+  "Sivas Province": {
+    "id": "http://www.wikidata.org/entity/Q483100",
+    "covers": [ "Sivas" ]
+  },
+  "Şırnak Province": {
+    "id": "http://www.wikidata.org/entity/Q647378",
+    "covers": [ "Sirnak" ]
+  },
+  "Tekirdağ Province": {
+    "id": "http://www.wikidata.org/entity/Q129387",
+    "covers": [ "Tekirdag" ]
+  },
+  "Tokat Province": {
+    "id": "http://www.wikidata.org/entity/Q483195",
+    "covers": [ "Tokat" ]
+  },
+  "Trabzon Province": {
+    "id": "http://www.wikidata.org/entity/Q388995",
+    "covers": [ "Trabzon" ]
+  },
+  "Tunceli Province": {
+    "id": "http://www.wikidata.org/entity/Q620742",
+    "covers": [ "Tunceli" ]
+  },
+  "Uşak Province": {
+    "id": "http://www.wikidata.org/entity/Q483078",
+    "covers": [ "Usak" ]
+  },
+  "Van Province": {
+    "id": "http://www.wikidata.org/entity/Q80550",
+    "covers": [ "Van" ]
+  },
+  "Yalova Province": {
+    "id": "http://www.wikidata.org/entity/Q483083",
+    "covers": [ "Yalova" ]
+  },
+  "Yozgat Province": {
+    "id": "http://www.wikidata.org/entity/Q75445",
+    "covers": [ "Yozgat" ]
+  },
+  "Zonguldak Province": {
+    "id": "http://www.wikidata.org/entity/Q219956",
+    "covers": [ "Zinguldak" ]
+  }
+}
