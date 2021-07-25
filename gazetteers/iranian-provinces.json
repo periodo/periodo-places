@@ -1,0 +1,3867 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.238619,
+                  35.741023
+                ],
+                [
+                  50.230247,
+                  35.771925
+                ],
+                [
+                  50.242753,
+                  35.810838
+                ],
+                [
+                  50.42083,
+                  36.296389
+                ],
+                [
+                  50.449665,
+                  36.331684
+                ],
+                [
+                  50.563147,
+                  36.339178
+                ],
+                [
+                  50.800962,
+                  36.318662
+                ],
+                [
+                  50.966223,
+                  36.292204
+                ],
+                [
+                  51.029888,
+                  36.271791
+                ],
+                [
+                  51.291991,
+                  36.178102
+                ],
+                [
+                  51.356897,
+                  36.116271
+                ],
+                [
+                  51.353554,
+                  36.017517
+                ],
+                [
+                  50.798688,
+                  35.604778
+                ],
+                [
+                  50.724894,
+                  35.555169
+                ],
+                [
+                  50.696472,
+                  35.550544
+                ],
+                [
+                  50.285541,
+                  35.666015
+                ],
+                [
+                  50.263837,
+                  35.694927
+                ],
+                [
+                  50.238619,
+                  35.741023
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q392522",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Alborz Province"
+        }
+      ],
+      "properties": {
+        "title": "Alborz Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.59419,
+                  38.681153
+                ],
+                [
+                  46.565665,
+                  38.735879
+                ],
+                [
+                  46.581684,
+                  38.798201
+                ],
+                [
+                  46.621888,
+                  38.839542
+                ],
+                [
+                  47.092505,
+                  39.299825
+                ],
+                [
+                  47.10222,
+                  39.308403
+                ],
+                [
+                  47.406904,
+                  39.476816
+                ],
+                [
+                  47.823106,
+                  39.680318
+                ],
+                [
+                  47.846877,
+                  39.685279
+                ],
+                [
+                  47.957258,
+                  39.707345
+                ],
+                [
+                  47.971418,
+                  39.704554
+                ],
+                [
+                  47.990745,
+                  39.694271
+                ],
+                [
+                  48.052033,
+                  39.650087
+                ],
+                [
+                  48.288608,
+                  39.445035
+                ],
+                [
+                  48.31672,
+                  39.415166
+                ],
+                [
+                  48.33894,
+                  39.378941
+                ],
+                [
+                  48.754471,
+                  38.295518
+                ],
+                [
+                  48.866609,
+                  37.352061
+                ],
+                [
+                  48.882526,
+                  37.202794
+                ],
+                [
+                  48.631172,
+                  37.160006
+                ],
+                [
+                  48.600269,
+                  37.154787
+                ],
+                [
+                  48.324627,
+                  37.247391
+                ],
+                [
+                  48.204014,
+                  37.347126
+                ],
+                [
+                  46.59419,
+                  38.681153
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q134228",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ardabil Province"
+        }
+      ],
+      "properties": {
+        "title": "Ardabil Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.283267,
+                  29.268939
+                ],
+                [
+                  50.050584,
+                  30.207358
+                ],
+                [
+                  50.114905,
+                  30.235028
+                ],
+                [
+                  50.217845,
+                  30.249989
+                ],
+                [
+                  50.429821,
+                  30.218802
+                ],
+                [
+                  50.546713,
+                  30.182396
+                ],
+                [
+                  50.584127,
+                  30.158986
+                ],
+                [
+                  51.154842,
+                  29.798026
+                ],
+                [
+                  51.221814,
+                  29.733173
+                ],
+                [
+                  51.578795,
+                  29.372781
+                ],
+                [
+                  52.970855,
+                  27.382024
+                ],
+                [
+                  52.927653,
+                  27.359751
+                ],
+                [
+                  52.914114,
+                  27.355514
+                ],
+                [
+                  52.678803,
+                  27.322374
+                ],
+                [
+                  52.601329,
+                  27.352932
+                ],
+                [
+                  51.399876,
+                  27.931713
+                ],
+                [
+                  50.30663,
+                  29.215446
+                ],
+                [
+                  50.296748,
+                  29.237473
+                ],
+                [
+                  50.283267,
+                  29.268939
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q132945",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bushehr Province"
+        }
+      ],
+      "properties": {
+        "title": "Bushehr Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  49.739941,
+                  32.476881
+                ],
+                [
+                  49.736117,
+                  32.506337
+                ],
+                [
+                  49.933108,
+                  32.596047
+                ],
+                [
+                  50.113045,
+                  32.61509
+                ],
+                [
+                  50.814294,
+                  32.655113
+                ],
+                [
+                  50.853465,
+                  32.626484
+                ],
+                [
+                  51.245276,
+                  32.124319
+                ],
+                [
+                  51.297365,
+                  32.043677
+                ],
+                [
+                  51.315866,
+                  31.939704
+                ],
+                [
+                  51.323514,
+                  31.276205
+                ],
+                [
+                  51.320826,
+                  31.198406
+                ],
+                [
+                  51.310801,
+                  31.164015
+                ],
+                [
+                  51.108023,
+                  31.093839
+                ],
+                [
+                  50.959091,
+                  31.106396
+                ],
+                [
+                  50.257532,
+                  31.487897
+                ],
+                [
+                  49.756271,
+                  32.41642
+                ],
+                [
+                  49.739941,
+                  32.476881
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171702",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chaharmahal and Bakhtiari Province"
+        }
+      ],
+      "properties": {
+        "title": "Chaharmahal and Bakhtiari Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.234893,
+                  37.668838
+                ],
+                [
+                  45.089372,
+                  38.267019
+                ],
+                [
+                  45.100328,
+                  38.310478
+                ],
+                [
+                  45.355816,
+                  38.843417
+                ],
+                [
+                  45.37783,
+                  38.885172
+                ],
+                [
+                  45.488211,
+                  38.976898
+                ],
+                [
+                  45.494529,
+                  38.981917
+                ],
+                [
+                  46.883009,
+                  39.171409
+                ],
+                [
+                  47.013628,
+                  39.186956
+                ],
+                [
+                  47.486022,
+                  39.094668
+                ],
+                [
+                  47.525606,
+                  39.083119
+                ],
+                [
+                  48.455265,
+                  37.223878
+                ],
+                [
+                  48.408756,
+                  37.196231
+                ],
+                [
+                  47.193843,
+                  36.756826
+                ],
+                [
+                  46.956442,
+                  36.734761
+                ],
+                [
+                  46.858877,
+                  36.745406
+                ],
+                [
+                  46.292916,
+                  36.877749
+                ],
+                [
+                  46.246408,
+                  36.893356
+                ],
+                [
+                  45.686545,
+                  37.129155
+                ],
+                [
+                  45.394677,
+                  37.281859
+                ],
+                [
+                  45.356849,
+                  37.327179
+                ],
+                [
+                  45.234893,
+                  37.668838
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q176081",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Azerbaijan Province"
+        }
+      ],
+      "properties": {
+        "title": "East Azerbaijan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.601491,
+                  30.093486
+                ],
+                [
+                  50.601387,
+                  30.14723
+                ],
+                [
+                  51.651246,
+                  31.548359
+                ],
+                [
+                  52.142172,
+                  31.712535
+                ],
+                [
+                  52.159432,
+                  31.710261
+                ],
+                [
+                  52.870706,
+                  31.597451
+                ],
+                [
+                  53.125161,
+                  31.513942
+                ],
+                [
+                  53.276469,
+                  31.395087
+                ],
+                [
+                  53.404937,
+                  31.261503
+                ],
+                [
+                  54.927531,
+                  29.389679
+                ],
+                [
+                  55.460832,
+                  28.445835
+                ],
+                [
+                  55.487394,
+                  28.382816
+                ],
+                [
+                  55.55726,
+                  27.903207
+                ],
+                [
+                  55.551266,
+                  27.846569
+                ],
+                [
+                  55.534109,
+                  27.822101
+                ],
+                [
+                  55.065611,
+                  27.520336
+                ],
+                [
+                  53.854832,
+                  27.139377
+                ],
+                [
+                  53.450309,
+                  27.171107
+                ],
+                [
+                  53.432739,
+                  27.173355
+                ],
+                [
+                  53.071521,
+                  27.273064
+                ],
+                [
+                  52.77097,
+                  27.509949
+                ],
+                [
+                  52.642916,
+                  27.617178
+                ],
+                [
+                  52.510935,
+                  27.761381
+                ],
+                [
+                  50.73957,
+                  29.869908
+                ],
+                [
+                  50.628259,
+                  30.021217
+                ],
+                [
+                  50.601491,
+                  30.093486
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1004666",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fars Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pars province"
+        }
+      ],
+      "properties": {
+        "title": "Fars Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.548076,
+                  37.678837
+                ],
+                [
+                  48.456092,
+                  37.880324
+                ],
+                [
+                  48.458366,
+                  37.935049
+                ],
+                [
+                  48.612962,
+                  38.395646
+                ],
+                [
+                  48.777725,
+                  38.444812
+                ],
+                [
+                  48.809713,
+                  38.444631
+                ],
+                [
+                  48.874278,
+                  38.434068
+                ],
+                [
+                  50.227306,
+                  37.365424
+                ],
+                [
+                  50.576303,
+                  36.989169
+                ],
+                [
+                  50.575652,
+                  36.985805
+                ],
+                [
+                  50.56604,
+                  36.96038
+                ],
+                [
+                  50.356441,
+                  36.697373
+                ],
+                [
+                  50.304558,
+                  36.670268
+                ],
+                [
+                  49.854869,
+                  36.56906
+                ],
+                [
+                  49.80526,
+                  36.561955
+                ],
+                [
+                  49.609613,
+                  36.591359
+                ],
+                [
+                  49.472257,
+                  36.624328
+                ],
+                [
+                  49.411382,
+                  36.67032
+                ],
+                [
+                  49.245811,
+                  36.813076
+                ],
+                [
+                  48.882526,
+                  37.202794
+                ],
+                [
+                  48.548076,
+                  37.678837
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q928828",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ghilan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gilan Province"
+        }
+      ],
+      "properties": {
+        "title": "Gilan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  53.706727,
+                  36.80318
+                ],
+                [
+                  53.705381,
+                  36.816284
+                ],
+                [
+                  53.913748,
+                  37.34276
+                ],
+                [
+                  55.130309,
+                  37.95231
+                ],
+                [
+                  55.423108,
+                  38.075894
+                ],
+                [
+                  55.447395,
+                  38.083671
+                ],
+                [
+                  55.708672,
+                  38.118656
+                ],
+                [
+                  55.738437,
+                  38.118605
+                ],
+                [
+                  56.121463,
+                  38.086462
+                ],
+                [
+                  56.161874,
+                  38.082379
+                ],
+                [
+                  56.166741,
+                  38.080792
+                ],
+                [
+                  56.284451,
+                  37.695167
+                ],
+                [
+                  56.303055,
+                  37.634137
+                ],
+                [
+                  56.247968,
+                  37.573469
+                ],
+                [
+                  55.504344,
+                  36.772872
+                ],
+                [
+                  55.453597,
+                  36.753881
+                ],
+                [
+                  54.463787,
+                  36.490124
+                ],
+                [
+                  54.394127,
+                  36.477438
+                ],
+                [
+                  54.120139,
+                  36.484776
+                ],
+                [
+                  53.752823,
+                  36.729955
+                ],
+                [
+                  53.717889,
+                  36.778401
+                ],
+                [
+                  53.706727,
+                  36.80318
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170041",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Golestan Province"
+        }
+      ],
+      "properties": {
+        "title": "Golestan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.590408,
+                  34.671424
+                ],
+                [
+                  47.580693,
+                  34.711189
+                ],
+                [
+                  47.799491,
+                  35.587208
+                ],
+                [
+                  47.814994,
+                  35.612529
+                ],
+                [
+                  47.867497,
+                  35.660201
+                ],
+                [
+                  48.042577,
+                  35.747431
+                ],
+                [
+                  48.078544,
+                  35.755699
+                ],
+                [
+                  48.95849,
+                  35.650847
+                ],
+                [
+                  49.415826,
+                  35.451687
+                ],
+                [
+                  49.440528,
+                  35.437631
+                ],
+                [
+                  49.471947,
+                  35.352855
+                ],
+                [
+                  49.566928,
+                  34.767568
+                ],
+                [
+                  49.542434,
+                  34.727002
+                ],
+                [
+                  49.092745,
+                  34.087119
+                ],
+                [
+                  49.075175,
+                  34.066913
+                ],
+                [
+                  48.970996,
+                  33.989088
+                ],
+                [
+                  48.471078,
+                  34.025081
+                ],
+                [
+                  48.211972,
+                  34.0588
+                ],
+                [
+                  47.782541,
+                  34.292713
+                ],
+                [
+                  47.693968,
+                  34.349712
+                ],
+                [
+                  47.590408,
+                  34.671424
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q187373",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hamadan Province"
+        }
+      ],
+      "properties": {
+        "title": "Hamadan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  53.158458,
+                  26.838568
+                ],
+                [
+                  52.678803,
+                  27.322374
+                ],
+                [
+                  52.695006,
+                  27.350424
+                ],
+                [
+                  52.700794,
+                  27.356341
+                ],
+                [
+                  55.12969,
+                  28.95074
+                ],
+                [
+                  56.015837,
+                  28.938622
+                ],
+                [
+                  56.981359,
+                  28.277551
+                ],
+                [
+                  58.822281,
+                  26.065593
+                ],
+                [
+                  59.276206,
+                  25.495989
+                ],
+                [
+                  59.273003,
+                  25.464854
+                ],
+                [
+                  59.251069,
+                  25.430732
+                ],
+                [
+                  59.138357,
+                  25.398505
+                ],
+                [
+                  59.117198,
+                  25.394192
+                ],
+                [
+                  59.043956,
+                  25.399604
+                ],
+                [
+                  54.543224,
+                  25.893052
+                ],
+                [
+                  54.529633,
+                  25.895982
+                ],
+                [
+                  54.513682,
+                  25.902655
+                ],
+                [
+                  53.189789,
+                  26.815172
+                ],
+                [
+                  53.158458,
+                  26.838568
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q633659",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hormozgan Province"
+        }
+      ],
+      "properties": {
+        "title": "Hormozgan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.72773,
+                  33.590096
+                ],
+                [
+                  45.72463,
+                  33.633036
+                ],
+                [
+                  45.80354,
+                  33.99591
+                ],
+                [
+                  45.822041,
+                  34.013841
+                ],
+                [
+                  46.035878,
+                  34.028621
+                ],
+                [
+                  47.335643,
+                  34.044434
+                ],
+                [
+                  47.369646,
+                  34.042057
+                ],
+                [
+                  47.386183,
+                  34.037819
+                ],
+                [
+                  47.399929,
+                  34.022265
+                ],
+                [
+                  47.42277,
+                  33.978236
+                ],
+                [
+                  47.898813,
+                  32.601473
+                ],
+                [
+                  47.747298,
+                  32.220204
+                ],
+                [
+                  47.711538,
+                  32.170724
+                ],
+                [
+                  47.607048,
+                  32.112562
+                ],
+                [
+                  47.580232,
+                  32.103495
+                ],
+                [
+                  47.54364,
+                  32.114578
+                ],
+                [
+                  46.09701,
+                  32.95432
+                ],
+                [
+                  45.72773,
+                  33.590096
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170570",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ilam Province"
+        }
+      ],
+      "properties": {
+        "title": "Ilam Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  49.45324,
+                  32.808799
+                ],
+                [
+                  49.452517,
+                  32.818617
+                ],
+                [
+                  49.458718,
+                  32.842543
+                ],
+                [
+                  49.472154,
+                  32.862801
+                ],
+                [
+                  50.001527,
+                  33.498653
+                ],
+                [
+                  51.025547,
+                  34.387023
+                ],
+                [
+                  51.063064,
+                  34.418235
+                ],
+                [
+                  51.158356,
+                  34.452523
+                ],
+                [
+                  51.788912,
+                  34.541975
+                ],
+                [
+                  55.286683,
+                  34.384103
+                ],
+                [
+                  55.341563,
+                  34.369194
+                ],
+                [
+                  55.366058,
+                  34.351805
+                ],
+                [
+                  55.375153,
+                  34.341909
+                ],
+                [
+                  55.386418,
+                  33.665465
+                ],
+                [
+                  55.359856,
+                  33.594642
+                ],
+                [
+                  55.27459,
+                  33.470645
+                ],
+                [
+                  54.86986,
+                  33.027261
+                ],
+                [
+                  54.81467,
+                  32.970701
+                ],
+                [
+                  51.745297,
+                  30.790085
+                ],
+                [
+                  51.717185,
+                  30.782178
+                ],
+                [
+                  51.641117,
+                  30.772205
+                ],
+                [
+                  51.48092,
+                  30.875971
+                ],
+                [
+                  51.373226,
+                  30.974492
+                ],
+                [
+                  49.501609,
+                  32.707823
+                ],
+                [
+                  49.45324,
+                  32.808799
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1367759",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Esfahan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Isfahan Province"
+        }
+      ],
+      "properties": {
+        "title": "Isfahan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  54.429991,
+                  29.77348
+                ],
+                [
+                  54.398055,
+                  30.725076
+                ],
+                [
+                  54.420276,
+                  30.797914
+                ],
+                [
+                  54.466474,
+                  30.873361
+                ],
+                [
+                  54.554428,
+                  30.957775
+                ],
+                [
+                  56.634094,
+                  32.049181
+                ],
+                [
+                  56.761631,
+                  32.030087
+                ],
+                [
+                  57.834744,
+                  31.637268
+                ],
+                [
+                  58.972866,
+                  31.197889
+                ],
+                [
+                  59.11632,
+                  31.106164
+                ],
+                [
+                  59.515365,
+                  30.606608
+                ],
+                [
+                  59.441778,
+                  29.264519
+                ],
+                [
+                  59.366744,
+                  28.710858
+                ],
+                [
+                  58.947028,
+                  26.286639
+                ],
+                [
+                  58.882845,
+                  26.053966
+                ],
+                [
+                  58.863105,
+                  26.010247
+                ],
+                [
+                  58.590564,
+                  26.052209
+                ],
+                [
+                  58.549326,
+                  26.060683
+                ],
+                [
+                  58.069872,
+                  26.217521
+                ],
+                [
+                  55.12969,
+                  28.95074
+                ],
+                [
+                  54.571687,
+                  29.475695
+                ],
+                [
+                  54.54988,
+                  29.50931
+                ],
+                [
+                  54.457276,
+                  29.694415
+                ],
+                [
+                  54.429991,
+                  29.77348
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q165352",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kerman Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kerman"
+        }
+      ],
+      "properties": {
+        "title": "Kerman Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.401032,
+                  33.949453
+                ],
+                [
+                  45.380361,
+                  33.97356
+                ],
+                [
+                  45.417052,
+                  34.444359
+                ],
+                [
+                  45.500664,
+                  34.591688
+                ],
+                [
+                  45.666752,
+                  34.80692
+                ],
+                [
+                  45.755119,
+                  34.909963
+                ],
+                [
+                  45.861882,
+                  35.032798
+                ],
+                [
+                  45.913197,
+                  35.087317
+                ],
+                [
+                  46.125285,
+                  35.284989
+                ],
+                [
+                  47.469795,
+                  35.168035
+                ],
+                [
+                  47.623688,
+                  35.097755
+                ],
+                [
+                  47.851477,
+                  34.951226
+                ],
+                [
+                  47.98842,
+                  34.584246
+                ],
+                [
+                  47.998549,
+                  34.543525
+                ],
+                [
+                  47.990074,
+                  34.430999
+                ],
+                [
+                  47.182474,
+                  33.824912
+                ],
+                [
+                  45.72463,
+                  33.633036
+                ],
+                [
+                  45.673987,
+                  33.669031
+                ],
+                [
+                  45.658794,
+                  33.681692
+                ],
+                [
+                  45.401032,
+                  33.949453
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q174010",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kermanshah Province"
+        }
+      ],
+      "properties": {
+        "title": "Kermanshah Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.672935,
+                  30.994698
+                ],
+                [
+                  47.580232,
+                  32.103495
+                ],
+                [
+                  48.090119,
+                  32.971347
+                ],
+                [
+                  48.144173,
+                  33.005996
+                ],
+                [
+                  48.461156,
+                  33.038113
+                ],
+                [
+                  48.567403,
+                  33.044702
+                ],
+                [
+                  49.006342,
+                  32.942046
+                ],
+                [
+                  49.45324,
+                  32.808799
+                ],
+                [
+                  49.742835,
+                  32.656198
+                ],
+                [
+                  49.784279,
+                  32.608759
+                ],
+                [
+                  50.321198,
+                  31.706825
+                ],
+                [
+                  50.350343,
+                  31.65135
+                ],
+                [
+                  50.412768,
+                  30.642781
+                ],
+                [
+                  50.429821,
+                  30.218802
+                ],
+                [
+                  49.564464,
+                  30.016832
+                ],
+                [
+                  48.61085,
+                  29.957017
+                ],
+                [
+                  48.531016,
+                  29.96133
+                ],
+                [
+                  48.49304,
+                  29.971763
+                ],
+                [
+                  48.478157,
+                  29.979618
+                ],
+                [
+                  48.464307,
+                  29.989127
+                ],
+                [
+                  48.457796,
+                  29.994863
+                ],
+                [
+                  48.013586,
+                  30.463878
+                ],
+                [
+                  47.672935,
+                  30.994698
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q241119",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khuzestan Province"
+        }
+      ],
+      "properties": {
+        "title": "Khuzestan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  49.919052,
+                  31.150192
+                ],
+                [
+                  49.918225,
+                  31.208716
+                ],
+                [
+                  49.934761,
+                  31.241142
+                ],
+                [
+                  49.959979,
+                  31.270004
+                ],
+                [
+                  50.257532,
+                  31.487897
+                ],
+                [
+                  50.587124,
+                  31.389661
+                ],
+                [
+                  51.310801,
+                  31.164015
+                ],
+                [
+                  51.641117,
+                  30.772205
+                ],
+                [
+                  51.670883,
+                  30.647277
+                ],
+                [
+                  51.671193,
+                  30.59958
+                ],
+                [
+                  51.665818,
+                  30.589658
+                ],
+                [
+                  51.640187,
+                  30.567695
+                ],
+                [
+                  51.17913,
+                  30.300657
+                ],
+                [
+                  50.912169,
+                  30.16573
+                ],
+                [
+                  50.869691,
+                  30.159916
+                ],
+                [
+                  50.601491,
+                  30.144827
+                ],
+                [
+                  50.429821,
+                  30.218802
+                ],
+                [
+                  49.954812,
+                  30.866411
+                ],
+                [
+                  49.948094,
+                  30.89088
+                ],
+                [
+                  49.919052,
+                  31.150192
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q180068",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kohgiluyeh & Boyerahmad"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kohgiluyeh and Boyer-Ahmad Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kohgiluyeh and Boyerahmad"
+        }
+      ],
+      "properties": {
+        "title": "Kohgiluyeh and Boyer-Ahmad Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.040993,
+                  35.381562
+                ],
+                [
+                  45.501424,
+                  36.005435
+                ],
+                [
+                  45.66081,
+                  36.186732
+                ],
+                [
+                  45.6944,
+                  36.221045
+                ],
+                [
+                  45.724476,
+                  36.247607
+                ],
+                [
+                  45.958776,
+                  36.420206
+                ],
+                [
+                  46.04642,
+                  36.448111
+                ],
+                [
+                  47.332336,
+                  36.507694
+                ],
+                [
+                  47.86512,
+                  36.403411
+                ],
+                [
+                  47.900053,
+                  36.370649
+                ],
+                [
+                  47.906978,
+                  36.360107
+                ],
+                [
+                  48.216933,
+                  35.711645
+                ],
+                [
+                  48.225718,
+                  35.690225
+                ],
+                [
+                  48.151511,
+                  35.097755
+                ],
+                [
+                  48.131667,
+                  35.023031
+                ],
+                [
+                  48.096424,
+                  34.976806
+                ],
+                [
+                  48.063248,
+                  34.952802
+                ],
+                [
+                  46.897427,
+                  34.747233
+                ],
+                [
+                  46.829628,
+                  34.739094
+                ],
+                [
+                  46.679559,
+                  34.742479
+                ],
+                [
+                  46.646486,
+                  34.772451
+                ],
+                [
+                  46.125285,
+                  35.284989
+                ],
+                [
+                  46.040993,
+                  35.381562
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q134386",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kurdistan Province"
+        }
+      ],
+      "properties": {
+        "title": "Kurdistan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.827871,
+                  33.553663
+                ],
+                [
+                  46.82663,
+                  33.561414
+                ],
+                [
+                  46.844924,
+                  33.615106
+                ],
+                [
+                  47.576972,
+                  34.340385
+                ],
+                [
+                  47.596196,
+                  34.350953
+                ],
+                [
+                  47.625238,
+                  34.357438
+                ],
+                [
+                  47.693968,
+                  34.349712
+                ],
+                [
+                  49.463679,
+                  33.886666
+                ],
+                [
+                  49.518559,
+                  33.872119
+                ],
+                [
+                  49.853526,
+                  33.656447
+                ],
+                [
+                  49.923289,
+                  33.593247
+                ],
+                [
+                  50.001527,
+                  33.498653
+                ],
+                [
+                  49.977446,
+                  33.361246
+                ],
+                [
+                  49.868719,
+                  33.149036
+                ],
+                [
+                  49.620568,
+                  32.926543
+                ],
+                [
+                  49.45324,
+                  32.808799
+                ],
+                [
+                  49.37986,
+                  32.795776
+                ],
+                [
+                  47.898813,
+                  32.601473
+                ],
+                [
+                  47.886514,
+                  32.611188
+                ],
+                [
+                  47.016283,
+                  33.375534
+                ],
+                [
+                  46.866008,
+                  33.512838
+                ],
+                [
+                  46.827871,
+                  33.553663
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1131727",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lorestan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luristan"
+        }
+      ],
+      "properties": {
+        "title": "Lorestan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.910431,
+                  33.762539
+                ],
+                [
+                  48.895031,
+                  34.612797
+                ],
+                [
+                  49.321052,
+                  35.32172
+                ],
+                [
+                  49.352471,
+                  35.354121
+                ],
+                [
+                  49.440528,
+                  35.437631
+                ],
+                [
+                  49.687851,
+                  35.523233
+                ],
+                [
+                  49.915641,
+                  35.588035
+                ],
+                [
+                  50.196141,
+                  35.666712
+                ],
+                [
+                  50.255672,
+                  35.669554
+                ],
+                [
+                  50.594773,
+                  35.677047
+                ],
+                [
+                  50.650997,
+                  35.676479
+                ],
+                [
+                  50.798688,
+                  35.604778
+                ],
+                [
+                  50.84499,
+                  35.557649
+                ],
+                [
+                  50.870828,
+                  35.517031
+                ],
+                [
+                  51.032989,
+                  34.1058
+                ],
+                [
+                  51.021103,
+                  34.046243
+                ],
+                [
+                  50.925605,
+                  33.854265
+                ],
+                [
+                  50.89894,
+                  33.814887
+                ],
+                [
+                  50.660092,
+                  33.72621
+                ],
+                [
+                  50.001527,
+                  33.498653
+                ],
+                [
+                  49.040449,
+                  33.696652
+                ],
+                [
+                  48.974303,
+                  33.716909
+                ],
+                [
+                  48.923453,
+                  33.74161
+                ],
+                [
+                  48.910431,
+                  33.762539
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q134417",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Markazi Province"
+        }
+      ],
+      "properties": {
+        "title": "Markazi Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.800962,
+                  36.318662
+                ],
+                [
+                  50.304558,
+                  36.670268
+                ],
+                [
+                  50.43964,
+                  36.868241
+                ],
+                [
+                  50.576303,
+                  36.989169
+                ],
+                [
+                  54.006521,
+                  36.952623
+                ],
+                [
+                  54.120139,
+                  36.484776
+                ],
+                [
+                  53.787653,
+                  36.163762
+                ],
+                [
+                  53.586631,
+                  35.973515
+                ],
+                [
+                  53.543223,
+                  35.942199
+                ],
+                [
+                  53.472426,
+                  35.911323
+                ],
+                [
+                  53.395945,
+                  35.891143
+                ],
+                [
+                  53.150689,
+                  35.845409
+                ],
+                [
+                  53.034727,
+                  35.831095
+                ],
+                [
+                  52.108169,
+                  35.767171
+                ],
+                [
+                  52.029207,
+                  35.770918
+                ],
+                [
+                  51.980114,
+                  35.785206
+                ],
+                [
+                  50.800962,
+                  36.318662
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q308864",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mazandaran Province"
+        }
+      ],
+      "properties": {
+        "title": "Mazandaran Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.067307,
+                  36.882142
+                ],
+                [
+                  55.867422,
+                  37.354361
+                ],
+                [
+                  56.166741,
+                  38.080792
+                ],
+                [
+                  56.366409,
+                  38.225523
+                ],
+                [
+                  56.400102,
+                  38.244127
+                ],
+                [
+                  56.436482,
+                  38.255082
+                ],
+                [
+                  56.729384,
+                  38.27105
+                ],
+                [
+                  57.174939,
+                  38.277561
+                ],
+                [
+                  57.185894,
+                  38.276476
+                ],
+                [
+                  57.207288,
+                  38.27074
+                ],
+                [
+                  57.218347,
+                  38.265081
+                ],
+                [
+                  57.734827,
+                  37.898272
+                ],
+                [
+                  58.034939,
+                  37.65473
+                ],
+                [
+                  58.053749,
+                  37.636023
+                ],
+                [
+                  58.180046,
+                  37.492854
+                ],
+                [
+                  58.207641,
+                  37.44818
+                ],
+                [
+                  58.213842,
+                  37.40795
+                ],
+                [
+                  58.227588,
+                  36.898627
+                ],
+                [
+                  58.218803,
+                  36.755483
+                ],
+                [
+                  58.185524,
+                  36.677348
+                ],
+                [
+                  58.14811,
+                  36.648952
+                ],
+                [
+                  58.072249,
+                  36.633992
+                ],
+                [
+                  56.519269,
+                  36.621796
+                ],
+                [
+                  56.374265,
+                  36.650373
+                ],
+                [
+                  56.317937,
+                  36.665411
+                ],
+                [
+                  56.204456,
+                  36.74383
+                ],
+                [
+                  56.086014,
+                  36.850619
+                ],
+                [
+                  56.067307,
+                  36.882142
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q180075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Khorasan Province"
+        }
+      ],
+      "properties": {
+        "title": "North Khorasan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.601199,
+                  35.817607
+                ],
+                [
+                  48.598305,
+                  35.848717
+                ],
+                [
+                  49.014817,
+                  36.656781
+                ],
+                [
+                  49.055538,
+                  36.732539
+                ],
+                [
+                  49.164369,
+                  36.790623
+                ],
+                [
+                  49.245811,
+                  36.813076
+                ],
+                [
+                  50.304558,
+                  36.670268
+                ],
+                [
+                  50.788352,
+                  36.365791
+                ],
+                [
+                  50.800031,
+                  36.338661
+                ],
+                [
+                  50.800962,
+                  36.318662
+                ],
+                [
+                  50.534518,
+                  35.960803
+                ],
+                [
+                  50.285541,
+                  35.666015
+                ],
+                [
+                  49.615918,
+                  35.441558
+                ],
+                [
+                  49.440528,
+                  35.437631
+                ],
+                [
+                  49.117757,
+                  35.492718
+                ],
+                [
+                  48.802531,
+                  35.635784
+                ],
+                [
+                  48.601199,
+                  35.817607
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1105893",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qazvin Province"
+        }
+      ],
+      "properties": {
+        "title": "Qazvin Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.375044,
+                  34.270312
+                ],
+                [
+                  50.060025,
+                  34.577063
+                ],
+                [
+                  50.06943,
+                  34.628739
+                ],
+                [
+                  50.153973,
+                  34.781495
+                ],
+                [
+                  50.784735,
+                  35.218419
+                ],
+                [
+                  51.072159,
+                  35.213251
+                ],
+                [
+                  51.312352,
+                  35.153953
+                ],
+                [
+                  51.882343,
+                  34.875494
+                ],
+                [
+                  51.895882,
+                  34.835497
+                ],
+                [
+                  51.893195,
+                  34.754003
+                ],
+                [
+                  51.866116,
+                  34.666463
+                ],
+                [
+                  51.822088,
+                  34.581223
+                ],
+                [
+                  51.788912,
+                  34.541975
+                ],
+                [
+                  51.032989,
+                  34.1058
+                ],
+                [
+                  50.44119,
+                  34.224785
+                ],
+                [
+                  50.375044,
+                  34.270312
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q131664",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ghom"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qom Province"
+        }
+      ],
+      "properties": {
+        "title": "Qom Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  57.058874,
+                  33.685257
+                ],
+                [
+                  56.21045,
+                  34.906061
+                ],
+                [
+                  56.675022,
+                  36.750832
+                ],
+                [
+                  57.575742,
+                  37.808674
+                ],
+                [
+                  57.613569,
+                  37.839138
+                ],
+                [
+                  57.734827,
+                  37.898272
+                ],
+                [
+                  57.754748,
+                  37.901021
+                ],
+                [
+                  57.763016,
+                  37.899393
+                ],
+                [
+                  58.801093,
+                  37.694651
+                ],
+                [
+                  58.938655,
+                  37.65393
+                ],
+                [
+                  59.034567,
+                  37.624526
+                ],
+                [
+                  59.312276,
+                  37.530346
+                ],
+                [
+                  61.165806,
+                  36.636318
+                ],
+                [
+                  61.18596,
+                  36.577665
+                ],
+                [
+                  61.187614,
+                  36.565108
+                ],
+                [
+                  61.290036,
+                  35.548064
+                ],
+                [
+                  61.283835,
+                  35.52729
+                ],
+                [
+                  61.06545,
+                  34.814724
+                ],
+                [
+                  60.890474,
+                  34.318914
+                ],
+                [
+                  60.488461,
+                  34.080927
+                ],
+                [
+                  58.147697,
+                  32.748596
+                ],
+                [
+                  58.121445,
+                  32.764383
+                ],
+                [
+                  57.782241,
+                  32.996798
+                ],
+                [
+                  57.105796,
+                  33.623581
+                ],
+                [
+                  57.058874,
+                  33.685257
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q587090",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khorasan-e Razavi Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Razavi Khorasan Province"
+        }
+      ],
+      "properties": {
+        "title": "Razavi Khorasan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  51.982285,
+                  34.455417
+                ],
+                [
+                  51.788912,
+                  34.541975
+                ],
+                [
+                  51.814853,
+                  35.357842
+                ],
+                [
+                  51.821054,
+                  35.403421
+                ],
+                [
+                  51.853404,
+                  35.555453
+                ],
+                [
+                  51.870147,
+                  35.569819
+                ],
+                [
+                  55.867422,
+                  37.354361
+                ],
+                [
+                  56.177894,
+                  37.143056
+                ],
+                [
+                  56.763698,
+                  36.626576
+                ],
+                [
+                  57.087193,
+                  35.700354
+                ],
+                [
+                  57.072,
+                  35.630409
+                ],
+                [
+                  56.855579,
+                  35.30583
+                ],
+                [
+                  55.850886,
+                  34.407254
+                ],
+                [
+                  55.741125,
+                  34.360332
+                ],
+                [
+                  55.375153,
+                  34.341909
+                ],
+                [
+                  52.900058,
+                  34.324959
+                ],
+                [
+                  52.847968,
+                  34.331755
+                ],
+                [
+                  51.982285,
+                  34.455417
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q168949",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Semnan Province"
+        }
+      ],
+      "properties": {
+        "title": "Semnan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  58.775255,
+                  27.130334
+                ],
+                [
+                  58.774945,
+                  27.229449
+                ],
+                [
+                  58.888013,
+                  28.471441
+                ],
+                [
+                  59.515365,
+                  30.606608
+                ],
+                [
+                  61.125149,
+                  31.448887
+                ],
+                [
+                  61.661176,
+                  31.38191
+                ],
+                [
+                  61.686911,
+                  31.373177
+                ],
+                [
+                  61.706548,
+                  31.359844
+                ],
+                [
+                  61.742308,
+                  31.32088
+                ],
+                [
+                  63.319628,
+                  27.117312
+                ],
+                [
+                  63.261647,
+                  26.871746
+                ],
+                [
+                  63.163772,
+                  26.645093
+                ],
+                [
+                  61.588227,
+                  25.202094
+                ],
+                [
+                  61.489513,
+                  25.118598
+                ],
+                [
+                  61.411717,
+                  25.059408
+                ],
+                [
+                  59.251069,
+                  25.430732
+                ],
+                [
+                  58.832203,
+                  25.929451
+                ],
+                [
+                  58.828172,
+                  25.947564
+                ],
+                [
+                  58.775255,
+                  27.130334
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q939575",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ostān-e Sīstān-o Balūchestān"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sistan and Baluchestan Province"
+        }
+      ],
+      "properties": {
+        "title": "Sistan and Baluchestan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  59.515365,
+                  30.606608
+                ],
+                [
+                  57.834744,
+                  31.637268
+                ],
+                [
+                  58.147697,
+                  32.748596
+                ],
+                [
+                  58.625083,
+                  34.119546
+                ],
+                [
+                  58.63976,
+                  34.148097
+                ],
+                [
+                  58.6934,
+                  34.16515
+                ],
+                [
+                  59.504926,
+                  34.27796
+                ],
+                [
+                  60.488461,
+                  34.080927
+                ],
+                [
+                  60.911971,
+                  33.528446
+                ],
+                [
+                  60.92086,
+                  33.514105
+                ],
+                [
+                  61.143276,
+                  31.390746
+                ],
+                [
+                  61.050362,
+                  30.428789
+                ],
+                [
+                  61.034755,
+                  30.408067
+                ],
+                [
+                  61.000856,
+                  30.396465
+                ],
+                [
+                  60.864843,
+                  30.392357
+                ],
+                [
+                  59.515365,
+                  30.606608
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171551",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Khorasan Province"
+        }
+      ],
+      "properties": {
+        "title": "South Khorasan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q192611",
+          "label": "electoral district"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.784838,
+                  35.215913
+                ],
+                [
+                  50.784735,
+                  35.218419
+                ],
+                [
+                  50.798688,
+                  35.604778
+                ],
+                [
+                  50.825096,
+                  35.654455
+                ],
+                [
+                  51.075206,
+                  35.916667
+                ],
+                [
+                  51.135716,
+                  35.973143
+                ],
+                [
+                  51.356897,
+                  36.116271
+                ],
+                [
+                  52.464736,
+                  35.9692
+                ],
+                [
+                  52.901402,
+                  35.889696
+                ],
+                [
+                  52.94481,
+                  35.881557
+                ],
+                [
+                  53.034727,
+                  35.831095
+                ],
+                [
+                  53.06625,
+                  35.718905
+                ],
+                [
+                  53.079375,
+                  35.618136
+                ],
+                [
+                  53.047233,
+                  35.528374
+                ],
+                [
+                  52.888276,
+                  35.41019
+                ],
+                [
+                  51.882343,
+                  34.875494
+                ],
+                [
+                  50.784838,
+                  35.215913
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q590866",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tehran Province"
+        }
+      ],
+      "properties": {
+        "title": "Tehran Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.202087,
+                  37.897171
+                ],
+                [
+                  44.014863,
+                  39.374084
+                ],
+                [
+                  44.026025,
+                  39.386176
+                ],
+                [
+                  44.459487,
+                  39.698457
+                ],
+                [
+                  44.565734,
+                  39.765894
+                ],
+                [
+                  44.590435,
+                  39.771527
+                ],
+                [
+                  44.872279,
+                  39.625076
+                ],
+                [
+                  45.311115,
+                  39.200528
+                ],
+                [
+                  45.348219,
+                  39.163916
+                ],
+                [
+                  45.494529,
+                  38.981917
+                ],
+                [
+                  47.193843,
+                  36.756826
+                ],
+                [
+                  47.332336,
+                  36.507694
+                ],
+                [
+                  47.258749,
+                  36.407649
+                ],
+                [
+                  47.216477,
+                  36.368194
+                ],
+                [
+                  47.14103,
+                  36.341245
+                ],
+                [
+                  45.501424,
+                  36.005435
+                ],
+                [
+                  45.359587,
+                  35.976875
+                ],
+                [
+                  45.33809,
+                  35.979304
+                ],
+                [
+                  45.320313,
+                  35.994031
+                ],
+                [
+                  45.32021,
+                  35.994135
+                ],
+                [
+                  44.831248,
+                  36.791916
+                ],
+                [
+                  44.202087,
+                  37.897171
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q134411",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Azarbaijan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Azerbaijan Province"
+        }
+      ],
+      "properties": {
+        "title": "West Azerbaijan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  52.827091,
+                  31.744419
+                ],
+                [
+                  52.824094,
+                  31.813847
+                ],
+                [
+                  52.876184,
+                  32.472023
+                ],
+                [
+                  52.883728,
+                  32.5052
+                ],
+                [
+                  55.375256,
+                  34.344364
+                ],
+                [
+                  56.21045,
+                  34.906061
+                ],
+                [
+                  57.016603,
+                  35.148294
+                ],
+                [
+                  57.26837,
+                  35.201314
+                ],
+                [
+                  57.379578,
+                  35.177336
+                ],
+                [
+                  57.67124,
+                  34.993937
+                ],
+                [
+                  57.705553,
+                  34.930995
+                ],
+                [
+                  58.147697,
+                  32.748596
+                ],
+                [
+                  58.224384,
+                  32.352548
+                ],
+                [
+                  58.222214,
+                  32.297564
+                ],
+                [
+                  58.190381,
+                  32.19279
+                ],
+                [
+                  58.173948,
+                  32.146048
+                ],
+                [
+                  57.848903,
+                  31.656931
+                ],
+                [
+                  57.834744,
+                  31.637268
+                ],
+                [
+                  54.585227,
+                  29.828361
+                ],
+                [
+                  54.430197,
+                  29.793221
+                ],
+                [
+                  54.227212,
+                  29.882879
+                ],
+                [
+                  54.07177,
+                  29.984268
+                ],
+                [
+                  52.870706,
+                  31.597451
+                ],
+                [
+                  52.827091,
+                  31.744419
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170568",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yazd Province"
+        }
+      ],
+      "properties": {
+        "title": "Yazd Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Iran"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.187952,
+                  36.789228
+                ],
+                [
+                  47.187642,
+                  36.8377
+                ],
+                [
+                  47.206762,
+                  36.869068
+                ],
+                [
+                  47.400342,
+                  37.048333
+                ],
+                [
+                  47.550824,
+                  37.138199
+                ],
+                [
+                  47.585241,
+                  37.154709
+                ],
+                [
+                  47.620691,
+                  37.166569
+                ],
+                [
+                  47.935193,
+                  37.19574
+                ],
+                [
+                  48.48441,
+                  37.230286
+                ],
+                [
+                  48.81514,
+                  37.231475
+                ],
+                [
+                  48.882526,
+                  37.202794
+                ],
+                [
+                  49.033317,
+                  37.126055
+                ],
+                [
+                  49.144215,
+                  37.032391
+                ],
+                [
+                  49.186693,
+                  36.977433
+                ],
+                [
+                  49.245811,
+                  36.813076
+                ],
+                [
+                  49.388438,
+                  36.215413
+                ],
+                [
+                  49.404251,
+                  36.109269
+                ],
+                [
+                  49.381203,
+                  36.081984
+                ],
+                [
+                  48.766564,
+                  35.577415
+                ],
+                [
+                  48.690909,
+                  35.555815
+                ],
+                [
+                  48.30437,
+                  35.61749
+                ],
+                [
+                  48.259515,
+                  35.640202
+                ],
+                [
+                  47.903567,
+                  35.888972
+                ],
+                [
+                  47.332336,
+                  36.507694
+                ],
+                [
+                  47.193843,
+                  36.756826
+                ],
+                [
+                  47.187952,
+                  36.789228
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q146726",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zanjan Province"
+        }
+      ],
+      "properties": {
+        "title": "Zanjan Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1344695",
+          "label": "province of Iran"
+        }
+      ]
+    }
+  ],
+  "title": "Iranian provinces",
+  "type": "FeatureCollection"
+}

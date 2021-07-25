@@ -32,11 +32,14 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Greek administrative regions gazetteer**<br>
   https://data.perio.do/graphs/places/greek-regions.json
 
-* **Italian regions gazetteer**<br>
-  https://data.perio.do/graphs/places/italian-regions.json
-
 * **Indian states and union territories gazetteer**<br>
   https://data.perio.do/graphs/places/indian-states.json
+
+* **Iranian provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/iranian-provinces.json
+
+* **Italian regions gazetteer**<br>
+  https://data.perio.do/graphs/places/italian-regions.json
 
 * **Kuwaiti governorates gazetteer**<br>
   https://data.perio.do/graphs/places/kuwaiti-governorates.json
@@ -189,6 +192,15 @@ Note that these are the pre-2016 (22 metropolitan, 5 overseas) regions, not the 
 1. querying Wikidata for instances of [Q131541 states and union territories of India](https://www.wikidata.org/wiki/Q131541) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the state of Telangana (recently separated from Andhra Pradesh) and the union territory of Ladakh (recently separated from Jammu and Kashmir) are not included, as the geometries for these administrative units are not yet included in the Natural Earth data.
+
+
+### Iranian provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/iranian-provinces.json](place-ids/iranian-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q1344695 province of Iran](https://www.wikidata.org/wiki/Q1344695) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Italian regions gazetteer

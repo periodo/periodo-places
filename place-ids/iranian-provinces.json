@@ -1,0 +1,126 @@
+{
+  "Alborz Province": {
+    "id": "http://www.wikidata.org/entity/Q392522",
+    "covers": [ "Alborz" ]
+  },
+  "Ardabil Province": {
+    "id": "http://www.wikidata.org/entity/Q134228",
+    "covers": [ "Ardebil" ]
+  },
+  "Bushehr Province": {
+    "id": "http://www.wikidata.org/entity/Q132945",
+    "covers": [ "Bushehr" ]
+  },
+  "Chaharmahal and Bakhtiari Province": {
+    "id": "http://www.wikidata.org/entity/Q171702",
+    "covers": [ "Chahar Mahall and Bakhtiari" ]
+  },
+  "East Azerbaijan Province": {
+    "id": "http://www.wikidata.org/entity/Q176081",
+    "covers": [ "East Azarbaijan" ]
+  },
+  "Fars Province": {
+    "id": "http://www.wikidata.org/entity/Q1004666",
+    "covers": [ "Fars" ]
+  },
+  "Gilan Province": {
+    "id": "http://www.wikidata.org/entity/Q928828",
+    "covers": [ "Gilan" ]
+  },
+  "Golestan Province": {
+    "id": "http://www.wikidata.org/entity/Q170041",
+    "covers": [ "Golestan" ]
+  },
+  "Hamadan Province": {
+    "id": "http://www.wikidata.org/entity/Q187373",
+    "covers": [ "Hamadan" ]
+  },
+  "Hormozgan Province": {
+    "id": "http://www.wikidata.org/entity/Q633659",
+    "covers": [ "Hormozgan" ]
+  },
+  "Ilam Province": {
+    "id": "http://www.wikidata.org/entity/Q170570",
+    "covers": [ "Ilam" ]
+  },
+  "Isfahan Province": {
+    "id": "http://www.wikidata.org/entity/Q1367759",
+    "covers": [ "Esfahan" ]
+  },
+  "Kerman Province": {
+    "id": "http://www.wikidata.org/entity/Q165352",
+    "covers": [ "Kerman" ]
+  },
+  "Kermanshah Province": {
+    "id": "http://www.wikidata.org/entity/Q174010",
+    "covers": [ "Kermanshah" ]
+  },
+  "Khuzestan Province": {
+    "id": "http://www.wikidata.org/entity/Q241119",
+    "covers": [ "Khuzestan" ]
+  },
+  "Kohgiluyeh and Boyer-Ahmad Province": {
+    "id": "http://www.wikidata.org/entity/Q180068",
+    "covers": [ "Kohgiluyeh and Buyer Ahmad" ]
+  },
+  "Kurdistan Province": {
+    "id": "http://www.wikidata.org/entity/Q134386",
+    "covers": [ "Kordestan" ]
+  },
+  "Lorestan Province": {
+    "id": "http://www.wikidata.org/entity/Q1131727",
+    "covers": [ "Lorestan" ]
+  },
+  "Markazi Province": {
+    "id": "http://www.wikidata.org/entity/Q134417",
+    "covers": [ "Markazi" ]
+  },
+  "Mazandaran Province": {
+    "id": "http://www.wikidata.org/entity/Q308864",
+    "covers": [ "Mazandaran" ]
+  },
+  "North Khorasan Province": {
+    "id": "http://www.wikidata.org/entity/Q180075",
+    "covers": [ "North Khorasan" ]
+  },
+  "Qazvin Province": {
+    "id": "http://www.wikidata.org/entity/Q1105893",
+    "covers": [ "Qazvin" ]
+  },
+  "Qom Province": {
+    "id": "http://www.wikidata.org/entity/Q131664",
+    "covers": [ "Qom" ]
+  },
+  "Razavi Khorasan Province": {
+    "id": "http://www.wikidata.org/entity/Q587090",
+    "covers": [ "Razavi Khorasan" ]
+  },
+  "Semnan Province": {
+    "id": "http://www.wikidata.org/entity/Q168949",
+    "covers": [ "Semnan" ]
+  },
+  "Sistan and Baluchestan Province": {
+    "id": "http://www.wikidata.org/entity/Q939575",
+    "covers": [ "Sistan and Baluchestan" ]
+  },
+  "South Khorasan Province": {
+    "id": "http://www.wikidata.org/entity/Q171551",
+    "covers": [ "South Khorasan" ]
+  },
+  "Tehran Province": {
+    "id": "http://www.wikidata.org/entity/Q590866",
+    "covers": [ "Tehran" ]
+  },
+  "West Azerbaijan Province": {
+    "id": "http://www.wikidata.org/entity/Q134411",
+    "covers": [ "West Azarbaijan" ]
+  },
+  "Yazd Province": {
+    "id": "http://www.wikidata.org/entity/Q170568",
+    "covers": [ "Yazd" ]
+  },
+  "Zanjan Province": {
+    "id": "http://www.wikidata.org/entity/Q146726",
+    "covers": [ "Zanjan" ]
+  }
+}
