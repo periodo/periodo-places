@@ -1,0 +1,769 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Turkmenistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.572444,
+                  38.50349
+                ],
+                [
+                  56.571049,
+                  38.518967
+                ],
+                [
+                  56.580505,
+                  38.611416
+                ],
+                [
+                  56.582676,
+                  38.619762
+                ],
+                [
+                  56.983478,
+                  39.999058
+                ],
+                [
+                  56.985649,
+                  40.006137
+                ],
+                [
+                  56.992005,
+                  40.013992
+                ],
+                [
+                  57.045232,
+                  40.044636
+                ],
+                [
+                  57.165224,
+                  40.092308
+                ],
+                [
+                  58.398637,
+                  40.214187
+                ],
+                [
+                  58.477651,
+                  40.213773
+                ],
+                [
+                  59.994302,
+                  39.998851
+                ],
+                [
+                  61.022301,
+                  39.513971
+                ],
+                [
+                  61.421709,
+                  37.259638
+                ],
+                [
+                  61.505528,
+                  36.664222
+                ],
+                [
+                  61.593326,
+                  36.001343
+                ],
+                [
+                  61.596478,
+                  35.952276
+                ],
+                [
+                  61.575498,
+                  35.767895
+                ],
+                [
+                  61.574723,
+                  35.76376
+                ],
+                [
+                  61.527852,
+                  35.637386
+                ],
+                [
+                  61.523976,
+                  35.628213
+                ],
+                [
+                  61.492815,
+                  35.599119
+                ],
+                [
+                  61.484237,
+                  35.592867
+                ],
+                [
+                  61.419309,
+                  35.545891
+                ],
+                [
+                  61.401244,
+                  35.549821
+                ],
+                [
+                  61.393182,
+                  35.553593
+                ],
+                [
+                  61.269676,
+                  35.618499
+                ],
+                [
+                  57.352395,
+                  37.967529
+                ],
+                [
+                  56.587482,
+                  38.486178
+                ],
+                [
+                  56.582211,
+                  38.489796
+                ],
+                [
+                  56.57601,
+                  38.496514
+                ],
+                [
+                  56.572444,
+                  38.50349
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q399899",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ahal Region"
+        }
+      ],
+      "properties": {
+        "title": "Ahal Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12014176",
+          "label": "region of Turkmenistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Turkmenistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  52.698985,
+                  40.273871
+                ],
+                [
+                  52.437671,
+                  41.748876
+                ],
+                [
+                  52.478843,
+                  41.780345
+                ],
+                [
+                  52.764665,
+                  41.993769
+                ],
+                [
+                  52.978709,
+                  42.126629
+                ],
+                [
+                  53.191719,
+                  42.193033
+                ],
+                [
+                  53.412274,
+                  42.258171
+                ],
+                [
+                  53.47842,
+                  42.268661
+                ],
+                [
+                  53.65443,
+                  42.292484
+                ],
+                [
+                  54.047171,
+                  42.345401
+                ],
+                [
+                  54.122618,
+                  42.337598
+                ],
+                [
+                  54.195276,
+                  42.318064
+                ],
+                [
+                  56.533721,
+                  41.298969
+                ],
+                [
+                  57.028953,
+                  40.553701
+                ],
+                [
+                  57.042286,
+                  40.523987
+                ],
+                [
+                  57.129051,
+                  40.304259
+                ],
+                [
+                  57.165224,
+                  40.092308
+                ],
+                [
+                  57.137914,
+                  38.262364
+                ],
+                [
+                  57.114684,
+                  38.232112
+                ],
+                [
+                  57.102798,
+                  38.222009
+                ],
+                [
+                  57.056496,
+                  38.195241
+                ],
+                [
+                  57.038409,
+                  38.187283
+                ],
+                [
+                  54.638969,
+                  37.433272
+                ],
+                [
+                  54.328497,
+                  37.353277
+                ],
+                [
+                  54.206438,
+                  37.324596
+                ],
+                [
+                  54.186594,
+                  37.323744
+                ],
+                [
+                  53.913748,
+                  37.34276
+                ],
+                [
+                  53.094737,
+                  38.755072
+                ],
+                [
+                  53.040212,
+                  38.906684
+                ],
+                [
+                  52.738455,
+                  40.053616
+                ],
+                [
+                  52.698985,
+                  40.273871
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q486073",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balkan Region"
+        }
+      ],
+      "properties": {
+        "title": "Balkan Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12014176",
+          "label": "region of Turkmenistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Turkmenistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.53658,
+                  41.258929
+                ],
+                [
+                  56.533721,
+                  41.298969
+                ],
+                [
+                  56.950146,
+                  41.86605
+                ],
+                [
+                  56.978361,
+                  41.895118
+                ],
+                [
+                  57.207805,
+                  42.07056
+                ],
+                [
+                  57.288213,
+                  42.129419
+                ],
+                [
+                  58.130643,
+                  42.638846
+                ],
+                [
+                  58.148833,
+                  42.649
+                ],
+                [
+                  58.239576,
+                  42.685148
+                ],
+                [
+                  58.587876,
+                  42.791188
+                ],
+                [
+                  59.866351,
+                  42.304215
+                ],
+                [
+                  60.028201,
+                  42.199518
+                ],
+                [
+                  61.004318,
+                  41.229533
+                ],
+                [
+                  61.004318,
+                  41.210095
+                ],
+                [
+                  60.999667,
+                  41.03765
+                ],
+                [
+                  60.517216,
+                  39.488959
+                ],
+                [
+                  60.388593,
+                  39.473612
+                ],
+                [
+                  60.356606,
+                  39.476402
+                ],
+                [
+                  57.270076,
+                  40.032647
+                ],
+                [
+                  57.263099,
+                  40.034766
+                ],
+                [
+                  57.185223,
+                  40.070268
+                ],
+                [
+                  57.179487,
+                  40.072955
+                ],
+                [
+                  57.175301,
+                  40.076004
+                ],
+                [
+                  57.078925,
+                  40.175636
+                ],
+                [
+                  56.595233,
+                  41.117568
+                ],
+                [
+                  56.542161,
+                  41.239344
+                ],
+                [
+                  56.53658,
+                  41.258929
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487393",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Daşoguz Region"
+        }
+      ],
+      "properties": {
+        "title": "Daşoguz Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12014176",
+          "label": "region of Turkmenistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Turkmenistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  60.252994,
+                  40.353403
+                ],
+                [
+                  60.247517,
+                  41.000521
+                ],
+                [
+                  61.01026,
+                  41.237226
+                ],
+                [
+                  61.43318,
+                  41.300323
+                ],
+                [
+                  61.470077,
+                  41.29717
+                ],
+                [
+                  61.567332,
+                  41.277792
+                ],
+                [
+                  61.654355,
+                  41.249421
+                ],
+                [
+                  61.877907,
+                  41.124984
+                ],
+                [
+                  66.624336,
+                  37.993832
+                ],
+                [
+                  66.636524,
+                  37.966593
+                ],
+                [
+                  66.645782,
+                  37.945902
+                ],
+                [
+                  66.546615,
+                  37.45079
+                ],
+                [
+                  66.519588,
+                  37.36418
+                ],
+                [
+                  66.469927,
+                  37.329764
+                ],
+                [
+                  66.461452,
+                  37.324441
+                ],
+                [
+                  64.728549,
+                  36.85057
+                ],
+                [
+                  64.494906,
+                  36.849586
+                ],
+                [
+                  63.537032,
+                  36.850464
+                ],
+                [
+                  63.508661,
+                  36.856045
+                ],
+                [
+                  60.508689,
+                  39.495884
+                ],
+                [
+                  60.254855,
+                  40.342137
+                ],
+                [
+                  60.252994,
+                  40.353403
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487389",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lebap Region"
+        }
+      ],
+      "properties": {
+        "title": "Lebap Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12014176",
+          "label": "region of Turkmenistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Turkmenistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  61.419309,
+                  35.545891
+                ],
+                [
+                  60.459493,
+                  38.753966
+                ],
+                [
+                  60.770172,
+                  39.24732
+                ],
+                [
+                  61.022301,
+                  39.513971
+                ],
+                [
+                  61.222031,
+                  39.500638
+                ],
+                [
+                  63.22873,
+                  38.060003
+                ],
+                [
+                  64.728549,
+                  36.85057
+                ],
+                [
+                  64.594382,
+                  36.424186
+                ],
+                [
+                  64.576657,
+                  36.389615
+                ],
+                [
+                  64.498161,
+                  36.291429
+                ],
+                [
+                  64.477697,
+                  36.271637
+                ],
+                [
+                  64.444572,
+                  36.249985
+                ],
+                [
+                  64.045114,
+                  35.998734
+                ],
+                [
+                  63.066827,
+                  35.425591
+                ],
+                [
+                  62.69362,
+                  35.248392
+                ],
+                [
+                  62.621066,
+                  35.222709
+                ],
+                [
+                  62.286203,
+                  35.140647
+                ],
+                [
+                  61.538703,
+                  35.452307
+                ],
+                [
+                  61.419309,
+                  35.545891
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487401",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mary Region"
+        }
+      ],
+      "properties": {
+        "title": "Mary Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12014176",
+          "label": "region of Turkmenistan"
+        }
+      ]
+    }
+  ],
+  "title": "Turkmen regions",
+  "type": "FeatureCollection"
+}

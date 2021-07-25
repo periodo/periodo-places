@@ -1,0 +1,22 @@
+{
+  "Ahal Region": {
+    "id": "http://www.wikidata.org/entity/Q399899",
+    "covers": [ "Ahal" ]
+  },
+  "Balkan Region": {
+    "id": "http://www.wikidata.org/entity/Q486073",
+    "covers": [ "Balkan" ]
+  },
+  "Daşoguz Region": {
+    "id": "http://www.wikidata.org/entity/Q487393",
+    "covers": [ "Tashauz" ]
+  },
+  "Lebap Region": {
+    "id": "http://www.wikidata.org/entity/Q487389",
+    "covers": [ "Chardzhou" ]
+  },
+  "Mary Region": {
+    "id": "http://www.wikidata.org/entity/Q487401",
+    "covers": [ "Mary" ]
+  }
+}
