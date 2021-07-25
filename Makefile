@@ -135,6 +135,14 @@ geometries/us-states.json: \
 	geometries/us-territories.json
 	jq -s '.[0] * .[1]' $^ > $@
 
+geometries/historical.json: place-ids/historical.json
+	mkdir -p geometries
+	cat $< > $@
+
+geometries/other-regions.json: place-ids/other-regions.json
+	mkdir -p geometries
+	cat $< > $@
+
 geometries/%-admin-1.json: \
 	jq/%-admin-1.jq \
 	ne/ne_10m_admin_1_states_provinces.json
@@ -146,10 +154,6 @@ geometries/%.json: \
 	place-ids/%.json \
 	geometries/$$(firstword $$(subst -, ,$$*))-admin-1.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
-
-geometries/%.json: place-ids/%.json
-	mkdir -p geometries
-	cat $< > $@
 
 gazetteers/%.json: geometries/%.json
 	mkdir -p gazetteers
