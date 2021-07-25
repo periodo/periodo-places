@@ -1,0 +1,26 @@
+{
+  "Beirut Governorate": {
+    "id": "http://www.wikidata.org/entity/Q651688",
+    "covers": [ "Beirut" ]
+  },
+  "Beqaa Governorate": {
+    "id": "http://www.wikidata.org/entity/Q319632",
+    "covers": [ "Beqaa" ]
+  },
+  "Mount Lebanon Governorate": {
+    "id": "http://www.wikidata.org/entity/Q216945",
+    "covers": [ "Mount Lebanon" ]
+  },
+  "Nabatieh Governorate": {
+    "id": "http://www.wikidata.org/entity/Q458417",
+    "covers": [ "An Nabatiyah" ]
+  },
+  "North Governorate": {
+    "id": "http://www.wikidata.org/entity/Q390267",
+    "covers": [ "North Lebanon" ]
+  },
+  "South Governorate": {
+    "id": "http://www.wikidata.org/entity/Q223643",
+    "covers": [ "South Lebanon" ]
+  }
+}

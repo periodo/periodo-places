@@ -1,0 +1,731 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Drapeau%20de%20Beyrouth.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.482996,
+                  33.865166
+                ],
+                [
+                  35.47047,
+                  33.902086
+                ],
+                [
+                  35.475841,
+                  33.90998
+                ],
+                [
+                  35.486583,
+                  33.912991
+                ],
+                [
+                  35.548093,
+                  33.906196
+                ],
+                [
+                  35.547939,
+                  33.901652
+                ],
+                [
+                  35.536312,
+                  33.87199
+                ],
+                [
+                  35.515383,
+                  33.862223
+                ],
+                [
+                  35.50205,
+                  33.861809
+                ],
+                [
+                  35.482996,
+                  33.865166
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q651688",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beirut Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Beirut Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.616255,
+                  33.485993
+                ],
+                [
+                  35.613568,
+                  33.509738
+                ],
+                [
+                  35.664521,
+                  33.612832
+                ],
+                [
+                  35.770148,
+                  33.808066
+                ],
+                [
+                  36.011322,
+                  34.152231
+                ],
+                [
+                  36.245158,
+                  34.457277
+                ],
+                [
+                  36.249033,
+                  34.461566
+                ],
+                [
+                  36.295904,
+                  34.49221
+                ],
+                [
+                  36.308461,
+                  34.496396
+                ],
+                [
+                  36.329851,
+                  34.498603
+                ],
+                [
+                  36.392331,
+                  34.500143
+                ],
+                [
+                  36.41972,
+                  34.498335
+                ],
+                [
+                  36.433466,
+                  34.49433
+                ],
+                [
+                  36.52514,
+                  34.422939
+                ],
+                [
+                  36.530617,
+                  34.41418
+                ],
+                [
+                  36.581984,
+                  34.299897
+                ],
+                [
+                  36.604101,
+                  34.199102
+                ],
+                [
+                  36.369594,
+                  33.837006
+                ],
+                [
+                  36.357501,
+                  33.823776
+                ],
+                [
+                  35.919492,
+                  33.462351
+                ],
+                [
+                  35.888486,
+                  33.440415
+                ],
+                [
+                  35.845116,
+                  33.418742
+                ],
+                [
+                  35.653927,
+                  33.427779
+                ],
+                [
+                  35.634859,
+                  33.433308
+                ],
+                [
+                  35.620286,
+                  33.472996
+                ],
+                [
+                  35.616255,
+                  33.485993
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q319632",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beqaa Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Beqaa Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.382058,
+                  33.587743
+                ],
+                [
+                  35.377055,
+                  33.589489
+                ],
+                [
+                  35.394379,
+                  33.64997
+                ],
+                [
+                  35.482996,
+                  33.865166
+                ],
+                [
+                  35.627208,
+                  34.201117
+                ],
+                [
+                  35.630382,
+                  34.208441
+                ],
+                [
+                  35.644958,
+                  34.217664
+                ],
+                [
+                  35.671963,
+                  34.215121
+                ],
+                [
+                  35.8442,
+                  34.193055
+                ],
+                [
+                  35.936184,
+                  34.176416
+                ],
+                [
+                  35.9413,
+                  34.174917
+                ],
+                [
+                  36.001658,
+                  34.156417
+                ],
+                [
+                  36.011322,
+                  34.152231
+                ],
+                [
+                  35.997937,
+                  34.067792
+                ],
+                [
+                  35.953134,
+                  33.993119
+                ],
+                [
+                  35.807561,
+                  33.780936
+                ],
+                [
+                  35.633929,
+                  33.528341
+                ],
+                [
+                  35.626487,
+                  33.519582
+                ],
+                [
+                  35.622301,
+                  33.515862
+                ],
+                [
+                  35.613568,
+                  33.509738
+                ],
+                [
+                  35.382058,
+                  33.587743
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q216945",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mount Lebanon Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Mount Lebanon Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.331931,
+                  33.057156
+                ],
+                [
+                  35.288825,
+                  33.099201
+                ],
+                [
+                  35.296585,
+                  33.368144
+                ],
+                [
+                  35.320459,
+                  33.394448
+                ],
+                [
+                  35.323095,
+                  33.396928
+                ],
+                [
+                  35.410325,
+                  33.471859
+                ],
+                [
+                  35.419937,
+                  33.476665
+                ],
+                [
+                  35.523599,
+                  33.501263
+                ],
+                [
+                  35.52577,
+                  33.501263
+                ],
+                [
+                  35.716146,
+                  33.480722
+                ],
+                [
+                  35.735731,
+                  33.47527
+                ],
+                [
+                  35.75604,
+                  33.465115
+                ],
+                [
+                  35.845116,
+                  33.418742
+                ],
+                [
+                  35.785753,
+                  33.357887
+                ],
+                [
+                  35.769423,
+                  33.342643
+                ],
+                [
+                  35.480139,
+                  33.087387
+                ],
+                [
+                  35.401591,
+                  33.067931
+                ],
+                [
+                  35.34516,
+                  33.05558
+                ],
+                [
+                  35.331931,
+                  33.057156
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q458417",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nabatieh Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nabatiye Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Nabatieh Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.646176,
+                  34.21724
+                ],
+                [
+                  35.644958,
+                  34.217664
+                ],
+                [
+                  35.648285,
+                  34.253607
+                ],
+                [
+                  35.653005,
+                  34.284857
+                ],
+                [
+                  35.665212,
+                  34.311347
+                ],
+                [
+                  35.9699,
+                  34.649849
+                ],
+                [
+                  36.308925,
+                  34.687548
+                ],
+                [
+                  36.440184,
+                  34.62936
+                ],
+                [
+                  36.436256,
+                  34.597838
+                ],
+                [
+                  36.043413,
+                  34.159052
+                ],
+                [
+                  36.039537,
+                  34.15559
+                ],
+                [
+                  36.037057,
+                  34.154479
+                ],
+                [
+                  36.034266,
+                  34.153859
+                ],
+                [
+                  36.011322,
+                  34.152231
+                ],
+                [
+                  35.738367,
+                  34.187216
+                ],
+                [
+                  35.646176,
+                  34.21724
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q390267",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Lebanon"
+        }
+      ],
+      "properties": {
+        "title": "North Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six governorates of Lebanon"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.100434,
+                  33.095689
+                ],
+                [
+                  35.09962,
+                  33.101264
+                ],
+                [
+                  35.271007,
+                  33.457506
+                ],
+                [
+                  35.377055,
+                  33.589489
+                ],
+                [
+                  35.591864,
+                  33.606915
+                ],
+                [
+                  35.59636,
+                  33.606218
+                ],
+                [
+                  35.600391,
+                  33.601283
+                ],
+                [
+                  35.603336,
+                  33.593505
+                ],
+                [
+                  35.619511,
+                  33.538057
+                ],
+                [
+                  35.634859,
+                  33.433308
+                ],
+                [
+                  35.626487,
+                  33.420286
+                ],
+                [
+                  35.591399,
+                  33.386128
+                ],
+                [
+                  35.288825,
+                  33.099201
+                ],
+                [
+                  35.234469,
+                  33.090927
+                ],
+                [
+                  35.185273,
+                  33.083977
+                ],
+                [
+                  35.105235,
+                  33.089016
+                ],
+                [
+                  35.100434,
+                  33.095689
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q223643",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Governorate"
+        }
+      ],
+      "properties": {
+        "title": "South Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q844713",
+          "label": "governorate of Lebanon"
+        }
+      ]
+    }
+  ],
+  "title": "Lebanese governorates",
+  "type": "FeatureCollection"
+}

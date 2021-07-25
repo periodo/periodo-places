@@ -47,6 +47,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Laotian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/laotian-provinces.json
 
+* **Lebanese governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/lebanese-governorates.json
+
 * **Libyan districts gazetteer**<br>
   https://data.perio.do/graphs/places/libyan-districts.json
 
@@ -230,6 +233,17 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 1. querying Wikidata for instances of [Q15673297 province of Laos](https://www.wikidata.org/wiki/Q15673297) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the province of Xaisomboun (recently established as a province, having been a special administrative zone) is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
+
+
+### Lebanese governorates gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/lebanese-governorates.json](place-ids/lebanese-governorates.json) for details), and
+
+1. querying Wikidata for instances of [Q844713 governorate of Lebanon](https://www.wikidata.org/wiki/Q844713) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil are not included, as the geometries for these administrative units are not yet included in the Natural Earth data.
 
 
 ### Libyan districts gazetteer
