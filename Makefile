@@ -6,6 +6,7 @@ GAZETTEERS := \
 	gazetteers/djiboutian-regions.json \
 	gazetteers/egyptian-governorates.json \
 	gazetteers/english-counties.json \
+	gazetteers/ethiopian-regions.json \
 	gazetteers/french-regions.json \
 	gazetteers/geographic-regions.json \
 	gazetteers/greek-regions.json \

@@ -1,0 +1,46 @@
+{
+  "Addis Ababa": {
+    "id": "http://www.wikidata.org/entity/Q3624",
+    "covers": [ "Addis Ababa" ]
+  },
+  "Afar Region": {
+    "id": "http://www.wikidata.org/entity/Q193494",
+    "covers": [ "Afar" ]
+  },
+  "Amhara Region": {
+    "id": "http://www.wikidata.org/entity/Q203009",
+    "covers": [ "Amhara" ]
+  },
+  "Benishangul-Gumuz Region": {
+    "id": "http://www.wikidata.org/entity/Q207635",
+    "covers": [ "Benshangul-Gumaz" ]
+  },
+  "Dire Dawa": {
+    "id": "http://www.wikidata.org/entity/Q193486",
+    "covers": [ "Dire Dawa" ]
+  },
+  "Gambela Region": {
+    "id": "http://www.wikidata.org/entity/Q207638",
+    "covers": [ "Gambela Peoples" ]
+  },
+  "Harari Region": {
+    "id": "http://www.wikidata.org/entity/Q1033855",
+    "covers": [ "Harari People" ]
+  },
+  "Oromia Region": {
+    "id": "http://www.wikidata.org/entity/Q202107",
+    "covers": [ "Oromiya" ]
+  },
+  "Somali Region": {
+    "id": "http://www.wikidata.org/entity/Q202800",
+    "covers": [ "Somali" ]
+  },
+  "Southern Nations, Nationalities, and Peoples' Region": {
+    "id": "http://www.wikidata.org/entity/Q203193",
+    "covers": [ "Southern Nations, Nationalities and Peoples" ]
+  },
+  "Tigray Region": {
+    "id": "http://www.wikidata.org/entity/Q200127",
+    "covers": [ "Tigray" ]
+  }
+}

@@ -23,11 +23,14 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Djiboutian regions gazetteer**<br>
   https://data.perio.do/graphs/places/djiboutian-regions.json
 
+* **Egyptian governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/egyptian-governorates.json
+
 * **English counties gazetteer**<br>
   https://data.perio.do/graphs/places/english-counties.json
 
-* **Egyptian governorates gazetteer**<br>
-  https://data.perio.do/graphs/places/egyptian-governorates.json
+* **Ethiopian regions gazetteer**<br>
+  https://data.perio.do/graphs/places/ethiopian-regions.json
 
 * **French regions gazetteer**<br>
   https://data.perio.do/graphs/places/french-regions.json
@@ -183,6 +186,17 @@ This gazetteer was created by:
 1. merging geometries of the administrative units found in the Natural Earth data into geometries for (non-administrative) ceremonial counties (see [place-ids/english-counties.json](place-ids/english-counties.json) for details), and
 
 1. querying Wikidata for instances of [Q180673 ceremonial country of England](https://www.wikidata.org/wiki/Q180673) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Ethiopian regions gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/ethiopian-regions.json](place-ids/ethiopian-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q1057504 region of Ethiopia](https://www.wikidata.org/wiki/Q1057504) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that the region of Sidama, separated from the region of Southern Nations, Nationalities, and Peoples in 2020, is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
 
 
 ### French regions gazetteer

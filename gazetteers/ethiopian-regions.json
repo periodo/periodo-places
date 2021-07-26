@@ -1,0 +1,1580 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  38.662064,
+                  8.976532
+                ],
+                [
+                  38.655036,
+                  8.996583
+                ],
+                [
+                  38.662168,
+                  9.017409
+                ],
+                [
+                  38.676844,
+                  9.043893
+                ],
+                [
+                  38.694414,
+                  9.067948
+                ],
+                [
+                  38.710123,
+                  9.081539
+                ],
+                [
+                  38.723352,
+                  9.085802
+                ],
+                [
+                  38.762937,
+                  9.094742
+                ],
+                [
+                  38.775236,
+                  9.095647
+                ],
+                [
+                  38.818334,
+                  9.096887
+                ],
+                [
+                  38.876521,
+                  9.077715
+                ],
+                [
+                  38.901429,
+                  9.021801
+                ],
+                [
+                  38.906804,
+                  9.004128
+                ],
+                [
+                  38.907941,
+                  8.984517
+                ],
+                [
+                  38.899879,
+                  8.937543
+                ],
+                [
+                  38.874661,
+                  8.875453
+                ],
+                [
+                  38.816577,
+                  8.832588
+                ],
+                [
+                  38.79663,
+                  8.835172
+                ],
+                [
+                  38.776373,
+                  8.845817
+                ],
+                [
+                  38.764797,
+                  8.85486
+                ],
+                [
+                  38.703922,
+                  8.904108
+                ],
+                [
+                  38.693794,
+                  8.913565
+                ],
+                [
+                  38.686559,
+                  8.92328
+                ],
+                [
+                  38.662064,
+                  8.976532
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3624",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Addis Ababa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Addis Abeba"
+        },
+        {
+          "lang": "en",
+          "toponym": "Addis Abäba"
+        },
+        {
+          "lang": "en",
+          "toponym": "Finfinne"
+        }
+      ],
+      "properties": {
+        "title": "Addis Ababa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Afar%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  39.794708,
+                  9.376792
+                ],
+                [
+                  39.668204,
+                  14.324526
+                ],
+                [
+                  39.675542,
+                  14.333828
+                ],
+                [
+                  39.702828,
+                  14.355687
+                ],
+                [
+                  39.734764,
+                  14.373567
+                ],
+                [
+                  39.999839,
+                  14.455238
+                ],
+                [
+                  40.086886,
+                  14.465759
+                ],
+                [
+                  40.104559,
+                  14.465966
+                ],
+                [
+                  40.194373,
+                  14.444649
+                ],
+                [
+                  40.237678,
+                  14.427441
+                ],
+                [
+                  40.772322,
+                  14.148362
+                ],
+                [
+                  40.833197,
+                  14.105962
+                ],
+                [
+                  41.7118,
+                  13.247926
+                ],
+                [
+                  41.750764,
+                  13.208316
+                ],
+                [
+                  42.184949,
+                  12.733048
+                ],
+                [
+                  42.379459,
+                  12.465907
+                ],
+                [
+                  41.766523,
+                  10.989466
+                ],
+                [
+                  40.695118,
+                  9.444385
+                ],
+                [
+                  40.669074,
+                  9.417978
+                ],
+                [
+                  40.236852,
+                  9.006324
+                ],
+                [
+                  40.214734,
+                  8.986609
+                ],
+                [
+                  40.100219,
+                  8.884678
+                ],
+                [
+                  40.039034,
+                  8.842923
+                ],
+                [
+                  40.026425,
+                  8.846463
+                ],
+                [
+                  39.810728,
+                  9.138977
+                ],
+                [
+                  39.794708,
+                  9.376792
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q193494",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Afar Region"
+        }
+      ],
+      "properties": {
+        "title": "Afar Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Amhara%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.313121,
+                  11.84628
+                ],
+                [
+                  35.248379,
+                  11.957858
+                ],
+                [
+                  35.248525,
+                  11.962475
+                ],
+                [
+                  35.251419,
+                  11.971725
+                ],
+                [
+                  35.353738,
+                  12.14603
+                ],
+                [
+                  35.616875,
+                  12.575151
+                ],
+                [
+                  36.439942,
+                  13.776176
+                ],
+                [
+                  38.452568,
+                  13.589972
+                ],
+                [
+                  38.463833,
+                  13.587181
+                ],
+                [
+                  38.675087,
+                  13.491735
+                ],
+                [
+                  39.224304,
+                  13.015847
+                ],
+                [
+                  39.779722,
+                  12.32501
+                ],
+                [
+                  40.182282,
+                  11.184925
+                ],
+                [
+                  40.188586,
+                  11.15795
+                ],
+                [
+                  40.196648,
+                  11.075681
+                ],
+                [
+                  40.196441,
+                  11.057207
+                ],
+                [
+                  40.177837,
+                  10.482048
+                ],
+                [
+                  40.131742,
+                  10.104061
+                ],
+                [
+                  40.085233,
+                  9.919343
+                ],
+                [
+                  39.894237,
+                  9.268246
+                ],
+                [
+                  39.768973,
+                  8.900051
+                ],
+                [
+                  39.758845,
+                  8.871371
+                ],
+                [
+                  39.727839,
+                  8.851786
+                ],
+                [
+                  39.542837,
+                  8.761016
+                ],
+                [
+                  39.521753,
+                  8.756107
+                ],
+                [
+                  39.341919,
+                  8.777216
+                ],
+                [
+                  39.324143,
+                  8.781738
+                ],
+                [
+                  36.416103,
+                  10.453884
+                ],
+                [
+                  36.392022,
+                  10.469155
+                ],
+                [
+                  36.370008,
+                  10.494192
+                ],
+                [
+                  35.313121,
+                  11.84628
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q203009",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Amhara Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amhara"
+        }
+      ],
+      "properties": {
+        "title": "Amhara Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Benishangul-Gumuz%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the nine ethnic divisions (kililoch) of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.083096,
+                  9.205117
+                ],
+                [
+                  34.066892,
+                  9.531176
+                ],
+                [
+                  34.271737,
+                  10.530082
+                ],
+                [
+                  34.279489,
+                  10.565506
+                ],
+                [
+                  35.072722,
+                  11.818866
+                ],
+                [
+                  35.088018,
+                  11.838193
+                ],
+                [
+                  35.248379,
+                  11.957858
+                ],
+                [
+                  35.7656,
+                  12.03787
+                ],
+                [
+                  35.837637,
+                  12.03433
+                ],
+                [
+                  35.847456,
+                  12.032858
+                ],
+                [
+                  35.929931,
+                  12.005934
+                ],
+                [
+                  36.334041,
+                  11.808427
+                ],
+                [
+                  36.341172,
+                  11.797549
+                ],
+                [
+                  37.046142,
+                  10.302679
+                ],
+                [
+                  37.026298,
+                  10.248186
+                ],
+                [
+                  36.245674,
+                  8.787113
+                ],
+                [
+                  36.226967,
+                  8.789515
+                ],
+                [
+                  34.083096,
+                  9.205117
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q207635",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Benishangul-Gumuz Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Benshangul/Gumaz"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 6"
+        }
+      ],
+      "properties": {
+        "title": "Benishangul-Gumuz Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "chartered city of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.736915,
+                  9.473763
+                ],
+                [
+                  41.731748,
+                  9.51774
+                ],
+                [
+                  41.740636,
+                  9.584945
+                ],
+                [
+                  41.76296,
+                  9.640135
+                ],
+                [
+                  41.86652,
+                  9.678014
+                ],
+                [
+                  42.20314,
+                  9.774391
+                ],
+                [
+                  42.2543,
+                  9.780566
+                ],
+                [
+                  42.302669,
+                  9.762583
+                ],
+                [
+                  42.341013,
+                  9.720363
+                ],
+                [
+                  42.07674,
+                  9.4749
+                ],
+                [
+                  41.736915,
+                  9.473763
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q193486",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dire Dawa"
+        }
+      ],
+      "properties": {
+        "title": "Dire Dawa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Gambella%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  33.015018,
+                  7.850633
+                ],
+                [
+                  32.9898,
+                  7.917244
+                ],
+                [
+                  32.993572,
+                  7.928148
+                ],
+                [
+                  33.16953,
+                  8.397421
+                ],
+                [
+                  33.174078,
+                  8.404475
+                ],
+                [
+                  33.23516,
+                  8.455635
+                ],
+                [
+                  34.107251,
+                  8.601531
+                ],
+                [
+                  34.245073,
+                  8.607692
+                ],
+                [
+                  34.270808,
+                  8.60516
+                ],
+                [
+                  34.301607,
+                  8.592241
+                ],
+                [
+                  35.059907,
+                  8.187718
+                ],
+                [
+                  35.090396,
+                  8.165497
+                ],
+                [
+                  35.35839,
+                  7.426007
+                ],
+                [
+                  35.365625,
+                  7.405466
+                ],
+                [
+                  35.363248,
+                  7.38433
+                ],
+                [
+                  35.337409,
+                  7.156178
+                ],
+                [
+                  35.329865,
+                  7.132485
+                ],
+                [
+                  34.694348,
+                  7.018383
+                ],
+                [
+                  34.662308,
+                  7.012673
+                ],
+                [
+                  34.629856,
+                  7.012053
+                ],
+                [
+                  34.299747,
+                  7.048976
+                ],
+                [
+                  34.195773,
+                  7.09774
+                ],
+                [
+                  33.051295,
+                  7.801127
+                ],
+                [
+                  33.023493,
+                  7.835078
+                ],
+                [
+                  33.015018,
+                  7.850633
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q207638",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gambela Peoples' Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gambela Region"
+        }
+      ],
+      "properties": {
+        "title": "Gambela Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Harari%20Flag.jpg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.063717,
+                  9.229825
+                ],
+                [
+                  42.061133,
+                  9.25171
+                ],
+                [
+                  42.066301,
+                  9.281785
+                ],
+                [
+                  42.076326,
+                  9.308605
+                ],
+                [
+                  42.106505,
+                  9.359532
+                ],
+                [
+                  42.128726,
+                  9.383665
+                ],
+                [
+                  42.256574,
+                  9.384828
+                ],
+                [
+                  42.27187,
+                  9.362943
+                ],
+                [
+                  42.274144,
+                  9.217939
+                ],
+                [
+                  42.265875,
+                  9.198767
+                ],
+                [
+                  42.248719,
+                  9.188664
+                ],
+                [
+                  42.150844,
+                  9.208534
+                ],
+                [
+                  42.063717,
+                  9.229825
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1033855",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Harari People's National Regional State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Harari Region"
+        }
+      ],
+      "properties": {
+        "title": "Harari Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Oromia%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.107251,
+                  8.601531
+                ],
+                [
+                  34.083096,
+                  9.205117
+                ],
+                [
+                  34.464078,
+                  9.639076
+                ],
+                [
+                  34.875112,
+                  10.02559
+                ],
+                [
+                  36.502403,
+                  10.335313
+                ],
+                [
+                  36.564828,
+                  10.341953
+                ],
+                [
+                  38.731517,
+                  10.382235
+                ],
+                [
+                  38.847169,
+                  10.362675
+                ],
+                [
+                  42.341013,
+                  9.720363
+                ],
+                [
+                  42.380907,
+                  9.708322
+                ],
+                [
+                  42.85695,
+                  8.840365
+                ],
+                [
+                  42.865529,
+                  8.80029
+                ],
+                [
+                  42.911624,
+                  8.565395
+                ],
+                [
+                  42.914311,
+                  8.538187
+                ],
+                [
+                  42.913381,
+                  8.51098
+                ],
+                [
+                  42.902942,
+                  8.435506
+                ],
+                [
+                  42.896948,
+                  8.412381
+                ],
+                [
+                  42.024236,
+                  6.662178
+                ],
+                [
+                  42.014108,
+                  6.643109
+                ],
+                [
+                  41.993127,
+                  6.606445
+                ],
+                [
+                  41.985789,
+                  6.595696
+                ],
+                [
+                  39.300682,
+                  3.642569
+                ],
+                [
+                  39.261718,
+                  3.617247
+                ],
+                [
+                  39.090441,
+                  3.518334
+                ],
+                [
+                  39.010466,
+                  3.514464
+                ],
+                [
+                  38.994963,
+                  3.514257
+                ],
+                [
+                  38.895227,
+                  3.513585
+                ],
+                [
+                  38.114087,
+                  3.610608
+                ],
+                [
+                  38.101891,
+                  3.612649
+                ],
+                [
+                  38.048974,
+                  3.641846
+                ],
+                [
+                  38.036158,
+                  3.648926
+                ],
+                [
+                  36.648857,
+                  4.43118
+                ],
+                [
+                  34.107251,
+                  8.601531
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q202107",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oromia Region"
+        }
+      ],
+      "properties": {
+        "title": "Oromia Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somali%20State%20original%20flag.jpg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  39.180481,
+                  3.476998
+                ],
+                [
+                  39.090441,
+                  3.518334
+                ],
+                [
+                  39.095216,
+                  3.53627
+                ],
+                [
+                  40.722197,
+                  9.586237
+                ],
+                [
+                  41.083312,
+                  10.679297
+                ],
+                [
+                  41.092304,
+                  10.699244
+                ],
+                [
+                  41.250433,
+                  10.939798
+                ],
+                [
+                  41.270484,
+                  10.960132
+                ],
+                [
+                  41.292291,
+                  10.967109
+                ],
+                [
+                  42.569732,
+                  11.086146
+                ],
+                [
+                  42.608145,
+                  11.089088
+                ],
+                [
+                  42.615621,
+                  11.08966
+                ],
+                [
+                  42.710395,
+                  11.072116
+                ],
+                [
+                  42.908109,
+                  11.004187
+                ],
+                [
+                  42.923715,
+                  10.998787
+                ],
+                [
+                  47.979169,
+                  7.996567
+                ],
+                [
+                  44.941525,
+                  4.911484
+                ],
+                [
+                  44.912586,
+                  4.899392
+                ],
+                [
+                  41.835927,
+                  3.94945
+                ],
+                [
+                  39.536325,
+                  3.405013
+                ],
+                [
+                  39.504389,
+                  3.403333
+                ],
+                [
+                  39.180481,
+                  3.476998
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q202800",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Somali Region"
+        }
+      ],
+      "properties": {
+        "title": "Somali Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Southern%20Nations%2C%20Nationalities%2C%20and%20Peoples%27%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.198253,
+                  7.064376
+                ],
+                [
+                  34.195773,
+                  7.086959
+                ],
+                [
+                  34.195773,
+                  7.09774
+                ],
+                [
+                  35.356736,
+                  7.841899
+                ],
+                [
+                  35.766634,
+                  8.07775
+                ],
+                [
+                  35.787614,
+                  8.084571
+                ],
+                [
+                  37.537378,
+                  8.429305
+                ],
+                [
+                  38.545586,
+                  8.457288
+                ],
+                [
+                  38.56698,
+                  8.45535
+                ],
+                [
+                  38.646251,
+                  8.410417
+                ],
+                [
+                  38.65886,
+                  8.391581
+                ],
+                [
+                  38.667335,
+                  8.369567
+                ],
+                [
+                  38.699685,
+                  8.250815
+                ],
+                [
+                  39.098833,
+                  6.504513
+                ],
+                [
+                  39.128806,
+                  6.36987
+                ],
+                [
+                  39.135007,
+                  6.161588
+                ],
+                [
+                  37.885678,
+                  5.236347
+                ],
+                [
+                  36.714793,
+                  4.467273
+                ],
+                [
+                  36.695363,
+                  4.454586
+                ],
+                [
+                  36.648857,
+                  4.43118
+                ],
+                [
+                  36.277196,
+                  4.436449
+                ],
+                [
+                  36.041345,
+                  4.443683
+                ],
+                [
+                  36.018401,
+                  4.449135
+                ],
+                [
+                  35.99711,
+                  4.462959
+                ],
+                [
+                  35.940472,
+                  4.508046
+                ],
+                [
+                  35.098663,
+                  5.622474
+                ],
+                [
+                  34.198253,
+                  7.064376
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q203193",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "SNNPR"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Nations, Nationalities, and Peoples' Region"
+        }
+      ],
+      "properties": {
+        "title": "Southern Nations, Nationalities, and Peoples' Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1196054",
+          "label": "administrative territorial entity of Ethiopia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Tigray%20Region.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "regional state of Ethiopia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.432535,
+                  13.944499
+                ],
+                [
+                  36.432122,
+                  13.969924
+                ],
+                [
+                  36.436566,
+                  13.991214
+                ],
+                [
+                  36.52638,
+                  14.263523
+                ],
+                [
+                  36.565654,
+                  14.292927
+                ],
+                [
+                  37.891464,
+                  14.879532
+                ],
+                [
+                  39.532295,
+                  14.567587
+                ],
+                [
+                  39.999839,
+                  14.455238
+                ],
+                [
+                  39.89186,
+                  12.761056
+                ],
+                [
+                  39.887312,
+                  12.713927
+                ],
+                [
+                  39.805664,
+                  12.360383
+                ],
+                [
+                  39.797395,
+                  12.340177
+                ],
+                [
+                  39.779722,
+                  12.32501
+                ],
+                [
+                  39.539117,
+                  12.251061
+                ],
+                [
+                  39.298925,
+                  12.296304
+                ],
+                [
+                  39.289933,
+                  12.298294
+                ],
+                [
+                  36.896281,
+                  13.39665
+                ],
+                [
+                  36.538473,
+                  13.599119
+                ],
+                [
+                  36.524624,
+                  13.614621
+                ],
+                [
+                  36.439942,
+                  13.776176
+                ],
+                [
+                  36.432535,
+                  13.944499
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200127",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tigray Region"
+        }
+      ],
+      "properties": {
+        "title": "Tigray Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1057504",
+          "label": "region of Ethiopia"
+        }
+      ]
+    }
+  ],
+  "title": "Ethiopian regions",
+  "type": "FeatureCollection"
+}
