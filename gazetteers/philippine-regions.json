@@ -1,0 +1,2298 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangsamoro.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous region in the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  119.456554,
+                  4.655707
+                ],
+                [
+                  119.435395,
+                  4.902777
+                ],
+                [
+                  120.569591,
+                  6.371894
+                ],
+                [
+                  120.578624,
+                  6.379096
+                ],
+                [
+                  124.310428,
+                  8.223788
+                ],
+                [
+                  124.325879,
+                  8.226165
+                ],
+                [
+                  124.358125,
+                  8.225131
+                ],
+                [
+                  124.365102,
+                  8.22048
+                ],
+                [
+                  124.629737,
+                  8.00747
+                ],
+                [
+                  124.655213,
+                  7.985663
+                ],
+                [
+                  124.666117,
+                  7.973054
+                ],
+                [
+                  124.808641,
+                  7.611112
+                ],
+                [
+                  124.908583,
+                  6.63944
+                ],
+                [
+                  119.857677,
+                  4.79857
+                ],
+                [
+                  119.456554,
+                  4.655707
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q24869612",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "BARMM"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bangsamoro Autonomous Region in Muslim Mindanao"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bangsamoro"
+        }
+      ],
+      "properties": {
+        "title": "Bangsamoro"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  123.149913,
+                  11.930162
+                ],
+                [
+                  122.309465,
+                  14.080123
+                ],
+                [
+                  122.309986,
+                  14.09628
+                ],
+                [
+                  122.327485,
+                  14.188218
+                ],
+                [
+                  122.331309,
+                  14.200263
+                ],
+                [
+                  122.381358,
+                  14.29328
+                ],
+                [
+                  122.388927,
+                  14.304918
+                ],
+                [
+                  122.41627,
+                  14.324774
+                ],
+                [
+                  122.470958,
+                  14.345893
+                ],
+                [
+                  122.483165,
+                  14.346666
+                ],
+                [
+                  122.527843,
+                  14.3487
+                ],
+                [
+                  122.679861,
+                  14.350531
+                ],
+                [
+                  124.207774,
+                  14.091254
+                ],
+                [
+                  124.215668,
+                  14.086493
+                ],
+                [
+                  124.23585,
+                  14.068061
+                ],
+                [
+                  124.417979,
+                  13.872952
+                ],
+                [
+                  124.417979,
+                  13.797797
+                ],
+                [
+                  124.408702,
+                  13.667304
+                ],
+                [
+                  124.07252,
+                  11.744086
+                ],
+                [
+                  124.068533,
+                  11.727851
+                ],
+                [
+                  124.054861,
+                  11.725572
+                ],
+                [
+                  123.159679,
+                  11.917792
+                ],
+                [
+                  123.149913,
+                  11.930162
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13662",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bicol Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 5"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region V"
+        }
+      ],
+      "properties": {
+        "title": "Bicol Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  120.756588,
+                  16.200665
+                ],
+                [
+                  120.754521,
+                  16.230534
+                ],
+                [
+                  120.957093,
+                  18.446781
+                ],
+                [
+                  120.973216,
+                  18.554268
+                ],
+                [
+                  120.983138,
+                  18.589563
+                ],
+                [
+                  121.791189,
+                  20.730048
+                ],
+                [
+                  121.947439,
+                  21.116156
+                ],
+                [
+                  121.950694,
+                  21.122382
+                ],
+                [
+                  121.954275,
+                  21.118394
+                ],
+                [
+                  122.529145,
+                  17.109605
+                ],
+                [
+                  122.529063,
+                  17.090522
+                ],
+                [
+                  122.464692,
+                  16.895087
+                ],
+                [
+                  122.422699,
+                  16.794338
+                ],
+                [
+                  122.34547,
+                  16.642524
+                ],
+                [
+                  122.300141,
+                  16.565497
+                ],
+                [
+                  122.286388,
+                  16.54682
+                ],
+                [
+                  122.24464,
+                  16.510565
+                ],
+                [
+                  121.267255,
+                  15.77759
+                ],
+                [
+                  120.756588,
+                  16.200665
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13615",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cagayan Valley"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 2"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region II"
+        }
+      ],
+      "properties": {
+        "title": "Cagayan Valley"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  120.601329,
+                  13.969143
+                ],
+                [
+                  120.573497,
+                  14.174547
+                ],
+                [
+                  120.595958,
+                  14.217963
+                ],
+                [
+                  120.627452,
+                  14.269599
+                ],
+                [
+                  121.409468,
+                  15.202018
+                ],
+                [
+                  121.419907,
+                  15.208064
+                ],
+                [
+                  121.446178,
+                  15.207934
+                ],
+                [
+                  121.993826,
+                  15.042914
+                ],
+                [
+                  122.005138,
+                  15.038642
+                ],
+                [
+                  122.411794,
+                  14.725816
+                ],
+                [
+                  122.418468,
+                  14.719957
+                ],
+                [
+                  122.815894,
+                  13.99372
+                ],
+                [
+                  122.692231,
+                  13.236802
+                ],
+                [
+                  122.690684,
+                  13.228664
+                ],
+                [
+                  122.653168,
+                  13.200995
+                ],
+                [
+                  122.630138,
+                  13.188056
+                ],
+                [
+                  122.604828,
+                  13.177558
+                ],
+                [
+                  122.588145,
+                  13.174018
+                ],
+                [
+                  121.088634,
+                  13.530341
+                ],
+                [
+                  121.072113,
+                  13.535834
+                ],
+                [
+                  120.875499,
+                  13.634833
+                ],
+                [
+                  120.840831,
+                  13.655626
+                ],
+                [
+                  120.649669,
+                  13.784247
+                ],
+                [
+                  120.628103,
+                  13.810858
+                ],
+                [
+                  120.620128,
+                  13.846625
+                ],
+                [
+                  120.601329,
+                  13.969143
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13650",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "CALABARZON"
+        },
+        {
+          "lang": "en",
+          "toponym": "Calabarzon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 4-A"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region IV-A"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Tagalog Mainland"
+        }
+      ],
+      "properties": {
+        "title": "Calabarzon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  125.204999,
+                  9.042911
+                ],
+                [
+                  125.20362,
+                  9.081947
+                ],
+                [
+                  125.522146,
+                  10.316962
+                ],
+                [
+                  125.556163,
+                  10.370754
+                ],
+                [
+                  125.562511,
+                  10.378485
+                ],
+                [
+                  125.629649,
+                  10.454047
+                ],
+                [
+                  125.637706,
+                  10.460395
+                ],
+                [
+                  125.649669,
+                  10.4619
+                ],
+                [
+                  125.6574,
+                  10.456448
+                ],
+                [
+                  126.08074,
+                  10.05565
+                ],
+                [
+                  126.12672,
+                  9.956041
+                ],
+                [
+                  126.180186,
+                  9.8015
+                ],
+                [
+                  126.463064,
+                  8.229926
+                ],
+                [
+                  126.466156,
+                  8.095526
+                ],
+                [
+                  126.453136,
+                  7.980129
+                ],
+                [
+                  126.383474,
+                  7.899563
+                ],
+                [
+                  125.374291,
+                  7.997755
+                ],
+                [
+                  125.364886,
+                  8.026849
+                ],
+                [
+                  125.328816,
+                  8.189681
+                ],
+                [
+                  125.323855,
+                  8.213349
+                ],
+                [
+                  125.204999,
+                  9.042911
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13704",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Caraga Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Caraga"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 13"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region XIII"
+        }
+      ],
+      "properties": {
+        "title": "Caraga"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  119.888194,
+                  15.429023
+                ],
+                [
+                  119.867198,
+                  15.743069
+                ],
+                [
+                  119.888798,
+                  15.801418
+                ],
+                [
+                  120.008313,
+                  15.852521
+                ],
+                [
+                  122.037544,
+                  16.507623
+                ],
+                [
+                  122.24464,
+                  16.510565
+                ],
+                [
+                  122.231944,
+                  16.319037
+                ],
+                [
+                  122.228689,
+                  16.304633
+                ],
+                [
+                  122.203868,
+                  16.236518
+                ],
+                [
+                  121.342082,
+                  14.889272
+                ],
+                [
+                  121.154268,
+                  14.758427
+                ],
+                [
+                  120.564626,
+                  14.44123
+                ],
+                [
+                  120.481456,
+                  14.423977
+                ],
+                [
+                  120.467052,
+                  14.421047
+                ],
+                [
+                  120.40211,
+                  14.455756
+                ],
+                [
+                  120.079926,
+                  14.803941
+                ],
+                [
+                  119.888194,
+                  15.429023
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13617",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Luzon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 3"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region III"
+        }
+      ],
+      "properties": {
+        "title": "Central Luzon"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  122.599457,
+                  9.432685
+                ],
+                [
+                  122.597097,
+                  9.437649
+                ],
+                [
+                  123.143936,
+                  10.421845
+                ],
+                [
+                  123.715831,
+                  11.264146
+                ],
+                [
+                  123.732758,
+                  11.283759
+                ],
+                [
+                  123.745779,
+                  11.292467
+                ],
+                [
+                  124.045665,
+                  11.277167
+                ],
+                [
+                  124.074718,
+                  11.26911
+                ],
+                [
+                  124.606212,
+                  10.14761
+                ],
+                [
+                  124.606944,
+                  10.140326
+                ],
+                [
+                  124.624034,
+                  9.801825
+                ],
+                [
+                  124.596202,
+                  9.737291
+                ],
+                [
+                  123.698009,
+                  9.12401
+                ],
+                [
+                  123.639985,
+                  9.098578
+                ],
+                [
+                  123.033214,
+                  9.035305
+                ],
+                [
+                  122.990489,
+                  9.048774
+                ],
+                [
+                  122.599457,
+                  9.432685
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13669",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Visayas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Central Visayas, Region VII"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 7"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region VII"
+        }
+      ],
+      "properties": {
+        "title": "Central Visayas"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  120.471954,
+                  16.46375
+                ],
+                [
+                  120.4672,
+                  17.499242
+                ],
+                [
+                  120.482806,
+                  17.587971
+                ],
+                [
+                  120.497793,
+                  17.629829
+                ],
+                [
+                  120.51743,
+                  17.669774
+                ],
+                [
+                  120.552673,
+                  17.732096
+                ],
+                [
+                  120.957093,
+                  18.446781
+                ],
+                [
+                  121.059205,
+                  18.531686
+                ],
+                [
+                  121.072848,
+                  18.536233
+                ],
+                [
+                  121.086801,
+                  18.53029
+                ],
+                [
+                  121.457011,
+                  18.301932
+                ],
+                [
+                  121.478611,
+                  18.270358
+                ],
+                [
+                  121.670124,
+                  17.489734
+                ],
+                [
+                  121.571009,
+                  16.910958
+                ],
+                [
+                  121.533698,
+                  16.855767
+                ],
+                [
+                  121.52481,
+                  16.845432
+                ],
+                [
+                  120.756588,
+                  16.200665
+                ],
+                [
+                  120.699021,
+                  16.189141
+                ],
+                [
+                  120.670495,
+                  16.186919
+                ],
+                [
+                  120.642073,
+                  16.192087
+                ],
+                [
+                  120.526008,
+                  16.232084
+                ],
+                [
+                  120.504407,
+                  16.283916
+                ],
+                [
+                  120.488491,
+                  16.344119
+                ],
+                [
+                  120.471954,
+                  16.46375
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13606",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cordillera Administrative Region"
+        }
+      ],
+      "properties": {
+        "title": "Cordillera Administrative Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  125.141333,
+                  6.430667
+                ],
+                [
+                  125.139783,
+                  6.44307
+                ],
+                [
+                  125.149705,
+                  6.782222
+                ],
+                [
+                  125.288921,
+                  7.595816
+                ],
+                [
+                  125.303701,
+                  7.678395
+                ],
+                [
+                  125.374291,
+                  7.997755
+                ],
+                [
+                  126.291186,
+                  7.995843
+                ],
+                [
+                  126.582856,
+                  7.719428
+                ],
+                [
+                  126.60727,
+                  7.485175
+                ],
+                [
+                  126.608653,
+                  7.465318
+                ],
+                [
+                  126.617686,
+                  7.276842
+                ],
+                [
+                  126.612315,
+                  7.25788
+                ],
+                [
+                  126.200206,
+                  6.283189
+                ],
+                [
+                  125.418712,
+                  5.368476
+                ],
+                [
+                  125.411632,
+                  5.368109
+                ],
+                [
+                  125.36378,
+                  5.367174
+                ],
+                [
+                  125.351573,
+                  5.371731
+                ],
+                [
+                  125.334239,
+                  5.387681
+                ],
+                [
+                  125.141333,
+                  6.430667
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13694",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Davao Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 11"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region XI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Mindanao"
+        }
+      ],
+      "properties": {
+        "title": "Davao Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  124.1338,
+                  12.459418
+                ],
+                [
+                  124.133556,
+                  12.470771
+                ],
+                [
+                  124.293468,
+                  12.579983
+                ],
+                [
+                  124.305024,
+                  12.582994
+                ],
+                [
+                  124.87672,
+                  12.591254
+                ],
+                [
+                  125.16627,
+                  12.578111
+                ],
+                [
+                  125.174571,
+                  12.574164
+                ],
+                [
+                  125.248383,
+                  12.519477
+                ],
+                [
+                  125.272146,
+                  12.49901
+                ],
+                [
+                  125.500499,
+                  12.248603
+                ],
+                [
+                  125.527843,
+                  12.211005
+                ],
+                [
+                  125.538259,
+                  12.183498
+                ],
+                [
+                  125.779633,
+                  11.052395
+                ],
+                [
+                  125.831798,
+                  10.72012
+                ],
+                [
+                  125.826915,
+                  10.70893
+                ],
+                [
+                  125.304942,
+                  9.932807
+                ],
+                [
+                  125.285167,
+                  9.916938
+                ],
+                [
+                  125.273936,
+                  9.919135
+                ],
+                [
+                  125.01531,
+                  10.026109
+                ],
+                [
+                  124.795177,
+                  10.143378
+                ],
+                [
+                  124.780447,
+                  10.151923
+                ],
+                [
+                  124.284353,
+                  10.603827
+                ],
+                [
+                  124.146251,
+                  12.053046
+                ],
+                [
+                  124.1338,
+                  12.459418
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13675",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Visayas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 8"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region VIII"
+        }
+      ],
+      "properties": {
+        "title": "Eastern Visayas"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  119.75587,
+                  15.944566
+                ],
+                [
+                  119.755707,
+                  16.203437
+                ],
+                [
+                  119.757823,
+                  16.216702
+                ],
+                [
+                  119.781912,
+                  16.322252
+                ],
+                [
+                  120.560802,
+                  18.486762
+                ],
+                [
+                  120.57016,
+                  18.501776
+                ],
+                [
+                  120.590505,
+                  18.522162
+                ],
+                [
+                  120.611095,
+                  18.53856
+                ],
+                [
+                  120.792735,
+                  18.636135
+                ],
+                [
+                  120.812999,
+                  18.644517
+                ],
+                [
+                  120.834239,
+                  18.645941
+                ],
+                [
+                  120.99511,
+                  18.60606
+                ],
+                [
+                  120.925984,
+                  15.97763
+                ],
+                [
+                  120.919059,
+                  15.936547
+                ],
+                [
+                  120.910791,
+                  15.922698
+                ],
+                [
+                  120.851983,
+                  15.824616
+                ],
+                [
+                  120.838754,
+                  15.804669
+                ],
+                [
+                  120.823974,
+                  15.790303
+                ],
+                [
+                  120.246955,
+                  15.614034
+                ],
+                [
+                  119.888798,
+                  15.801418
+                ],
+                [
+                  119.770844,
+                  15.914984
+                ],
+                [
+                  119.75587,
+                  15.944566
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q12933",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ilocos Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 1"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region I"
+        }
+      ],
+      "properties": {
+        "title": "Ilocos Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  120.960804,
+                  14.49523
+                ],
+                [
+                  120.916214,
+                  14.694389
+                ],
+                [
+                  120.931884,
+                  14.721025
+                ],
+                [
+                  121.04037,
+                  14.763831
+                ],
+                [
+                  121.05828,
+                  14.766693
+                ],
+                [
+                  121.129256,
+                  14.76123
+                ],
+                [
+                  121.154268,
+                  14.758427
+                ],
+                [
+                  121.15211,
+                  14.645764
+                ],
+                [
+                  121.143438,
+                  14.388166
+                ],
+                [
+                  121.014842,
+                  14.359142
+                ],
+                [
+                  120.975561,
+                  14.448927
+                ],
+                [
+                  120.960804,
+                  14.49523
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13580",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Metro Manila"
+        },
+        {
+          "lang": "en",
+          "toponym": "Metropolitan Manila"
+        },
+        {
+          "lang": "en",
+          "toponym": "National Capital Region"
+        }
+      ],
+      "properties": {
+        "title": "Metro Manila"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1062177",
+          "label": "capital region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1907114",
+          "label": "metropolitan area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  116.955821,
+                  7.921088
+                ],
+                [
+                  116.954926,
+                  7.926011
+                ],
+                [
+                  116.961681,
+                  8.061998
+                ],
+                [
+                  120.081309,
+                  13.852932
+                ],
+                [
+                  120.085704,
+                  13.860785
+                ],
+                [
+                  120.093028,
+                  13.865302
+                ],
+                [
+                  120.103689,
+                  13.866278
+                ],
+                [
+                  121.997895,
+                  13.550767
+                ],
+                [
+                  122.010997,
+                  13.542141
+                ],
+                [
+                  122.09669,
+                  13.479682
+                ],
+                [
+                  122.115245,
+                  13.464993
+                ],
+                [
+                  122.687511,
+                  12.402818
+                ],
+                [
+                  122.686778,
+                  12.388983
+                ],
+                [
+                  122.670177,
+                  12.317532
+                ],
+                [
+                  121.257172,
+                  9.624457
+                ],
+                [
+                  121.23463,
+                  9.594306
+                ],
+                [
+                  121.223643,
+                  9.583319
+                ],
+                [
+                  118.530772,
+                  6.978949
+                ],
+                [
+                  118.518728,
+                  6.970933
+                ],
+                [
+                  118.503103,
+                  6.971422
+                ],
+                [
+                  118.44516,
+                  6.982327
+                ],
+                [
+                  116.99586,
+                  7.807563
+                ],
+                [
+                  116.955821,
+                  7.921088
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13658",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "MIMAROPA"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mimaropa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southwestern Tagalog Region"
+        }
+      ],
+      "properties": {
+        "title": "Mimaropa"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  123.551095,
+                  8.129633
+                ],
+                [
+                  123.549001,
+                  8.618842
+                ],
+                [
+                  123.603282,
+                  8.663072
+                ],
+                [
+                  123.61671,
+                  8.670722
+                ],
+                [
+                  124.673106,
+                  9.242377
+                ],
+                [
+                  124.708507,
+                  9.25019
+                ],
+                [
+                  124.746349,
+                  9.239488
+                ],
+                [
+                  125.20362,
+                  9.081947
+                ],
+                [
+                  125.32333,
+                  8.885575
+                ],
+                [
+                  125.443175,
+                  7.791979
+                ],
+                [
+                  125.444106,
+                  7.778595
+                ],
+                [
+                  125.441367,
+                  7.739373
+                ],
+                [
+                  125.434804,
+                  7.708057
+                ],
+                [
+                  125.42173,
+                  7.680668
+                ],
+                [
+                  125.060046,
+                  7.424767
+                ],
+                [
+                  125.001239,
+                  7.393813
+                ],
+                [
+                  124.993642,
+                  7.389885
+                ],
+                [
+                  124.98248,
+                  7.391642
+                ],
+                [
+                  124.89928,
+                  7.409678
+                ],
+                [
+                  123.7942,
+                  7.710517
+                ],
+                [
+                  123.614682,
+                  7.83349
+                ],
+                [
+                  123.555022,
+                  8.070619
+                ],
+                [
+                  123.551095,
+                  8.129633
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13690",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Mindanao"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 10"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region X"
+        }
+      ],
+      "properties": {
+        "title": "Northern Mindanao"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  124.034841,
+                  6.530585
+                ],
+                [
+                  124.03297,
+                  6.542426
+                ],
+                [
+                  124.033865,
+                  6.73192
+                ],
+                [
+                  124.037201,
+                  6.758409
+                ],
+                [
+                  124.037219,
+                  6.758551
+                ],
+                [
+                  124.464579,
+                  7.669558
+                ],
+                [
+                  124.464786,
+                  7.669713
+                ],
+                [
+                  124.506644,
+                  7.690229
+                ],
+                [
+                  124.523077,
+                  7.690797
+                ],
+                [
+                  125.236315,
+                  7.58455
+                ],
+                [
+                  125.265977,
+                  7.578556
+                ],
+                [
+                  125.274245,
+                  7.557989
+                ],
+                [
+                  125.277294,
+                  7.547757
+                ],
+                [
+                  125.51113,
+                  6.216933
+                ],
+                [
+                  125.529734,
+                  6.09291
+                ],
+                [
+                  125.529734,
+                  6.078234
+                ],
+                [
+                  125.525186,
+                  6.051569
+                ],
+                [
+                  125.478884,
+                  5.835458
+                ],
+                [
+                  125.376565,
+                  5.633662
+                ],
+                [
+                  125.363232,
+                  5.617332
+                ],
+                [
+                  125.362036,
+                  5.616453
+                ],
+                [
+                  125.346696,
+                  5.605188
+                ],
+                [
+                  125.306476,
+                  5.583576
+                ],
+                [
+                  124.245779,
+                  6.18651
+                ],
+                [
+                  124.22877,
+                  6.197008
+                ],
+                [
+                  124.201671,
+                  6.221747
+                ],
+                [
+                  124.097911,
+                  6.364651
+                ],
+                [
+                  124.071951,
+                  6.401516
+                ],
+                [
+                  124.054942,
+                  6.43769
+                ],
+                [
+                  124.042491,
+                  6.488471
+                ],
+                [
+                  124.034841,
+                  6.530585
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13701",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Mindanao"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region 12"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region XII"
+        },
+        {
+          "lang": "en",
+          "toponym": "SOCCSKSARGEN"
+        },
+        {
+          "lang": "en",
+          "toponym": "Soccsksargen"
+        }
+      ],
+      "properties": {
+        "title": "Soccsksargen"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  121.36085,
+                  12.043158
+                ],
+                [
+                  121.355642,
+                  12.094184
+                ],
+                [
+                  121.358653,
+                  12.114691
+                ],
+                [
+                  123.163585,
+                  11.59809
+                ],
+                [
+                  123.535004,
+                  10.904853
+                ],
+                [
+                  123.574474,
+                  10.830959
+                ],
+                [
+                  123.575531,
+                  10.825588
+                ],
+                [
+                  123.570811,
+                  10.779242
+                ],
+                [
+                  123.485688,
+                  10.54914
+                ],
+                [
+                  123.473643,
+                  10.52676
+                ],
+                [
+                  123.365728,
+                  10.392513
+                ],
+                [
+                  122.597097,
+                  9.437649
+                ],
+                [
+                  122.551768,
+                  9.490953
+                ],
+                [
+                  122.496593,
+                  9.561713
+                ],
+                [
+                  122.423106,
+                  9.658433
+                ],
+                [
+                  121.949718,
+                  10.433173
+                ],
+                [
+                  121.929698,
+                  10.46662
+                ],
+                [
+                  121.412608,
+                  11.840277
+                ],
+                [
+                  121.364268,
+                  12.02733
+                ],
+                [
+                  121.36085,
+                  12.043158
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13665",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Region 6"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region VI"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Visayas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Visayas Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Visayas"
+        }
+      ],
+      "properties": {
+        "title": "Western Visayas"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Philippines"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  121.908663,
+                  7.153362
+                ],
+                [
+                  121.904276,
+                  7.154397
+                ],
+                [
+                  122.104991,
+                  7.770819
+                ],
+                [
+                  122.128917,
+                  7.815009
+                ],
+                [
+                  122.239594,
+                  7.965725
+                ],
+                [
+                  122.25172,
+                  7.980129
+                ],
+                [
+                  122.263031,
+                  7.989814
+                ],
+                [
+                  122.292247,
+                  8.009914
+                ],
+                [
+                  123.067393,
+                  8.514553
+                ],
+                [
+                  123.390147,
+                  8.719387
+                ],
+                [
+                  123.397146,
+                  8.723212
+                ],
+                [
+                  123.411143,
+                  8.726386
+                ],
+                [
+                  123.424815,
+                  8.726955
+                ],
+                [
+                  123.51295,
+                  8.698879
+                ],
+                [
+                  123.549001,
+                  8.618842
+                ],
+                [
+                  123.701835,
+                  7.927733
+                ],
+                [
+                  123.704212,
+                  7.909698
+                ],
+                [
+                  123.451427,
+                  7.387926
+                ],
+                [
+                  123.441254,
+                  7.372748
+                ],
+                [
+                  123.431,
+                  7.36872
+                ],
+                [
+                  122.102449,
+                  7.139823
+                ],
+                [
+                  121.908663,
+                  7.153362
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q13682",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Region 9"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region IX"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zamboanga Peninsula"
+        }
+      ],
+      "properties": {
+        "title": "Zamboanga Peninsula"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q24698",
+          "label": "region of the Philippines"
+        }
+      ]
+    }
+  ],
+  "title": "Philippine regions",
+  "type": "FeatureCollection"
+}

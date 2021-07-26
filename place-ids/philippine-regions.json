@@ -1,0 +1,183 @@
+{
+  "Bangsamoro": {
+    "id": "http://www.wikidata.org/entity/Q24869612",
+    "covers": [
+      "Sulu, Province of",
+      "Lanao del Sur, Province of",
+      "Maguindanao, Province of",
+      "Tawi-Tawi, Province of",
+      "Basilan, Province of"
+    ]
+  },
+  "Bicol Region": {
+    "id": "http://www.wikidata.org/entity/Q13662",
+    "covers": [
+      "Camarines Norte, Province of",
+      "Camarines Sur, Province of",
+      "Albay, Province of",
+      "Sorsogon, Province of",
+      "Masbate, Province of",
+      "Catanduanes, Province of"
+    ]
+  },
+  "Cagayan Valley": {
+    "id": "http://www.wikidata.org/entity/Q13615",
+    "covers": [
+      "Cagayan, Province of",
+      "Isabela, Province of",
+      "Batanes, Province of",
+      "Quirino, Province of",
+      "Nueva Vizcaya, Province of"
+    ]
+  },
+  "Calabarzon": {
+    "id": "http://www.wikidata.org/entity/Q13650",
+    "covers": [
+      "Quezon, Province of",
+      "Batangas, Province of",
+      "Cavite, Province of",
+      "Laguna, Province of",
+      "Rizal, Province of"
+    ]
+  },
+  "Caraga": {
+    "id": "http://www.wikidata.org/entity/Q13704",
+    "covers": [
+      "Surigao del Norte, Province of",
+      "Surigao del Sur, Province of",
+      "Agusan del Norte, Province of",
+      "Agusan del Sur, Province of"
+    ]
+  },
+  "Central Luzon": {
+    "id": "http://www.wikidata.org/entity/Q13617",
+    "covers": [
+      "Aurora, Province of",
+      "Bulacan, Province of",
+      "Pampanga, Province of",
+      "Bataan, Province of",
+      "Zambales, Province of",
+      "Province of Nueva Ecija",
+      "Tarlac, Province of"
+    ]
+  },
+  "Central Visayas": {
+    "id": "http://www.wikidata.org/entity/Q13669",
+    "covers": [
+      "Siquijor, Province of",
+      "Bohol, Province of",
+      "Negros Oriental, Province of",
+      "Cebu, Province of"
+    ]
+  },
+  "Cordillera Administrative Region": {
+    "id": "http://www.wikidata.org/entity/Q13606",
+    "covers": [
+      "Benguet, Province of",
+      "Ifugao, Province of",
+      "Mountain Province",
+      "Apayao, Province of",
+      "Province of Kalinga",
+      "Abra, Province of"
+    ]
+  },
+  "Davao Region": {
+    "id": "http://www.wikidata.org/entity/Q13694",
+    "covers": [
+      "Davao del Norte, Province of",
+      "Davao del Sur, Province of",
+      "Compostela Valley, Province of",
+      "Davao Oriental, Province of"
+    ]
+  },
+  "Eastern Visayas": {
+    "id": "http://www.wikidata.org/entity/Q13675",
+    "covers": [
+      "Southern Leyte, Province of",
+      "Leyte, Province of",
+      "Eastern Samar, Province of",
+      "Province of Biliran",
+      "Samar, Province of",
+      "Northern Samar, Province of"
+    ]
+  },
+  "Ilocos Region": {
+    "id": "http://www.wikidata.org/entity/Q12933",
+    "covers": [
+      "Pangasinan, Province of",
+      "La Union, Province of",
+      "Ilocos Sur, Province of",
+      "Ilocos Norte, Province of"
+    ]
+  },
+  "Metro Manila": {
+    "id": "http://www.wikidata.org/entity/Q13580",
+    "covers": [
+      "Las Pinas, City of",
+      "Paranaque City",
+      "Pasay City",
+      "Manila, City of",
+      "Navotas City",
+      "Muntinlupa City",
+      "Caloocan City",
+      "Malabon City",
+      "Valenzuela City",
+      "Quezon City",
+      "Taguig City",
+      "Marikina City",
+      "Pasig City",
+      "Makati City",
+      "Pateros",
+      "Mandaluyong City",
+      "San Juan City"
+    ]
+  },
+  "Mimaropa": {
+    "id": "http://www.wikidata.org/entity/Q13658",
+    "covers": [
+      "Province of Palawan",
+      "Romblon, Province of",
+      "Oriental Mindoro, Province of",
+      "Occidental Mindoro, Province of",
+      "Marinduque, Province of"
+    ]
+  },
+  "Northern Mindanao": {
+    "id": "http://www.wikidata.org/entity/Q13690",
+    "covers": [
+      "Misamis Oriental, Province of",
+      "Lanao del Norte, Province of",
+      "Misamis Occidental, Province of",
+      "Camiguin, Province of",
+      "Bukidnon, Province of"
+    ]
+  },
+  "Soccsksargen": {
+    "id": "http://www.wikidata.org/entity/Q13701",
+    "covers": [
+      "Sultan Kudarat, Province of",
+      "Sarangani, Province of",
+      "Cotabato, Province of",
+      "South Cotabato, Province of"
+    ]
+  },
+  "Western Visayas": {
+    "id": "http://www.wikidata.org/entity/Q13665",
+    "covers": [
+      "Province of Guimaras",
+      "Negros Occidental, Province of",
+      "Aklan, Province of",
+      "Antique, Province of",
+      "Iloilo, Province of",
+      "Capiz, Province of"
+    ]
+  },
+  "Zamboanga Peninsula": {
+    "id": "http://www.wikidata.org/entity/Q13682",
+    "covers": [
+      "Zamboanga Sibugay Province",
+      "Zamboanga del Sur, Province of",
+      "Zamboanga del Norte, Province of"
+    ]
+  }
+}

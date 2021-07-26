@@ -23,6 +23,7 @@ GAZETTEERS := \
 	gazetteers/omani-governorates.json \
 	gazetteers/other-regions.json \
 	gazetteers/pakistani-provinces.json \
+	gazetteers/philippine-regions.json \
 	gazetteers/russian-federal-subjects.json \
 	gazetteers/saudi-arabian-provinces.json \
 	gazetteers/spanish-communities.json \

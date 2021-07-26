@@ -65,6 +65,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Pakistani provinces and territories gazetteer**<br>
   https://data.perio.do/graphs/places/pakistani-provinces.json
 
+* **Philippine regions gazetteer**<br>
+  https://data.perio.do/graphs/places/philippine-regions.json
+
 * **Russian federal subjects gazetteer**<br>
   https://data.perio.do/graphs/places/russian-federal-subjects.json
 
@@ -334,6 +337,17 @@ Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil a
 1. querying Wikidata for instances of [Q270496 administrative territorial entity of Pakistan](https://www.wikidata.org/wiki/Q270496) that are also instances of [Q10864048 first-level administrative country subdivision](https://www.wikidata.org/wiki/Q10864048) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the Federally Administered Tribal Areas are included as a separate territory, as theywere prior to their 2018 merger with the province of Khyber Pakhtunkhwa.
+
+
+### Philippine regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the administrative units (provinces) found in the Natural Earth data into geometries for regions (see [place-ids/philippine-regions.json](place-ids/philippine-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q24698 region of the Philippines](https://www.wikidata.org/wiki/Q24698) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Russian federal subjects gazetteer
