@@ -28,6 +28,7 @@ GAZETTEERS := \
 	gazetteers/subregions.json \
 	gazetteers/syrian-governorates.json \
 	gazetteers/tajikistani-regions.json \
+	gazetteers/thai-provinces.json \
 	gazetteers/turkish-provinces.json \
 	gazetteers/turkmen-regions.json \
 	gazetteers/us-states.json \

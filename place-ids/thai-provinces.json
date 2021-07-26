@@ -1,0 +1,310 @@
+{
+  "Amnat Charoen": {
+    "id": "http://www.wikidata.org/entity/Q243791",
+    "covers": [ "Amnat Charoen" ]
+  },
+  "Ang Thong": {
+    "id": "http://www.wikidata.org/entity/Q243795",
+    "covers": [ "Ang Thong" ]
+  },
+  "Bangkok": {
+    "id": "http://www.wikidata.org/entity/Q1861",
+    "covers": [ "Bangkok Metropolis" ]
+  },
+  "Bueng Kan": {
+    "id": "http://www.wikidata.org/entity/Q1001862",
+    "covers": [ "Bueng Kan" ]
+  },
+  "Buri Ram": {
+    "id": "http://www.wikidata.org/entity/Q327510",
+    "covers": [ "Buri Ram" ]
+  },
+  "Chachoengsao": {
+    "id": "http://www.wikidata.org/entity/Q334906",
+    "covers": [ "Chachoengsao" ]
+  },
+  "Chai Nat": {
+    "id": "http://www.wikidata.org/entity/Q459759",
+    "covers": [ "Chai Nat" ]
+  },
+  "Chaiyaphum": {
+    "id": "http://www.wikidata.org/entity/Q275377",
+    "covers": [ "Chaiyaphum" ]
+  },
+  "Chanthaburi": {
+    "id": "http://www.wikidata.org/entity/Q327730",
+    "covers": [ "Chanthaburi" ]
+  },
+  "Chiang Mai": {
+    "id": "http://www.wikidata.org/entity/Q233588",
+    "covers": [ "Chiang Mai" ]
+  },
+  "Chiang Rai": {
+    "id": "http://www.wikidata.org/entity/Q236419",
+    "covers": [ "Chiang Rai" ]
+  },
+  "Chon Buri": {
+    "id": "http://www.wikidata.org/entity/Q207068",
+    "covers": [ "Chon Buri" ]
+  },
+  "Chumphon": {
+    "id": "http://www.wikidata.org/entity/Q244695",
+    "covers": [ "Chumphon" ]
+  },
+  "Kalasin": {
+    "id": "http://www.wikidata.org/entity/Q382144",
+    "covers": [ "Kalasin" ]
+  },
+  "Kamphaeng Phet": {
+    "id": "http://www.wikidata.org/entity/Q273807",
+    "covers": [ "Kamphaeng Phet" ]
+  },
+  "Kanchanaburi": {
+    "id": "http://www.wikidata.org/entity/Q275740",
+    "covers": [ "Kanchanaburi" ]
+  },
+  "Khon Kaen": {
+    "id": "http://www.wikidata.org/entity/Q327533",
+    "covers": [ "Khon Kaen" ]
+  },
+  "Krabi": {
+    "id": "http://www.wikidata.org/entity/Q236769",
+    "covers": [ "Krabi" ]
+  },
+  "Lampang": {
+    "id": "http://www.wikidata.org/entity/Q240495",
+    "covers": [ "Lampang" ]
+  },
+  "Lamphun": {
+    "id": "http://www.wikidata.org/entity/Q240540",
+    "covers": [ "Lamphun" ]
+  },
+  "Loei": {
+    "id": "http://www.wikidata.org/entity/Q275388",
+    "covers": [ "Loei" ]
+  },
+  "Lopburi": {
+    "id": "http://www.wikidata.org/entity/Q336122",
+    "covers": [ "Lop Buri" ]
+  },
+  "Mae Hong Son": {
+    "id": "http://www.wikidata.org/entity/Q269270",
+    "covers": [ "Mae Hong Son" ]
+  },
+  "Maha Sarakham": {
+    "id": "http://www.wikidata.org/entity/Q468554",
+    "covers": [ "Maha Sarakham" ]
+  },
+  "Mukdahan": {
+    "id": "http://www.wikidata.org/entity/Q335119",
+    "covers": [ "Mukdahan" ]
+  },
+  "Nakhon Nayok": {
+    "id": "http://www.wikidata.org/entity/Q466212",
+    "covers": [ "Nakhon Nayok" ]
+  },
+  "Nakhon Pathom": {
+    "id": "http://www.wikidata.org/entity/Q334841",
+    "covers": [ "Nakhon Pathom" ]
+  },
+  "Nakhon Phanom": {
+    "id": "http://www.wikidata.org/entity/Q468547",
+    "covers": [ "Nakhon Phanom" ]
+  },
+  "Nakhon Ratchasima": {
+    "id": "http://www.wikidata.org/entity/Q271737",
+    "covers": [ "Nakhon Ratchasima" ]
+  },
+  "Nakhon Sawan": {
+    "id": "http://www.wikidata.org/entity/Q239844",
+    "covers": [ "Nakhon Sawan" ]
+  },
+  "Nakhon Si Thammarat": {
+    "id": "http://www.wikidata.org/entity/Q244691",
+    "covers": [ "Nakhon Si Thammarat" ]
+  },
+  "Nan": {
+    "id": "http://www.wikidata.org/entity/Q244698",
+    "covers": [ "Nan" ]
+  },
+  "Narathiwat": {
+    "id": "http://www.wikidata.org/entity/Q271442",
+    "covers": [ "Narathiwat" ]
+  },
+  "Nong Bua Lam Phu": {
+    "id": "http://www.wikidata.org/entity/Q261241",
+    "covers": [ "Nong Bua Lam Phu" ]
+  },
+  "Nong Khai": {
+    "id": "http://www.wikidata.org/entity/Q327737",
+    "covers": [ "Nong Khai" ]
+  },
+  "Nonthaburi": {
+    "id": "http://www.wikidata.org/entity/Q242932",
+    "covers": [ "Nonthaburi" ]
+  },
+  "Pathum Thani": {
+    "id": "http://www.wikidata.org/entity/Q459748",
+    "covers": [ "Pathum Thani" ]
+  },
+  "Pattani": {
+    "id": "http://www.wikidata.org/entity/Q236781",
+    "covers": [ "Pattani" ]
+  },
+  "Phang Nga": {
+    "id": "http://www.wikidata.org/entity/Q273306",
+    "covers": [ "Phangnga" ]
+  },
+  "Phatthalung": {
+    "id": "http://www.wikidata.org/entity/Q243808",
+    "covers": [ "Phatthalung" ]
+  },
+  "Phayao": {
+    "id": "http://www.wikidata.org/entity/Q244618",
+    "covers": [ "Phayao" ]
+  },
+  "Phetchabun": {
+    "id": "http://www.wikidata.org/entity/Q240520",
+    "covers": [ "Phetchabun" ]
+  },
+  "Phetchaburi": {
+    "id": "http://www.wikidata.org/entity/Q244699",
+    "covers": [ "Phetchaburi" ]
+  },
+  "Phichit": {
+    "id": "http://www.wikidata.org/entity/Q237874",
+    "covers": [ "Phichit" ]
+  },
+  "Phitsanulok": {
+    "id": "http://www.wikidata.org/entity/Q275781",
+    "covers": [ "Phitsanulok" ]
+  },
+  "Phra Nakhon Si Ayutthaya": {
+    "id": "http://www.wikidata.org/entity/Q476222",
+    "covers": [ "Phra Nakhon Si Ayutthaya" ]
+  },
+  "Phrae": {
+    "id": "http://www.wikidata.org/entity/Q244652",
+    "covers": [ "Phrae" ]
+  },
+  "Phuket": {
+    "id": "http://www.wikidata.org/entity/Q182565",
+    "covers": [ "Phuket" ]
+  },
+  "Prachin Buri": {
+    "id": "http://www.wikidata.org/entity/Q321324",
+    "covers": [ "Prachin Buri" ]
+  },
+  "Prachuap Khiri Khan": {
+    "id": "http://www.wikidata.org/entity/Q244628",
+    "covers": [ "Prachuap Khiri Khan" ]
+  },
+  "Ranong": {
+    "id": "http://www.wikidata.org/entity/Q236802",
+    "covers": [ "Ranong" ]
+  },
+  "Ratchaburi": {
+    "id": "http://www.wikidata.org/entity/Q335492",
+    "covers": [ "Ratchaburi" ]
+  },
+  "Rayong": {
+    "id": "http://www.wikidata.org/entity/Q335221",
+    "covers": [ "Rayong" ]
+  },
+  "Roi Et": {
+    "id": "http://www.wikidata.org/entity/Q625463",
+    "covers": [ "Roi Et" ]
+  },
+  "Sa Kaeo": {
+    "id": "http://www.wikidata.org/entity/Q381889",
+    "covers": [ "Sa Kaeo" ]
+  },
+  "Sakon Nakhon": {
+    "id": "http://www.wikidata.org/entity/Q382125",
+    "covers": [ "Sakon Nakhon" ]
+  },
+  "Samut Prakan": {
+    "id": "http://www.wikidata.org/entity/Q271529",
+    "covers": [ "Samut Prakan" ]
+  },
+  "Samut Sakhon": {
+    "id": "http://www.wikidata.org/entity/Q334686",
+    "covers": [ "Samut Sakhon" ]
+  },
+  "Samut Songkhram": {
+    "id": "http://www.wikidata.org/entity/Q459742",
+    "covers": [ "Samut Songkhram" ]
+  },
+  "Saraburi": {
+    "id": "http://www.wikidata.org/entity/Q337627",
+    "covers": [ "Saraburi" ]
+  },
+  "Satun": {
+    "id": "http://www.wikidata.org/entity/Q236263",
+    "covers": [ "Satun" ]
+  },
+  "Si Sa Ket": {
+    "id": "http://www.wikidata.org/entity/Q380761",
+    "covers": [ "Si Sa Ket" ]
+  },
+  "Sing Buri": {
+    "id": "http://www.wikidata.org/entity/Q334836",
+    "covers": [ "Sing Buri" ]
+  },
+  "Songkhla": {
+    "id": "http://www.wikidata.org/entity/Q235574",
+    "covers": [ "Songkhla" ]
+  },
+  "Sukhothai": {
+    "id": "http://www.wikidata.org/entity/Q380764",
+    "covers": [ "Sukhothai" ]
+  },
+  "Suphan Buri": {
+    "id": "http://www.wikidata.org/entity/Q272247",
+    "covers": [ "Suphan Buri" ]
+  },
+  "Surat Thani": {
+    "id": "http://www.wikidata.org/entity/Q240463",
+    "covers": [ "Surat Thani" ]
+  },
+  "Surin": {
+    "id": "http://www.wikidata.org/entity/Q380757",
+    "covers": [ "Surin" ]
+  },
+  "Tak": {
+    "id": "http://www.wikidata.org/entity/Q275758",
+    "covers": [ "Tak" ]
+  },
+  "Trang": {
+    "id": "http://www.wikidata.org/entity/Q243805",
+    "covers": [ "Trang" ]
+  },
+  "Trat": {
+    "id": "http://www.wikidata.org/entity/Q241884",
+    "covers": [ "Trat" ]
+  },
+  "Ubon Ratchathani": {
+    "id": "http://www.wikidata.org/entity/Q629024",
+    "covers": [ "Ubon Ratchathani" ]
+  },
+  "Udon Thani": {
+    "id": "http://www.wikidata.org/entity/Q380752",
+    "covers": [ "Udon Thani" ]
+  },
+  "Uthai Thani": {
+    "id": "http://www.wikidata.org/entity/Q244649",
+    "covers": [ "Uthai Thani" ]
+  },
+  "Uttaradit": {
+    "id": "http://www.wikidata.org/entity/Q273794",
+    "covers": [ "Uttaradit" ]
+  },
+  "Yala": {
+    "id": "http://www.wikidata.org/entity/Q242977",
+    "covers": [ "Yala" ]
+  },
+  "Yasothon": {
+    "id": "http://www.wikidata.org/entity/Q506598",
+    "covers": [ "Yasothon" ]
+  }
+}

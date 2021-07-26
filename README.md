@@ -80,6 +80,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Tajikistani regions gazetteer**<br>
   https://data.perio.do/graphs/places/tajikistani-regions.json
 
+* **Thai provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/thai-provinces.json
+
 * **Turkish provinces gazetteer**<br>
   https://data.perio.do/graphs/places/turkish-provinces.json
 
@@ -364,6 +367,15 @@ Note that the Federally Administered Tribal Areas are included as a separate ter
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/tajikistani-regions.json](place-ids/tajikistani-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q867545 region of Tajikistan](https://www.wikidata.org/wiki/Q867545) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Thai provinces gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/thai-provinces.json](place-ids/thai-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q50198 province of Thailand](https://www.wikidata.org/wiki/Q50198) (or [Q15634695 special administrative area of Thailand](https://www.wikidata.org/wiki/Q15634695) in the case of Bangkok) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Turkish provinces gazetteer

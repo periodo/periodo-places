@@ -43,6 +43,7 @@ const GAZETTEERS = {
   'subregions': 'Subcontinental regions',
   'syrian-governorates': 'Syrian governorates',
   'tajikistani-regions': 'Tajikistani regions',
+  'thai-provinces': 'Thai provinces',
   'turkish-provinces': 'Turkish provinces',
   'turkmen-regions': 'Turkmen regions',
   'us-states': 'US states',
@@ -408,6 +409,13 @@ const getWikidataEthiopianRegion = id => getWikidataPlace(
   ['wd:Q1057504'] // region of Ethiopia
 )
 
+const getWikidataThaiProvince = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q1861' // Bangkok
+    ? ['wd:Q15634695'] // special administrative area of Thailand
+    : ['wd:Q50198'] // province of Thailand
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -507,6 +515,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'ethiopian-regions':
         promise = getWikidataEthiopianRegion(place.id)
+        break
+      case 'thai-provinces':
+        promise = getWikidataThaiProvince(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)
