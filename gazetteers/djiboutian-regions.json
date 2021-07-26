@@ -1,0 +1,678 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.771787,
+                  10.996462
+                ],
+                [
+                  42.608145,
+                  11.089088
+                ],
+                [
+                  42.613141,
+                  11.192392
+                ],
+                [
+                  42.625853,
+                  11.219703
+                ],
+                [
+                  42.912451,
+                  11.449741
+                ],
+                [
+                  43.058488,
+                  11.478576
+                ],
+                [
+                  43.090011,
+                  11.466148
+                ],
+                [
+                  43.188815,
+                  11.407764
+                ],
+                [
+                  42.923715,
+                  10.998787
+                ],
+                [
+                  42.888059,
+                  10.983568
+                ],
+                [
+                  42.873279,
+                  10.978246
+                ],
+                [
+                  42.860153,
+                  10.980416
+                ],
+                [
+                  42.794111,
+                  10.991604
+                ],
+                [
+                  42.771787,
+                  10.996462
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q821008",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ali Sabieh Region"
+        }
+      ],
+      "properties": {
+        "title": "Ali Sabieh Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.369228,
+                  11.612366
+                ],
+                [
+                  42.365352,
+                  11.654224
+                ],
+                [
+                  42.855805,
+                  11.595771
+                ],
+                [
+                  43.173106,
+                  11.541653
+                ],
+                [
+                  43.226329,
+                  11.501899
+                ],
+                [
+                  43.240733,
+                  11.48786
+                ],
+                [
+                  43.188815,
+                  11.407764
+                ],
+                [
+                  42.706572,
+                  11.265488
+                ],
+                [
+                  42.499246,
+                  11.301481
+                ],
+                [
+                  42.417287,
+                  11.420569
+                ],
+                [
+                  42.391862,
+                  11.499789
+                ],
+                [
+                  42.369228,
+                  11.612366
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q705941",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Arta Region"
+        }
+      ],
+      "properties": {
+        "title": "Arta Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.749834,
+                  11.483383
+                ],
+                [
+                  41.74911,
+                  11.537953
+                ],
+                [
+                  41.792415,
+                  11.704455
+                ],
+                [
+                  41.808228,
+                  11.736236
+                ],
+                [
+                  41.97468,
+                  11.88091
+                ],
+                [
+                  41.99106,
+                  11.877725
+                ],
+                [
+                  42.153066,
+                  11.839588
+                ],
+                [
+                  42.194665,
+                  11.823491
+                ],
+                [
+                  42.365352,
+                  11.654224
+                ],
+                [
+                  42.706572,
+                  11.265488
+                ],
+                [
+                  42.608145,
+                  11.089088
+                ],
+                [
+                  42.391758,
+                  11.005893
+                ],
+                [
+                  41.937522,
+                  10.929825
+                ],
+                [
+                  41.928841,
+                  10.931065
+                ],
+                [
+                  41.79872,
+                  10.970675
+                ],
+                [
+                  41.773811,
+                  10.980054
+                ],
+                [
+                  41.761306,
+                  10.996203
+                ],
+                [
+                  41.749834,
+                  11.483383
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q283979",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dikhil Region"
+        }
+      ],
+      "properties": {
+        "title": "Dikhil Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.901909,
+                  11.581671
+                ],
+                [
+                  42.900706,
+                  11.584052
+                ],
+                [
+                  43.151866,
+                  11.611762
+                ],
+                [
+                  43.157888,
+                  11.601304
+                ],
+                [
+                  43.173106,
+                  11.541653
+                ],
+                [
+                  43.169283,
+                  11.540769
+                ],
+                [
+                  43.050582,
+                  11.518987
+                ],
+                [
+                  43.013788,
+                  11.518806
+                ],
+                [
+                  42.956376,
+                  11.524697
+                ],
+                [
+                  42.901909,
+                  11.581671
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q12182414",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Djibouti Region"
+        }
+      ],
+      "properties": {
+        "title": "Djibouti Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.674274,
+                  12.306639
+                ],
+                [
+                  42.673964,
+                  12.314365
+                ],
+                [
+                  42.675669,
+                  12.321806
+                ],
+                [
+                  42.696187,
+                  12.380126
+                ],
+                [
+                  42.785223,
+                  12.517222
+                ],
+                [
+                  42.852092,
+                  12.611738
+                ],
+                [
+                  42.868835,
+                  12.626155
+                ],
+                [
+                  43.117686,
+                  12.707913
+                ],
+                [
+                  43.133962,
+                  12.697211
+                ],
+                [
+                  43.329356,
+                  12.488756
+                ],
+                [
+                  43.411388,
+                  12.241767
+                ],
+                [
+                  43.414317,
+                  12.224921
+                ],
+                [
+                  43.418712,
+                  12.091254
+                ],
+                [
+                  43.413341,
+                  12.059272
+                ],
+                [
+                  43.398774,
+                  12.029527
+                ],
+                [
+                  43.377126,
+                  12.004828
+                ],
+                [
+                  43.350434,
+                  11.987942
+                ],
+                [
+                  43.09197,
+                  11.841295
+                ],
+                [
+                  43.086002,
+                  11.838842
+                ],
+                [
+                  43.062209,
+                  11.862429
+                ],
+                [
+                  42.712773,
+                  12.236437
+                ],
+                [
+                  42.705332,
+                  12.244628
+                ],
+                [
+                  42.700061,
+                  12.251914
+                ],
+                [
+                  42.6766,
+                  12.298965
+                ],
+                [
+                  42.674274,
+                  12.306639
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q844929",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Obock Region"
+        }
+      ],
+      "properties": {
+        "title": "Obock Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Djibouti"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.415944,
+                  11.59968
+                ],
+                [
+                  41.97468,
+                  11.88091
+                ],
+                [
+                  42.097719,
+                  12.070169
+                ],
+                [
+                  42.319205,
+                  12.386377
+                ],
+                [
+                  42.379459,
+                  12.465907
+                ],
+                [
+                  42.430929,
+                  12.520322
+                ],
+                [
+                  42.448499,
+                  12.523371
+                ],
+                [
+                  42.475681,
+                  12.516343
+                ],
+                [
+                  42.521569,
+                  12.496241
+                ],
+                [
+                  42.696187,
+                  12.380126
+                ],
+                [
+                  43.013943,
+                  11.952578
+                ],
+                [
+                  43.025571,
+                  11.934595
+                ],
+                [
+                  43.086002,
+                  11.838842
+                ],
+                [
+                  43.060883,
+                  11.809556
+                ],
+                [
+                  43.055512,
+                  11.803616
+                ],
+                [
+                  42.677419,
+                  11.573676
+                ],
+                [
+                  42.667979,
+                  11.568549
+                ],
+                [
+                  42.636974,
+                  11.559556
+                ],
+                [
+                  42.532481,
+                  11.547471
+                ],
+                [
+                  42.415944,
+                  11.59968
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q645896",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tadjourah Region"
+        }
+      ],
+      "properties": {
+        "title": "Tadjourah Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1202812",
+          "label": "region of Djibouti"
+        }
+      ]
+    }
+  ],
+  "title": "Djiboutian regions",
+  "type": "FeatureCollection"
+}

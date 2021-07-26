@@ -1,0 +1,26 @@
+{
+  "Ali Sabieh Region": {
+    "id": "http://www.wikidata.org/entity/Q821008",
+    "covers": [ "Ali Sabieh" ]
+  },
+  "Arta Region": {
+    "id": "http://www.wikidata.org/entity/Q705941",
+    "covers": [ "Arta" ]
+  },
+  "Dikhil Region": {
+    "id": "http://www.wikidata.org/entity/Q283979",
+    "covers": [ "Dikhil" ]
+  },
+  "Djibouti Region": {
+    "id": "http://www.wikidata.org/entity/Q12182414",
+    "covers": [ "Djibouti" ]
+  },
+  "Obock Region": {
+    "id": "http://www.wikidata.org/entity/Q844929",
+    "covers": [ "Obock" ]
+  },
+  "Tadjourah Region": {
+    "id": "http://www.wikidata.org/entity/Q645896",
+    "covers": [ "Tadjourah" ]
+  }
+}
