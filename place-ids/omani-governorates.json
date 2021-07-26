@@ -1,0 +1,46 @@
+{
+  "Ad Dakhiliyah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q792550",
+    "covers": [ "Ad Dakhliyah" ]
+  },
+  "Ad Dhahirah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q1468596",
+    "covers": [ "Al Dhahira" ]
+  },
+  "Al Batinah North Governorate": {
+    "id": "http://www.wikidata.org/entity/Q4703564",
+    "covers": [ "Al Batnah North" ]
+  },
+  "Al Batinah South Governorate": {
+    "id": "http://www.wikidata.org/entity/Q4703565",
+    "covers": [ "Al Batnah South" ]
+  },
+  "Al Buraimi Governorate": {
+    "id": "http://www.wikidata.org/entity/Q852039",
+    "covers": [ "Al Buraymi" ]
+  },
+  "Al Wusta Governorate": {
+    "id": "http://www.wikidata.org/entity/Q958518",
+    "covers": [ "Al Wusta" ]
+  },
+  "Ash Sharqiyah North Governorate": {
+    "id": "http://www.wikidata.org/entity/Q4501876",
+    "covers": [ "Ash Sharqiyah North" ]
+  },
+  "Ash Sharqiyah South Governorate": {
+    "id": "http://www.wikidata.org/entity/Q4501894",
+    "covers": [ "Ash Sharqiyah South" ]
+  },
+  "Dhofar Governorate": {
+    "id": "http://www.wikidata.org/entity/Q1207752",
+    "covers": [ "Dhofar" ]
+  },
+  "Musandam Governorate": {
+    "id": "http://www.wikidata.org/entity/Q372144",
+    "covers": [ "Musandam" ]
+  },
+  "Muscat Governorate": {
+    "id": "http://www.wikidata.org/entity/Q544762",
+    "covers": [ "Muscat" ]
+  }
+}

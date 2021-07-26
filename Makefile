@@ -17,6 +17,7 @@ GAZETTEERS := \
 	gazetteers/laotian-provinces.json \
 	gazetteers/lebanese-governorates.json \
 	gazetteers/libyan-districts.json \
+	gazetteers/omani-governorates.json \
 	gazetteers/other-regions.json \
 	gazetteers/pakistani-provinces.json \
 	gazetteers/russian-federal-subjects.json \

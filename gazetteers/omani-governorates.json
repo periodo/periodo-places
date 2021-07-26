@@ -1,0 +1,1131 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  58.28991,
+                  21.09556
+                ],
+                [
+                  56.325586,
+                  22.015272
+                ],
+                [
+                  56.874699,
+                  23.490711
+                ],
+                [
+                  57.163674,
+                  23.503966
+                ],
+                [
+                  58.334972,
+                  23.488644
+                ],
+                [
+                  58.58767,
+                  23.249434
+                ],
+                [
+                  58.28991,
+                  21.09556
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q792550",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ad Dakhiliyah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ad Dakhiliyah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  55.600171,
+                  21.86606
+                ],
+                [
+                  55.186843,
+                  22.703577
+                ],
+                [
+                  55.191287,
+                  22.995471
+                ],
+                [
+                  55.194801,
+                  23.025081
+                ],
+                [
+                  55.22591,
+                  23.121251
+                ],
+                [
+                  55.375255,
+                  23.469344
+                ],
+                [
+                  55.393962,
+                  23.495182
+                ],
+                [
+                  55.445328,
+                  23.552259
+                ],
+                [
+                  55.958485,
+                  23.978115
+                ],
+                [
+                  56.014173,
+                  24.01292
+                ],
+                [
+                  56.312666,
+                  24.14031
+                ],
+                [
+                  56.468109,
+                  24.077187
+                ],
+                [
+                  56.764732,
+                  23.836478
+                ],
+                [
+                  56.874699,
+                  23.490711
+                ],
+                [
+                  56.682773,
+                  22.697478
+                ],
+                [
+                  56.523713,
+                  22.253784
+                ],
+                [
+                  56.325586,
+                  22.015272
+                ],
+                [
+                  55.62413,
+                  21.870087
+                ],
+                [
+                  55.600171,
+                  21.86606
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1468596",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ad Dhahirah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ad Dhahirah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.312666,
+                  24.14031
+                ],
+                [
+                  56.07537,
+                  24.689182
+                ],
+                [
+                  56.07627,
+                  24.729972
+                ],
+                [
+                  56.171176,
+                  24.82399
+                ],
+                [
+                  56.328995,
+                  24.972689
+                ],
+                [
+                  56.383311,
+                  24.978217
+                ],
+                [
+                  57.532683,
+                  23.829591
+                ],
+                [
+                  57.416524,
+                  23.642623
+                ],
+                [
+                  57.286845,
+                  23.540982
+                ],
+                [
+                  57.163674,
+                  23.503966
+                ],
+                [
+                  56.874699,
+                  23.490711
+                ],
+                [
+                  56.312666,
+                  24.14031
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q4703564",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Batinah North Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Batinah North Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  57.46009,
+                  23.225249
+                ],
+                [
+                  57.163674,
+                  23.503966
+                ],
+                [
+                  57.532683,
+                  23.829591
+                ],
+                [
+                  57.777354,
+                  23.785956
+                ],
+                [
+                  57.795746,
+                  23.782213
+                ],
+                [
+                  58.131602,
+                  23.713324
+                ],
+                [
+                  58.118344,
+                  23.462186
+                ],
+                [
+                  57.870194,
+                  23.234319
+                ],
+                [
+                  57.613776,
+                  23.195742
+                ],
+                [
+                  57.46009,
+                  23.225249
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q4703565",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Batinah South Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Batinah South Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  55.58259,
+                  23.539571
+                ],
+                [
+                  55.445328,
+                  23.552259
+                ],
+                [
+                  55.45277,
+                  23.948565
+                ],
+                [
+                  55.456801,
+                  23.963164
+                ],
+                [
+                  55.799105,
+                  24.886105
+                ],
+                [
+                  55.829388,
+                  24.921167
+                ],
+                [
+                  55.857826,
+                  24.944851
+                ],
+                [
+                  55.862151,
+                  24.948452
+                ],
+                [
+                  55.89698,
+                  24.968606
+                ],
+                [
+                  55.935428,
+                  24.977727
+                ],
+                [
+                  55.978422,
+                  24.971759
+                ],
+                [
+                  56.005604,
+                  24.956178
+                ],
+                [
+                  56.208073,
+                  24.532327
+                ],
+                [
+                  56.306259,
+                  24.226997
+                ],
+                [
+                  56.312666,
+                  24.14031
+                ],
+                [
+                  56.278692,
+                  24.040764
+                ],
+                [
+                  55.888875,
+                  23.67183
+                ],
+                [
+                  55.819265,
+                  23.630064
+                ],
+                [
+                  55.58259,
+                  23.539571
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q852039",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Buraimi Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Buraimi Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.57725,
+                  19.1656
+                ],
+                [
+                  55.344624,
+                  21.096909
+                ],
+                [
+                  55.410188,
+                  21.294464
+                ],
+                [
+                  55.588575,
+                  21.831227
+                ],
+                [
+                  55.600171,
+                  21.86606
+                ],
+                [
+                  56.325586,
+                  22.015272
+                ],
+                [
+                  57.9721,
+                  21.248109
+                ],
+                [
+                  58.396827,
+                  21.044243
+                ],
+                [
+                  57.840099,
+                  19.015326
+                ],
+                [
+                  57.815684,
+                  18.991767
+                ],
+                [
+                  57.801117,
+                  18.980658
+                ],
+                [
+                  57.719412,
+                  18.946926
+                ],
+                [
+                  57.709727,
+                  18.943996
+                ],
+                [
+                  57.445293,
+                  18.945335
+                ],
+                [
+                  56.57725,
+                  19.1656
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q958518",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Wusta Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Central Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Wusta Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  58.082348,
+                  21.710618
+                ],
+                [
+                  57.834331,
+                  22.52307
+                ],
+                [
+                  57.932826,
+                  22.714118
+                ],
+                [
+                  58.162063,
+                  22.881549
+                ],
+                [
+                  58.389852,
+                  22.98746
+                ],
+                [
+                  58.541058,
+                  23.02229
+                ],
+                [
+                  59.259127,
+                  22.890435
+                ],
+                [
+                  59.483897,
+                  22.618842
+                ],
+                [
+                  59.440245,
+                  22.3298
+                ],
+                [
+                  59.391486,
+                  22.209824
+                ],
+                [
+                  59.051416,
+                  22.038566
+                ],
+                [
+                  58.593465,
+                  21.883588
+                ],
+                [
+                  58.340117,
+                  21.797851
+                ],
+                [
+                  58.082348,
+                  21.710618
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q4501876",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ash Sharqiyah North Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northeastern Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ash Sharqiyah North Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  58.200531,
+                  20.424384
+                ],
+                [
+                  58.082348,
+                  21.710618
+                ],
+                [
+                  59.483897,
+                  22.618842
+                ],
+                [
+                  59.803233,
+                  22.534735
+                ],
+                [
+                  59.82488,
+                  22.508857
+                ],
+                [
+                  59.839366,
+                  22.475287
+                ],
+                [
+                  59.844574,
+                  22.445258
+                ],
+                [
+                  59.82488,
+                  22.281399
+                ],
+                [
+                  59.811778,
+                  22.237372
+                ],
+                [
+                  58.950043,
+                  20.508938
+                ],
+                [
+                  58.785167,
+                  20.279527
+                ],
+                [
+                  58.733409,
+                  20.224555
+                ],
+                [
+                  58.724294,
+                  20.215155
+                ],
+                [
+                  58.663585,
+                  20.171373
+                ],
+                [
+                  58.652354,
+                  20.170478
+                ],
+                [
+                  58.652192,
+                  20.170478
+                ],
+                [
+                  58.202891,
+                  20.404731
+                ],
+                [
+                  58.200531,
+                  20.424384
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q4501894",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ash Sharqiyah South Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southeastern Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ash Sharqiyah South Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in the Sultanate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  52.721464,
+                  17.29817
+                ],
+                [
+                  51.978615,
+                  18.995638
+                ],
+                [
+                  55.344624,
+                  21.096909
+                ],
+                [
+                  57.445293,
+                  18.945335
+                ],
+                [
+                  56.095551,
+                  17.518866
+                ],
+                [
+                  56.063813,
+                  17.499579
+                ],
+                [
+                  55.026866,
+                  17.011135
+                ],
+                [
+                  54.882823,
+                  16.969062
+                ],
+                [
+                  54.808442,
+                  16.951483
+                ],
+                [
+                  53.090343,
+                  16.642401
+                ],
+                [
+                  52.721464,
+                  17.29817
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1207752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dhofar Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muhafazat Zufar"
+        }
+      ],
+      "properties": {
+        "title": "Dhofar Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  56.207625,
+                  25.220835
+                ],
+                [
+                  56.077397,
+                  26.061048
+                ],
+                [
+                  56.077485,
+                  26.061347
+                ],
+                [
+                  56.091482,
+                  26.106513
+                ],
+                [
+                  56.181814,
+                  26.245998
+                ],
+                [
+                  56.191905,
+                  26.255072
+                ],
+                [
+                  56.36378,
+                  26.385972
+                ],
+                [
+                  56.369965,
+                  26.385972
+                ],
+                [
+                  56.500987,
+                  26.35871
+                ],
+                [
+                  56.511078,
+                  26.333482
+                ],
+                [
+                  56.453298,
+                  25.94717
+                ],
+                [
+                  56.349123,
+                  25.294025
+                ],
+                [
+                  56.344375,
+                  25.266528
+                ],
+                [
+                  56.252204,
+                  25.217635
+                ],
+                [
+                  56.235771,
+                  25.211175
+                ],
+                [
+                  56.219958,
+                  25.215258
+                ],
+                [
+                  56.207625,
+                  25.220835
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q372144",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Musandam Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Musandam Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1764608",
+          "label": "muhafazah"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q34763",
+          "label": "peninsula"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Oman"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  58.118344,
+                  23.462186
+                ],
+                [
+                  58.092816,
+                  23.560836
+                ],
+                [
+                  58.123099,
+                  23.706202
+                ],
+                [
+                  58.131602,
+                  23.713324
+                ],
+                [
+                  58.561371,
+                  23.651109
+                ],
+                [
+                  58.584158,
+                  23.646959
+                ],
+                [
+                  58.604503,
+                  23.6376
+                ],
+                [
+                  58.762055,
+                  23.54206
+                ],
+                [
+                  58.786143,
+                  23.512112
+                ],
+                [
+                  59.23227,
+                  22.94302
+                ],
+                [
+                  59.250011,
+                  22.912014
+                ],
+                [
+                  59.259127,
+                  22.890435
+                ],
+                [
+                  59.25905,
+                  22.890334
+                ],
+                [
+                  59.235796,
+                  22.861447
+                ],
+                [
+                  59.169753,
+                  22.79388
+                ],
+                [
+                  58.840988,
+                  22.834085
+                ],
+                [
+                  58.541058,
+                  23.02229
+                ],
+                [
+                  58.118344,
+                  23.462186
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q544762",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Muscat Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Muscat Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q641078",
+          "label": "governorate of Oman"
+        }
+      ]
+    }
+  ],
+  "title": "Omani governorates",
+  "type": "FeatureCollection"
+}
