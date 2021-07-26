@@ -1,0 +1,58 @@
+{
+  "Ayeyarwady Region": {
+    "id": "http://www.wikidata.org/entity/Q47047",
+    "covers": [ "Ayeyarwady" ]
+  },
+  "Bago Region": {
+    "id": "http://www.wikidata.org/entity/Q800124",
+    "covers": [ "Bago" ]
+  },
+  "Chin State": {
+    "id": "http://www.wikidata.org/entity/Q46910",
+    "covers": [ "Chin" ]
+  },
+  "Kachin State": {
+    "id": "http://www.wikidata.org/entity/Q140646",
+    "covers": [ "Kachin" ]
+  },
+  "Kayah State": {
+    "id": "http://www.wikidata.org/entity/Q652845",
+    "covers": [ "Kayah" ]
+  },
+  "Kayin State": {
+    "id": "http://www.wikidata.org/entity/Q495342",
+    "covers": [ "Kayin" ]
+  },
+  "Magway Region": {
+    "id": "http://www.wikidata.org/entity/Q833013",
+    "covers": [ "Magway" ]
+  },
+  "Mandalay Region": {
+    "id": "http://www.wikidata.org/entity/Q119494",
+    "covers": [ "Mandalay" ]
+  },
+  "Mon State": {
+    "id": "http://www.wikidata.org/entity/Q818742",
+    "covers": [ "Mon" ]
+  },
+  "Rakhine State": {
+    "id": "http://www.wikidata.org/entity/Q233838",
+    "covers": [ "Rakhine" ]
+  },
+  "Sagaing Region": {
+    "id": "http://www.wikidata.org/entity/Q847289",
+    "covers": [ "Sagaing" ]
+  },
+  "Shan State": {
+    "id": "http://www.wikidata.org/entity/Q456847",
+    "covers": [ "Shan" ]
+  },
+  "Tanintharyi Region": {
+    "id": "http://www.wikidata.org/entity/Q843954",
+    "covers": [ "Tanintharyi" ]
+  },
+  "Yangon Region": {
+    "id": "http://www.wikidata.org/entity/Q856781",
+    "covers": [ "Yangon" ]
+  }
+}

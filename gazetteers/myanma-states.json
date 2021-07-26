@@ -1,0 +1,2268 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ayeyarwaddy%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Myanmar (Burma)"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  93.394786,
+                  14.076361
+                ],
+                [
+                  93.374848,
+                  14.064683
+                ],
+                [
+                  93.383311,
+                  14.138373
+                ],
+                [
+                  93.385997,
+                  14.150865
+                ],
+                [
+                  94.836595,
+                  18.35762
+                ],
+                [
+                  94.884266,
+                  18.395053
+                ],
+                [
+                  94.910724,
+                  18.41159
+                ],
+                [
+                  94.935529,
+                  18.418204
+                ],
+                [
+                  95.129005,
+                  18.469467
+                ],
+                [
+                  95.147195,
+                  18.471121
+                ],
+                [
+                  95.153357,
+                  18.471275
+                ],
+                [
+                  95.163008,
+                  18.464145
+                ],
+                [
+                  95.197115,
+                  18.431924
+                ],
+                [
+                  95.382736,
+                  18.230748
+                ],
+                [
+                  95.746745,
+                  17.46219
+                ],
+                [
+                  95.900741,
+                  16.932688
+                ],
+                [
+                  96.06658,
+                  16.335639
+                ],
+                [
+                  96.067556,
+                  16.310248
+                ],
+                [
+                  96.018809,
+                  16.256741
+                ],
+                [
+                  95.523448,
+                  15.803656
+                ],
+                [
+                  93.394786,
+                  14.076361
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q47047",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ayeyarwady Region"
+        }
+      ],
+      "properties": {
+        "title": "Ayeyarwady Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bago%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  95.06751,
+                  18.543726
+                ],
+                [
+                  95.063066,
+                  18.561736
+                ],
+                [
+                  95.075882,
+                  18.645064
+                ],
+                [
+                  95.079809,
+                  18.666975
+                ],
+                [
+                  95.18833,
+                  18.900914
+                ],
+                [
+                  95.290236,
+                  19.034472
+                ],
+                [
+                  95.306875,
+                  19.055323
+                ],
+                [
+                  95.800282,
+                  19.463593
+                ],
+                [
+                  95.945906,
+                  19.481214
+                ],
+                [
+                  96.183721,
+                  19.48509
+                ],
+                [
+                  96.332549,
+                  19.475737
+                ],
+                [
+                  96.398902,
+                  19.470001
+                ],
+                [
+                  96.418642,
+                  19.445583
+                ],
+                [
+                  96.423603,
+                  19.438142
+                ],
+                [
+                  96.974164,
+                  18.604989
+                ],
+                [
+                  96.978401,
+                  18.598012
+                ],
+                [
+                  97.129193,
+                  18.303793
+                ],
+                [
+                  97.203504,
+                  18.152665
+                ],
+                [
+                  97.205674,
+                  18.145094
+                ],
+                [
+                  97.233993,
+                  17.545544
+                ],
+                [
+                  97.230066,
+                  17.53353
+                ],
+                [
+                  96.87908,
+                  16.934719
+                ],
+                [
+                  96.855724,
+                  16.901272
+                ],
+                [
+                  96.827153,
+                  16.890353
+                ],
+                [
+                  96.394458,
+                  16.989403
+                ],
+                [
+                  95.746745,
+                  17.46219
+                ],
+                [
+                  95.516475,
+                  17.63404
+                ],
+                [
+                  95.502419,
+                  17.645254
+                ],
+                [
+                  95.492601,
+                  17.655383
+                ],
+                [
+                  95.47348,
+                  17.685872
+                ],
+                [
+                  95.06751,
+                  18.543726
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q800124",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bago Division"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bago Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bago"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pegu Division"
+        }
+      ],
+      "properties": {
+        "title": "Bago Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chin%20State.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  92.590245,
+                  21.495537
+                ],
+                [
+                  92.575568,
+                  21.733972
+                ],
+                [
+                  92.575879,
+                  21.977574
+                ],
+                [
+                  93.309684,
+                  24.063984
+                ],
+                [
+                  93.32219,
+                  24.080056
+                ],
+                [
+                  93.348545,
+                  24.088893
+                ],
+                [
+                  93.711106,
+                  24.005461
+                ],
+                [
+                  93.997911,
+                  23.916965
+                ],
+                [
+                  94.128859,
+                  23.853905
+                ],
+                [
+                  94.134544,
+                  23.843558
+                ],
+                [
+                  94.163999,
+                  23.721033
+                ],
+                [
+                  94.170097,
+                  23.694962
+                ],
+                [
+                  94.138265,
+                  20.692949
+                ],
+                [
+                  94.130306,
+                  20.682485
+                ],
+                [
+                  94.108189,
+                  20.672304
+                ],
+                [
+                  94.023026,
+                  20.651556
+                ],
+                [
+                  93.602483,
+                  20.663416
+                ],
+                [
+                  93.500991,
+                  20.670806
+                ],
+                [
+                  93.474016,
+                  20.6737
+                ],
+                [
+                  93.412831,
+                  20.701088
+                ],
+                [
+                  92.854829,
+                  21.043264
+                ],
+                [
+                  92.835088,
+                  21.059542
+                ],
+                [
+                  92.64104,
+                  21.308586
+                ],
+                [
+                  92.603267,
+                  21.420089
+                ],
+                [
+                  92.592725,
+                  21.470163
+                ],
+                [
+                  92.590245,
+                  21.495537
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q46910",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chin State"
+        }
+      ],
+      "properties": {
+        "title": "Chin State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kachin%20State.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  95.937225,
+                  24.710197
+                ],
+                [
+                  95.840383,
+                  24.964988
+                ],
+                [
+                  96.006988,
+                  26.417716
+                ],
+                [
+                  96.047192,
+                  26.666073
+                ],
+                [
+                  96.051843,
+                  26.679199
+                ],
+                [
+                  96.239015,
+                  26.959001
+                ],
+                [
+                  97.527721,
+                  28.529526
+                ],
+                [
+                  97.546221,
+                  28.538466
+                ],
+                [
+                  97.670451,
+                  28.511284
+                ],
+                [
+                  97.897518,
+                  28.355325
+                ],
+                [
+                  97.992912,
+                  28.268922
+                ],
+                [
+                  98.665739,
+                  27.597076
+                ],
+                [
+                  98.674214,
+                  27.586121
+                ],
+                [
+                  98.679279,
+                  27.577336
+                ],
+                [
+                  98.681759,
+                  27.556484
+                ],
+                [
+                  98.707701,
+                  27.337247
+                ],
+                [
+                  98.737776,
+                  27.048686
+                ],
+                [
+                  98.750385,
+                  26.792009
+                ],
+                [
+                  98.755553,
+                  26.625043
+                ],
+                [
+                  98.692404,
+                  25.87899
+                ],
+                [
+                  98.690234,
+                  25.865554
+                ],
+                [
+                  98.68486,
+                  25.8531
+                ],
+                [
+                  97.6411,
+                  23.833171
+                ],
+                [
+                  97.634589,
+                  23.825885
+                ],
+                [
+                  97.617122,
+                  23.817229
+                ],
+                [
+                  97.309544,
+                  23.705194
+                ],
+                [
+                  97.226965,
+                  23.679744
+                ],
+                [
+                  97.097567,
+                  23.645405
+                ],
+                [
+                  97.04155,
+                  23.644371
+                ],
+                [
+                  97.033178,
+                  23.644836
+                ],
+                [
+                  97.019639,
+                  23.6468
+                ],
+                [
+                  97.013025,
+                  23.649435
+                ],
+                [
+                  96.784098,
+                  23.749713
+                ],
+                [
+                  96.783168,
+                  23.750695
+                ],
+                [
+                  95.94787,
+                  24.690044
+                ],
+                [
+                  95.937225,
+                  24.710197
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q140646",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kachin State"
+        }
+      ],
+      "properties": {
+        "title": "Kachin State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kayah%20State.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  96.83872,
+                  19.248645
+                ],
+                [
+                  96.836239,
+                  19.26022
+                ],
+                [
+                  96.839902,
+                  19.288449
+                ],
+                [
+                  96.840115,
+                  19.290089
+                ],
+                [
+                  96.895822,
+                  19.505063
+                ],
+                [
+                  96.898923,
+                  19.514881
+                ],
+                [
+                  96.913961,
+                  19.54873
+                ],
+                [
+                  97.167847,
+                  19.988729
+                ],
+                [
+                  97.187846,
+                  19.989374
+                ],
+                [
+                  97.391761,
+                  19.953123
+                ],
+                [
+                  97.513562,
+                  19.90186
+                ],
+                [
+                  97.519299,
+                  19.898992
+                ],
+                [
+                  97.84672,
+                  19.641747
+                ],
+                [
+                  97.852146,
+                  19.635158
+                ],
+                [
+                  97.856642,
+                  19.623402
+                ],
+                [
+                  97.869123,
+                  19.57049
+                ],
+                [
+                  97.759748,
+                  18.622792
+                ],
+                [
+                  97.75179,
+                  18.582484
+                ],
+                [
+                  97.745692,
+                  18.571064
+                ],
+                [
+                  97.742798,
+                  18.569255
+                ],
+                [
+                  97.509531,
+                  18.491276
+                ],
+                [
+                  97.438114,
+                  18.488123
+                ],
+                [
+                  97.427469,
+                  18.489519
+                ],
+                [
+                  97.416617,
+                  18.49603
+                ],
+                [
+                  97.122992,
+                  18.689299
+                ],
+                [
+                  97.11462,
+                  18.700332
+                ],
+                [
+                  97.011733,
+                  18.874585
+                ],
+                [
+                  96.86368,
+                  19.173378
+                ],
+                [
+                  96.83872,
+                  19.248645
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q652845",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kayah State"
+        }
+      ],
+      "properties": {
+        "title": "Kayah State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kayin%20State.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  96.615633,
+                  18.747719
+                ],
+                [
+                  96.398902,
+                  19.470001
+                ],
+                [
+                  96.673304,
+                  19.495787
+                ],
+                [
+                  96.815621,
+                  19.388093
+                ],
+                [
+                  96.821615,
+                  19.382977
+                ],
+                [
+                  97.637585,
+                  18.306326
+                ],
+                [
+                  98.902521,
+                  16.381637
+                ],
+                [
+                  98.903348,
+                  16.363447
+                ],
+                [
+                  98.888672,
+                  16.274563
+                ],
+                [
+                  98.883711,
+                  16.25875
+                ],
+                [
+                  98.559906,
+                  15.355317
+                ],
+                [
+                  98.533551,
+                  15.325965
+                ],
+                [
+                  98.392268,
+                  15.258243
+                ],
+                [
+                  98.38524,
+                  15.256253
+                ],
+                [
+                  98.215431,
+                  15.218865
+                ],
+                [
+                  98.207693,
+                  15.219216
+                ],
+                [
+                  97.876538,
+                  15.674237
+                ],
+                [
+                  97.87075,
+                  15.683591
+                ],
+                [
+                  96.615633,
+                  18.747719
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q495342",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kayin State"
+        }
+      ],
+      "properties": {
+        "title": "Kayin State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Magway%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  94.763653,
+                  18.466315
+                ],
+                [
+                  93.903964,
+                  20.58107
+                ],
+                [
+                  93.904584,
+                  20.701915
+                ],
+                [
+                  94.007006,
+                  22.678022
+                ],
+                [
+                  94.09775,
+                  22.711818
+                ],
+                [
+                  94.103331,
+                  22.711586
+                ],
+                [
+                  94.113253,
+                  22.708097
+                ],
+                [
+                  95.152053,
+                  21.823268
+                ],
+                [
+                  95.342222,
+                  21.608862
+                ],
+                [
+                  95.729072,
+                  20.467821
+                ],
+                [
+                  95.757184,
+                  20.37563
+                ],
+                [
+                  95.830048,
+                  20.135231
+                ],
+                [
+                  95.831391,
+                  20.130632
+                ],
+                [
+                  95.857229,
+                  19.303964
+                ],
+                [
+                  95.857436,
+                  19.276731
+                ],
+                [
+                  95.852475,
+                  19.239756
+                ],
+                [
+                  95.850925,
+                  19.234873
+                ],
+                [
+                  95.825914,
+                  19.171052
+                ],
+                [
+                  95.823743,
+                  19.168184
+                ],
+                [
+                  95.084357,
+                  18.376863
+                ],
+                [
+                  95.064513,
+                  18.360327
+                ],
+                [
+                  94.836595,
+                  18.35762
+                ],
+                [
+                  94.82091,
+                  18.373039
+                ],
+                [
+                  94.808611,
+                  18.38911
+                ],
+                [
+                  94.763653,
+                  18.466315
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q833013",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Magway Region"
+        }
+      ],
+      "properties": {
+        "title": "Magway Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mandalay%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  94.800963,
+                  21.099591
+                ],
+                [
+                  94.79993,
+                  21.143645
+                ],
+                [
+                  94.803237,
+                  21.163463
+                ],
+                [
+                  94.809852,
+                  21.185942
+                ],
+                [
+                  95.923995,
+                  23.420328
+                ],
+                [
+                  96.034893,
+                  23.585176
+                ],
+                [
+                  96.057011,
+                  23.609024
+                ],
+                [
+                  96.082022,
+                  23.629437
+                ],
+                [
+                  96.104966,
+                  23.631529
+                ],
+                [
+                  96.113028,
+                  23.630057
+                ],
+                [
+                  96.289761,
+                  23.531561
+                ],
+                [
+                  96.320664,
+                  23.506653
+                ],
+                [
+                  96.713715,
+                  22.952114
+                ],
+                [
+                  96.715265,
+                  22.949375
+                ],
+                [
+                  96.716298,
+                  22.945396
+                ],
+                [
+                  96.887347,
+                  21.768413
+                ],
+                [
+                  96.888588,
+                  21.759809
+                ],
+                [
+                  96.888691,
+                  21.743996
+                ],
+                [
+                  96.679712,
+                  19.517775
+                ],
+                [
+                  96.673304,
+                  19.495787
+                ],
+                [
+                  96.663899,
+                  19.481912
+                ],
+                [
+                  96.661831,
+                  19.478992
+                ],
+                [
+                  96.636717,
+                  19.452353
+                ],
+                [
+                  96.634236,
+                  19.45026
+                ],
+                [
+                  96.631239,
+                  19.448555
+                ],
+                [
+                  96.595582,
+                  19.431708
+                ],
+                [
+                  96.592172,
+                  19.431114
+                ],
+                [
+                  96.117162,
+                  19.415766
+                ],
+                [
+                  96.112201,
+                  19.415637
+                ],
+                [
+                  95.859607,
+                  19.44393
+                ],
+                [
+                  95.853405,
+                  19.444782
+                ],
+                [
+                  95.777028,
+                  19.471163
+                ],
+                [
+                  95.751603,
+                  19.488888
+                ],
+                [
+                  95.744161,
+                  19.498423
+                ],
+                [
+                  94.814709,
+                  20.952985
+                ],
+                [
+                  94.800963,
+                  21.099591
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q119494",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mandalay Region"
+        }
+      ],
+      "properties": {
+        "title": "Mandalay Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mon%20State%20%282018%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  96.887055,
+                  17.411851
+                ],
+                [
+                  96.882902,
+                  17.457198
+                ],
+                [
+                  96.882903,
+                  17.457384
+                ],
+                [
+                  96.88373,
+                  17.569496
+                ],
+                [
+                  96.890758,
+                  17.602698
+                ],
+                [
+                  96.908638,
+                  17.610037
+                ],
+                [
+                  96.916286,
+                  17.612078
+                ],
+                [
+                  97.385095,
+                  17.705793
+                ],
+                [
+                  97.41362,
+                  17.70985
+                ],
+                [
+                  97.416721,
+                  17.710237
+                ],
+                [
+                  97.419305,
+                  17.708403
+                ],
+                [
+                  97.421268,
+                  17.705328
+                ],
+                [
+                  98.13492,
+                  16.192991
+                ],
+                [
+                  98.13523,
+                  16.190821
+                ],
+                [
+                  98.137194,
+                  16.171701
+                ],
+                [
+                  98.209334,
+                  15.249276
+                ],
+                [
+                  98.204372,
+                  15.029575
+                ],
+                [
+                  98.201168,
+                  15.019291
+                ],
+                [
+                  98.191224,
+                  14.99321
+                ],
+                [
+                  97.794923,
+                  14.880153
+                ],
+                [
+                  97.79477,
+                  14.880316
+                ],
+                [
+                  96.889903,
+                  17.394721
+                ],
+                [
+                  96.887055,
+                  17.411851
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q818742",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mon State"
+        }
+      ],
+      "properties": {
+        "title": "Mon State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rakhine.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  92.180761,
+                  21.157883
+                ],
+                [
+                  92.174973,
+                  21.175608
+                ],
+                [
+                  92.17828,
+                  21.299735
+                ],
+                [
+                  92.183654,
+                  21.317201
+                ],
+                [
+                  92.225099,
+                  21.397455
+                ],
+                [
+                  92.236261,
+                  21.417092
+                ],
+                [
+                  92.322664,
+                  21.461895
+                ],
+                [
+                  92.354703,
+                  21.451818
+                ],
+                [
+                  93.72475,
+                  20.887692
+                ],
+                [
+                  93.734982,
+                  20.881413
+                ],
+                [
+                  93.749761,
+                  20.869037
+                ],
+                [
+                  93.894042,
+                  20.717108
+                ],
+                [
+                  93.904584,
+                  20.701915
+                ],
+                [
+                  94.155938,
+                  20.287392
+                ],
+                [
+                  94.25619,
+                  20.111357
+                ],
+                [
+                  94.333912,
+                  19.949558
+                ],
+                [
+                  94.341353,
+                  19.933073
+                ],
+                [
+                  94.796002,
+                  18.857841
+                ],
+                [
+                  94.804684,
+                  18.837171
+                ],
+                [
+                  94.890053,
+                  18.236536
+                ],
+                [
+                  94.902662,
+                  17.850823
+                ],
+                [
+                  94.902972,
+                  17.833744
+                ],
+                [
+                  94.901732,
+                  17.815425
+                ],
+                [
+                  94.882922,
+                  17.729978
+                ],
+                [
+                  94.799413,
+                  17.465394
+                ],
+                [
+                  94.787837,
+                  17.429712
+                ],
+                [
+                  94.754351,
+                  17.371653
+                ],
+                [
+                  94.744222,
+                  17.366666
+                ],
+                [
+                  94.736574,
+                  17.369431
+                ],
+                [
+                  94.636219,
+                  17.41625
+                ],
+                [
+                  94.567719,
+                  17.46288
+                ],
+                [
+                  93.497813,
+                  18.840888
+                ],
+                [
+                  92.381114,
+                  20.700141
+                ],
+                [
+                  92.37086,
+                  20.72134
+                ],
+                [
+                  92.180761,
+                  21.157883
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233838",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Arakan State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Arakan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rakhine State"
+        }
+      ],
+      "properties": {
+        "title": "Rakhine State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sagaing%20Region%20%282019%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  93.994397,
+                  22.74316
+                ],
+                [
+                  93.992537,
+                  22.920255
+                ],
+                [
+                  93.998118,
+                  23.220004
+                ],
+                [
+                  94.000289,
+                  23.33054
+                ],
+                [
+                  94.13506,
+                  23.919006
+                ],
+                [
+                  94.550125,
+                  25.245282
+                ],
+                [
+                  94.608003,
+                  25.394627
+                ],
+                [
+                  95.040638,
+                  26.475594
+                ],
+                [
+                  95.122803,
+                  26.611607
+                ],
+                [
+                  95.132622,
+                  26.620805
+                ],
+                [
+                  95.204865,
+                  26.667572
+                ],
+                [
+                  96.013188,
+                  27.190796
+                ],
+                [
+                  96.074166,
+                  27.229864
+                ],
+                [
+                  96.142586,
+                  27.25751
+                ],
+                [
+                  96.5869,
+                  27.353577
+                ],
+                [
+                  96.687255,
+                  27.361742
+                ],
+                [
+                  96.705239,
+                  27.36076
+                ],
+                [
+                  96.724152,
+                  27.356264
+                ],
+                [
+                  96.758879,
+                  27.341743
+                ],
+                [
+                  96.776346,
+                  27.330633
+                ],
+                [
+                  97.058827,
+                  27.092076
+                ],
+                [
+                  96.673614,
+                  24.141912
+                ],
+                [
+                  96.051223,
+                  21.956335
+                ],
+                [
+                  96.041198,
+                  21.923417
+                ],
+                [
+                  96.02094,
+                  21.896493
+                ],
+                [
+                  95.772067,
+                  21.62607
+                ],
+                [
+                  95.342222,
+                  21.608862
+                ],
+                [
+                  94.473335,
+                  21.769524
+                ],
+                [
+                  94.453387,
+                  21.776526
+                ],
+                [
+                  94.427549,
+                  21.790246
+                ],
+                [
+                  94.409049,
+                  21.80376
+                ],
+                [
+                  94.400471,
+                  21.812131
+                ],
+                [
+                  94.007006,
+                  22.678022
+                ],
+                [
+                  93.994397,
+                  22.74316
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q847289",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sagaing Division"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sagaing Region"
+        }
+      ],
+      "properties": {
+        "title": "Sagaing Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Shan%20State.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  96.21049,
+                  21.059542
+                ],
+                [
+                  96.158193,
+                  23.158173
+                ],
+                [
+                  96.158296,
+                  23.162876
+                ],
+                [
+                  96.188992,
+                  23.343201
+                ],
+                [
+                  96.190129,
+                  23.347878
+                ],
+                [
+                  96.389393,
+                  24.028534
+                ],
+                [
+                  96.399419,
+                  24.040135
+                ],
+                [
+                  96.414611,
+                  24.051194
+                ],
+                [
+                  96.590105,
+                  24.124884
+                ],
+                [
+                  96.632996,
+                  24.136072
+                ],
+                [
+                  96.673614,
+                  24.141912
+                ],
+                [
+                  98.865727,
+                  24.145685
+                ],
+                [
+                  101.118871,
+                  21.75981
+                ],
+                [
+                  101.161453,
+                  21.658369
+                ],
+                [
+                  101.168842,
+                  21.637853
+                ],
+                [
+                  101.173855,
+                  21.611912
+                ],
+                [
+                  101.161143,
+                  21.534707
+                ],
+                [
+                  101.157112,
+                  21.519669
+                ],
+                [
+                  100.65213,
+                  20.876608
+                ],
+                [
+                  100.099295,
+                  20.317805
+                ],
+                [
+                  98.899317,
+                  19.748615
+                ],
+                [
+                  96.839902,
+                  19.288449
+                ],
+                [
+                  96.563026,
+                  19.592499
+                ],
+                [
+                  96.558375,
+                  19.599295
+                ],
+                [
+                  96.377921,
+                  20.001002
+                ],
+                [
+                  96.375854,
+                  20.007461
+                ],
+                [
+                  96.21545,
+                  21.007762
+                ],
+                [
+                  96.21049,
+                  21.059542
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q456847",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shan State"
+        }
+      ],
+      "properties": {
+        "title": "Shan State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q17315624",
+          "label": "state of Myanmar"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tanintharyi%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  98.008067,
+                  9.80744
+                ],
+                [
+                  97.444347,
+                  11.800238
+                ],
+                [
+                  97.794923,
+                  14.880153
+                ],
+                [
+                  97.895968,
+                  15.072181
+                ],
+                [
+                  97.902273,
+                  15.078434
+                ],
+                [
+                  98.012757,
+                  15.098097
+                ],
+                [
+                  98.020818,
+                  15.09913
+                ],
+                [
+                  98.02857,
+                  15.096495
+                ],
+                [
+                  98.191224,
+                  14.99321
+                ],
+                [
+                  98.935284,
+                  14.085395
+                ],
+                [
+                  99.084835,
+                  13.878534
+                ],
+                [
+                  99.090003,
+                  13.870111
+                ],
+                [
+                  99.152531,
+                  13.714875
+                ],
+                [
+                  99.627955,
+                  11.825378
+                ],
+                [
+                  99.630022,
+                  11.815766
+                ],
+                [
+                  99.615346,
+                  11.749413
+                ],
+                [
+                  99.606871,
+                  11.725694
+                ],
+                [
+                  98.589854,
+                  10.04206
+                ],
+                [
+                  98.560557,
+                  10.002143
+                ],
+                [
+                  98.543142,
+                  9.987454
+                ],
+                [
+                  98.057465,
+                  9.796861
+                ],
+                [
+                  98.037608,
+                  9.790717
+                ],
+                [
+                  98.018321,
+                  9.794908
+                ],
+                [
+                  98.008067,
+                  9.80744
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q843954",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tanintharyi Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tenasserim Division"
+        }
+      ],
+      "properties": {
+        "title": "Tanintharyi Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yangon%20Division.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative region of Myanmar"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  95.691968,
+                  17.271788
+                ],
+                [
+                  95.690728,
+                  17.300107
+                ],
+                [
+                  95.699616,
+                  17.340725
+                ],
+                [
+                  95.706024,
+                  17.359974
+                ],
+                [
+                  95.746745,
+                  17.46219
+                ],
+                [
+                  95.773824,
+                  17.513324
+                ],
+                [
+                  95.902601,
+                  17.646753
+                ],
+                [
+                  96.027348,
+                  17.748168
+                ],
+                [
+                  96.039957,
+                  17.757289
+                ],
+                [
+                  96.051429,
+                  17.760647
+                ],
+                [
+                  96.060525,
+                  17.757444
+                ],
+                [
+                  96.066932,
+                  17.752819
+                ],
+                [
+                  96.834321,
+                  16.88524
+                ],
+                [
+                  96.844005,
+                  16.873928
+                ],
+                [
+                  96.848888,
+                  16.860297
+                ],
+                [
+                  96.84669,
+                  16.844916
+                ],
+                [
+                  96.801036,
+                  16.737372
+                ],
+                [
+                  96.783214,
+                  16.712348
+                ],
+                [
+                  96.679473,
+                  16.574868
+                ],
+                [
+                  96.615943,
+                  16.518005
+                ],
+                [
+                  96.285336,
+                  16.365993
+                ],
+                [
+                  96.221818,
+                  16.344787
+                ],
+                [
+                  96.144054,
+                  16.324897
+                ],
+                [
+                  96.118988,
+                  16.321763
+                ],
+                [
+                  96.097667,
+                  16.328559
+                ],
+                [
+                  95.904152,
+                  16.406053
+                ],
+                [
+                  95.883171,
+                  16.417706
+                ],
+                [
+                  95.866221,
+                  16.43525
+                ],
+                [
+                  95.832321,
+                  16.479124
+                ],
+                [
+                  95.691968,
+                  17.271788
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q856781",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yangon Region"
+        }
+      ],
+      "properties": {
+        "title": "Yangon Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15072454",
+          "label": "region of Burma"
+        }
+      ]
+    }
+  ],
+  "title": "Myanma states and regions",
+  "type": "FeatureCollection"
+}
