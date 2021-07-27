@@ -282,7 +282,7 @@ This gazetteer was created by:
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/georgian-regions.json](place-ids/georgian-regions.json) for details), and
 
-1. querying Wikidata for instances of [Q1210300 mkhare](https://www.wikidata.org/wiki/Q1210300) (or [Q244339 administrative territorial entity of Georgia](https://www.wikidata.org/wiki/Q244339) in the case of Adjara) add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+1. querying Wikidata for instances of [Q1210300 mkhare](https://www.wikidata.org/wiki/Q1210300) (or [Q244339 administrative territorial entity of Georgia](https://www.wikidata.org/wiki/Q244339) in the case of Adjara) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that Abkhazia is included in the [countries gazetteer](#countries-gazetteer).
 
@@ -560,7 +560,7 @@ This gazetteer was created by:
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/ukrainian-oblasts.json](place-ids/ukrainian-oblasts.json) for details), and
 
-1. querying Wikidata for instances of [Q3348196 oblast of Ukraine](https://www.wikidata.org/wiki/Q3348196) (or [Q5124045 city with special status](https://www.wikidata.org/wiki/Q5124045) in the case of Kyiv) add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+1. querying Wikidata for instances of [Q3348196 oblast of Ukraine](https://www.wikidata.org/wiki/Q3348196) (or [Q5124045 city with special status](https://www.wikidata.org/wiki/Q5124045) in the case of Kyiv) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that Crimea and Sevastopol are included in the [Russian federal subjects gazetteer](#russian-federal-subjects-gazetteer) as this is how they are labeled in the Natural Earth data.
 
