@@ -16,6 +16,7 @@ GAZETTEERS := \
 	gazetteers/indonesian-provinces.json \
 	gazetteers/iranian-provinces.json \
 	gazetteers/iraqi-governorates.json \
+	gazetteers/israeli-districts.json \
 	gazetteers/italian-regions.json \
 	gazetteers/kuwaiti-governorates.json \
 	gazetteers/laotian-provinces.json \

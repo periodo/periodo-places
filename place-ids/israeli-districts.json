@@ -1,0 +1,26 @@
+{
+  "Central District": {
+    "id": "http://www.wikidata.org/entity/Q188785",
+    "covers": [ "HaMerkaz" ]
+  },
+  "Haifa District": {
+    "id": "http://www.wikidata.org/entity/Q185845",
+    "covers": [ "Haifa" ]
+  },
+  "Jerusalem District": {
+    "id": "http://www.wikidata.org/entity/Q192232",
+    "covers": [ "Jerusalem" ]
+  },
+  "Northern District": {
+    "id": "http://www.wikidata.org/entity/Q189942",
+    "covers": [ "HaZafon" ]
+  },
+  "Southern District": {
+    "id": "http://www.wikidata.org/entity/Q188781",
+    "covers": [ "HaDarom" ]
+  },
+  "Tel Aviv District": {
+    "id": "http://www.wikidata.org/entity/Q192811",
+    "covers": [ "Tel Aviv" ]
+  }
+}

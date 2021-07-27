@@ -47,6 +47,12 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Iranian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/iranian-provinces.json
 
+* **Iraqi and Kurdish governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/iraqi-governorates.json
+
+* **Israeli districts gazetteer**<br>
+  https://data.perio.do/graphs/places/israeli-districts.json
+
 * **Italian regions gazetteer**<br>
   https://data.perio.do/graphs/places/italian-regions.json
 
@@ -282,6 +288,15 @@ Note that the province of North Kalimantan (separated from East Kalimantan in 20
 1. querying Wikidata for instances of [Q841753 governorate of Iraq](https://www.wikidata.org/wiki/Q841753) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the governorate of Halabja, separated from the governorate of Sulaymaniyah in 2014, is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
+
+
+### Israeli districts gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/israeli-districts.json](place-ids/israeli-districts.json) for details), and
+
+1. querying Wikidata for instances of [Q193560 district of Israel](https://www.wikidata.org/wiki/Q193560) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Italian regions gazetteer

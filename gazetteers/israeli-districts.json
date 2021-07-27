@@ -1,0 +1,766 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six districts of Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.671713,
+                  31.790747
+                ],
+                [
+                  34.665941,
+                  31.873899
+                ],
+                [
+                  34.867796,
+                  32.407505
+                ],
+                [
+                  34.932679,
+                  32.40903
+                ],
+                [
+                  34.982496,
+                  32.405516
+                ],
+                [
+                  34.985751,
+                  32.404405
+                ],
+                [
+                  35.03273,
+                  32.3822
+                ],
+                [
+                  35.007713,
+                  31.875678
+                ],
+                [
+                  34.945599,
+                  31.839065
+                ],
+                [
+                  34.894852,
+                  31.809351
+                ],
+                [
+                  34.888651,
+                  31.806328
+                ],
+                [
+                  34.786539,
+                  31.765839
+                ],
+                [
+                  34.697758,
+                  31.779327
+                ],
+                [
+                  34.673729,
+                  31.786355
+                ],
+                [
+                  34.672954,
+                  31.787207
+                ],
+                [
+                  34.672334,
+                  31.78837
+                ],
+                [
+                  34.672024,
+                  31.789429
+                ],
+                [
+                  34.671713,
+                  31.790747
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188785",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central District"
+        }
+      ],
+      "properties": {
+        "title": "Central District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six districts of Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.021305,
+                  32.381176
+                ],
+                [
+                  34.867796,
+                  32.407505
+                ],
+                [
+                  34.94752,
+                  32.814154
+                ],
+                [
+                  34.955577,
+                  32.834377
+                ],
+                [
+                  35.075489,
+                  32.893075
+                ],
+                [
+                  35.084763,
+                  32.890628
+                ],
+                [
+                  35.087399,
+                  32.888923
+                ],
+                [
+                  35.142641,
+                  32.832131
+                ],
+                [
+                  35.143571,
+                  32.830012
+                ],
+                [
+                  35.154423,
+                  32.784898
+                ],
+                [
+                  35.210359,
+                  32.541868
+                ],
+                [
+                  35.03273,
+                  32.3822
+                ],
+                [
+                  35.021305,
+                  32.381176
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q185845",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Haifa District"
+        }
+      ],
+      "properties": {
+        "title": "Haifa District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six districts of Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.872942,
+                  31.659101
+                ],
+                [
+                  34.827776,
+                  31.791987
+                ],
+                [
+                  34.911285,
+                  31.832373
+                ],
+                [
+                  34.915471,
+                  31.83369
+                ],
+                [
+                  34.947326,
+                  31.840925
+                ],
+                [
+                  35.04554,
+                  31.841417
+                ],
+                [
+                  35.059699,
+                  31.839401
+                ],
+                [
+                  35.181449,
+                  31.804106
+                ],
+                [
+                  35.198399,
+                  31.795166
+                ],
+                [
+                  35.206254,
+                  31.782764
+                ],
+                [
+                  35.208011,
+                  31.766124
+                ],
+                [
+                  35.206564,
+                  31.744627
+                ],
+                [
+                  35.202843,
+                  31.738942
+                ],
+                [
+                  34.953176,
+                  31.60832
+                ],
+                [
+                  34.88152,
+                  31.652332
+                ],
+                [
+                  34.872942,
+                  31.659101
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q192232",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jerusalem District"
+        }
+      ],
+      "properties": {
+        "title": "Jerusalem District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "top level administrative district in Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.026265,
+                  32.604548
+                ],
+                [
+                  35.02487,
+                  32.607881
+                ],
+                [
+                  35.02487,
+                  32.610155
+                ],
+                [
+                  35.06544,
+                  32.923082
+                ],
+                [
+                  35.078461,
+                  32.998847
+                ],
+                [
+                  35.092133,
+                  33.067694
+                ],
+                [
+                  35.09962,
+                  33.087592
+                ],
+                [
+                  35.8211,
+                  33.406722
+                ],
+                [
+                  35.822443,
+                  33.401373
+                ],
+                [
+                  35.888073,
+                  32.944941
+                ],
+                [
+                  35.834226,
+                  32.827946
+                ],
+                [
+                  35.560961,
+                  32.384717
+                ],
+                [
+                  35.432803,
+                  32.408256
+                ],
+                [
+                  35.406862,
+                  32.414793
+                ],
+                [
+                  35.082283,
+                  32.534474
+                ],
+                [
+                  35.077787,
+                  32.536231
+                ],
+                [
+                  35.068175,
+                  32.541218
+                ],
+                [
+                  35.06523,
+                  32.543234
+                ],
+                [
+                  35.053757,
+                  32.552587
+                ],
+                [
+                  35.052052,
+                  32.554111
+                ],
+                [
+                  35.034792,
+                  32.585143
+                ],
+                [
+                  35.034017,
+                  32.586564
+                ],
+                [
+                  35.026265,
+                  32.604548
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189942",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern District"
+        }
+      ],
+      "properties": {
+        "title": "Northern District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six districts of Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.526915,
+                  30.409618
+                ],
+                [
+                  34.248351,
+                  31.211449
+                ],
+                [
+                  34.489513,
+                  31.600409
+                ],
+                [
+                  34.665941,
+                  31.873899
+                ],
+                [
+                  34.669853,
+                  31.875006
+                ],
+                [
+                  34.68055,
+                  31.877977
+                ],
+                [
+                  34.684581,
+                  31.878029
+                ],
+                [
+                  34.706595,
+                  31.874541
+                ],
+                [
+                  34.70861,
+                  31.873869
+                ],
+                [
+                  35.458125,
+                  31.491929
+                ],
+                [
+                  35.458538,
+                  31.491619
+                ],
+                [
+                  35.457128,
+                  31.433524
+                ],
+                [
+                  35.456884,
+                  31.423509
+                ],
+                [
+                  35.443242,
+                  31.132209
+                ],
+                [
+                  35.438488,
+                  31.103736
+                ],
+                [
+                  35.145276,
+                  30.123382
+                ],
+                [
+                  34.989833,
+                  29.651964
+                ],
+                [
+                  34.951345,
+                  29.54564
+                ],
+                [
+                  34.914073,
+                  29.493801
+                ],
+                [
+                  34.910818,
+                  29.489936
+                ],
+                [
+                  34.903005,
+                  29.489691
+                ],
+                [
+                  34.886729,
+                  29.490058
+                ],
+                [
+                  34.878108,
+                  29.504298
+                ],
+                [
+                  34.855267,
+                  29.545717
+                ],
+                [
+                  34.526915,
+                  30.409618
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188781",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern District"
+        }
+      ],
+      "properties": {
+        "title": "Southern District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the six districts in Israel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.733932,
+                  32.013266
+                ],
+                [
+                  34.733887,
+                  32.01331
+                ],
+                [
+                  34.743337,
+                  32.06037
+                ],
+                [
+                  34.804435,
+                  32.192506
+                ],
+                [
+                  34.810568,
+                  32.192661
+                ],
+                [
+                  34.831704,
+                  32.190335
+                ],
+                [
+                  34.836045,
+                  32.189379
+                ],
+                [
+                  34.83961,
+                  32.187906
+                ],
+                [
+                  34.841316,
+                  32.186899
+                ],
+                [
+                  34.852013,
+                  32.179897
+                ],
+                [
+                  34.862555,
+                  32.172817
+                ],
+                [
+                  34.863795,
+                  32.17168
+                ],
+                [
+                  34.864725,
+                  32.170181
+                ],
+                [
+                  34.865345,
+                  32.168424
+                ],
+                [
+                  34.88431,
+                  32.025384
+                ],
+                [
+                  34.88214,
+                  32.022826
+                ],
+                [
+                  34.877747,
+                  32.019932
+                ],
+                [
+                  34.860229,
+                  32.013808
+                ],
+                [
+                  34.803902,
+                  31.998512
+                ],
+                [
+                  34.800491,
+                  31.998047
+                ],
+                [
+                  34.780027,
+                  31.998435
+                ],
+                [
+                  34.747885,
+                  32.002
+                ],
+                [
+                  34.742924,
+                  32.004558
+                ],
+                [
+                  34.733932,
+                  32.013266
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q192811",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tel Aviv District"
+        }
+      ],
+      "properties": {
+        "title": "Tel Aviv District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q193560",
+          "label": "district of Israel"
+        }
+      ]
+    }
+  ],
+  "title": "Israeli districts",
+  "type": "FeatureCollection"
+}
