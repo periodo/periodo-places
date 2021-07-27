@@ -8817,6 +8817,172 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Crimea.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division of Russia since 2014 [see Q756294 for Ukrainian subdivision proclaimed in 1991]"
+        }
+      ],
+      "easternmostPoint": {
+        "coordinates": [
+          36.65,
+          45.383333333
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.48585,
+                  45.394924
+                ],
+                [
+                  32.481619,
+                  45.408881
+                ],
+                [
+                  32.495128,
+                  45.435533
+                ],
+                [
+                  32.525157,
+                  45.458157
+                ],
+                [
+                  33.67028,
+                  46.218106
+                ],
+                [
+                  33.801878,
+                  46.202706
+                ],
+                [
+                  33.846216,
+                  46.195705
+                ],
+                [
+                  34.235923,
+                  46.097695
+                ],
+                [
+                  34.688637,
+                  45.974015
+                ],
+                [
+                  36.583263,
+                  45.427395
+                ],
+                [
+                  36.598806,
+                  45.42121
+                ],
+                [
+                  36.613536,
+                  45.408881
+                ],
+                [
+                  36.631114,
+                  45.374742
+                ],
+                [
+                  36.638357,
+                  45.351264
+                ],
+                [
+                  36.45338,
+                  45.076483
+                ],
+                [
+                  36.440115,
+                  45.06745
+                ],
+                [
+                  36.244314,
+                  45.010972
+                ],
+                [
+                  33.957856,
+                  44.383002
+                ],
+                [
+                  33.937755,
+                  44.381049
+                ],
+                [
+                  33.741222,
+                  44.395901
+                ],
+                [
+                  33.729998,
+                  44.397974
+                ],
+                [
+                  32.512869,
+                  45.340562
+                ],
+                [
+                  32.48585,
+                  45.394924
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q15966495",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Crimea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Crimea"
+        }
+      ],
+      "northernmostPoint": {
+        "coordinates": [
+          34.6,
+          46.3
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "title": "Republic of Crimea"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          33.833333333,
+          44.383333333
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          32.483333333,
+          45.4
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dagestan.svg"
         }
       ],

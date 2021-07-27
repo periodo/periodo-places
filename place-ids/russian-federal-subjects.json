@@ -203,6 +203,10 @@
     "id": "http://www.wikidata.org/entity/Q6809",
     "covers": [ "Buryat" ]
   },
+  "Republic of Crimea": {
+    "id": "http://www.wikidata.org/entity/Q15966495",
+    "covers": [ "Crimea" ]
+  },
   "Republic of Dagestan": {
     "id": "http://www.wikidata.org/entity/Q5118",
     "covers": [ "Dagestan" ]
