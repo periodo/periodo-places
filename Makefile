@@ -11,6 +11,7 @@ GAZETTEERS := \
 	gazetteers/ethiopian-regions.json \
 	gazetteers/french-regions.json \
 	gazetteers/geographic-regions.json \
+	gazetteers/georgian-regions.json \
 	gazetteers/greek-regions.json \
 	gazetteers/historical.json \
 	gazetteers/indian-states.json \

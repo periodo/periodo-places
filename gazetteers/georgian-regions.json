@@ -1,0 +1,1325 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Adjara.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "political-administrative region of Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.627257,
+                  41.480518
+                ],
+                [
+                  41.520763,
+                  41.514228
+                ],
+                [
+                  41.773936,
+                  41.902615
+                ],
+                [
+                  41.904657,
+                  41.897753
+                ],
+                [
+                  42.383077,
+                  41.838635
+                ],
+                [
+                  42.405505,
+                  41.834914
+                ],
+                [
+                  42.481676,
+                  41.798663
+                ],
+                [
+                  42.576761,
+                  41.600148
+                ],
+                [
+                  42.586648,
+                  41.579107
+                ],
+                [
+                  42.545547,
+                  41.509612
+                ],
+                [
+                  42.535522,
+                  41.493489
+                ],
+                [
+                  42.483846,
+                  41.442174
+                ],
+                [
+                  42.463072,
+                  41.431839
+                ],
+                [
+                  42.451033,
+                  41.43137
+                ],
+                [
+                  42.437854,
+                  41.430857
+                ],
+                [
+                  41.812982,
+                  41.421814
+                ],
+                [
+                  41.627257,
+                  41.480518
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q45693",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Adjara Autonomous Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adjara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ajara Autonomous Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ajara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ajaria"
+        }
+      ],
+      "properties": {
+        "title": "Adjara"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q244339",
+          "label": "administrative territorial entity of Georgia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.773936,
+                  41.902615
+                ],
+                [
+                  41.715249,
+                  42.059343
+                ],
+                [
+                  41.755105,
+                  42.132545
+                ],
+                [
+                  41.818047,
+                  42.141407
+                ],
+                [
+                  42.00615,
+                  42.158616
+                ],
+                [
+                  42.061547,
+                  42.14841
+                ],
+                [
+                  42.176062,
+                  42.117042
+                ],
+                [
+                  42.380907,
+                  42.046219
+                ],
+                [
+                  42.632261,
+                  41.927415
+                ],
+                [
+                  42.647557,
+                  41.884059
+                ],
+                [
+                  42.649624,
+                  41.833442
+                ],
+                [
+                  42.576141,
+                  41.793599
+                ],
+                [
+                  42.229805,
+                  41.798612
+                ],
+                [
+                  42.062994,
+                  41.811428
+                ],
+                [
+                  41.773936,
+                  41.902615
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q19038",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Guria"
+        },
+        {
+          "lang": "en",
+          "toponym": "გურია"
+        }
+      ],
+      "properties": {
+        "title": "Guria"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Region of Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.230322,
+                  42.044488
+                ],
+                [
+                  42.206034,
+                  42.070869
+                ],
+                [
+                  42.298018,
+                  42.225898
+                ],
+                [
+                  42.328197,
+                  42.268247
+                ],
+                [
+                  42.496352,
+                  42.494177
+                ],
+                [
+                  42.526738,
+                  42.517147
+                ],
+                [
+                  42.595158,
+                  42.5234
+                ],
+                [
+                  42.614381,
+                  42.524097
+                ],
+                [
+                  43.750126,
+                  42.394002
+                ],
+                [
+                  43.77276,
+                  42.373977
+                ],
+                [
+                  43.760151,
+                  42.308994
+                ],
+                [
+                  43.426218,
+                  41.916615
+                ],
+                [
+                  43.127425,
+                  41.825432
+                ],
+                [
+                  42.948108,
+                  41.811815
+                ],
+                [
+                  42.711429,
+                  41.805872
+                ],
+                [
+                  42.649624,
+                  41.833442
+                ],
+                [
+                  42.230322,
+                  42.044488
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200045",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Imereti"
+        }
+      ],
+      "properties": {
+        "title": "Imereti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.208331,
+                  41.548575
+                ],
+                [
+                  45.021366,
+                  41.881087
+                ],
+                [
+                  45.054956,
+                  42.104459
+                ],
+                [
+                  45.084205,
+                  42.184867
+                ],
+                [
+                  45.123685,
+                  42.258144
+                ],
+                [
+                  45.268999,
+                  42.524226
+                ],
+                [
+                  45.301571,
+                  42.559842
+                ],
+                [
+                  45.536838,
+                  42.541358
+                ],
+                [
+                  45.620657,
+                  42.530377
+                ],
+                [
+                  45.698688,
+                  42.507587
+                ],
+                [
+                  46.406552,
+                  41.91504
+                ],
+                [
+                  46.430892,
+                  41.890442
+                ],
+                [
+                  46.694803,
+                  41.269782
+                ],
+                [
+                  46.621113,
+                  41.114597
+                ],
+                [
+                  46.601786,
+                  41.09403
+                ],
+                [
+                  46.496779,
+                  41.044834
+                ],
+                [
+                  46.47492,
+                  41.044111
+                ],
+                [
+                  45.969163,
+                  41.168289
+                ],
+                [
+                  45.820748,
+                  41.208804
+                ],
+                [
+                  45.751088,
+                  41.240998
+                ],
+                [
+                  45.333096,
+                  41.444352
+                ],
+                [
+                  45.208331,
+                  41.548575
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q169674",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kakheti"
+        }
+      ],
+      "properties": {
+        "title": "Kakheti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in southeastern Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.978186,
+                  41.164617
+                ],
+                [
+                  43.672714,
+                  41.5185
+                ],
+                [
+                  43.710232,
+                  41.667379
+                ],
+                [
+                  43.733073,
+                  41.698721
+                ],
+                [
+                  43.886241,
+                  41.734197
+                ],
+                [
+                  44.966072,
+                  41.844165
+                ],
+                [
+                  45.066221,
+                  41.837498
+                ],
+                [
+                  45.18549,
+                  41.766986
+                ],
+                [
+                  45.20306,
+                  41.740088
+                ],
+                [
+                  45.30817,
+                  41.511342
+                ],
+                [
+                  45.329978,
+                  41.461397
+                ],
+                [
+                  45.333096,
+                  41.444352
+                ],
+                [
+                  44.847784,
+                  41.208907
+                ],
+                [
+                  44.551523,
+                  41.177023
+                ],
+                [
+                  43.978186,
+                  41.164617
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200048",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kvemo Kartli"
+        }
+      ],
+      "properties": {
+        "title": "Kvemo Kartli"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.257692,
+                  42.050664
+                ],
+                [
+                  44.185803,
+                  42.626508
+                ],
+                [
+                  44.248648,
+                  42.681995
+                ],
+                [
+                  44.272005,
+                  42.702382
+                ],
+                [
+                  44.508115,
+                  42.750286
+                ],
+                [
+                  44.558293,
+                  42.753102
+                ],
+                [
+                  44.85936,
+                  42.75951
+                ],
+                [
+                  44.902974,
+                  42.753076
+                ],
+                [
+                  45.122961,
+                  42.702278
+                ],
+                [
+                  45.155362,
+                  42.693261
+                ],
+                [
+                  45.184198,
+                  42.674838
+                ],
+                [
+                  45.282693,
+                  42.586394
+                ],
+                [
+                  45.293648,
+                  42.572906
+                ],
+                [
+                  45.301571,
+                  42.559842
+                ],
+                [
+                  45.212879,
+                  41.898321
+                ],
+                [
+                  45.066221,
+                  41.837498
+                ],
+                [
+                  44.892175,
+                  41.76975
+                ],
+                [
+                  44.628315,
+                  41.685621
+                ],
+                [
+                  44.479177,
+                  41.747969
+                ],
+                [
+                  44.261929,
+                  42.033972
+                ],
+                [
+                  44.257692,
+                  42.050664
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q203339",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mtskheta-Mtianeti"
+        }
+      ],
+      "properties": {
+        "title": "Mtskheta-Mtianeti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "mkhare"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.632054,
+                  42.435446
+                ],
+                [
+                  42.352588,
+                  42.793796
+                ],
+                [
+                  42.37729,
+                  42.82842
+                ],
+                [
+                  42.491908,
+                  42.88715
+                ],
+                [
+                  43.175228,
+                  42.934471
+                ],
+                [
+                  43.517426,
+                  42.86046
+                ],
+                [
+                  43.586259,
+                  42.835629
+                ],
+                [
+                  43.800613,
+                  42.746462
+                ],
+                [
+                  43.908152,
+                  42.566213
+                ],
+                [
+                  43.902158,
+                  42.515648
+                ],
+                [
+                  43.827124,
+                  42.458236
+                ],
+                [
+                  43.808003,
+                  42.451466
+                ],
+                [
+                  43.587448,
+                  42.394725
+                ],
+                [
+                  43.121637,
+                  42.344341
+                ],
+                [
+                  43.050013,
+                  42.339586
+                ],
+                [
+                  42.632054,
+                  42.435446
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q38893",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Racha-Lechkhumi and Kvemo Svaneti"
+        }
+      ],
+      "properties": {
+        "title": "Racha-Lechkhumi and Kvemo Svaneti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "mkhare"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.554861,
+                  42.389838
+                ],
+                [
+                  41.551195,
+                  42.406457
+                ],
+                [
+                  41.884503,
+                  42.964639
+                ],
+                [
+                  41.907964,
+                  42.987247
+                ],
+                [
+                  42.154334,
+                  43.217498
+                ],
+                [
+                  42.159834,
+                  43.21974
+                ],
+                [
+                  42.185363,
+                  43.225476
+                ],
+                [
+                  42.354551,
+                  43.236018
+                ],
+                [
+                  42.422867,
+                  43.22899
+                ],
+                [
+                  42.79132,
+                  43.176177
+                ],
+                [
+                  42.829768,
+                  43.168761
+                ],
+                [
+                  43.000093,
+                  43.098662
+                ],
+                [
+                  43.175228,
+                  42.934471
+                ],
+                [
+                  43.06562,
+                  42.822064
+                ],
+                [
+                  42.268666,
+                  42.100609
+                ],
+                [
+                  42.228978,
+                  42.097198
+                ],
+                [
+                  41.715249,
+                  42.059343
+                ],
+                [
+                  41.664073,
+                  42.113959
+                ],
+                [
+                  41.554861,
+                  42.389838
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200309",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Samegrelo-Zemo Svaneti"
+        }
+      ],
+      "properties": {
+        "title": "Samegrelo-Zemo Svaneti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.487877,
+                  41.686732
+                ],
+                [
+                  42.481159,
+                  41.700995
+                ],
+                [
+                  42.481676,
+                  41.798663
+                ],
+                [
+                  42.62389,
+                  41.832951
+                ],
+                [
+                  43.426218,
+                  41.916615
+                ],
+                [
+                  43.454123,
+                  41.917958
+                ],
+                [
+                  43.519029,
+                  41.906125
+                ],
+                [
+                  43.554375,
+                  41.893826
+                ],
+                [
+                  43.844074,
+                  41.772463
+                ],
+                [
+                  43.886241,
+                  41.734197
+                ],
+                [
+                  43.951457,
+                  41.335358
+                ],
+                [
+                  43.978186,
+                  41.164617
+                ],
+                [
+                  43.754156,
+                  41.108241
+                ],
+                [
+                  43.729713,
+                  41.106691
+                ],
+                [
+                  43.460324,
+                  41.104521
+                ],
+                [
+                  43.450453,
+                  41.104676
+                ],
+                [
+                  43.440428,
+                  41.106588
+                ],
+                [
+                  43.230622,
+                  41.17263
+                ],
+                [
+                  43.216204,
+                  41.180537
+                ],
+                [
+                  43.103136,
+                  41.248801
+                ],
+                [
+                  42.586648,
+                  41.579107
+                ],
+                [
+                  42.497696,
+                  41.674252
+                ],
+                [
+                  42.487877,
+                  41.686732
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q19039",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Samtskhe–Javakheti"
+        }
+      ],
+      "properties": {
+        "title": "Samtskhe–Javakheti"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.672198,
+                  41.791429
+                ],
+                [
+                  43.426218,
+                  41.916615
+                ],
+                [
+                  43.433453,
+                  41.955372
+                ],
+                [
+                  43.587448,
+                  42.394725
+                ],
+                [
+                  43.668994,
+                  42.443327
+                ],
+                [
+                  43.908152,
+                  42.566213
+                ],
+                [
+                  44.055068,
+                  42.615307
+                ],
+                [
+                  44.185803,
+                  42.626508
+                ],
+                [
+                  44.268337,
+                  42.566265
+                ],
+                [
+                  44.33438,
+                  42.494719
+                ],
+                [
+                  44.573228,
+                  41.878891
+                ],
+                [
+                  44.559689,
+                  41.850572
+                ],
+                [
+                  44.463054,
+                  41.721588
+                ],
+                [
+                  44.393291,
+                  41.720296
+                ],
+                [
+                  44.117545,
+                  41.71717
+                ],
+                [
+                  43.886241,
+                  41.734197
+                ],
+                [
+                  43.738964,
+                  41.767373
+                ],
+                [
+                  43.672198,
+                  41.791429
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q200047",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Inner Kartli"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shida Kartli"
+        },
+        {
+          "lang": "en",
+          "toponym": "Upper Kartli"
+        }
+      ],
+      "properties": {
+        "title": "Shida Kartli"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tbilisi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city of the sovereign state of Georgia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.715648,
+                  41.673891
+                ],
+                [
+                  44.680715,
+                  41.705491
+                ],
+                [
+                  44.693117,
+                  41.721485
+                ],
+                [
+                  44.732598,
+                  41.761741
+                ],
+                [
+                  44.805255,
+                  41.79533
+                ],
+                [
+                  44.830783,
+                  41.793677
+                ],
+                [
+                  44.892175,
+                  41.76975
+                ],
+                [
+                  44.999765,
+                  41.690324
+                ],
+                [
+                  45.009274,
+                  41.665726
+                ],
+                [
+                  44.980852,
+                  41.634332
+                ],
+                [
+                  44.943231,
+                  41.625031
+                ],
+                [
+                  44.904887,
+                  41.626788
+                ],
+                [
+                  44.826856,
+                  41.643557
+                ],
+                [
+                  44.715648,
+                  41.673891
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q994",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tbilisi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tbilissi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tiflis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tpilisi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tpilissi"
+        }
+      ],
+      "properties": {
+        "title": "Tbilisi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1210300",
+          "label": "mkhare"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    }
+  ],
+  "title": "Georgian regions",
+  "type": "FeatureCollection"
+}

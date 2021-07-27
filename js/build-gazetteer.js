@@ -26,6 +26,7 @@ const GAZETTEERS = {
   'ethiopian-regions': 'Ethiopian regions',
   'french-regions': 'French regions',
   'geographic-regions': 'Geographic regions',
+  'georgian-regions': 'Georgian regions',
   'greek-regions': 'Greek administrative regions',
   'historical': 'Historical places',
   'indian-states': 'Indian states and union territories',
@@ -475,6 +476,13 @@ const getWikidataUkrainianOblast = id => getWikidataPlace(
     : ['wd:Q3348196'] // oblast of Ukraine
 )
 
+const getWikidataGeorgianRegion = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q45693' // Adjara
+    ? ['wd:Q244339']  // administrative territorial entity of Georgia
+    : ['wd:Q1210300'] // mkhare
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -601,6 +609,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'ukrainian-oblasts':
         promise = getWikidataUkrainianOblast(place.id)
+        break
+      case 'georgian-regions':
+        promise = getWikidataGeorgianRegion(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

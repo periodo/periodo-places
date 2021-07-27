@@ -1,0 +1,46 @@
+{
+  "Adjara": {
+    "id": "http://www.wikidata.org/entity/Q45693",
+    "covers": [ "Ajaria" ]
+  },
+  "Guria": {
+    "id": "http://www.wikidata.org/entity/Q19038",
+    "covers": [ "Guria" ]
+  },
+  "Imereti": {
+    "id": "http://www.wikidata.org/entity/Q200045",
+    "covers": [ "Imereti" ]
+  },
+  "Kakheti": {
+    "id": "http://www.wikidata.org/entity/Q169674",
+    "covers": [ "Kakheti" ]
+  },
+  "Kvemo Kartli": {
+    "id": "http://www.wikidata.org/entity/Q200048",
+    "covers": [ "Kvemo Kartli" ]
+  },
+  "Mtskheta-Mtianeti": {
+    "id": "http://www.wikidata.org/entity/Q203339",
+    "covers": [ "Mtskheta-Mtianeti" ]
+  },
+  "Racha-Lechkhumi and Kvemo Svaneti": {
+    "id": "http://www.wikidata.org/entity/Q38893",
+    "covers": [ "Racha-Lechkhumi-Kvemo Svaneti" ]
+  },
+  "Samegrelo-Zemo Svaneti": {
+    "id": "http://www.wikidata.org/entity/Q200309",
+    "covers": [ "Samegrelo-Zemo Svaneti" ]
+  },
+  "Samtskhe–Javakheti": {
+    "id": "http://www.wikidata.org/entity/Q19039",
+    "covers": [ "Samtskhe-Javakheti" ]
+  },
+  "Shida Kartli": {
+    "id": "http://www.wikidata.org/entity/Q200047",
+    "covers": [ "Shida Kartli" ]
+  },
+  "Tbilisi": {
+    "id": "http://www.wikidata.org/entity/Q994",
+    "covers": [ "Tbilisi" ]
+  }
+}
