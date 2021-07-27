@@ -40,6 +40,7 @@ GAZETTEERS := \
 	gazetteers/turkmen-regions.json \
 	gazetteers/ukrainian-oblasts.json \
 	gazetteers/us-states.json \
+	gazetteers/uzbek-regions.json \
 	gazetteers/vietnamese-provinces.json \
 	gazetteers/yemeni-governorates.json
 

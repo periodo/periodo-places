@@ -1,0 +1,1915 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  71.633488,
+                  40.708058
+                ],
+                [
+                  71.581812,
+                  40.774256
+                ],
+                [
+                  71.581915,
+                  40.839781
+                ],
+                [
+                  71.586153,
+                  40.845517
+                ],
+                [
+                  71.644237,
+                  40.889959
+                ],
+                [
+                  72.33236,
+                  41.072843
+                ],
+                [
+                  73.14337,
+                  40.833839
+                ],
+                [
+                  73.148641,
+                  40.813686
+                ],
+                [
+                  73.118048,
+                  40.782938
+                ],
+                [
+                  72.748355,
+                  40.575096
+                ],
+                [
+                  72.625468,
+                  40.5105
+                ],
+                [
+                  72.394061,
+                  40.389422
+                ],
+                [
+                  72.370497,
+                  40.38565
+                ],
+                [
+                  72.211644,
+                  40.425596
+                ],
+                [
+                  71.64341,
+                  40.697284
+                ],
+                [
+                  71.633488,
+                  40.708058
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487384",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Andijan Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Andijon province"
+        }
+      ],
+      "properties": {
+        "title": "Andijan Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  62.187061,
+                  40.505516
+                ],
+                [
+                  62.18037,
+                  41.392306
+                ],
+                [
+                  62.534767,
+                  41.493282
+                ],
+                [
+                  62.619052,
+                  41.491783
+                ],
+                [
+                  64.793286,
+                  40.950757
+                ],
+                [
+                  65.365447,
+                  40.70966
+                ],
+                [
+                  65.340281,
+                  40.527501
+                ],
+                [
+                  65.137813,
+                  39.464258
+                ],
+                [
+                  64.889352,
+                  39.167868
+                ],
+                [
+                  64.884701,
+                  39.163786
+                ],
+                [
+                  64.878965,
+                  39.161176
+                ],
+                [
+                  64.367566,
+                  38.940374
+                ],
+                [
+                  64.180144,
+                  38.945117
+                ],
+                [
+                  64.150585,
+                  38.949458
+                ],
+                [
+                  64.120613,
+                  38.96168
+                ],
+                [
+                  63.820063,
+                  39.129137
+                ],
+                [
+                  63.709268,
+                  39.190891
+                ],
+                [
+                  62.593161,
+                  39.890228
+                ],
+                [
+                  62.524586,
+                  39.939734
+                ],
+                [
+                  62.452808,
+                  40.009239
+                ],
+                [
+                  62.187061,
+                  40.505516
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487372",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bukhara Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Buxoro province"
+        }
+      ],
+      "properties": {
+        "title": "Bukhara Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.355426,
+                  40.435104
+                ],
+                [
+                  70.353824,
+                  40.456136
+                ],
+                [
+                  70.369637,
+                  40.475515
+                ],
+                [
+                  70.81297,
+                  40.73648
+                ],
+                [
+                  70.829817,
+                  40.74263
+                ],
+                [
+                  70.931464,
+                  40.774747
+                ],
+                [
+                  71.581812,
+                  40.774256
+                ],
+                [
+                  72.103486,
+                  40.616798
+                ],
+                [
+                  72.207614,
+                  40.569979
+                ],
+                [
+                  72.221721,
+                  40.560419
+                ],
+                [
+                  72.222806,
+                  40.555354
+                ],
+                [
+                  72.228328,
+                  40.459606
+                ],
+                [
+                  71.757304,
+                  39.903095
+                ],
+                [
+                  71.741801,
+                  39.90077
+                ],
+                [
+                  71.113674,
+                  39.874466
+                ],
+                [
+                  71.021897,
+                  39.880823
+                ],
+                [
+                  71.009288,
+                  39.885732
+                ],
+                [
+                  70.371394,
+                  40.364927
+                ],
+                [
+                  70.355426,
+                  40.435104
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487089",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fergana Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fergana"
+        }
+      ],
+      "properties": {
+        "title": "Fergana Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  66.620151,
+                  40.4951
+                ],
+                [
+                  66.61426,
+                  41.084159
+                ],
+                [
+                  66.635189,
+                  41.112168
+                ],
+                [
+                  66.75789,
+                  41.15314
+                ],
+                [
+                  67.937434,
+                  41.20038
+                ],
+                [
+                  68.117371,
+                  41.066745
+                ],
+                [
+                  68.66845,
+                  40.282296
+                ],
+                [
+                  68.669535,
+                  40.280126
+                ],
+                [
+                  68.696545,
+                  40.111739
+                ],
+                [
+                  68.652895,
+                  39.895446
+                ],
+                [
+                  68.605817,
+                  39.666882
+                ],
+                [
+                  68.600339,
+                  39.642853
+                ],
+                [
+                  68.587007,
+                  39.623164
+                ],
+                [
+                  68.51745,
+                  39.54844
+                ],
+                [
+                  68.49771,
+                  39.541412
+                ],
+                [
+                  68.436267,
+                  39.528803
+                ],
+                [
+                  68.386606,
+                  39.525185
+                ],
+                [
+                  67.477411,
+                  39.484413
+                ],
+                [
+                  67.436483,
+                  39.485705
+                ],
+                [
+                  67.31923,
+                  39.566164
+                ],
+                [
+                  67.30507,
+                  39.579031
+                ],
+                [
+                  66.620151,
+                  40.4951
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q488811",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jizzakh Region"
+        }
+      ],
+      "properties": {
+        "title": "Jizzakh Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karakalpakstan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous republic in Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  55.976459,
+                  44.075295
+                ],
+                [
+                  55.975839,
+                  44.993275
+                ],
+                [
+                  55.975839,
+                  44.994361
+                ],
+                [
+                  55.976149,
+                  44.995032
+                ],
+                [
+                  55.976252,
+                  44.995136
+                ],
+                [
+                  55.976355,
+                  44.995239
+                ],
+                [
+                  55.976769,
+                  44.995601
+                ],
+                [
+                  55.977182,
+                  44.995808
+                ],
+                [
+                  55.977389,
+                  44.995911
+                ],
+                [
+                  55.977802,
+                  44.996066
+                ],
+                [
+                  55.978112,
+                  44.996169
+                ],
+                [
+                  55.978319,
+                  44.996221
+                ],
+                [
+                  56.07206,
+                  45.017563
+                ],
+                [
+                  56.634506,
+                  45.145308
+                ],
+                [
+                  57.103212,
+                  45.251761
+                ],
+                [
+                  57.478279,
+                  45.336924
+                ],
+                [
+                  57.728186,
+                  45.390926
+                ],
+                [
+                  57.9783,
+                  45.444927
+                ],
+                [
+                  58.036075,
+                  45.457071
+                ],
+                [
+                  58.209604,
+                  45.493348
+                ],
+                [
+                  58.390265,
+                  45.530142
+                ],
+                [
+                  58.450416,
+                  45.542389
+                ],
+                [
+                  58.531445,
+                  45.558719
+                ],
+                [
+                  58.554906,
+                  45.557169
+                ],
+                [
+                  58.582191,
+                  45.548694
+                ],
+                [
+                  58.658982,
+                  45.512262
+                ],
+                [
+                  60.886237,
+                  44.454135
+                ],
+                [
+                  61.036305,
+                  44.382822
+                ],
+                [
+                  62.470999,
+                  43.252761
+                ],
+                [
+                  62.465418,
+                  41.080955
+                ],
+                [
+                  62.239488,
+                  40.998971
+                ],
+                [
+                  62.186727,
+                  40.985871
+                ],
+                [
+                  57.010194,
+                  41.254124
+                ],
+                [
+                  55.978422,
+                  41.321717
+                ],
+                [
+                  55.978009,
+                  41.780681
+                ],
+                [
+                  55.976459,
+                  44.075295
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q484245",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Karakalpakia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Karakalpakstan"
+        }
+      ],
+      "properties": {
+        "title": "Karakalpakstan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7631083",
+          "label": "administrative territorial entity of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.399972,
+                  41.279522
+                ],
+                [
+                  70.397181,
+                  41.306445
+                ],
+                [
+                  70.398577,
+                  41.313758
+                ],
+                [
+                  70.401419,
+                  41.319365
+                ],
+                [
+                  70.470782,
+                  41.404879
+                ],
+                [
+                  70.633807,
+                  41.467496
+                ],
+                [
+                  70.66781,
+                  41.471372
+                ],
+                [
+                  71.649507,
+                  41.54992
+                ],
+                [
+                  71.671418,
+                  41.547388
+                ],
+                [
+                  72.158417,
+                  41.187875
+                ],
+                [
+                  72.169889,
+                  41.168651
+                ],
+                [
+                  72.174643,
+                  41.141418
+                ],
+                [
+                  72.195486,
+                  41.006358
+                ],
+                [
+                  72.165859,
+                  40.906883
+                ],
+                [
+                  72.158263,
+                  40.901483
+                ],
+                [
+                  72.153767,
+                  40.899545
+                ],
+                [
+                  72.147721,
+                  40.897504
+                ],
+                [
+                  71.293923,
+                  40.620363
+                ],
+                [
+                  71.270978,
+                  40.616901
+                ],
+                [
+                  70.756293,
+                  40.695578
+                ],
+                [
+                  70.637424,
+                  40.770587
+                ],
+                [
+                  70.621766,
+                  40.785987
+                ],
+                [
+                  70.458006,
+                  41.015737
+                ],
+                [
+                  70.40979,
+                  41.196349
+                ],
+                [
+                  70.399972,
+                  41.279522
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q474876",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Namangan Region"
+        }
+      ],
+      "properties": {
+        "title": "Namangan Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  61.743704,
+                  41.847782
+                ],
+                [
+                  61.743084,
+                  41.861011
+                ],
+                [
+                  62.028321,
+                  43.480922
+                ],
+                [
+                  62.421285,
+                  43.533597
+                ],
+                [
+                  62.477716,
+                  43.541116
+                ],
+                [
+                  62.660237,
+                  43.562717
+                ],
+                [
+                  63.208007,
+                  43.627467
+                ],
+                [
+                  64.891005,
+                  43.722785
+                ],
+                [
+                  64.907025,
+                  43.720976
+                ],
+                [
+                  64.922941,
+                  43.719115
+                ],
+                [
+                  66.101267,
+                  42.990323
+                ],
+                [
+                  66.504137,
+                  41.993484
+                ],
+                [
+                  66.75789,
+                  41.15314
+                ],
+                [
+                  66.801225,
+                  40.775212
+                ],
+                [
+                  66.773165,
+                  40.721907
+                ],
+                [
+                  66.620151,
+                  40.4951
+                ],
+                [
+                  66.169998,
+                  40.101764
+                ],
+                [
+                  66.105454,
+                  40.055747
+                ],
+                [
+                  65.255583,
+                  39.491802
+                ],
+                [
+                  65.236618,
+                  39.482319
+                ],
+                [
+                  65.137813,
+                  39.464258
+                ],
+                [
+                  62.18037,
+                  41.392306
+                ],
+                [
+                  61.751611,
+                  41.834191
+                ],
+                [
+                  61.743704,
+                  41.847782
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487570",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Navoiy Region"
+        }
+      ],
+      "properties": {
+        "title": "Navoiy Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  64.424315,
+                  38.882951
+                ],
+                [
+                  64.367566,
+                  38.940374
+                ],
+                [
+                  64.474442,
+                  39.030951
+                ],
+                [
+                  64.931262,
+                  39.341191
+                ],
+                [
+                  64.937153,
+                  39.344782
+                ],
+                [
+                  65.090632,
+                  39.436663
+                ],
+                [
+                  65.137813,
+                  39.464258
+                ],
+                [
+                  65.255583,
+                  39.491802
+                ],
+                [
+                  65.7678,
+                  39.556759
+                ],
+                [
+                  65.799271,
+                  39.55588
+                ],
+                [
+                  65.808779,
+                  39.554692
+                ],
+                [
+                  66.767274,
+                  39.420643
+                ],
+                [
+                  66.873727,
+                  39.405089
+                ],
+                [
+                  67.358697,
+                  39.290431
+                ],
+                [
+                  67.66758,
+                  39.131773
+                ],
+                [
+                  67.676727,
+                  39.119629
+                ],
+                [
+                  67.678587,
+                  39.105935
+                ],
+                [
+                  67.673254,
+                  39.002978
+                ],
+                [
+                  67.532085,
+                  38.704563
+                ],
+                [
+                  67.528519,
+                  38.701101
+                ],
+                [
+                  66.666246,
+                  37.981765
+                ],
+                [
+                  66.636524,
+                  37.966593
+                ],
+                [
+                  65.671629,
+                  38.219684
+                ],
+                [
+                  65.60414,
+                  38.237409
+                ],
+                [
+                  64.634897,
+                  38.744148
+                ],
+                [
+                  64.424315,
+                  38.882951
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487577",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qashqadaryo Region"
+        }
+      ],
+      "properties": {
+        "title": "Qashqadaryo Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  65.189954,
+                  39.603733
+                ],
+                [
+                  65.121483,
+                  39.853175
+                ],
+                [
+                  65.123188,
+                  39.858033
+                ],
+                [
+                  65.127736,
+                  39.861702
+                ],
+                [
+                  65.506007,
+                  40.144372
+                ],
+                [
+                  66.250665,
+                  40.599253
+                ],
+                [
+                  66.262963,
+                  40.606204
+                ],
+                [
+                  66.276141,
+                  40.609563
+                ],
+                [
+                  66.502845,
+                  40.626616
+                ],
+                [
+                  66.511682,
+                  40.625634
+                ],
+                [
+                  66.883029,
+                  40.47815
+                ],
+                [
+                  66.888455,
+                  40.475204
+                ],
+                [
+                  67.459945,
+                  39.938183
+                ],
+                [
+                  67.476688,
+                  39.91746
+                ],
+                [
+                  67.503715,
+                  39.824236
+                ],
+                [
+                  67.436483,
+                  39.485705
+                ],
+                [
+                  67.407079,
+                  39.361009
+                ],
+                [
+                  67.386873,
+                  39.294192
+                ],
+                [
+                  67.380259,
+                  39.292331
+                ],
+                [
+                  67.358697,
+                  39.290431
+                ],
+                [
+                  66.928349,
+                  39.293778
+                ],
+                [
+                  66.052847,
+                  39.319538
+                ],
+                [
+                  65.985978,
+                  39.333465
+                ],
+                [
+                  65.255583,
+                  39.491802
+                ],
+                [
+                  65.202201,
+                  39.574071
+                ],
+                [
+                  65.189954,
+                  39.603733
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487532",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Samarkand province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Samarqand Region"
+        }
+      ],
+      "properties": {
+        "title": "Samarqand Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  68.095823,
+                  40.252427
+                ],
+                [
+                  68.091792,
+                  40.279764
+                ],
+                [
+                  68.094583,
+                  40.295577
+                ],
+                [
+                  68.170186,
+                  40.592225
+                ],
+                [
+                  68.172511,
+                  40.597316
+                ],
+                [
+                  68.570884,
+                  40.913524
+                ],
+                [
+                  68.600133,
+                  40.930061
+                ],
+                [
+                  68.613982,
+                  40.937296
+                ],
+                [
+                  68.627935,
+                  40.94453
+                ],
+                [
+                  68.649524,
+                  40.951691
+                ],
+                [
+                  68.700179,
+                  40.91634
+                ],
+                [
+                  69.053801,
+                  40.658294
+                ],
+                [
+                  69.115192,
+                  40.595455
+                ],
+                [
+                  69.121445,
+                  40.588376
+                ],
+                [
+                  69.121859,
+                  40.581296
+                ],
+                [
+                  69.124029,
+                  40.459546
+                ],
+                [
+                  69.093282,
+                  40.270049
+                ],
+                [
+                  69.079019,
+                  40.23031
+                ],
+                [
+                  69.07364,
+                  40.216941
+                ],
+                [
+                  68.880787,
+                  39.878342
+                ],
+                [
+                  68.741623,
+                  39.819638
+                ],
+                [
+                  68.651086,
+                  39.844701
+                ],
+                [
+                  68.640276,
+                  39.848136
+                ],
+                [
+                  68.109672,
+                  40.232893
+                ],
+                [
+                  68.105952,
+                  40.236666
+                ],
+                [
+                  68.100061,
+                  40.244366
+                ],
+                [
+                  68.095823,
+                  40.252427
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487547",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sirdaryo Region"
+        }
+      ],
+      "properties": {
+        "title": "Sirdaryo Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  66.494835,
+                  37.379425
+                ],
+                [
+                  66.493491,
+                  37.522207
+                ],
+                [
+                  66.514989,
+                  37.743485
+                ],
+                [
+                  66.518813,
+                  37.782708
+                ],
+                [
+                  66.698492,
+                  38.075454
+                ],
+                [
+                  67.524179,
+                  38.966976
+                ],
+                [
+                  67.531465,
+                  38.972815
+                ],
+                [
+                  67.537511,
+                  38.976898
+                ],
+                [
+                  67.543402,
+                  38.979637
+                ],
+                [
+                  67.555081,
+                  38.983435
+                ],
+                [
+                  67.567793,
+                  38.985967
+                ],
+                [
+                  67.673254,
+                  39.002978
+                ],
+                [
+                  67.948906,
+                  39.002013
+                ],
+                [
+                  67.963272,
+                  39.00191
+                ],
+                [
+                  68.069106,
+                  38.996096
+                ],
+                [
+                  68.077271,
+                  38.995528
+                ],
+                [
+                  68.08528,
+                  38.993952
+                ],
+                [
+                  68.085642,
+                  38.993771
+                ],
+                [
+                  68.100938,
+                  38.979276
+                ],
+                [
+                  68.163725,
+                  38.887472
+                ],
+                [
+                  68.173699,
+                  38.867319
+                ],
+                [
+                  68.35622,
+                  38.212604
+                ],
+                [
+                  68.360664,
+                  38.174053
+                ],
+                [
+                  68.344334,
+                  38.115452
+                ],
+                [
+                  68.31953,
+                  38.06021
+                ],
+                [
+                  67.780544,
+                  37.188868
+                ],
+                [
+                  67.259129,
+                  37.185147
+                ],
+                [
+                  66.519588,
+                  37.36418
+                ],
+                [
+                  66.494835,
+                  37.379425
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487537",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Surxondaryo Region"
+        }
+      ],
+      "properties": {
+        "title": "Surxondaryo Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  69.213311,
+                  41.225049
+                ],
+                [
+                  69.136069,
+                  41.282828
+                ],
+                [
+                  69.170132,
+                  41.363044
+                ],
+                [
+                  69.223172,
+                  41.403276
+                ],
+                [
+                  69.256935,
+                  41.403552
+                ],
+                [
+                  69.311243,
+                  41.387972
+                ],
+                [
+                  69.34819,
+                  41.370166
+                ],
+                [
+                  69.360654,
+                  41.315858
+                ],
+                [
+                  69.36377,
+                  41.298498
+                ],
+                [
+                  69.243448,
+                  41.219172
+                ],
+                [
+                  69.213311,
+                  41.225049
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q269",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tashkent"
+        }
+      ],
+      "properties": {
+        "title": "Tashkent"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7631083",
+          "label": "administrative territorial entity of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  69.07364,
+                  40.216941
+                ],
+                [
+                  68.649524,
+                  40.951691
+                ],
+                [
+                  68.746274,
+                  41.0638
+                ],
+                [
+                  69.036178,
+                  41.374013
+                ],
+                [
+                  69.040313,
+                  41.376649
+                ],
+                [
+                  69.044447,
+                  41.379181
+                ],
+                [
+                  70.357907,
+                  42.06224
+                ],
+                [
+                  70.734266,
+                  42.197296
+                ],
+                [
+                  71.014042,
+                  42.287704
+                ],
+                [
+                  71.045772,
+                  42.29096
+                ],
+                [
+                  71.077604,
+                  42.281167
+                ],
+                [
+                  71.253201,
+                  42.197555
+                ],
+                [
+                  71.238215,
+                  42.160244
+                ],
+                [
+                  70.458006,
+                  41.015737
+                ],
+                [
+                  70.280392,
+                  40.877713
+                ],
+                [
+                  69.285259,
+                  40.194964
+                ],
+                [
+                  69.24769,
+                  40.181735
+                ],
+                [
+                  69.197926,
+                  40.182975
+                ],
+                [
+                  69.108009,
+                  40.203645
+                ],
+                [
+                  69.07364,
+                  40.216941
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487585",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tashkent Region"
+        }
+      ],
+      "properties": {
+        "title": "Tashkent Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Uzbekistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  60.059207,
+                  41.434165
+                ],
+                [
+                  60.049182,
+                  41.753499
+                ],
+                [
+                  60.147626,
+                  41.943357
+                ],
+                [
+                  60.150572,
+                  41.947931
+                ],
+                [
+                  60.157393,
+                  41.951962
+                ],
+                [
+                  60.296868,
+                  42.003431
+                ],
+                [
+                  60.313094,
+                  42.005576
+                ],
+                [
+                  60.444766,
+                  41.975319
+                ],
+                [
+                  61.804838,
+                  41.318589
+                ],
+                [
+                  61.8638,
+                  41.28456
+                ],
+                [
+                  62.239488,
+                  40.998971
+                ],
+                [
+                  62.402734,
+                  40.859935
+                ],
+                [
+                  62.435135,
+                  40.821772
+                ],
+                [
+                  62.447279,
+                  40.788312
+                ],
+                [
+                  62.395603,
+                  40.70271
+                ],
+                [
+                  62.18714,
+                  40.50559
+                ],
+                [
+                  62.187061,
+                  40.505516
+                ],
+                [
+                  60.443266,
+                  41.219656
+                ],
+                [
+                  60.094244,
+                  41.389516
+                ],
+                [
+                  60.066132,
+                  41.410497
+                ],
+                [
+                  60.059207,
+                  41.434165
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487561",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Xorazm Region"
+        }
+      ],
+      "properties": {
+        "title": "Xorazm Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842420",
+          "label": "region of Uzbekistan"
+        }
+      ]
+    }
+  ],
+  "title": "Uzbek regions",
+  "type": "FeatureCollection"
+}

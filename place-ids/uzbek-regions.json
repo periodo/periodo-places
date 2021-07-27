@@ -1,0 +1,58 @@
+{
+  "Andijan Region": {
+    "id": "http://www.wikidata.org/entity/Q487384",
+    "covers": [ "Andijon Viloyati" ]
+  },
+  "Bukhara Region": {
+    "id": "http://www.wikidata.org/entity/Q487372",
+    "covers": [ "Buxoro Viloyati" ]
+  },
+  "Fergana Region": {
+    "id": "http://www.wikidata.org/entity/Q487089",
+    "covers": [ "Farg`ona Viloyati" ]
+  },
+  "Jizzakh Region": {
+    "id": "http://www.wikidata.org/entity/Q488811",
+    "covers": [ "Jizzax Viloyati" ]
+  },
+  "Karakalpakstan": {
+    "id": "http://www.wikidata.org/entity/Q484245",
+    "covers": [ "Qoraqalpog`iston Respublikasi" ]
+  },
+  "Namangan Region": {
+    "id": "http://www.wikidata.org/entity/Q474876",
+    "covers": [ "Namangan Viloyati" ]
+  },
+  "Navoiy Region": {
+    "id": "http://www.wikidata.org/entity/Q487570",
+    "covers": [ "Navoiy Viloyati" ]
+  },
+  "Qashqadaryo Region": {
+    "id": "http://www.wikidata.org/entity/Q487577",
+    "covers": [ "Qashqadaryo Viloyati" ]
+  },
+  "Samarqand Region": {
+    "id": "http://www.wikidata.org/entity/Q487532",
+    "covers": [ "Samarqand Viloyati" ]
+  },
+  "Sirdaryo Region": {
+    "id": "http://www.wikidata.org/entity/Q487547",
+    "covers": [ "Sirdaryo Viloyati" ]
+  },
+  "Surxondaryo Region": {
+    "id": "http://www.wikidata.org/entity/Q487537",
+    "covers": [ "Surxondaryo Viloyati" ]
+  },
+  "Tashkent": {
+    "id": "http://www.wikidata.org/entity/Q269",
+    "covers": [ "Toshkent Shahri" ]
+  },
+  "Tashkent Region": {
+    "id": "http://www.wikidata.org/entity/Q487585",
+    "covers": [ "Toshkent Viloyati" ]
+  },
+  "Xorazm Region": {
+    "id": "http://www.wikidata.org/entity/Q487561",
+    "covers": [ "Xorazm Viloyati" ]
+  }
+}

@@ -113,6 +113,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **U.S. states gazetteer**<br>
   https://data.perio.do/graphs/places/us-states.json
 
+* ** Uzbek regions gazetteer**<br>
+  https://data.perio.do/graphs/places/uzbek-regions.json
+
 * **Vietnamese provinces and municipalities gazetteer**<br>
   https://data.perio.do/graphs/places/vietnamese-provinces.json
 
@@ -571,6 +574,17 @@ This gazetteer was created by:
 1. the geometries for U.S. unincorporated territories extracted from the merged Natural Earth cultural vectors for countries and map units (see [above](#present-day-countries-gazetteer)), and then
 
 1. using the ISO 3166-2 (or, in the case of unincorporated territories, ISO 3166-1 alpha-2) codes from the Natural Earth data to query Wikidata for the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Uzbek regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/uzbek-regions.json](place-ids/uzbek-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q842420 region of Uzbekistan](https://www.wikidata.org/wiki/Q842420) (or [Q7631083 administrative territorial entity of Uzbekistan](https://www.wikidata.org/wiki/Q7631083) in the case of Tashkent and Karakalpakstan) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Vietnamese provinces and municipalities gazetteer
