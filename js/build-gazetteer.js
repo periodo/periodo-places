@@ -52,6 +52,7 @@ const GAZETTEERS = {
   'thai-provinces': 'Thai provinces',
   'turkish-provinces': 'Turkish provinces',
   'turkmen-regions': 'Turkmen regions',
+  'ukrainian-oblasts': 'Ukrainian oblasts',
   'us-states': 'US states',
   'vietnamese-provinces': 'Vietnamese provinces and municipalities',
   'yemeni-governorates': 'Yemeni governorates'
@@ -467,6 +468,13 @@ const getWikidataBolivianDepartment = id => getWikidataPlace(
   ['wd:Q250050'] // department of Bolivia
 )
 
+const getWikidataUkrainianOblast = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q1899' // Kyiv
+    ? ['wd:Q5124045'] // city with special status
+    : ['wd:Q3348196'] // oblast of Ukraine
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -590,6 +598,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'bolivian-departments':
         promise = getWikidataBolivianDepartment(place.id)
+        break
+      case 'ukrainian-oblasts':
+        promise = getWikidataUkrainianOblast(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

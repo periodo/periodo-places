@@ -1,0 +1,102 @@
+{
+  "Cherkasy Oblast": {
+    "id": "http://www.wikidata.org/entity/Q161808",
+    "covers": [ "Cherkasy" ]
+  },
+  "Chernihiv Oblast": {
+    "id": "http://www.wikidata.org/entity/Q167874",
+    "covers": [ "Chernihiv" ]
+  },
+  "Chernivtsi Oblast": {
+    "id": "http://www.wikidata.org/entity/Q168856",
+    "covers": [ "Chernivtsi" ]
+  },
+  "Dnipropetrovsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q170672",
+    "covers": [ "Dnipropetrovs'k" ]
+  },
+  "Donetsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q2012050",
+    "covers": [ "Donets'k" ]
+  },
+  "Ivano-Frankivsk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q178269",
+    "covers": [ "Ivano-Frankivs'k" ]
+  },
+  "Kharkiv Oblast": {
+    "id": "http://www.wikidata.org/entity/Q170666",
+    "covers": [ "Kharkiv" ]
+  },
+  "Kherson Oblast": {
+    "id": "http://www.wikidata.org/entity/Q163271",
+    "covers": [ "Kherson" ]
+  },
+  "Khmelnytskyi Oblast": {
+    "id": "http://www.wikidata.org/entity/Q171331",
+    "covers": [ "Khmel'nyts'kyy" ]
+  },
+  "Kirovohrad Oblast": {
+    "id": "http://www.wikidata.org/entity/Q180981",
+    "covers": [ "Kirovohrad" ]
+  },
+  "Kyiv": {
+    "id": "http://www.wikidata.org/entity/Q1899",
+    "covers": [ "Kiev City" ]
+  },
+  "Kyiv Oblast": {
+    "id": "http://www.wikidata.org/entity/Q170036",
+    "covers": [ "Kiev" ]
+  },
+  "Luhansk Oblast": {
+    "id": "http://www.wikidata.org/entity/Q171965",
+    "covers": [ "Luhans'k" ]
+  },
+  "Lviv Oblast": {
+    "id": "http://www.wikidata.org/entity/Q164193",
+    "covers": [ "L'viv" ]
+  },
+  "Mykolaiv Oblast": {
+    "id": "http://www.wikidata.org/entity/Q181633",
+    "covers": [ "Mykolayiv" ]
+  },
+  "Odessa Oblast": {
+    "id": "http://www.wikidata.org/entity/Q171852",
+    "covers": [ "Odessa" ]
+  },
+  "Poltava Oblast": {
+    "id": "http://www.wikidata.org/entity/Q169501",
+    "covers": [ "Poltava" ]
+  },
+  "Rivne Oblast": {
+    "id": "http://www.wikidata.org/entity/Q174187",
+    "covers": [ "Rivne" ]
+  },
+  "Sumy Oblast": {
+    "id": "http://www.wikidata.org/entity/Q170446",
+    "covers": [ "Sumy" ]
+  },
+  "Ternopil Oblast": {
+    "id": "http://www.wikidata.org/entity/Q173407",
+    "covers": [ "Ternopil'" ]
+  },
+  "Vinnytsia Oblast": {
+    "id": "http://www.wikidata.org/entity/Q166709",
+    "covers": [ "Vinnytsya" ]
+  },
+  "Volyn Oblast": {
+    "id": "http://www.wikidata.org/entity/Q167859",
+    "covers": [ "Volyn" ]
+  },
+  "Zakarpattia Oblast": {
+    "id": "http://www.wikidata.org/entity/Q170213",
+    "covers": [ "Transcarpathia" ]
+  },
+  "Zaporizhzhia Oblast": {
+    "id": "http://www.wikidata.org/entity/Q171334",
+    "covers": [ "Zaporizhzhya" ]
+  },
+  "Zhytomyr Oblast": {
+    "id": "http://www.wikidata.org/entity/Q40637",
+    "covers": [ "Zhytomyr" ]
+  }
+}

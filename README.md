@@ -104,6 +104,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Turkmen regions gazetteer**<br>
   https://data.perio.do/graphs/places/turkmen-regions.json
 
+* **Ukrainian oblasts gazetteer**<br>
+  https://data.perio.do/graphs/places/ukrainian-oblasts.json
+
 * **U.S. states gazetteer**<br>
   https://data.perio.do/graphs/places/us-states.json
 
@@ -470,6 +473,19 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/turkmen-regions.json](place-ids/turkmen-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q12014176 region of Turkmenistan](https://www.wikidata.org/wiki/Q12014176) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Ukrainian oblasts gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/ukrainian-oblasts.json](place-ids/ukrainian-oblasts.json) for details), and
+
+1. querying Wikidata for instances of [Q3348196 oblast of Ukraine](https://www.wikidata.org/wiki/Q3348196) (or [Q5124045 city with special status](https://www.wikidata.org/wiki/Q5124045) in the case of Kyiv) add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that Crimea and Sevastopol are included in the [Russian federal subjects gazetteer](#russian-federal-subjects-gazetteer) as this is how they are labeled in the Natural Earth data.
 
 
 ### U.S. states gazetteer

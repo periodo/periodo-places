@@ -1,0 +1,4290 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cherkasy%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in central Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.593109,
+                  49.031478
+                ],
+                [
+                  29.592799,
+                  49.038816
+                ],
+                [
+                  29.594659,
+                  49.04512
+                ],
+                [
+                  29.674551,
+                  49.20971
+                ],
+                [
+                  29.697237,
+                  49.22728
+                ],
+                [
+                  32.004331,
+                  50.248923
+                ],
+                [
+                  32.013633,
+                  50.250938
+                ],
+                [
+                  32.019214,
+                  50.251455
+                ],
+                [
+                  32.031771,
+                  50.250576
+                ],
+                [
+                  32.037817,
+                  50.249285
+                ],
+                [
+                  32.09461,
+                  50.236934
+                ],
+                [
+                  32.262662,
+                  50.160582
+                ],
+                [
+                  32.26969,
+                  50.156835
+                ],
+                [
+                  32.697467,
+                  49.667356
+                ],
+                [
+                  32.752089,
+                  49.593821
+                ],
+                [
+                  32.75922,
+                  49.575631
+                ],
+                [
+                  32.855442,
+                  49.018404
+                ],
+                [
+                  32.855287,
+                  49.014399
+                ],
+                [
+                  32.854357,
+                  49.010368
+                ],
+                [
+                  32.850791,
+                  49.00582
+                ],
+                [
+                  32.8449,
+                  49.00117
+                ],
+                [
+                  32.782371,
+                  48.96373
+                ],
+                [
+                  32.77524,
+                  48.961715
+                ],
+                [
+                  30.247281,
+                  48.477558
+                ],
+                [
+                  30.108426,
+                  48.453322
+                ],
+                [
+                  29.965541,
+                  48.456862
+                ],
+                [
+                  29.961148,
+                  48.457198
+                ],
+                [
+                  29.957893,
+                  48.459316
+                ],
+                [
+                  29.635949,
+                  48.947038
+                ],
+                [
+                  29.594814,
+                  49.026982
+                ],
+                [
+                  29.593109,
+                  49.031478
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q161808",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cherkas'ka oblast'"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cherkashchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cherkasy Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Cherkasy Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chernihiv%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative unit in Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.512329,
+                  51.01668
+                ],
+                [
+                  30.508143,
+                  51.046755
+                ],
+                [
+                  30.515119,
+                  51.603673
+                ],
+                [
+                  30.570309,
+                  51.69992
+                ],
+                [
+                  30.661983,
+                  51.819422
+                ],
+                [
+                  30.741668,
+                  51.897919
+                ],
+                [
+                  30.918815,
+                  52.059175
+                ],
+                [
+                  30.934421,
+                  52.069717
+                ],
+                [
+                  30.959329,
+                  52.074678
+                ],
+                [
+                  32.35356,
+                  52.321588
+                ],
+                [
+                  32.394281,
+                  52.326807
+                ],
+                [
+                  33.196506,
+                  52.368949
+                ],
+                [
+                  33.358976,
+                  52.357555
+                ],
+                [
+                  33.376185,
+                  52.355255
+                ],
+                [
+                  33.400576,
+                  52.344343
+                ],
+                [
+                  33.486359,
+                  52.082041
+                ],
+                [
+                  33.48698,
+                  52.078475
+                ],
+                [
+                  33.485739,
+                  52.073075
+                ],
+                [
+                  33.166999,
+                  50.743001
+                ],
+                [
+                  33.164415,
+                  50.736387
+                ],
+                [
+                  33.095479,
+                  50.601925
+                ],
+                [
+                  33.061528,
+                  50.538414
+                ],
+                [
+                  33.023804,
+                  50.491595
+                ],
+                [
+                  33.009231,
+                  50.479994
+                ],
+                [
+                  32.878386,
+                  50.397441
+                ],
+                [
+                  32.873425,
+                  50.394857
+                ],
+                [
+                  32.727284,
+                  50.357908
+                ],
+                [
+                  32.223594,
+                  50.343232
+                ],
+                [
+                  32.216618,
+                  50.343077
+                ],
+                [
+                  32.139155,
+                  50.350105
+                ],
+                [
+                  31.328248,
+                  50.508442
+                ],
+                [
+                  31.321427,
+                  50.509837
+                ],
+                [
+                  31.280603,
+                  50.519191
+                ],
+                [
+                  31.275177,
+                  50.520767
+                ],
+                [
+                  30.740894,
+                  50.757367
+                ],
+                [
+                  30.737638,
+                  50.760209
+                ],
+                [
+                  30.513569,
+                  51.013166
+                ],
+                [
+                  30.512329,
+                  51.01668
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q167874",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chernihiv Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Chernihiv Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chernivtsi%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.928484,
+                  47.726441
+                ],
+                [
+                  24.927554,
+                  47.989629
+                ],
+                [
+                  24.927709,
+                  47.99366
+                ],
+                [
+                  24.928174,
+                  47.996967
+                ],
+                [
+                  24.930964,
+                  48.006011
+                ],
+                [
+                  24.93453,
+                  48.013452
+                ],
+                [
+                  24.989152,
+                  48.100165
+                ],
+                [
+                  24.993493,
+                  48.105074
+                ],
+                [
+                  25.577075,
+                  48.643284
+                ],
+                [
+                  25.586377,
+                  48.650726
+                ],
+                [
+                  25.598521,
+                  48.658322
+                ],
+                [
+                  25.636193,
+                  48.678114
+                ],
+                [
+                  27.370402,
+                  48.629719
+                ],
+                [
+                  27.409728,
+                  48.620728
+                ],
+                [
+                  27.438202,
+                  48.602538
+                ],
+                [
+                  27.458407,
+                  48.577319
+                ],
+                [
+                  27.472825,
+                  48.547166
+                ],
+                [
+                  27.50383,
+                  48.472365
+                ],
+                [
+                  27.480885,
+                  48.451411
+                ],
+                [
+                  27.420217,
+                  48.417149
+                ],
+                [
+                  26.173058,
+                  47.993144
+                ],
+                [
+                  26.125723,
+                  47.978416
+                ],
+                [
+                  25.017418,
+                  47.724582
+                ],
+                [
+                  24.94238,
+                  47.715563
+                ],
+                [
+                  24.928858,
+                  47.713938
+                ],
+                [
+                  24.928484,
+                  47.726441
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q168856",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chernivtsi Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Chernivtsi Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dnipropetrovsk%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in central Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.991661,
+                  47.603245
+                ],
+                [
+                  32.983755,
+                  47.706882
+                ],
+                [
+                  32.983755,
+                  47.710008
+                ],
+                [
+                  33.035276,
+                  47.96653
+                ],
+                [
+                  33.046128,
+                  48.000068
+                ],
+                [
+                  33.057497,
+                  48.025803
+                ],
+                [
+                  33.55757,
+                  48.771985
+                ],
+                [
+                  33.572194,
+                  48.787074
+                ],
+                [
+                  33.578395,
+                  48.791725
+                ],
+                [
+                  33.584441,
+                  48.79449
+                ],
+                [
+                  34.408267,
+                  49.07654
+                ],
+                [
+                  34.778322,
+                  49.173562
+                ],
+                [
+                  34.784058,
+                  49.17457
+                ],
+                [
+                  34.830774,
+                  49.1809
+                ],
+                [
+                  34.92622,
+                  49.183045
+                ],
+                [
+                  34.932266,
+                  49.182683
+                ],
+                [
+                  35.147808,
+                  49.153434
+                ],
+                [
+                  35.152769,
+                  49.152426
+                ],
+                [
+                  35.939646,
+                  48.974556
+                ],
+                [
+                  36.879072,
+                  48.581195
+                ],
+                [
+                  36.883103,
+                  48.579309
+                ],
+                [
+                  36.885584,
+                  48.576673
+                ],
+                [
+                  36.887444,
+                  48.573625
+                ],
+                [
+                  36.888684,
+                  48.570369
+                ],
+                [
+                  36.890544,
+                  48.559724
+                ],
+                [
+                  36.927028,
+                  48.20512
+                ],
+                [
+                  36.927183,
+                  48.201503
+                ],
+                [
+                  36.89256,
+                  48.067557
+                ],
+                [
+                  36.886359,
+                  48.061485
+                ],
+                [
+                  36.876127,
+                  48.053863
+                ],
+                [
+                  36.576145,
+                  47.844212
+                ],
+                [
+                  34.907306,
+                  47.52436
+                ],
+                [
+                  34.898263,
+                  47.523249
+                ],
+                [
+                  34.157481,
+                  47.473898
+                ],
+                [
+                  33.654411,
+                  47.486818
+                ],
+                [
+                  33.339443,
+                  47.495086
+                ],
+                [
+                  33.333501,
+                  47.495732
+                ],
+                [
+                  32.997707,
+                  47.593633
+                ],
+                [
+                  32.994193,
+                  47.595441
+                ],
+                [
+                  32.992126,
+                  47.598697
+                ],
+                [
+                  32.991661,
+                  47.603245
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170672",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dnepropetrovsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dnipropetrovs'ka oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dnipropetrovshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dnipropetrovsk Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Dnipropetrovsk Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Donetsk%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "an oblast of eastern Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.531342,
+                  47.887387
+                ],
+                [
+                  36.531135,
+                  47.891134
+                ],
+                [
+                  36.531342,
+                  47.895268
+                ],
+                [
+                  36.532065,
+                  47.899661
+                ],
+                [
+                  36.69004,
+                  48.77754
+                ],
+                [
+                  36.69252,
+                  48.781777
+                ],
+                [
+                  36.697016,
+                  48.785911
+                ],
+                [
+                  37.540996,
+                  49.225161
+                ],
+                [
+                  37.546939,
+                  49.227228
+                ],
+                [
+                  37.847334,
+                  49.23175
+                ],
+                [
+                  37.858806,
+                  49.230949
+                ],
+                [
+                  37.868108,
+                  49.227642
+                ],
+                [
+                  38.066752,
+                  49.150075
+                ],
+                [
+                  38.070472,
+                  49.14806
+                ],
+                [
+                  39.027107,
+                  48.006631
+                ],
+                [
+                  39.031292,
+                  48.00105
+                ],
+                [
+                  39.053668,
+                  47.931597
+                ],
+                [
+                  39.055012,
+                  47.923768
+                ],
+                [
+                  39.055529,
+                  47.917386
+                ],
+                [
+                  39.03618,
+                  47.857003
+                ],
+                [
+                  38.216482,
+                  47.103095
+                ],
+                [
+                  38.142263,
+                  47.037665
+                ],
+                [
+                  38.108084,
+                  47.026353
+                ],
+                [
+                  37.312999,
+                  46.875556
+                ],
+                [
+                  37.037764,
+                  46.876664
+                ],
+                [
+                  37.009555,
+                  46.914837
+                ],
+                [
+                  36.857006,
+                  47.19066
+                ],
+                [
+                  36.533047,
+                  47.883641
+                ],
+                [
+                  36.531342,
+                  47.887387
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2012050",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Donechyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Donets Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Donetsian Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Donetsk Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Donetsk Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ivano-Frankivsk%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.679144,
+                  47.84013
+                ],
+                [
+                  23.532859,
+                  48.723693
+                ],
+                [
+                  23.548361,
+                  48.884949
+                ],
+                [
+                  23.549292,
+                  48.88898
+                ],
+                [
+                  23.576473,
+                  48.968639
+                ],
+                [
+                  23.581589,
+                  48.977321
+                ],
+                [
+                  23.684115,
+                  49.086772
+                ],
+                [
+                  23.687888,
+                  49.090311
+                ],
+                [
+                  23.693624,
+                  49.094626
+                ],
+                [
+                  24.438746,
+                  49.515686
+                ],
+                [
+                  24.443862,
+                  49.516694
+                ],
+                [
+                  24.57233,
+                  49.524678
+                ],
+                [
+                  24.584577,
+                  49.52398
+                ],
+                [
+                  24.595946,
+                  49.522275
+                ],
+                [
+                  24.606333,
+                  49.519639
+                ],
+                [
+                  24.70705,
+                  49.491786
+                ],
+                [
+                  25.629371,
+                  48.760073
+                ],
+                [
+                  25.640068,
+                  48.745035
+                ],
+                [
+                  25.64627,
+                  48.69726
+                ],
+                [
+                  25.600381,
+                  48.4326
+                ],
+                [
+                  25.593818,
+                  48.406942
+                ],
+                [
+                  25.589942,
+                  48.398829
+                ],
+                [
+                  25.585136,
+                  48.39286
+                ],
+                [
+                  24.928858,
+                  47.713938
+                ],
+                [
+                  24.896599,
+                  47.710061
+                ],
+                [
+                  24.877789,
+                  47.718742
+                ],
+                [
+                  24.679144,
+                  47.84013
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q178269",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ivano-Frankivsk Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Ivano-Frankivsk Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kharkiv%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.953505,
+                  49.242886
+                ],
+                [
+                  34.841471,
+                  50.000049
+                ],
+                [
+                  34.908237,
+                  50.145958
+                ],
+                [
+                  34.970145,
+                  50.189366
+                ],
+                [
+                  34.975261,
+                  50.191975
+                ],
+                [
+                  35.127913,
+                  50.243213
+                ],
+                [
+                  35.397302,
+                  50.332354
+                ],
+                [
+                  35.402883,
+                  50.333672
+                ],
+                [
+                  35.83743,
+                  50.423228
+                ],
+                [
+                  35.931894,
+                  50.430153
+                ],
+                [
+                  37.415214,
+                  50.431858
+                ],
+                [
+                  37.435265,
+                  50.424934
+                ],
+                [
+                  37.599183,
+                  50.290885
+                ],
+                [
+                  37.946552,
+                  49.978191
+                ],
+                [
+                  38.022924,
+                  49.909142
+                ],
+                [
+                  38.078999,
+                  49.849051
+                ],
+                [
+                  38.080859,
+                  49.84626
+                ],
+                [
+                  38.080084,
+                  49.843108
+                ],
+                [
+                  37.929086,
+                  49.290945
+                ],
+                [
+                  37.92614,
+                  49.283865
+                ],
+                [
+                  37.911257,
+                  49.268569
+                ],
+                [
+                  37.838962,
+                  49.210433
+                ],
+                [
+                  37.177142,
+                  48.828312
+                ],
+                [
+                  37.028934,
+                  48.760771
+                ],
+                [
+                  36.725438,
+                  48.625921
+                ],
+                [
+                  36.349286,
+                  48.531302
+                ],
+                [
+                  36.294043,
+                  48.527219
+                ],
+                [
+                  36.288772,
+                  48.527038
+                ],
+                [
+                  36.284277,
+                  48.528253
+                ],
+                [
+                  34.983942,
+                  49.163718
+                ],
+                [
+                  34.953505,
+                  49.242886
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170666",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kharkiv Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kharkivshchyna"
+        }
+      ],
+      "properties": {
+        "title": "Kharkiv Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kherson%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.505056,
+                  46.354926
+                ],
+                [
+                  31.504405,
+                  46.373358
+                ],
+                [
+                  31.966452,
+                  46.727019
+                ],
+                [
+                  33.089278,
+                  47.582858
+                ],
+                [
+                  33.562892,
+                  47.575365
+                ],
+                [
+                  33.569093,
+                  47.574616
+                ],
+                [
+                  34.203732,
+                  47.478394
+                ],
+                [
+                  34.503507,
+                  47.316001
+                ],
+                [
+                  34.506452,
+                  47.313908
+                ],
+                [
+                  35.279541,
+                  46.255145
+                ],
+                [
+                  35.001891,
+                  45.729003
+                ],
+                [
+                  34.975667,
+                  45.717322
+                ],
+                [
+                  32.503429,
+                  46.076117
+                ],
+                [
+                  31.737153,
+                  46.220771
+                ],
+                [
+                  31.580333,
+                  46.262763
+                ],
+                [
+                  31.549001,
+                  46.282416
+                ],
+                [
+                  31.521983,
+                  46.313218
+                ],
+                [
+                  31.514008,
+                  46.329413
+                ],
+                [
+                  31.505056,
+                  46.354926
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q163271",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kherson Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Kherson Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khmelnytskyi%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  26.148564,
+                  49.511552
+                ],
+                [
+                  26.148409,
+                  49.516513
+                ],
+                [
+                  26.150425,
+                  49.961395
+                ],
+                [
+                  26.15058,
+                  49.964599
+                ],
+                [
+                  26.206597,
+                  50.14141
+                ],
+                [
+                  26.208147,
+                  50.1434
+                ],
+                [
+                  26.739795,
+                  50.464879
+                ],
+                [
+                  26.807129,
+                  50.500897
+                ],
+                [
+                  26.895444,
+                  50.530818
+                ],
+                [
+                  27.091556,
+                  50.585207
+                ],
+                [
+                  27.097602,
+                  50.586602
+                ],
+                [
+                  27.113622,
+                  50.587145
+                ],
+                [
+                  27.120598,
+                  50.585285
+                ],
+                [
+                  27.206381,
+                  50.536089
+                ],
+                [
+                  27.304618,
+                  50.477979
+                ],
+                [
+                  27.604083,
+                  50.253832
+                ],
+                [
+                  27.607494,
+                  50.249336
+                ],
+                [
+                  27.868046,
+                  49.760064
+                ],
+                [
+                  27.888975,
+                  49.162581
+                ],
+                [
+                  27.887735,
+                  49.158757
+                ],
+                [
+                  27.370402,
+                  48.629719
+                ],
+                [
+                  27.345132,
+                  48.607628
+                ],
+                [
+                  27.335004,
+                  48.601788
+                ],
+                [
+                  27.247567,
+                  48.570421
+                ],
+                [
+                  26.605746,
+                  48.451591
+                ],
+                [
+                  26.583163,
+                  48.452908
+                ],
+                [
+                  26.566368,
+                  48.457353
+                ],
+                [
+                  26.38054,
+                  48.517091
+                ],
+                [
+                  26.237345,
+                  48.679923
+                ],
+                [
+                  26.235484,
+                  48.684961
+                ],
+                [
+                  26.192955,
+                  48.90239
+                ],
+                [
+                  26.192489,
+                  48.905956
+                ],
+                [
+                  26.188769,
+                  48.956909
+                ],
+                [
+                  26.148564,
+                  49.511552
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171331",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khmelnytskyi Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Khmelnytskyi Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kirovohrad%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in central Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.73894,
+                  48.26708
+                ],
+                [
+                  29.738165,
+                  48.270077
+                ],
+                [
+                  29.73956,
+                  48.273074
+                ],
+                [
+                  29.777594,
+                  48.349969
+                ],
+                [
+                  29.779299,
+                  48.353095
+                ],
+                [
+                  29.78302,
+                  48.356894
+                ],
+                [
+                  29.788291,
+                  48.361338
+                ],
+                [
+                  29.858571,
+                  48.417174
+                ],
+                [
+                  29.865133,
+                  48.422213
+                ],
+                [
+                  29.883427,
+                  48.4326
+                ],
+                [
+                  30.668444,
+                  48.752373
+                ],
+                [
+                  30.702292,
+                  48.765189
+                ],
+                [
+                  32.788728,
+                  49.2618
+                ],
+                [
+                  33.038221,
+                  49.18196
+                ],
+                [
+                  33.876,
+                  48.897429
+                ],
+                [
+                  33.892019,
+                  48.891745
+                ],
+                [
+                  33.899771,
+                  48.886267
+                ],
+                [
+                  33.91946,
+                  48.865803
+                ],
+                [
+                  33.821068,
+                  48.668399
+                ],
+                [
+                  33.818742,
+                  48.664265
+                ],
+                [
+                  33.513386,
+                  48.238503
+                ],
+                [
+                  33.508425,
+                  48.234782
+                ],
+                [
+                  33.035276,
+                  47.96653
+                ],
+                [
+                  32.64455,
+                  47.800649
+                ],
+                [
+                  32.640055,
+                  47.799563
+                ],
+                [
+                  32.467042,
+                  47.781089
+                ],
+                [
+                  32.13869,
+                  47.747525
+                ],
+                [
+                  32.130008,
+                  47.74874
+                ],
+                [
+                  31.862324,
+                  47.795843
+                ],
+                [
+                  29.876606,
+                  48.180031
+                ],
+                [
+                  29.774803,
+                  48.203105
+                ],
+                [
+                  29.73894,
+                  48.26708
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q180981",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kirovohrad Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirovohradschyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirovohrads’ka oblast’"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirowogradskaja oblast"
+        }
+      ],
+      "properties": {
+        "title": "Kirovohrad Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyiv%20Kurovskyi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital and largest city of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.196603,
+                  50.374353
+                ],
+                [
+                  30.185994,
+                  50.387245
+                ],
+                [
+                  30.192454,
+                  50.429322
+                ],
+                [
+                  30.200281,
+                  50.478145
+                ],
+                [
+                  30.217439,
+                  50.542432
+                ],
+                [
+                  30.24991,
+                  50.600723
+                ],
+                [
+                  30.270165,
+                  50.633393
+                ],
+                [
+                  30.334014,
+                  50.663014
+                ],
+                [
+                  30.73858,
+                  50.668153
+                ],
+                [
+                  30.792871,
+                  50.653951
+                ],
+                [
+                  30.834853,
+                  50.638797
+                ],
+                [
+                  30.842339,
+                  50.583979
+                ],
+                [
+                  30.846046,
+                  50.353493
+                ],
+                [
+                  30.648198,
+                  50.033693
+                ],
+                [
+                  30.585565,
+                  50.014155
+                ],
+                [
+                  30.196603,
+                  50.374353
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1899",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kief"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kieff"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiev"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiew"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiof"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kioff"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiovia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiow"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kiowia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyiv"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyiw"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyjiv"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyjiw"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyyiv"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyïv"
+        }
+      ],
+      "properties": {
+        "title": "Kyiv"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5124045",
+          "label": "city with special status"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7930989",
+          "label": "city/town"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyiv%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district in Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  29.418391,
+                  49.710119
+                ],
+                [
+                  29.270493,
+                  51.236873
+                ],
+                [
+                  29.271733,
+                  51.241059
+                ],
+                [
+                  29.35326,
+                  51.377055
+                ],
+                [
+                  29.379684,
+                  51.391541
+                ],
+                [
+                  29.618016,
+                  51.485644
+                ],
+                [
+                  29.637756,
+                  51.490889
+                ],
+                [
+                  29.660804,
+                  51.493137
+                ],
+                [
+                  30.14863,
+                  51.48443
+                ],
+                [
+                  30.17731,
+                  51.479495
+                ],
+                [
+                  30.20537,
+                  51.466498
+                ],
+                [
+                  32.02247,
+                  50.548233
+                ],
+                [
+                  32.028361,
+                  50.54508
+                ],
+                [
+                  32.032546,
+                  50.539293
+                ],
+                [
+                  32.139155,
+                  50.350105
+                ],
+                [
+                  32.101018,
+                  50.272306
+                ],
+                [
+                  32.09802,
+                  50.2667
+                ],
+                [
+                  32.095747,
+                  50.263444
+                ],
+                [
+                  31.762744,
+                  49.893441
+                ],
+                [
+                  31.716648,
+                  49.848534
+                ],
+                [
+                  30.915302,
+                  49.350347
+                ],
+                [
+                  30.908016,
+                  49.346136
+                ],
+                [
+                  30.382001,
+                  49.232964
+                ],
+                [
+                  29.862343,
+                  49.173846
+                ],
+                [
+                  29.777904,
+                  49.170642
+                ],
+                [
+                  29.761471,
+                  49.174621
+                ],
+                [
+                  29.740955,
+                  49.184466
+                ],
+                [
+                  29.641995,
+                  49.245108
+                ],
+                [
+                  29.53151,
+                  49.317662
+                ],
+                [
+                  29.525464,
+                  49.321848
+                ],
+                [
+                  29.522674,
+                  49.326214
+                ],
+                [
+                  29.499833,
+                  49.365669
+                ],
+                [
+                  29.418391,
+                  49.710119
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170036",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kiev Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyiv Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyiv Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kyivshchyna"
+        }
+      ],
+      "properties": {
+        "title": "Kyiv Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luhansk%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in eastern Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  37.883662,
+                  49.164131
+                ],
+                [
+                  37.847334,
+                  49.23175
+                ],
+                [
+                  37.860666,
+                  49.42272
+                ],
+                [
+                  37.861596,
+                  49.42657
+                ],
+                [
+                  37.939989,
+                  49.726939
+                ],
+                [
+                  38.022924,
+                  49.909142
+                ],
+                [
+                  38.173928,
+                  50.06015
+                ],
+                [
+                  38.189844,
+                  50.062785
+                ],
+                [
+                  38.281208,
+                  50.062423
+                ],
+                [
+                  38.299915,
+                  50.060511
+                ],
+                [
+                  39.15578,
+                  49.873598
+                ],
+                [
+                  40.115515,
+                  49.590566
+                ],
+                [
+                  40.130708,
+                  49.579817
+                ],
+                [
+                  40.159543,
+                  49.333579
+                ],
+                [
+                  40.157166,
+                  49.315854
+                ],
+                [
+                  39.990665,
+                  48.253748
+                ],
+                [
+                  39.775587,
+                  47.85801
+                ],
+                [
+                  39.759051,
+                  47.832947
+                ],
+                [
+                  39.733833,
+                  47.815997
+                ],
+                [
+                  39.70076,
+                  47.811527
+                ],
+                [
+                  39.113509,
+                  47.828555
+                ],
+                [
+                  39.092942,
+                  47.832094
+                ],
+                [
+                  39.03618,
+                  47.857003
+                ],
+                [
+                  38.42673,
+                  48.282066
+                ],
+                [
+                  38.423629,
+                  48.285632
+                ],
+                [
+                  38.304928,
+                  48.454614
+                ],
+                [
+                  38.302138,
+                  48.459032
+                ],
+                [
+                  37.883662,
+                  49.164131
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171965",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Luganskaja oblastj"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luhanshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luhansk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luhanśka oblastj"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luhanščyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Voroshilovgrad Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Luhansk Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lviv%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in western Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  22.681747,
+                  49.161238
+                ],
+                [
+                  22.640922,
+                  49.528761
+                ],
+                [
+                  22.665831,
+                  49.567363
+                ],
+                [
+                  22.766186,
+                  49.67423
+                ],
+                [
+                  23.101463,
+                  49.957107
+                ],
+                [
+                  23.207916,
+                  50.03395
+                ],
+                [
+                  23.682203,
+                  50.368245
+                ],
+                [
+                  23.695742,
+                  50.376771
+                ],
+                [
+                  24.115355,
+                  50.637426
+                ],
+                [
+                  24.125897,
+                  50.641819
+                ],
+                [
+                  24.13861,
+                  50.643937
+                ],
+                [
+                  24.152459,
+                  50.64448
+                ],
+                [
+                  24.358545,
+                  50.609676
+                ],
+                [
+                  24.367536,
+                  50.606627
+                ],
+                [
+                  25.04889,
+                  50.347289
+                ],
+                [
+                  25.191465,
+                  50.289902
+                ],
+                [
+                  25.195651,
+                  50.28799
+                ],
+                [
+                  25.199837,
+                  50.283624
+                ],
+                [
+                  25.430469,
+                  49.952093
+                ],
+                [
+                  25.432329,
+                  49.948838
+                ],
+                [
+                  25.433569,
+                  49.945375
+                ],
+                [
+                  25.433879,
+                  49.941603
+                ],
+                [
+                  25.432019,
+                  49.938063
+                ],
+                [
+                  25.394915,
+                  49.886103
+                ],
+                [
+                  25.39259,
+                  49.882976
+                ],
+                [
+                  25.389799,
+                  49.880056
+                ],
+                [
+                  24.441227,
+                  49.194104
+                ],
+                [
+                  24.434871,
+                  49.190176
+                ],
+                [
+                  23.532859,
+                  48.723693
+                ],
+                [
+                  23.445784,
+                  48.726742
+                ],
+                [
+                  23.42563,
+                  48.727672
+                ],
+                [
+                  23.397208,
+                  48.731599
+                ],
+                [
+                  23.308479,
+                  48.750177
+                ],
+                [
+                  23.201561,
+                  48.777101
+                ],
+                [
+                  22.982143,
+                  48.858982
+                ],
+                [
+                  22.979042,
+                  48.861436
+                ],
+                [
+                  22.900546,
+                  48.923629
+                ],
+                [
+                  22.681747,
+                  49.161238
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q164193",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lviv Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "L’vivshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "L’vivs’ka oblast’"
+        }
+      ],
+      "properties": {
+        "title": "Lviv Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mykolaiv%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  30.215965,
+                  47.998776
+                ],
+                [
+                  30.208988,
+                  48.065025
+                ],
+                [
+                  30.210539,
+                  48.067816
+                ],
+                [
+                  30.293066,
+                  48.135718
+                ],
+                [
+                  30.347533,
+                  48.163572
+                ],
+                [
+                  31.06258,
+                  48.220985
+                ],
+                [
+                  31.134875,
+                  48.216695
+                ],
+                [
+                  32.975693,
+                  48.04451
+                ],
+                [
+                  32.979259,
+                  48.042753
+                ],
+                [
+                  33.046128,
+                  47.960199
+                ],
+                [
+                  33.079666,
+                  47.901521
+                ],
+                [
+                  33.082767,
+                  47.89594
+                ],
+                [
+                  33.124986,
+                  47.477309
+                ],
+                [
+                  33.129947,
+                  47.426201
+                ],
+                [
+                  33.130102,
+                  47.422584
+                ],
+                [
+                  33.136613,
+                  47.226885
+                ],
+                [
+                  33.136148,
+                  47.224327
+                ],
+                [
+                  33.061683,
+                  47.015322
+                ],
+                [
+                  33.060132,
+                  47.011911
+                ],
+                [
+                  33.015122,
+                  46.940055
+                ],
+                [
+                  32.94076,
+                  46.861946
+                ],
+                [
+                  32.931458,
+                  46.856959
+                ],
+                [
+                  32.914095,
+                  46.850732
+                ],
+                [
+                  31.686534,
+                  46.429877
+                ],
+                [
+                  31.18686,
+                  46.629136
+                ],
+                [
+                  30.416573,
+                  47.652906
+                ],
+                [
+                  30.413782,
+                  47.656988
+                ],
+                [
+                  30.217205,
+                  47.995985
+                ],
+                [
+                  30.215965,
+                  47.998776
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q181633",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mykolaiv Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Mykolaiv Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Odesa%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district (oblast) in Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  28.330239,
+                  45.322919
+                ],
+                [
+                  28.199498,
+                  45.461774
+                ],
+                [
+                  28.862085,
+                  48.000502
+                ],
+                [
+                  29.045029,
+                  48.134427
+                ],
+                [
+                  29.049369,
+                  48.136442
+                ],
+                [
+                  29.078256,
+                  48.144452
+                ],
+                [
+                  29.086163,
+                  48.145692
+                ],
+                [
+                  29.929057,
+                  48.222225
+                ],
+                [
+                  29.996753,
+                  48.220985
+                ],
+                [
+                  30.293066,
+                  48.135718
+                ],
+                [
+                  31.158026,
+                  47.26864
+                ],
+                [
+                  31.159887,
+                  47.266624
+                ],
+                [
+                  31.304167,
+                  47.101828
+                ],
+                [
+                  31.306027,
+                  47.097539
+                ],
+                [
+                  31.306803,
+                  47.090459
+                ],
+                [
+                  31.187947,
+                  46.629092
+                ],
+                [
+                  29.729747,
+                  45.237738
+                ],
+                [
+                  29.708751,
+                  45.223334
+                ],
+                [
+                  29.692393,
+                  45.216742
+                ],
+                [
+                  29.67449,
+                  45.213568
+                ],
+                [
+                  28.710061,
+                  45.226956
+                ],
+                [
+                  28.577046,
+                  45.248092
+                ],
+                [
+                  28.40517,
+                  45.295066
+                ],
+                [
+                  28.353287,
+                  45.312429
+                ],
+                [
+                  28.330239,
+                  45.322919
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171852",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Odesa Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Odeska oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Odessa Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Odessa Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poltava%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  32.788728,
+                  49.2618
+                ],
+                [
+                  32.069495,
+                  50.238691
+                ],
+                [
+                  32.09337,
+                  50.285536
+                ],
+                [
+                  32.09492,
+                  50.288559
+                ],
+                [
+                  32.139155,
+                  50.350105
+                ],
+                [
+                  32.350201,
+                  50.40788
+                ],
+                [
+                  33.061528,
+                  50.538414
+                ],
+                [
+                  33.2749,
+                  50.546605
+                ],
+                [
+                  34.212413,
+                  50.542393
+                ],
+                [
+                  34.245796,
+                  50.53459
+                ],
+                [
+                  34.250137,
+                  50.532523
+                ],
+                [
+                  34.908237,
+                  50.145958
+                ],
+                [
+                  35.423709,
+                  49.683841
+                ],
+                [
+                  35.425879,
+                  49.680637
+                ],
+                [
+                  35.47275,
+                  49.568603
+                ],
+                [
+                  35.475075,
+                  49.560386
+                ],
+                [
+                  35.469339,
+                  49.500545
+                ],
+                [
+                  35.468719,
+                  49.498219
+                ],
+                [
+                  35.467479,
+                  49.496462
+                ],
+                [
+                  35.36056,
+                  49.392024
+                ],
+                [
+                  35.309039,
+                  49.342053
+                ],
+                [
+                  35.279067,
+                  49.319781
+                ],
+                [
+                  34.265795,
+                  48.759401
+                ],
+                [
+                  34.237476,
+                  48.746276
+                ],
+                [
+                  34.224041,
+                  48.747516
+                ],
+                [
+                  33.668881,
+                  48.869059
+                ],
+                [
+                  33.378821,
+                  48.939959
+                ],
+                [
+                  33.37572,
+                  48.941277
+                ],
+                [
+                  32.788728,
+                  49.2618
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q169501",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Poltava Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Poltavska oblast"
+        }
+      ],
+      "properties": {
+        "title": "Poltava Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rivne%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  25.069974,
+                  50.284631
+                ],
+                [
+                  25.063463,
+                  50.294812
+                ],
+                [
+                  25.091833,
+                  50.461804
+                ],
+                [
+                  25.547396,
+                  51.919442
+                ],
+                [
+                  25.767915,
+                  51.928511
+                ],
+                [
+                  26.050585,
+                  51.904817
+                ],
+                [
+                  27.109952,
+                  51.762423
+                ],
+                [
+                  27.151086,
+                  51.756764
+                ],
+                [
+                  27.676842,
+                  51.59481
+                ],
+                [
+                  27.692655,
+                  51.589229
+                ],
+                [
+                  27.705161,
+                  51.568352
+                ],
+                [
+                  27.697306,
+                  51.543186
+                ],
+                [
+                  27.235578,
+                  50.583011
+                ],
+                [
+                  27.227517,
+                  50.567611
+                ],
+                [
+                  27.192273,
+                  50.541205
+                ],
+                [
+                  26.282355,
+                  50.166783
+                ],
+                [
+                  26.233159,
+                  50.152288
+                ],
+                [
+                  25.367579,
+                  50.013123
+                ],
+                [
+                  25.295903,
+                  50.041339
+                ],
+                [
+                  25.202317,
+                  50.094979
+                ],
+                [
+                  25.193171,
+                  50.102704
+                ],
+                [
+                  25.069974,
+                  50.284631
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q174187",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rivne Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Rivne Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sumy%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in northeastern Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  33.061528,
+                  50.538414
+                ],
+                [
+                  32.939519,
+                  51.097347
+                ],
+                [
+                  32.93983,
+                  51.100421
+                ],
+                [
+                  33.062044,
+                  51.792911
+                ],
+                [
+                  33.072225,
+                  51.816476
+                ],
+                [
+                  33.323114,
+                  52.221671
+                ],
+                [
+                  33.397166,
+                  52.339648
+                ],
+                [
+                  33.400576,
+                  52.344343
+                ],
+                [
+                  33.480519,
+                  52.357761
+                ],
+                [
+                  33.733579,
+                  52.360991
+                ],
+                [
+                  33.778951,
+                  52.360061
+                ],
+                [
+                  33.804065,
+                  52.354609
+                ],
+                [
+                  33.9007,
+                  52.285854
+                ],
+                [
+                  34.038883,
+                  52.18648
+                ],
+                [
+                  35.3464,
+                  51.036602
+                ],
+                [
+                  35.355082,
+                  51.025595
+                ],
+                [
+                  35.69221,
+                  50.344168
+                ],
+                [
+                  35.690773,
+                  50.338323
+                ],
+                [
+                  35.689326,
+                  50.33468
+                ],
+                [
+                  35.687052,
+                  50.330417
+                ],
+                [
+                  35.684262,
+                  50.326954
+                ],
+                [
+                  35.681109,
+                  50.32406
+                ],
+                [
+                  35.677389,
+                  50.321761
+                ],
+                [
+                  35.671032,
+                  50.319926
+                ],
+                [
+                  35.025077,
+                  50.170581
+                ],
+                [
+                  34.908237,
+                  50.145958
+                ],
+                [
+                  34.669388,
+                  50.115546
+                ],
+                [
+                  34.477927,
+                  50.107226
+                ],
+                [
+                  34.474051,
+                  50.10813
+                ],
+                [
+                  33.098114,
+                  50.524539
+                ],
+                [
+                  33.061528,
+                  50.538414
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170446",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sumshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sums’ka oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sumy Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Sumy Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ternopil%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) of western Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.858462,
+                  49.122738
+                ],
+                [
+                  24.70705,
+                  49.491786
+                ],
+                [
+                  24.729065,
+                  49.555012
+                ],
+                [
+                  24.733405,
+                  49.560283
+                ],
+                [
+                  25.453413,
+                  50.162727
+                ],
+                [
+                  25.947181,
+                  50.264529
+                ],
+                [
+                  26.065262,
+                  50.265253
+                ],
+                [
+                  26.217191,
+                  50.262462
+                ],
+                [
+                  26.221842,
+                  50.261687
+                ],
+                [
+                  26.227268,
+                  50.257346
+                ],
+                [
+                  26.230058,
+                  50.25316
+                ],
+                [
+                  26.273208,
+                  50.113376
+                ],
+                [
+                  26.38054,
+                  48.517091
+                ],
+                [
+                  26.355012,
+                  48.510114
+                ],
+                [
+                  26.32659,
+                  48.511561
+                ],
+                [
+                  26.180862,
+                  48.526702
+                ],
+                [
+                  26.09911,
+                  48.540758
+                ],
+                [
+                  25.742336,
+                  48.629719
+                ],
+                [
+                  25.250997,
+                  48.775163
+                ],
+                [
+                  24.978145,
+                  48.977114
+                ],
+                [
+                  24.897581,
+                  49.039849
+                ],
+                [
+                  24.895566,
+                  49.042872
+                ],
+                [
+                  24.894016,
+                  49.046206
+                ],
+                [
+                  24.860013,
+                  49.119379
+                ],
+                [
+                  24.858462,
+                  49.122738
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q173407",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ternopil Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ternopilshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ternopilska oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ternopolskaja oblast"
+        }
+      ],
+      "properties": {
+        "title": "Ternopil Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vinnytsia%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative division (oblast) in western Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  27.494374,
+                  48.482209
+                ],
+                [
+                  27.370402,
+                  48.629719
+                ],
+                [
+                  27.371952,
+                  48.935024
+                ],
+                [
+                  27.380634,
+                  48.991816
+                ],
+                [
+                  27.382649,
+                  48.995744
+                ],
+                [
+                  27.750586,
+                  49.683169
+                ],
+                [
+                  27.752601,
+                  49.686838
+                ],
+                [
+                  27.762213,
+                  49.699809
+                ],
+                [
+                  27.765158,
+                  49.7026
+                ],
+                [
+                  27.813424,
+                  49.741047
+                ],
+                [
+                  27.868046,
+                  49.760064
+                ],
+                [
+                  28.828246,
+                  49.880573
+                ],
+                [
+                  28.835377,
+                  49.8814
+                ],
+                [
+                  28.899146,
+                  49.875871
+                ],
+                [
+                  28.905037,
+                  49.874527
+                ],
+                [
+                  29.503243,
+                  49.64405
+                ],
+                [
+                  29.510685,
+                  49.640278
+                ],
+                [
+                  29.51332,
+                  49.636945
+                ],
+                [
+                  29.565307,
+                  49.532481
+                ],
+                [
+                  30.076128,
+                  48.455079
+                ],
+                [
+                  29.679822,
+                  48.092207
+                ],
+                [
+                  29.675016,
+                  48.090269
+                ],
+                [
+                  28.862085,
+                  48.000502
+                ],
+                [
+                  28.479584,
+                  48.064923
+                ],
+                [
+                  28.328586,
+                  48.127012
+                ],
+                [
+                  27.50383,
+                  48.472365
+                ],
+                [
+                  27.494374,
+                  48.482209
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q166709",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Vinnychchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnytsia Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnyts’ka oblast’"
+        }
+      ],
+      "properties": {
+        "title": "Vinnytsia Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Volyn%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast (region) of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  23.628666,
+                  51.325964
+                ],
+                [
+                  23.593319,
+                  51.596955
+                ],
+                [
+                  23.594353,
+                  51.604965
+                ],
+                [
+                  23.606445,
+                  51.618117
+                ],
+                [
+                  23.616677,
+                  51.624783
+                ],
+                [
+                  23.628976,
+                  51.629046
+                ],
+                [
+                  24.369602,
+                  51.875103
+                ],
+                [
+                  24.39079,
+                  51.880013
+                ],
+                [
+                  25.138031,
+                  51.948949
+                ],
+                [
+                  25.1833,
+                  51.94975
+                ],
+                [
+                  25.547396,
+                  51.919442
+                ],
+                [
+                  25.660274,
+                  51.892233
+                ],
+                [
+                  25.662599,
+                  51.89058
+                ],
+                [
+                  26.061386,
+                  51.17791
+                ],
+                [
+                  26.062782,
+                  51.174241
+                ],
+                [
+                  26.095803,
+                  50.985157
+                ],
+                [
+                  26.094253,
+                  50.980764
+                ],
+                [
+                  26.003199,
+                  50.834649
+                ],
+                [
+                  25.836542,
+                  50.636264
+                ],
+                [
+                  25.832821,
+                  50.633189
+                ],
+                [
+                  25.063463,
+                  50.294812
+                ],
+                [
+                  24.723794,
+                  50.343723
+                ],
+                [
+                  24.713097,
+                  50.345506
+                ],
+                [
+                  24.508561,
+                  50.407931
+                ],
+                [
+                  24.108165,
+                  50.630287
+                ],
+                [
+                  23.959498,
+                  50.788891
+                ],
+                [
+                  23.635177,
+                  51.304699
+                ],
+                [
+                  23.628666,
+                  51.325964
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q167859",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Volyn Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Volyn Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Volyn Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Volyn'"
+        },
+        {
+          "lang": "en",
+          "toponym": "Volyn, Ukraine"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wolyn'"
+        }
+      ],
+      "properties": {
+        "title": "Volyn Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20flag%20of%20Zakarpattia%20oblast%202009.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative oblast (province) in southwestern Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  22.357116,
+                  48.243103
+                ],
+                [
+                  22.13284,
+                  48.404798
+                ],
+                [
+                  22.13377,
+                  48.476835
+                ],
+                [
+                  22.136664,
+                  48.549337
+                ],
+                [
+                  22.138731,
+                  48.569595
+                ],
+                [
+                  22.448996,
+                  48.971431
+                ],
+                [
+                  22.539637,
+                  49.0722
+                ],
+                [
+                  22.560721,
+                  49.085532
+                ],
+                [
+                  22.580771,
+                  49.08145
+                ],
+                [
+                  22.755334,
+                  49.044708
+                ],
+                [
+                  22.865014,
+                  49.013237
+                ],
+                [
+                  24.129308,
+                  48.53342
+                ],
+                [
+                  24.133649,
+                  48.531095
+                ],
+                [
+                  24.494919,
+                  48.266615
+                ],
+                [
+                  24.499415,
+                  48.262946
+                ],
+                [
+                  24.502515,
+                  48.259639
+                ],
+                [
+                  24.541479,
+                  48.212768
+                ],
+                [
+                  24.640284,
+                  48.056757
+                ],
+                [
+                  24.641111,
+                  48.052778
+                ],
+                [
+                  24.639251,
+                  48.04761
+                ],
+                [
+                  24.569808,
+                  47.937289
+                ],
+                [
+                  24.231006,
+                  47.897026
+                ],
+                [
+                  24.209302,
+                  47.897594
+                ],
+                [
+                  22.877601,
+                  47.946739
+                ],
+                [
+                  22.840807,
+                  47.966789
+                ],
+                [
+                  22.605472,
+                  48.097039
+                ],
+                [
+                  22.363627,
+                  48.23871
+                ],
+                [
+                  22.357116,
+                  48.243103
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170213",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Transcarpathia oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zakarpatska oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zakarpattia Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Zakarpattia Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zaporizhia%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  34.295457,
+                  47.275073
+                ],
+                [
+                  34.203732,
+                  47.478394
+                ],
+                [
+                  34.84054,
+                  48.117503
+                ],
+                [
+                  34.845863,
+                  48.120836
+                ],
+                [
+                  34.851444,
+                  48.122748
+                ],
+                [
+                  35.101403,
+                  48.128716
+                ],
+                [
+                  35.118146,
+                  48.129052
+                ],
+                [
+                  35.245115,
+                  48.130189
+                ],
+                [
+                  35.674133,
+                  48.126985
+                ],
+                [
+                  35.685915,
+                  48.1259
+                ],
+                [
+                  35.953599,
+                  48.091483
+                ],
+                [
+                  35.95918,
+                  48.090708
+                ],
+                [
+                  35.963986,
+                  48.089106
+                ],
+                [
+                  36.576145,
+                  47.844212
+                ],
+                [
+                  37.219207,
+                  47.458137
+                ],
+                [
+                  37.220912,
+                  47.455269
+                ],
+                [
+                  37.220292,
+                  47.451962
+                ],
+                [
+                  37.115699,
+                  46.969898
+                ],
+                [
+                  37.114458,
+                  46.965712
+                ],
+                [
+                  37.037764,
+                  46.876664
+                ],
+                [
+                  36.793712,
+                  46.653632
+                ],
+                [
+                  36.769298,
+                  46.637397
+                ],
+                [
+                  35.279541,
+                  46.255145
+                ],
+                [
+                  35.069312,
+                  46.299913
+                ],
+                [
+                  35.059648,
+                  46.306011
+                ],
+                [
+                  34.762199,
+                  46.547237
+                ],
+                [
+                  34.759098,
+                  46.550182
+                ],
+                [
+                  34.631251,
+                  46.689037
+                ],
+                [
+                  34.295457,
+                  47.275073
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q171334",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zaporizhzhia Oblast"
+        }
+      ],
+      "properties": {
+        "title": "Zaporizhzhia Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhytomyr%20Oblast.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oblast of northern Ukraine"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  27.228292,
+                  50.386847
+                ],
+                [
+                  27.192273,
+                  50.541205
+                ],
+                [
+                  27.192428,
+                  50.618487
+                ],
+                [
+                  27.198165,
+                  50.990893
+                ],
+                [
+                  27.198785,
+                  50.994045
+                ],
+                [
+                  27.199715,
+                  50.995906
+                ],
+                [
+                  27.216458,
+                  51.02071
+                ],
+                [
+                  27.502125,
+                  51.44022
+                ],
+                [
+                  27.505433,
+                  51.44208
+                ],
+                [
+                  27.831252,
+                  51.612923
+                ],
+                [
+                  27.854196,
+                  51.615326
+                ],
+                [
+                  28.21004,
+                  51.651965
+                ],
+                [
+                  29.083682,
+                  51.631217
+                ],
+                [
+                  29.123886,
+                  51.625041
+                ],
+                [
+                  29.147967,
+                  51.615636
+                ],
+                [
+                  29.160421,
+                  51.603311
+                ],
+                [
+                  29.390124,
+                  51.365082
+                ],
+                [
+                  29.391364,
+                  51.362111
+                ],
+                [
+                  29.489136,
+                  51.063292
+                ],
+                [
+                  29.592334,
+                  50.711091
+                ],
+                [
+                  29.734134,
+                  50.12583
+                ],
+                [
+                  29.734444,
+                  50.121489
+                ],
+                [
+                  29.736304,
+                  49.940828
+                ],
+                [
+                  29.733204,
+                  49.935299
+                ],
+                [
+                  29.727467,
+                  49.928787
+                ],
+                [
+                  29.477974,
+                  49.679268
+                ],
+                [
+                  29.447226,
+                  49.650871
+                ],
+                [
+                  29.362684,
+                  49.61891
+                ],
+                [
+                  29.264292,
+                  49.584545
+                ],
+                [
+                  29.132413,
+                  49.582013
+                ],
+                [
+                  29.023014,
+                  49.587361
+                ],
+                [
+                  29.002034,
+                  49.590462
+                ],
+                [
+                  27.868046,
+                  49.760064
+                ],
+                [
+                  27.66072,
+                  49.79895
+                ],
+                [
+                  27.654364,
+                  49.803937
+                ],
+                [
+                  27.651574,
+                  49.806624
+                ],
+                [
+                  27.5445,
+                  49.91083
+                ],
+                [
+                  27.540934,
+                  49.915093
+                ],
+                [
+                  27.230617,
+                  50.383127
+                ],
+                [
+                  27.228292,
+                  50.386847
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q40637",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zhytomyr Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zhytomyrshchyna"
+        }
+      ],
+      "properties": {
+        "title": "Zhytomyr Oblast"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3348196",
+          "label": "oblast of Ukraine"
+        }
+      ]
+    }
+  ],
+  "title": "Ukrainian oblasts",
+  "type": "FeatureCollection"
+}
