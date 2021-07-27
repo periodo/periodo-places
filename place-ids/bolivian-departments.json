@@ -1,0 +1,38 @@
+{
+  "Beni Department": {
+    "id": "http://www.wikidata.org/entity/Q233169",
+    "covers": [ "El Beni" ]
+  },
+  "Chuquisaca Department": {
+    "id": "http://www.wikidata.org/entity/Q235110",
+    "covers": [ "Chuquisaca" ]
+  },
+  "Cochabamba Department": {
+    "id": "http://www.wikidata.org/entity/Q233917",
+    "covers": [ "Cochabamba" ]
+  },
+  "La Paz Department": {
+    "id": "http://www.wikidata.org/entity/Q272784",
+    "covers": [ "La Paz" ]
+  },
+  "Oruro Department": {
+    "id": "http://www.wikidata.org/entity/Q1061368",
+    "covers": [ "Oruro" ]
+  },
+  "Pando Department": {
+    "id": "http://www.wikidata.org/entity/Q235362",
+    "covers": [ "Pando" ]
+  },
+  "Potosí Department": {
+    "id": "http://www.wikidata.org/entity/Q238079",
+    "covers": [ "Potosí" ]
+  },
+  "Santa Cruz Department": {
+    "id": "http://www.wikidata.org/entity/Q235106",
+    "covers": [ "Santa Cruz" ]
+  },
+  "Tarija Department": {
+    "id": "http://www.wikidata.org/entity/Q233933",
+    "covers": [ "Tarija" ]
+  }
+}

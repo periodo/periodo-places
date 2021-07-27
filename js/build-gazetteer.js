@@ -16,6 +16,7 @@ const userAgent = (
 const GAZETTEERS = {
   'algerian-provinces': 'Algerian provinces',
   'azerbaijani-districts': 'Azerbaijani districts and cities',
+  'bolivian-departments': 'Bolivian departments',
   'cities': 'Cities',
   'continents': 'Continents',
   'countries': 'Countries',
@@ -461,6 +462,11 @@ const getWikidataIsraeliDistrict = id => getWikidataPlace(
   ['wd:Q193560'] // district of Israel
 )
 
+const getWikidataBolivianDepartment = id => getWikidataPlace(
+  id,
+  ['wd:Q250050'] // department of Bolivia
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -581,6 +587,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'israeli-districts':
         promise = getWikidataIsraeliDistrict(place.id)
+        break
+      case 'bolivian-departments':
+        promise = getWikidataBolivianDepartment(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

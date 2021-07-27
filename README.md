@@ -23,6 +23,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Azerbaijani districts and cities gazetteer**<br>
   https://data.perio.do/graphs/places/azerbaijani-districts.json
 
+* **Bolivian departments gazetteer**<br>
+  https://data.perio.do/graphs/places/bolivian-departments.json
+
 * **Djiboutian regions gazetteer**<br>
   https://data.perio.do/graphs/places/djiboutian-regions.json
 
@@ -184,6 +187,15 @@ The reason for the merging of countries and map units in step one is that in som
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/azerbaijani-districts.json](place-ids/azerbaijani-districts.json) for details), and
 
 1. querying Wikidata for instances of [Q13417250 district of Azerbaijan](https://www.wikidata.org/wiki/Q13417250) or [Q56557664 şəhər](https://www.wikidata.org/wiki/Q56557664) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Bolivian departments gazetteer
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/bolivian-departments.json](place-ids/bolivian-departments.json) for details), and
+
+1. querying Wikidata for instances of [Q250050 department of Bolivia](https://www.wikidata.org/wiki/Q250050) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Djiboutian regions gazetteer

@@ -1,0 +1,1350 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beni.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -67.535976,
+                  -14.598592
+                ],
+                [
+                  -67.56817,
+                  -14.330288
+                ],
+                [
+                  -67.535976,
+                  -13.99837
+                ],
+                [
+                  -67.492645,
+                  -13.771355
+                ],
+                [
+                  -67.395596,
+                  -13.402489
+                ],
+                [
+                  -66.97061,
+                  -11.848992
+                ],
+                [
+                  -66.90529,
+                  -11.735407
+                ],
+                [
+                  -66.678999,
+                  -11.449378
+                ],
+                [
+                  -66.107923,
+                  -10.840682
+                ],
+                [
+                  -65.921785,
+                  -10.682397
+                ],
+                [
+                  -65.761433,
+                  -10.564109
+                ],
+                [
+                  -65.464242,
+                  -10.406445
+                ],
+                [
+                  -65.44786,
+                  -10.40076
+                ],
+                [
+                  -65.394646,
+                  -10.39207
+                ],
+                [
+                  -61.59306,
+                  -13.506794
+                ],
+                [
+                  -63.317396,
+                  -15.914067
+                ],
+                [
+                  -63.3206,
+                  -15.916599
+                ],
+                [
+                  -65.804376,
+                  -16.465713
+                ],
+                [
+                  -65.836519,
+                  -16.468555
+                ],
+                [
+                  -65.886154,
+                  -16.466333
+                ],
+                [
+                  -65.991625,
+                  -16.444991
+                ],
+                [
+                  -66.069579,
+                  -16.420083
+                ],
+                [
+                  -66.119576,
+                  -16.396932
+                ],
+                [
+                  -66.217684,
+                  -16.334196
+                ],
+                [
+                  -66.239233,
+                  -16.316937
+                ],
+                [
+                  -66.402996,
+                  -16.1478
+                ],
+                [
+                  -67.1075,
+                  -15.400145
+                ],
+                [
+                  -67.417559,
+                  -14.968492
+                ],
+                [
+                  -67.430013,
+                  -14.932215
+                ],
+                [
+                  -67.535976,
+                  -14.598592
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233169",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beni Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "Beni"
+        },
+        {
+          "lang": "en",
+          "toponym": "El Beni"
+        }
+      ],
+      "properties": {
+        "title": "Beni Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chuquisaca.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -65.476876,
+                  -21.292085
+                ],
+                [
+                  -65.694408,
+                  -18.364202
+                ],
+                [
+                  -65.692445,
+                  -18.3549
+                ],
+                [
+                  -65.688801,
+                  -18.351179
+                ],
+                [
+                  -65.683582,
+                  -18.348027
+                ],
+                [
+                  -65.67813,
+                  -18.346012
+                ],
+                [
+                  -65.672833,
+                  -18.345237
+                ],
+                [
+                  -64.816038,
+                  -18.48466
+                ],
+                [
+                  -64.797202,
+                  -18.489465
+                ],
+                [
+                  -64.391413,
+                  -18.60181
+                ],
+                [
+                  -64.369993,
+                  -18.608941
+                ],
+                [
+                  -63.750522,
+                  -19.028296
+                ],
+                [
+                  -62.210573,
+                  -20.471305
+                ],
+                [
+                  -62.271886,
+                  -21.000424
+                ],
+                [
+                  -65.234927,
+                  -21.535378
+                ],
+                [
+                  -65.317377,
+                  -21.477914
+                ],
+                [
+                  -65.458454,
+                  -21.33508
+                ],
+                [
+                  -65.475559,
+                  -21.297459
+                ],
+                [
+                  -65.476876,
+                  -21.292085
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235110",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chuquisaca Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chuquisaca"
+        }
+      ],
+      "properties": {
+        "title": "Chuquisaca Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cochabamba.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -66.989936,
+                  -17.55128
+                ],
+                [
+                  -67.015206,
+                  -17.046866
+                ],
+                [
+                  -66.944384,
+                  -15.923834
+                ],
+                [
+                  -66.934462,
+                  -15.844717
+                ],
+                [
+                  -66.867541,
+                  -15.768029
+                ],
+                [
+                  -66.784419,
+                  -15.6993
+                ],
+                [
+                  -64.684108,
+                  -15.842909
+                ],
+                [
+                  -64.657521,
+                  -15.850453
+                ],
+                [
+                  -64.21623,
+                  -17.359715
+                ],
+                [
+                  -64.212147,
+                  -17.378732
+                ],
+                [
+                  -64.293254,
+                  -18.59101
+                ],
+                [
+                  -64.297078,
+                  -18.598451
+                ],
+                [
+                  -64.340202,
+                  -18.656949
+                ],
+                [
+                  -64.510165,
+                  -18.668679
+                ],
+                [
+                  -64.56086,
+                  -18.668576
+                ],
+                [
+                  -65.080182,
+                  -18.655864
+                ],
+                [
+                  -65.231387,
+                  -18.616279
+                ],
+                [
+                  -66.62492,
+                  -17.991253
+                ],
+                [
+                  -66.989936,
+                  -17.55128
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233917",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cochabamba Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cochabamba"
+        }
+      ],
+      "properties": {
+        "title": "Cochabamba Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandera%20de%20La%20Paz.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -69.497123,
+                  -17.621404
+                ],
+                [
+                  -69.666492,
+                  -17.288298
+                ],
+                [
+                  -69.390669,
+                  -14.964408
+                ],
+                [
+                  -69.370541,
+                  -14.801524
+                ],
+                [
+                  -68.986585,
+                  -12.890478
+                ],
+                [
+                  -68.980953,
+                  -12.867947
+                ],
+                [
+                  -68.783885,
+                  -12.605741
+                ],
+                [
+                  -68.689463,
+                  -12.493418
+                ],
+                [
+                  -68.215133,
+                  -12.019938
+                ],
+                [
+                  -67.97352,
+                  -11.904854
+                ],
+                [
+                  -67.955536,
+                  -11.909299
+                ],
+                [
+                  -66.927821,
+                  -12.382241
+                ],
+                [
+                  -66.784419,
+                  -15.6993
+                ],
+                [
+                  -66.758452,
+                  -16.741148
+                ],
+                [
+                  -66.841935,
+                  -17.468081
+                ],
+                [
+                  -66.849222,
+                  -17.476711
+                ],
+                [
+                  -66.861262,
+                  -17.485082
+                ],
+                [
+                  -66.989936,
+                  -17.55128
+                ],
+                [
+                  -67.772163,
+                  -17.86263
+                ],
+                [
+                  -67.78565,
+                  -17.864749
+                ],
+                [
+                  -69.082284,
+                  -18.039078
+                ],
+                [
+                  -69.14084,
+                  -18.030785
+                ],
+                [
+                  -69.157712,
+                  -18.02572
+                ],
+                [
+                  -69.302406,
+                  -17.976214
+                ],
+                [
+                  -69.317857,
+                  -17.951616
+                ],
+                [
+                  -69.497123,
+                  -17.621404
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q272784",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "La Paz Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "La Paz department"
+        }
+      ],
+      "properties": {
+        "title": "La Paz Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oruro.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "administrative district in Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -68.989609,
+                  -18.946491
+                ],
+                [
+                  -69.155438,
+                  -18.140235
+                ],
+                [
+                  -69.082284,
+                  -18.039078
+                ],
+                [
+                  -68.542348,
+                  -17.688377
+                ],
+                [
+                  -68.479665,
+                  -17.660989
+                ],
+                [
+                  -68.446618,
+                  -17.652359
+                ],
+                [
+                  -67.150805,
+                  -17.401005
+                ],
+                [
+                  -67.141814,
+                  -17.400385
+                ],
+                [
+                  -67.132615,
+                  -17.401056
+                ],
+                [
+                  -67.120084,
+                  -17.403382
+                ],
+                [
+                  -67.112823,
+                  -17.406121
+                ],
+                [
+                  -67.106415,
+                  -17.409273
+                ],
+                [
+                  -67.091997,
+                  -17.420693
+                ],
+                [
+                  -66.826071,
+                  -17.671169
+                ],
+                [
+                  -66.808346,
+                  -17.687912
+                ],
+                [
+                  -66.756307,
+                  -17.751216
+                ],
+                [
+                  -66.680472,
+                  -17.863974
+                ],
+                [
+                  -66.040589,
+                  -19.172886
+                ],
+                [
+                  -66.041751,
+                  -19.182705
+                ],
+                [
+                  -66.04617,
+                  -19.191541
+                ],
+                [
+                  -66.055988,
+                  -19.198673
+                ],
+                [
+                  -66.067693,
+                  -19.203634
+                ],
+                [
+                  -67.551892,
+                  -19.782358
+                ],
+                [
+                  -67.687465,
+                  -19.826025
+                ],
+                [
+                  -67.739606,
+                  -19.824939
+                ],
+                [
+                  -67.831926,
+                  -19.807886
+                ],
+                [
+                  -68.289289,
+                  -19.663554
+                ],
+                [
+                  -68.57245,
+                  -19.566557
+                ],
+                [
+                  -68.576736,
+                  -19.564607
+                ],
+                [
+                  -68.91969,
+                  -19.053771
+                ],
+                [
+                  -68.989609,
+                  -18.946491
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1061368",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oruro Department"
+        }
+      ],
+      "properties": {
+        "title": "Oruro Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pando.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -68.689463,
+                  -12.493418
+                ],
+                [
+                  -69.577635,
+                  -10.952302
+                ],
+                [
+                  -66.64262,
+                  -9.907921
+                ],
+                [
+                  -66.631871,
+                  -9.904304
+                ],
+                [
+                  -66.190658,
+                  -9.800848
+                ],
+                [
+                  -65.788564,
+                  -9.733048
+                ],
+                [
+                  -65.442487,
+                  -9.679821
+                ],
+                [
+                  -65.416235,
+                  -9.680132
+                ],
+                [
+                  -65.397993,
+                  -9.686746
+                ],
+                [
+                  -65.370501,
+                  -9.710621
+                ],
+                [
+                  -65.304381,
+                  -9.825652
+                ],
+                [
+                  -65.29911,
+                  -9.841259
+                ],
+                [
+                  -65.284822,
+                  -10.206818
+                ],
+                [
+                  -65.288077,
+                  -10.216223
+                ],
+                [
+                  -65.315621,
+                  -10.291257
+                ],
+                [
+                  -65.327817,
+                  -10.314408
+                ],
+                [
+                  -66.927821,
+                  -12.382241
+                ],
+                [
+                  -68.645572,
+                  -12.496601
+                ],
+                [
+                  -68.678154,
+                  -12.495051
+                ],
+                [
+                  -68.689463,
+                  -12.493418
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235362",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Pando Department"
+        }
+      ],
+      "properties": {
+        "title": "Pando Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Potos%C3%AD.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Departamento de Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -68.769028,
+                  -20.390537
+                ],
+                [
+                  -68.792592,
+                  -20.106627
+                ],
+                [
+                  -68.703218,
+                  -19.71554
+                ],
+                [
+                  -68.690299,
+                  -19.695386
+                ],
+                [
+                  -68.576736,
+                  -19.564607
+                ],
+                [
+                  -66.734758,
+                  -18.053936
+                ],
+                [
+                  -66.62492,
+                  -17.991253
+                ],
+                [
+                  -66.162287,
+                  -17.86263
+                ],
+                [
+                  -66.135596,
+                  -17.856739
+                ],
+                [
+                  -66.095314,
+                  -17.854569
+                ],
+                [
+                  -66.061104,
+                  -17.857359
+                ],
+                [
+                  -66.018523,
+                  -17.862165
+                ],
+                [
+                  -65.843314,
+                  -17.968309
+                ],
+                [
+                  -65.765257,
+                  -18.026031
+                ],
+                [
+                  -65.703193,
+                  -18.077553
+                ],
+                [
+                  -65.64237,
+                  -18.129074
+                ],
+                [
+                  -65.347194,
+                  -18.413863
+                ],
+                [
+                  -64.868671,
+                  -19.454058
+                ],
+                [
+                  -64.754517,
+                  -19.71182
+                ],
+                [
+                  -64.746921,
+                  -19.732439
+                ],
+                [
+                  -65.173019,
+                  -22.098082
+                ],
+                [
+                  -67.193904,
+                  -22.822223
+                ],
+                [
+                  -67.510267,
+                  -22.885785
+                ],
+                [
+                  -67.547113,
+                  -22.892503
+                ],
+                [
+                  -67.616772,
+                  -22.897258
+                ],
+                [
+                  -67.77144,
+                  -22.888679
+                ],
+                [
+                  -67.803583,
+                  -22.878654
+                ],
+                [
+                  -67.876343,
+                  -22.833592
+                ],
+                [
+                  -67.887092,
+                  -22.818709
+                ],
+                [
+                  -68.76541,
+                  -20.421233
+                ],
+                [
+                  -68.769028,
+                  -20.390537
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q238079",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Potosi Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "Potosí Department"
+        }
+      ],
+      "properties": {
+        "title": "Potosí Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Santa%20Cruz.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -64.710644,
+                  -17.910741
+                ],
+                [
+                  -64.807744,
+                  -16.729625
+                ],
+                [
+                  -64.80715,
+                  -16.717377
+                ],
+                [
+                  -64.730591,
+                  -15.92249
+                ],
+                [
+                  -64.7039,
+                  -15.874741
+                ],
+                [
+                  -63.963015,
+                  -14.737395
+                ],
+                [
+                  -61.59306,
+                  -13.506794
+                ],
+                [
+                  -61.047225,
+                  -13.464552
+                ],
+                [
+                  -60.801969,
+                  -13.604181
+                ],
+                [
+                  -60.472635,
+                  -13.797865
+                ],
+                [
+                  -58.339561,
+                  -16.289289
+                ],
+                [
+                  -57.465661,
+                  -18.21775
+                ],
+                [
+                  -57.466798,
+                  -18.239557
+                ],
+                [
+                  -57.859745,
+                  -19.980123
+                ],
+                [
+                  -57.881139,
+                  -20.009165
+                ],
+                [
+                  -57.895609,
+                  -20.024151
+                ],
+                [
+                  -58.103555,
+                  -20.144041
+                ],
+                [
+                  -58.116319,
+                  -20.150449
+                ],
+                [
+                  -58.158797,
+                  -20.165125
+                ],
+                [
+                  -62.210573,
+                  -20.471305
+                ],
+                [
+                  -62.211365,
+                  -20.471308
+                ],
+                [
+                  -63.285873,
+                  -20.475132
+                ],
+                [
+                  -63.521285,
+                  -20.462523
+                ],
+                [
+                  -63.629289,
+                  -20.452446
+                ],
+                [
+                  -63.651897,
+                  -20.450121
+                ],
+                [
+                  -64.706071,
+                  -17.930223
+                ],
+                [
+                  -64.710644,
+                  -17.910741
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q235106",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Santa Cruz Department"
+        }
+      ],
+      "properties": {
+        "title": "Santa Cruz Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tarija.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "department of Bolivia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -65.190478,
+                  -22.098474
+                ],
+                [
+                  -65.328539,
+                  -21.802907
+                ],
+                [
+                  -65.174285,
+                  -20.968229
+                ],
+                [
+                  -65.171908,
+                  -20.962028
+                ],
+                [
+                  -65.168368,
+                  -20.955982
+                ],
+                [
+                  -65.162425,
+                  -20.948488
+                ],
+                [
+                  -65.156612,
+                  -20.94575
+                ],
+                [
+                  -64.175173,
+                  -20.891438
+                ],
+                [
+                  -62.271886,
+                  -21.000424
+                ],
+                [
+                  -62.271879,
+                  -21.000939
+                ],
+                [
+                  -62.275703,
+                  -21.066568
+                ],
+                [
+                  -62.307898,
+                  -21.169301
+                ],
+                [
+                  -62.340402,
+                  -21.272861
+                ],
+                [
+                  -62.411974,
+                  -21.500857
+                ],
+                [
+                  -62.627516,
+                  -22.184536
+                ],
+                [
+                  -62.650357,
+                  -22.234456
+                ],
+                [
+                  -64.325294,
+                  -22.871936
+                ],
+                [
+                  -64.343897,
+                  -22.863668
+                ],
+                [
+                  -65.190478,
+                  -22.098474
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q233933",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tarija Department"
+        }
+      ],
+      "properties": {
+        "title": "Tarija Department"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q250050",
+          "label": "department of Bolivia"
+        }
+      ]
+    }
+  ],
+  "title": "Bolivian departments",
+  "type": "FeatureCollection"
+}
