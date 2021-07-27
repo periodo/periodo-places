@@ -140,6 +140,8 @@ This gazetteer was created by:
 
 ### Subcontinental regions gazetteer
 
+This gazetteer was created by:
+
 1. merging the Natural Earth [1:10m](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) cultural vectors for countries and map units (prioritizing map units over sovereign entities),
 
 1. merging geometries of the units found in the Natural Earth data into geometries for subcontinental regions (see [place-ids/subregions.json](place-ids/subregions.json) for details), and
@@ -176,6 +178,8 @@ The reason for the merging of countries and map units in step one is that in som
 
 ### Algerian provinces gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/algerian-provinces.json](place-ids/algerian-provinces.json) for details), and
@@ -184,6 +188,8 @@ The reason for the merging of countries and map units in step one is that in som
 
 
 ### Azerbaijani districts and cities gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -194,6 +200,8 @@ The reason for the merging of countries and map units in step one is that in som
 
 ### Bolivian departments gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/bolivian-departments.json](place-ids/bolivian-departments.json) for details), and
@@ -203,6 +211,8 @@ The reason for the merging of countries and map units in step one is that in som
 
 ### Djiboutian regions gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/djiboutian-regions.json](place-ids/djiboutian-regions.json) for details), and
@@ -211,6 +221,8 @@ The reason for the merging of countries and map units in step one is that in som
 
 
 ### Egyptian governorates gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -231,6 +243,8 @@ This gazetteer was created by:
 
 
 ### Ethiopian regions gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -256,6 +270,8 @@ Note that these are the pre-2016 (22 metropolitan, 5 overseas) regions, not the 
 
 ### Greek administrative regions gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/greek-regions.json](place-ids/greek-regions.json) for details), and
@@ -264,6 +280,8 @@ Note that these are the pre-2016 (22 metropolitan, 5 overseas) regions, not the 
 
 
 ### Indian states and union territories gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -276,6 +294,8 @@ Note that the state of Telangana (recently separated from Andhra Pradesh) and th
 
 ### Indonesian provinces gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/indonesian-provinces.json](place-ids/indonesian-provinces.json) for details), and
@@ -287,6 +307,8 @@ Note that the province of North Kalimantan (separated from East Kalimantan in 20
 
 ### Iranian provinces gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/iranian-provinces.json](place-ids/iranian-provinces.json) for details), and
@@ -295,6 +317,8 @@ Note that the province of North Kalimantan (separated from East Kalimantan in 20
 
 
 ### Iraqi and Kurdish governorates gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -307,6 +331,8 @@ Note that the governorate of Halabja, separated from the governorate of Sulayman
 
 ### Israeli districts gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/israeli-districts.json](place-ids/israeli-districts.json) for details), and
@@ -315,6 +341,8 @@ Note that the governorate of Halabja, separated from the governorate of Sulayman
 
 
 ### Italian regions gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -325,6 +353,8 @@ Note that the governorate of Halabja, separated from the governorate of Sulayman
 
 ### Kuwaiti governorates gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/kuwaiti-governorates.json](place-ids/kuwaiti-governorates.json) for details), and
@@ -333,6 +363,8 @@ Note that the governorate of Halabja, separated from the governorate of Sulayman
 
 
 ### Laotian provinces gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -345,6 +377,8 @@ Note that the province of Xaisomboun (recently established as a province, having
 
 ### Lebanese governorates gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/lebanese-governorates.json](place-ids/lebanese-governorates.json) for details), and
@@ -356,6 +390,8 @@ Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil a
 
 ### Libyan districts gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/libyan-districts.json](place-ids/libyan-districts.json) for details), and
@@ -364,6 +400,8 @@ Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil a
 
 
 ### Myanma states and regions gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -374,6 +412,8 @@ Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil a
 
 ### Omani governorates gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/omani-governorates.json](place-ids/omani-governorates.json) for details), and
@@ -382,6 +422,8 @@ Note that the post-2014 provinces of Akkar, Baalbek-Hermel, and Keserwan-Jbeil a
 
 
 ### Pakistani provinces gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -405,6 +447,8 @@ This gazetteer was created by:
 
 ### Russian federal subjects gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/russian-federal-subjects.json](place-ids/russian-federal-subjects.json) for details), and
@@ -413,6 +457,8 @@ This gazetteer was created by:
 
 
 ### Saudi Arabian provinces gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -423,6 +469,8 @@ This gazetteer was created by:
 
 ### Spanish autonomous communities gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. merging geometries of the units found in the Natural Earth data into geometries for autonomous communities (see [place-ids/spanish-communities.json](place-ids/spanish-communities.json) for details), and
@@ -431,6 +479,8 @@ This gazetteer was created by:
 
 
 ### Syrian governorates gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -441,6 +491,8 @@ This gazetteer was created by:
 
 ### Tajikistani regions gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/tajikistani-regions.json](place-ids/tajikistani-regions.json) for details), and
@@ -449,6 +501,8 @@ This gazetteer was created by:
 
 
 ### Thai provinces gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -459,6 +513,8 @@ This gazetteer was created by:
 
 ### Turkish provinces gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/turkish-provinces.json](place-ids/turkish-provinces.json) for details), and
@@ -467,6 +523,8 @@ This gazetteer was created by:
 
 
 ### Turkmen regions gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
@@ -501,6 +559,8 @@ This gazetteer was created by:
 
 ### Vietnamese provinces and municipalities gazetteer
 
+This gazetteer was created by:
+
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/vietnamese-provinces.json](place-ids/vietnamese-provinces.json) for details), and
@@ -509,6 +569,8 @@ This gazetteer was created by:
 
 
 ### Yemeni governorates gazetteer
+
+This gazetteer was created by:
 
 1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
 
