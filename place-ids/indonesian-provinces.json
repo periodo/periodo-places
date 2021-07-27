@@ -1,0 +1,134 @@
+{
+  "Aceh": {
+    "id": "http://www.wikidata.org/entity/Q1823",
+    "covers": [ "Aceh" ]
+  },
+  "Bali": {
+    "id": "http://www.wikidata.org/entity/Q3125978",
+    "covers": [ "Bali" ]
+  },
+  "Bangka Belitung Islands": {
+    "id": "http://www.wikidata.org/entity/Q1866",
+    "covers": [ "Bangka-Belitung" ]
+  },
+  "Banten": {
+    "id": "http://www.wikidata.org/entity/Q3540",
+    "covers": [ "Banten" ]
+  },
+  "Bengkulu": {
+    "id": "http://www.wikidata.org/entity/Q1890",
+    "covers": [ "Bengkulu" ]
+  },
+  "Central Java": {
+    "id": "http://www.wikidata.org/entity/Q3557",
+    "covers": [ "Jawa Tengah" ]
+  },
+  "Central Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3891",
+    "covers": [ "Kalimantan Tengah" ]
+  },
+  "Central Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q5065",
+    "covers": [ "Sulawesi Tengah" ]
+  },
+  "East Java": {
+    "id": "http://www.wikidata.org/entity/Q3586",
+    "covers": [ "Jawa Timur" ]
+  },
+  "East Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3899",
+    "covers": [ "Kalimantan Timur" ]
+  },
+  "East Nusa Tenggara": {
+    "id": "http://www.wikidata.org/entity/Q5061",
+    "covers": [ "Nusa Tenggara Timur" ]
+  },
+  "Gorontalo": {
+    "id": "http://www.wikidata.org/entity/Q5067",
+    "covers": [ "Gorontalo" ]
+  },
+  "Jakarta": {
+    "id": "http://www.wikidata.org/entity/Q3630",
+    "covers": [ "Jakarta Raya" ]
+  },
+  "Jambi": {
+    "id": "http://www.wikidata.org/entity/Q2051",
+    "covers": [ "Jambi" ]
+  },
+  "Lampung": {
+    "id": "http://www.wikidata.org/entity/Q2110",
+    "covers": [ "Lampung" ]
+  },
+  "Maluku": {
+    "id": "http://www.wikidata.org/entity/Q5093",
+    "covers": [ "Maluku" ]
+  },
+  "North Maluku": {
+    "id": "http://www.wikidata.org/entity/Q5094",
+    "covers": [ "Maluku Utara" ]
+  },
+  "North Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q5068",
+    "covers": [ "Sulawesi Utara" ]
+  },
+  "North Sumatra": {
+    "id": "http://www.wikidata.org/entity/Q2140",
+    "covers": [ "Sumatera Utara" ]
+  },
+  "Papua": {
+    "id": "http://www.wikidata.org/entity/Q5095",
+    "covers": [ "Papua" ]
+  },
+  "Riau": {
+    "id": "http://www.wikidata.org/entity/Q2175",
+    "covers": [ "Riau" ]
+  },
+  "Riau Islands": {
+    "id": "http://www.wikidata.org/entity/Q2223",
+    "covers": [ "Kepulauan Riau" ]
+  },
+  "South Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3906",
+    "covers": [ "Kalimantan Selatan" ]
+  },
+  "South Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q5078",
+    "covers": [ "Sulawesi Selatan" ]
+  },
+  "South Sumatra": {
+    "id": "http://www.wikidata.org/entity/Q2271",
+    "covers": [ "Sumatera Selatan" ]
+  },
+  "Southeast Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q5075",
+    "covers": [ "Sulawesi Tenggara" ]
+  },
+  "Special Region of Yogyakarta": {
+    "id": "http://www.wikidata.org/entity/Q3741",
+    "covers": [ "Yogyakarta" ]
+  },
+  "West Java": {
+    "id": "http://www.wikidata.org/entity/Q3724",
+    "covers": [ "Jawa Barat" ]
+  },
+  "West Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3916",
+    "covers": [ "Kalimantan Barat" ]
+  },
+  "West Nusa Tenggara": {
+    "id": "http://www.wikidata.org/entity/Q5062",
+    "covers": [ "Nusa Tenggara Barat" ]
+  },
+  "West Papua": {
+    "id": "http://www.wikidata.org/entity/Q5096",
+    "covers": [ "Papua Barat" ]
+  },
+  "West Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q5082",
+    "covers": [ "Sulawesi Barat" ]
+  },
+  "West Sumatra": {
+    "id": "http://www.wikidata.org/entity/Q2772",
+    "covers": [ "Sumatera Barat" ]
+  }
+}

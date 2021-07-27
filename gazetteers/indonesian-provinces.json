@@ -1,0 +1,4942 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aceh.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  95.692638,
+                  2.79206
+                ],
+                [
+                  95.012706,
+                  5.735826
+                ],
+                [
+                  95.014659,
+                  5.744615
+                ],
+                [
+                  95.023692,
+                  5.754055
+                ],
+                [
+                  95.21461,
+                  5.910102
+                ],
+                [
+                  95.236176,
+                  5.909125
+                ],
+                [
+                  95.341807,
+                  5.89643
+                ],
+                [
+                  97.496837,
+                  5.251899
+                ],
+                [
+                  97.526215,
+                  5.242255
+                ],
+                [
+                  97.893809,
+                  4.905829
+                ],
+                [
+                  97.90919,
+                  4.889594
+                ],
+                [
+                  98.275564,
+                  4.42536
+                ],
+                [
+                  98.278575,
+                  4.415473
+                ],
+                [
+                  98.282481,
+                  4.364936
+                ],
+                [
+                  98.127633,
+                  2.32699
+                ],
+                [
+                  98.125825,
+                  2.309472
+                ],
+                [
+                  98.101334,
+                  2.188621
+                ],
+                [
+                  97.321788,
+                  2.03144
+                ],
+                [
+                  97.115001,
+                  2.014716
+                ],
+                [
+                  97.102306,
+                  2.016059
+                ],
+                [
+                  96.622895,
+                  2.070624
+                ],
+                [
+                  95.790538,
+                  2.654608
+                ],
+                [
+                  95.78533,
+                  2.66059
+                ],
+                [
+                  95.698009,
+                  2.778754
+                ],
+                [
+                  95.692638,
+                  2.79206
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1823",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aceh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nanggroe Aceh Darussalam"
+        },
+        {
+          "lang": "en",
+          "toponym": "Provinsi Aceh"
+        }
+      ],
+      "properties": {
+        "title": "Aceh"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bali.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  114.468435,
+                  -8.21852
+                ],
+                [
+                  114.447927,
+                  -8.12184
+                ],
+                [
+                  114.452403,
+                  -8.095147
+                ],
+                [
+                  114.481456,
+                  -8.089532
+                ],
+                [
+                  115.172862,
+                  -8.055352
+                ],
+                [
+                  115.193126,
+                  -8.055108
+                ],
+                [
+                  115.215505,
+                  -8.059503
+                ],
+                [
+                  115.337901,
+                  -8.103774
+                ],
+                [
+                  115.502452,
+                  -8.172621
+                ],
+                [
+                  115.53533,
+                  -8.194594
+                ],
+                [
+                  115.565115,
+                  -8.221612
+                ],
+                [
+                  115.691091,
+                  -8.344415
+                ],
+                [
+                  115.714203,
+                  -8.375177
+                ],
+                [
+                  115.624204,
+                  -8.768909
+                ],
+                [
+                  115.588878,
+                  -8.807306
+                ],
+                [
+                  115.180919,
+                  -8.850518
+                ],
+                [
+                  115.1574,
+                  -8.851821
+                ],
+                [
+                  115.134532,
+                  -8.850763
+                ],
+                [
+                  115.113455,
+                  -8.845392
+                ],
+                [
+                  115.094981,
+                  -8.833673
+                ],
+                [
+                  114.574229,
+                  -8.362481
+                ],
+                [
+                  114.549083,
+                  -8.334242
+                ],
+                [
+                  114.468435,
+                  -8.21852
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3125978",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bali Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bali"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Bali"
+        }
+      ],
+      "properties": {
+        "title": "Bali"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangka-Belitung.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on Bangka and Belitung, and several smaller islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  105.12794,
+                  -2.04461
+                ],
+                [
+                  105.125499,
+                  -2.004083
+                ],
+                [
+                  105.135916,
+                  -1.965509
+                ],
+                [
+                  105.154307,
+                  -1.935968
+                ],
+                [
+                  105.349864,
+                  -1.648696
+                ],
+                [
+                  105.394542,
+                  -1.607599
+                ],
+                [
+                  105.459646,
+                  -1.562921
+                ],
+                [
+                  105.47169,
+                  -1.558364
+                ],
+                [
+                  105.565766,
+                  -1.531915
+                ],
+                [
+                  105.594086,
+                  -1.525567
+                ],
+                [
+                  105.875743,
+                  -1.48919
+                ],
+                [
+                  105.894379,
+                  -1.490818
+                ],
+                [
+                  105.913748,
+                  -1.494236
+                ],
+                [
+                  108.097911,
+                  -2.608168
+                ],
+                [
+                  108.104177,
+                  -2.6124
+                ],
+                [
+                  108.197765,
+                  -2.678155
+                ],
+                [
+                  108.267263,
+                  -2.75742
+                ],
+                [
+                  108.290863,
+                  -2.828709
+                ],
+                [
+                  108.293712,
+                  -2.848403
+                ],
+                [
+                  108.288748,
+                  -2.866632
+                ],
+                [
+                  108.210623,
+                  -3.135837
+                ],
+                [
+                  108.073985,
+                  -3.226007
+                ],
+                [
+                  108.064138,
+                  -3.231052
+                ],
+                [
+                  107.993988,
+                  -3.242446
+                ],
+                [
+                  107.631399,
+                  -3.240864
+                ],
+                [
+                  106.532237,
+                  -3.105645
+                ],
+                [
+                  106.002452,
+                  -2.830743
+                ],
+                [
+                  105.986501,
+                  -2.821222
+                ],
+                [
+                  105.147472,
+                  -2.080011
+                ],
+                [
+                  105.12794,
+                  -2.04461
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1866",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bangka Belitung Islands"
+        }
+      ],
+      "properties": {
+        "title": "Bangka Belitung Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Banten.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Java"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  105.120128,
+                  -6.630955
+                ],
+                [
+                  105.117686,
+                  -6.6124
+                ],
+                [
+                  105.13795,
+                  -6.587335
+                ],
+                [
+                  106.02003,
+                  -5.893243
+                ],
+                [
+                  106.052745,
+                  -5.881036
+                ],
+                [
+                  106.085216,
+                  -5.885512
+                ],
+                [
+                  106.685395,
+                  -6.012465
+                ],
+                [
+                  106.705821,
+                  -6.020196
+                ],
+                [
+                  106.720876,
+                  -6.030938
+                ],
+                [
+                  106.729015,
+                  -6.04754
+                ],
+                [
+                  106.731049,
+                  -6.058852
+                ],
+                [
+                  106.76292,
+                  -6.301424
+                ],
+                [
+                  106.766176,
+                  -6.370257
+                ],
+                [
+                  106.404633,
+                  -6.991306
+                ],
+                [
+                  106.401622,
+                  -6.993097
+                ],
+                [
+                  106.378917,
+                  -6.99977
+                ],
+                [
+                  106.354503,
+                  -7.002699
+                ],
+                [
+                  106.333018,
+                  -7.000746
+                ],
+                [
+                  105.274669,
+                  -6.849379
+                ],
+                [
+                  105.256114,
+                  -6.84238
+                ],
+                [
+                  105.120128,
+                  -6.630955
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3540",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Banten"
+        }
+      ],
+      "properties": {
+        "title": "Banten"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bengkulu.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  102.098643,
+                  -5.334893
+                ],
+                [
+                  101.026596,
+                  -2.479951
+                ],
+                [
+                  101.026888,
+                  -2.479693
+                ],
+                [
+                  101.078358,
+                  -2.434321
+                ],
+                [
+                  101.170962,
+                  -2.367142
+                ],
+                [
+                  101.418699,
+                  -2.238933
+                ],
+                [
+                  101.435752,
+                  -2.236246
+                ],
+                [
+                  101.443607,
+                  -2.241258
+                ],
+                [
+                  102.998602,
+                  -3.408009
+                ],
+                [
+                  103.004648,
+                  -3.415398
+                ],
+                [
+                  103.610865,
+                  -4.401591
+                ],
+                [
+                  103.765274,
+                  -4.804668
+                ],
+                [
+                  103.734733,
+                  -4.839188
+                ],
+                [
+                  103.703469,
+                  -4.862545
+                ],
+                [
+                  103.638822,
+                  -4.903421
+                ],
+                [
+                  102.390147,
+                  -5.476983
+                ],
+                [
+                  102.378754,
+                  -5.482192
+                ],
+                [
+                  102.283539,
+                  -5.499282
+                ],
+                [
+                  102.270356,
+                  -5.488702
+                ],
+                [
+                  102.098643,
+                  -5.334893
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1890",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bengkulu Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bengkulu"
+        }
+      ],
+      "properties": {
+        "title": "Bengkulu"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Java.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Java"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  108.553044,
+                  -7.309993
+                ],
+                [
+                  108.546894,
+                  -7.27878
+                ],
+                [
+                  108.575678,
+                  -7.16318
+                ],
+                [
+                  108.583533,
+                  -7.151139
+                ],
+                [
+                  108.892971,
+                  -6.815708
+                ],
+                [
+                  108.89512,
+                  -6.814155
+                ],
+                [
+                  110.420665,
+                  -5.843683
+                ],
+                [
+                  110.431326,
+                  -5.837335
+                ],
+                [
+                  110.459239,
+                  -5.831638
+                ],
+                [
+                  111.610118,
+                  -6.664972
+                ],
+                [
+                  111.62143,
+                  -6.674574
+                ],
+                [
+                  111.672699,
+                  -6.733657
+                ],
+                [
+                  111.610221,
+                  -7.146489
+                ],
+                [
+                  111.608309,
+                  -7.153982
+                ],
+                [
+                  111.280267,
+                  -7.939205
+                ],
+                [
+                  111.273291,
+                  -7.945199
+                ],
+                [
+                  110.94435,
+                  -8.226372
+                ],
+                [
+                  108.815278,
+                  -7.737726
+                ],
+                [
+                  108.800141,
+                  -7.733819
+                ],
+                [
+                  108.553044,
+                  -7.309993
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3557",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Java"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jateng"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawa Tengah Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawa Tengah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Central Java"
+        },
+        {
+          "lang": "en",
+          "toponym": "Provinsi Jawa Tengah"
+        }
+      ],
+      "properties": {
+        "title": "Central Java"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Kalimantan.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Borneo"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  111.822032,
+                  -3.545099
+                ],
+                [
+                  110.754242,
+                  -3.026056
+                ],
+                [
+                  110.755544,
+                  -3.011814
+                ],
+                [
+                  110.918791,
+                  -1.620573
+                ],
+                [
+                  110.920341,
+                  -1.613235
+                ],
+                [
+                  110.927162,
+                  -1.603674
+                ],
+                [
+                  110.957755,
+                  -1.566519
+                ],
+                [
+                  110.975738,
+                  -1.549983
+                ],
+                [
+                  111.651408,
+                  -1.015493
+                ],
+                [
+                  113.324535,
+                  0.245205
+                ],
+                [
+                  113.776394,
+                  0.558571
+                ],
+                [
+                  113.804351,
+                  0.568338
+                ],
+                [
+                  114.036327,
+                  0.647041
+                ],
+                [
+                  114.05245,
+                  0.648953
+                ],
+                [
+                  114.890073,
+                  0.737268
+                ],
+                [
+                  114.947072,
+                  0.740058
+                ],
+                [
+                  114.964074,
+                  0.73887
+                ],
+                [
+                  114.976476,
+                  0.735201
+                ],
+                [
+                  115.018592,
+                  0.695307
+                ],
+                [
+                  115.027067,
+                  0.686987
+                ],
+                [
+                  115.053215,
+                  0.645491
+                ],
+                [
+                  115.057246,
+                  0.636861
+                ],
+                [
+                  115.346634,
+                  0.010284
+                ],
+                [
+                  115.805107,
+                  -1.085256
+                ],
+                [
+                  115.81658,
+                  -1.207006
+                ],
+                [
+                  115.807795,
+                  -1.27217
+                ],
+                [
+                  115.802007,
+                  -1.294443
+                ],
+                [
+                  115.75064,
+                  -1.387305
+                ],
+                [
+                  115.330149,
+                  -2.037085
+                ],
+                [
+                  114.310683,
+                  -3.433914
+                ],
+                [
+                  113.713145,
+                  -3.472589
+                ],
+                [
+                  111.905284,
+                  -3.572035
+                ],
+                [
+                  111.887218,
+                  -3.570245
+                ],
+                [
+                  111.822032,
+                  -3.545099
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3891",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kalimantan Tengah"
+        }
+      ],
+      "properties": {
+        "title": "Central Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Sulawesi.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  119.487363,
+                  -1.311237
+                ],
+                [
+                  119.48695,
+                  -1.288603
+                ],
+                [
+                  119.627696,
+                  -0.018365
+                ],
+                [
+                  119.634451,
+                  0.010484
+                ],
+                [
+                  120.045746,
+                  0.734361
+                ],
+                [
+                  120.278494,
+                  0.994208
+                ],
+                [
+                  120.377615,
+                  1.079901
+                ],
+                [
+                  120.833507,
+                  1.32567
+                ],
+                [
+                  120.90919,
+                  1.353664
+                ],
+                [
+                  121.451427,
+                  1.297553
+                ],
+                [
+                  122.190929,
+                  1.03148
+                ],
+                [
+                  122.197342,
+                  1.027665
+                ],
+                [
+                  123.417328,
+                  -0.65488
+                ],
+                [
+                  123.444672,
+                  -0.709568
+                ],
+                [
+                  123.857432,
+                  -1.950372
+                ],
+                [
+                  123.887869,
+                  -2.050877
+                ],
+                [
+                  123.889659,
+                  -2.063246
+                ],
+                [
+                  123.886974,
+                  -2.073907
+                ],
+                [
+                  122.432953,
+                  -3.243097
+                ],
+                [
+                  122.42921,
+                  -3.245864
+                ],
+                [
+                  122.41627,
+                  -3.245701
+                ],
+                [
+                  122.339366,
+                  -3.237563
+                ],
+                [
+                  121.598036,
+                  -2.972841
+                ],
+                [
+                  119.8553,
+                  -1.953834
+                ],
+                [
+                  119.846618,
+                  -1.948718
+                ],
+                [
+                  119.835869,
+                  -1.938693
+                ],
+                [
+                  119.827033,
+                  -1.924017
+                ],
+                [
+                  119.494495,
+                  -1.329324
+                ],
+                [
+                  119.487363,
+                  -1.311237
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5065",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Sulawesi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sulawesi Tengah Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sulteng"
+        }
+      ],
+      "properties": {
+        "title": "Central Sulawesi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Java.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Java"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  110.99822,
+                  -8.250177
+                ],
+                [
+                  110.94435,
+                  -8.226372
+                ],
+                [
+                  110.959615,
+                  -8.134284
+                ],
+                [
+                  110.961269,
+                  -8.126325
+                ],
+                [
+                  111.203321,
+                  -7.266791
+                ],
+                [
+                  111.668512,
+                  -6.737573
+                ],
+                [
+                  112.590099,
+                  -5.785577
+                ],
+                [
+                  112.645356,
+                  -5.73211
+                ],
+                [
+                  112.700694,
+                  -5.726007
+                ],
+                [
+                  115.483572,
+                  -6.851658
+                ],
+                [
+                  115.553477,
+                  -6.889418
+                ],
+                [
+                  115.89088,
+                  -7.10711
+                ],
+                [
+                  115.894298,
+                  -7.111586
+                ],
+                [
+                  115.896007,
+                  -7.124933
+                ],
+                [
+                  115.894298,
+                  -7.164483
+                ],
+                [
+                  114.597179,
+                  -8.775567
+                ],
+                [
+                  114.555349,
+                  -8.777927
+                ],
+                [
+                  111.695811,
+                  -8.37127
+                ],
+                [
+                  111.67335,
+                  -8.367852
+                ],
+                [
+                  111.161957,
+                  -8.281915
+                ],
+                [
+                  111.017345,
+                  -8.254653
+                ],
+                [
+                  110.99822,
+                  -8.250177
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3586",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Java province"
+        },
+        {
+          "lang": "en",
+          "toponym": "East Java"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jatim"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawa Timur"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of East Java"
+        }
+      ],
+      "properties": {
+        "title": "East Java"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Kalimantan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Borneo"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  115.860711,
+                  -2.343319
+                ],
+                [
+                  113.776394,
+                  0.558571
+                ],
+                [
+                  113.776394,
+                  0.558571
+                ],
+                [
+                  113.864451,
+                  0.976427
+                ],
+                [
+                  113.870032,
+                  0.987279
+                ],
+                [
+                  115.646925,
+                  4.169101
+                ],
+                [
+                  115.830997,
+                  4.376116
+                ],
+                [
+                  115.844122,
+                  4.389216
+                ],
+                [
+                  115.856111,
+                  4.390767
+                ],
+                [
+                  116.522221,
+                  4.396787
+                ],
+                [
+                  117.202696,
+                  4.356066
+                ],
+                [
+                  117.217165,
+                  4.35343
+                ],
+                [
+                  117.907039,
+                  4.156683
+                ],
+                [
+                  117.91212,
+                  4.144924
+                ],
+                [
+                  118.6338,
+                  2.271674
+                ],
+                [
+                  119.005544,
+                  1.037584
+                ],
+                [
+                  119.011241,
+                  0.988227
+                ],
+                [
+                  119.011729,
+                  0.976264
+                ],
+                [
+                  119.00294,
+                  0.96247
+                ],
+                [
+                  116.57289,
+                  -2.362976
+                ],
+                [
+                  115.874044,
+                  -2.350657
+                ],
+                [
+                  115.866396,
+                  -2.34828
+                ],
+                [
+                  115.860711,
+                  -2.343319
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3899",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Kalimantan"
+        }
+      ],
+      "properties": {
+        "title": "East Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Nusa%20Tenggara.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, eastern portion of the Lesser Sunda Islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  118.94158,
+                  -9.570489
+                ],
+                [
+                  118.935395,
+                  -9.553399
+                ],
+                [
+                  118.941905,
+                  -9.525567
+                ],
+                [
+                  119.415294,
+                  -8.443292
+                ],
+                [
+                  119.456798,
+                  -8.425958
+                ],
+                [
+                  120.422048,
+                  -8.227309
+                ],
+                [
+                  122.862559,
+                  -8.069757
+                ],
+                [
+                  122.87615,
+                  -8.069594
+                ],
+                [
+                  124.545421,
+                  -8.130141
+                ],
+                [
+                  124.568696,
+                  -8.131036
+                ],
+                [
+                  124.952322,
+                  -8.149835
+                ],
+                [
+                  125.086925,
+                  -8.158787
+                ],
+                [
+                  125.09254,
+                  -8.161554
+                ],
+                [
+                  125.103201,
+                  -8.172621
+                ],
+                [
+                  125.134044,
+                  -8.217055
+                ],
+                [
+                  125.139171,
+                  -8.233575
+                ],
+                [
+                  125.162365,
+                  -9.060634
+                ],
+                [
+                  125.162003,
+                  -9.082339
+                ],
+                [
+                  125.15389,
+                  -9.17577
+                ],
+                [
+                  125.061615,
+                  -9.485772
+                ],
+                [
+                  124.979747,
+                  -9.649021
+                ],
+                [
+                  124.970714,
+                  -9.662367
+                ],
+                [
+                  124.734548,
+                  -9.899509
+                ],
+                [
+                  124.49936,
+                  -10.111993
+                ],
+                [
+                  124.451996,
+                  -10.146417
+                ],
+                [
+                  123.209158,
+                  -10.813084
+                ],
+                [
+                  122.97169,
+                  -10.906183
+                ],
+                [
+                  122.880219,
+                  -10.922621
+                ],
+                [
+                  122.841807,
+                  -10.921075
+                ],
+                [
+                  121.531423,
+                  -10.638442
+                ],
+                [
+                  120.230235,
+                  -10.245212
+                ],
+                [
+                  120.15561,
+                  -10.220961
+                ],
+                [
+                  119.096853,
+                  -9.717543
+                ],
+                [
+                  119.08253,
+                  -9.710545
+                ],
+                [
+                  119.037364,
+                  -9.675877
+                ],
+                [
+                  118.94158,
+                  -9.570489
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5061",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Nusa Tenggara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nusa Tenggara Timor province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nusa Tenggara Timur"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Nusa Tenggara Timur"
+        }
+      ],
+      "properties": {
+        "title": "East Nusa Tenggara"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gorontalo.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  121.33332,
+                  0.462277
+                ],
+                [
+                  121.160439,
+                  0.686057
+                ],
+                [
+                  121.290974,
+                  0.81592
+                ],
+                [
+                  121.30317,
+                  0.8261
+                ],
+                [
+                  121.343064,
+                  0.849664
+                ],
+                [
+                  121.357637,
+                  0.855814
+                ],
+                [
+                  121.378462,
+                  0.860981
+                ],
+                [
+                  121.855901,
+                  0.975083
+                ],
+                [
+                  122.197342,
+                  1.027665
+                ],
+                [
+                  122.441742,
+                  1.021674
+                ],
+                [
+                  122.454112,
+                  1.020657
+                ],
+                [
+                  122.990896,
+                  0.961859
+                ],
+                [
+                  123.005056,
+                  0.959459
+                ],
+                [
+                  123.097191,
+                  0.929134
+                ],
+                [
+                  123.217213,
+                  0.826772
+                ],
+                [
+                  123.439422,
+                  0.611022
+                ],
+                [
+                  123.461178,
+                  0.586476
+                ],
+                [
+                  123.481021,
+                  0.556917
+                ],
+                [
+                  123.496421,
+                  0.493459
+                ],
+                [
+                  123.501072,
+                  0.459972
+                ],
+                [
+                  123.499832,
+                  0.429793
+                ],
+                [
+                  123.492338,
+                  0.397857
+                ],
+                [
+                  123.469239,
+                  0.334812
+                ],
+                [
+                  123.457516,
+                  0.311728
+                ],
+                [
+                  123.407237,
+                  0.300442
+                ],
+                [
+                  123.390147,
+                  0.297838
+                ],
+                [
+                  121.33332,
+                  0.462277
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5067",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gorontalo (province)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gorontalo"
+        }
+      ],
+      "properties": {
+        "title": "Gorontalo"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jakarta%20%28vectorised%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital city and smallest province of Indonesia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  106.701994,
+                  -6.210112
+                ],
+                [
+                  106.684114,
+                  -6.101901
+                ],
+                [
+                  106.694552,
+                  -6.086295
+                ],
+                [
+                  106.726799,
+                  -6.061025
+                ],
+                [
+                  106.731049,
+                  -6.058852
+                ],
+                [
+                  106.988292,
+                  -6.07936
+                ],
+                [
+                  106.989315,
+                  -6.082316
+                ],
+                [
+                  106.987661,
+                  -6.145671
+                ],
+                [
+                  106.984974,
+                  -6.235433
+                ],
+                [
+                  106.983269,
+                  -6.249696
+                ],
+                [
+                  106.979703,
+                  -6.262356
+                ],
+                [
+                  106.952728,
+                  -6.345917
+                ],
+                [
+                  106.940894,
+                  -6.373771
+                ],
+                [
+                  106.923892,
+                  -6.381522
+                ],
+                [
+                  106.814442,
+                  -6.349793
+                ],
+                [
+                  106.791187,
+                  -6.332636
+                ],
+                [
+                  106.753464,
+                  -6.299202
+                ],
+                [
+                  106.741991,
+                  -6.284474
+                ],
+                [
+                  106.701994,
+                  -6.210112
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3630",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Djakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jakarta, Indonesia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Special Capital Region of Jakarta"
+        }
+      ],
+      "properties": {
+        "title": "Jakarta"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jambi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.118665,
+                  -1.806659
+                ],
+                [
+                  101.113911,
+                  -1.704909
+                ],
+                [
+                  101.769788,
+                  -1.038231
+                ],
+                [
+                  101.975771,
+                  -0.891883
+                ],
+                [
+                  101.984142,
+                  -0.886922
+                ],
+                [
+                  101.993186,
+                  -0.883512
+                ],
+                [
+                  102.001816,
+                  -0.881755
+                ],
+                [
+                  102.177412,
+                  -0.856898
+                ],
+                [
+                  102.917315,
+                  -0.763416
+                ],
+                [
+                  102.95845,
+                  -0.761504
+                ],
+                [
+                  103.438703,
+                  -0.74618
+                ],
+                [
+                  104.377208,
+                  -1.031671
+                ],
+                [
+                  104.381847,
+                  -1.040785
+                ],
+                [
+                  104.410492,
+                  -1.128351
+                ],
+                [
+                  104.449229,
+                  -1.316013
+                ],
+                [
+                  104.531586,
+                  -1.734063
+                ],
+                [
+                  103.457024,
+                  -2.402282
+                ],
+                [
+                  102.578731,
+                  -2.716733
+                ],
+                [
+                  102.486851,
+                  -2.729911
+                ],
+                [
+                  102.066825,
+                  -2.782362
+                ],
+                [
+                  101.910297,
+                  -2.745052
+                ],
+                [
+                  101.900426,
+                  -2.740143
+                ],
+                [
+                  101.772786,
+                  -2.663661
+                ],
+                [
+                  101.736716,
+                  -2.636273
+                ],
+                [
+                  101.335603,
+                  -2.296965
+                ],
+                [
+                  101.142282,
+                  -1.919986
+                ],
+                [
+                  101.127657,
+                  -1.865002
+                ],
+                [
+                  101.118665,
+                  -1.806659
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2051",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jambi"
+        }
+      ],
+      "properties": {
+        "title": "Jambi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lampung.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of  Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  103.654063,
+                  -4.979181
+                ],
+                [
+                  103.608153,
+                  -4.916489
+                ],
+                [
+                  103.765274,
+                  -4.804668
+                ],
+                [
+                  105.309934,
+                  -3.755584
+                ],
+                [
+                  105.315825,
+                  -3.751657
+                ],
+                [
+                  105.32244,
+                  -3.752174
+                ],
+                [
+                  105.402435,
+                  -3.796977
+                ],
+                [
+                  105.503721,
+                  -3.860333
+                ],
+                [
+                  105.513229,
+                  -3.868446
+                ],
+                [
+                  105.827973,
+                  -4.157973
+                ],
+                [
+                  105.906261,
+                  -4.469334
+                ],
+                [
+                  105.909434,
+                  -4.546645
+                ],
+                [
+                  105.909679,
+                  -4.943129
+                ],
+                [
+                  105.833344,
+                  -5.633722
+                ],
+                [
+                  105.8296,
+                  -5.654718
+                ],
+                [
+                  105.79363,
+                  -5.795587
+                ],
+                [
+                  105.782563,
+                  -5.828546
+                ],
+                [
+                  105.764415,
+                  -5.856215
+                ],
+                [
+                  105.729747,
+                  -5.896661
+                ],
+                [
+                  104.699067,
+                  -5.930434
+                ],
+                [
+                  104.56129,
+                  -5.928318
+                ],
+                [
+                  103.654063,
+                  -4.979181
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2110",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lampung Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lampung"
+        }
+      ],
+      "properties": {
+        "title": "Lampung"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maluku.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, central and southern regions of the Maluku Islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  125.789317,
+                  -8.016046
+                ],
+                [
+                  125.774181,
+                  -8.007582
+                ],
+                [
+                  125.991742,
+                  -3.248191
+                ],
+                [
+                  125.991742,
+                  -3.248191
+                ],
+                [
+                  126.017263,
+                  -3.171157
+                ],
+                [
+                  126.036562,
+                  -3.153593
+                ],
+                [
+                  126.090921,
+                  -3.112098
+                ],
+                [
+                  126.421397,
+                  -3.070489
+                ],
+                [
+                  128.186778,
+                  -2.854669
+                ],
+                [
+                  128.51588,
+                  -2.834161
+                ],
+                [
+                  129.052908,
+                  -2.804457
+                ],
+                [
+                  129.534841,
+                  -2.780043
+                ],
+                [
+                  129.541026,
+                  -2.780043
+                ],
+                [
+                  130.344981,
+                  -2.977634
+                ],
+                [
+                  130.389334,
+                  -2.993829
+                ],
+                [
+                  134.628266,
+                  -5.444757
+                ],
+                [
+                  134.696544,
+                  -5.534112
+                ],
+                [
+                  134.758067,
+                  -5.671319
+                ],
+                [
+                  134.888194,
+                  -6.31406
+                ],
+                [
+                  134.885916,
+                  -6.336358
+                ],
+                [
+                  134.878917,
+                  -6.35589
+                ],
+                [
+                  134.837657,
+                  -6.460056
+                ],
+                [
+                  134.722179,
+                  -6.682794
+                ],
+                [
+                  134.669444,
+                  -6.772882
+                ],
+                [
+                  130.8213,
+                  -8.347101
+                ],
+                [
+                  130.810883,
+                  -8.351332
+                ],
+                [
+                  130.763357,
+                  -8.350763
+                ],
+                [
+                  128.151622,
+                  -8.284601
+                ],
+                [
+                  127.6692,
+                  -8.240899
+                ],
+                [
+                  125.789317,
+                  -8.016046
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5093",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Maluku"
+        }
+      ],
+      "properties": {
+        "title": "Maluku"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Maluku.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, northern part of the Maluku Islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  124.304698,
+                  -1.996026
+                ],
+                [
+                  124.300629,
+                  -1.987481
+                ],
+                [
+                  124.331391,
+                  -1.826918
+                ],
+                [
+                  124.384939,
+                  -1.667901
+                ],
+                [
+                  126.352387,
+                  1.335883
+                ],
+                [
+                  126.361664,
+                  1.344713
+                ],
+                [
+                  127.75172,
+                  2.265855
+                ],
+                [
+                  127.759939,
+                  2.269924
+                ],
+                [
+                  128.466563,
+                  2.594306
+                ],
+                [
+                  128.566417,
+                  2.633612
+                ],
+                [
+                  128.583263,
+                  2.62519
+                ],
+                [
+                  128.596039,
+                  2.608588
+                ],
+                [
+                  128.686371,
+                  2.483954
+                ],
+                [
+                  129.567393,
+                  -0.175551
+                ],
+                [
+                  129.571544,
+                  -0.192153
+                ],
+                [
+                  129.568207,
+                  -0.200128
+                ],
+                [
+                  128.151134,
+                  -1.669692
+                ],
+                [
+                  128.126475,
+                  -1.693617
+                ],
+                [
+                  128.090587,
+                  -1.710138
+                ],
+                [
+                  126.046153,
+                  -2.474216
+                ],
+                [
+                  124.370291,
+                  -2.038995
+                ],
+                [
+                  124.358409,
+                  -2.033298
+                ],
+                [
+                  124.304698,
+                  -1.996026
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5094",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Maluku"
+        }
+      ],
+      "properties": {
+        "title": "North Maluku"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Sulawesi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  123.098977,
+                  0.92227
+                ],
+                [
+                  123.097191,
+                  0.929134
+                ],
+                [
+                  126.591156,
+                  5.557115
+                ],
+                [
+                  126.598643,
+                  5.565375
+                ],
+                [
+                  126.602875,
+                  5.564032
+                ],
+                [
+                  127.139171,
+                  4.766588
+                ],
+                [
+                  127.145763,
+                  4.752183
+                ],
+                [
+                  126.856057,
+                  3.758195
+                ],
+                [
+                  125.2671,
+                  1.413804
+                ],
+                [
+                  124.514171,
+                  0.503323
+                ],
+                [
+                  124.465831,
+                  0.448676
+                ],
+                [
+                  124.321788,
+                  0.398871
+                ],
+                [
+                  124.199718,
+                  0.374091
+                ],
+                [
+                  123.632498,
+                  0.266506
+                ],
+                [
+                  123.625987,
+                  0.266588
+                ],
+                [
+                  123.457516,
+                  0.311728
+                ],
+                [
+                  123.12187,
+                  0.881704
+                ],
+                [
+                  123.098977,
+                  0.92227
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5068",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Sulawesi"
+        }
+      ],
+      "properties": {
+        "title": "North Sulawesi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Sumatra.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  97.068614,
+                  1.394599
+                ],
+                [
+                  97.06365,
+                  1.415229
+                ],
+                [
+                  97.777577,
+                  3.736465
+                ],
+                [
+                  98.065725,
+                  4.250904
+                ],
+                [
+                  98.138486,
+                  4.282375
+                ],
+                [
+                  98.147167,
+                  4.285992
+                ],
+                [
+                  98.17838,
+                  4.293743
+                ],
+                [
+                  98.188405,
+                  4.294777
+                ],
+                [
+                  98.267589,
+                  4.287909
+                ],
+                [
+                  99.750743,
+                  3.180487
+                ],
+                [
+                  99.979503,
+                  2.948472
+                ],
+                [
+                  100.210623,
+                  2.706244
+                ],
+                [
+                  100.248383,
+                  2.662055
+                ],
+                [
+                  100.30836,
+                  2.569485
+                ],
+                [
+                  100.312185,
+                  2.562893
+                ],
+                [
+                  100.31365,
+                  2.554551
+                ],
+                [
+                  100.443254,
+                  1.636645
+                ],
+                [
+                  100.443978,
+                  1.616232
+                ],
+                [
+                  100.440877,
+                  1.598714
+                ],
+                [
+                  100.212726,
+                  0.874572
+                ],
+                [
+                  100.1734,
+                  0.757577
+                ],
+                [
+                  99.900032,
+                  0.495009
+                ],
+                [
+                  98.500499,
+                  -0.565606
+                ],
+                [
+                  98.422048,
+                  -0.586602
+                ],
+                [
+                  98.39031,
+                  -0.577081
+                ],
+                [
+                  98.275157,
+                  -0.52516
+                ],
+                [
+                  97.068614,
+                  1.394599
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2140",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Sumatra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Provinsi Sumatra Utara"
+        }
+      ],
+      "properties": {
+        "title": "North Sumatra"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  137.638194,
+                  -8.425877
+                ],
+                [
+                  134.233802,
+                  -3.383824
+                ],
+                [
+                  134.233802,
+                  -3.383824
+                ],
+                [
+                  134.237212,
+                  -3.353335
+                ],
+                [
+                  134.800059,
+                  -1.027765
+                ],
+                [
+                  134.820079,
+                  -0.976983
+                ],
+                [
+                  134.825938,
+                  -0.965753
+                ],
+                [
+                  134.829845,
+                  -0.960626
+                ],
+                [
+                  134.833751,
+                  -0.956638
+                ],
+                [
+                  134.849132,
+                  -0.944431
+                ],
+                [
+                  135.370372,
+                  -0.635919
+                ],
+                [
+                  135.389334,
+                  -0.627618
+                ],
+                [
+                  135.847423,
+                  -0.695896
+                ],
+                [
+                  135.869314,
+                  -0.70379
+                ],
+                [
+                  140.607595,
+                  -2.439386
+                ],
+                [
+                  140.730805,
+                  -2.491469
+                ],
+                [
+                  140.974457,
+                  -2.600518
+                ],
+                [
+                  140.976904,
+                  -4.999487
+                ],
+                [
+                  140.977627,
+                  -8.611153
+                ],
+                [
+                  140.977524,
+                  -8.798222
+                ],
+                [
+                  140.97698,
+                  -9.106134
+                ],
+                [
+                  137.638194,
+                  -8.425877
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5095",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Papua"
+        }
+      ],
+      "properties": {
+        "title": "Papua"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Riau.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  100.162961,
+                  0.648385
+                ],
+                [
+                  100.065706,
+                  1.371286
+                ],
+                [
+                  100.067205,
+                  1.379348
+                ],
+                [
+                  100.293755,
+                  2.49592
+                ],
+                [
+                  100.313547,
+                  2.554315
+                ],
+                [
+                  100.31365,
+                  2.554551
+                ],
+                [
+                  101.649262,
+                  2.128485
+                ],
+                [
+                  101.681651,
+                  2.108954
+                ],
+                [
+                  102.462657,
+                  1.515448
+                ],
+                [
+                  103.03712,
+                  1.044582
+                ],
+                [
+                  103.077647,
+                  1.003404
+                ],
+                [
+                  103.730479,
+                  0.293443
+                ],
+                [
+                  103.743419,
+                  0.27733
+                ],
+                [
+                  103.76002,
+                  0.239488
+                ],
+                [
+                  103.813975,
+                  0.018866
+                ],
+                [
+                  103.766856,
+                  -0.32464
+                ],
+                [
+                  103.756521,
+                  -0.346449
+                ],
+                [
+                  103.438703,
+                  -0.74618
+                ],
+                [
+                  102.563022,
+                  -1.080967
+                ],
+                [
+                  102.541214,
+                  -1.084946
+                ],
+                [
+                  101.769788,
+                  -1.038231
+                ],
+                [
+                  101.525256,
+                  -0.931932
+                ],
+                [
+                  101.492079,
+                  -0.909608
+                ],
+                [
+                  101.330849,
+                  -0.787238
+                ],
+                [
+                  101.235971,
+                  -0.702592
+                ],
+                [
+                  100.855839,
+                  -0.322254
+                ],
+                [
+                  100.265384,
+                  0.450464
+                ],
+                [
+                  100.197481,
+                  0.555315
+                ],
+                [
+                  100.189523,
+                  0.56963
+                ],
+                [
+                  100.162961,
+                  0.648385
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2175",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Riau"
+        },
+        {
+          "lang": "en",
+          "toponym": "Siak Sri indrapura"
+        }
+      ],
+      "properties": {
+        "title": "Riau"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Riau%20Islands.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  103.340505,
+                  0.784003
+                ],
+                [
+                  103.314789,
+                  1.061591
+                ],
+                [
+                  103.315603,
+                  1.073188
+                ],
+                [
+                  103.323497,
+                  1.09276
+                ],
+                [
+                  103.333832,
+                  1.111396
+                ],
+                [
+                  103.342133,
+                  1.119696
+                ],
+                [
+                  105.688731,
+                  3.059963
+                ],
+                [
+                  107.997813,
+                  4.770453
+                ],
+                [
+                  108.005138,
+                  4.772366
+                ],
+                [
+                  108.012706,
+                  4.768134
+                ],
+                [
+                  108.898611,
+                  2.982856
+                ],
+                [
+                  109.113943,
+                  2.523179
+                ],
+                [
+                  109.11085,
+                  2.516059
+                ],
+                [
+                  107.57545,
+                  0.98017
+                ],
+                [
+                  107.559581,
+                  0.97016
+                ],
+                [
+                  104.511241,
+                  -0.613946
+                ],
+                [
+                  104.375824,
+                  -0.660089
+                ],
+                [
+                  104.356293,
+                  -0.661716
+                ],
+                [
+                  103.415701,
+                  0.657375
+                ],
+                [
+                  103.345551,
+                  0.763373
+                ],
+                [
+                  103.340505,
+                  0.784003
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2223",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Provinsi Kepulauan Riau"
+        },
+        {
+          "lang": "en",
+          "toponym": "Riau Islands"
+        }
+      ],
+      "properties": {
+        "title": "Riau Islands"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Kalimantan.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Borneo"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  114.606619,
+                  -4.132257
+                ],
+                [
+                  114.310683,
+                  -3.433914
+                ],
+                [
+                  114.498107,
+                  -2.893311
+                ],
+                [
+                  114.504463,
+                  -2.880961
+                ],
+                [
+                  114.879996,
+                  -2.274641
+                ],
+                [
+                  115.410196,
+                  -1.453451
+                ],
+                [
+                  115.416914,
+                  -1.443374
+                ],
+                [
+                  115.426629,
+                  -1.434486
+                ],
+                [
+                  115.473655,
+                  -1.417329
+                ],
+                [
+                  115.642533,
+                  -1.366273
+                ],
+                [
+                  115.665788,
+                  -1.360744
+                ],
+                [
+                  115.68005,
+                  -1.360899
+                ],
+                [
+                  116.57289,
+                  -2.362976
+                ],
+                [
+                  116.431407,
+                  -3.447524
+                ],
+                [
+                  116.393077,
+                  -3.63242
+                ],
+                [
+                  116.310557,
+                  -3.893324
+                ],
+                [
+                  116.306488,
+                  -3.904474
+                ],
+                [
+                  115.858084,
+                  -4.779962
+                ],
+                [
+                  115.806814,
+                  -4.821873
+                ],
+                [
+                  115.786388,
+                  -4.827813
+                ],
+                [
+                  114.624766,
+                  -4.170505
+                ],
+                [
+                  114.606619,
+                  -4.132257
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3906",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Kalimantan"
+        }
+      ],
+      "properties": {
+        "title": "South Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Sulawesi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  119.360362,
+                  -5.396417
+                ],
+                [
+                  119.352794,
+                  -5.355645
+                ],
+                [
+                  119.411916,
+                  -3.214687
+                ],
+                [
+                  119.635261,
+                  -2.193974
+                ],
+                [
+                  119.646268,
+                  -2.176404
+                ],
+                [
+                  119.87349,
+                  -1.955384
+                ],
+                [
+                  119.965422,
+                  -1.902364
+                ],
+                [
+                  120.048053,
+                  -1.861488
+                ],
+                [
+                  120.06862,
+                  -1.854512
+                ],
+                [
+                  120.101279,
+                  -1.852651
+                ],
+                [
+                  120.404878,
+                  -1.837665
+                ],
+                [
+                  120.426531,
+                  -1.847122
+                ],
+                [
+                  121.448897,
+                  -2.388484
+                ],
+                [
+                  121.47117,
+                  -2.402954
+                ],
+                [
+                  121.742006,
+                  -2.610073
+                ],
+                [
+                  121.76371,
+                  -2.627901
+                ],
+                [
+                  121.776836,
+                  -2.646815
+                ],
+                [
+                  121.787378,
+                  -2.670121
+                ],
+                [
+                  121.793682,
+                  -2.695236
+                ],
+                [
+                  121.79637,
+                  -2.717095
+                ],
+                [
+                  121.837087,
+                  -7.356541
+                ],
+                [
+                  121.834809,
+                  -7.388279
+                ],
+                [
+                  121.810313,
+                  -7.404229
+                ],
+                [
+                  121.77589,
+                  -7.416925
+                ],
+                [
+                  121.759044,
+                  -7.415785
+                ],
+                [
+                  120.992686,
+                  -7.333591
+                ],
+                [
+                  120.816254,
+                  -7.302423
+                ],
+                [
+                  120.799327,
+                  -7.295017
+                ],
+                [
+                  120.562906,
+                  -7.094538
+                ],
+                [
+                  119.433279,
+                  -5.587823
+                ],
+                [
+                  119.424815,
+                  -5.573337
+                ],
+                [
+                  119.360362,
+                  -5.396417
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5078",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Sulawesi"
+        }
+      ],
+      "properties": {
+        "title": "South Sulawesi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Sumatra%20%28vectorised%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  102.635989,
+                  -3.827466
+                ],
+                [
+                  102.066825,
+                  -2.782362
+                ],
+                [
+                  102.107339,
+                  -2.741641
+                ],
+                [
+                  102.260198,
+                  -2.639528
+                ],
+                [
+                  103.535004,
+                  -1.967942
+                ],
+                [
+                  103.886352,
+                  -1.794774
+                ],
+                [
+                  104.397845,
+                  -1.689974
+                ],
+                [
+                  104.411281,
+                  -1.688941
+                ],
+                [
+                  104.428283,
+                  -1.69385
+                ],
+                [
+                  104.531586,
+                  -1.734063
+                ],
+                [
+                  105.62379,
+                  -2.401788
+                ],
+                [
+                  106.028494,
+                  -2.982843
+                ],
+                [
+                  106.045584,
+                  -3.012302
+                ],
+                [
+                  106.054047,
+                  -3.04697
+                ],
+                [
+                  106.079763,
+                  -3.211521
+                ],
+                [
+                  106.079356,
+                  -3.223728
+                ],
+                [
+                  105.952891,
+                  -3.869073
+                ],
+                [
+                  105.935802,
+                  -3.909845
+                ],
+                [
+                  105.827973,
+                  -4.157973
+                ],
+                [
+                  104.297851,
+                  -4.892466
+                ],
+                [
+                  104.288291,
+                  -4.895101
+                ],
+                [
+                  104.155018,
+                  -4.931172
+                ],
+                [
+                  104.081069,
+                  -4.946726
+                ],
+                [
+                  104.051613,
+                  -4.946313
+                ],
+                [
+                  103.986087,
+                  -4.942385
+                ],
+                [
+                  103.889452,
+                  -4.9336
+                ],
+                [
+                  103.872813,
+                  -4.928691
+                ],
+                [
+                  103.863511,
+                  -4.922283
+                ],
+                [
+                  102.768487,
+                  -3.96136
+                ],
+                [
+                  102.635989,
+                  -3.827466
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2271",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "South Sumatra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sumatera Selatan"
+        }
+      ],
+      "properties": {
+        "title": "South Sumatra"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Southeast%20Sulawesi.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  120.874522,
+                  -3.498956
+                ],
+                [
+                  120.867686,
+                  -3.469496
+                ],
+                [
+                  120.867686,
+                  -3.45794
+                ],
+                [
+                  120.870291,
+                  -3.445733
+                ],
+                [
+                  120.889415,
+                  -3.388767
+                ],
+                [
+                  121.086369,
+                  -2.910178
+                ],
+                [
+                  121.127883,
+                  -2.885612
+                ],
+                [
+                  121.16354,
+                  -2.873468
+                ],
+                [
+                  121.205656,
+                  -2.866491
+                ],
+                [
+                  121.226275,
+                  -2.865561
+                ],
+                [
+                  121.243742,
+                  -2.867267
+                ],
+                [
+                  121.781435,
+                  -2.985502
+                ],
+                [
+                  121.816885,
+                  -2.995321
+                ],
+                [
+                  122.16999,
+                  -3.093713
+                ],
+                [
+                  122.18756,
+                  -3.100327
+                ],
+                [
+                  123.157237,
+                  -3.544854
+                ],
+                [
+                  123.16977,
+                  -3.558282
+                ],
+                [
+                  123.177257,
+                  -3.573989
+                ],
+                [
+                  124.073985,
+                  -5.985284
+                ],
+                [
+                  124.071137,
+                  -6.011326
+                ],
+                [
+                  124.059337,
+                  -6.027439
+                ],
+                [
+                  122.654307,
+                  -5.678481
+                ],
+                [
+                  121.968272,
+                  -5.46795
+                ],
+                [
+                  121.881847,
+                  -5.390232
+                ],
+                [
+                  121.827159,
+                  -5.300714
+                ],
+                [
+                  121.48463,
+                  -4.656427
+                ],
+                [
+                  120.893809,
+                  -3.539158
+                ],
+                [
+                  120.874522,
+                  -3.498956
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Southeast Sulawesi"
+        }
+      ],
+      "properties": {
+        "title": "Southeast Sulawesi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yogyakarta.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Java"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  110.380382,
+                  -8.073175
+                ],
+                [
+                  110.04274,
+                  -7.889101
+                ],
+                [
+                  110.042772,
+                  -7.888872
+                ],
+                [
+                  110.046182,
+                  -7.864739
+                ],
+                [
+                  110.04918,
+                  -7.855438
+                ],
+                [
+                  110.130002,
+                  -7.686301
+                ],
+                [
+                  110.136513,
+                  -7.676792
+                ],
+                [
+                  110.159044,
+                  -7.667594
+                ],
+                [
+                  110.437683,
+                  -7.560055
+                ],
+                [
+                  110.773063,
+                  -7.843449
+                ],
+                [
+                  110.781331,
+                  -7.854042
+                ],
+                [
+                  110.784742,
+                  -7.862879
+                ],
+                [
+                  110.837039,
+                  -8.13325
+                ],
+                [
+                  110.84355,
+                  -8.200739
+                ],
+                [
+                  110.84356,
+                  -8.200843
+                ],
+                [
+                  110.715343,
+                  -8.193129
+                ],
+                [
+                  110.705577,
+                  -8.190037
+                ],
+                [
+                  110.476736,
+                  -8.111912
+                ],
+                [
+                  110.380382,
+                  -8.073175
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3741",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jogja"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jogjakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Special Region of Yogyakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yogyakarta Special Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yogyakarta"
+        }
+      ],
+      "properties": {
+        "title": "Special Region of Yogyakarta"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5007997",
+          "label": "special region of Indonesia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Java%20%28vectorised%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  106.39776,
+                  -7.378465
+                ],
+                [
+                  106.375365,
+                  -7.310194
+                ],
+                [
+                  106.405268,
+                  -6.524098
+                ],
+                [
+                  106.420771,
+                  -6.370412
+                ],
+                [
+                  106.430589,
+                  -6.350413
+                ],
+                [
+                  107.021251,
+                  -5.924086
+                ],
+                [
+                  107.044444,
+                  -5.914321
+                ],
+                [
+                  107.280935,
+                  -5.954767
+                ],
+                [
+                  107.320647,
+                  -5.962416
+                ],
+                [
+                  108.360269,
+                  -6.246401
+                ],
+                [
+                  108.89512,
+                  -6.814155
+                ],
+                [
+                  108.799001,
+                  -7.664727
+                ],
+                [
+                  108.788259,
+                  -7.673517
+                ],
+                [
+                  108.761054,
+                  -7.692765
+                ],
+                [
+                  108.453711,
+                  -7.818501
+                ],
+                [
+                  108.326829,
+                  -7.817471
+                ],
+                [
+                  107.864534,
+                  -7.74513
+                ],
+                [
+                  106.522662,
+                  -7.410957
+                ],
+                [
+                  106.39776,
+                  -7.378465
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3724",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jabar"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawa Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of West Java"
+        },
+        {
+          "lang": "en",
+          "toponym": "Provinsi Jawa Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Java"
+        }
+      ],
+      "properties": {
+        "title": "West Java"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Kalimantan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Borneo"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  110.263194,
+                  -3.002862
+                ],
+                [
+                  108.677257,
+                  -1.7138
+                ],
+                [
+                  108.855479,
+                  0.832221
+                ],
+                [
+                  108.855479,
+                  0.832221
+                ],
+                [
+                  108.924327,
+                  1.164008
+                ],
+                [
+                  109.073009,
+                  1.533922
+                ],
+                [
+                  109.340994,
+                  1.935533
+                ],
+                [
+                  109.358897,
+                  1.94831
+                ],
+                [
+                  109.645274,
+                  2.083238
+                ],
+                [
+                  114.094255,
+                  1.465674
+                ],
+                [
+                  114.207406,
+                  1.439443
+                ],
+                [
+                  114.208926,
+                  1.261732
+                ],
+                [
+                  114.206135,
+                  1.240596
+                ],
+                [
+                  114.200554,
+                  1.225093
+                ],
+                [
+                  113.263144,
+                  -0.541207
+                ],
+                [
+                  113.256426,
+                  -0.551387
+                ],
+                [
+                  111.148234,
+                  -2.723348
+                ],
+                [
+                  111.00571,
+                  -2.864838
+                ],
+                [
+                  110.997856,
+                  -2.870212
+                ],
+                [
+                  110.697927,
+                  -3.062677
+                ],
+                [
+                  110.662446,
+                  -3.080743
+                ],
+                [
+                  110.263194,
+                  -3.002862
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3916",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kalimantan Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Kalimantan"
+        }
+      ],
+      "properties": {
+        "title": "West Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Nusa%20Tenggara.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, western portion of the Lesser Sunda Islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  115.839262,
+                  -8.816857
+                ],
+                [
+                  115.828638,
+                  -8.791786
+                ],
+                [
+                  115.830696,
+                  -8.769812
+                ],
+                [
+                  115.833821,
+                  -8.748874
+                ],
+                [
+                  115.848592,
+                  -8.724793
+                ],
+                [
+                  116.027937,
+                  -8.445008
+                ],
+                [
+                  116.050047,
+                  -8.414638
+                ],
+                [
+                  116.269705,
+                  -8.247735
+                ],
+                [
+                  116.286388,
+                  -8.236261
+                ],
+                [
+                  116.376231,
+                  -8.201837
+                ],
+                [
+                  117.917817,
+                  -8.08587
+                ],
+                [
+                  117.958751,
+                  -8.083266
+                ],
+                [
+                  119.086436,
+                  -8.131524
+                ],
+                [
+                  119.113048,
+                  -8.146661
+                ],
+                [
+                  119.131521,
+                  -8.166274
+                ],
+                [
+                  119.137462,
+                  -8.190606
+                ],
+                [
+                  119.203624,
+                  -8.610935
+                ],
+                [
+                  119.189301,
+                  -8.700291
+                ],
+                [
+                  119.181814,
+                  -8.720798
+                ],
+                [
+                  119.151622,
+                  -8.742364
+                ],
+                [
+                  118.944591,
+                  -8.841485
+                ],
+                [
+                  118.932465,
+                  -8.846449
+                ],
+                [
+                  118.908051,
+                  -8.850518
+                ],
+                [
+                  117.0713,
+                  -9.101739
+                ],
+                [
+                  117.009736,
+                  -9.107293
+                ],
+                [
+                  116.019298,
+                  -8.908136
+                ],
+                [
+                  116.009532,
+                  -8.904474
+                ],
+                [
+                  115.839262,
+                  -8.816857
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5062",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nusa Tenggara Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Nusa Tenggara"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Nusa Tenggara, Indonesia"
+        }
+      ],
+      "properties": {
+        "title": "West Nusa Tenggara"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Papua%20%28vectorised%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  129.732921,
+                  -1.903741
+                ],
+                [
+                  129.714854,
+                  -1.881443
+                ],
+                [
+                  129.743907,
+                  -1.199884
+                ],
+                [
+                  129.844249,
+                  -0.444268
+                ],
+                [
+                  129.848888,
+                  -0.432387
+                ],
+                [
+                  131.255626,
+                  1.068793
+                ],
+                [
+                  131.26352,
+                  1.075914
+                ],
+                [
+                  134.342947,
+                  0.765204
+                ],
+                [
+                  134.346934,
+                  0.752021
+                ],
+                [
+                  135.265108,
+                  -3.759977
+                ],
+                [
+                  134.873608,
+                  -4.254469
+                ],
+                [
+                  134.873493,
+                  -4.254611
+                ],
+                [
+                  134.823497,
+                  -4.259373
+                ],
+                [
+                  133.627696,
+                  -4.300226
+                ],
+                [
+                  133.604177,
+                  -4.300714
+                ],
+                [
+                  132.969412,
+                  -4.111993
+                ],
+                [
+                  132.912283,
+                  -4.090265
+                ],
+                [
+                  132.907725,
+                  -4.088149
+                ],
+                [
+                  129.743826,
+                  -1.912205
+                ],
+                [
+                  129.732921,
+                  -1.903741
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5096",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Irian Jaya Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Irian Jaya"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Papua"
+        }
+      ],
+      "properties": {
+        "title": "West Papua"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sulawesi.tif"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Sulawesi"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  118.764171,
+                  -3.090916
+                ],
+                [
+                  118.757335,
+                  -2.775811
+                ],
+                [
+                  118.777843,
+                  -2.690118
+                ],
+                [
+                  118.782481,
+                  -2.672947
+                ],
+                [
+                  119.31365,
+                  -1.245782
+                ],
+                [
+                  119.32838,
+                  -1.214451
+                ],
+                [
+                  119.525157,
+                  -0.860447
+                ],
+                [
+                  119.537364,
+                  -0.85003
+                ],
+                [
+                  119.56622,
+                  -0.833692
+                ],
+                [
+                  119.845481,
+                  -1.775137
+                ],
+                [
+                  119.87349,
+                  -1.955384
+                ],
+                [
+                  119.78688,
+                  -2.686864
+                ],
+                [
+                  119.78564,
+                  -2.695029
+                ],
+                [
+                  119.639189,
+                  -3.120946
+                ],
+                [
+                  119.490927,
+                  -3.48654
+                ],
+                [
+                  118.938813,
+                  -3.573989
+                ],
+                [
+                  118.926768,
+                  -3.566095
+                ],
+                [
+                  118.91684,
+                  -3.546808
+                ],
+                [
+                  118.848969,
+                  -3.390558
+                ],
+                [
+                  118.842296,
+                  -3.368341
+                ],
+                [
+                  118.766368,
+                  -3.102634
+                ],
+                [
+                  118.764171,
+                  -3.090916
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q5082",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Sulawesi"
+        }
+      ],
+      "properties": {
+        "title": "West Sulawesi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sumatra.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on the island of Sumatra"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  98.63087,
+                  -1.284845
+                ],
+                [
+                  98.593761,
+                  -1.198419
+                ],
+                [
+                  98.597911,
+                  -1.176935
+                ],
+                [
+                  98.651622,
+                  -0.982029
+                ],
+                [
+                  98.658214,
+                  -0.963474
+                ],
+                [
+                  99.151165,
+                  0.252457
+                ],
+                [
+                  99.151165,
+                  0.252457
+                ],
+                [
+                  99.34234,
+                  0.473615
+                ],
+                [
+                  99.706659,
+                  0.887233
+                ],
+                [
+                  99.712963,
+                  0.88806
+                ],
+                [
+                  99.85404,
+                  0.864289
+                ],
+                [
+                  99.94127,
+                  0.836177
+                ],
+                [
+                  100.1734,
+                  0.757577
+                ],
+                [
+                  100.197481,
+                  0.739232
+                ],
+                [
+                  100.789383,
+                  0.255954
+                ],
+                [
+                  100.828657,
+                  0.212649
+                ],
+                [
+                  100.838476,
+                  0.200195
+                ],
+                [
+                  101.752012,
+                  -1.005778
+                ],
+                [
+                  101.756146,
+                  -1.011307
+                ],
+                [
+                  101.840895,
+                  -1.14763
+                ],
+                [
+                  101.842549,
+                  -1.153934
+                ],
+                [
+                  101.840999,
+                  -1.166233
+                ],
+                [
+                  101.335603,
+                  -2.296965
+                ],
+                [
+                  100.478282,
+                  -3.315199
+                ],
+                [
+                  100.460704,
+                  -3.334405
+                ],
+                [
+                  100.448253,
+                  -3.325372
+                ],
+                [
+                  100.378673,
+                  -3.272393
+                ],
+                [
+                  98.884776,
+                  -1.679376
+                ],
+                [
+                  98.826427,
+                  -1.612481
+                ],
+                [
+                  98.822602,
+                  -1.607599
+                ],
+                [
+                  98.63087,
+                  -1.284845
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q2772",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Sumatra"
+        },
+        {
+          "lang": "en",
+          "toponym": "West of Sumatra"
+        }
+      ],
+      "properties": {
+        "title": "West Sumatra"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    }
+  ],
+  "title": "Indonesian provinces",
+  "type": "FeatureCollection"
+}
