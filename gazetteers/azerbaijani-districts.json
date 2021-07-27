@@ -1,0 +1,7415 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.859736,
+                  40.291572
+                ],
+                [
+                  48.85059,
+                  40.328495
+                ],
+                [
+                  49.482696,
+                  40.636848
+                ],
+                [
+                  49.888304,
+                  40.513186
+                ],
+                [
+                  49.291906,
+                  39.953014
+                ],
+                [
+                  49.004379,
+                  40.159926
+                ],
+                [
+                  48.859736,
+                  40.291572
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q179538",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Absheron District"
+        }
+      ],
+      "properties": {
+        "title": "Absheron District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.852727,
+                  39.795272
+                ],
+                [
+                  46.697904,
+                  40.018152
+                ],
+                [
+                  46.814073,
+                  40.150728
+                ],
+                [
+                  46.932154,
+                  40.221835
+                ],
+                [
+                  47.003829,
+                  40.214057
+                ],
+                [
+                  47.22888,
+                  40.169771
+                ],
+                [
+                  47.285724,
+                  39.900511
+                ],
+                [
+                  47.26433,
+                  39.865474
+                ],
+                [
+                  47.256888,
+                  39.86072
+                ],
+                [
+                  47.248982,
+                  39.856999
+                ],
+                [
+                  47.156429,
+                  39.828732
+                ],
+                [
+                  46.852727,
+                  39.795272
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q201647",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Agdam District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aghdam Rayon"
+        }
+      ],
+      "properties": {
+        "title": "Agdam District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.218596,
+                  40.523858
+                ],
+                [
+                  47.207692,
+                  40.562589
+                ],
+                [
+                  47.2218,
+                  40.67421
+                ],
+                [
+                  47.262831,
+                  40.788854
+                ],
+                [
+                  47.412745,
+                  40.773326
+                ],
+                [
+                  47.525606,
+                  40.761466
+                ],
+                [
+                  47.618727,
+                  40.60977
+                ],
+                [
+                  47.586377,
+                  40.525382
+                ],
+                [
+                  47.523022,
+                  40.390687
+                ],
+                [
+                  47.50938,
+                  40.363686
+                ],
+                [
+                  47.49429,
+                  40.33821
+                ],
+                [
+                  47.462199,
+                  40.31108
+                ],
+                [
+                  47.44282,
+                  40.298419
+                ],
+                [
+                  47.420961,
+                  40.313974
+                ],
+                [
+                  47.365719,
+                  40.365159
+                ],
+                [
+                  47.222162,
+                  40.514633
+                ],
+                [
+                  47.218596,
+                  40.523858
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275784",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Agdash District"
+        }
+      ],
+      "properties": {
+        "title": "Agdash District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "rayon (district) in central Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.094469,
+                  39.925574
+                ],
+                [
+                  47.072352,
+                  39.974744
+                ],
+                [
+                  47.101756,
+                  40.043913
+                ],
+                [
+                  47.14072,
+                  40.114606
+                ],
+                [
+                  47.226968,
+                  40.185609
+                ],
+                [
+                  47.484265,
+                  40.253719
+                ],
+                [
+                  47.724147,
+                  40.203179
+                ],
+                [
+                  47.7566,
+                  40.159487
+                ],
+                [
+                  47.670197,
+                  39.951825
+                ],
+                [
+                  47.6549,
+                  39.916169
+                ],
+                [
+                  47.46592,
+                  39.73835
+                ],
+                [
+                  47.31151,
+                  39.708016
+                ],
+                [
+                  47.094469,
+                  39.925574
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330818",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aghjabadi District"
+        }
+      ],
+      "properties": {
+        "title": "Aghjabadi District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.098364,
+                  41.343265
+                ],
+                [
+                  45.097833,
+                  41.349919
+                ],
+                [
+                  45.24962,
+                  41.4445
+                ],
+                [
+                  45.281711,
+                  41.452923
+                ],
+                [
+                  45.314422,
+                  41.451631
+                ],
+                [
+                  45.464801,
+                  41.430185
+                ],
+                [
+                  45.74406,
+                  41.335359
+                ],
+                [
+                  45.770337,
+                  41.232102
+                ],
+                [
+                  45.580608,
+                  41.05305
+                ],
+                [
+                  45.550739,
+                  41.029124
+                ],
+                [
+                  45.442843,
+                  40.94838
+                ],
+                [
+                  45.428731,
+                  40.951197
+                ],
+                [
+                  45.416432,
+                  40.961325
+                ],
+                [
+                  45.10224,
+                  41.336573
+                ],
+                [
+                  45.098364,
+                  41.343265
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q275744",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Agstafa District"
+        }
+      ],
+      "properties": {
+        "title": "Agstafa District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.106862,
+                  40.428799
+                ],
+                [
+                  48.079629,
+                  40.448229
+                ],
+                [
+                  48.088414,
+                  40.491069
+                ],
+                [
+                  48.108413,
+                  40.532307
+                ],
+                [
+                  48.170631,
+                  40.578505
+                ],
+                [
+                  48.461156,
+                  40.793867
+                ],
+                [
+                  48.508027,
+                  40.742888
+                ],
+                [
+                  48.52694,
+                  40.711572
+                ],
+                [
+                  48.6521,
+                  40.486883
+                ],
+                [
+                  48.440072,
+                  40.27842
+                ],
+                [
+                  48.106862,
+                  40.428799
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330800",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Agsu District"
+        }
+      ],
+      "properties": {
+        "title": "Agsu District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.575929,
+                  38.420369
+                ],
+                [
+                  48.535641,
+                  38.469154
+                ],
+                [
+                  48.547042,
+                  38.494498
+                ],
+                [
+                  48.568953,
+                  38.538578
+                ],
+                [
+                  48.58704,
+                  38.552376
+                ],
+                [
+                  48.608434,
+                  38.561445
+                ],
+                [
+                  48.631947,
+                  38.567052
+                ],
+                [
+                  48.698144,
+                  38.581676
+                ],
+                [
+                  48.8685,
+                  38.602498
+                ],
+                [
+                  48.874278,
+                  38.434231
+                ],
+                [
+                  48.874278,
+                  38.434068
+                ],
+                [
+                  48.659128,
+                  38.392645
+                ],
+                [
+                  48.612962,
+                  38.395646
+                ],
+                [
+                  48.607865,
+                  38.395978
+                ],
+                [
+                  48.575929,
+                  38.420369
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q269680",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Astara District"
+        }
+      ],
+      "properties": {
+        "title": "Astara District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.146267,
+                  39.228666
+                ],
+                [
+                  45.11435,
+                  39.30935
+                ],
+                [
+                  45.2351,
+                  39.559059
+                ],
+                [
+                  45.258406,
+                  39.586395
+                ],
+                [
+                  45.266191,
+                  39.592918
+                ],
+                [
+                  45.39235,
+                  39.518778
+                ],
+                [
+                  45.423937,
+                  39.493827
+                ],
+                [
+                  45.549499,
+                  39.288197
+                ],
+                [
+                  45.560506,
+                  39.260265
+                ],
+                [
+                  45.550843,
+                  39.032657
+                ],
+                [
+                  45.535565,
+                  38.968453
+                ],
+                [
+                  45.530843,
+                  38.969276
+                ],
+                [
+                  45.482577,
+                  38.984392
+                ],
+                [
+                  45.45984,
+                  38.993125
+                ],
+                [
+                  45.438601,
+                  39.004235
+                ],
+                [
+                  45.152727,
+                  39.213525
+                ],
+                [
+                  45.146267,
+                  39.228666
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q643895",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Babek District"
+        }
+      ],
+      "properties": {
+        "title": "Babek District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Baku%2C%20Azerbaijan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  49.348802,
+                  39.696776
+                ],
+                [
+                  49.291906,
+                  39.953014
+                ],
+                [
+                  49.41934,
+                  40.398103
+                ],
+                [
+                  49.45076,
+                  40.422598
+                ],
+                [
+                  49.709719,
+                  40.585995
+                ],
+                [
+                  49.938162,
+                  40.58747
+                ],
+                [
+                  50.052013,
+                  40.584296
+                ],
+                [
+                  50.353689,
+                  40.480658
+                ],
+                [
+                  50.606944,
+                  40.337836
+                ],
+                [
+                  50.621267,
+                  40.326077
+                ],
+                [
+                  50.625743,
+                  40.31037
+                ],
+                [
+                  50.618907,
+                  40.299994
+                ],
+                [
+                  49.358735,
+                  39.666571
+                ],
+                [
+                  49.348802,
+                  39.696776
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q9248",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Baku"
+        },
+        {
+          "lang": "en",
+          "toponym": "City of Winds"
+        }
+      ],
+      "properties": {
+        "title": "Baku"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q137413",
+          "label": "administrative territorial entity of Azerbaijan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.180002,
+                  41.655159
+                ],
+                [
+                  46.179537,
+                  41.705879
+                ],
+                [
+                  46.188994,
+                  41.740141
+                ],
+                [
+                  46.208321,
+                  41.755514
+                ],
+                [
+                  46.430892,
+                  41.890442
+                ],
+                [
+                  46.479312,
+                  41.887005
+                ],
+                [
+                  46.525511,
+                  41.882303
+                ],
+                [
+                  46.709555,
+                  41.835066
+                ],
+                [
+                  46.716405,
+                  41.812487
+                ],
+                [
+                  46.702349,
+                  41.77776
+                ],
+                [
+                  46.518019,
+                  41.616375
+                ],
+                [
+                  46.488512,
+                  41.601079
+                ],
+                [
+                  46.364798,
+                  41.556637
+                ],
+                [
+                  46.334154,
+                  41.554673
+                ],
+                [
+                  46.279871,
+                  41.571172
+                ],
+                [
+                  46.21969,
+                  41.593302
+                ],
+                [
+                  46.192767,
+                  41.610174
+                ],
+                [
+                  46.180002,
+                  41.655159
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330850",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balakan District"
+        }
+      ],
+      "properties": {
+        "title": "Balakan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.975717,
+                  40.392315
+                ],
+                [
+                  46.969309,
+                  40.415725
+                ],
+                [
+                  47.017833,
+                  40.471613
+                ],
+                [
+                  47.207692,
+                  40.562589
+                ],
+                [
+                  47.263296,
+                  40.543314
+                ],
+                [
+                  47.28097,
+                  40.533211
+                ],
+                [
+                  47.360758,
+                  40.456678
+                ],
+                [
+                  47.524004,
+                  40.282606
+                ],
+                [
+                  47.516149,
+                  40.274338
+                ],
+                [
+                  47.484265,
+                  40.253719
+                ],
+                [
+                  47.399722,
+                  40.204626
+                ],
+                [
+                  47.315593,
+                  40.161916
+                ],
+                [
+                  47.282313,
+                  40.153415
+                ],
+                [
+                  47.086305,
+                  40.166851
+                ],
+                [
+                  46.982383,
+                  40.369216
+                ],
+                [
+                  46.975717,
+                  40.392315
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330857",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Barda District"
+        }
+      ],
+      "properties": {
+        "title": "Barda District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.482249,
+                  39.708791
+                ],
+                [
+                  47.432537,
+                  39.781913
+                ],
+                [
+                  47.446179,
+                  39.826613
+                ],
+                [
+                  47.463284,
+                  39.848472
+                ],
+                [
+                  47.7566,
+                  40.159487
+                ],
+                [
+                  47.770552,
+                  40.158583
+                ],
+                [
+                  47.78342,
+                  40.153518
+                ],
+                [
+                  47.889718,
+                  39.76995
+                ],
+                [
+                  47.882793,
+                  39.739435
+                ],
+                [
+                  47.788212,
+                  39.657651
+                ],
+                [
+                  47.745282,
+                  39.623784
+                ],
+                [
+                  47.62498,
+                  39.571411
+                ],
+                [
+                  47.482249,
+                  39.708791
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330807",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Beylagan District"
+        }
+      ],
+      "properties": {
+        "title": "Beylagan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.341732,
+                  39.316308
+                ],
+                [
+                  47.957708,
+                  39.707256
+                ],
+                [
+                  47.957724,
+                  39.707396
+                ],
+                [
+                  47.958758,
+                  39.716362
+                ],
+                [
+                  48.019426,
+                  39.71246
+                ],
+                [
+                  48.582079,
+                  39.65174
+                ],
+                [
+                  48.62559,
+                  39.64603
+                ],
+                [
+                  48.766977,
+                  39.605697
+                ],
+                [
+                  48.778553,
+                  39.462088
+                ],
+                [
+                  48.773385,
+                  39.435681
+                ],
+                [
+                  48.763773,
+                  39.408835
+                ],
+                [
+                  48.610294,
+                  39.302382
+                ],
+                [
+                  48.377957,
+                  39.300702
+                ],
+                [
+                  48.341732,
+                  39.316308
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330834",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bilasuvar District"
+        }
+      ],
+      "properties": {
+        "title": "Bilasuvar District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.861676,
+                  40.261265
+                ],
+                [
+                  45.819152,
+                  40.297141
+                ],
+                [
+                  45.822971,
+                  40.459908
+                ],
+                [
+                  45.840386,
+                  40.523677
+                ],
+                [
+                  45.991901,
+                  40.641861
+                ],
+                [
+                  46.030968,
+                  40.666717
+                ],
+                [
+                  46.078976,
+                  40.647157
+                ],
+                [
+                  46.115976,
+                  40.628838
+                ],
+                [
+                  46.179331,
+                  40.595507
+                ],
+                [
+                  46.202379,
+                  40.580831
+                ],
+                [
+                  46.226409,
+                  40.429367
+                ],
+                [
+                  46.225944,
+                  40.399291
+                ],
+                [
+                  46.155767,
+                  40.307514
+                ],
+                [
+                  45.881726,
+                  40.260438
+                ],
+                [
+                  45.861676,
+                  40.261265
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457494",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dashkasan District"
+        }
+      ],
+      "properties": {
+        "title": "Dashkasan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.053387,
+                  39.465963
+                ],
+                [
+                  47.019074,
+                  39.572624
+                ],
+                [
+                  47.02946,
+                  39.619287
+                ],
+                [
+                  47.046772,
+                  39.642025
+                ],
+                [
+                  47.174206,
+                  39.684606
+                ],
+                [
+                  47.46592,
+                  39.73835
+                ],
+                [
+                  47.515477,
+                  39.70197
+                ],
+                [
+                  47.624928,
+                  39.612208
+                ],
+                [
+                  47.62498,
+                  39.571874
+                ],
+                [
+                  47.62498,
+                  39.571411
+                ],
+                [
+                  47.554079,
+                  39.521982
+                ],
+                [
+                  47.291356,
+                  39.379613
+                ],
+                [
+                  47.26132,
+                  39.366384
+                ],
+                [
+                  47.163354,
+                  39.384935
+                ],
+                [
+                  47.053387,
+                  39.465963
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q331687",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fuzuli District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fuzuli Rayon"
+        }
+      ],
+      "properties": {
+        "title": "Fuzuli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.387803,
+                  40.609512
+                ],
+                [
+                  45.37354,
+                  40.632715
+                ],
+                [
+                  45.373643,
+                  40.675296
+                ],
+                [
+                  45.39881,
+                  40.708937
+                ],
+                [
+                  45.437929,
+                  40.73338
+                ],
+                [
+                  45.478335,
+                  40.748183
+                ],
+                [
+                  45.722615,
+                  40.823219
+                ],
+                [
+                  45.759512,
+                  40.787872
+                ],
+                [
+                  45.889737,
+                  40.65695
+                ],
+                [
+                  45.912578,
+                  40.626099
+                ],
+                [
+                  45.911699,
+                  40.557189
+                ],
+                [
+                  45.845192,
+                  40.361671
+                ],
+                [
+                  45.837905,
+                  40.341078
+                ],
+                [
+                  45.827725,
+                  40.314904
+                ],
+                [
+                  45.819152,
+                  40.297141
+                ],
+                [
+                  45.585413,
+                  40.398724
+                ],
+                [
+                  45.526192,
+                  40.441047
+                ],
+                [
+                  45.455447,
+                  40.523626
+                ],
+                [
+                  45.387803,
+                  40.609512
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330749",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gadabay District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gadabay"
+        }
+      ],
+      "properties": {
+        "title": "Gadabay District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.307567,
+                  40.62643
+                ],
+                [
+                  46.298371,
+                  40.657467
+                ],
+                [
+                  46.313315,
+                  40.688888
+                ],
+                [
+                  46.34073,
+                  40.724622
+                ],
+                [
+                  46.391484,
+                  40.723758
+                ],
+                [
+                  46.411792,
+                  40.68544
+                ],
+                [
+                  46.383054,
+                  40.649421
+                ],
+                [
+                  46.345885,
+                  40.622598
+                ],
+                [
+                  46.307567,
+                  40.62643
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q131290",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Elisabethpol"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ganca"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ganja"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirovabad"
+        }
+      ],
+      "properties": {
+        "title": "Ganja"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.667913,
+                  40.340225
+                ],
+                [
+                  48.661557,
+                  40.355418
+                ],
+                [
+                  48.687706,
+                  40.597264
+                ],
+                [
+                  48.72946,
+                  40.721081
+                ],
+                [
+                  48.76677,
+                  40.74325
+                ],
+                [
+                  48.80806,
+                  40.761698
+                ],
+                [
+                  48.865938,
+                  40.748598
+                ],
+                [
+                  48.919474,
+                  40.717928
+                ],
+                [
+                  49.10122,
+                  40.6084
+                ],
+                [
+                  49.263123,
+                  40.505616
+                ],
+                [
+                  49.242142,
+                  40.476341
+                ],
+                [
+                  49.214495,
+                  40.45505
+                ],
+                [
+                  49.186021,
+                  40.437532
+                ],
+                [
+                  48.936269,
+                  40.29152
+                ],
+                [
+                  48.667913,
+                  40.340225
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457508",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gobustan District"
+        }
+      ],
+      "properties": {
+        "title": "Gobustan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.35694,
+                  40.271546
+                ],
+                [
+                  46.317773,
+                  40.276172
+                ],
+                [
+                  46.318703,
+                  40.34547
+                ],
+                [
+                  46.488408,
+                  40.727902
+                ],
+                [
+                  46.549903,
+                  40.805184
+                ],
+                [
+                  46.75971,
+                  40.965975
+                ],
+                [
+                  46.962126,
+                  40.524581
+                ],
+                [
+                  46.957837,
+                  40.509259
+                ],
+                [
+                  46.947037,
+                  40.48802
+                ],
+                [
+                  46.877687,
+                  40.445852
+                ],
+                [
+                  46.818259,
+                  40.413296
+                ],
+                [
+                  46.79671,
+                  40.403684
+                ],
+                [
+                  46.429342,
+                  40.262995
+                ],
+                [
+                  46.35694,
+                  40.271546
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330843",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Goranboy District"
+        }
+      ],
+      "properties": {
+        "title": "Goranboy District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.603172,
+                  40.510137
+                ],
+                [
+                  47.586377,
+                  40.525382
+                ],
+                [
+                  47.588599,
+                  40.639458
+                ],
+                [
+                  47.625341,
+                  40.655193
+                ],
+                [
+                  47.732467,
+                  40.674959
+                ],
+                [
+                  47.901914,
+                  40.649664
+                ],
+                [
+                  48.00568,
+                  40.626151
+                ],
+                [
+                  48.047951,
+                  40.599021
+                ],
+                [
+                  48.034877,
+                  40.459856
+                ],
+                [
+                  47.992606,
+                  40.441666
+                ],
+                [
+                  47.901604,
+                  40.451407
+                ],
+                [
+                  47.740321,
+                  40.473912
+                ],
+                [
+                  47.62436,
+                  40.497348
+                ],
+                [
+                  47.603172,
+                  40.510137
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q477163",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Goychay District"
+        }
+      ],
+      "properties": {
+        "title": "Goychay District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.155767,
+                  40.307514
+                ],
+                [
+                  46.078976,
+                  40.647157
+                ],
+                [
+                  46.27731,
+                  40.832857
+                ],
+                [
+                  46.470683,
+                  40.681755
+                ],
+                [
+                  46.497968,
+                  40.633696
+                ],
+                [
+                  46.510939,
+                  40.56091
+                ],
+                [
+                  46.504893,
+                  40.543314
+                ],
+                [
+                  46.317773,
+                  40.276172
+                ],
+                [
+                  46.234005,
+                  40.285707
+                ],
+                [
+                  46.155767,
+                  40.307514
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388087",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Goygol District"
+        }
+      ],
+      "properties": {
+        "title": "Goygol District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.457539,
+                  40.137783
+                ],
+                [
+                  48.440072,
+                  40.27842
+                ],
+                [
+                  48.452991,
+                  40.308909
+                ],
+                [
+                  48.473713,
+                  40.331311
+                ],
+                [
+                  48.746927,
+                  40.344721
+                ],
+                [
+                  48.85059,
+                  40.328495
+                ],
+                [
+                  49.169071,
+                  40.144527
+                ],
+                [
+                  49.193359,
+                  40.11936
+                ],
+                [
+                  49.351489,
+                  39.863149
+                ],
+                [
+                  49.35583,
+                  39.838034
+                ],
+                [
+                  49.356812,
+                  39.812118
+                ],
+                [
+                  48.931463,
+                  39.913895
+                ],
+                [
+                  48.457539,
+                  40.137783
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q476690",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hajigabul District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qazıməmməd"
+        }
+      ],
+      "properties": {
+        "title": "Hajigabul District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.748848,
+                  39.850927
+                ],
+                [
+                  47.74182,
+                  39.941051
+                ],
+                [
+                  47.748693,
+                  40.083988
+                ],
+                [
+                  47.791016,
+                  40.114012
+                ],
+                [
+                  48.057305,
+                  40.135199
+                ],
+                [
+                  48.072756,
+                  40.136052
+                ],
+                [
+                  48.304215,
+                  40.049855
+                ],
+                [
+                  48.312328,
+                  40.045773
+                ],
+                [
+                  48.317186,
+                  40.03983
+                ],
+                [
+                  48.324575,
+                  40.030632
+                ],
+                [
+                  48.379404,
+                  39.621665
+                ],
+                [
+                  48.272485,
+                  39.566526
+                ],
+                [
+                  47.788212,
+                  39.657651
+                ],
+                [
+                  47.748848,
+                  39.850927
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q343908",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Imishli District"
+        }
+      ],
+      "properties": {
+        "title": "Imishli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.027229,
+                  40.512902
+                ],
+                [
+                  47.732467,
+                  40.674959
+                ],
+                [
+                  47.954159,
+                  40.991219
+                ],
+                [
+                  47.962892,
+                  41.001709
+                ],
+                [
+                  48.015447,
+                  41.049355
+                ],
+                [
+                  48.031105,
+                  41.063127
+                ],
+                [
+                  48.090636,
+                  41.056099
+                ],
+                [
+                  48.330415,
+                  40.988196
+                ],
+                [
+                  48.389222,
+                  40.948457
+                ],
+                [
+                  48.486064,
+                  40.881639
+                ],
+                [
+                  48.492627,
+                  40.837223
+                ],
+                [
+                  48.441984,
+                  40.744645
+                ],
+                [
+                  48.41134,
+                  40.703201
+                ],
+                [
+                  48.145775,
+                  40.533495
+                ],
+                [
+                  48.127326,
+                  40.522721
+                ],
+                [
+                  48.027229,
+                  40.512902
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q344252",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ismayilli District"
+        }
+      ],
+      "properties": {
+        "title": "Ismayilli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.740227,
+                  39.290548
+                ],
+                [
+                  46.703486,
+                  39.367623
+                ],
+                [
+                  46.709893,
+                  39.398577
+                ],
+                [
+                  46.73351,
+                  39.416277
+                ],
+                [
+                  46.80782,
+                  39.466299
+                ],
+                [
+                  46.829421,
+                  39.477436
+                ],
+                [
+                  47.053387,
+                  39.465963
+                ],
+                [
+                  47.089457,
+                  39.452192
+                ],
+                [
+                  47.219526,
+                  39.3931
+                ],
+                [
+                  47.249964,
+                  39.378217
+                ],
+                [
+                  47.26132,
+                  39.366384
+                ],
+                [
+                  47.020468,
+                  39.18996
+                ],
+                [
+                  46.953754,
+                  39.16066
+                ],
+                [
+                  46.94161,
+                  39.158903
+                ],
+                [
+                  46.866391,
+                  39.165445
+                ],
+                [
+                  46.75573,
+                  39.262177
+                ],
+                [
+                  46.740227,
+                  39.290548
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457491",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jabrayil District"
+        }
+      ],
+      "properties": {
+        "title": "Jabrayil District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.117765,
+                  39.208047
+                ],
+                [
+                  48.104329,
+                  39.234841
+                ],
+                [
+                  48.10619,
+                  39.26918
+                ],
+                [
+                  48.124587,
+                  39.297602
+                ],
+                [
+                  48.153525,
+                  39.319048
+                ],
+                [
+                  48.187218,
+                  39.332587
+                ],
+                [
+                  48.302457,
+                  39.369898
+                ],
+                [
+                  48.328405,
+                  39.37633
+                ],
+                [
+                  48.681608,
+                  39.419558
+                ],
+                [
+                  48.698196,
+                  39.419765
+                ],
+                [
+                  48.763773,
+                  39.408835
+                ],
+                [
+                  48.751526,
+                  39.215384
+                ],
+                [
+                  48.740519,
+                  39.147223
+                ],
+                [
+                  48.666001,
+                  39.085237
+                ],
+                [
+                  48.527664,
+                  38.99607
+                ],
+                [
+                  48.477796,
+                  38.985734
+                ],
+                [
+                  48.30159,
+                  39.017946
+                ],
+                [
+                  48.142157,
+                  39.181201
+                ],
+                [
+                  48.117765,
+                  39.208047
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q372795",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jalilabad District"
+        }
+      ],
+      "properties": {
+        "title": "Jalilabad District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.535565,
+                  38.968453
+                ],
+                [
+                  45.467644,
+                  39.187841
+                ],
+                [
+                  45.549499,
+                  39.288197
+                ],
+                [
+                  45.592287,
+                  39.307317
+                ],
+                [
+                  45.665048,
+                  39.332793
+                ],
+                [
+                  45.764371,
+                  39.359142
+                ],
+                [
+                  45.823745,
+                  39.343078
+                ],
+                [
+                  45.901788,
+                  39.294124
+                ],
+                [
+                  45.786849,
+                  38.964625
+                ],
+                [
+                  45.768504,
+                  38.939381
+                ],
+                [
+                  45.768194,
+                  38.9392
+                ],
+                [
+                  45.768074,
+                  38.93913
+                ],
+                [
+                  45.627788,
+                  38.955504
+                ],
+                [
+                  45.543142,
+                  38.967132
+                ],
+                [
+                  45.535565,
+                  38.968453
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q644035",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Culfa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Julfa District"
+        }
+      ],
+      "properties": {
+        "title": "Julfa District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.577583,
+                  39.983983
+                ],
+                [
+                  45.576267,
+                  39.993891
+                ],
+                [
+                  45.897385,
+                  40.298342
+                ],
+                [
+                  45.953661,
+                  40.315059
+                ],
+                [
+                  46.534452,
+                  40.313095
+                ],
+                [
+                  46.712736,
+                  40.095899
+                ],
+                [
+                  46.76157,
+                  40.032983
+                ],
+                [
+                  46.56706,
+                  39.958776
+                ],
+                [
+                  45.883188,
+                  39.796148
+                ],
+                [
+                  45.861882,
+                  39.804548
+                ],
+                [
+                  45.579419,
+                  39.970171
+                ],
+                [
+                  45.577583,
+                  39.983983
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457513",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kalbajar District"
+        }
+      ],
+      "properties": {
+        "title": "Kalbajar District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.060484,
+                  39.3746
+                ],
+                [
+                  45.051237,
+                  39.387093
+                ],
+                [
+                  45.16792,
+                  39.565545
+                ],
+                [
+                  45.233187,
+                  39.592727
+                ],
+                [
+                  45.259955,
+                  39.599703
+                ],
+                [
+                  45.266191,
+                  39.592918
+                ],
+                [
+                  45.235616,
+                  39.345299
+                ],
+                [
+                  45.231534,
+                  39.323026
+                ],
+                [
+                  45.211174,
+                  39.312743
+                ],
+                [
+                  45.185284,
+                  39.303234
+                ],
+                [
+                  45.159135,
+                  39.297007
+                ],
+                [
+                  45.136966,
+                  39.302123
+                ],
+                [
+                  45.11435,
+                  39.30935
+                ],
+                [
+                  45.068649,
+                  39.364213
+                ],
+                [
+                  45.060484,
+                  39.3746
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q734030",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kangarli District"
+        }
+      ],
+      "properties": {
+        "title": "Kangarli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.509629,
+                  41.59958
+                ],
+                [
+                  48.462211,
+                  41.720992
+                ],
+                [
+                  48.578949,
+                  41.845282
+                ],
+                [
+                  48.620128,
+                  41.824408
+                ],
+                [
+                  48.655447,
+                  41.800605
+                ],
+                [
+                  48.777843,
+                  41.68301
+                ],
+                [
+                  49.027599,
+                  41.43122
+                ],
+                [
+                  49.042491,
+                  41.414374
+                ],
+                [
+                  49.078698,
+                  41.357414
+                ],
+                [
+                  49.072902,
+                  41.356003
+                ],
+                [
+                  49.01921,
+                  41.35466
+                ],
+                [
+                  48.744136,
+                  41.34851
+                ],
+                [
+                  48.675458,
+                  41.350551
+                ],
+                [
+                  48.658353,
+                  41.368535
+                ],
+                [
+                  48.596238,
+                  41.453542
+                ],
+                [
+                  48.575464,
+                  41.483489
+                ],
+                [
+                  48.509629,
+                  41.59958
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q6398826",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khachmaz District"
+        }
+      ],
+      "properties": {
+        "title": "Khachmaz District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.80806,
+                  40.761698
+                ],
+                [
+                  48.769148,
+                  40.80459
+                ],
+                [
+                  48.78186,
+                  40.855052
+                ],
+                [
+                  48.811677,
+                  40.87673
+                ],
+                [
+                  49.006497,
+                  40.970574
+                ],
+                [
+                  49.028253,
+                  40.976156
+                ],
+                [
+                  49.371421,
+                  40.884683
+                ],
+                [
+                  49.471039,
+                  40.835761
+                ],
+                [
+                  49.489919,
+                  40.823147
+                ],
+                [
+                  49.527843,
+                  40.797797
+                ],
+                [
+                  49.538829,
+                  40.788072
+                ],
+                [
+                  49.531912,
+                  40.662869
+                ],
+                [
+                  49.401254,
+                  40.529826
+                ],
+                [
+                  49.336658,
+                  40.507502
+                ],
+                [
+                  49.263123,
+                  40.505616
+                ],
+                [
+                  49.197907,
+                  40.531997
+                ],
+                [
+                  48.80806,
+                  40.761698
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q476708",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khizi District"
+        }
+      ],
+      "properties": {
+        "title": "Khizi District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.743669,
+                  39.808472
+                ],
+                [
+                  46.741086,
+                  39.831718
+                ],
+                [
+                  46.757875,
+                  39.850445
+                ],
+                [
+                  46.772727,
+                  39.860131
+                ],
+                [
+                  46.77983,
+                  39.86336
+                ],
+                [
+                  46.786288,
+                  39.861423
+                ],
+                [
+                  46.797265,
+                  39.856902
+                ],
+                [
+                  46.805014,
+                  39.845279
+                ],
+                [
+                  46.80114,
+                  39.83753
+                ],
+                [
+                  46.778539,
+                  39.808472
+                ],
+                [
+                  46.759812,
+                  39.800077
+                ],
+                [
+                  46.743669,
+                  39.808472
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330790",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khojali District"
+        }
+      ],
+      "properties": {
+        "title": "Khojali District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.73351,
+                  39.416277
+                ],
+                [
+                  46.640699,
+                  39.483456
+                ],
+                [
+                  46.664005,
+                  39.559575
+                ],
+                [
+                  46.840531,
+                  39.781577
+                ],
+                [
+                  46.852727,
+                  39.795272
+                ],
+                [
+                  46.960421,
+                  39.875112
+                ],
+                [
+                  47.003674,
+                  39.882966
+                ],
+                [
+                  47.216788,
+                  39.863381
+                ],
+                [
+                  47.233995,
+                  39.85997
+                ],
+                [
+                  47.248982,
+                  39.856999
+                ],
+                [
+                  47.324171,
+                  39.788786
+                ],
+                [
+                  47.339364,
+                  39.750158
+                ],
+                [
+                  47.31151,
+                  39.708016
+                ],
+                [
+                  47.044033,
+                  39.3962
+                ],
+                [
+                  46.991788,
+                  39.38124
+                ],
+                [
+                  46.966622,
+                  39.377907
+                ],
+                [
+                  46.773042,
+                  39.404313
+                ],
+                [
+                  46.767031,
+                  39.406132
+                ],
+                [
+                  46.763373,
+                  39.407239
+                ],
+                [
+                  46.73351,
+                  39.416277
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330813",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khojavend District"
+        }
+      ],
+      "properties": {
+        "title": "Khojavend District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.887031,
+                  40.080965
+                ],
+                [
+                  47.851167,
+                  40.10086
+                ],
+                [
+                  47.934263,
+                  40.313199
+                ],
+                [
+                  47.992606,
+                  40.441666
+                ],
+                [
+                  48.027229,
+                  40.512902
+                ],
+                [
+                  48.108413,
+                  40.532307
+                ],
+                [
+                  48.322043,
+                  40.430039
+                ],
+                [
+                  48.440072,
+                  40.27842
+                ],
+                [
+                  48.458469,
+                  40.253151
+                ],
+                [
+                  48.46343,
+                  40.219018
+                ],
+                [
+                  48.465962,
+                  40.179305
+                ],
+                [
+                  48.457539,
+                  40.137783
+                ],
+                [
+                  48.317186,
+                  40.03983
+                ],
+                [
+                  48.25998,
+                  40.030942
+                ],
+                [
+                  47.893284,
+                  40.077787
+                ],
+                [
+                  47.887031,
+                  40.080965
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q688589",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kurdamir District"
+        }
+      ],
+      "properties": {
+        "title": "Kurdamir District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "District in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.18424,
+                  39.593243
+                ],
+                [
+                  45.883188,
+                  39.796148
+                ],
+                [
+                  46.016189,
+                  39.911983
+                ],
+                [
+                  46.450995,
+                  39.95813
+                ],
+                [
+                  46.716456,
+                  39.638847
+                ],
+                [
+                  46.730564,
+                  39.617117
+                ],
+                [
+                  46.735628,
+                  39.588798
+                ],
+                [
+                  46.687311,
+                  39.519345
+                ],
+                [
+                  46.668397,
+                  39.498158
+                ],
+                [
+                  46.562306,
+                  39.438652
+                ],
+                [
+                  46.516934,
+                  39.442864
+                ],
+                [
+                  46.18424,
+                  39.593243
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q301832",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lachin District"
+        }
+      ],
+      "properties": {
+        "title": "Lachin District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.82904,
+                  38.733682
+                ],
+                [
+                  48.826298,
+                  38.746982
+                ],
+                [
+                  48.826298,
+                  38.777971
+                ],
+                [
+                  48.84711,
+                  38.788044
+                ],
+                [
+                  48.863129,
+                  38.756659
+                ],
+                [
+                  48.863433,
+                  38.747945
+                ],
+                [
+                  48.847361,
+                  38.731487
+                ],
+                [
+                  48.83402,
+                  38.72671
+                ],
+                [
+                  48.82904,
+                  38.733682
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q228811",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lankaran"
+        }
+      ],
+      "properties": {
+        "title": "Lankaran"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.577376,
+                  38.781277
+                ],
+                [
+                  48.565594,
+                  38.824969
+                ],
+                [
+                  48.593448,
+                  38.867189
+                ],
+                [
+                  48.889244,
+                  39.167196
+                ],
+                [
+                  48.97358,
+                  39.239931
+                ],
+                [
+                  49.023602,
+                  39.270058
+                ],
+                [
+                  49.218629,
+                  39.170581
+                ],
+                [
+                  49.234302,
+                  39.156351
+                ],
+                [
+                  49.203298,
+                  39.034125
+                ],
+                [
+                  49.193858,
+                  39.016343
+                ],
+                [
+                  48.8685,
+                  38.602498
+                ],
+                [
+                  48.788009,
+                  38.585397
+                ],
+                [
+                  48.698144,
+                  38.581676
+                ],
+                [
+                  48.577376,
+                  38.781277
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q269986",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lankaran District"
+        }
+      ],
+      "properties": {
+        "title": "Lankaran District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.226182,
+                  38.679087
+                ],
+                [
+                  48.225635,
+                  38.713193
+                ],
+                [
+                  48.289849,
+                  38.792568
+                ],
+                [
+                  48.306902,
+                  38.810551
+                ],
+                [
+                  48.32566,
+                  38.825641
+                ],
+                [
+                  48.368242,
+                  38.849774
+                ],
+                [
+                  48.547611,
+                  38.939872
+                ],
+                [
+                  48.580787,
+                  38.908685
+                ],
+                [
+                  48.730442,
+                  38.629787
+                ],
+                [
+                  48.718298,
+                  38.605577
+                ],
+                [
+                  48.698144,
+                  38.581676
+                ],
+                [
+                  48.535641,
+                  38.469154
+                ],
+                [
+                  48.310312,
+                  38.600151
+                ],
+                [
+                  48.292225,
+                  38.613562
+                ],
+                [
+                  48.228043,
+                  38.662189
+                ],
+                [
+                  48.226182,
+                  38.679087
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q688626",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lerik District"
+        }
+      ],
+      "properties": {
+        "title": "Lerik District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.496451,
+                  38.94584
+                ],
+                [
+                  48.477796,
+                  38.985734
+                ],
+                [
+                  48.650912,
+                  39.131023
+                ],
+                [
+                  48.699539,
+                  39.153476
+                ],
+                [
+                  48.720468,
+                  39.154019
+                ],
+                [
+                  48.854414,
+                  39.131643
+                ],
+                [
+                  48.893378,
+                  39.032605
+                ],
+                [
+                  48.918224,
+                  38.928941
+                ],
+                [
+                  48.898692,
+                  38.893052
+                ],
+                [
+                  48.896251,
+                  38.890733
+                ],
+                [
+                  48.699591,
+                  38.834555
+                ],
+                [
+                  48.66104,
+                  38.828354
+                ],
+                [
+                  48.625952,
+                  38.844864
+                ],
+                [
+                  48.593448,
+                  38.867189
+                ],
+                [
+                  48.496451,
+                  38.94584
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q476695",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Masally District"
+        }
+      ],
+      "properties": {
+        "title": "Masally District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.967862,
+                  40.725318
+                ],
+                [
+                  46.920578,
+                  40.768003
+                ],
+                [
+                  46.951894,
+                  40.780534
+                ],
+                [
+                  47.028582,
+                  40.774953
+                ],
+                [
+                  47.039434,
+                  40.764153
+                ],
+                [
+                  47.048684,
+                  40.750252
+                ],
+                [
+                  46.967862,
+                  40.725318
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q230932",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mingachevir"
+        }
+      ],
+      "properties": {
+        "title": "Mingachevir"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.814864,
+                  40.500372
+                ],
+                [
+                  46.811611,
+                  40.506628
+                ],
+                [
+                  46.821234,
+                  40.516017
+                ],
+                [
+                  46.827205,
+                  40.520158
+                ],
+                [
+                  46.835247,
+                  40.515054
+                ],
+                [
+                  46.840496,
+                  40.510672
+                ],
+                [
+                  46.840887,
+                  40.506378
+                ],
+                [
+                  46.839636,
+                  40.501123
+                ],
+                [
+                  46.830378,
+                  40.495868
+                ],
+                [
+                  46.82137,
+                  40.495618
+                ],
+                [
+                  46.814864,
+                  40.500372
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q152825",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Naftalan"
+        }
+      ],
+      "properties": {
+        "title": "Naftalan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of the Nakhchivan Autonomous Republic of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.380621,
+                  39.180296
+                ],
+                [
+                  45.311529,
+                  39.219674
+                ],
+                [
+                  45.350131,
+                  39.24298
+                ],
+                [
+                  45.530896,
+                  39.245021
+                ],
+                [
+                  45.510122,
+                  39.208692
+                ],
+                [
+                  45.467644,
+                  39.187841
+                ],
+                [
+                  45.380621,
+                  39.180296
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q230104",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nakhchivan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nakhichevan"
+        }
+      ],
+      "properties": {
+        "title": "Nakhchivan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.740519,
+                  39.147223
+                ],
+                [
+                  48.707963,
+                  39.316877
+                ],
+                [
+                  48.715714,
+                  39.35504
+                ],
+                [
+                  48.73809,
+                  39.383229
+                ],
+                [
+                  48.763773,
+                  39.408835
+                ],
+                [
+                  49.052748,
+                  39.548181
+                ],
+                [
+                  49.285382,
+                  39.508339
+                ],
+                [
+                  49.388845,
+                  39.410793
+                ],
+                [
+                  49.40089,
+                  39.399359
+                ],
+                [
+                  49.408946,
+                  39.38642
+                ],
+                [
+                  49.407074,
+                  39.289496
+                ],
+                [
+                  49.234302,
+                  39.156351
+                ],
+                [
+                  48.854414,
+                  39.131643
+                ],
+                [
+                  48.793797,
+                  39.128465
+                ],
+                [
+                  48.740519,
+                  39.147223
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q688633",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Neftchala District"
+        }
+      ],
+      "properties": {
+        "title": "Neftchala District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.305258,
+                  40.964399
+                ],
+                [
+                  47.270221,
+                  41.020391
+                ],
+                [
+                  47.282417,
+                  41.060827
+                ],
+                [
+                  47.367292,
+                  41.261789
+                ],
+                [
+                  47.479148,
+                  41.251953
+                ],
+                [
+                  47.642549,
+                  41.227252
+                ],
+                [
+                  47.694889,
+                  41.207134
+                ],
+                [
+                  47.700427,
+                  41.145577
+                ],
+                [
+                  47.683839,
+                  41.096665
+                ],
+                [
+                  47.569841,
+                  40.795598
+                ],
+                [
+                  47.473568,
+                  40.834304
+                ],
+                [
+                  47.384529,
+                  40.886135
+                ],
+                [
+                  47.367631,
+                  40.90076
+                ],
+                [
+                  47.305258,
+                  40.964399
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q643989",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oghuz District"
+        }
+      ],
+      "properties": {
+        "title": "Oghuz District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.721272,
+                  39.008214
+                ],
+                [
+                  45.718946,
+                  39.01842
+                ],
+                [
+                  45.727369,
+                  39.045989
+                ],
+                [
+                  45.733054,
+                  39.062577
+                ],
+                [
+                  45.837492,
+                  39.235021
+                ],
+                [
+                  45.901788,
+                  39.294124
+                ],
+                [
+                  45.958827,
+                  39.272436
+                ],
+                [
+                  45.97924,
+                  39.257295
+                ],
+                [
+                  45.985802,
+                  39.24944
+                ],
+                [
+                  46.135871,
+                  38.863701
+                ],
+                [
+                  46.126052,
+                  38.862668
+                ],
+                [
+                  46.067968,
+                  38.874114
+                ],
+                [
+                  45.791086,
+                  38.932095
+                ],
+                [
+                  45.768074,
+                  38.93913
+                ],
+                [
+                  45.721272,
+                  39.008214
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q512623",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ordubad District"
+        }
+      ],
+      "properties": {
+        "title": "Ordubad District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.531704,
+                  40.674003
+                ],
+                [
+                  47.525606,
+                  40.761466
+                ],
+                [
+                  47.694889,
+                  41.207134
+                ],
+                [
+                  47.813491,
+                  41.197388
+                ],
+                [
+                  47.92646,
+                  41.157695
+                ],
+                [
+                  48.031105,
+                  41.063127
+                ],
+                [
+                  47.9801,
+                  40.883732
+                ],
+                [
+                  47.91876,
+                  40.814124
+                ],
+                [
+                  47.732467,
+                  40.674959
+                ],
+                [
+                  47.699652,
+                  40.662996
+                ],
+                [
+                  47.588599,
+                  40.639458
+                ],
+                [
+                  47.555992,
+                  40.653901
+                ],
+                [
+                  47.531704,
+                  40.674003
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q593872",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qabala District"
+        }
+      ],
+      "properties": {
+        "title": "Qabala District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.75971,
+                  40.965975
+                ],
+                [
+                  46.615539,
+                  41.108666
+                ],
+                [
+                  46.629841,
+                  41.346136
+                ],
+                [
+                  46.637495,
+                  41.374219
+                ],
+                [
+                  46.713976,
+                  41.470699
+                ],
+                [
+                  46.746894,
+                  41.5108
+                ],
+                [
+                  46.798312,
+                  41.523538
+                ],
+                [
+                  47.107491,
+                  41.569919
+                ],
+                [
+                  47.125578,
+                  41.566301
+                ],
+                [
+                  47.141391,
+                  41.5524
+                ],
+                [
+                  47.179219,
+                  41.49168
+                ],
+                [
+                  47.166196,
+                  41.446928
+                ],
+                [
+                  46.929983,
+                  40.91094
+                ],
+                [
+                  46.75971,
+                  40.965975
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330796",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qakh District"
+        }
+      ],
+      "properties": {
+        "title": "Qakh District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.96695,
+                  41.044834
+                ],
+                [
+                  44.960697,
+                  41.059924
+                ],
+                [
+                  45.0024,
+                  41.290452
+                ],
+                [
+                  45.097833,
+                  41.349919
+                ],
+                [
+                  45.392196,
+                  41.245622
+                ],
+                [
+                  45.398759,
+                  41.209061
+                ],
+                [
+                  45.381948,
+                  41.011448
+                ],
+                [
+                  45.335351,
+                  40.99383
+                ],
+                [
+                  45.209932,
+                  40.967991
+                ],
+                [
+                  45.186781,
+                  40.970834
+                ],
+                [
+                  44.979456,
+                  41.032639
+                ],
+                [
+                  44.96695,
+                  41.044834
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q389381",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gazakh Rayon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qazax District"
+        }
+      ],
+      "properties": {
+        "title": "Qazax District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.95204,
+                  41.098215
+                ],
+                [
+                  47.92646,
+                  41.157695
+                ],
+                [
+                  48.120195,
+                  41.269161
+                ],
+                [
+                  48.386174,
+                  41.416594
+                ],
+                [
+                  48.460226,
+                  41.445145
+                ],
+                [
+                  48.575464,
+                  41.483489
+                ],
+                [
+                  48.744136,
+                  41.34851
+                ],
+                [
+                  48.746978,
+                  41.25433
+                ],
+                [
+                  48.747237,
+                  41.239809
+                ],
+                [
+                  48.721295,
+                  41.063902
+                ],
+                [
+                  48.680057,
+                  40.895075
+                ],
+                [
+                  48.389222,
+                  40.948457
+                ],
+                [
+                  48.031105,
+                  41.063127
+                ],
+                [
+                  47.95204,
+                  41.098215
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Quba District"
+        }
+      ],
+      "properties": {
+        "title": "Quba District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.374616,
+                  39.378838
+                ],
+                [
+                  46.36087,
+                  39.410257
+                ],
+                [
+                  46.373996,
+                  39.435992
+                ],
+                [
+                  46.405725,
+                  39.451185
+                ],
+                [
+                  46.478952,
+                  39.461829
+                ],
+                [
+                  46.640699,
+                  39.483456
+                ],
+                [
+                  46.731598,
+                  39.485084
+                ],
+                [
+                  46.748909,
+                  39.475317
+                ],
+                [
+                  46.761105,
+                  39.460021
+                ],
+                [
+                  46.82291,
+                  39.227993
+                ],
+                [
+                  46.681213,
+                  39.128594
+                ],
+                [
+                  46.640544,
+                  39.147688
+                ],
+                [
+                  46.374616,
+                  39.378838
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q644048",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qubadli District"
+        }
+      ],
+      "properties": {
+        "title": "Qubadli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.82104,
+                  41.184722
+                ],
+                [
+                  47.813491,
+                  41.197388
+                ],
+                [
+                  47.942686,
+                  41.3474
+                ],
+                [
+                  48.053532,
+                  41.461295
+                ],
+                [
+                  48.462211,
+                  41.720992
+                ],
+                [
+                  48.487873,
+                  41.722725
+                ],
+                [
+                  48.514279,
+                  41.700917
+                ],
+                [
+                  48.561305,
+                  41.592681
+                ],
+                [
+                  48.575464,
+                  41.483489
+                ],
+                [
+                  47.92646,
+                  41.157695
+                ],
+                [
+                  47.88946,
+                  41.162449
+                ],
+                [
+                  47.852924,
+                  41.168702
+                ],
+                [
+                  47.82104,
+                  41.184722
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q386506",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Qusar District"
+        }
+      ],
+      "properties": {
+        "title": "Qusar District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.224323,
+                  39.805064
+                ],
+                [
+                  48.214659,
+                  39.828474
+                ],
+                [
+                  48.225873,
+                  39.945908
+                ],
+                [
+                  48.236002,
+                  39.96322
+                ],
+                [
+                  48.249644,
+                  39.979679
+                ],
+                [
+                  48.374288,
+                  39.995595
+                ],
+                [
+                  48.409325,
+                  39.999884
+                ],
+                [
+                  48.433251,
+                  39.991254
+                ],
+                [
+                  48.661557,
+                  39.886842
+                ],
+                [
+                  48.693597,
+                  39.85488
+                ],
+                [
+                  48.703622,
+                  39.769252
+                ],
+                [
+                  48.703622,
+                  39.734681
+                ],
+                [
+                  48.679024,
+                  39.705329
+                ],
+                [
+                  48.540789,
+                  39.614766
+                ],
+                [
+                  48.379404,
+                  39.621665
+                ],
+                [
+                  48.355736,
+                  39.642878
+                ],
+                [
+                  48.224323,
+                  39.805064
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q601105",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saatly District"
+        }
+      ],
+      "properties": {
+        "title": "Saatly District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.266543,
+                  39.95906
+                ],
+                [
+                  48.249644,
+                  39.979679
+                ],
+                [
+                  48.34044,
+                  40.069777
+                ],
+                [
+                  48.366226,
+                  40.089181
+                ],
+                [
+                  48.425034,
+                  40.123882
+                ],
+                [
+                  48.457539,
+                  40.137783
+                ],
+                [
+                  48.551021,
+                  40.136775
+                ],
+                [
+                  48.640938,
+                  40.117991
+                ],
+                [
+                  48.663004,
+                  40.108715
+                ],
+                [
+                  48.839221,
+                  40.002675
+                ],
+                [
+                  48.873379,
+                  39.981591
+                ],
+                [
+                  48.937044,
+                  39.867231
+                ],
+                [
+                  48.941644,
+                  39.858058
+                ],
+                [
+                  48.991666,
+                  39.728945
+                ],
+                [
+                  48.993165,
+                  39.718093
+                ],
+                [
+                  48.968567,
+                  39.676235
+                ],
+                [
+                  48.884954,
+                  39.592131
+                ],
+                [
+                  48.766977,
+                  39.605697
+                ],
+                [
+                  48.582079,
+                  39.65174
+                ],
+                [
+                  48.555207,
+                  39.6613
+                ],
+                [
+                  48.266543,
+                  39.95906
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q382132",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sabirabad District"
+        }
+      ],
+      "properties": {
+        "title": "Sabirabad District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.795746,
+                  39.652361
+                ],
+                [
+                  44.774559,
+                  39.702797
+                ],
+                [
+                  44.802929,
+                  39.712409
+                ],
+                [
+                  44.953215,
+                  39.735965
+                ],
+                [
+                  44.95336,
+                  39.73003
+                ],
+                [
+                  44.931552,
+                  39.709799
+                ],
+                [
+                  44.823953,
+                  39.63054
+                ],
+                [
+                  44.809647,
+                  39.636962
+                ],
+                [
+                  44.806993,
+                  39.639902
+                ],
+                [
+                  44.795746,
+                  39.652361
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q641468",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sadarak District"
+        }
+      ],
+      "properties": {
+        "title": "Sadarak District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.763773,
+                  39.408835
+                ],
+                [
+                  48.740312,
+                  39.502395
+                ],
+                [
+                  48.745531,
+                  39.554123
+                ],
+                [
+                  48.766977,
+                  39.605697
+                ],
+                [
+                  48.909552,
+                  39.905678
+                ],
+                [
+                  48.931463,
+                  39.913895
+                ],
+                [
+                  48.964898,
+                  39.916995
+                ],
+                [
+                  49.000813,
+                  39.918571
+                ],
+                [
+                  49.264673,
+                  39.876636
+                ],
+                [
+                  49.28276,
+                  39.865474
+                ],
+                [
+                  49.356812,
+                  39.812118
+                ],
+                [
+                  49.358735,
+                  39.666571
+                ],
+                [
+                  49.285382,
+                  39.508339
+                ],
+                [
+                  48.891569,
+                  39.34902
+                ],
+                [
+                  48.854259,
+                  39.354627
+                ],
+                [
+                  48.763773,
+                  39.408835
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q457485",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Salyan District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Salyan"
+        }
+      ],
+      "properties": {
+        "title": "Salyan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.27731,
+                  40.832857
+                ],
+                [
+                  46.087608,
+                  41.183659
+                ],
+                [
+                  46.113133,
+                  41.19604
+                ],
+                [
+                  46.135406,
+                  41.199915
+                ],
+                [
+                  46.210595,
+                  41.200174
+                ],
+                [
+                  46.615539,
+                  41.108666
+                ],
+                [
+                  46.69036,
+                  41.090515
+                ],
+                [
+                  46.730254,
+                  41.072429
+                ],
+                [
+                  46.755007,
+                  40.992511
+                ],
+                [
+                  46.75971,
+                  40.965975
+                ],
+                [
+                  46.470683,
+                  40.681755
+                ],
+                [
+                  46.411792,
+                  40.68544
+                ],
+                [
+                  46.34073,
+                  40.724622
+                ],
+                [
+                  46.27731,
+                  40.832857
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q498437",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Samukh District"
+        }
+      ],
+      "properties": {
+        "title": "Samukh District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.680057,
+                  40.895075
+                ],
+                [
+                  48.642799,
+                  41.132063
+                ],
+                [
+                  48.744136,
+                  41.34851
+                ],
+                [
+                  48.808525,
+                  41.36192
+                ],
+                [
+                  48.919991,
+                  41.364866
+                ],
+                [
+                  49.078698,
+                  41.357414
+                ],
+                [
+                  49.123383,
+                  41.293687
+                ],
+                [
+                  49.135916,
+                  41.27497
+                ],
+                [
+                  49.141938,
+                  41.25316
+                ],
+                [
+                  49.171641,
+                  41.140367
+                ],
+                [
+                  48.844595,
+                  40.892491
+                ],
+                [
+                  48.78186,
+                  40.855052
+                ],
+                [
+                  48.680057,
+                  40.895075
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q387994",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shabran District"
+        }
+      ],
+      "properties": {
+        "title": "Shabran District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.413538,
+                  39.375452
+                ],
+                [
+                  45.357056,
+                  39.433511
+                ],
+                [
+                  45.381396,
+                  39.462088
+                ],
+                [
+                  45.423937,
+                  39.493827
+                ],
+                [
+                  45.586447,
+                  39.545391
+                ],
+                [
+                  45.714656,
+                  39.569472
+                ],
+                [
+                  45.737859,
+                  39.569782
+                ],
+                [
+                  45.765454,
+                  39.561566
+                ],
+                [
+                  45.788088,
+                  39.548957
+                ],
+                [
+                  45.79708,
+                  39.536348
+                ],
+                [
+                  45.803075,
+                  39.448188
+                ],
+                [
+                  45.79863,
+                  39.432426
+                ],
+                [
+                  45.764371,
+                  39.359142
+                ],
+                [
+                  45.712538,
+                  39.310366
+                ],
+                [
+                  45.549499,
+                  39.288197
+                ],
+                [
+                  45.532498,
+                  39.285974
+                ],
+                [
+                  45.413538,
+                  39.375452
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388081",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shahbuz District"
+        }
+      ],
+      "properties": {
+        "title": "Shahbuz District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.188946,
+                  41.155475
+                ],
+                [
+                  47.147984,
+                  41.164009
+                ],
+                [
+                  47.150178,
+                  41.17937
+                ],
+                [
+                  47.166027,
+                  41.218869
+                ],
+                [
+                  47.172854,
+                  41.234961
+                ],
+                [
+                  47.18407,
+                  41.241544
+                ],
+                [
+                  47.196017,
+                  41.234717
+                ],
+                [
+                  47.216498,
+                  41.207897
+                ],
+                [
+                  47.219424,
+                  41.18766
+                ],
+                [
+                  47.203332,
+                  41.161083
+                ],
+                [
+                  47.188946,
+                  41.155475
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q234783",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nukha"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shaki"
+        }
+      ],
+      "properties": {
+        "title": "Shaki"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.812523,
+                  41.12749
+                ],
+                [
+                  46.806787,
+                  41.166506
+                ],
+                [
+                  46.813143,
+                  41.214281
+                ],
+                [
+                  46.834227,
+                  41.251772
+                ],
+                [
+                  46.874948,
+                  41.295206
+                ],
+                [
+                  46.891536,
+                  41.31058
+                ],
+                [
+                  47.179219,
+                  41.49168
+                ],
+                [
+                  47.187073,
+                  41.485634
+                ],
+                [
+                  47.367292,
+                  41.261789
+                ],
+                [
+                  47.569841,
+                  40.795598
+                ],
+                [
+                  47.560798,
+                  40.769295
+                ],
+                [
+                  47.525606,
+                  40.761466
+                ],
+                [
+                  47.486125,
+                  40.755704
+                ],
+                [
+                  47.370473,
+                  40.766246
+                ],
+                [
+                  47.262831,
+                  40.788854
+                ],
+                [
+                  47.110489,
+                  40.837844
+                ],
+                [
+                  46.929983,
+                  40.91094
+                ],
+                [
+                  46.812523,
+                  41.12749
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330864",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shaki District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shaki Rayon"
+        }
+      ],
+      "properties": {
+        "title": "Shaki District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.435473,
+                  40.567085
+                ],
+                [
+                  48.389222,
+                  40.948457
+                ],
+                [
+                  48.470148,
+                  40.947888
+                ],
+                [
+                  48.548283,
+                  40.930861
+                ],
+                [
+                  48.680057,
+                  40.895075
+                ],
+                [
+                  48.731372,
+                  40.876187
+                ],
+                [
+                  48.78186,
+                  40.855052
+                ],
+                [
+                  48.80806,
+                  40.761698
+                ],
+                [
+                  48.746927,
+                  40.344721
+                ],
+                [
+                  48.733749,
+                  40.305861
+                ],
+                [
+                  48.704655,
+                  40.280642
+                ],
+                [
+                  48.671841,
+                  40.268008
+                ],
+                [
+                  48.473713,
+                  40.331311
+                ],
+                [
+                  48.435473,
+                  40.567085
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q330839",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shamakhi District"
+        }
+      ],
+      "properties": {
+        "title": "Shamakhi District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.722615,
+                  40.823219
+                ],
+                [
+                  45.72184,
+                  40.854122
+                ],
+                [
+                  45.73941,
+                  40.87828
+                ],
+                [
+                  45.896971,
+                  41.00574
+                ],
+                [
+                  46.204653,
+                  41.136663
+                ],
+                [
+                  46.246976,
+                  41.093978
+                ],
+                [
+                  46.287645,
+                  41.050983
+                ],
+                [
+                  46.310435,
+                  41.017342
+                ],
+                [
+                  46.305164,
+                  40.981892
+                ],
+                [
+                  46.27731,
+                  40.832857
+                ],
+                [
+                  46.215763,
+                  40.688938
+                ],
+                [
+                  46.18884,
+                  40.673693
+                ],
+                [
+                  45.911699,
+                  40.557189
+                ],
+                [
+                  45.722615,
+                  40.823219
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q467491",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shamkir District"
+        }
+      ],
+      "properties": {
+        "title": "Shamkir District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Nakhchivan Autonomous Republic in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.957028,
+                  39.434493
+                ],
+                [
+                  44.823953,
+                  39.63054
+                ],
+                [
+                  44.851144,
+                  39.669569
+                ],
+                [
+                  44.892692,
+                  39.700523
+                ],
+                [
+                  44.953215,
+                  39.735965
+                ],
+                [
+                  44.995992,
+                  39.760468
+                ],
+                [
+                  45.033509,
+                  39.77039
+                ],
+                [
+                  45.067512,
+                  39.757213
+                ],
+                [
+                  45.141255,
+                  39.684401
+                ],
+                [
+                  45.151538,
+                  39.667709
+                ],
+                [
+                  45.155879,
+                  39.649209
+                ],
+                [
+                  45.16792,
+                  39.565545
+                ],
+                [
+                  45.128299,
+                  39.453015
+                ],
+                [
+                  45.095532,
+                  39.412056
+                ],
+                [
+                  45.051237,
+                  39.387093
+                ],
+                [
+                  44.982505,
+                  39.420179
+                ],
+                [
+                  44.957028,
+                  39.434493
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q390820",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sharur District"
+        }
+      ],
+      "properties": {
+        "title": "Sharur District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.877272,
+                  39.924899
+                ],
+                [
+                  48.870046,
+                  39.938221
+                ],
+                [
+                  48.870272,
+                  39.951995
+                ],
+                [
+                  48.873379,
+                  39.981591
+                ],
+                [
+                  48.887885,
+                  39.985188
+                ],
+                [
+                  48.947497,
+                  39.981124
+                ],
+                [
+                  48.956981,
+                  39.976608
+                ],
+                [
+                  48.961497,
+                  39.968027
+                ],
+                [
+                  48.959916,
+                  39.938447
+                ],
+                [
+                  48.94682,
+                  39.926253
+                ],
+                [
+                  48.931463,
+                  39.913895
+                ],
+                [
+                  48.917149,
+                  39.903353
+                ],
+                [
+                  48.909552,
+                  39.905678
+                ],
+                [
+                  48.884272,
+                  39.917899
+                ],
+                [
+                  48.877272,
+                  39.924899
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q241116",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ali Bayramli"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shirvan"
+        }
+      ],
+      "properties": {
+        "title": "Shirvan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.530576,
+                  39.615618
+                ],
+                [
+                  46.526597,
+                  39.642309
+                ],
+                [
+                  46.540343,
+                  39.757677
+                ],
+                [
+                  46.627056,
+                  39.778658
+                ],
+                [
+                  46.669479,
+                  39.782714
+                ],
+                [
+                  46.715001,
+                  39.776892
+                ],
+                [
+                  46.740981,
+                  39.771823
+                ],
+                [
+                  46.776931,
+                  39.756778
+                ],
+                [
+                  46.787518,
+                  39.722372
+                ],
+                [
+                  46.789635,
+                  39.693789
+                ],
+                [
+                  46.790164,
+                  39.674204
+                ],
+                [
+                  46.789372,
+                  39.655487
+                ],
+                [
+                  46.762862,
+                  39.621975
+                ],
+                [
+                  46.744551,
+                  39.599668
+                ],
+                [
+                  46.735628,
+                  39.588798
+                ],
+                [
+                  46.589384,
+                  39.589987
+                ],
+                [
+                  46.530576,
+                  39.615618
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388960",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Shusha District"
+        }
+      ],
+      "properties": {
+        "title": "Shusha District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  48.831573,
+                  40.938483
+                ],
+                [
+                  48.823201,
+                  40.984114
+                ],
+                [
+                  48.837877,
+                  41.010546
+                ],
+                [
+                  48.911981,
+                  41.133975
+                ],
+                [
+                  48.945106,
+                  41.168702
+                ],
+                [
+                  49.080136,
+                  41.186194
+                ],
+                [
+                  49.171641,
+                  41.140367
+                ],
+                [
+                  49.371421,
+                  40.884683
+                ],
+                [
+                  49.367147,
+                  40.883345
+                ],
+                [
+                  49.241625,
+                  40.869211
+                ],
+                [
+                  48.844595,
+                  40.892491
+                ],
+                [
+                  48.831573,
+                  40.938483
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q820940",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Siyazan District"
+        }
+      ],
+      "properties": {
+        "title": "Siyazan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Stepanakert%20Flag.gif"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Nagorno-Karabakh"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.445052,
+                  39.902397
+                ],
+                [
+                  46.437145,
+                  39.928209
+                ],
+                [
+                  46.450995,
+                  39.95813
+                ],
+                [
+                  46.509492,
+                  39.985492
+                ],
+                [
+                  46.656667,
+                  40.012493
+                ],
+                [
+                  46.697904,
+                  40.018152
+                ],
+                [
+                  46.774334,
+                  40.0073
+                ],
+                [
+                  46.8226,
+                  39.988361
+                ],
+                [
+                  46.923627,
+                  39.903715
+                ],
+                [
+                  46.906057,
+                  39.668406
+                ],
+                [
+                  46.875206,
+                  39.645591
+                ],
+                [
+                  46.8411,
+                  39.626936
+                ],
+                [
+                  46.814797,
+                  39.637891
+                ],
+                [
+                  46.540343,
+                  39.757677
+                ],
+                [
+                  46.445052,
+                  39.902397
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q129352",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khankendi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Stepanakert"
+        }
+      ],
+      "properties": {
+        "title": "Stepanakert"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  49.589046,
+                  40.54383
+                ],
+                [
+                  49.482696,
+                  40.636848
+                ],
+                [
+                  49.491429,
+                  40.656795
+                ],
+                [
+                  49.531912,
+                  40.662869
+                ],
+                [
+                  49.652599,
+                  40.619208
+                ],
+                [
+                  49.668468,
+                  40.612209
+                ],
+                [
+                  49.709719,
+                  40.585995
+                ],
+                [
+                  49.706765,
+                  40.576257
+                ],
+                [
+                  49.698807,
+                  40.564682
+                ],
+                [
+                  49.690435,
+                  40.553391
+                ],
+                [
+                  49.639689,
+                  40.539955
+                ],
+                [
+                  49.589046,
+                  40.54383
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q179833",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sumgait"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sumgayit"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sumqayit"
+        }
+      ],
+      "properties": {
+        "title": "Sumgait"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q50330360",
+          "label": "second largest city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.519207,
+                  40.161011
+                ],
+                [
+                  46.499415,
+                  40.229483
+                ],
+                [
+                  46.504015,
+                  40.26594
+                ],
+                [
+                  46.534452,
+                  40.313095
+                ],
+                [
+                  46.540876,
+                  40.319539
+                ],
+                [
+                  46.56892,
+                  40.347667
+                ],
+                [
+                  46.67248,
+                  40.386992
+                ],
+                [
+                  46.923989,
+                  40.48001
+                ],
+                [
+                  47.077726,
+                  40.301675
+                ],
+                [
+                  47.086305,
+                  40.166851
+                ],
+                [
+                  46.76157,
+                  40.032983
+                ],
+                [
+                  46.532282,
+                  40.133442
+                ],
+                [
+                  46.519207,
+                  40.161011
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q477168",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tartar District"
+        }
+      ],
+      "properties": {
+        "title": "Tartar District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.478335,
+                  40.748183
+                ],
+                [
+                  45.442843,
+                  40.94838
+                ],
+                [
+                  45.442891,
+                  40.948509
+                ],
+                [
+                  45.453949,
+                  40.978171
+                ],
+                [
+                  45.566914,
+                  41.145913
+                ],
+                [
+                  45.598127,
+                  41.163483
+                ],
+                [
+                  45.700704,
+                  41.204953
+                ],
+                [
+                  45.770337,
+                  41.232102
+                ],
+                [
+                  46.087608,
+                  41.183659
+                ],
+                [
+                  46.204653,
+                  41.136663
+                ],
+                [
+                  46.173234,
+                  41.096587
+                ],
+                [
+                  46.09422,
+                  41.012019
+                ],
+                [
+                  45.70179,
+                  40.614627
+                ],
+                [
+                  45.677553,
+                  40.594938
+                ],
+                [
+                  45.652594,
+                  40.604034
+                ],
+                [
+                  45.605516,
+                  40.630492
+                ],
+                [
+                  45.490175,
+                  40.704389
+                ],
+                [
+                  45.478335,
+                  40.748183
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q388980",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tovuz District"
+        }
+      ],
+      "properties": {
+        "title": "Tovuz District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.479924,
+                  40.425802
+                ],
+                [
+                  47.465455,
+                  40.450968
+                ],
+                [
+                  47.480441,
+                  40.516571
+                ],
+                [
+                  47.509948,
+                  40.531557
+                ],
+                [
+                  47.547723,
+                  40.534839
+                ],
+                [
+                  47.797062,
+                  40.491276
+                ],
+                [
+                  47.966716,
+                  40.449702
+                ],
+                [
+                  47.992606,
+                  40.441666
+                ],
+                [
+                  47.98749,
+                  40.400248
+                ],
+                [
+                  47.97855,
+                  40.360715
+                ],
+                [
+                  47.959585,
+                  40.333947
+                ],
+                [
+                  47.934263,
+                  40.313199
+                ],
+                [
+                  47.822022,
+                  40.303354
+                ],
+                [
+                  47.669783,
+                  40.292166
+                ],
+                [
+                  47.523022,
+                  40.390687
+                ],
+                [
+                  47.479924,
+                  40.425802
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q476703",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ujar District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ujar Rayon"
+        }
+      ],
+      "properties": {
+        "title": "Ujar District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7688",
+          "label": "raion"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.993122,
+                  38.850085
+                ],
+                [
+                  47.990745,
+                  38.891219
+                ],
+                [
+                  48.000046,
+                  38.902588
+                ],
+                [
+                  48.058544,
+                  38.948373
+                ],
+                [
+                  48.30159,
+                  39.017946
+                ],
+                [
+                  48.415681,
+                  39.029969
+                ],
+                [
+                  48.450046,
+                  39.012554
+                ],
+                [
+                  48.547611,
+                  38.939872
+                ],
+                [
+                  48.248611,
+                  38.72221
+                ],
+                [
+                  48.225635,
+                  38.713193
+                ],
+                [
+                  48.077974,
+                  38.780941
+                ],
+                [
+                  48.012966,
+                  38.821559
+                ],
+                [
+                  47.993122,
+                  38.850085
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q127255",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yardimli District"
+        }
+      ],
+      "properties": {
+        "title": "Yardimli District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.107429,
+                  40.585645
+                ],
+                [
+                  47.093055,
+                  40.618227
+                ],
+                [
+                  47.110783,
+                  40.639309
+                ],
+                [
+                  47.178152,
+                  40.640163
+                ],
+                [
+                  47.189464,
+                  40.639228
+                ],
+                [
+                  47.194347,
+                  40.636054
+                ],
+                [
+                  47.192149,
+                  40.623236
+                ],
+                [
+                  47.183197,
+                  40.580024
+                ],
+                [
+                  47.17355,
+                  40.569834
+                ],
+                [
+                  47.139052,
+                  40.571271
+                ],
+                [
+                  47.107429,
+                  40.585645
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q175459",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yevlakh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yevlax"
+        }
+      ],
+      "properties": {
+        "title": "Yevlakh"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.772267,
+                  40.651137
+                ],
+                [
+                  46.731184,
+                  40.765316
+                ],
+                [
+                  46.750563,
+                  40.926081
+                ],
+                [
+                  46.75971,
+                  40.965975
+                ],
+                [
+                  46.845647,
+                  40.945951
+                ],
+                [
+                  47.262831,
+                  40.788854
+                ],
+                [
+                  47.233789,
+                  40.607858
+                ],
+                [
+                  47.223712,
+                  40.576929
+                ],
+                [
+                  47.138291,
+                  40.485901
+                ],
+                [
+                  46.969309,
+                  40.415725
+                ],
+                [
+                  46.951481,
+                  40.43084
+                ],
+                [
+                  46.936495,
+                  40.447971
+                ],
+                [
+                  46.772267,
+                  40.651137
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q458524",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yevlakh District"
+        }
+      ],
+      "properties": {
+        "title": "Yevlakh District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.396268,
+                  39.164432
+                ],
+                [
+                  46.395286,
+                  39.19518
+                ],
+                [
+                  46.418334,
+                  39.211923
+                ],
+                [
+                  46.599141,
+                  39.222487
+                ],
+                [
+                  46.82291,
+                  39.227993
+                ],
+                [
+                  46.857275,
+                  39.193267
+                ],
+                [
+                  46.866266,
+                  39.165827
+                ],
+                [
+                  46.866391,
+                  39.165445
+                ],
+                [
+                  46.806011,
+                  39.102395
+                ],
+                [
+                  46.744826,
+                  39.040254
+                ],
+                [
+                  46.585352,
+                  38.907704
+                ],
+                [
+                  46.569849,
+                  38.89773
+                ],
+                [
+                  46.553726,
+                  38.889824
+                ],
+                [
+                  46.532074,
+                  38.883002
+                ],
+                [
+                  46.514039,
+                  38.882176
+                ],
+                [
+                  46.479312,
+                  38.939381
+                ],
+                [
+                  46.396268,
+                  39.164432
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q249252",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zangilan District"
+        }
+      ],
+      "properties": {
+        "title": "Zangilan District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.287851,
+                  41.532143
+                ],
+                [
+                  46.279871,
+                  41.571172
+                ],
+                [
+                  46.732424,
+                  41.8514
+                ],
+                [
+                  46.740795,
+                  41.851245
+                ],
+                [
+                  46.902232,
+                  41.712752
+                ],
+                [
+                  46.97923,
+                  41.635496
+                ],
+                [
+                  47.003932,
+                  41.60542
+                ],
+                [
+                  47.028262,
+                  41.557075
+                ],
+                [
+                  46.988533,
+                  41.515141
+                ],
+                [
+                  46.629841,
+                  41.346136
+                ],
+                [
+                  46.607367,
+                  41.345023
+                ],
+                [
+                  46.445103,
+                  41.425948
+                ],
+                [
+                  46.366244,
+                  41.466566
+                ],
+                [
+                  46.313948,
+                  41.493747
+                ],
+                [
+                  46.29674,
+                  41.510387
+                ],
+                [
+                  46.287851,
+                  41.532143
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q147553",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zaqatala District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zaqatala Rayon"
+        }
+      ],
+      "properties": {
+        "title": "Zaqatala District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.444836,
+                  40.290048
+                ],
+                [
+                  47.44282,
+                  40.298419
+                ],
+                [
+                  47.523022,
+                  40.390687
+                ],
+                [
+                  47.934263,
+                  40.313199
+                ],
+                [
+                  47.94434,
+                  40.167135
+                ],
+                [
+                  47.928062,
+                  40.144449
+                ],
+                [
+                  47.905324,
+                  40.125355
+                ],
+                [
+                  47.851167,
+                  40.10086
+                ],
+                [
+                  47.801351,
+                  40.096726
+                ],
+                [
+                  47.543848,
+                  40.172742
+                ],
+                [
+                  47.444836,
+                  40.290048
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q249293",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zardab District"
+        }
+      ],
+      "properties": {
+        "title": "Zardab District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    }
+  ],
+  "title": "Azerbaijani districts and cities",
+  "type": "FeatureCollection"
+}

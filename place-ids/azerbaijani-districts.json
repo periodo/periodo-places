@@ -1,0 +1,310 @@
+{
+  "Absheron District": {
+    "id": "http://www.wikidata.org/entity/Q179538",
+    "covers": [ "Absheron Rayon" ]
+  },
+  "Agdam District": {
+    "id": "http://www.wikidata.org/entity/Q201647",
+    "covers": [ "Aghdam Rayon" ]
+  },
+  "Agdash District": {
+    "id": "http://www.wikidata.org/entity/Q275784",
+    "covers": [ "Aghdash Rayon" ]
+  },
+  "Aghjabadi District": {
+    "id": "http://www.wikidata.org/entity/Q330818",
+    "covers": [ "Aghjabadi Rayon" ]
+  },
+  "Agstafa District": {
+    "id": "http://www.wikidata.org/entity/Q275744",
+    "covers": [ "Aghstafa Rayon" ]
+  },
+  "Agsu District": {
+    "id": "http://www.wikidata.org/entity/Q330800",
+    "covers": [ "Aghsu Rayon" ]
+  },
+  "Astara District": {
+    "id": "http://www.wikidata.org/entity/Q269680",
+    "covers": [ "Astara Rayon" ]
+  },
+  "Babek District": {
+    "id": "http://www.wikidata.org/entity/Q643895",
+    "covers": [ "Babek Rayon" ]
+  },
+  "Baku": {
+    "id": "http://www.wikidata.org/entity/Q9248",
+    "covers": [ "Baku City" ]
+  },
+  "Balakan District": {
+    "id": "http://www.wikidata.org/entity/Q330850",
+    "covers": [ "Balakan Rayon" ]
+  },
+  "Barda District": {
+    "id": "http://www.wikidata.org/entity/Q330857",
+    "covers": [ "Barda Rayon" ]
+  },
+  "Beylagan District": {
+    "id": "http://www.wikidata.org/entity/Q330807",
+    "covers": [ "Beylagan Rayon" ]
+  },
+  "Bilasuvar District": {
+    "id": "http://www.wikidata.org/entity/Q330834",
+    "covers": [ "Bilasuvar Rayon" ]
+  },
+  "Dashkasan District": {
+    "id": "http://www.wikidata.org/entity/Q457494",
+    "covers": [ "Dashkasan Rayon" ]
+  },
+  "Fuzuli District": {
+    "id": "http://www.wikidata.org/entity/Q331687",
+    "covers": [ "Fizuli Rayon" ]
+  },
+  "Gadabay District": {
+    "id": "http://www.wikidata.org/entity/Q330749",
+    "covers": [ "Gadabay Rayon" ]
+  },
+  "Ganja": {
+    "id": "http://www.wikidata.org/entity/Q131290",
+    "covers": [ "Ganja City" ]
+  },
+  "Gobustan District": {
+    "id": "http://www.wikidata.org/entity/Q457508",
+    "covers": [ "Gobustan Rayon" ]
+  },
+  "Goranboy District": {
+    "id": "http://www.wikidata.org/entity/Q330843",
+    "covers": [ "Goranboy Rayon" ]
+  },
+  "Goychay District": {
+    "id": "http://www.wikidata.org/entity/Q477163",
+    "covers": [ "Goychay Rayon" ]
+  },
+  "Goygol District": {
+    "id": "http://www.wikidata.org/entity/Q388087",
+    "covers": [ "Goygol Rayon" ]
+  },
+  "Hajigabul District": {
+    "id": "http://www.wikidata.org/entity/Q476690",
+    "covers": [ "Hajigabul Rayon" ]
+  },
+  "Imishli District": {
+    "id": "http://www.wikidata.org/entity/Q343908",
+    "covers": [ "Imishli Rayon" ]
+  },
+  "Ismayilli District": {
+    "id": "http://www.wikidata.org/entity/Q344252",
+    "covers": [ "Ismayilli Rayon" ]
+  },
+  "Jabrayil District": {
+    "id": "http://www.wikidata.org/entity/Q457491",
+    "covers": [ "Cabrayil Rayonu" ]
+  },
+  "Jalilabad District": {
+    "id": "http://www.wikidata.org/entity/Q372795",
+    "covers": [ "Jalilabad Rayon" ]
+  },
+  "Julfa District": {
+    "id": "http://www.wikidata.org/entity/Q644035",
+    "covers": [ "Julfa Rayon" ]
+  },
+  "Kalbajar District": {
+    "id": "http://www.wikidata.org/entity/Q457513",
+    "covers": [ "Kalbacar Rayonu" ]
+  },
+  "Kangarli District": {
+    "id": "http://www.wikidata.org/entity/Q734030",
+    "covers": [ "Kangarli Rayon" ]
+  },
+  "Khachmaz District": {
+    "id": "http://www.wikidata.org/entity/Q6398826",
+    "covers": [ "Khachmaz Rayon" ]
+  },
+  "Khizi District": {
+    "id": "http://www.wikidata.org/entity/Q476708",
+    "covers": [ "Khizi Rayon" ]
+  },
+  "Khojali District": {
+    "id": "http://www.wikidata.org/entity/Q330790",
+    "covers": [ "Xocali Rayonu" ]
+  },
+  "Khojavend District": {
+    "id": "http://www.wikidata.org/entity/Q330813",
+    "covers": [ "Xocavand Rayonu" ]
+  },
+  "Kurdamir District": {
+    "id": "http://www.wikidata.org/entity/Q688589",
+    "covers": [ "Kurdamir Rayon" ]
+  },
+  "Lachin District": {
+    "id": "http://www.wikidata.org/entity/Q301832",
+    "covers": [ "Lacin Rayonu" ]
+  },
+  "Lankaran": {
+    "id": "http://www.wikidata.org/entity/Q228811",
+    "covers": [ "Lankaran Sahari" ]
+  },
+  "Lankaran District": {
+    "id": "http://www.wikidata.org/entity/Q269986",
+    "covers": [ "Lankaran Rayon" ]
+  },
+  "Lerik District": {
+    "id": "http://www.wikidata.org/entity/Q688626",
+    "covers": [ "Lerik Rayon" ]
+  },
+  "Masally District": {
+    "id": "http://www.wikidata.org/entity/Q476695",
+    "covers": [ "Masally Rayon" ]
+  },
+  "Mingachevir": {
+    "id": "http://www.wikidata.org/entity/Q230932",
+    "covers": [ "Mingacevir City" ]
+  },
+  "Naftalan": {
+    "id": "http://www.wikidata.org/entity/Q152825",
+    "covers": [ "Naftalan City" ]
+  },
+  "Nakhchivan": {
+    "id": "http://www.wikidata.org/entity/Q230104",
+    "covers": [ "Nakhchivan City" ]
+  },
+  "Neftchala District": {
+    "id": "http://www.wikidata.org/entity/Q688633",
+    "covers": [ "Neftchala Rayon" ]
+  },
+  "Oghuz District": {
+    "id": "http://www.wikidata.org/entity/Q643989",
+    "covers": [ "Oghuz Rayon" ]
+  },
+  "Ordubad District": {
+    "id": "http://www.wikidata.org/entity/Q512623",
+    "covers": [ "Ordubad Rayon" ]
+  },
+  "Qabala District": {
+    "id": "http://www.wikidata.org/entity/Q593872",
+    "covers": [ "Qabala Rayon" ]
+  },
+  "Qakh District": {
+    "id": "http://www.wikidata.org/entity/Q330796",
+    "covers": [ "Qakh Rayon" ]
+  },
+  "Qazax District": {
+    "id": "http://www.wikidata.org/entity/Q389381",
+    "covers": [ "Qazakh Rayon" ]
+  },
+  "Quba District": {
+    "id": "http://www.wikidata.org/entity/Q457499",
+    "covers": [ "Quba Rayon" ]
+  },
+  "Qubadli District": {
+    "id": "http://www.wikidata.org/entity/Q644048",
+    "covers": [ "Qubadli Rayon" ]
+  },
+  "Qusar District": {
+    "id": "http://www.wikidata.org/entity/Q386506",
+    "covers": [ "Qusar Rayon" ]
+  },
+  "Saatly District": {
+    "id": "http://www.wikidata.org/entity/Q601105",
+    "covers": [ "Saatly Rayon" ]
+  },
+  "Sabirabad District": {
+    "id": "http://www.wikidata.org/entity/Q382132",
+    "covers": [ "Sabirabad Rayon" ]
+  },
+  "Sadarak District": {
+    "id": "http://www.wikidata.org/entity/Q641468",
+    "covers": [ "Sadarak Rayon" ]
+  },
+  "Salyan District": {
+    "id": "http://www.wikidata.org/entity/Q457485",
+    "covers": [ "Salyan Rayon" ]
+  },
+  "Samukh District": {
+    "id": "http://www.wikidata.org/entity/Q498437",
+    "covers": [ "Samukh Rayon" ]
+  },
+  "Shabran District": {
+    "id": "http://www.wikidata.org/entity/Q387994",
+    "covers": [ "Davachi Rayon" ]
+  },
+  "Shahbuz District": {
+    "id": "http://www.wikidata.org/entity/Q388081",
+    "covers": [ "Shahbuz Rayon" ]
+  },
+  "Shaki": {
+    "id": "http://www.wikidata.org/entity/Q234783",
+    "covers": [ "Saki Sahari" ]
+  },
+  "Shaki District": {
+    "id": "http://www.wikidata.org/entity/Q330864",
+    "covers": [ "Shaki Rayon" ]
+  },
+  "Shamakhi District": {
+    "id": "http://www.wikidata.org/entity/Q330839",
+    "covers": [ "Shamakhi Rayon" ]
+  },
+  "Shamkir District": {
+    "id": "http://www.wikidata.org/entity/Q467491",
+    "covers": [ "Shamkir Rayon" ]
+  },
+  "Sharur District": {
+    "id": "http://www.wikidata.org/entity/Q390820",
+    "covers": [ "Sharur Rayon" ]
+  },
+  "Shirvan": {
+    "id": "http://www.wikidata.org/entity/Q241116",
+    "covers": [ "Ali Bajramly" ]
+  },
+  "Shusha District": {
+    "id": "http://www.wikidata.org/entity/Q388960",
+    "covers": [ "Susa Rayonu" ]
+  },
+  "Siyazan District": {
+    "id": "http://www.wikidata.org/entity/Q820940",
+    "covers": [ "Siazan Rayon" ]
+  },
+  "Stepanakert": {
+    "id": "http://www.wikidata.org/entity/Q129352",
+    "covers": [ "Xankandi Sahari" ]
+  },
+  "Sumgait": {
+    "id": "http://www.wikidata.org/entity/Q179833",
+    "covers": [ "Sumqayit City" ]
+  },
+  "Tartar District": {
+    "id": "http://www.wikidata.org/entity/Q477168",
+    "covers": [ "Tartar Rayon" ]
+  },
+  "Tovuz District": {
+    "id": "http://www.wikidata.org/entity/Q388980",
+    "covers": [ "Tovuz Rayon" ]
+  },
+  "Ujar District": {
+    "id": "http://www.wikidata.org/entity/Q476703",
+    "covers": [ "Ujar Rayon" ]
+  },
+  "Yardimli District": {
+    "id": "http://www.wikidata.org/entity/Q127255",
+    "covers": [ "Yardymli Rayon" ]
+  },
+  "Yevlakh": {
+    "id": "http://www.wikidata.org/entity/Q175459",
+    "covers": [ "Yevlakh City" ]
+  },
+  "Yevlakh District": {
+    "id": "http://www.wikidata.org/entity/Q458524",
+    "covers": [ "Yevlakh Rayon" ]
+  },
+  "Zangilan District": {
+    "id": "http://www.wikidata.org/entity/Q249252",
+    "covers": [ "Zangilan Rayon" ]
+  },
+  "Zaqatala District": {
+    "id": "http://www.wikidata.org/entity/Q147553",
+    "covers": [ "Zaqatala Rayon" ]
+  },
+  "Zardab District": {
+    "id": "http://www.wikidata.org/entity/Q249293",
+    "covers": [ "Zardab Rayon" ]
+  }
+}

@@ -1,5 +1,6 @@
 GAZETTEERS := \
 	gazetteers/algerian-provinces.json \
+	gazetteers/azerbaijani-districts.json \
 	gazetteers/cities.json \
 	gazetteers/continents.json \
 	gazetteers/countries.json \
