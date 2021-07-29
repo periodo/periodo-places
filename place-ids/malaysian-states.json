@@ -1,0 +1,66 @@
+{
+  "Johor": {
+    "id": "http://www.wikidata.org/entity/Q183032",
+    "covers": [ "Johor" ]
+  },
+  "Kedah": {
+    "id": "http://www.wikidata.org/entity/Q188947",
+    "covers": [ "Kedah" ]
+  },
+  "Kelantan": {
+    "id": "http://www.wikidata.org/entity/Q185944",
+    "covers": [ "Kelantan" ]
+  },
+  "Kuala Lumpur": {
+    "id": "http://www.wikidata.org/entity/Q1865",
+    "covers": [ "Kuala Lumpur" ]
+  },
+  "Labuan": {
+    "id": "http://www.wikidata.org/entity/Q214504",
+    "covers": [ "Labuan" ]
+  },
+  "Melaka": {
+    "id": "http://www.wikidata.org/entity/Q185221",
+    "covers": [ "Melaka" ]
+  },
+  "Negeri Sembilan": {
+    "id": "http://www.wikidata.org/entity/Q213893",
+    "covers": [ "Negeri Sembilan" ]
+  },
+  "Pahang": {
+    "id": "http://www.wikidata.org/entity/Q191346",
+    "covers": [ "Pahang" ]
+  },
+  "Penang": {
+    "id": "http://www.wikidata.org/entity/Q188096",
+    "covers": [ "Pulau Pinang" ]
+  },
+  "Perak": {
+    "id": "http://www.wikidata.org/entity/Q188953",
+    "covers": [ "Perak" ]
+  },
+  "Perlis": {
+    "id": "http://www.wikidata.org/entity/Q213467",
+    "covers": [ "Perlis" ]
+  },
+  "Putrajaya": {
+    "id": "http://www.wikidata.org/entity/Q182378",
+    "covers": [ "Putrajaya" ]
+  },
+  "Sabah": {
+    "id": "http://www.wikidata.org/entity/Q179029",
+    "covers": [ "Sabah" ]
+  },
+  "Sarawak": {
+    "id": "http://www.wikidata.org/entity/Q170462",
+    "covers": [ "Sarawak" ]
+  },
+  "Selangor": {
+    "id": "http://www.wikidata.org/entity/Q189710",
+    "covers": [ "Selangor" ]
+  },
+  "Terengganu": {
+    "id": "http://www.wikidata.org/entity/Q189701",
+    "covers": [ "Trengganu" ]
+  }
+}

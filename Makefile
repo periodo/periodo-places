@@ -24,6 +24,7 @@ GAZETTEERS := \
 	gazetteers/laotian-provinces.json \
 	gazetteers/lebanese-governorates.json \
 	gazetteers/libyan-districts.json \
+	gazetteers/malaysian-states.json \
 	gazetteers/myanma-states.json \
 	gazetteers/omani-governorates.json \
 	gazetteers/other-regions.json \

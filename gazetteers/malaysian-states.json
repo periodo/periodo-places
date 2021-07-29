@@ -1,0 +1,2279 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Johor.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "easternmostPoint": {
+        "coordinates": [
+          104.551138888,
+          2.436138888
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  102.48889,
+                  2.092977
+                ],
+                [
+                  102.480598,
+                  2.20785
+                ],
+                [
+                  102.481735,
+                  2.212113
+                ],
+                [
+                  102.519717,
+                  2.349754
+                ],
+                [
+                  102.521887,
+                  2.356187
+                ],
+                [
+                  102.704563,
+                  2.839
+                ],
+                [
+                  104.170665,
+                  2.891099
+                ],
+                [
+                  104.181407,
+                  2.889797
+                ],
+                [
+                  104.186209,
+                  2.885321
+                ],
+                [
+                  104.210623,
+                  2.827867
+                ],
+                [
+                  104.222667,
+                  2.78559
+                ],
+                [
+                  104.293712,
+                  1.471584
+                ],
+                [
+                  104.294688,
+                  1.446519
+                ],
+                [
+                  104.2824,
+                  1.382636
+                ],
+                [
+                  104.277354,
+                  1.367336
+                ],
+                [
+                  104.219249,
+                  1.346177
+                ],
+                [
+                  103.516368,
+                  1.270453
+                ],
+                [
+                  102.699392,
+                  1.859442
+                ],
+                [
+                  102.48889,
+                  2.092977
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q183032",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Johor"
+        },
+        {
+          "lang": "en",
+          "toponym": "Johore"
+        }
+      ],
+      "northernmostPoint": {
+        "coordinates": [
+          102.702083333,
+          2.833277777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "title": "Johor"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          103.51925,
+          1.264222222
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          102.468166666,
+          2.198638888
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kedah.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  100.350841,
+                  5.584215
+                ],
+                [
+                  100.198732,
+                  6.260528
+                ],
+                [
+                  100.214328,
+                  6.29897
+                ],
+                [
+                  100.377659,
+                  6.526754
+                ],
+                [
+                  100.729954,
+                  6.493197
+                ],
+                [
+                  101.081664,
+                  6.246467
+                ],
+                [
+                  101.088279,
+                  6.233522
+                ],
+                [
+                  101.091018,
+                  6.213162
+                ],
+                [
+                  101.094273,
+                  6.085754
+                ],
+                [
+                  101.087452,
+                  5.989687
+                ],
+                [
+                  101.07877,
+                  5.938166
+                ],
+                [
+                  100.943327,
+                  5.538009
+                ],
+                [
+                  100.936816,
+                  5.5231
+                ],
+                [
+                  100.859508,
+                  5.36559
+                ],
+                [
+                  100.856304,
+                  5.359544
+                ],
+                [
+                  100.852687,
+                  5.354118
+                ],
+                [
+                  100.839768,
+                  5.339597
+                ],
+                [
+                  100.573427,
+                  5.086512
+                ],
+                [
+                  100.570947,
+                  5.084496
+                ],
+                [
+                  100.56764,
+                  5.082713
+                ],
+                [
+                  100.563299,
+                  5.081551
+                ],
+                [
+                  100.557098,
+                  5.08093
+                ],
+                [
+                  100.549346,
+                  5.082713
+                ],
+                [
+                  100.542525,
+                  5.085814
+                ],
+                [
+                  100.517513,
+                  5.099095
+                ],
+                [
+                  100.511312,
+                  5.107079
+                ],
+                [
+                  100.354296,
+                  5.568983
+                ],
+                [
+                  100.350841,
+                  5.584215
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188947",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kedah"
+        }
+      ],
+      "properties": {
+        "title": "Kedah"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kelantan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.379063,
+                  4.612845
+                ],
+                [
+                  101.343355,
+                  4.681756
+                ],
+                [
+                  101.497299,
+                  5.185291
+                ],
+                [
+                  101.697567,
+                  5.767138
+                ],
+                [
+                  102.07309,
+                  6.257514
+                ],
+                [
+                  102.199555,
+                  6.232815
+                ],
+                [
+                  102.315684,
+                  6.190375
+                ],
+                [
+                  102.338145,
+                  6.176988
+                ],
+                [
+                  102.379893,
+                  6.132961
+                ],
+                [
+                  102.542003,
+                  5.854763
+                ],
+                [
+                  102.666323,
+                  4.783093
+                ],
+                [
+                  102.660638,
+                  4.768417
+                ],
+                [
+                  102.605086,
+                  4.696871
+                ],
+                [
+                  102.602451,
+                  4.694546
+                ],
+                [
+                  102.598523,
+                  4.693616
+                ],
+                [
+                  102.51212,
+                  4.674082
+                ],
+                [
+                  102.338488,
+                  4.64336
+                ],
+                [
+                  101.62556,
+                  4.555588
+                ],
+                [
+                  101.61941,
+                  4.555743
+                ],
+                [
+                  101.472907,
+                  4.570341
+                ],
+                [
+                  101.46128,
+                  4.572589
+                ],
+                [
+                  101.379063,
+                  4.612845
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q185944",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kelantan"
+        }
+      ],
+      "properties": {
+        "title": "Kelantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kuala%20Lumpur%2C%20Malaysia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of Malaysia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.624836,
+                  3.144072
+                ],
+                [
+                  101.621735,
+                  3.178824
+                ],
+                [
+                  101.622356,
+                  3.18208
+                ],
+                [
+                  101.639409,
+                  3.21368
+                ],
+                [
+                  101.640649,
+                  3.215385
+                ],
+                [
+                  101.642509,
+                  3.216936
+                ],
+                [
+                  101.6638,
+                  3.230888
+                ],
+                [
+                  101.665144,
+                  3.231741
+                ],
+                [
+                  101.668451,
+                  3.232206
+                ],
+                [
+                  101.742607,
+                  3.216238
+                ],
+                [
+                  101.746172,
+                  3.214688
+                ],
+                [
+                  101.752063,
+                  3.207376
+                ],
+                [
+                  101.760435,
+                  3.187997
+                ],
+                [
+                  101.762192,
+                  3.181873
+                ],
+                [
+                  101.763122,
+                  3.175956
+                ],
+                [
+                  101.75196,
+                  3.052217
+                ],
+                [
+                  101.750513,
+                  3.048031
+                ],
+                [
+                  101.730979,
+                  3.02979
+                ],
+                [
+                  101.727879,
+                  3.026921
+                ],
+                [
+                  101.670311,
+                  3.035758
+                ],
+                [
+                  101.665144,
+                  3.037619
+                ],
+                [
+                  101.662095,
+                  3.040745
+                ],
+                [
+                  101.660544,
+                  3.044931
+                ],
+                [
+                  101.626076,
+                  3.140506
+                ],
+                [
+                  101.624836,
+                  3.144072
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1865",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Federal Territory of Kuala Lumpur"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kuala Lumpur"
+        }
+      ],
+      "properties": {
+        "title": "Kuala Lumpur"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1008803",
+          "label": "federal territory of Malaysia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Labuan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Federal Territory of Malaysia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  115.24171,
+                  5.272691
+                ],
+                [
+                  115.15919,
+                  5.252183
+                ],
+                [
+                  115.160899,
+                  5.266995
+                ],
+                [
+                  115.189138,
+                  5.344794
+                ],
+                [
+                  115.197276,
+                  5.354641
+                ],
+                [
+                  115.226085,
+                  5.381049
+                ],
+                [
+                  115.24171,
+                  5.387397
+                ],
+                [
+                  115.248546,
+                  5.365465
+                ],
+                [
+                  115.259776,
+                  5.315375
+                ],
+                [
+                  115.259288,
+                  5.291205
+                ],
+                [
+                  115.24171,
+                  5.272691
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q214504",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Federal Territory of Labuan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Labuan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Maida Island (during Japanese WW2 occupation)"
+        }
+      ],
+      "properties": {
+        "title": "Labuan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1008803",
+          "label": "federal territory of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malacca.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.999034,
+                  2.36164
+                ],
+                [
+                  101.987071,
+                  2.377143
+                ],
+                [
+                  101.988466,
+                  2.391328
+                ],
+                [
+                  102.046464,
+                  2.437655
+                ],
+                [
+                  102.074679,
+                  2.459618
+                ],
+                [
+                  102.07747,
+                  2.460858
+                ],
+                [
+                  102.178032,
+                  2.492045
+                ],
+                [
+                  102.180358,
+                  2.492277
+                ],
+                [
+                  102.353215,
+                  2.488634
+                ],
+                [
+                  102.383653,
+                  2.487859
+                ],
+                [
+                  102.59935,
+                  2.421739
+                ],
+                [
+                  102.536512,
+                  2.136537
+                ],
+                [
+                  102.533824,
+                  2.128242
+                ],
+                [
+                  102.530569,
+                  2.123669
+                ],
+                [
+                  102.48889,
+                  2.092977
+                ],
+                [
+                  102.348643,
+                  2.14997
+                ],
+                [
+                  102.187999,
+                  2.216376
+                ],
+                [
+                  102.154307,
+                  2.235663
+                ],
+                [
+                  102.126964,
+                  2.25731
+                ],
+                [
+                  101.999034,
+                  2.36164
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q185221",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Malacca"
+        },
+        {
+          "lang": "en",
+          "toponym": "Melaka"
+        }
+      ],
+      "properties": {
+        "title": "Melaka"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Negeri%20Sembilan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.865245,
+                  2.394517
+                ],
+                [
+                  101.721201,
+                  2.59585
+                ],
+                [
+                  101.723693,
+                  2.620667
+                ],
+                [
+                  101.759505,
+                  2.862823
+                ],
+                [
+                  101.915981,
+                  3.260602
+                ],
+                [
+                  101.931587,
+                  3.281015
+                ],
+                [
+                  101.933654,
+                  3.283417
+                ],
+                [
+                  101.939701,
+                  3.282255
+                ],
+                [
+                  102.388614,
+                  3.117924
+                ],
+                [
+                  102.39528,
+                  3.113273
+                ],
+                [
+                  102.687304,
+                  2.89649
+                ],
+                [
+                  102.694125,
+                  2.886026
+                ],
+                [
+                  102.704563,
+                  2.839
+                ],
+                [
+                  102.699241,
+                  2.808821
+                ],
+                [
+                  102.620124,
+                  2.475973
+                ],
+                [
+                  102.59935,
+                  2.421739
+                ],
+                [
+                  101.988466,
+                  2.391328
+                ],
+                [
+                  101.865245,
+                  2.394517
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213893",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Negeri Sembilan"
+        }
+      ],
+      "properties": {
+        "title": "Negeri Sembilan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pahang.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.764983,
+                  3.373257
+                ],
+                [
+                  101.341959,
+                  4.431461
+                ],
+                [
+                  101.36449,
+                  4.57414
+                ],
+                [
+                  101.379063,
+                  4.612845
+                ],
+                [
+                  101.788392,
+                  4.760123
+                ],
+                [
+                  101.793508,
+                  4.761673
+                ],
+                [
+                  101.802035,
+                  4.763146
+                ],
+                [
+                  102.619039,
+                  4.781466
+                ],
+                [
+                  102.660638,
+                  4.768417
+                ],
+                [
+                  102.843883,
+                  4.675942
+                ],
+                [
+                  103.4428,
+                  4.168972
+                ],
+                [
+                  103.64031,
+                  2.671291
+                ],
+                [
+                  103.636341,
+                  2.490572
+                ],
+                [
+                  103.636031,
+                  2.483363
+                ],
+                [
+                  103.635101,
+                  2.479642
+                ],
+                [
+                  103.634016,
+                  2.476516
+                ],
+                [
+                  103.622337,
+                  2.447034
+                ],
+                [
+                  103.618513,
+                  2.445949
+                ],
+                [
+                  103.154975,
+                  2.529355
+                ],
+                [
+                  103.149704,
+                  2.530595
+                ],
+                [
+                  102.992091,
+                  2.595242
+                ],
+                [
+                  101.830302,
+                  3.289154
+                ],
+                [
+                  101.764983,
+                  3.373257
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q191346",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Pahang"
+        }
+      ],
+      "properties": {
+        "title": "Pahang"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Penang%20%28Malaysia%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  100.180024,
+                  5.273342
+                ],
+                [
+                  100.178966,
+                  5.277981
+                ],
+                [
+                  100.179454,
+                  5.458197
+                ],
+                [
+                  100.354296,
+                  5.568983
+                ],
+                [
+                  100.50015,
+                  5.560255
+                ],
+                [
+                  100.515963,
+                  5.55762
+                ],
+                [
+                  100.533223,
+                  5.549791
+                ],
+                [
+                  100.559113,
+                  5.146818
+                ],
+                [
+                  100.559113,
+                  5.142761
+                ],
+                [
+                  100.558338,
+                  5.138498
+                ],
+                [
+                  100.555702,
+                  5.134467
+                ],
+                [
+                  100.552912,
+                  5.131987
+                ],
+                [
+                  100.549966,
+                  5.130281
+                ],
+                [
+                  100.546556,
+                  5.129196
+                ],
+                [
+                  100.404859,
+                  5.12005
+                ],
+                [
+                  100.404239,
+                  5.120153
+                ],
+                [
+                  100.404097,
+                  5.120177
+                ],
+                [
+                  100.184337,
+                  5.268541
+                ],
+                [
+                  100.180024,
+                  5.273342
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188096",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Penang"
+        }
+      ],
+      "properties": {
+        "title": "Penang"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  100.56544,
+                  4.319159
+                ],
+                [
+                  100.364513,
+                  5.084296
+                ],
+                [
+                  100.365896,
+                  5.092515
+                ],
+                [
+                  100.95604,
+                  5.769131
+                ],
+                [
+                  100.95852,
+                  5.771457
+                ],
+                [
+                  100.962137,
+                  5.772465
+                ],
+                [
+                  101.53466,
+                  5.906023
+                ],
+                [
+                  101.557914,
+                  5.911346
+                ],
+                [
+                  101.579308,
+                  5.906333
+                ],
+                [
+                  101.634085,
+                  5.855587
+                ],
+                [
+                  101.697567,
+                  5.767138
+                ],
+                [
+                  101.699664,
+                  5.761147
+                ],
+                [
+                  101.752373,
+                  5.491293
+                ],
+                [
+                  101.753304,
+                  5.485324
+                ],
+                [
+                  101.750823,
+                  5.372825
+                ],
+                [
+                  101.626851,
+                  3.77176
+                ],
+                [
+                  101.543239,
+                  3.688819
+                ],
+                [
+                  101.533162,
+                  3.681662
+                ],
+                [
+                  101.524894,
+                  3.676856
+                ],
+                [
+                  101.520656,
+                  3.675616
+                ],
+                [
+                  101.514352,
+                  3.674996
+                ],
+                [
+                  101.265633,
+                  3.668252
+                ],
+                [
+                  101.261912,
+                  3.669415
+                ],
+                [
+                  101.080683,
+                  3.730315
+                ],
+                [
+                  100.760102,
+                  3.847154
+                ],
+                [
+                  100.73463,
+                  3.859442
+                ],
+                [
+                  100.720714,
+                  3.868069
+                ],
+                [
+                  100.709483,
+                  3.883043
+                ],
+                [
+                  100.70338,
+                  3.898871
+                ],
+                [
+                  100.56544,
+                  4.319159
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q188953",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Perak"
+        }
+      ],
+      "properties": {
+        "title": "Perak"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Perlis.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  99.646007,
+                  6.394192
+                ],
+                [
+                  99.645228,
+                  6.435841
+                ],
+                [
+                  100.173296,
+                  6.703416
+                ],
+                [
+                  100.187559,
+                  6.707964
+                ],
+                [
+                  100.263316,
+                  6.700006
+                ],
+                [
+                  100.273962,
+                  6.696259
+                ],
+                [
+                  100.280783,
+                  6.688921
+                ],
+                [
+                  100.377659,
+                  6.526754
+                ],
+                [
+                  100.376023,
+                  6.50813
+                ],
+                [
+                  100.375248,
+                  6.500146
+                ],
+                [
+                  100.365481,
+                  6.455756
+                ],
+                [
+                  100.362691,
+                  6.45188
+                ],
+                [
+                  100.206628,
+                  6.268713
+                ],
+                [
+                  100.198877,
+                  6.260678
+                ],
+                [
+                  100.198732,
+                  6.260528
+                ],
+                [
+                  99.805596,
+                  6.171793
+                ],
+                [
+                  99.789523,
+                  6.185876
+                ],
+                [
+                  99.77471,
+                  6.204017
+                ],
+                [
+                  99.728735,
+                  6.261476
+                ],
+                [
+                  99.658702,
+                  6.362616
+                ],
+                [
+                  99.650076,
+                  6.376695
+                ],
+                [
+                  99.646007,
+                  6.394192
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q213467",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Perlis"
+        }
+      ],
+      "properties": {
+        "title": "Perlis"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Putrajaya.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal administrative centre of Malaysia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.668141,
+                  2.886801
+                ],
+                [
+                  101.666901,
+                  2.893932
+                ],
+                [
+                  101.671552,
+                  2.960362
+                ],
+                [
+                  101.673877,
+                  2.966098
+                ],
+                [
+                  101.680543,
+                  2.969199
+                ],
+                [
+                  101.712996,
+                  2.981214
+                ],
+                [
+                  101.731134,
+                  2.946306
+                ],
+                [
+                  101.730359,
+                  2.928865
+                ],
+                [
+                  101.702867,
+                  2.888584
+                ],
+                [
+                  101.688605,
+                  2.876181
+                ],
+                [
+                  101.681473,
+                  2.874243
+                ],
+                [
+                  101.677133,
+                  2.875484
+                ],
+                [
+                  101.672172,
+                  2.879049
+                ],
+                [
+                  101.668141,
+                  2.886801
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q182378",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Federal Territory of Purajaya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Putrajaya"
+        }
+      ],
+      "properties": {
+        "title": "Putrajaya"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1008803",
+          "label": "federal territory of Malaysia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sabah.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  115.421562,
+                  4.962329
+                ],
+                [
+                  115.35963,
+                  5.319648
+                ],
+                [
+                  115.362641,
+                  5.333889
+                ],
+                [
+                  115.375255,
+                  5.381985
+                ],
+                [
+                  115.382335,
+                  5.39525
+                ],
+                [
+                  115.392589,
+                  5.413275
+                ],
+                [
+                  116.900157,
+                  7.287421
+                ],
+                [
+                  117.002615,
+                  7.355699
+                ],
+                [
+                  117.246267,
+                  7.35578
+                ],
+                [
+                  117.27003,
+                  7.348863
+                ],
+                [
+                  119.204845,
+                  5.443345
+                ],
+                [
+                  119.219574,
+                  5.427924
+                ],
+                [
+                  119.264985,
+                  5.374213
+                ],
+                [
+                  119.274262,
+                  5.361151
+                ],
+                [
+                  119.278087,
+                  5.344631
+                ],
+                [
+                  119.269298,
+                  5.226223
+                ],
+                [
+                  119.2671,
+                  5.201077
+                ],
+                [
+                  118.756114,
+                  4.457221
+                ],
+                [
+                  118.556895,
+                  4.363511
+                ],
+                [
+                  117.907039,
+                  4.156683
+                ],
+                [
+                  115.639134,
+                  4.14595
+                ],
+                [
+                  115.639071,
+                  4.146052
+                ],
+                [
+                  115.63411,
+                  4.154088
+                ],
+                [
+                  115.629924,
+                  4.166749
+                ],
+                [
+                  115.421562,
+                  4.962329
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q179029",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sabah"
+        }
+      ],
+      "properties": {
+        "title": "Sabah"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sarawak.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  109.53474,
+                  1.838984
+                ],
+                [
+                  109.528436,
+                  1.889989
+                ],
+                [
+                  109.529366,
+                  1.905156
+                ],
+                [
+                  109.645274,
+                  2.083238
+                ],
+                [
+                  113.975841,
+                  4.594713
+                ],
+                [
+                  115.015798,
+                  4.916409
+                ],
+                [
+                  115.210623,
+                  4.959703
+                ],
+                [
+                  115.421562,
+                  4.962329
+                ],
+                [
+                  115.609305,
+                  4.960524
+                ],
+                [
+                  115.622483,
+                  4.957811
+                ],
+                [
+                  115.630079,
+                  4.9513
+                ],
+                [
+                  115.636281,
+                  4.9405
+                ],
+                [
+                  115.657985,
+                  4.846087
+                ],
+                [
+                  115.658915,
+                  4.835209
+                ],
+                [
+                  115.6754,
+                  4.31245
+                ],
+                [
+                  115.601243,
+                  3.430231
+                ],
+                [
+                  115.517011,
+                  3.157276
+                ],
+                [
+                  115.464094,
+                  3.030824
+                ],
+                [
+                  115.206125,
+                  2.509874
+                ],
+                [
+                  114.561617,
+                  1.450016
+                ],
+                [
+                  114.545597,
+                  1.434952
+                ],
+                [
+                  114.522239,
+                  1.429423
+                ],
+                [
+                  113.624826,
+                  1.227575
+                ],
+                [
+                  111.503199,
+                  0.958444
+                ],
+                [
+                  110.553903,
+                  0.85137
+                ],
+                [
+                  110.50636,
+                  0.857313
+                ],
+                [
+                  110.460265,
+                  0.879741
+                ],
+                [
+                  110.263481,
+                  0.994307
+                ],
+                [
+                  109.775552,
+                  1.457948
+                ],
+                [
+                  109.677264,
+                  1.572851
+                ],
+                [
+                  109.65804,
+                  1.59719
+                ],
+                [
+                  109.646981,
+                  1.617628
+                ],
+                [
+                  109.539804,
+                  1.826556
+                ],
+                [
+                  109.53474,
+                  1.838984
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q170462",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sarawak"
+        }
+      ],
+      "properties": {
+        "title": "Sarawak"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q107390",
+          "label": "federated state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Selangor.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.286388,
+                  2.849677
+                ],
+                [
+                  100.812266,
+                  3.786566
+                ],
+                [
+                  100.813243,
+                  3.803778
+                ],
+                [
+                  100.823741,
+                  3.827094
+                ],
+                [
+                  100.840569,
+                  3.842808
+                ],
+                [
+                  100.840698,
+                  3.842867
+                ],
+                [
+                  100.844315,
+                  3.84452
+                ],
+                [
+                  100.863125,
+                  3.849636
+                ],
+                [
+                  100.927669,
+                  3.860514
+                ],
+                [
+                  100.935421,
+                  3.861677
+                ],
+                [
+                  101.626851,
+                  3.77176
+                ],
+                [
+                  101.765758,
+                  3.67422
+                ],
+                [
+                  101.771649,
+                  3.668949
+                ],
+                [
+                  101.783276,
+                  3.649467
+                ],
+                [
+                  101.813352,
+                  3.597636
+                ],
+                [
+                  101.945747,
+                  3.221277
+                ],
+                [
+                  101.961715,
+                  3.142522
+                ],
+                [
+                  101.96218,
+                  3.134615
+                ],
+                [
+                  101.964505,
+                  3.037076
+                ],
+                [
+                  101.96342,
+                  3.033045
+                ],
+                [
+                  101.931329,
+                  2.965943
+                ],
+                [
+                  101.888489,
+                  2.880832
+                ],
+                [
+                  101.721201,
+                  2.59585
+                ],
+                [
+                  101.71339,
+                  2.596584
+                ],
+                [
+                  101.56422,
+                  2.652004
+                ],
+                [
+                  101.542328,
+                  2.661282
+                ],
+                [
+                  101.502778,
+                  2.689399
+                ],
+                [
+                  101.286388,
+                  2.849677
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189710",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Selangor"
+        }
+      ],
+      "properties": {
+        "title": "Selangor"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Terengganu.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Malaysian state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  102.394195,
+                  5.427266
+                ],
+                [
+                  102.386288,
+                  5.685958
+                ],
+                [
+                  102.391249,
+                  5.698826
+                ],
+                [
+                  102.426441,
+                  5.735929
+                ],
+                [
+                  102.539716,
+                  5.853157
+                ],
+                [
+                  102.542003,
+                  5.854763
+                ],
+                [
+                  102.603282,
+                  5.815375
+                ],
+                [
+                  102.975597,
+                  5.531317
+                ],
+                [
+                  103.027599,
+                  5.4855
+                ],
+                [
+                  103.120291,
+                  5.381334
+                ],
+                [
+                  103.222423,
+                  5.221137
+                ],
+                [
+                  103.442638,
+                  4.816596
+                ],
+                [
+                  103.448009,
+                  4.806545
+                ],
+                [
+                  103.494151,
+                  4.336615
+                ],
+                [
+                  103.49643,
+                  4.30622
+                ],
+                [
+                  103.493907,
+                  4.295315
+                ],
+                [
+                  103.454845,
+                  4.182766
+                ],
+                [
+                  103.322717,
+                  3.87656
+                ],
+                [
+                  103.320236,
+                  3.875319
+                ],
+                [
+                  103.316309,
+                  3.876327
+                ],
+                [
+                  102.922018,
+                  4.110731
+                ],
+                [
+                  102.919589,
+                  4.112747
+                ],
+                [
+                  102.917264,
+                  4.11515
+                ],
+                [
+                  102.913388,
+                  4.120266
+                ],
+                [
+                  102.903311,
+                  4.136854
+                ],
+                [
+                  102.513051,
+                  4.910398
+                ],
+                [
+                  102.51119,
+                  4.915127
+                ],
+                [
+                  102.412643,
+                  5.183973
+                ],
+                [
+                  102.412023,
+                  5.188004
+                ],
+                [
+                  102.394195,
+                  5.427266
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q189701",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Terangganu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Terengganu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trengganu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tringganu"
+        }
+      ],
+      "properties": {
+        "title": "Terengganu"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063586",
+          "label": "state of Malaysia"
+        }
+      ]
+    }
+  ],
+  "title": "Malaysian states and federal territories",
+  "type": "FeatureCollection"
+}

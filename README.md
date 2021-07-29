@@ -74,6 +74,12 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Libyan districts gazetteer**<br>
   https://data.perio.do/graphs/places/libyan-districts.json
 
+* **Malaysian states and federal territories gazetteer**<br>
+  https://data.perio.do/graphs/places/malaysian-states.json
+
+* **Myanma states and regions gazetteer**<br>
+  https://data.perio.do/graphs/places/myanma-states.json
+
 * **Omani governorates gazetteer**<br>
   https://data.perio.do/graphs/places/omani-governorates.json
 
@@ -416,6 +422,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/libyan-districts.json](place-ids/libyan-districts.json) for details), and
 
 1. querying Wikidata for instances of [Q48242 district of Libya](https://www.wikidata.org/wiki/Q48242) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Malaysian states and regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/malaysian-states.json](place-ids/malaysian-states.json) for details), and
+
+1. querying Wikidata for instances of [Q50464 state or federal territory of Malaysia](https://www.wikidata.org/wiki/Q50464) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Myanma states and regions gazetteer
