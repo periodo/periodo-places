@@ -1,0 +1,1040 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.229023,
+                  19.018582
+                ],
+                [
+                  4.22861,
+                  19.142244
+                ],
+                [
+                  11.968861,
+                  23.517351
+                ],
+                [
+                  14.979909,
+                  22.995664
+                ],
+                [
+                  15.968151,
+                  20.352816
+                ],
+                [
+                  15.970322,
+                  20.336331
+                ],
+                [
+                  15.567698,
+                  18.000039
+                ],
+                [
+                  8.375592,
+                  15.587473
+                ],
+                [
+                  7.324494,
+                  15.334517
+                ],
+                [
+                  6.673681,
+                  15.428413
+                ],
+                [
+                  4.718193,
+                  17.964433
+                ],
+                [
+                  4.230271,
+                  18.645374
+                ],
+                [
+                  4.230263,
+                  18.647648
+                ],
+                [
+                  4.229436,
+                  18.894946
+                ],
+                [
+                  4.229023,
+                  19.018582
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q389944",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Agadez Region"
+        }
+      ],
+      "properties": {
+        "title": "Agadez Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  10.64486,
+                  13.374791
+                ],
+                [
+                  10.612562,
+                  13.489306
+                ],
+                [
+                  10.615973,
+                  13.505791
+                ],
+                [
+                  10.623311,
+                  13.529614
+                ],
+                [
+                  11.99749,
+                  17.500379
+                ],
+                [
+                  12.033974,
+                  17.525029
+                ],
+                [
+                  12.237062,
+                  17.657424
+                ],
+                [
+                  13.000065,
+                  17.999522
+                ],
+                [
+                  15.558978,
+                  18.000039
+                ],
+                [
+                  15.567698,
+                  18.000039
+                ],
+                [
+                  15.566936,
+                  17.991409
+                ],
+                [
+                  15.53469,
+                  17.626367
+                ],
+                [
+                  15.518567,
+                  17.443846
+                ],
+                [
+                  15.48229,
+                  17.033277
+                ],
+                [
+                  15.478259,
+                  16.987698
+                ],
+                [
+                  15.471954,
+                  16.916746
+                ],
+                [
+                  15.465547,
+                  16.89468
+                ],
+                [
+                  13.607314,
+                  13.7041
+                ],
+                [
+                  12.486659,
+                  13.070805
+                ],
+                [
+                  12.472706,
+                  13.064165
+                ],
+                [
+                  12.325738,
+                  13.078815
+                ],
+                [
+                  12.116449,
+                  13.102845
+                ],
+                [
+                  10.647882,
+                  13.369406
+                ],
+                [
+                  10.64486,
+                  13.374791
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1053302",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Diffa Region"
+        }
+      ],
+      "properties": {
+        "title": "Diffa Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.475953,
+                  13.136459
+                ],
+                [
+                  2.474712,
+                  13.142661
+                ],
+                [
+                  2.475022,
+                  13.148035
+                ],
+                [
+                  2.476418,
+                  13.154133
+                ],
+                [
+                  2.480448,
+                  13.161678
+                ],
+                [
+                  2.48696,
+                  13.171393
+                ],
+                [
+                  2.499569,
+                  13.185345
+                ],
+                [
+                  3.174101,
+                  13.797866
+                ],
+                [
+                  4.253622,
+                  14.657865
+                ],
+                [
+                  4.320956,
+                  14.615852
+                ],
+                [
+                  4.343177,
+                  14.590634
+                ],
+                [
+                  4.419348,
+                  14.439739
+                ],
+                [
+                  4.625845,
+                  13.723151
+                ],
+                [
+                  3.659859,
+                  11.738096
+                ],
+                [
+                  3.647767,
+                  11.726004
+                ],
+                [
+                  3.5964,
+                  11.695773
+                ],
+                [
+                  3.315487,
+                  11.894572
+                ],
+                [
+                  2.631602,
+                  12.515515
+                ],
+                [
+                  2.628295,
+                  12.525644
+                ],
+                [
+                  2.475953,
+                  13.136459
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850055",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dosso Region"
+        }
+      ],
+      "properties": {
+        "title": "Dosso Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.2828,
+                  13.683971
+                ],
+                [
+                  6.282645,
+                  13.74066
+                ],
+                [
+                  6.284506,
+                  13.75761
+                ],
+                [
+                  6.532501,
+                  14.923741
+                ],
+                [
+                  6.673681,
+                  15.428413
+                ],
+                [
+                  7.071073,
+                  15.443295
+                ],
+                [
+                  7.124144,
+                  15.439265
+                ],
+                [
+                  7.324494,
+                  15.334517
+                ],
+                [
+                  7.389038,
+                  15.298085
+                ],
+                [
+                  8.353113,
+                  14.28564
+                ],
+                [
+                  8.518995,
+                  14.11056
+                ],
+                [
+                  8.5238,
+                  14.094541
+                ],
+                [
+                  8.537133,
+                  14.00142
+                ],
+                [
+                  8.541009,
+                  13.965349
+                ],
+                [
+                  8.541319,
+                  13.931036
+                ],
+                [
+                  8.539613,
+                  13.914965
+                ],
+                [
+                  8.534963,
+                  13.900961
+                ],
+                [
+                  8.312134,
+                  13.327559
+                ],
+                [
+                  8.251466,
+                  13.217591
+                ],
+                [
+                  8.246728,
+                  13.211292
+                ],
+                [
+                  7.068695,
+                  12.996081
+                ],
+                [
+                  7.044924,
+                  12.992206
+                ],
+                [
+                  6.970509,
+                  12.991844
+                ],
+                [
+                  6.937127,
+                  12.995409
+                ],
+                [
+                  6.906637,
+                  13.006856
+                ],
+                [
+                  6.874185,
+                  13.030498
+                ],
+                [
+                  6.837908,
+                  13.063493
+                ],
+                [
+                  6.284208,
+                  13.667656
+                ],
+                [
+                  6.2828,
+                  13.683971
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850036",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Maradi Region"
+        }
+      ],
+      "properties": {
+        "title": "Maradi Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  1.974229,
+                  13.529106
+                ],
+                [
+                  1.972452,
+                  13.564661
+                ],
+                [
+                  1.976492,
+                  13.58747
+                ],
+                [
+                  1.997221,
+                  13.612777
+                ],
+                [
+                  2.032894,
+                  13.626881
+                ],
+                [
+                  2.072004,
+                  13.626881
+                ],
+                [
+                  2.219555,
+                  13.621548
+                ],
+                [
+                  2.228443,
+                  13.617992
+                ],
+                [
+                  2.276442,
+                  13.573549
+                ],
+                [
+                  2.278219,
+                  13.546884
+                ],
+                [
+                  2.276442,
+                  13.516662
+                ],
+                [
+                  2.267553,
+                  13.475775
+                ],
+                [
+                  2.255109,
+                  13.43311
+                ],
+                [
+                  2.235554,
+                  13.394
+                ],
+                [
+                  2.219555,
+                  13.381556
+                ],
+                [
+                  2.198497,
+                  13.365831
+                ],
+                [
+                  2.045338,
+                  13.431332
+                ],
+                [
+                  2.015117,
+                  13.459775
+                ],
+                [
+                  1.992007,
+                  13.491774
+                ],
+                [
+                  1.974229,
+                  13.529106
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3674",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Niamey"
+        }
+      ],
+      "properties": {
+        "title": "Niamey"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1637706",
+          "label": "million city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4683538",
+          "label": "administrative territorial entity of Niger"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.104174,
+                  14.907204
+                ],
+                [
+                  3.873849,
+                  15.720882
+                ],
+                [
+                  4.230271,
+                  18.645374
+                ],
+                [
+                  4.245095,
+                  18.645374
+                ],
+                [
+                  4.768939,
+                  18.639276
+                ],
+                [
+                  4.863455,
+                  18.612301
+                ],
+                [
+                  6.631151,
+                  16.192449
+                ],
+                [
+                  6.635647,
+                  16.178289
+                ],
+                [
+                  6.673681,
+                  15.428413
+                ],
+                [
+                  6.521752,
+                  14.058987
+                ],
+                [
+                  6.517256,
+                  14.04121
+                ],
+                [
+                  6.284208,
+                  13.667656
+                ],
+                [
+                  6.142395,
+                  13.640822
+                ],
+                [
+                  4.625845,
+                  13.723151
+                ],
+                [
+                  4.47335,
+                  14.049479
+                ],
+                [
+                  4.111925,
+                  14.887257
+                ],
+                [
+                  4.104174,
+                  14.907204
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q871083",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tahoua Region"
+        }
+      ],
+      "properties": {
+        "title": "Tahoua Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  0.158832,
+                  14.496119
+                ],
+                [
+                  0.152941,
+                  14.54671
+                ],
+                [
+                  0.185756,
+                  14.84819
+                ],
+                [
+                  0.213196,
+                  14.985417
+                ],
+                [
+                  0.221257,
+                  14.995933
+                ],
+                [
+                  1.297832,
+                  15.275735
+                ],
+                [
+                  1.331526,
+                  15.283616
+                ],
+                [
+                  3.873849,
+                  15.720882
+                ],
+                [
+                  3.881965,
+                  15.706742
+                ],
+                [
+                  4.105104,
+                  15.089519
+                ],
+                [
+                  4.253622,
+                  14.657865
+                ],
+                [
+                  4.235173,
+                  14.538751
+                ],
+                [
+                  2.844301,
+                  12.399244
+                ],
+                [
+                  2.832416,
+                  12.384051
+                ],
+                [
+                  2.390169,
+                  11.896536
+                ],
+                [
+                  0.983536,
+                  13.032358
+                ],
+                [
+                  0.369155,
+                  14.039067
+                ],
+                [
+                  0.158832,
+                  14.496119
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q861914",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tillaberi Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tillabéri Region"
+        }
+      ],
+      "properties": {
+        "title": "Tillabéri Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Niger"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.495336,
+                  14.84204
+                ],
+                [
+                  7.324494,
+                  15.334517
+                ],
+                [
+                  7.405626,
+                  15.555795
+                ],
+                [
+                  7.444745,
+                  15.597705
+                ],
+                [
+                  11.658131,
+                  17.382092
+                ],
+                [
+                  11.99749,
+                  17.500379
+                ],
+                [
+                  12.000126,
+                  14.608514
+                ],
+                [
+                  11.981677,
+                  14.439687
+                ],
+                [
+                  11.975166,
+                  14.430437
+                ],
+                [
+                  10.647882,
+                  13.369406
+                ],
+                [
+                  9.61841,
+                  12.805783
+                ],
+                [
+                  9.611485,
+                  12.802941
+                ],
+                [
+                  9.590298,
+                  12.80139
+                ],
+                [
+                  9.269387,
+                  12.809788
+                ],
+                [
+                  8.942792,
+                  12.847201
+                ],
+                [
+                  8.679346,
+                  12.923579
+                ],
+                [
+                  8.405151,
+                  13.070857
+                ],
+                [
+                  8.397813,
+                  13.075405
+                ],
+                [
+                  8.297974,
+                  13.164624
+                ],
+                [
+                  8.246728,
+                  13.211292
+                ],
+                [
+                  7.501227,
+                  14.828346
+                ],
+                [
+                  7.495336,
+                  14.84204
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q204367",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zinder Region"
+        }
+      ],
+      "properties": {
+        "title": "Zinder Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q859869",
+          "label": "region of Niger"
+        }
+      ]
+    }
+  ],
+  "title": "Nigerien regions",
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,34 @@
+{
+  "Agadez Region": {
+    "id": "http://www.wikidata.org/entity/Q389944",
+    "covers": [ "Agadez" ]
+  },
+  "Diffa Region": {
+    "id": "http://www.wikidata.org/entity/Q1053302",
+    "covers": [ "Diffa" ]
+  },
+  "Dosso Region": {
+    "id": "http://www.wikidata.org/entity/Q850055",
+    "covers": [ "Dosso" ]
+  },
+  "Maradi Region": {
+    "id": "http://www.wikidata.org/entity/Q850036",
+    "covers": [ "Maradi" ]
+  },
+  "Niamey": {
+    "id": "http://www.wikidata.org/entity/Q3674",
+    "covers": [ "Niamey" ]
+  },
+  "Tahoua Region": {
+    "id": "http://www.wikidata.org/entity/Q871083",
+    "covers": [ "Tahoua" ]
+  },
+  "Tillabéri Region": {
+    "id": "http://www.wikidata.org/entity/Q861914",
+    "covers": [ "Tillabéri" ]
+  },
+  "Zinder Region": {
+    "id": "http://www.wikidata.org/entity/Q204367",
+    "covers": [ "Zinder" ]
+  }
+}

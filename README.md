@@ -80,6 +80,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Myanma states and regions gazetteer**<br>
   https://data.perio.do/graphs/places/myanma-states.json
 
+* **Nigerien regions gazetteer**<br>
+  https://data.perio.do/graphs/places/nigerien-regions.json
+
 * **Omani governorates gazetteer**<br>
   https://data.perio.do/graphs/places/omani-governorates.json
 
@@ -444,6 +447,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/myanma-states.json](place-ids/myanma-states.json) for details), and
 
 1. querying Wikidata for instances of [Q17315624 state of Myanmar](https://www.wikidata.org/wiki/Q17315624) or [Q15072454 region of Myanmar](https://www.wikidata.org/wiki/Q15072454) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Nigerien regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/nigerien-regions.json](place-ids/nigerien-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q859869 region of Niger](https://www.wikidata.org/wiki/Q859869) (or [Q5119 capital](https://www.wikidata.org/wiki/Q5119) in the case of Niamey) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Omani governorates gazetteer
