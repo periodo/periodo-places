@@ -1,0 +1,150 @@
+{
+  "Abia State": {
+    "id": "http://www.wikidata.org/entity/Q320852",
+    "covers": [ "Abia" ]
+  },
+  "Adamawa State": {
+    "id": "http://www.wikidata.org/entity/Q337514",
+    "covers": [ "Adamawa" ]
+  },
+  "Akwa Ibom State": {
+    "id": "http://www.wikidata.org/entity/Q424388",
+    "covers": [ "Akwa Ibom" ]
+  },
+  "Anambra State": {
+    "id": "http://www.wikidata.org/entity/Q117714",
+    "covers": [ "Anambra" ]
+  },
+  "Bauchi State": {
+    "id": "http://www.wikidata.org/entity/Q503936",
+    "covers": [ "Bauchi" ]
+  },
+  "Bayelsa State": {
+    "id": "http://www.wikidata.org/entity/Q532153",
+    "covers": [ "Bayelsa" ]
+  },
+  "Benue State": {
+    "id": "http://www.wikidata.org/entity/Q429908",
+    "covers": [ "Benue" ]
+  },
+  "Borno State": {
+    "id": "http://www.wikidata.org/entity/Q130626",
+    "covers": [ "Borno" ]
+  },
+  "Cross River State": {
+    "id": "http://www.wikidata.org/entity/Q739676",
+    "covers": [ "Cross River" ]
+  },
+  "Delta State": {
+    "id": "http://www.wikidata.org/entity/Q503910",
+    "covers": [ "Delta" ]
+  },
+  "Ebonyi State": {
+    "id": "http://www.wikidata.org/entity/Q506808",
+    "covers": [ "Ebonyi" ]
+  },
+  "Edo State": {
+    "id": "http://www.wikidata.org/entity/Q682704",
+    "covers": [ "Edo" ]
+  },
+  "Ekiti State": {
+    "id": "http://www.wikidata.org/entity/Q534917",
+    "covers": [ "Ekiti" ]
+  },
+  "Enugu State": {
+    "id": "http://www.wikidata.org/entity/Q3817714",
+    "covers": [ "Enugu" ]
+  },
+  "Federal Capital Territory": {
+    "id": "http://www.wikidata.org/entity/Q509300",
+    "covers": [ "Federal Capital Territory" ]
+  },
+  "Gombe State": {
+    "id": "http://www.wikidata.org/entity/Q376241",
+    "covers": [ "Gombe" ]
+  },
+  "Imo State": {
+    "id": "http://www.wikidata.org/entity/Q842939",
+    "covers": [ "Imo" ]
+  },
+  "Jigawa State": {
+    "id": "http://www.wikidata.org/entity/Q682691",
+    "covers": [ "Jigawa" ]
+  },
+  "Kaduna State": {
+    "id": "http://www.wikidata.org/entity/Q878284",
+    "covers": [ "Kaduna" ]
+  },
+  "Kano State": {
+    "id": "http://www.wikidata.org/entity/Q682571",
+    "covers": [ "Kano" ]
+  },
+  "Katsina State": {
+    "id": "http://www.wikidata.org/entity/Q657821",
+    "covers": [ "Katsina" ]
+  },
+  "Kebbi State": {
+    "id": "http://www.wikidata.org/entity/Q748523",
+    "covers": [ "Kebbi" ]
+  },
+  "Kogi State": {
+    "id": "http://www.wikidata.org/entity/Q387745",
+    "covers": [ "Kogi" ]
+  },
+  "Kwara State": {
+    "id": "http://www.wikidata.org/entity/Q464953",
+    "covers": [ "Kwara" ]
+  },
+  "Lagos": {
+    "id": "http://www.wikidata.org/entity/Q815913",
+    "covers": [ "Lagos" ]
+  },
+  "Nasarawa State": {
+    "id": "http://www.wikidata.org/entity/Q836645",
+    "covers": [ "Nassarawa" ]
+  },
+  "Niger State": {
+    "id": "http://www.wikidata.org/entity/Q503932",
+    "covers": [ "Niger" ]
+  },
+  "Ogun State": {
+    "id": "http://www.wikidata.org/entity/Q836657",
+    "covers": [ "Ogun" ]
+  },
+  "Ondo State": {
+    "id": "http://www.wikidata.org/entity/Q836654",
+    "covers": [ "Ondo" ]
+  },
+  "Osun State": {
+    "id": "http://www.wikidata.org/entity/Q682721",
+    "covers": [ "Osun" ]
+  },
+  "Oyo State": {
+    "id": "http://www.wikidata.org/entity/Q503905",
+    "covers": [ "Oyo" ]
+  },
+  "Plateau State": {
+    "id": "http://www.wikidata.org/entity/Q503928",
+    "covers": [ "Plateau" ]
+  },
+  "Rivers State": {
+    "id": "http://www.wikidata.org/entity/Q503923",
+    "covers": [ "Rivers" ]
+  },
+  "Sokoto State": {
+    "id": "http://www.wikidata.org/entity/Q503941",
+    "covers": [ "Sokoto" ]
+  },
+  "Taraba State": {
+    "id": "http://www.wikidata.org/entity/Q463959",
+    "covers": [ "Taraba" ]
+  },
+  "Yobe State": {
+    "id": "http://www.wikidata.org/entity/Q682777",
+    "covers": [ "Yobe" ]
+  },
+  "Zamfara State": {
+    "id": "http://www.wikidata.org/entity/Q145793",
+    "covers": [ "Zamfara" ]
+  }
+}

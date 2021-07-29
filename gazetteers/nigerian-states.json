@@ -1,0 +1,4494 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.176544,
+                  4.873656
+                ],
+                [
+                  7.163315,
+                  4.951404
+                ],
+                [
+                  7.250131,
+                  5.926254
+                ],
+                [
+                  7.29664,
+                  5.985268
+                ],
+                [
+                  7.363716,
+                  6.020615
+                ],
+                [
+                  7.468309,
+                  6.022191
+                ],
+                [
+                  7.784672,
+                  5.793833
+                ],
+                [
+                  7.877793,
+                  5.690273
+                ],
+                [
+                  7.89433,
+                  5.644643
+                ],
+                [
+                  7.957065,
+                  5.39148
+                ],
+                [
+                  7.944559,
+                  5.356133
+                ],
+                [
+                  7.496318,
+                  4.817381
+                ],
+                [
+                  7.217162,
+                  4.861151
+                ],
+                [
+                  7.176544,
+                  4.873656
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q320852",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Abia State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abia"
+        }
+      ],
+      "properties": {
+        "title": "Abia State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.447808,
+                  7.951505
+                ],
+                [
+                  11.404297,
+                  8.058449
+                ],
+                [
+                  11.525943,
+                  9.591973
+                ],
+                [
+                  11.945555,
+                  10.04471
+                ],
+                [
+                  13.422158,
+                  10.930289
+                ],
+                [
+                  13.456161,
+                  10.934914
+                ],
+                [
+                  13.749839,
+                  10.942442
+                ],
+                [
+                  13.450837,
+                  10.187157
+                ],
+                [
+                  13.195453,
+                  9.542209
+                ],
+                [
+                  12.794547,
+                  8.788612
+                ],
+                [
+                  12.021054,
+                  7.576231
+                ],
+                [
+                  11.966174,
+                  7.514426
+                ],
+                [
+                  11.903545,
+                  7.453557
+                ],
+                [
+                  11.902561,
+                  7.454377
+                ],
+                [
+                  11.515194,
+                  7.852208
+                ],
+                [
+                  11.487909,
+                  7.880269
+                ],
+                [
+                  11.447808,
+                  7.951505
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q337514",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Adamawa State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adamawa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gongola"
+        }
+      ],
+      "properties": {
+        "title": "Adamawa State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.467172,
+                  4.898539
+                ],
+                [
+                  7.462832,
+                  4.981712
+                ],
+                [
+                  7.525257,
+                  5.305258
+                ],
+                [
+                  7.640805,
+                  5.511137
+                ],
+                [
+                  7.66716,
+                  5.529921
+                ],
+                [
+                  7.705297,
+                  5.524108
+                ],
+                [
+                  7.7547,
+                  5.489278
+                ],
+                [
+                  7.89712,
+                  5.36497
+                ],
+                [
+                  8.045845,
+                  5.232756
+                ],
+                [
+                  8.062485,
+                  5.213455
+                ],
+                [
+                  8.304942,
+                  4.77733
+                ],
+                [
+                  8.332367,
+                  4.71776
+                ],
+                [
+                  8.353526,
+                  4.648871
+                ],
+                [
+                  8.356456,
+                  4.625556
+                ],
+                [
+                  8.29835,
+                  4.55329
+                ],
+                [
+                  8.288585,
+                  4.54857
+                ],
+                [
+                  8.279063,
+                  4.54682
+                ],
+                [
+                  7.735525,
+                  4.499213
+                ],
+                [
+                  7.703136,
+                  4.497545
+                ],
+                [
+                  7.673839,
+                  4.502183
+                ],
+                [
+                  7.558442,
+                  4.525336
+                ],
+                [
+                  7.539317,
+                  4.541815
+                ],
+                [
+                  7.467172,
+                  4.898539
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q424388",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Akwa Ibom State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Akwa Ibom"
+        }
+      ],
+      "properties": {
+        "title": "Akwa Ibom State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.635802,
+                  5.696604
+                ],
+                [
+                  6.605726,
+                  5.723165
+                ],
+                [
+                  6.609447,
+                  5.765798
+                ],
+                [
+                  6.67673,
+                  6.535105
+                ],
+                [
+                  6.838064,
+                  6.711994
+                ],
+                [
+                  6.905966,
+                  6.776124
+                ],
+                [
+                  7.10027,
+                  6.667759
+                ],
+                [
+                  7.363716,
+                  6.020615
+                ],
+                [
+                  7.250131,
+                  5.926254
+                ],
+                [
+                  6.895838,
+                  5.762026
+                ],
+                [
+                  6.668772,
+                  5.694278
+                ],
+                [
+                  6.635802,
+                  5.696604
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q117714",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Anambra State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Anambra"
+        }
+      ],
+      "properties": {
+        "title": "Anambra State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.710197,
+                  10.397634
+                ],
+                [
+                  8.696658,
+                  10.423757
+                ],
+                [
+                  8.731075,
+                  10.946516
+                ],
+                [
+                  8.737483,
+                  11.021498
+                ],
+                [
+                  8.767662,
+                  11.084802
+                ],
+                [
+                  10.287465,
+                  12.42441
+                ],
+                [
+                  10.318471,
+                  12.436244
+                ],
+                [
+                  10.609513,
+                  12.502441
+                ],
+                [
+                  10.677933,
+                  12.456682
+                ],
+                [
+                  10.73519,
+                  12.402267
+                ],
+                [
+                  10.748419,
+                  12.36431
+                ],
+                [
+                  10.968147,
+                  11.575263
+                ],
+                [
+                  11.014243,
+                  11.294711
+                ],
+                [
+                  11.075014,
+                  9.610421
+                ],
+                [
+                  11.068606,
+                  9.586392
+                ],
+                [
+                  10.56042,
+                  9.496656
+                ],
+                [
+                  9.502397,
+                  9.536576
+                ],
+                [
+                  9.361424,
+                  9.562337
+                ],
+                [
+                  9.299102,
+                  9.582154
+                ],
+                [
+                  9.159679,
+                  9.72889
+                ],
+                [
+                  8.960518,
+                  10.023109
+                ],
+                [
+                  8.710197,
+                  10.397634
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503936",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bauchi State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bauchi"
+        }
+      ],
+      "properties": {
+        "title": "Bauchi State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.389334,
+                  5.109768
+                ],
+                [
+                  5.385997,
+                  5.125556
+                ],
+                [
+                  5.39088,
+                  5.137681
+                ],
+                [
+                  5.402843,
+                  5.142401
+                ],
+                [
+                  6.493072,
+                  5.39303
+                ],
+                [
+                  6.585573,
+                  5.384478
+                ],
+                [
+                  6.614408,
+                  5.350061
+                ],
+                [
+                  6.617612,
+                  5.345927
+                ],
+                [
+                  6.620092,
+                  5.341044
+                ],
+                [
+                  6.72264,
+                  4.591382
+                ],
+                [
+                  6.695079,
+                  4.347235
+                ],
+                [
+                  6.687673,
+                  4.336575
+                ],
+                [
+                  6.677501,
+                  4.333075
+                ],
+                [
+                  6.112804,
+                  4.272162
+                ],
+                [
+                  6.09669,
+                  4.278144
+                ],
+                [
+                  5.9463,
+                  4.335191
+                ],
+                [
+                  5.889903,
+                  4.368842
+                ],
+                [
+                  5.7824,
+                  4.455959
+                ],
+                [
+                  5.749766,
+                  4.484442
+                ],
+                [
+                  5.5949,
+                  4.636461
+                ],
+                [
+                  5.566905,
+                  4.675238
+                ],
+                [
+                  5.475434,
+                  4.84748
+                ],
+                [
+                  5.389334,
+                  5.109768
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q532153",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bayelsa State"
+        }
+      ],
+      "properties": {
+        "title": "Bayelsa State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.503656,
+                  7.034145
+                ],
+                [
+                  7.493734,
+                  7.074452
+                ],
+                [
+                  7.666023,
+                  8.025712
+                ],
+                [
+                  8.426184,
+                  8.118497
+                ],
+                [
+                  8.557959,
+                  8.133354
+                ],
+                [
+                  8.978915,
+                  8.055452
+                ],
+                [
+                  9.57123,
+                  7.842338
+                ],
+                [
+                  9.684712,
+                  7.764384
+                ],
+                [
+                  9.876638,
+                  7.562484
+                ],
+                [
+                  9.920976,
+                  7.446393
+                ],
+                [
+                  9.874674,
+                  7.208992
+                ],
+                [
+                  9.644806,
+                  6.521226
+                ],
+                [
+                  9.548957,
+                  6.443174
+                ],
+                [
+                  9.528596,
+                  6.433019
+                ],
+                [
+                  9.48859,
+                  6.418208
+                ],
+                [
+                  7.929056,
+                  6.519241
+                ],
+                [
+                  7.860327,
+                  6.56146
+                ],
+                [
+                  7.569802,
+                  6.920534
+                ],
+                [
+                  7.542413,
+                  6.95464
+                ],
+                [
+                  7.503656,
+                  7.034145
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q429908",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Benue State"
+        }
+      ],
+      "properties": {
+        "title": "Benue State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  11.658028,
+                  10.300974
+                ],
+                [
+                  11.637151,
+                  10.344769
+                ],
+                [
+                  11.639528,
+                  10.388824
+                ],
+                [
+                  12.386742,
+                  13.07858
+                ],
+                [
+                  12.630009,
+                  13.310377
+                ],
+                [
+                  12.842296,
+                  13.489126
+                ],
+                [
+                  13.329915,
+                  13.709423
+                ],
+                [
+                  13.35892,
+                  13.714232
+                ],
+                [
+                  13.35999,
+                  13.714409
+                ],
+                [
+                  13.607314,
+                  13.7041
+                ],
+                [
+                  13.836111,
+                  13.391044
+                ],
+                [
+                  14.064908,
+                  13.077988
+                ],
+                [
+                  14.663425,
+                  12.187578
+                ],
+                [
+                  14.668283,
+                  12.178069
+                ],
+                [
+                  14.669936,
+                  12.167424
+                ],
+                [
+                  14.627561,
+                  11.584359
+                ],
+                [
+                  14.623841,
+                  11.563481
+                ],
+                [
+                  14.616193,
+                  11.538677
+                ],
+                [
+                  14.605754,
+                  11.514725
+                ],
+                [
+                  14.593765,
+                  11.496431
+                ],
+                [
+                  13.30971,
+                  10.467888
+                ],
+                [
+                  13.25917,
+                  10.440035
+                ],
+                [
+                  12.106889,
+                  10.036029
+                ],
+                [
+                  11.945555,
+                  10.04471
+                ],
+                [
+                  11.874345,
+                  10.088971
+                ],
+                [
+                  11.689137,
+                  10.263224
+                ],
+                [
+                  11.658028,
+                  10.300974
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q130626",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Borno State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Borno"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bornu"
+        }
+      ],
+      "properties": {
+        "title": "Borno State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.885338,
+                  5.290918
+                ],
+                [
+                  7.869008,
+                  5.333551
+                ],
+                [
+                  7.877793,
+                  5.690273
+                ],
+                [
+                  7.881514,
+                  5.715336
+                ],
+                [
+                  7.962956,
+                  5.967388
+                ],
+                [
+                  7.974635,
+                  5.99258
+                ],
+                [
+                  8.291928,
+                  6.675588
+                ],
+                [
+                  8.411301,
+                  6.7461
+                ],
+                [
+                  8.631442,
+                  6.867307
+                ],
+                [
+                  8.695935,
+                  6.891673
+                ],
+                [
+                  8.764458,
+                  6.885652
+                ],
+                [
+                  8.836495,
+                  6.860357
+                ],
+                [
+                  9.232543,
+                  6.686905
+                ],
+                [
+                  9.320909,
+                  6.642282
+                ],
+                [
+                  9.440385,
+                  6.502084
+                ],
+                [
+                  9.48859,
+                  6.418208
+                ],
+                [
+                  8.798925,
+                  5.159635
+                ],
+                [
+                  8.79169,
+                  5.146741
+                ],
+                [
+                  8.612166,
+                  4.831877
+                ],
+                [
+                  8.529796,
+                  4.708889
+                ],
+                [
+                  8.518321,
+                  4.704047
+                ],
+                [
+                  8.475841,
+                  4.70893
+                ],
+                [
+                  8.469005,
+                  4.711656
+                ],
+                [
+                  8.287381,
+                  4.784618
+                ],
+                [
+                  8.249037,
+                  4.812833
+                ],
+                [
+                  8.131628,
+                  4.934919
+                ],
+                [
+                  8.095765,
+                  4.985639
+                ],
+                [
+                  7.89681,
+                  5.272443
+                ],
+                [
+                  7.885338,
+                  5.290918
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q739676",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cross River State"
+        }
+      ],
+      "properties": {
+        "title": "Cross River State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.044688,
+                  5.767483
+                ],
+                [
+                  5.00302,
+                  5.85478
+                ],
+                [
+                  5.115171,
+                  6.126913
+                ],
+                [
+                  6.67673,
+                  6.535105
+                ],
+                [
+                  6.758999,
+                  6.18107
+                ],
+                [
+                  6.760859,
+                  6.167117
+                ],
+                [
+                  6.757655,
+                  6.122882
+                ],
+                [
+                  6.753831,
+                  6.10955
+                ],
+                [
+                  6.689029,
+                  5.91429
+                ],
+                [
+                  6.55188,
+                  5.513824
+                ],
+                [
+                  6.546919,
+                  5.500957
+                ],
+                [
+                  6.495345,
+                  5.3713
+                ],
+                [
+                  6.210298,
+                  5.183715
+                ],
+                [
+                  6.153558,
+                  5.152037
+                ],
+                [
+                  6.050205,
+                  5.104572
+                ],
+                [
+                  5.698598,
+                  5.02667
+                ],
+                [
+                  5.665835,
+                  5.025042
+                ],
+                [
+                  5.641341,
+                  5.028401
+                ],
+                [
+                  5.37615,
+                  5.158189
+                ],
+                [
+                  5.365571,
+                  5.163479
+                ],
+                [
+                  5.044688,
+                  5.767483
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503910",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Delta State"
+        }
+      ],
+      "properties": {
+        "title": "Delta State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.585615,
+                  5.820575
+                ],
+                [
+                  7.526187,
+                  5.850263
+                ],
+                [
+                  7.533525,
+                  5.972969
+                ],
+                [
+                  7.695686,
+                  6.606522
+                ],
+                [
+                  7.727518,
+                  6.626263
+                ],
+                [
+                  8.217824,
+                  6.791601
+                ],
+                [
+                  8.237668,
+                  6.789638
+                ],
+                [
+                  8.248417,
+                  6.773515
+                ],
+                [
+                  8.399622,
+                  6.517923
+                ],
+                [
+                  8.435382,
+                  6.432631
+                ],
+                [
+                  8.438896,
+                  6.401186
+                ],
+                [
+                  8.379882,
+                  6.235589
+                ],
+                [
+                  8.2633,
+                  6.044153
+                ],
+                [
+                  8.246453,
+                  6.017902
+                ],
+                [
+                  7.877793,
+                  5.690273
+                ],
+                [
+                  7.840793,
+                  5.703709
+                ],
+                [
+                  7.585615,
+                  5.820575
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q506808",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ebonyi State"
+        }
+      ],
+      "properties": {
+        "title": "Ebonyi State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state of Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.98474,
+                  6.274604
+                ],
+                [
+                  4.979262,
+                  6.284371
+                ],
+                [
+                  4.981123,
+                  6.291813
+                ],
+                [
+                  5.079928,
+                  6.684347
+                ],
+                [
+                  5.091193,
+                  6.70525
+                ],
+                [
+                  5.187105,
+                  6.851391
+                ],
+                [
+                  5.199094,
+                  6.864723
+                ],
+                [
+                  6.028397,
+                  7.573362
+                ],
+                [
+                  6.065708,
+                  7.568376
+                ],
+                [
+                  6.432714,
+                  7.384252
+                ],
+                [
+                  6.628361,
+                  7.279039
+                ],
+                [
+                  6.643554,
+                  7.267386
+                ],
+                [
+                  6.697194,
+                  7.220335
+                ],
+                [
+                  6.715384,
+                  7.177469
+                ],
+                [
+                  6.718071,
+                  7.168348
+                ],
+                [
+                  6.719415,
+                  7.148918
+                ],
+                [
+                  6.67673,
+                  6.535105
+                ],
+                [
+                  6.210712,
+                  5.936692
+                ],
+                [
+                  6.169474,
+                  5.889176
+                ],
+                [
+                  6.072736,
+                  5.798794
+                ],
+                [
+                  6.021473,
+                  5.761948
+                ],
+                [
+                  5.923494,
+                  5.741097
+                ],
+                [
+                  5.905614,
+                  5.740373
+                ],
+                [
+                  5.25108,
+                  5.905661
+                ],
+                [
+                  5.23134,
+                  5.920698
+                ],
+                [
+                  4.98474,
+                  6.274604
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q682704",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Edo State"
+        }
+      ],
+      "properties": {
+        "title": "Edo State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.912393,
+                  7.627209
+                ],
+                [
+                  4.907225,
+                  7.679015
+                ],
+                [
+                  4.926139,
+                  7.843062
+                ],
+                [
+                  5.064115,
+                  8.03057
+                ],
+                [
+                  5.428847,
+                  8.06602
+                ],
+                [
+                  5.536024,
+                  8.069585
+                ],
+                [
+                  5.655397,
+                  8.017805
+                ],
+                [
+                  5.670176,
+                  8.007108
+                ],
+                [
+                  5.811356,
+                  7.75609
+                ],
+                [
+                  5.793683,
+                  7.727565
+                ],
+                [
+                  5.537781,
+                  7.368491
+                ],
+                [
+                  5.432465,
+                  7.280073
+                ],
+                [
+                  4.991458,
+                  7.414845
+                ],
+                [
+                  4.912393,
+                  7.627209
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q534917",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ekiti State"
+        }
+      ],
+      "properties": {
+        "title": "Ekiti State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.913718,
+                  6.716024
+                ],
+                [
+                  6.905966,
+                  6.776124
+                ],
+                [
+                  6.932735,
+                  6.829041
+                ],
+                [
+                  6.965911,
+                  6.850306
+                ],
+                [
+                  7.311833,
+                  7.052981
+                ],
+                [
+                  7.375188,
+                  7.08887
+                ],
+                [
+                  7.411672,
+                  7.107835
+                ],
+                [
+                  7.460558,
+                  7.10489
+                ],
+                [
+                  7.826117,
+                  6.859943
+                ],
+                [
+                  7.851128,
+                  6.820256
+                ],
+                [
+                  7.862187,
+                  6.772197
+                ],
+                [
+                  7.861877,
+                  6.723647
+                ],
+                [
+                  7.732479,
+                  6.100972
+                ],
+                [
+                  7.693205,
+                  5.941886
+                ],
+                [
+                  7.666333,
+                  5.928088
+                ],
+                [
+                  7.265118,
+                  6.041699
+                ],
+                [
+                  7.24331,
+                  6.066736
+                ],
+                [
+                  7.127142,
+                  6.238121
+                ],
+                [
+                  7.022032,
+                  6.440486
+                ],
+                [
+                  6.913718,
+                  6.716024
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q3817714",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Enugu State"
+        },
+        {
+          "lang": "en",
+          "toponym": "coal city state"
+        }
+      ],
+      "properties": {
+        "title": "Enugu State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital territory of Nigeria, which contains the capital city, Abuja"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.758999,
+                  8.472248
+                ],
+                [
+                  6.749594,
+                  9.185641
+                ],
+                [
+                  6.754038,
+                  9.213908
+                ],
+                [
+                  6.778326,
+                  9.225174
+                ],
+                [
+                  7.540036,
+                  9.351419
+                ],
+                [
+                  7.575796,
+                  9.338061
+                ],
+                [
+                  7.625819,
+                  9.310698
+                ],
+                [
+                  7.628196,
+                  9.290803
+                ],
+                [
+                  7.624786,
+                  9.271631
+                ],
+                [
+                  7.56112,
+                  8.960745
+                ],
+                [
+                  7.514301,
+                  8.758897
+                ],
+                [
+                  7.4711,
+                  8.639163
+                ],
+                [
+                  7.435857,
+                  8.583197
+                ],
+                [
+                  7.392138,
+                  8.534777
+                ],
+                [
+                  7.263464,
+                  8.471447
+                ],
+                [
+                  7.122284,
+                  8.433775
+                ],
+                [
+                  6.933458,
+                  8.404707
+                ],
+                [
+                  6.834963,
+                  8.406774
+                ],
+                [
+                  6.789384,
+                  8.412097
+                ],
+                [
+                  6.765096,
+                  8.454368
+                ],
+                [
+                  6.758999,
+                  8.472248
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q509300",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Federal Capital Territory"
+        }
+      ],
+      "properties": {
+        "title": "Federal Capital Territory"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3330995",
+          "label": "administrative territorial entity of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  10.723615,
+                  10.097136
+                ],
+                [
+                  10.538613,
+                  10.71162
+                ],
+                [
+                  10.541507,
+                  10.739396
+                ],
+                [
+                  10.673798,
+                  11.041368
+                ],
+                [
+                  10.703254,
+                  11.066586
+                ],
+                [
+                  10.993986,
+                  11.280216
+                ],
+                [
+                  11.014243,
+                  11.294711
+                ],
+                [
+                  11.152839,
+                  11.330833
+                ],
+                [
+                  11.290195,
+                  11.264791
+                ],
+                [
+                  11.353964,
+                  11.215879
+                ],
+                [
+                  11.409154,
+                  11.157976
+                ],
+                [
+                  11.56253,
+                  10.988839
+                ],
+                [
+                  11.583717,
+                  10.962303
+                ],
+                [
+                  11.945555,
+                  10.04471
+                ],
+                [
+                  11.940388,
+                  9.825731
+                ],
+                [
+                  11.925092,
+                  9.784209
+                ],
+                [
+                  11.887781,
+                  9.753824
+                ],
+                [
+                  11.702676,
+                  9.643959
+                ],
+                [
+                  11.617824,
+                  9.606649
+                ],
+                [
+                  11.525943,
+                  9.591973
+                ],
+                [
+                  11.174853,
+                  9.577659
+                ],
+                [
+                  11.068606,
+                  9.586392
+                ],
+                [
+                  10.723615,
+                  10.097136
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q376241",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gombe State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gombe"
+        }
+      ],
+      "properties": {
+        "title": "Gombe State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.632701,
+                  5.479873
+                ],
+                [
+                  6.62619,
+                  5.502042
+                ],
+                [
+                  6.657093,
+                  5.659603
+                ],
+                [
+                  6.668772,
+                  5.694278
+                ],
+                [
+                  6.735744,
+                  5.747686
+                ],
+                [
+                  6.948548,
+                  5.884473
+                ],
+                [
+                  6.986065,
+                  5.907288
+                ],
+                [
+                  7.03123,
+                  5.91827
+                ],
+                [
+                  7.077222,
+                  5.923541
+                ],
+                [
+                  7.250131,
+                  5.926254
+                ],
+                [
+                  7.349454,
+                  5.876205
+                ],
+                [
+                  7.387901,
+                  5.842073
+                ],
+                [
+                  7.40082,
+                  5.730064
+                ],
+                [
+                  7.404954,
+                  5.543176
+                ],
+                [
+                  7.397409,
+                  5.51956
+                ],
+                [
+                  7.251475,
+                  5.194696
+                ],
+                [
+                  7.221813,
+                  5.186299
+                ],
+                [
+                  7.189877,
+                  5.182475
+                ],
+                [
+                  7.01118,
+                  5.185162
+                ],
+                [
+                  6.870206,
+                  5.194929
+                ],
+                [
+                  6.764786,
+                  5.263322
+                ],
+                [
+                  6.733781,
+                  5.294225
+                ],
+                [
+                  6.724375,
+                  5.305051
+                ],
+                [
+                  6.632701,
+                  5.479873
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q842939",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Imo State"
+        }
+      ],
+      "properties": {
+        "title": "Imo State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.117159,
+                  12.656179
+                ],
+                [
+                  8.114988,
+                  12.720413
+                ],
+                [
+                  8.123256,
+                  12.787695
+                ],
+                [
+                  8.137312,
+                  12.81374
+                ],
+                [
+                  8.243869,
+                  12.829605
+                ],
+                [
+                  10.159308,
+                  12.983885
+                ],
+                [
+                  10.201062,
+                  12.971457
+                ],
+                [
+                  10.511638,
+                  12.793431
+                ],
+                [
+                  10.53944,
+                  12.772916
+                ],
+                [
+                  10.569929,
+                  12.708734
+                ],
+                [
+                  10.609513,
+                  12.502441
+                ],
+                [
+                  10.385651,
+                  11.145186
+                ],
+                [
+                  10.361466,
+                  11.11741
+                ],
+                [
+                  10.20685,
+                  10.950417
+                ],
+                [
+                  10.179772,
+                  10.93339
+                ],
+                [
+                  9.948261,
+                  10.953699
+                ],
+                [
+                  9.891107,
+                  10.976876
+                ],
+                [
+                  9.224688,
+                  11.342435
+                ],
+                [
+                  8.117159,
+                  12.656179
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q682691",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jigawa State"
+        }
+      ],
+      "properties": {
+        "title": "Jigawa State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.099607,
+                  10.449078
+                ],
+                [
+                  6.093096,
+                  10.482565
+                ],
+                [
+                  6.107669,
+                  10.72286
+                ],
+                [
+                  6.113663,
+                  10.806137
+                ],
+                [
+                  6.122138,
+                  10.831587
+                ],
+                [
+                  6.141879,
+                  10.853421
+                ],
+                [
+                  6.32285,
+                  11.032195
+                ],
+                [
+                  6.881782,
+                  11.366102
+                ],
+                [
+                  8.103206,
+                  11.4955
+                ],
+                [
+                  8.138759,
+                  11.478938
+                ],
+                [
+                  8.439826,
+                  11.189679
+                ],
+                [
+                  8.542352,
+                  11.082011
+                ],
+                [
+                  8.741307,
+                  10.549046
+                ],
+                [
+                  8.785025,
+                  10.335649
+                ],
+                [
+                  8.680638,
+                  9.261916
+                ],
+                [
+                  8.659968,
+                  9.204761
+                ],
+                [
+                  8.5654,
+                  9.046787
+                ],
+                [
+                  8.522612,
+                  9.004024
+                ],
+                [
+                  8.483648,
+                  8.999193
+                ],
+                [
+                  8.099795,
+                  9.005006
+                ],
+                [
+                  7.261707,
+                  9.295273
+                ],
+                [
+                  6.173815,
+                  10.361151
+                ],
+                [
+                  6.099607,
+                  10.449078
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q878284",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kaduna State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kaduna state"
+        }
+      ],
+      "properties": {
+        "title": "Kaduna State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  7.707365,
+                  11.416694
+                ],
+                [
+                  7.692172,
+                  11.467259
+                ],
+                [
+                  7.699406,
+                  11.515938
+                ],
+                [
+                  7.829631,
+                  12.221063
+                ],
+                [
+                  7.84131,
+                  12.266073
+                ],
+                [
+                  8.187335,
+                  12.555668
+                ],
+                [
+                  8.233017,
+                  12.568897
+                ],
+                [
+                  8.530053,
+                  12.574685
+                ],
+                [
+                  8.589585,
+                  12.566391
+                ],
+                [
+                  8.654077,
+                  12.549234
+                ],
+                [
+                  8.678261,
+                  12.539261
+                ],
+                [
+                  9.181176,
+                  12.030274
+                ],
+                [
+                  9.192235,
+                  12.001335
+                ],
+                [
+                  9.350675,
+                  11.555006
+                ],
+                [
+                  9.34158,
+                  11.532656
+                ],
+                [
+                  8.787299,
+                  10.598682
+                ],
+                [
+                  8.741307,
+                  10.549046
+                ],
+                [
+                  8.720533,
+                  10.544628
+                ],
+                [
+                  8.678881,
+                  10.554498
+                ],
+                [
+                  8.535324,
+                  10.62607
+                ],
+                [
+                  8.480651,
+                  10.671158
+                ],
+                [
+                  7.707365,
+                  11.416694
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q682571",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kano State"
+        }
+      ],
+      "properties": {
+        "title": "Kano State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.881782,
+                  11.366102
+                ],
+                [
+                  6.875374,
+                  11.5872
+                ],
+                [
+                  7.04632,
+                  12.890325
+                ],
+                [
+                  7.062921,
+                  12.99514
+                ],
+                [
+                  7.198196,
+                  13.117392
+                ],
+                [
+                  7.789684,
+                  13.341977
+                ],
+                [
+                  7.823997,
+                  13.345285
+                ],
+                [
+                  8.077522,
+                  13.310016
+                ],
+                [
+                  8.105117,
+                  13.299654
+                ],
+                [
+                  8.977872,
+                  12.843183
+                ],
+                [
+                  8.976951,
+                  12.834411
+                ],
+                [
+                  8.97168,
+                  12.818675
+                ],
+                [
+                  7.741678,
+                  11.307165
+                ],
+                [
+                  7.660649,
+                  11.274583
+                ],
+                [
+                  7.186466,
+                  11.112242
+                ],
+                [
+                  7.15329,
+                  11.116273
+                ],
+                [
+                  6.993093,
+                  11.209781
+                ],
+                [
+                  6.881782,
+                  11.366102
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q657821",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kastina state"
+        },
+        {
+          "lang": "en",
+          "toponym": "Katsina State"
+        }
+      ],
+      "properties": {
+        "title": "Katsina State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.468449,
+                  11.419485
+                ],
+                [
+                  3.466692,
+                  11.442481
+                ],
+                [
+                  3.641565,
+                  12.517997
+                ],
+                [
+                  3.6457,
+                  12.528539
+                ],
+                [
+                  4.120325,
+                  13.210608
+                ],
+                [
+                  4.129082,
+                  13.212605
+                ],
+                [
+                  4.340852,
+                  13.228133
+                ],
+                [
+                  4.800772,
+                  13.127959
+                ],
+                [
+                  4.818445,
+                  13.106513
+                ],
+                [
+                  5.913262,
+                  11.573118
+                ],
+                [
+                  6.018165,
+                  11.264171
+                ],
+                [
+                  6.027054,
+                  11.111208
+                ],
+                [
+                  4.869398,
+                  10.269167
+                ],
+                [
+                  4.840563,
+                  10.248264
+                ],
+                [
+                  4.631893,
+                  10.099306
+                ],
+                [
+                  4.56368,
+                  10.103053
+                ],
+                [
+                  4.539496,
+                  10.124395
+                ],
+                [
+                  3.662546,
+                  11.143145
+                ],
+                [
+                  3.483332,
+                  11.392303
+                ],
+                [
+                  3.468449,
+                  11.419485
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q748523",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kebbi State"
+        }
+      ],
+      "properties": {
+        "title": "Kebbi State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  5.379238,
+                  8.258566
+                ],
+                [
+                  5.349162,
+                  8.315333
+                ],
+                [
+                  5.356914,
+                  8.348173
+                ],
+                [
+                  5.471222,
+                  8.489999
+                ],
+                [
+                  5.515664,
+                  8.530694
+                ],
+                [
+                  6.215879,
+                  8.729958
+                ],
+                [
+                  6.259908,
+                  8.738382
+                ],
+                [
+                  6.277374,
+                  8.736676
+                ],
+                [
+                  6.978107,
+                  8.411761
+                ],
+                [
+                  7.666023,
+                  8.025712
+                ],
+                [
+                  7.87924,
+                  7.416163
+                ],
+                [
+                  7.827254,
+                  7.240024
+                ],
+                [
+                  7.785499,
+                  7.171087
+                ],
+                [
+                  7.633777,
+                  7.014378
+                ],
+                [
+                  6.759515,
+                  6.534304
+                ],
+                [
+                  6.734091,
+                  6.530351
+                ],
+                [
+                  6.67673,
+                  6.535105
+                ],
+                [
+                  5.624804,
+                  7.850348
+                ],
+                [
+                  5.517627,
+                  7.99946
+                ],
+                [
+                  5.379238,
+                  8.258566
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q387745",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kogi State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kogi"
+        }
+      ],
+      "properties": {
+        "title": "Kogi State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.722949,
+                  8.771218
+                ],
+                [
+                  2.722862,
+                  8.772308
+                ],
+                [
+                  2.723172,
+                  8.782928
+                ],
+                [
+                  2.769164,
+                  9.057045
+                ],
+                [
+                  3.325926,
+                  9.801728
+                ],
+                [
+                  3.66483,
+                  10.128654
+                ],
+                [
+                  3.669988,
+                  10.129873
+                ],
+                [
+                  3.757735,
+                  10.14566
+                ],
+                [
+                  3.917622,
+                  10.150363
+                ],
+                [
+                  3.986041,
+                  10.141397
+                ],
+                [
+                  6.215879,
+                  8.729958
+                ],
+                [
+                  6.117074,
+                  8.433904
+                ],
+                [
+                  6.107152,
+                  8.404578
+                ],
+                [
+                  6.086792,
+                  8.380367
+                ],
+                [
+                  5.536024,
+                  8.069585
+                ],
+                [
+                  5.35371,
+                  7.974268
+                ],
+                [
+                  5.344718,
+                  7.971607
+                ],
+                [
+                  5.294385,
+                  7.967266
+                ],
+                [
+                  4.555619,
+                  8.034109
+                ],
+                [
+                  2.742439,
+                  8.527481
+                ],
+                [
+                  2.722949,
+                  8.771218
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q464953",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kwara State"
+        }
+      ],
+      "properties": {
+        "title": "Kwara State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.34197,
+                  6.370592
+                ],
+                [
+                  2.703841,
+                  6.368352
+                ],
+                [
+                  2.704258,
+                  6.429299
+                ],
+                [
+                  2.71192,
+                  6.474048
+                ],
+                [
+                  3.245311,
+                  6.692589
+                ],
+                [
+                  3.276731,
+                  6.704733
+                ],
+                [
+                  4.032137,
+                  6.689954
+                ],
+                [
+                  4.091771,
+                  6.674373
+                ],
+                [
+                  4.209594,
+                  6.57686
+                ],
+                [
+                  4.344779,
+                  6.427463
+                ],
+                [
+                  4.346329,
+                  6.400747
+                ],
+                [
+                  4.342402,
+                  6.373151
+                ],
+                [
+                  4.34197,
+                  6.370592
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q815913",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lagos State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lagos"
+        }
+      ],
+      "properties": {
+        "title": "Lagos"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.946791,
+                  7.872285
+                ],
+                [
+                  6.938419,
+                  7.874429
+                ],
+                [
+                  6.944827,
+                  8.312955
+                ],
+                [
+                  6.978107,
+                  8.411761
+                ],
+                [
+                  7.625819,
+                  9.310698
+                ],
+                [
+                  7.653931,
+                  9.323721
+                ],
+                [
+                  7.950864,
+                  9.345941
+                ],
+                [
+                  8.659968,
+                  9.204761
+                ],
+                [
+                  9.027594,
+                  9.030147
+                ],
+                [
+                  9.055189,
+                  9.012138
+                ],
+                [
+                  9.578775,
+                  8.403596
+                ],
+                [
+                  9.615465,
+                  8.35117
+                ],
+                [
+                  9.588283,
+                  8.30815
+                ],
+                [
+                  9.369589,
+                  8.057855
+                ],
+                [
+                  9.349021,
+                  8.039845
+                ],
+                [
+                  9.169394,
+                  7.914453
+                ],
+                [
+                  8.418226,
+                  7.775081
+                ],
+                [
+                  6.946791,
+                  7.872285
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q836645",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nasarawa State"
+        }
+      ],
+      "properties": {
+        "title": "Nasarawa State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.573352,
+                  10.266997
+                ],
+                [
+                  3.572422,
+                  10.285704
+                ],
+                [
+                  3.705583,
+                  11.120733
+                ],
+                [
+                  3.712776,
+                  11.1279
+                ],
+                [
+                  5.212323,
+                  11.346646
+                ],
+                [
+                  5.285187,
+                  11.344476
+                ],
+                [
+                  5.996358,
+                  11.13082
+                ],
+                [
+                  6.83517,
+                  10.623073
+                ],
+                [
+                  6.955989,
+                  10.482358
+                ],
+                [
+                  7.279174,
+                  9.977583
+                ],
+                [
+                  7.338085,
+                  9.586624
+                ],
+                [
+                  7.3108,
+                  9.297443
+                ],
+                [
+                  6.82163,
+                  8.367164
+                ],
+                [
+                  6.753108,
+                  8.277635
+                ],
+                [
+                  6.708562,
+                  8.224563
+                ],
+                [
+                  6.691406,
+                  8.206941
+                ],
+                [
+                  4.7708,
+                  9.148693
+                ],
+                [
+                  4.45361,
+                  9.42542
+                ],
+                [
+                  3.66483,
+                  10.128654
+                ],
+                [
+                  3.587615,
+                  10.244182
+                ],
+                [
+                  3.573352,
+                  10.266997
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503932",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Niger State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Niger"
+        }
+      ],
+      "properties": {
+        "title": "Niger State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.71192,
+                  6.474048
+                ],
+                [
+                  2.671695,
+                  7.893434
+                ],
+                [
+                  2.764824,
+                  7.957964
+                ],
+                [
+                  2.861769,
+                  7.954734
+                ],
+                [
+                  4.54549,
+                  7.007376
+                ],
+                [
+                  4.561097,
+                  6.988282
+                ],
+                [
+                  4.594996,
+                  6.485289
+                ],
+                [
+                  4.570192,
+                  6.335763
+                ],
+                [
+                  4.554379,
+                  6.31685
+                ],
+                [
+                  4.493004,
+                  6.320546
+                ],
+                [
+                  2.717798,
+                  6.473455
+                ],
+                [
+                  2.71192,
+                  6.474048
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q836657",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ogun State"
+        }
+      ],
+      "properties": {
+        "title": "Ogun State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "State in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.493004,
+                  6.320546
+                ],
+                [
+                  4.354908,
+                  6.6174
+                ],
+                [
+                  4.355218,
+                  6.647682
+                ],
+                [
+                  4.379506,
+                  6.713751
+                ],
+                [
+                  4.561097,
+                  6.988282
+                ],
+                [
+                  4.650083,
+                  7.101686
+                ],
+                [
+                  4.898234,
+                  7.339139
+                ],
+                [
+                  4.991458,
+                  7.414845
+                ],
+                [
+                  5.741386,
+                  7.7302
+                ],
+                [
+                  5.811356,
+                  7.75609
+                ],
+                [
+                  5.892075,
+                  7.77043
+                ],
+                [
+                  5.922357,
+                  7.756917
+                ],
+                [
+                  6.028397,
+                  7.573362
+                ],
+                [
+                  5.962045,
+                  7.331697
+                ],
+                [
+                  5.952743,
+                  7.298986
+                ],
+                [
+                  5.77663,
+                  6.883818
+                ],
+                [
+                  5.72764,
+                  6.776098
+                ],
+                [
+                  5.713584,
+                  6.752146
+                ],
+                [
+                  5.00302,
+                  5.85478
+                ],
+                [
+                  4.493004,
+                  6.320546
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q836654",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ondo State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sunshine state"
+        }
+      ],
+      "properties": {
+        "title": "Ondo State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osun%20State%2C%20Nigeria.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.077095,
+                  7.112434
+                ],
+                [
+                  4.0341,
+                  7.625116
+                ],
+                [
+                  4.035444,
+                  7.654313
+                ],
+                [
+                  4.069964,
+                  7.802186
+                ],
+                [
+                  4.086397,
+                  7.847687
+                ],
+                [
+                  4.263544,
+                  7.954037
+                ],
+                [
+                  4.555619,
+                  8.034109
+                ],
+                [
+                  4.899267,
+                  8.081471
+                ],
+                [
+                  4.940918,
+                  8.080437
+                ],
+                [
+                  5.064115,
+                  8.03057
+                ],
+                [
+                  4.990734,
+                  7.374847
+                ],
+                [
+                  4.869295,
+                  7.098198
+                ],
+                [
+                  4.858856,
+                  7.09042
+                ],
+                [
+                  4.561097,
+                  6.988282
+                ],
+                [
+                  4.392631,
+                  6.979109
+                ],
+                [
+                  4.364106,
+                  6.980504
+                ],
+                [
+                  4.176934,
+                  7.058898
+                ],
+                [
+                  4.077095,
+                  7.112434
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q682721",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Osun State"
+        }
+      ],
+      "properties": {
+        "title": "Osun State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  2.671695,
+                  7.893434
+                ],
+                [
+                  2.671082,
+                  7.897917
+                ],
+                [
+                  2.697127,
+                  8.320708
+                ],
+                [
+                  2.698367,
+                  8.339854
+                ],
+                [
+                  2.703741,
+                  8.417885
+                ],
+                [
+                  2.742439,
+                  8.527481
+                ],
+                [
+                  2.801101,
+                  8.577745
+                ],
+                [
+                  3.81799,
+                  9.172696
+                ],
+                [
+                  3.866049,
+                  9.177528
+                ],
+                [
+                  4.314083,
+                  8.992578
+                ],
+                [
+                  4.331343,
+                  8.954105
+                ],
+                [
+                  4.555619,
+                  8.034109
+                ],
+                [
+                  4.56306,
+                  8.000106
+                ],
+                [
+                  4.560993,
+                  7.965922
+                ],
+                [
+                  4.077095,
+                  7.112434
+                ],
+                [
+                  3.957413,
+                  7.076235
+                ],
+                [
+                  3.895814,
+                  7.059699
+                ],
+                [
+                  3.772308,
+                  7.044635
+                ],
+                [
+                  3.712053,
+                  7.04709
+                ],
+                [
+                  3.179372,
+                  7.349784
+                ],
+                [
+                  3.109092,
+                  7.413295
+                ],
+                [
+                  2.671695,
+                  7.893434
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503905",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Oyo State"
+        }
+      ],
+      "properties": {
+        "title": "Oyo State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.559302,
+                  9.484538
+                ],
+                [
+                  8.558992,
+                  9.626829
+                ],
+                [
+                  8.641881,
+                  10.094785
+                ],
+                [
+                  8.660071,
+                  10.169173
+                ],
+                [
+                  8.785025,
+                  10.335649
+                ],
+                [
+                  8.842489,
+                  10.34539
+                ],
+                [
+                  8.90109,
+                  10.330145
+                ],
+                [
+                  10.362396,
+                  9.611894
+                ],
+                [
+                  10.56042,
+                  9.496656
+                ],
+                [
+                  10.582021,
+                  9.448364
+                ],
+                [
+                  10.645997,
+                  9.105078
+                ],
+                [
+                  10.651784,
+                  8.983225
+                ],
+                [
+                  10.653025,
+                  8.944622
+                ],
+                [
+                  10.618505,
+                  8.88013
+                ],
+                [
+                  9.81752,
+                  8.373133
+                ],
+                [
+                  9.74507,
+                  8.35285
+                ],
+                [
+                  9.669829,
+                  8.347553
+                ],
+                [
+                  9.615465,
+                  8.35117
+                ],
+                [
+                  9.095807,
+                  8.454497
+                ],
+                [
+                  9.034829,
+                  8.470853
+                ],
+                [
+                  8.95163,
+                  8.514416
+                ],
+                [
+                  8.929822,
+                  8.555654
+                ],
+                [
+                  8.659968,
+                  9.204761
+                ],
+                [
+                  8.559302,
+                  9.484538
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503928",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Plateau State"
+        }
+      ],
+      "properties": {
+        "title": "Plateau State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.451421,
+                  4.717645
+                ],
+                [
+                  6.385791,
+                  4.817432
+                ],
+                [
+                  6.386308,
+                  4.858179
+                ],
+                [
+                  6.474675,
+                  5.438506
+                ],
+                [
+                  6.605726,
+                  5.723165
+                ],
+                [
+                  6.668772,
+                  5.694278
+                ],
+                [
+                  7.251475,
+                  5.194696
+                ],
+                [
+                  7.496318,
+                  4.817381
+                ],
+                [
+                  7.526084,
+                  4.764231
+                ],
+                [
+                  7.534765,
+                  4.726637
+                ],
+                [
+                  7.584483,
+                  4.484605
+                ],
+                [
+                  7.578868,
+                  4.471381
+                ],
+                [
+                  7.569998,
+                  4.459418
+                ],
+                [
+                  7.552582,
+                  4.455552
+                ],
+                [
+                  7.181651,
+                  4.382025
+                ],
+                [
+                  6.814626,
+                  4.34162
+                ],
+                [
+                  6.774587,
+                  4.338935
+                ],
+                [
+                  6.737559,
+                  4.342231
+                ],
+                [
+                  6.715587,
+                  4.354682
+                ],
+                [
+                  6.451421,
+                  4.717645
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503923",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Rivers State"
+        }
+      ],
+      "properties": {
+        "title": "Rivers State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.529367,
+                  11.589035
+                ],
+                [
+                  4.120325,
+                  13.210608
+                ],
+                [
+                  4.125774,
+                  13.472977
+                ],
+                [
+                  4.452575,
+                  13.673766
+                ],
+                [
+                  4.506732,
+                  13.694669
+                ],
+                [
+                  4.625845,
+                  13.723151
+                ],
+                [
+                  4.824852,
+                  13.770737
+                ],
+                [
+                  5.521761,
+                  13.880291
+                ],
+                [
+                  5.554317,
+                  13.873418
+                ],
+                [
+                  6.302178,
+                  13.663844
+                ],
+                [
+                  6.368944,
+                  13.626275
+                ],
+                [
+                  6.509297,
+                  13.496051
+                ],
+                [
+                  6.672543,
+                  13.321178
+                ],
+                [
+                  6.753879,
+                  13.1749
+                ],
+                [
+                  5.023497,
+                  11.680605
+                ],
+                [
+                  5.003757,
+                  11.668229
+                ],
+                [
+                  4.606365,
+                  11.538262
+                ],
+                [
+                  4.56151,
+                  11.552784
+                ],
+                [
+                  4.529367,
+                  11.589035
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q503941",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "NG-SO"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sokoto State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sokoto"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sokoto, Nigeria"
+        }
+      ],
+      "properties": {
+        "title": "Sokoto State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  9.644806,
+                  6.521226
+                ],
+                [
+                  9.1141,
+                  7.832985
+                ],
+                [
+                  9.318636,
+                  8.294714
+                ],
+                [
+                  9.335172,
+                  8.31696
+                ],
+                [
+                  10.56042,
+                  9.496656
+                ],
+                [
+                  10.61406,
+                  9.530607
+                ],
+                [
+                  10.864278,
+                  9.591689
+                ],
+                [
+                  10.93032,
+                  9.602644
+                ],
+                [
+                  11.525943,
+                  9.591973
+                ],
+                [
+                  11.767272,
+                  9.330103
+                ],
+                [
+                  11.965399,
+                  8.988237
+                ],
+                [
+                  11.971497,
+                  8.918991
+                ],
+                [
+                  11.903545,
+                  7.453557
+                ],
+                [
+                  11.881321,
+                  7.102048
+                ],
+                [
+                  11.872226,
+                  7.079362
+                ],
+                [
+                  11.509767,
+                  6.612311
+                ],
+                [
+                  11.389361,
+                  6.473921
+                ],
+                [
+                  11.369828,
+                  6.455757
+                ],
+                [
+                  11.344196,
+                  6.443122
+                ],
+                [
+                  11.319495,
+                  6.437283
+                ],
+                [
+                  11.255519,
+                  6.42997
+                ],
+                [
+                  11.140384,
+                  6.43028
+                ],
+                [
+                  9.644806,
+                  6.521226
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q463959",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Taraba State"
+        }
+      ],
+      "properties": {
+        "title": "Taraba State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  10.965667,
+                  11.302127
+                ],
+                [
+                  9.647657,
+                  12.830538
+                ],
+                [
+                  9.819328,
+                  13.029206
+                ],
+                [
+                  9.912449,
+                  13.1292
+                ],
+                [
+                  9.930122,
+                  13.145969
+                ],
+                [
+                  10.119775,
+                  13.250097
+                ],
+                [
+                  10.161529,
+                  13.267202
+                ],
+                [
+                  10.674986,
+                  13.375102
+                ],
+                [
+                  10.771311,
+                  13.382698
+                ],
+                [
+                  11.440004,
+                  13.364431
+                ],
+                [
+                  11.742311,
+                  13.289448
+                ],
+                [
+                  12.386742,
+                  13.07858
+                ],
+                [
+                  12.47896,
+                  12.734158
+                ],
+                [
+                  12.487538,
+                  12.672767
+                ],
+                [
+                  12.388319,
+                  11.542009
+                ],
+                [
+                  12.166731,
+                  11.047052
+                ],
+                [
+                  11.770372,
+                  10.629067
+                ],
+                [
+                  11.73978,
+                  10.604857
+                ],
+                [
+                  11.701023,
+                  10.594186
+                ],
+                [
+                  11.663402,
+                  10.590232
+                ],
+                [
+                  11.593019,
+                  10.597209
+                ],
+                [
+                  10.965667,
+                  11.302127
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q682777",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Yobe State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yobe"
+        }
+      ],
+      "properties": {
+        "title": "Yobe State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Nigeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.161929,
+                  10.862748
+                ],
+                [
+                  5.023497,
+                  11.680605
+                ],
+                [
+                  5.031249,
+                  12.14944
+                ],
+                [
+                  5.068146,
+                  12.269277
+                ],
+                [
+                  6.06209,
+                  13.022306
+                ],
+                [
+                  6.294014,
+                  13.16284
+                ],
+                [
+                  6.753879,
+                  13.1749
+                ],
+                [
+                  7.062921,
+                  12.99514
+                ],
+                [
+                  7.233182,
+                  11.895192
+                ],
+                [
+                  6.71466,
+                  11.106351
+                ],
+                [
+                  6.701845,
+                  11.089504
+                ],
+                [
+                  6.686445,
+                  11.076301
+                ],
+                [
+                  6.668565,
+                  11.065656
+                ],
+                [
+                  6.207714,
+                  10.877993
+                ],
+                [
+                  6.161929,
+                  10.862748
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q145793",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zamfara State"
+        }
+      ],
+      "properties": {
+        "title": "Zamfara State"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
+        }
+      ]
+    }
+  ],
+  "title": "Nigerian states",
+  "type": "FeatureCollection"
+}

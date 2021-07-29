@@ -41,6 +41,7 @@ const GAZETTEERS = {
   'libyan-districts': 'Libyan districts',
   'malaysian-states': 'Malaysian states and federal territories',
   'myanma-states': 'Myanma states and regions',
+  'nigerian-states': 'Nigerian states',
   'nigerien-regions': 'Nigerien regions',
   'omani-governorates': 'Omani governorates',
   'other-regions': 'Other regions',
@@ -509,6 +510,13 @@ const getWikidataNigerienRegion = id => getWikidataPlace(
     : ['wd:Q859869'] // region of Niger
 )
 
+const getWikidataNigerianState = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q509300' // Federal Capital Territory
+    ? ['wd:Q3330995'] // administrative territorial entity of Nigeria
+    : ['wd:Q465842']  // state of Nigeria
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -647,6 +655,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'nigerien-regions':
         promise = getWikidataNigerienRegion(place.id)
+        break
+      case 'nigerian-states':
+        promise = getWikidataNigerianState(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)
