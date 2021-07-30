@@ -1,0 +1,26 @@
+{
+  "Central River Division": {
+    "id": "http://www.wikidata.org/entity/Q824431",
+    "covers": [ "Central River" ]
+  },
+  "Greater Banjul Area": {
+    "id": "http://www.wikidata.org/entity/Q1544417",
+    "covers": [ "Banjul" ]
+  },
+  "Lower River Division": {
+    "id": "http://www.wikidata.org/entity/Q824421",
+    "covers": [ "Lower River" ]
+  },
+  "North Bank Division": {
+    "id": "http://www.wikidata.org/entity/Q846161",
+    "covers": [ "North Bank" ]
+  },
+  "Upper River Division": {
+    "id": "http://www.wikidata.org/entity/Q824373",
+    "covers": [ "Upper River" ]
+  },
+  "West Coast Division": {
+    "id": "http://www.wikidata.org/entity/Q846158",
+    "covers": [ "West Coast" ]
+  }
+}

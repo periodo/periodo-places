@@ -1,0 +1,718 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former region of the Gambia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -15.360814,
+                  13.537985
+                ],
+                [
+                  -15.49803,
+                  13.641522
+                ],
+                [
+                  -15.496801,
+                  13.648341
+                ],
+                [
+                  -15.488946,
+                  13.670329
+                ],
+                [
+                  -15.478611,
+                  13.691258
+                ],
+                [
+                  -15.467501,
+                  13.708286
+                ],
+                [
+                  -15.43634,
+                  13.741178
+                ],
+                [
+                  -15.394069,
+                  13.771512
+                ],
+                [
+                  -15.347766,
+                  13.788643
+                ],
+                [
+                  -15.097704,
+                  13.819984
+                ],
+                [
+                  -15.07631,
+                  13.818951
+                ],
+                [
+                  -14.915803,
+                  13.792441
+                ],
+                [
+                  -14.879268,
+                  13.780581
+                ],
+                [
+                  -14.585539,
+                  13.660459
+                ],
+                [
+                  -14.542596,
+                  13.640822
+                ],
+                [
+                  -14.523243,
+                  13.625655
+                ],
+                [
+                  -14.50973,
+                  13.609093
+                ],
+                [
+                  -14.462135,
+                  13.516656
+                ],
+                [
+                  -14.488619,
+                  13.39864
+                ],
+                [
+                  -14.552109,
+                  13.323094
+                ],
+                [
+                  -14.698142,
+                  13.345181
+                ],
+                [
+                  -15.30191,
+                  13.496161
+                ],
+                [
+                  -15.360814,
+                  13.537985
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q824431",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central River Division"
+        }
+      ],
+      "properties": {
+        "title": "Central River Division"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Gambia consisting of the City of Banjul and the Kanifing Municipal Council"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -16.735886,
+                  13.369289
+                ],
+                [
+                  -16.762929,
+                  13.404975
+                ],
+                [
+                  -16.704457,
+                  13.475409
+                ],
+                [
+                  -16.678822,
+                  13.496161
+                ],
+                [
+                  -16.616851,
+                  13.478176
+                ],
+                [
+                  -16.601389,
+                  13.472235
+                ],
+                [
+                  -16.590728,
+                  13.461371
+                ],
+                [
+                  -16.585317,
+                  13.443345
+                ],
+                [
+                  -16.59553,
+                  13.385077
+                ],
+                [
+                  -16.619343,
+                  13.366139
+                ],
+                [
+                  -16.66344,
+                  13.334641
+                ],
+                [
+                  -16.704388,
+                  13.337791
+                ],
+                [
+                  -16.735886,
+                  13.369289
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1544417",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Greater Banjul Area"
+        }
+      ],
+      "properties": {
+        "title": "Greater Banjul Area"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the five administrative divisions of the Gambia, whose capital is Mansa Konko"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -16.227122,
+                  13.333686
+                ],
+                [
+                  -16.22761,
+                  13.341946
+                ],
+                [
+                  -16.224436,
+                  13.360297
+                ],
+                [
+                  -16.216217,
+                  13.372748
+                ],
+                [
+                  -16.161204,
+                  13.428697
+                ],
+                [
+                  -15.189662,
+                  13.562687
+                ],
+                [
+                  -15.183848,
+                  13.561731
+                ],
+                [
+                  -15.181331,
+                  13.559843
+                ],
+                [
+                  -15.227774,
+                  13.425176
+                ],
+                [
+                  -15.248341,
+                  13.398977
+                ],
+                [
+                  -15.277073,
+                  13.380296
+                ],
+                [
+                  -15.309836,
+                  13.368436
+                ],
+                [
+                  -15.824367,
+                  13.248512
+                ],
+                [
+                  -16.090123,
+                  13.253352
+                ],
+                [
+                  -16.19929,
+                  13.259101
+                ],
+                [
+                  -16.203521,
+                  13.26496
+                ],
+                [
+                  -16.22525,
+                  13.325832
+                ],
+                [
+                  -16.227122,
+                  13.333686
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q824421",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Lower River Division"
+        }
+      ],
+      "properties": {
+        "title": "Lower River Division"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Gambia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -16.556549,
+                  13.485582
+                ],
+                [
+                  -16.561399,
+                  13.586914
+                ],
+                [
+                  -15.49803,
+                  13.641522
+                ],
+                [
+                  -15.484088,
+                  13.640925
+                ],
+                [
+                  -15.379314,
+                  13.632605
+                ],
+                [
+                  -15.367868,
+                  13.626352
+                ],
+                [
+                  -15.30191,
+                  13.496161
+                ],
+                [
+                  -15.304067,
+                  13.481147
+                ],
+                [
+                  -15.311391,
+                  13.467841
+                ],
+                [
+                  -15.321848,
+                  13.458238
+                ],
+                [
+                  -15.332875,
+                  13.454576
+                ],
+                [
+                  -16.355946,
+                  13.337958
+                ],
+                [
+                  -16.390533,
+                  13.336859
+                ],
+                [
+                  -16.411977,
+                  13.338528
+                ],
+                [
+                  -16.52184,
+                  13.359036
+                ],
+                [
+                  -16.556549,
+                  13.485582
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q846161",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "North Bank Division"
+        }
+      ],
+      "properties": {
+        "title": "North Bank Division"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Gambia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -14.542854,
+                  13.314666
+                ],
+                [
+                  -14.552109,
+                  13.323094
+                ],
+                [
+                  -14.518824,
+                  13.453443
+                ],
+                [
+                  -14.486268,
+                  13.496696
+                ],
+                [
+                  -14.481488,
+                  13.502871
+                ],
+                [
+                  -14.477535,
+                  13.507031
+                ],
+                [
+                  -14.462135,
+                  13.516656
+                ],
+                [
+                  -13.988495,
+                  13.579146
+                ],
+                [
+                  -13.967489,
+                  13.575581
+                ],
+                [
+                  -13.94209,
+                  13.566925
+                ],
+                [
+                  -13.918086,
+                  13.554988
+                ],
+                [
+                  -13.901343,
+                  13.541629
+                ],
+                [
+                  -13.84269,
+                  13.476646
+                ],
+                [
+                  -13.818713,
+                  13.429362
+                ],
+                [
+                  -13.822562,
+                  13.378203
+                ],
+                [
+                  -13.851036,
+                  13.33575
+                ],
+                [
+                  -13.900568,
+                  13.314563
+                ],
+                [
+                  -14.201687,
+                  13.229555
+                ],
+                [
+                  -14.230625,
+                  13.228574
+                ],
+                [
+                  -14.341781,
+                  13.233638
+                ],
+                [
+                  -14.368834,
+                  13.235705
+                ],
+                [
+                  -14.394982,
+                  13.242965
+                ],
+                [
+                  -14.529574,
+                  13.307277
+                ],
+                [
+                  -14.542854,
+                  13.314666
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q824373",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Upper River Division"
+        }
+      ],
+      "properties": {
+        "title": "Upper River Division"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of the Gambia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -16.824452,
+                  13.294582
+                ],
+                [
+                  -16.829701,
+                  13.338528
+                ],
+                [
+                  -16.809967,
+                  13.379869
+                ],
+                [
+                  -16.79955,
+                  13.386298
+                ],
+                [
+                  -16.762929,
+                  13.404975
+                ],
+                [
+                  -16.59553,
+                  13.385077
+                ],
+                [
+                  -15.970828,
+                  13.279422
+                ],
+                [
+                  -15.824367,
+                  13.248512
+                ],
+                [
+                  -15.82474,
+                  13.232914
+                ],
+                [
+                  -15.8266,
+                  13.161678
+                ],
+                [
+                  -15.833318,
+                  13.156847
+                ],
+                [
+                  -16.753651,
+                  13.065009
+                ],
+                [
+                  -16.784332,
+                  13.082994
+                ],
+                [
+                  -16.786733,
+                  13.090074
+                ],
+                [
+                  -16.824452,
+                  13.294582
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q846158",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "West Coast Division"
+        }
+      ],
+      "properties": {
+        "title": "West Coast Division"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15646510",
+          "label": "region of the Gambia"
+        }
+      ]
+    }
+  ],
+  "title": "Gambian regions",
+  "type": "FeatureCollection"
+}

@@ -10,6 +10,7 @@ GAZETTEERS := \
 	gazetteers/english-counties.json \
 	gazetteers/ethiopian-regions.json \
 	gazetteers/french-regions.json \
+	gazetteers/gambian-regions.json \
 	gazetteers/geographic-regions.json \
 	gazetteers/georgian-regions.json \
 	gazetteers/greek-regions.json \
