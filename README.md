@@ -23,6 +23,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Azerbaijani districts and cities gazetteer**<br>
   https://data.perio.do/graphs/places/azerbaijani-districts.json
 
+* **Beninese departments gazetteer**<br>
+  https://data.perio.do/graphs/places/beninese-departments.json
+
 * **Bolivian departments gazetteer**<br>
   https://data.perio.do/graphs/places/bolivian-departments.json
 
@@ -223,6 +226,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/azerbaijani-districts.json](place-ids/azerbaijani-districts.json) for details), and
 
 1. querying Wikidata for instances of [Q13417250 district of Azerbaijan](https://www.wikidata.org/wiki/Q13417250) or [Q56557664 şəhər](https://www.wikidata.org/wiki/Q56557664) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Beninese departments gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/beninese-departments.json](place-ids/beninese-departments.json) for details), and
+
+1. querying Wikidata for instances of [Q792929 department of Benin](https://www.wikidata.org/wiki/Q792929) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Bolivian departments gazetteer

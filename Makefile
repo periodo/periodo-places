@@ -1,6 +1,7 @@
 GAZETTEERS := \
 	gazetteers/algerian-provinces.json \
 	gazetteers/azerbaijani-districts.json \
+	gazetteers/beninese-departments.json \
 	gazetteers/bolivian-departments.json \
 	gazetteers/burkinabe-regions.json \
 	gazetteers/cities.json \

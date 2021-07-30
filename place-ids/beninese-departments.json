@@ -1,0 +1,50 @@
+{
+  "Alibori Department": {
+    "id": "http://www.wikidata.org/entity/Q29165",
+    "covers": [ "Alibori" ]
+  },
+  "Atakora Department": {
+    "id": "http://www.wikidata.org/entity/Q29154",
+    "covers": [ "Atakora" ]
+  },
+  "Atlantique Department": {
+    "id": "http://www.wikidata.org/entity/Q29147",
+    "covers": [ "Atlantique" ]
+  },
+  "Borgou Department": {
+    "id": "http://www.wikidata.org/entity/Q29136",
+    "covers": [ "Borgou" ]
+  },
+  "Collines Department": {
+    "id": "http://www.wikidata.org/entity/Q29141",
+    "covers": [ "Collines" ]
+  },
+  "Donga Department": {
+    "id": "http://www.wikidata.org/entity/Q29161",
+    "covers": [ "Donga" ]
+  },
+  "Kouffo Department": {
+    "id": "http://www.wikidata.org/entity/Q29173",
+    "covers": [ "Kouffo" ]
+  },
+  "Littoral Department": {
+    "id": "http://www.wikidata.org/entity/Q29158",
+    "covers": [ "Littoral" ]
+  },
+  "Mono Department": {
+    "id": "http://www.wikidata.org/entity/Q29135",
+    "covers": [ "Mono" ]
+  },
+  "Ouémé Department": {
+    "id": "http://www.wikidata.org/entity/Q29169",
+    "covers": [ "Ouémé" ]
+  },
+  "Plateau Department": {
+    "id": "http://www.wikidata.org/entity/Q32108",
+    "covers": [ "Plateau" ]
+  },
+  "Zou Department": {
+    "id": "http://www.wikidata.org/entity/Q29172",
+    "covers": [ "Zou" ]
+  }
+}
