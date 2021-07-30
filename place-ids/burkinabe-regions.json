@@ -1,0 +1,112 @@
+{
+  "Boucle du Mouhoun Region": {
+    "id": "http://www.wikidata.org/entity/Q527093",
+    "covers": [
+      "Balé",
+      "Banwa",
+      "Kossi",
+      "Mou Houn",
+      "Nayala",
+      "Sourou"
+    ]
+  },
+  "Cascades Region": {
+    "id": "http://www.wikidata.org/entity/Q850043",
+    "covers": [
+      "Komoé",
+      "Léraba"
+    ]
+  },
+  "Centre": {
+    "id": "http://www.wikidata.org/entity/Q515655",
+    "covers": [
+      "Kadiogo"
+    ]
+  },
+  "Centre-Est Region": {
+    "id": "http://www.wikidata.org/entity/Q543006",
+    "covers": [
+      "Boulgou",
+      "Koulpélogo",
+      "Kouritenga"
+    ]
+  },
+  "Centre-Nord Region": {
+    "id": "http://www.wikidata.org/entity/Q850064",
+    "covers": [
+      "Bam",
+      "Namentenga",
+      "Sanmatenga"
+    ]
+  },
+  "Centre-Ouest Region": {
+    "id": "http://www.wikidata.org/entity/Q850075",
+    "covers": [
+      "Boulkiemdé",
+      "Sanguié",
+      "Sissili",
+      "Ziro"
+    ]
+  },
+  "Centre-Sud Region": {
+    "id": "http://www.wikidata.org/entity/Q853405",
+    "covers": [
+      "Bazéga",
+      "Nahouri",
+      "Zoundwéogo"
+    ]
+  },
+  "Est Region": {
+    "id": "http://www.wikidata.org/entity/Q850088",
+    "covers": [
+      "Gnagna",
+      "Gourma",
+      "Komondjari",
+      "Kompienga",
+      "Tapoa"
+    ]
+  },
+  "Hauts-Bassins Region": {
+    "id": "http://www.wikidata.org/entity/Q845303",
+    "covers": [
+      "Houet",
+      "Kénédougou",
+      "Tuy"
+    ]
+  },
+  "Nord Region": {
+    "id": "http://www.wikidata.org/entity/Q502320",
+    "covers": [
+      "Loroum",
+      "Passoré",
+      "Yatenga",
+      "Zondoma"
+    ]
+  },
+  "Plateau-Central Region": {
+    "id": "http://www.wikidata.org/entity/Q862606",
+    "covers": [
+      "Ganzourgou",
+      "Kourwéogo",
+      "Oubritenga"
+    ]
+  },
+  "Sahel Region": {
+    "id": "http://www.wikidata.org/entity/Q665514",
+    "covers": [
+      "Oudalan",
+      "Séno",
+      "Soum",
+      "Yagha"
+    ]
+  },
+  "Sud-Ouest Region": {
+    "id": "http://www.wikidata.org/entity/Q429149",
+    "covers": [
+      "Bougouriba",
+      "Ioba",
+      "Noumbiel",
+      "Poni"
+    ]
+  }
+}

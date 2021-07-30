@@ -1,0 +1,1665 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -4.487369,
+                  11.737268
+                ],
+                [
+                  -4.652737,
+                  12.071627
+                ],
+                [
+                  -4.646663,
+                  12.098022
+                ],
+                [
+                  -4.485251,
+                  12.714677
+                ],
+                [
+                  -4.351073,
+                  13.118322
+                ],
+                [
+                  -4.327044,
+                  13.168551
+                ],
+                [
+                  -4.104267,
+                  13.382698
+                ],
+                [
+                  -3.984481,
+                  13.496051
+                ],
+                [
+                  -3.981251,
+                  13.49897
+                ],
+                [
+                  -3.267057,
+                  13.717045
+                ],
+                [
+                  -2.930473,
+                  13.638523
+                ],
+                [
+                  -2.707555,
+                  13.506928
+                ],
+                [
+                  -2.640376,
+                  13.457939
+                ],
+                [
+                  -2.442584,
+                  13.253093
+                ],
+                [
+                  -2.524879,
+                  11.388995
+                ],
+                [
+                  -2.538599,
+                  11.373751
+                ],
+                [
+                  -2.623943,
+                  11.323314
+                ],
+                [
+                  -2.80419,
+                  11.233449
+                ],
+                [
+                  -2.867907,
+                  11.241175
+                ],
+                [
+                  -4.468481,
+                  11.718562
+                ],
+                [
+                  -4.487369,
+                  11.737268
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q527093",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Boucle du Mouhoun Region"
+        }
+      ],
+      "properties": {
+        "title": "Boucle du Mouhoun Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -5.474157,
+                  10.350325
+                ],
+                [
+                  -5.522578,
+                  10.425489
+                ],
+                [
+                  -5.505602,
+                  11.047985
+                ],
+                [
+                  -5.495835,
+                  11.048473
+                ],
+                [
+                  -5.408011,
+                  11.041083
+                ],
+                [
+                  -3.725788,
+                  10.827066
+                ],
+                [
+                  -3.701371,
+                  10.788334
+                ],
+                [
+                  -3.692689,
+                  10.766682
+                ],
+                [
+                  -3.689097,
+                  10.746528
+                ],
+                [
+                  -3.697417,
+                  10.484012
+                ],
+                [
+                  -3.697986,
+                  10.467527
+                ],
+                [
+                  -3.749068,
+                  10.237179
+                ],
+                [
+                  -3.756018,
+                  10.219635
+                ],
+                [
+                  -3.891625,
+                  9.8939
+                ],
+                [
+                  -3.994609,
+                  9.820771
+                ],
+                [
+                  -4.322548,
+                  9.608898
+                ],
+                [
+                  -4.371175,
+                  9.582956
+                ],
+                [
+                  -4.681079,
+                  9.682072
+                ],
+                [
+                  -4.769963,
+                  9.737365
+                ],
+                [
+                  -4.796447,
+                  9.754496
+                ],
+                [
+                  -4.936671,
+                  9.873998
+                ],
+                [
+                  -5.474157,
+                  10.350325
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850043",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Cascades Region"
+        }
+      ],
+      "properties": {
+        "title": "Cascades Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.821279,
+                  12.093241
+                ],
+                [
+                  -1.87032,
+                  12.144944
+                ],
+                [
+                  -1.820659,
+                  12.342606
+                ],
+                [
+                  -1.720794,
+                  12.563213
+                ],
+                [
+                  -1.595711,
+                  12.673103
+                ],
+                [
+                  -1.270434,
+                  12.486473
+                ],
+                [
+                  -1.097757,
+                  12.25982
+                ],
+                [
+                  -1.069154,
+                  12.221218
+                ],
+                [
+                  -1.063961,
+                  12.21233
+                ],
+                [
+                  -1.062074,
+                  12.204888
+                ],
+                [
+                  -1.062333,
+                  12.183675
+                ],
+                [
+                  -1.076182,
+                  12.170136
+                ],
+                [
+                  -1.131812,
+                  12.153315
+                ],
+                [
+                  -1.280795,
+                  12.12355
+                ],
+                [
+                  -1.714593,
+                  12.057249
+                ],
+                [
+                  -1.727822,
+                  12.057094
+                ],
+                [
+                  -1.803864,
+                  12.081433
+                ],
+                [
+                  -1.821279,
+                  12.093241
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q515655",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Centre Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Centre Region, Burkina Faso"
+        },
+        {
+          "lang": "en",
+          "toponym": "Centre"
+        }
+      ],
+      "properties": {
+        "title": "Centre"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.776898,
+                  11.196475
+                ],
+                [
+                  -0.923917,
+                  11.669469
+                ],
+                [
+                  -0.910327,
+                  11.707787
+                ],
+                [
+                  -0.613652,
+                  12.505774
+                ],
+                [
+                  -0.207424,
+                  12.560474
+                ],
+                [
+                  0.529405,
+                  11.659702
+                ],
+                [
+                  0.576224,
+                  11.384267
+                ],
+                [
+                  0.554519,
+                  11.207947
+                ],
+                [
+                  0.497779,
+                  11.094155
+                ],
+                [
+                  0.488167,
+                  11.080719
+                ],
+                [
+                  0.374779,
+                  11.025808
+                ],
+                [
+                  -0.634763,
+                  10.907966
+                ],
+                [
+                  -0.68277,
+                  10.953596
+                ],
+                [
+                  -0.703017,
+                  10.994159
+                ],
+                [
+                  -0.776898,
+                  11.196475
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q543006",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Centre-Est Region"
+        }
+      ],
+      "properties": {
+        "title": "Centre-Est Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.878019,
+                  13.541758
+                ],
+                [
+                  -1.878691,
+                  13.563927
+                ],
+                [
+                  -1.867787,
+                  13.605836
+                ],
+                [
+                  -1.696868,
+                  13.825642
+                ],
+                [
+                  -1.656405,
+                  13.857139
+                ],
+                [
+                  -1.534836,
+                  13.902666
+                ],
+                [
+                  -0.658068,
+                  13.970104
+                ],
+                [
+                  -0.642022,
+                  13.97093
+                ],
+                [
+                  -0.523606,
+                  13.87812
+                ],
+                [
+                  -0.219645,
+                  13.616534
+                ],
+                [
+                  -0.198871,
+                  12.787902
+                ],
+                [
+                  -0.196597,
+                  12.604192
+                ],
+                [
+                  -0.207424,
+                  12.560474
+                ],
+                [
+                  -0.389092,
+                  12.468852
+                ],
+                [
+                  -0.437616,
+                  12.466681
+                ],
+                [
+                  -0.840021,
+                  12.524197
+                ],
+                [
+                  -0.869735,
+                  12.530889
+                ],
+                [
+                  -1.144266,
+                  12.632123
+                ],
+                [
+                  -1.552561,
+                  12.904096
+                ],
+                [
+                  -1.742007,
+                  13.122403
+                ],
+                [
+                  -1.840089,
+                  13.340607
+                ],
+                [
+                  -1.878019,
+                  13.541758
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850064",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Centre-Nord Region"
+        }
+      ],
+      "properties": {
+        "title": "Centre-Nord Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.789101,
+                  11.138752
+                ],
+                [
+                  -2.923744,
+                  11.797601
+                ],
+                [
+                  -2.919429,
+                  12.053011
+                ],
+                [
+                  -2.887286,
+                  12.27752
+                ],
+                [
+                  -2.881498,
+                  12.301136
+                ],
+                [
+                  -2.747708,
+                  12.621866
+                ],
+                [
+                  -2.733497,
+                  12.641348
+                ],
+                [
+                  -2.717891,
+                  12.657212
+                ],
+                [
+                  -2.637069,
+                  12.736174
+                ],
+                [
+                  -2.534956,
+                  12.811673
+                ],
+                [
+                  -2.523355,
+                  12.814205
+                ],
+                [
+                  -2.51041,
+                  12.813172
+                ],
+                [
+                  -2.009071,
+                  12.707623
+                ],
+                [
+                  -1.941142,
+                  12.677263
+                ],
+                [
+                  -1.829314,
+                  12.587139
+                ],
+                [
+                  -1.806396,
+                  12.559363
+                ],
+                [
+                  -1.313764,
+                  11.5348
+                ],
+                [
+                  -1.413553,
+                  11.01405
+                ],
+                [
+                  -1.598683,
+                  10.997133
+                ],
+                [
+                  -2.728798,
+                  10.986057
+                ],
+                [
+                  -2.789101,
+                  11.138752
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850075",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Centre-Ouest Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Centre-Ouest"
+        }
+      ],
+      "properties": {
+        "title": "Centre-Ouest Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.638628,
+                  11.141129
+                ],
+                [
+                  -2.041808,
+                  11.98175
+                ],
+                [
+                  -1.95848,
+                  12.102311
+                ],
+                [
+                  -1.922177,
+                  12.126805
+                ],
+                [
+                  -1.894297,
+                  12.143083
+                ],
+                [
+                  -1.496957,
+                  12.194501
+                ],
+                [
+                  -1.459363,
+                  12.194372
+                ],
+                [
+                  -1.062333,
+                  12.183675
+                ],
+                [
+                  -1.038794,
+                  12.155072
+                ],
+                [
+                  -1.034402,
+                  12.149543
+                ],
+                [
+                  -0.79855,
+                  11.83765
+                ],
+                [
+                  -0.550994,
+                  11.478266
+                ],
+                [
+                  -0.532753,
+                  11.448242
+                ],
+                [
+                  -0.547377,
+                  11.367007
+                ],
+                [
+                  -0.703017,
+                  10.994159
+                ],
+                [
+                  -0.883171,
+                  10.968634
+                ],
+                [
+                  -0.900586,
+                  10.966231
+                ],
+                [
+                  -1.355287,
+                  10.99672
+                ],
+                [
+                  -1.38035,
+                  11.001268
+                ],
+                [
+                  -1.413553,
+                  11.01405
+                ],
+                [
+                  -1.577547,
+                  11.105111
+                ],
+                [
+                  -1.593799,
+                  11.114619
+                ],
+                [
+                  -1.638628,
+                  11.141129
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q853405",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Centre-Sud Region"
+        }
+      ],
+      "properties": {
+        "title": "Centre-Sud Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -0.110349,
+                  11.922916
+                ],
+                [
+                  -0.365967,
+                  12.990835
+                ],
+                [
+                  -0.365967,
+                  12.990835
+                ],
+                [
+                  -0.360412,
+                  13.07822
+                ],
+                [
+                  -0.294498,
+                  13.415771
+                ],
+                [
+                  -0.171922,
+                  13.571368
+                ],
+                [
+                  0.0615,
+                  13.578241
+                ],
+                [
+                  2.109049,
+                  12.705634
+                ],
+                [
+                  2.18429,
+                  12.620626
+                ],
+                [
+                  2.193282,
+                  12.609464
+                ],
+                [
+                  2.2,
+                  12.595925
+                ],
+                [
+                  2.246302,
+                  12.465907
+                ],
+                [
+                  2.390169,
+                  11.896536
+                ],
+                [
+                  2.354099,
+                  11.799849
+                ],
+                [
+                  2.287436,
+                  11.665284
+                ],
+                [
+                  2.273587,
+                  11.652055
+                ],
+                [
+                  2.010761,
+                  11.426901
+                ],
+                [
+                  1.983372,
+                  11.414007
+                ],
+                [
+                  1.114174,
+                  11.027674
+                ],
+                [
+                  0.963279,
+                  10.974137
+                ],
+                [
+                  0.487649,
+                  10.933236
+                ],
+                [
+                  0.374779,
+                  11.025808
+                ],
+                [
+                  -0.110349,
+                  11.922916
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q850088",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Est Region"
+        }
+      ],
+      "properties": {
+        "title": "Est Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -5.505602,
+                  11.047985
+                ],
+                [
+                  -5.507334,
+                  11.056949
+                ],
+                [
+                  -5.412352,
+                  11.82853
+                ],
+                [
+                  -5.167819,
+                  11.943665
+                ],
+                [
+                  -5.103947,
+                  11.972759
+                ],
+                [
+                  -5.089323,
+                  11.97927
+                ],
+                [
+                  -4.704023,
+                  12.061487
+                ],
+                [
+                  -4.652737,
+                  12.071627
+                ],
+                [
+                  -4.504267,
+                  12.082338
+                ],
+                [
+                  -4.4891,
+                  12.080762
+                ],
+                [
+                  -3.980992,
+                  11.932709
+                ],
+                [
+                  -2.862662,
+                  11.541027
+                ],
+                [
+                  -2.848787,
+                  11.533302
+                ],
+                [
+                  -2.829279,
+                  11.519039
+                ],
+                [
+                  -2.828556,
+                  11.503949
+                ],
+                [
+                  -2.828426,
+                  11.430052
+                ],
+                [
+                  -2.830054,
+                  11.395403
+                ],
+                [
+                  -2.841656,
+                  11.321893
+                ],
+                [
+                  -2.843723,
+                  11.310059
+                ],
+                [
+                  -2.858631,
+                  11.287735
+                ],
+                [
+                  -3.864074,
+                  10.707615
+                ],
+                [
+                  -3.911952,
+                  10.688521
+                ],
+                [
+                  -3.930246,
+                  10.686893
+                ],
+                [
+                  -4.277666,
+                  10.699864
+                ],
+                [
+                  -5.186655,
+                  10.810064
+                ],
+                [
+                  -5.505602,
+                  11.047985
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q845303",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hauts-Bassins Region"
+        }
+      ],
+      "properties": {
+        "title": "Hauts-Bassins Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.710785,
+                  12.808366
+                ],
+                [
+                  -2.930473,
+                  13.638523
+                ],
+                [
+                  -2.928059,
+                  13.799624
+                ],
+                [
+                  -2.867288,
+                  14.000542
+                ],
+                [
+                  -2.840855,
+                  14.042994
+                ],
+                [
+                  -2.597382,
+                  14.222311
+                ],
+                [
+                  -2.516147,
+                  14.267864
+                ],
+                [
+                  -2.46168,
+                  14.280912
+                ],
+                [
+                  -2.385612,
+                  14.264712
+                ],
+                [
+                  -2.085008,
+                  14.159668
+                ],
+                [
+                  -1.863783,
+                  13.994082
+                ],
+                [
+                  -1.731052,
+                  13.70875
+                ],
+                [
+                  -1.502461,
+                  12.994039
+                ],
+                [
+                  -1.542743,
+                  12.910995
+                ],
+                [
+                  -1.552561,
+                  12.904096
+                ],
+                [
+                  -1.558892,
+                  12.899936
+                ],
+                [
+                  -1.953209,
+                  12.668943
+                ],
+                [
+                  -2.43721,
+                  12.615664
+                ],
+                [
+                  -2.450672,
+                  12.618248
+                ],
+                [
+                  -2.637069,
+                  12.736174
+                ],
+                [
+                  -2.700321,
+                  12.79785
+                ],
+                [
+                  -2.710785,
+                  12.808366
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q502320",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nord Region, Burkina Faso"
+        }
+      ],
+      "properties": {
+        "title": "Nord Region, Burkina Faso"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.05868,
+                  12.278682
+                ],
+                [
+                  -2.077697,
+                  12.297518
+                ],
+                [
+                  -1.961038,
+                  12.760875
+                ],
+                [
+                  -1.940651,
+                  12.797023
+                ],
+                [
+                  -1.86094,
+                  12.869912
+                ],
+                [
+                  -1.664673,
+                  12.927661
+                ],
+                [
+                  -1.626975,
+                  12.925206
+                ],
+                [
+                  -0.660703,
+                  12.674731
+                ],
+                [
+                  -0.634994,
+                  12.64481
+                ],
+                [
+                  -0.513193,
+                  12.387255
+                ],
+                [
+                  -0.422863,
+                  12.153522
+                ],
+                [
+                  -0.421054,
+                  12.045363
+                ],
+                [
+                  -0.436454,
+                  12.007433
+                ],
+                [
+                  -0.455471,
+                  11.988106
+                ],
+                [
+                  -0.694655,
+                  11.85739
+                ],
+                [
+                  -0.747597,
+                  11.8415
+                ],
+                [
+                  -0.79855,
+                  11.83765
+                ],
+                [
+                  -0.80917,
+                  11.840311
+                ],
+                [
+                  -2.05868,
+                  12.278682
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q862606",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Plateau-Central Region"
+        }
+      ],
+      "properties": {
+        "title": "Plateau-Central Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -1.814922,
+                  13.799261
+                ],
+                [
+                  -2.085008,
+                  14.159668
+                ],
+                [
+                  -2.005015,
+                  14.444236
+                ],
+                [
+                  -1.997057,
+                  14.470694
+                ],
+                [
+                  -0.752895,
+                  15.069727
+                ],
+                [
+                  -0.719719,
+                  15.078461
+                ],
+                [
+                  -0.4679,
+                  15.079908
+                ],
+                [
+                  -0.236699,
+                  15.065619
+                ],
+                [
+                  -0.166988,
+                  15.049677
+                ],
+                [
+                  0.218467,
+                  14.910977
+                ],
+                [
+                  1.268687,
+                  13.34606
+                ],
+                [
+                  0.971661,
+                  13.085782
+                ],
+                [
+                  0.822927,
+                  13.000654
+                ],
+                [
+                  0.753577,
+                  12.962878
+                ],
+                [
+                  0.58997,
+                  12.949701
+                ],
+                [
+                  0.574363,
+                  12.95399
+                ],
+                [
+                  -1.747045,
+                  13.729266
+                ],
+                [
+                  -1.78309,
+                  13.763088
+                ],
+                [
+                  -1.814922,
+                  13.799261
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q665514",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sahel Region"
+        }
+      ],
+      "properties": {
+        "title": "Sahel Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Burkina Faso"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -3.981328,
+                  10.011896
+                ],
+                [
+                  -3.990397,
+                  10.037941
+                ],
+                [
+                  -3.987193,
+                  10.051945
+                ],
+                [
+                  -3.792915,
+                  10.718468
+                ],
+                [
+                  -3.788988,
+                  10.727511
+                ],
+                [
+                  -3.721809,
+                  10.84833
+                ],
+                [
+                  -3.592592,
+                  11.036355
+                ],
+                [
+                  -3.554945,
+                  11.075862
+                ],
+                [
+                  -3.502907,
+                  11.124567
+                ],
+                [
+                  -3.198171,
+                  11.33843
+                ],
+                [
+                  -3.157114,
+                  11.349954
+                ],
+                [
+                  -3.042858,
+                  11.342926
+                ],
+                [
+                  -3.005212,
+                  11.340497
+                ],
+                [
+                  -2.937877,
+                  11.318844
+                ],
+                [
+                  -2.901084,
+                  11.305977
+                ],
+                [
+                  -2.858631,
+                  11.287735
+                ],
+                [
+                  -2.71448,
+                  11.184382
+                ],
+                [
+                  -2.667351,
+                  11.150069
+                ],
+                [
+                  -2.648231,
+                  11.132086
+                ],
+                [
+                  -2.636655,
+                  11.11033
+                ],
+                [
+                  -2.689211,
+                  9.488724
+                ],
+                [
+                  -2.744918,
+                  9.408109
+                ],
+                [
+                  -2.763677,
+                  9.391883
+                ],
+                [
+                  -2.787603,
+                  9.393717
+                ],
+                [
+                  -3.891625,
+                  9.8939
+                ],
+                [
+                  -3.981328,
+                  10.011896
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q429149",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sud-Ouest Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sud-Ouest"
+        }
+      ],
+      "properties": {
+        "title": "Sud-Ouest Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867094",
+          "label": "region of Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "title": "Burkinabé regions",
+  "type": "FeatureCollection"
+}

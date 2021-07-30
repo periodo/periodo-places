@@ -26,6 +26,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Bolivian departments gazetteer**<br>
   https://data.perio.do/graphs/places/bolivian-departments.json
 
+* **Burkinabé regions gazetteer**<br>
+  https://data.perio.do/graphs/places/burkinabe-regions.json
+
 * **Djiboutian regions gazetteer**<br>
   https://data.perio.do/graphs/places/djiboutian-regions.json
 
@@ -231,6 +234,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/bolivian-departments.json](place-ids/bolivian-departments.json) for details), and
 
 1. querying Wikidata for instances of [Q250050 department of Bolivia](https://www.wikidata.org/wiki/Q250050) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Burkinabé regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the administrative units (provinces) found in the Natural Earth data into geometries for regions (see [place-ids/burkinabe-regions.json](place-ids/burkinabe-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q867094 region of Burkina Faso](https://www.wikidata.org/wiki/Q867094) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Djiboutian regions gazetteer
