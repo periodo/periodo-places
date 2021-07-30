@@ -1,0 +1,1132 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -15.079457,
+                  10.85871
+                ],
+                [
+                  -15.081125,
+                  10.878241
+                ],
+                [
+                  -15.07433,
+                  10.896877
+                ],
+                [
+                  -14.828212,
+                  11.334787
+                ],
+                [
+                  -14.728993,
+                  11.478009
+                ],
+                [
+                  -13.728279,
+                  12.673388
+                ],
+                [
+                  -13.404758,
+                  12.661761
+                ],
+                [
+                  -13.145317,
+                  12.643932
+                ],
+                [
+                  -13.091703,
+                  12.638196
+                ],
+                [
+                  -13.076458,
+                  12.635922
+                ],
+                [
+                  -12.648009,
+                  12.425754
+                ],
+                [
+                  -12.63155,
+                  12.41268
+                ],
+                [
+                  -12.57813,
+                  12.361528
+                ],
+                [
+                  -12.704154,
+                  11.566219
+                ],
+                [
+                  -12.706971,
+                  11.559269
+                ],
+                [
+                  -13.212094,
+                  10.397239
+                ],
+                [
+                  -13.732493,
+                  9.876776
+                ],
+                [
+                  -13.745432,
+                  9.866523
+                ],
+                [
+                  -13.749745,
+                  9.863471
+                ],
+                [
+                  -13.784657,
+                  9.850246
+                ],
+                [
+                  -13.788686,
+                  9.850043
+                ],
+                [
+                  -13.809682,
+                  9.85163
+                ],
+                [
+                  -13.827707,
+                  9.855373
+                ],
+                [
+                  -13.842844,
+                  9.860785
+                ],
+                [
+                  -14.452545,
+                  10.214586
+                ],
+                [
+                  -15.031565,
+                  10.792792
+                ],
+                [
+                  -15.052602,
+                  10.814399
+                ],
+                [
+                  -15.069447,
+                  10.837144
+                ],
+                [
+                  -15.079457,
+                  10.85871
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q862611",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Boke Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Boké Region"
+        }
+      ],
+      "properties": {
+        "title": "Boké Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region in Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -13.722401,
+                  9.505805
+                ],
+                [
+                  -13.726226,
+                  9.511054
+                ],
+                [
+                  -13.72411,
+                  9.519517
+                ],
+                [
+                  -13.673329,
+                  9.573798
+                ],
+                [
+                  -13.673165,
+                  9.573835
+                ],
+                [
+                  -13.643267,
+                  9.542543
+                ],
+                [
+                  -13.677968,
+                  9.522691
+                ],
+                [
+                  -13.714345,
+                  9.507636
+                ],
+                [
+                  -13.722401,
+                  9.505805
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1373230",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Conakry Region"
+        }
+      ],
+      "properties": {
+        "title": "Conakry Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -11.587519,
+                  9.994283
+                ],
+                [
+                  -11.606406,
+                  10.068516
+                ],
+                [
+                  -11.602878,
+                  10.9653
+                ],
+                [
+                  -11.184624,
+                  12.021072
+                ],
+                [
+                  -11.159392,
+                  12.077507
+                ],
+                [
+                  -11.052318,
+                  12.202512
+                ],
+                [
+                  -11.038779,
+                  12.205251
+                ],
+                [
+                  -10.972013,
+                  12.218583
+                ],
+                [
+                  -10.952117,
+                  12.219462
+                ],
+                [
+                  -10.26694,
+                  12.217808
+                ],
+                [
+                  -10.128654,
+                  12.174503
+                ],
+                [
+                  -10.060182,
+                  12.147528
+                ],
+                [
+                  -9.923188,
+                  12.087584
+                ],
+                [
+                  -9.888772,
+                  12.060557
+                ],
+                [
+                  -9.221203,
+                  9.42621
+                ],
+                [
+                  -9.237616,
+                  9.245657
+                ],
+                [
+                  -9.362328,
+                  8.993277
+                ],
+                [
+                  -9.421745,
+                  8.928732
+                ],
+                [
+                  -9.52316,
+                  8.872094
+                ],
+                [
+                  -9.546983,
+                  8.864653
+                ],
+                [
+                  -9.57432,
+                  8.860312
+                ],
+                [
+                  -9.592613,
+                  8.860002
+                ],
+                [
+                  -10.189347,
+                  8.871164
+                ],
+                [
+                  -10.202188,
+                  8.872327
+                ],
+                [
+                  -10.746342,
+                  9.083814
+                ],
+                [
+                  -11.587519,
+                  9.994283
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q870166",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Faranah Region"
+        }
+      ],
+      "properties": {
+        "title": "Faranah Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -10.89628,
+                  10.844119
+                ],
+                [
+                  -10.897856,
+                  10.853653
+                ],
+                [
+                  -10.895634,
+                  10.862567
+                ],
+                [
+                  -10.695394,
+                  11.227948
+                ],
+                [
+                  -10.199553,
+                  11.825273
+                ],
+                [
+                  -10.183301,
+                  11.844807
+                ],
+                [
+                  -9.398155,
+                  12.473245
+                ],
+                [
+                  -9.33418,
+                  12.496293
+                ],
+                [
+                  -9.327307,
+                  12.497533
+                ],
+                [
+                  -9.265864,
+                  12.495207
+                ],
+                [
+                  -9.189486,
+                  12.479239
+                ],
+                [
+                  -9.147318,
+                  12.465493
+                ],
+                [
+                  -9.027765,
+                  12.404751
+                ],
+                [
+                  -8.993839,
+                  12.387514
+                ],
+                [
+                  -8.975907,
+                  12.368704
+                ],
+                [
+                  -8.375324,
+                  11.367654
+                ],
+                [
+                  -7.971214,
+                  10.281802
+                ],
+                [
+                  -7.9646,
+                  10.258936
+                ],
+                [
+                  -7.962584,
+                  10.233252
+                ],
+                [
+                  -8.070433,
+                  9.397541
+                ],
+                [
+                  -8.727963,
+                  9.072108
+                ],
+                [
+                  -8.806748,
+                  9.036014
+                ],
+                [
+                  -8.969148,
+                  8.961937
+                ],
+                [
+                  -9.148643,
+                  8.910652
+                ],
+                [
+                  -9.239815,
+                  8.9192
+                ],
+                [
+                  -10.417731,
+                  9.611739
+                ],
+                [
+                  -10.89628,
+                  10.844119
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q870191",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kankan Region"
+        }
+      ],
+      "properties": {
+        "title": "Kankan Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -13.907544,
+                  10.097265
+                ],
+                [
+                  -14.144532,
+                  10.669068
+                ],
+                [
+                  -13.844085,
+                  11.271767
+                ],
+                [
+                  -13.791478,
+                  11.306054
+                ],
+                [
+                  -13.744995,
+                  11.322513
+                ],
+                [
+                  -13.565781,
+                  11.361684
+                ],
+                [
+                  -13.551131,
+                  11.364242
+                ],
+                [
+                  -13.464315,
+                  11.366102
+                ],
+                [
+                  -13.395421,
+                  11.361285
+                ],
+                [
+                  -13.284016,
+                  11.337319
+                ],
+                [
+                  -13.264198,
+                  11.33104
+                ],
+                [
+                  -12.968712,
+                  11.168475
+                ],
+                [
+                  -12.492875,
+                  10.614701
+                ],
+                [
+                  -12.236379,
+                  10.268572
+                ],
+                [
+                  -12.228964,
+                  10.257798
+                ],
+                [
+                  -12.125482,
+                  10.099823
+                ],
+                [
+                  -12.123156,
+                  10.089669
+                ],
+                [
+                  -12.121632,
+                  10.074527
+                ],
+                [
+                  -12.109807,
+                  9.881676
+                ],
+                [
+                  -13.028864,
+                  9.095983
+                ],
+                [
+                  -13.047003,
+                  9.084537
+                ],
+                [
+                  -13.115913,
+                  9.043945
+                ],
+                [
+                  -13.131054,
+                  9.041465
+                ],
+                [
+                  -13.301096,
+                  9.04149
+                ],
+                [
+                  -13.312367,
+                  9.048326
+                ],
+                [
+                  -13.321604,
+                  9.056627
+                ],
+                [
+                  -13.673329,
+                  9.573798
+                ],
+                [
+                  -13.907544,
+                  10.097265
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q868520",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kindia Region"
+        }
+      ],
+      "properties": {
+        "title": "Kindia Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -12.968712,
+                  11.168475
+                ],
+                [
+                  -12.989718,
+                  11.256161
+                ],
+                [
+                  -12.827713,
+                  12.154246
+                ],
+                [
+                  -12.825542,
+                  12.164167
+                ],
+                [
+                  -12.798877,
+                  12.239692
+                ],
+                [
+                  -12.790144,
+                  12.248219
+                ],
+                [
+                  -12.776424,
+                  12.256797
+                ],
+                [
+                  -12.57813,
+                  12.361528
+                ],
+                [
+                  -12.541452,
+                  12.379452
+                ],
+                [
+                  -12.521918,
+                  12.386894
+                ],
+                [
+                  -12.505072,
+                  12.390253
+                ],
+                [
+                  -11.930869,
+                  12.418726
+                ],
+                [
+                  -11.515391,
+                  12.431645
+                ],
+                [
+                  -11.481646,
+                  12.428235
+                ],
+                [
+                  -11.388422,
+                  12.403895
+                ],
+                [
+                  -11.184624,
+                  12.021072
+                ],
+                [
+                  -11.119313,
+                  11.891057
+                ],
+                [
+                  -11.119313,
+                  11.787482
+                ],
+                [
+                  -11.132416,
+                  11.482994
+                ],
+                [
+                  -11.139185,
+                  11.46744
+                ],
+                [
+                  -11.145877,
+                  11.460386
+                ],
+                [
+                  -11.343824,
+                  11.279131
+                ],
+                [
+                  -11.355038,
+                  11.269209
+                ],
+                [
+                  -11.646932,
+                  11.042815
+                ],
+                [
+                  -11.663598,
+                  11.030774
+                ],
+                [
+                  -11.813149,
+                  11.002455
+                ],
+                [
+                  -11.823795,
+                  11.000595
+                ],
+                [
+                  -11.866996,
+                  10.99951
+                ],
+                [
+                  -12.869829,
+                  10.985867
+                ],
+                [
+                  -12.874868,
+                  10.9861
+                ],
+                [
+                  -12.950289,
+                  11.116893
+                ],
+                [
+                  -12.968712,
+                  11.168475
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q868515",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Labe Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Labé Region"
+        }
+      ],
+      "properties": {
+        "title": "Labé Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -12.963053,
+                  10.584677
+                ],
+                [
+                  -12.964035,
+                  10.590258
+                ],
+                [
+                  -12.961193,
+                  10.81301
+                ],
+                [
+                  -12.960805,
+                  10.81766
+                ],
+                [
+                  -12.953545,
+                  10.88484
+                ],
+                [
+                  -12.951349,
+                  10.890576
+                ],
+                [
+                  -12.925149,
+                  10.948944
+                ],
+                [
+                  -12.922591,
+                  10.954215
+                ],
+                [
+                  -12.726685,
+                  11.235464
+                ],
+                [
+                  -12.716712,
+                  11.246549
+                ],
+                [
+                  -12.648318,
+                  11.313522
+                ],
+                [
+                  -12.63005,
+                  11.321661
+                ],
+                [
+                  -11.306152,
+                  11.326182
+                ],
+                [
+                  -11.27136,
+                  11.282264
+                ],
+                [
+                  -11.249235,
+                  11.228531
+                ],
+                [
+                  -11.249235,
+                  11.184279
+                ],
+                [
+                  -11.587519,
+                  9.994283
+                ],
+                [
+                  -11.921774,
+                  9.922212
+                ],
+                [
+                  -12.109807,
+                  9.881676
+                ],
+                [
+                  -12.896014,
+                  10.469938
+                ],
+                [
+                  -12.960599,
+                  10.580311
+                ],
+                [
+                  -12.963053,
+                  10.584677
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q1043650",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mamou Region"
+        }
+      ],
+      "properties": {
+        "title": "Mamou Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -10.715181,
+                  8.2696
+                ],
+                [
+                  -10.735283,
+                  8.287299
+                ],
+                [
+                  -10.607126,
+                  8.979841
+                ],
+                [
+                  -10.593101,
+                  9.047617
+                ],
+                [
+                  -10.478244,
+                  9.185176
+                ],
+                [
+                  -8.479098,
+                  9.380759
+                ],
+                [
+                  -7.91189,
+                  9.418651
+                ],
+                [
+                  -7.8706,
+                  9.418599
+                ],
+                [
+                  -7.865381,
+                  9.409918
+                ],
+                [
+                  -7.746783,
+                  9.07645
+                ],
+                [
+                  -7.662447,
+                  8.374865
+                ],
+                [
+                  -8.200244,
+                  7.576335
+                ],
+                [
+                  -8.228976,
+                  7.544295
+                ],
+                [
+                  -8.868885,
+                  7.266638
+                ],
+                [
+                  -8.91219,
+                  7.250153
+                ],
+                [
+                  -9.125407,
+                  7.190208
+                ],
+                [
+                  -9.486626,
+                  7.372833
+                ],
+                [
+                  -10.715181,
+                  8.2696
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q870146",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Nzérékoré Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Région of n'zerekore"
+        }
+      ],
+      "properties": {
+        "title": "Nzérékoré Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1067116",
+          "label": "region of Guinea"
+        }
+      ]
+    }
+  ],
+  "title": "Guinean regions",
+  "type": "FeatureCollection"
+}

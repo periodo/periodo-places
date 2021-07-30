@@ -1,0 +1,76 @@
+{
+  "Boké Region": {
+    "id": "http://www.wikidata.org/entity/Q862611",
+    "covers": [
+      "Boffa",
+      "Boke",
+      "Fria",
+      "Gaoual",
+      "Koundara"
+    ]
+  },
+  "Conakry region": {
+    "id": "http://www.wikidata.org/entity/Q1373230",
+    "covers": [
+      "Conakry"
+    ]
+  },
+  "Faranah Region": {
+    "id": "http://www.wikidata.org/entity/Q870166",
+    "covers": [
+      "Dabola",
+      "Dinguiraye",
+      "Faranah",
+      "Kissidougou"
+    ]
+  },
+  "Kankan Region": {
+    "id": "http://www.wikidata.org/entity/Q870191",
+    "covers": [
+      "Kankan",
+      "Kérouané",
+      "Kouroussa",
+      "Mandiana",
+      "Siguiri"
+    ]
+  },
+  "Kindia Region": {
+    "id": "http://www.wikidata.org/entity/Q868520",
+    "covers": [
+      "Coyah",
+      "Dubréka",
+      "Forécariah",
+      "Kindia",
+      "Télimélé"
+    ]
+  },
+  "Labé Region": {
+    "id": "http://www.wikidata.org/entity/Q868515",
+    "covers": [
+      "Koubia",
+      "Labé",
+      "Lélouma",
+      "Mali",
+      "Tougué"
+    ]
+  },
+  "Mamou Region": {
+    "id": "http://www.wikidata.org/entity/Q1043650",
+    "covers": [
+      "Dalaba",
+      "Mamou",
+      "Pita"
+    ]
+  },
+  "Nzérékoré Region": {
+    "id": "http://www.wikidata.org/entity/Q870146",
+    "covers": [
+      "Beyla",
+      "Guéckédou",
+      "Lola",
+      "Macenta",
+      "Nzérékoré",
+      "Yomou"
+    ]
+  }
+}

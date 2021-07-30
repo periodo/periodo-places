@@ -47,6 +47,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Greek administrative regions gazetteer**<br>
   https://data.perio.do/graphs/places/greek-regions.json
 
+* **Guinean regions gazetteer**<br>
+  https://data.perio.do/graphs/places/guinean-regions.json
+
 * **Indian states and union territories gazetteer**<br>
   https://data.perio.do/graphs/places/indian-states.json
 
@@ -308,6 +311,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/greek-regions.json](place-ids/greek-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q207299 administrative region of Greece](https://www.wikidata.org/wiki/Q207299) (or [Q788176 autonomous administrative territorial entity](https://www.wikidata.org/wiki/Q788176) in the case of the Monastic Republic of Mount Athos) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Guinean regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. merging geometries of the administrative units (prefectures) found in the Natural Earth data into geometries for regions (see [place-ids/guinean-regions.json](place-ids/guinean-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q1067116 region of Guinea](https://www.wikidata.org/wiki/Q1067116) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Indian states and union territories gazetteer

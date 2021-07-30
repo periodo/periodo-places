@@ -13,6 +13,7 @@ GAZETTEERS := \
 	gazetteers/geographic-regions.json \
 	gazetteers/georgian-regions.json \
 	gazetteers/greek-regions.json \
+	gazetteers/guinean-regions.json \
 	gazetteers/historical.json \
 	gazetteers/indian-states.json \
 	gazetteers/indonesian-provinces.json \
