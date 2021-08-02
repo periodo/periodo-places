@@ -74,6 +74,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Italian regions gazetteer**<br>
   https://data.perio.do/graphs/places/italian-regions.json
 
+* **Jordanian governorates gazetteer**<br>
+  https://data.perio.do/graphs/places/jordanian-governorates.json
+
 * **Kuwaiti governorates gazetteer**<br>
   https://data.perio.do/graphs/places/kuwaiti-governorates.json
 
@@ -436,6 +439,17 @@ This gazetteer was created by:
 1. merging geometries of the provinces found in the Natural Earth data into geometries for regions (see [place-ids/italian-regions.json](place-ids/italian-regions.json) for details), and
 
 1. querying Wikidata for instances of [Q16110 region of Italy](https://www.wikidata.org/wiki/Q16110) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Jordanian governorates gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/jordanian-governorates.json](place-ids/jordanian-governorates.json) for details), and
+
+1. querying Wikidata for instances of [Q867567 governorate of Kuwait](https://www.wikidata.org/wiki/Q867567) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Kuwaiti governorates gazetteer

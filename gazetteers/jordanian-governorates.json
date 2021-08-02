@@ -1,0 +1,1372 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.618426,
+                  32.25152
+                ],
+                [
+                  35.61672,
+                  32.266765
+                ],
+                [
+                  35.632068,
+                  32.329345
+                ],
+                [
+                  35.639096,
+                  32.344848
+                ],
+                [
+                  35.648863,
+                  32.355364
+                ],
+                [
+                  35.663126,
+                  32.360532
+                ],
+                [
+                  35.848076,
+                  32.402002
+                ],
+                [
+                  35.854794,
+                  32.399444
+                ],
+                [
+                  35.905333,
+                  32.338879
+                ],
+                [
+                  35.813659,
+                  32.23147
+                ],
+                [
+                  35.804668,
+                  32.222736
+                ],
+                [
+                  35.694804,
+                  32.156177
+                ],
+                [
+                  35.668707,
+                  32.160699
+                ],
+                [
+                  35.651809,
+                  32.166564
+                ],
+                [
+                  35.635531,
+                  32.183824
+                ],
+                [
+                  35.618426,
+                  32.25152
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q506658",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ajloun Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "ىنبنام"
+        }
+      ],
+      "properties": {
+        "title": "Ajloun Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.663901,
+                  31.86573
+                ],
+                [
+                  35.661731,
+                  31.874928
+                ],
+                [
+                  35.668707,
+                  31.885935
+                ],
+                [
+                  35.683745,
+                  31.897433
+                ],
+                [
+                  35.826837,
+                  31.994197
+                ],
+                [
+                  35.911741,
+                  32.037631
+                ],
+                [
+                  35.941197,
+                  32.045848
+                ],
+                [
+                  36.301692,
+                  32.019338
+                ],
+                [
+                  36.407473,
+                  32.011483
+                ],
+                [
+                  36.428454,
+                  32.003473
+                ],
+                [
+                  36.449073,
+                  31.988694
+                ],
+                [
+                  36.997912,
+                  31.500814
+                ],
+                [
+                  37.221722,
+                  31.247292
+                ],
+                [
+                  36.151778,
+                  31.248636
+                ],
+                [
+                  35.849161,
+                  31.25494
+                ],
+                [
+                  35.839239,
+                  31.262537
+                ],
+                [
+                  35.835673,
+                  31.274551
+                ],
+                [
+                  35.663901,
+                  31.86573
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q472788",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Amman Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Amman Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.060319,
+                  29.334696
+                ],
+                [
+                  34.949385,
+                  29.351686
+                ],
+                [
+                  34.955577,
+                  29.558987
+                ],
+                [
+                  34.95986,
+                  29.586206
+                ],
+                [
+                  35.140005,
+                  30.430185
+                ],
+                [
+                  35.162122,
+                  30.494677
+                ],
+                [
+                  35.205324,
+                  30.617099
+                ],
+                [
+                  35.263882,
+                  30.719967
+                ],
+                [
+                  35.362576,
+                  30.660842
+                ],
+                [
+                  35.448049,
+                  30.608494
+                ],
+                [
+                  35.688396,
+                  29.557188
+                ],
+                [
+                  35.740251,
+                  29.231731
+                ],
+                [
+                  35.473628,
+                  29.272065
+                ],
+                [
+                  35.179072,
+                  29.316661
+                ],
+                [
+                  35.060319,
+                  29.334696
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q260796",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Aqaba Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Aqaba Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.514763,
+                  31.684087
+                ],
+                [
+                  35.502479,
+                  31.68536
+                ],
+                [
+                  35.522824,
+                  32.057838
+                ],
+                [
+                  35.535226,
+                  32.110806
+                ],
+                [
+                  35.559562,
+                  32.190371
+                ],
+                [
+                  35.565974,
+                  32.190929
+                ],
+                [
+                  35.635531,
+                  32.183824
+                ],
+                [
+                  35.826372,
+                  32.142199
+                ],
+                [
+                  35.840324,
+                  32.137108
+                ],
+                [
+                  35.895876,
+                  32.095664
+                ],
+                [
+                  35.941197,
+                  32.045848
+                ],
+                [
+                  35.708291,
+                  31.77465
+                ],
+                [
+                  35.597497,
+                  31.686464
+                ],
+                [
+                  35.583544,
+                  31.680806
+                ],
+                [
+                  35.514763,
+                  31.684087
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q721431",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Balqa Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Balqa Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.559562,
+                  32.190371
+                ],
+                [
+                  35.545148,
+                  32.409573
+                ],
+                [
+                  35.551969,
+                  32.525587
+                ],
+                [
+                  35.560547,
+                  32.640903
+                ],
+                [
+                  35.562718,
+                  32.64421
+                ],
+                [
+                  35.593827,
+                  32.670358
+                ],
+                [
+                  35.612224,
+                  32.681546
+                ],
+                [
+                  35.740175,
+                  32.740535
+                ],
+                [
+                  35.763842,
+                  32.746969
+                ],
+                [
+                  35.769734,
+                  32.748054
+                ],
+                [
+                  35.774901,
+                  32.747279
+                ],
+                [
+                  35.895721,
+                  32.713276
+                ],
+                [
+                  35.944193,
+                  32.690771
+                ],
+                [
+                  36.003621,
+                  32.655088
+                ],
+                [
+                  36.081906,
+                  32.516265
+                ],
+                [
+                  36.094211,
+                  32.434248
+                ],
+                [
+                  36.087234,
+                  32.408255
+                ],
+                [
+                  36.017213,
+                  32.345959
+                ],
+                [
+                  35.635531,
+                  32.183824
+                ],
+                [
+                  35.559562,
+                  32.190371
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q721441",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Irbid Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Irbid Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.696199,
+                  32.147831
+                ],
+                [
+                  35.694804,
+                  32.156177
+                ],
+                [
+                  35.841875,
+                  32.302886
+                ],
+                [
+                  35.857688,
+                  32.316219
+                ],
+                [
+                  35.873242,
+                  32.325004
+                ],
+                [
+                  35.905333,
+                  32.338879
+                ],
+                [
+                  35.939646,
+                  32.351333
+                ],
+                [
+                  35.952979,
+                  32.354744
+                ],
+                [
+                  36.017213,
+                  32.345959
+                ],
+                [
+                  35.987292,
+                  32.175633
+                ],
+                [
+                  35.982331,
+                  32.166797
+                ],
+                [
+                  35.973805,
+                  32.159355
+                ],
+                [
+                  35.895876,
+                  32.095664
+                ],
+                [
+                  35.706431,
+                  32.144602
+                ],
+                [
+                  35.696199,
+                  32.147831
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q750270",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jarash Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jerash Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Провінція Джараш"
+        }
+      ],
+      "properties": {
+        "title": "Jerash Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.404795,
+                  30.88796
+                ],
+                [
+                  35.34711,
+                  30.92271
+                ],
+                [
+                  35.3957,
+                  31.25768
+                ],
+                [
+                  35.416473,
+                  31.331835
+                ],
+                [
+                  35.457128,
+                  31.433524
+                ],
+                [
+                  35.478486,
+                  31.438469
+                ],
+                [
+                  35.554192,
+                  31.435859
+                ],
+                [
+                  35.7733,
+                  31.414749
+                ],
+                [
+                  35.818,
+                  31.405939
+                ],
+                [
+                  36.151778,
+                  31.248636
+                ],
+                [
+                  36.191931,
+                  31.094795
+                ],
+                [
+                  36.140926,
+                  30.955062
+                ],
+                [
+                  36.023776,
+                  30.767063
+                ],
+                [
+                  35.418748,
+                  30.884678
+                ],
+                [
+                  35.404795,
+                  30.88796
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q735245",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Karak Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Karak Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.303768,
+                  30.008324
+                ],
+                [
+                  35.299117,
+                  30.027056
+                ],
+                [
+                  35.301442,
+                  30.053386
+                ],
+                [
+                  35.312915,
+                  30.103098
+                ],
+                [
+                  35.377459,
+                  30.34497
+                ],
+                [
+                  35.448049,
+                  30.608494
+                ],
+                [
+                  36.151778,
+                  31.248636
+                ],
+                [
+                  37.221722,
+                  31.247292
+                ],
+                [
+                  37.349895,
+                  31.12823
+                ],
+                [
+                  37.480017,
+                  31.007256
+                ],
+                [
+                  37.486321,
+                  31.0009
+                ],
+                [
+                  37.821908,
+                  30.660869
+                ],
+                [
+                  37.981071,
+                  30.499483
+                ],
+                [
+                  37.981381,
+                  30.498811
+                ],
+                [
+                  37.980968,
+                  30.498398
+                ],
+                [
+                  37.491696,
+                  30.011193
+                ],
+                [
+                  37.470198,
+                  29.994553
+                ],
+                [
+                  36.069457,
+                  29.200028
+                ],
+                [
+                  36.043825,
+                  29.190881
+                ],
+                [
+                  36.016437,
+                  29.189951
+                ],
+                [
+                  35.797225,
+                  29.223075
+                ],
+                [
+                  35.740251,
+                  29.231731
+                ],
+                [
+                  35.309039,
+                  29.998531
+                ],
+                [
+                  35.303768,
+                  30.008324
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q606340",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ma'an Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Ma'an Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.673358,
+                  31.403923
+                ],
+                [
+                  35.457128,
+                  31.433524
+                ],
+                [
+                  35.458125,
+                  31.491929
+                ],
+                [
+                  35.464222,
+                  31.568565
+                ],
+                [
+                  35.480139,
+                  31.641119
+                ],
+                [
+                  35.502479,
+                  31.68536
+                ],
+                [
+                  35.656305,
+                  31.762842
+                ],
+                [
+                  35.668707,
+                  31.766072
+                ],
+                [
+                  35.74586,
+                  31.78297
+                ],
+                [
+                  35.824356,
+                  31.790825
+                ],
+                [
+                  35.831023,
+                  31.78992
+                ],
+                [
+                  35.838154,
+                  31.784184
+                ],
+                [
+                  35.887505,
+                  31.511746
+                ],
+                [
+                  35.884404,
+                  31.505416
+                ],
+                [
+                  35.846836,
+                  31.432139
+                ],
+                [
+                  35.842495,
+                  31.425627
+                ],
+                [
+                  35.834898,
+                  31.418832
+                ],
+                [
+                  35.818,
+                  31.405939
+                ],
+                [
+                  35.687155,
+                  31.40382
+                ],
+                [
+                  35.673358,
+                  31.403923
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q750447",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Madaba Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Madaba Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  36.014732,
+                  32.146849
+                ],
+                [
+                  35.947243,
+                  32.252605
+                ],
+                [
+                  35.948018,
+                  32.262475
+                ],
+                [
+                  36.015042,
+                  32.411433
+                ],
+                [
+                  36.081906,
+                  32.516265
+                ],
+                [
+                  38.774511,
+                  33.371685
+                ],
+                [
+                  39.271122,
+                  32.311956
+                ],
+                [
+                  39.291999,
+                  32.244519
+                ],
+                [
+                  39.266471,
+                  32.212867
+                ],
+                [
+                  39.146375,
+                  32.118144
+                ],
+                [
+                  38.998064,
+                  32.006936
+                ],
+                [
+                  38.96344,
+                  31.994327
+                ],
+                [
+                  37.761412,
+                  31.69612
+                ],
+                [
+                  36.029977,
+                  32.133827
+                ],
+                [
+                  36.019693,
+                  32.139951
+                ],
+                [
+                  36.014732,
+                  32.146849
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q854871",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mafraq Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Mafraq Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.399783,
+                  30.618984
+                ],
+                [
+                  35.263882,
+                  30.719967
+                ],
+                [
+                  35.27612,
+                  30.768976
+                ],
+                [
+                  35.279531,
+                  30.780241
+                ],
+                [
+                  35.322216,
+                  30.88995
+                ],
+                [
+                  35.334928,
+                  30.912585
+                ],
+                [
+                  35.34711,
+                  30.92271
+                ],
+                [
+                  35.481276,
+                  30.994077
+                ],
+                [
+                  35.490733,
+                  30.996687
+                ],
+                [
+                  35.521171,
+                  30.998418
+                ],
+                [
+                  35.533883,
+                  30.997695
+                ],
+                [
+                  35.669947,
+                  30.969919
+                ],
+                [
+                  35.830247,
+                  30.914857
+                ],
+                [
+                  35.912465,
+                  30.861269
+                ],
+                [
+                  35.980936,
+                  30.804167
+                ],
+                [
+                  36.023776,
+                  30.767063
+                ],
+                [
+                  35.947708,
+                  30.656424
+                ],
+                [
+                  35.911224,
+                  30.644745
+                ],
+                [
+                  35.755782,
+                  30.61423
+                ],
+                [
+                  35.662351,
+                  30.603352
+                ],
+                [
+                  35.528922,
+                  30.603274
+                ],
+                [
+                  35.425259,
+                  30.609346
+                ],
+                [
+                  35.413942,
+                  30.612912
+                ],
+                [
+                  35.399783,
+                  30.618984
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q750259",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Tafilah Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Tafilah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate in Jordan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.901613,
+                  32.069852
+                ],
+                [
+                  35.895876,
+                  32.095664
+                ],
+                [
+                  35.93329,
+                  32.138375
+                ],
+                [
+                  35.990703,
+                  32.196666
+                ],
+                [
+                  36.433415,
+                  32.114112
+                ],
+                [
+                  37.75938,
+                  31.696774
+                ],
+                [
+                  37.761412,
+                  31.69612
+                ],
+                [
+                  37.455005,
+                  31.617709
+                ],
+                [
+                  37.207269,
+                  31.554354
+                ],
+                [
+                  36.997912,
+                  31.500814
+                ],
+                [
+                  36.997463,
+                  31.501023
+                ],
+                [
+                  36.994362,
+                  31.50247
+                ],
+                [
+                  36.041294,
+                  31.954484
+                ],
+                [
+                  36.021915,
+                  31.966318
+                ],
+                [
+                  35.906729,
+                  32.064684
+                ],
+                [
+                  35.901613,
+                  32.069852
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q721445",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Zarqa Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Zarqa Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867567",
+          "label": "governorate of Jordan"
+        }
+      ]
+    }
+  ],
+  "title": "Jordanian governorates",
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,50 @@
+{
+  "Ajloun Governorate": {
+    "id": "http://www.wikidata.org/entity/Q506658",
+    "covers": [ "Ajlun" ]
+  },
+  "Amman Governorate": {
+    "id": "http://www.wikidata.org/entity/Q472788",
+    "covers": [ "Amman" ]
+  },
+  "Aqaba Governorate": {
+    "id": "http://www.wikidata.org/entity/Q260796",
+    "covers": [ "Aqaba" ]
+  },
+  "Balqa Governorate": {
+    "id": "http://www.wikidata.org/entity/Q721431",
+    "covers": [ "Balqa" ]
+  },
+  "Irbid Governorate": {
+    "id": "http://www.wikidata.org/entity/Q721441",
+    "covers": [ "Irbid" ]
+  },
+  "Jerash Governorate": {
+    "id": "http://www.wikidata.org/entity/Q750270",
+    "covers": [ "Jarash" ]
+  },
+  "Karak Governorate": {
+    "id": "http://www.wikidata.org/entity/Q735245",
+    "covers": [ "Karak" ]
+  },
+  "Ma'an Governorate": {
+    "id": "http://www.wikidata.org/entity/Q606340",
+    "covers": [ "Ma`an" ]
+  },
+  "Madaba Governorate": {
+    "id": "http://www.wikidata.org/entity/Q750447",
+    "covers": [ "Madaba" ]
+  },
+  "Mafraq Governorate": {
+    "id": "http://www.wikidata.org/entity/Q854871",
+    "covers": [ "Mafraq" ]
+  },
+  "Tafilah Governorate": {
+    "id": "http://www.wikidata.org/entity/Q750259",
+    "covers": [ "Tafilah" ]
+  },
+  "Zarqa Governorate": {
+    "id": "http://www.wikidata.org/entity/Q721445",
+    "covers": [ "Zarqa" ]
+  }
+}
