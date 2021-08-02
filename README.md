@@ -80,6 +80,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Kuwaiti governorates gazetteer**<br>
   https://data.perio.do/graphs/places/kuwaiti-governorates.json
 
+* **Kyrgyz regions gazetteer**<br>
+  https://data.perio.do/graphs/places/kyrgyz-regions.json
+
 * **Laotian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/laotian-provinces.json
 
@@ -461,6 +464,17 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/kuwaiti-governorates.json](place-ids/kuwaiti-governorates.json) for details), and
 
 1. querying Wikidata for instances of [Q842876 governorate of Kuwait](https://www.wikidata.org/wiki/Q842876) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Kyrgyz regions gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/kyrgyz-regions.json](place-ids/kyrgyz-regions.json) for details), and
+
+1. querying Wikidata for instances of [Q693039 region of Kyrgyzstan](https://www.wikidata.org/wiki/Q693039) (or [Q15623974 administrative territorial entity of Kyrgyzstan](https://www.wikidata.org/wiki/Q15623974) in the case of Bishkek) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Laotian provinces gazetteer

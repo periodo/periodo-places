@@ -1,0 +1,34 @@
+{
+  "Batken Region": {
+    "id": "http://www.wikidata.org/entity/Q487631",
+    "covers": [ "Batken" ]
+  },
+  "Bishkek": {
+    "id": "http://www.wikidata.org/entity/Q9361",
+    "covers": [ "Bishkek" ]
+  },
+  "Chuy Region": {
+    "id": "http://www.wikidata.org/entity/Q486370",
+    "covers": [ "Chuy" ]
+  },
+  "Issyk-Kul Region": {
+    "id": "http://www.wikidata.org/entity/Q487413",
+    "covers": [ "Ysyk-Köl" ]
+  },
+  "Jalal-Abad Region": {
+    "id": "http://www.wikidata.org/entity/Q487640",
+    "covers": [ "Jalal-Abad" ]
+  },
+  "Naryn Region": {
+    "id": "http://www.wikidata.org/entity/Q486375",
+    "covers": [ "Naryn" ]
+  },
+  "Osh Region": {
+    "id": "http://www.wikidata.org/entity/Q231987",
+    "covers": [ "Osh" ]
+  },
+  "Talas Region": {
+    "id": "http://www.wikidata.org/entity/Q109838",
+    "covers": [ "Talas" ]
+  }
+}

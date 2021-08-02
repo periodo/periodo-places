@@ -1,0 +1,1291 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Batken%20obl%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  69.286189,
+                  39.539707
+                ],
+                [
+                  69.226296,
+                  39.751011
+                ],
+                [
+                  69.229552,
+                  39.790544
+                ],
+                [
+                  69.240714,
+                  39.82894
+                ],
+                [
+                  69.286447,
+                  39.935755
+                ],
+                [
+                  69.310322,
+                  39.984796
+                ],
+                [
+                  69.518009,
+                  40.125097
+                ],
+                [
+                  69.969558,
+                  40.211603
+                ],
+                [
+                  71.253821,
+                  40.324413
+                ],
+                [
+                  72.186323,
+                  40.29661
+                ],
+                [
+                  72.201722,
+                  40.294388
+                ],
+                [
+                  72.212109,
+                  40.287515
+                ],
+                [
+                  72.550228,
+                  39.768426
+                ],
+                [
+                  72.531935,
+                  39.744241
+                ],
+                [
+                  72.528007,
+                  39.739332
+                ],
+                [
+                  72.521651,
+                  39.735172
+                ],
+                [
+                  72.51297,
+                  39.730521
+                ],
+                [
+                  72.477778,
+                  39.716387
+                ],
+                [
+                  72.342747,
+                  39.66329
+                ],
+                [
+                  72.327865,
+                  39.658355
+                ],
+                [
+                  72.273243,
+                  39.643239
+                ],
+                [
+                  70.977145,
+                  39.394909
+                ],
+                [
+                  70.770129,
+                  39.382093
+                ],
+                [
+                  69.300348,
+                  39.515625
+                ],
+                [
+                  69.286189,
+                  39.539707
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487631",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Batken Region"
+        }
+      ],
+      "properties": {
+        "title": "Batken Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bishkek%20Kyrgyzstan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  74.514553,
+                  42.858599
+                ],
+                [
+                  74.503701,
+                  42.874954
+                ],
+                [
+                  74.519049,
+                  42.887563
+                ],
+                [
+                  74.61372,
+                  42.936656
+                ],
+                [
+                  74.617751,
+                  42.937793
+                ],
+                [
+                  74.620851,
+                  42.935674
+                ],
+                [
+                  74.665861,
+                  42.878727
+                ],
+                [
+                  74.669117,
+                  42.874283
+                ],
+                [
+                  74.671753,
+                  42.869218
+                ],
+                [
+                  74.669427,
+                  42.863741
+                ],
+                [
+                  74.642555,
+                  42.808137
+                ],
+                [
+                  74.639455,
+                  42.805605
+                ],
+                [
+                  74.587933,
+                  42.778784
+                ],
+                [
+                  74.581887,
+                  42.778733
+                ],
+                [
+                  74.575221,
+                  42.783952
+                ],
+                [
+                  74.514553,
+                  42.858599
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q9361",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bishkek"
+        },
+        {
+          "lang": "en",
+          "toponym": "Frunze"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pishpek"
+        }
+      ],
+      "properties": {
+        "title": "Bishkek"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative country subdivision"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15623974",
+          "label": "administrative territorial entity of Kyrgyzstan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5119",
+          "label": "capital"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chuy%20Province.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  73.069731,
+                  42.188123
+                ],
+                [
+                  73.068956,
+                  42.194841
+                ],
+                [
+                  73.069576,
+                  42.200396
+                ],
+                [
+                  73.077948,
+                  42.229929
+                ],
+                [
+                  73.081204,
+                  42.237577
+                ],
+                [
+                  73.559675,
+                  43.017298
+                ],
+                [
+                  73.57094,
+                  43.031922
+                ],
+                [
+                  73.58665,
+                  43.042283
+                ],
+                [
+                  73.965335,
+                  43.216924
+                ],
+                [
+                  74.178759,
+                  43.261702
+                ],
+                [
+                  76.956884,
+                  42.988514
+                ],
+                [
+                  77.089899,
+                  42.968154
+                ],
+                [
+                  77.124005,
+                  42.958904
+                ],
+                [
+                  77.21189,
+                  42.909944
+                ],
+                [
+                  77.222295,
+                  42.884902
+                ],
+                [
+                  77.220434,
+                  42.876401
+                ],
+                [
+                  77.217334,
+                  42.869425
+                ],
+                [
+                  77.133204,
+                  42.81271
+                ],
+                [
+                  77.125143,
+                  42.807852
+                ],
+                [
+                  74.13871,
+                  41.86437
+                ],
+                [
+                  74.133129,
+                  41.86499
+                ],
+                [
+                  73.381805,
+                  42.019141
+                ],
+                [
+                  73.377568,
+                  42.02051
+                ],
+                [
+                  73.126989,
+                  42.119807
+                ],
+                [
+                  73.122493,
+                  42.12208
+                ],
+                [
+                  73.118772,
+                  42.126266
+                ],
+                [
+                  73.073142,
+                  42.182852
+                ],
+                [
+                  73.069731,
+                  42.188123
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q486370",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chui Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chuy Region"
+        }
+      ],
+      "properties": {
+        "title": "Chuy Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Issyk%20kul%20obl%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  75.639084,
+                  42.450587
+                ],
+                [
+                  75.637068,
+                  42.459786
+                ],
+                [
+                  75.696031,
+                  42.520299
+                ],
+                [
+                  75.701767,
+                  42.523606
+                ],
+                [
+                  75.827754,
+                  42.586109
+                ],
+                [
+                  75.836591,
+                  42.590036
+                ],
+                [
+                  76.483528,
+                  42.775348
+                ],
+                [
+                  77.21189,
+                  42.909944
+                ],
+                [
+                  77.418561,
+                  42.922239
+                ],
+                [
+                  78.429559,
+                  42.880665
+                ],
+                [
+                  78.496118,
+                  42.875601
+                ],
+                [
+                  79.148274,
+                  42.790981
+                ],
+                [
+                  79.173389,
+                  42.785632
+                ],
+                [
+                  79.917943,
+                  42.42444
+                ],
+                [
+                  79.960111,
+                  42.403511
+                ],
+                [
+                  80.077003,
+                  42.305765
+                ],
+                [
+                  80.210328,
+                  42.189519
+                ],
+                [
+                  80.256527,
+                  42.084357
+                ],
+                [
+                  80.257561,
+                  42.065263
+                ],
+                [
+                  80.231206,
+                  42.033689
+                ],
+                [
+                  78.231335,
+                  41.172856
+                ],
+                [
+                  77.890161,
+                  41.199656
+                ],
+                [
+                  77.667952,
+                  41.22459
+                ],
+                [
+                  77.355,
+                  41.263218
+                ],
+                [
+                  76.663672,
+                  41.602319
+                ],
+                [
+                  76.022368,
+                  42.011157
+                ],
+                [
+                  76.016167,
+                  42.015575
+                ],
+                [
+                  75.655672,
+                  42.413871
+                ],
+                [
+                  75.652571,
+                  42.418186
+                ],
+                [
+                  75.639084,
+                  42.450587
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487413",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Issyk Kul Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Issyk-Kul Region"
+        }
+      ],
+      "properties": {
+        "title": "Issyk-Kul Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.166549,
+                  41.520206
+                ],
+                [
+                  70.148255,
+                  41.552452
+                ],
+                [
+                  70.169288,
+                  41.578342
+                ],
+                [
+                  70.845474,
+                  42.030356
+                ],
+                [
+                  71.249868,
+                  42.198385
+                ],
+                [
+                  71.250514,
+                  42.198536
+                ],
+                [
+                  71.275164,
+                  42.204272
+                ],
+                [
+                  72.383262,
+                  42.206468
+                ],
+                [
+                  73.043066,
+                  42.146084
+                ],
+                [
+                  73.112261,
+                  42.13934
+                ],
+                [
+                  73.752015,
+                  42.021156
+                ],
+                [
+                  73.760852,
+                  42.018779
+                ],
+                [
+                  73.774701,
+                  42.013353
+                ],
+                [
+                  74.714541,
+                  41.632575
+                ],
+                [
+                  74.742653,
+                  41.618339
+                ],
+                [
+                  74.751954,
+                  41.61175
+                ],
+                [
+                  74.75304,
+                  41.608468
+                ],
+                [
+                  74.752885,
+                  41.602551
+                ],
+                [
+                  74.729165,
+                  41.519843
+                ],
+                [
+                  74.708029,
+                  41.460932
+                ],
+                [
+                  74.695317,
+                  41.432923
+                ],
+                [
+                  74.689891,
+                  41.423932
+                ],
+                [
+                  74.654958,
+                  41.387293
+                ],
+                [
+                  74.647051,
+                  41.381144
+                ],
+                [
+                  74.398643,
+                  41.211645
+                ],
+                [
+                  74.041713,
+                  40.972021
+                ],
+                [
+                  73.135042,
+                  40.835274
+                ],
+                [
+                  72.870311,
+                  40.818181
+                ],
+                [
+                  71.18013,
+                  41.108138
+                ],
+                [
+                  70.770439,
+                  41.238518
+                ],
+                [
+                  70.166549,
+                  41.520206
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q487640",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jalal-Abad Region"
+        }
+      ],
+      "properties": {
+        "title": "Jalal-Abad Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Naryn%20obl%20flag.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  74.041713,
+                  40.972021
+                ],
+                [
+                  73.722095,
+                  41.892172
+                ],
+                [
+                  73.72256,
+                  41.895634
+                ],
+                [
+                  73.800901,
+                  41.957594
+                ],
+                [
+                  74.340765,
+                  42.237913
+                ],
+                [
+                  74.343245,
+                  42.239153
+                ],
+                [
+                  74.819289,
+                  42.423612
+                ],
+                [
+                  74.990441,
+                  42.45374
+                ],
+                [
+                  75.637068,
+                  42.459786
+                ],
+                [
+                  75.939324,
+                  42.384648
+                ],
+                [
+                  75.947385,
+                  42.380979
+                ],
+                [
+                  78.164046,
+                  41.245932
+                ],
+                [
+                  78.171487,
+                  41.240325
+                ],
+                [
+                  78.231335,
+                  41.172856
+                ],
+                [
+                  78.204456,
+                  41.133718
+                ],
+                [
+                  78.190503,
+                  41.11775
+                ],
+                [
+                  78.176034,
+                  41.105502
+                ],
+                [
+                  78.074955,
+                  41.039512
+                ],
+                [
+                  76.330152,
+                  40.348081
+                ],
+                [
+                  76.313512,
+                  40.343327
+                ],
+                [
+                  75.880464,
+                  40.295268
+                ],
+                [
+                  75.681819,
+                  40.291702
+                ],
+                [
+                  75.002378,
+                  40.4473
+                ],
+                [
+                  74.698418,
+                  40.519439
+                ],
+                [
+                  74.603746,
+                  40.548688
+                ],
+                [
+                  74.588864,
+                  40.553907
+                ],
+                [
+                  74.400348,
+                  40.676225
+                ],
+                [
+                  74.359679,
+                  40.702839
+                ],
+                [
+                  74.222064,
+                  40.813349
+                ],
+                [
+                  74.059439,
+                  40.952462
+                ],
+                [
+                  74.055408,
+                  40.956338
+                ],
+                [
+                  74.041713,
+                  40.972021
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q486375",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Naryn Region"
+        }
+      ],
+      "properties": {
+        "title": "Naryn Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osh.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  71.512875,
+                  39.458833
+                ],
+                [
+                  71.492101,
+                  39.493663
+                ],
+                [
+                  71.509654,
+                  39.584998
+                ],
+                [
+                  71.526725,
+                  39.63001
+                ],
+                [
+                  71.52967,
+                  39.636366
+                ],
+                [
+                  71.956672,
+                  40.31568
+                ],
+                [
+                  72.099299,
+                  40.426371
+                ],
+                [
+                  72.351893,
+                  40.601967
+                ],
+                [
+                  73.330594,
+                  41.040183
+                ],
+                [
+                  73.462782,
+                  41.094985
+                ],
+                [
+                  73.634555,
+                  41.135267
+                ],
+                [
+                  73.664527,
+                  41.139711
+                ],
+                [
+                  73.870251,
+                  41.126741
+                ],
+                [
+                  73.880483,
+                  41.123382
+                ],
+                [
+                  74.832312,
+                  40.508116
+                ],
+                [
+                  74.862128,
+                  40.32617
+                ],
+                [
+                  73.838314,
+                  39.475679
+                ],
+                [
+                  73.820744,
+                  39.468186
+                ],
+                [
+                  72.240272,
+                  39.189909
+                ],
+                [
+                  72.228903,
+                  39.189237
+                ],
+                [
+                  71.77043,
+                  39.269542
+                ],
+                [
+                  71.751207,
+                  39.274245
+                ],
+                [
+                  71.732913,
+                  39.285097
+                ],
+                [
+                  71.512875,
+                  39.458833
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q231987",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Osh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Osh Region"
+        }
+      ],
+      "properties": {
+        "title": "Osh Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Talas%20Province%20Kyrgyzstan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Kyrgyzstan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  70.858134,
+                  42.291063
+                ],
+                [
+                  70.852657,
+                  42.306075
+                ],
+                [
+                  71.00319,
+                  42.563527
+                ],
+                [
+                  71.157548,
+                  42.687938
+                ],
+                [
+                  71.245449,
+                  42.747133
+                ],
+                [
+                  71.262502,
+                  42.753567
+                ],
+                [
+                  71.404613,
+                  42.794883
+                ],
+                [
+                  71.847738,
+                  42.834053
+                ],
+                [
+                  72.292362,
+                  42.76106
+                ],
+                [
+                  73.580398,
+                  42.490637
+                ],
+                [
+                  73.67662,
+                  42.450122
+                ],
+                [
+                  73.689332,
+                  42.436738
+                ],
+                [
+                  73.691657,
+                  42.4294
+                ],
+                [
+                  73.692898,
+                  42.417721
+                ],
+                [
+                  73.690107,
+                  42.409815
+                ],
+                [
+                  73.685766,
+                  42.403769
+                ],
+                [
+                  73.634555,
+                  42.34279
+                ],
+                [
+                  73.606029,
+                  42.314678
+                ],
+                [
+                  73.59156,
+                  42.308245
+                ],
+                [
+                  73.112261,
+                  42.13934
+                ],
+                [
+                  72.885867,
+                  42.068776
+                ],
+                [
+                  72.865506,
+                  42.063298
+                ],
+                [
+                  72.834655,
+                  42.05981
+                ],
+                [
+                  72.126895,
+                  42.069836
+                ],
+                [
+                  72.061886,
+                  42.071696
+                ],
+                [
+                  71.249868,
+                  42.198385
+                ],
+                [
+                  70.947793,
+                  42.248146
+                ],
+                [
+                  70.918648,
+                  42.253365
+                ],
+                [
+                  70.897822,
+                  42.261608
+                ],
+                [
+                  70.858134,
+                  42.291063
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q109838",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Talas Region"
+        }
+      ],
+      "properties": {
+        "title": "Talas Region"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q693039",
+          "label": "region of Kyrgyzstan"
+        }
+      ]
+    }
+  ],
+  "title": "Kyrgyz regions",
+  "type": "FeatureCollection"
+}

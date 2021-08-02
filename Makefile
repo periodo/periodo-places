@@ -25,6 +25,7 @@ GAZETTEERS := \
 	gazetteers/israeli-districts.json \
 	gazetteers/italian-regions.json \
 	gazetteers/jordanian-governorates.json \
+	gazetteers/kyrgyz-regions.json \
 	gazetteers/kuwaiti-governorates.json \
 	gazetteers/laotian-provinces.json \
 	gazetteers/lebanese-governorates.json \
