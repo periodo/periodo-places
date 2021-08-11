@@ -122,6 +122,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Spanish autonomous communities gazetteer**<br>
   https://data.perio.do/graphs/places/spanish-communities.json
 
+* **Sudanese states gazetteer**<br>
+  https://data.perio.do/graphs/places/sudanese-states.json
+
 * **Syrian governorates gazetteer**<br>
   https://data.perio.do/graphs/places/syrian-governorates.json
 
@@ -624,6 +627,19 @@ This gazetteer was created by:
 1. merging geometries of the units found in the Natural Earth data into geometries for autonomous communities (see [place-ids/spanish-communities.json](place-ids/spanish-communities.json) for details), and
 
 1. querying Wikidata for instances of [Q10742 autonomous community of Spain](https://www.wikidata.org/wiki/Q10742) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+
+### Sudanese states gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/sudanese-states.json](place-ids/sudanese-states.json) for details), and
+
+1. querying Wikidata for instances of [Q746290 state of Sudan](https://www.wikidata.org/wiki/Q746290) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+Note that this gazetteer does not include the state of West Kordofan, which was abolished in 2005 and reestablished in 2013.
 
 
 ### Syrian governorates gazetteer

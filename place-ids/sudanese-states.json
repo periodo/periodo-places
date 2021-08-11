@@ -1,0 +1,70 @@
+{
+  "Al Qadarif": {
+    "id": "http://www.wikidata.org/entity/Q309478",
+    "covers": [ "Gedarif" ]
+  },
+  "Blue Nile": {
+    "id": "http://www.wikidata.org/entity/Q309489",
+    "covers": [ "Blue Nile" ]
+  },
+  "Central Darfur": {
+    "id": "http://www.wikidata.org/entity/Q4116493",
+    "covers": [ "Central Darfur" ]
+  },
+  "East Darfur": {
+    "id": "http://www.wikidata.org/entity/Q3545641",
+    "covers": [ "Eastern Darfur" ]
+  },
+  "Gezira": {
+    "id": "http://www.wikidata.org/entity/Q309469",
+    "covers": [ "Gezira" ]
+  },
+  "Kassala": {
+    "id": "http://www.wikidata.org/entity/Q954963",
+    "covers": [ "Kassala" ]
+  },
+  "Khartoum": {
+    "id": "http://www.wikidata.org/entity/Q310385",
+    "covers": [ "Khartoum" ]
+  },
+  "North Darfur": {
+    "id": "http://www.wikidata.org/entity/Q688306",
+    "covers": [ "North Darfur" ]
+  },
+  "North Kordofan": {
+    "id": "http://www.wikidata.org/entity/Q864093",
+    "covers": [ "North Kordufan" ]
+  },
+  "Northern": {
+    "id": "http://www.wikidata.org/entity/Q310118",
+    "covers": [ "Northern" ]
+  },
+  "Red Sea": {
+    "id": "http://www.wikidata.org/entity/Q310120",
+    "covers": [ "Red Sea" ]
+  },
+  "River Nile": {
+    "id": "http://www.wikidata.org/entity/Q849297",
+    "covers": [ "River Nile" ]
+  },
+  "Sennar": {
+    "id": "http://www.wikidata.org/entity/Q865534",
+    "covers": [ "Sennar" ]
+  },
+  "South Darfur": {
+    "id": "http://www.wikidata.org/entity/Q838778",
+    "covers": [ "Southern Darfur" ]
+  },
+  "South Kordofan": {
+    "id": "http://www.wikidata.org/entity/Q465490",
+    "covers": [ "South Kordufan" ]
+  },
+  "West Darfur": {
+    "id": "http://www.wikidata.org/entity/Q846331",
+    "covers": [ "Western Darfur" ]
+  },
+  "White Nile": {
+    "id": "http://www.wikidata.org/entity/Q311371",
+    "covers": [ "White Nile" ]
+  }
+}

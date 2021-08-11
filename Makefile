@@ -42,6 +42,7 @@ GAZETTEERS := \
 	gazetteers/saudi-arabian-provinces.json \
 	gazetteers/spanish-communities.json \
 	gazetteers/subregions.json \
+	gazetteers/sudanese-states.json \
 	gazetteers/syrian-governorates.json \
 	gazetteers/tajikistani-regions.json \
 	gazetteers/thai-provinces.json \
