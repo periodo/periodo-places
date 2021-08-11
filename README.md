@@ -639,7 +639,7 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q746290 state of Sudan](https://www.wikidata.org/wiki/Q746290) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
-Note that this gazetteer does not include the state of West Kordofan, which was abolished in 2005 and reestablished in 2013.
+Note that this gazetteer does not include the state of West Kordofan, which was abolished in 2005 and reestablished in 2013, nor does it include the disputed Abyei Area.
 
 
 ### Syrian governorates gazetteer
