@@ -582,7 +582,7 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q270496 administrative territorial entity of Pakistan](https://www.wikidata.org/wiki/Q270496) that are also instances of [Q10864048 first-level administrative country subdivision](https://www.wikidata.org/wiki/Q10864048) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
-Note that the Federally Administered Tribal Areas are included as a separate territory, as theywere prior to their 2018 merger with the province of Khyber Pakhtunkhwa.
+Note that the Federally Administered Tribal Areas are included as a separate territory, as they were prior to their 2018 merger with the province of Khyber Pakhtunkhwa.
 
 
 ### Philippine regions gazetteer
