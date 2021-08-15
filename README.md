@@ -396,7 +396,7 @@ This gazetteer was created by:
 
 1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/indonesian-provinces.json](place-ids/indonesian-provinces.json) for details), and
 
-1. querying Wikidata for instances of [Q131541 province of Indonesia](https://www.wikidata.org/wiki/Q131541) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+1. querying Wikidata for instances of [Q5098 province of Indonesia](https://www.wikidata.org/wiki/Q5098) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the province of North Kalimantan (separated from East Kalimantan in 2012) is not included, as the geometry for this administrative unit is not yet included in the Natural Earth data.
 
