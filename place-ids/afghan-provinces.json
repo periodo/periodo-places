@@ -1,0 +1,138 @@
+{
+  "Badakhshan": {
+    "id": "http://www.wikidata.org/entity/Q165376",
+    "covers": [ "Badakhshan" ]
+  },
+  "Badghis": {
+    "id": "http://www.wikidata.org/entity/Q172052",
+    "covers": [ "Badghis" ]
+  },
+  "Baghlan": {
+    "id": "http://www.wikidata.org/entity/Q170309",
+    "covers": [ "Wilayat-e Baghlan" ]
+  },
+  "Balkh": {
+    "id": "http://www.wikidata.org/entity/Q121104",
+    "covers": [ "Balkh" ]
+  },
+  "Bamyan": {
+    "id": "http://www.wikidata.org/entity/Q171382",
+    "covers": [ "Wilayat-e Bamyan" ]
+  },
+  "Daykundi": {
+    "id": "http://www.wikidata.org/entity/Q181220",
+    "covers": [ "Wilayat-e Daykundi" ]
+  },
+  "Farah": {
+    "id": "http://www.wikidata.org/entity/Q180330",
+    "covers": [ "Farah" ]
+  },
+  "Faryab": {
+    "id": "http://www.wikidata.org/entity/Q173830",
+    "covers": [ "Faryab Province" ]
+  },
+  "Ghazni": {
+    "id": "http://www.wikidata.org/entity/Q180415",
+    "covers": [ "Wilayat-e Ghazni" ]
+  },
+  "Ghōr": {
+    "id": "http://www.wikidata.org/entity/Q186392",
+    "covers": [ "Wilayat-e Ghor" ]
+  },
+  "Helmand": {
+    "id": "http://www.wikidata.org/entity/Q173821",
+    "covers": [ "Helmand" ]
+  },
+  "Herat": {
+    "id": "http://www.wikidata.org/entity/Q182844",
+    "covers": [ "Herat" ]
+  },
+  "Jowzjan": {
+    "id": "http://www.wikidata.org/entity/Q183036",
+    "covers": [ "Wilayat-e Jowzjan" ]
+  },
+  "Kabul": {
+    "id": "http://www.wikidata.org/entity/Q188933",
+    "covers": [ "Wilayat-e Kabul" ]
+  },
+  "Kandahar": {
+    "id": "http://www.wikidata.org/entity/Q173808",
+    "covers": [ "Kandahar" ]
+  },
+  "Kapisa": {
+    "id": "http://www.wikidata.org/entity/Q173816",
+    "covers": [ "Wilayat-e Kapisa" ]
+  },
+  "Khost": {
+    "id": "http://www.wikidata.org/entity/Q185752",
+    "covers": [ "Velayat-e Khowst" ]
+  },
+  "Kunar": {
+    "id": "http://www.wikidata.org/entity/Q188147",
+    "covers": [ "Wilayat-e Kunar" ]
+  },
+  "Kunduz Province": {
+    "id": "http://www.wikidata.org/entity/Q186418",
+    "covers": [ "Kunduz" ]
+  },
+  "Laghman": {
+    "id": "http://www.wikidata.org/entity/Q185442",
+    "covers": [ "Wilayat-e Laghman" ]
+  },
+  "Logar": {
+    "id": "http://www.wikidata.org/entity/Q6667298",
+    "covers": [ "Wilayat-e Logar" ]
+  },
+  "Maidan Wardak": {
+    "id": "http://www.wikidata.org/entity/Q183056",
+    "covers": [ "Wardak" ]
+  },
+  "Nangarhar": {
+    "id": "http://www.wikidata.org/entity/Q178471",
+    "covers": [ "Nangarhar" ]
+  },
+  "Nimruz": {
+    "id": "http://www.wikidata.org/entity/Q183021",
+    "covers": [ "Wilayat-e Nimroz" ]
+  },
+  "Nuristan": {
+    "id": "http://www.wikidata.org/entity/Q167485",
+    "covers": [ "Velayat-e Nurestan" ]
+  },
+  "Paktia": {
+    "id": "http://www.wikidata.org/entity/Q182493",
+    "covers": [ "Wilayat-e Paktiya" ]
+  },
+  "Paktika": {
+    "id": "http://www.wikidata.org/entity/Q185575",
+    "covers": [ "Wilayat-e Paktika" ]
+  },
+  "Panjshir": {
+    "id": "http://www.wikidata.org/entity/Q181235",
+    "covers": [ "Panjshir" ]
+  },
+  "Parwan": {
+    "id": "http://www.wikidata.org/entity/Q188157",
+    "covers": [ "Parwan" ]
+  },
+  "Samangan": {
+    "id": "http://www.wikidata.org/entity/Q183015",
+    "covers": [ "Samangan" ]
+  },
+  "Sar-e Pol": {
+    "id": "http://www.wikidata.org/entity/Q182487",
+    "covers": [ "Sar-e Pul" ]
+  },
+  "Takhar": {
+    "id": "http://www.wikidata.org/entity/Q186395",
+    "covers": [ "Wilayat-e Takhar" ]
+  },
+  "Urozgan": {
+    "id": "http://www.wikidata.org/entity/Q183028",
+    "covers": [ "Uruzgan" ]
+  },
+  "Zabul": {
+    "id": "http://www.wikidata.org/entity/Q139126",
+    "covers": [ "Wilayat-e Zabul" ]
+  }
+}

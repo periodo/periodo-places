@@ -17,6 +17,9 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **Countries gazetteer**<br>
   https://data.perio.do/graphs/places/countries.json
 
+* **Afghan provinces gazetteer**<br>
+  https://data.perio.do/graphs/places/afghan-provinces.json
+
 * **Algerian provinces gazetteer**<br>
   https://data.perio.do/graphs/places/algerian-provinces.json
 
@@ -213,6 +216,17 @@ This gazetteer was created by:
 1. using the ISO 3166-1 alpha-2 codes from the Natural Earth data to query Wikidata for the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 The reason for the merging of countries and map units in step one is that in some cases (e.g. France) we want to separate the contiguous primary country geometry from the geometries of former colonial or territorial holdings around the world, and the procedure above achieves this. As a result the list also includes countries like Scotland and Wales, even though these are technically parts of the sovereign country of the United Kingdom.
+
+
+### Afghan provinces gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) for [states and provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the Natural Earth data (see [place-ids/afghan-provinces.json](place-ids/afghan-provinces.json) for details), and
+
+1. querying Wikidata for instances of [Q158683 province of Afghanistan](https://www.wikidata.org/wiki/Q158683) to add the additional metadata required by the [Linked Places gazetteer format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 
 ### Algerian provinces gazetteer
