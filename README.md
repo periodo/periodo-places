@@ -149,7 +149,7 @@ This repository contains custom placename gazetteers used for indicating the spa
 * **U.S. states gazetteer**<br>
   https://data.perio.do/graphs/places/us-states.json
 
-* ** Uzbek regions gazetteer**<br>
+* **Uzbek regions gazetteer**<br>
   https://data.perio.do/graphs/places/uzbek-regions.json
 
 * **Vietnamese provinces and municipalities gazetteer**<br>
