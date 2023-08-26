@@ -1762,6 +1762,130 @@
           "label": "sovereign state"
         }
       ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient Syrian city"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  40.729312627565854,
+                  34.75206266878957
+                ],
+                [
+                  40.73063220931204,
+                  34.75170866175762
+                ],
+                [
+                  40.73193003565691,
+                  34.75148403796717
+                ],
+                [
+                  40.732529032431465,
+                  34.75110966498307
+                ],
+                [
+                  40.73387677517422,
+                  34.75048571000957
+                ],
+                [
+                  40.736497386062894,
+                  34.7493126746594
+                ],
+                [
+                  40.73547409990636,
+                  34.74589340140465
+                ],
+                [
+                  40.73614797127773,
+                  34.74342253970961
+                ],
+                [
+                  40.733078112808144,
+                  34.74107646900928
+                ],
+                [
+                  40.72773705823503,
+                  34.7410265526114
+                ],
+                [
+                  40.724816948959074,
+                  34.74185017317642
+                ],
+                [
+                  40.72197171427994,
+                  34.744395909468274
+                ],
+                [
+                  40.72154742489796,
+                  34.74584348500678
+                ],
+                [
+                  40.72162229949478,
+                  34.74923780006259
+                ],
+                [
+                  40.72553275000795,
+                  34.75097636782003
+                ],
+                [
+                  40.72847800463163,
+                  34.75213085589315
+                ],
+                [
+                  40.729312627565854,
+                  34.75206266878957
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Dura-general+polygon.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q464266",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dura Europos"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dura"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dura-Europos"
+        }
+      ],
+      "properties": {
+        "title": "Dura-Europos"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
+        }
+      ]
     }
   ],
   "title": "Historical places",
