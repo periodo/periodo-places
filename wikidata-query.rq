@@ -16,7 +16,8 @@ CONSTRUCT {
     wdt:P1332 ?north ;
     wdt:P1333 ?south ;
     wdt:P1334 ?east ;
-    wdt:P1335 ?west .
+    wdt:P1335 ?west ;
+    wdt:P3896 ?geo .
 
   ?type rdfs:label ?typeLabel .
 }
@@ -44,6 +45,8 @@ WHERE {
       wdt:P1334 ?east ;
       wdt:P1335 ?west .
   }
+
+  OPTIONAL { ?place wdt:P3896 ?geo . }
 
   OPTIONAL {
     ?place skos:altLabel ?altLabel .

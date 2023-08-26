@@ -106,6 +106,7 @@ const context = {
   southernmostPoint: 'wdt:P1333',
   easternmostPoint: 'wdt:P1334',
   westernmostPoint: 'wdt:P1335',
+  geoshape: 'wdt:P3896',
 
   types: {
     '@id': 'lpo:type_attestation',
@@ -235,6 +236,49 @@ const addGeometryFromExtremePoints = place => {
   }
 }
 
+const COMMONS_QS = {
+  action: 'query',
+  prop: 'revisions',
+  rvslots: '*',
+  rvprop: 'content',
+  format: 'json',
+  origin: '*',
+}
+
+const addGeometryFromWikimediaCommons = place => new Promise((resolve, _) => {
+  if (R.has('geoshape', place)) {
+    const titles = place.geoshape.id.split('/').pop()
+    request({
+      uri: 'https://commons.wikimedia.org/w/api.php',
+      qs: { titles , ...COMMONS_QS },
+      json: true,
+      qsStringifyOptions: { encode: false }
+    }).then(o => {
+      let geo = null
+      for (const [_, v] of Object.entries(o.query.pages)) {
+        geo = JSON.parse(v.revisions[0].slots.main['*'])
+        break
+      }
+      if (geo) {
+        resolve(
+          R.assoc(
+            'geometry',
+            {
+              type: 'GeometryCollection',
+              geometries:[geo.data.features[0].geometry]
+            },
+            place
+          )
+        )
+      } else {
+        resolve(place)
+      }
+    }).catch(console.error)
+   } else {
+    resolve(place)
+   }
+})
+
 const getWikidataPlace = (id = null, types = [], constraints = []) => (
   new Promise((resolve, reject) =>
     queryWikidata(id, types, constraints)
@@ -246,6 +290,7 @@ const getWikidataPlace = (id = null, types = [], constraints = []) => (
       .then(stripBlankNodeIDs)
       .then(R.map(wktToGeoJSON))
       .then(addGeometryFromExtremePoints)
+      .then(addGeometryFromWikimediaCommons)
       //.then(R.tap(console.error))
       .then(resolve)
       .catch(reject)
