@@ -39,6 +39,7 @@ GAZETTEERS := \
 	gazetteers/other-regions.json \
 	gazetteers/pakistani-provinces.json \
 	gazetteers/philippine-regions.json \
+	gazetteers/romanian-counties.json \
 	gazetteers/russian-federal-subjects.json \
 	gazetteers/saudi-arabian-provinces.json \
 	gazetteers/spanish-communities.json \
@@ -165,11 +166,11 @@ geometries/us-states.json: \
 	geometries/us-territories.json
 	jq -s '.[0] * .[1]' $^ > $@
 
+geometries/romanian-counties.json: place-ids/romanian-counties.json
 geometries/historical.json: place-ids/historical.json
-	mkdir -p geometries
-	cat $< > $@
-
 geometries/other-regions.json: place-ids/other-regions.json
+
+geometries/romanian-counties.json geometries/historical.json geometries/other-regions.json:
 	mkdir -p geometries
 	cat $< > $@
 
