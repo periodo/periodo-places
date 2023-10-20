@@ -54,6 +54,7 @@ const GAZETTEERS = {
   'other-regions': 'Other regions',
   'pakistani-provinces': 'Pakistani provinces and territories',
   'philippine-regions': 'Philippine regions',
+  'romanian-counties': 'Romanian counties',
   'russian-federal-subjects': 'Russian federal subjects',
   'saudi-arabian-provinces': 'Saudi Arabian provinces',
   'spanish-communities': 'Spanish autonomous communities',
@@ -247,7 +248,7 @@ const COMMONS_QS = {
 
 const addGeometryFromWikimediaCommons = place => new Promise((resolve, _) => {
   if (R.has('geoshape', place)) {
-    const titles = place.geoshape.id.split('/').pop()
+    const titles = `Data:${place.geoshape.id.split('/Data:').pop()}`
     request({
       uri: 'https://commons.wikimedia.org/w/api.php',
       qs: { titles , ...COMMONS_QS },
@@ -612,6 +613,13 @@ const getWikidataAfghanProvince = id => getWikidataPlace(
   ['wd:Q158683'] // province of Afghanistan
 )
 
+const getWikidataRomanianCounty = id => getWikidataPlace(
+  id,
+  id === 'http://www.wikidata.org/entity/Q19660' // Bucharest
+    ? ['wd:Q640364']  // municipality of Romania
+    : ['wd:Q1776764'] // județ
+)
+
 const makeFeature = (place, gazetteer) => new Promise(
   resolve => {
     let promise, ccode
@@ -777,6 +785,9 @@ const makeFeature = (place, gazetteer) => new Promise(
         break
       case 'afghan-provinces':
         promise = getWikidataAfghanProvince(place.id)
+        break
+      case 'romanian-counties':
+        promise = getWikidataRomanianCounty(place.id)
         break
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`)

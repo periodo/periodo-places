@@ -804,6 +804,16 @@ This gazetteer was created by:
    additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
+### Romanian counties gazetteer
+
+This gazetteer was created by querying Wikidata for instances of
+   [Q1776764 județ](http://www.wikidata.org/entity/Q1776764) (or
+   [Q640364 municipality of
+   Romania](http://www.wikidata.org/entity/Q640364) in the case of
+   Bucharest), both to get geometries and to add the additional
+   metadata required by the [Linked Places gazetteer
+   format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
 ### Russian federal subjects gazetteer
 
 This gazetteer was created by:
