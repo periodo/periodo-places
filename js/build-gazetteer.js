@@ -796,6 +796,7 @@ const makeFeature = (place, gazetteer) => new Promise(
       if (ccode || place.code) {
         feature.properties.ccode = ccode || place.code
       }
+      // add geometry from input data, if provided
       if (place.geometry) {
         feature.geometry = {
           type: 'GeometryCollection',
