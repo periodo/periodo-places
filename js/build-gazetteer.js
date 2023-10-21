@@ -266,7 +266,7 @@ const addGeometryFromWikimediaCommons = place => new Promise((resolve, _) => {
             'geometry',
             {
               type: 'GeometryCollection',
-              geometries:[geo.data.features[0].geometry]
+              geometries:[convexHull(geo.data.features[0].geometry)]
             },
             place
           )
@@ -796,6 +796,7 @@ const makeFeature = (place, gazetteer) => new Promise(
       if (ccode || place.code) {
         feature.properties.ccode = ccode || place.code
       }
+      // add geometry from input data, if provided
       if (place.geometry) {
         feature.geometry = {
           type: 'GeometryCollection',
