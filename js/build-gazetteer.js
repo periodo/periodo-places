@@ -266,7 +266,7 @@ const addGeometryFromWikimediaCommons = place => new Promise((resolve, _) => {
             'geometry',
             {
               type: 'GeometryCollection',
-              geometries:[geo.data.features[0].geometry]
+              geometries:[convexHull(geo.data.features[0].geometry)]
             },
             place
           )
