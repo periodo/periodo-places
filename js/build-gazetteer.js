@@ -309,7 +309,8 @@ const getWikidataCountry = (code) =>
     null,
     [
       "wd:Q6256", // country
-      "wd:Q15634554", // state with limited recognition
+      "wd:Q10711424", // state with limited recognition
+      "wd:Q15239622", // disputed territory
       "wd:Q1763527", // constituent state
       "wd:Q185086", // British crown dependency
       "wd:Q46395", // British overseas territory
