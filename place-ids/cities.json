@@ -27,6 +27,10 @@
     "id": "http://www.wikidata.org/entity/Q42168",
     "covers": ["Clermont-Ferrand"]
   },
+  "Córdoba": {
+    "id": "http://www.wikidata.org/entity/Q44210",
+    "covers": ["Cordoba3"]
+  },
   "Emden": {
     "id": "http://www.wikidata.org/entity/Q4174",
     "covers": ["Emden"]
