@@ -280,6 +280,10 @@
           "label": "culture"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q11514315",
+          "label": "historical period"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1620908",
           "label": "historical region"
         },
@@ -428,16 +432,61 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q11042",
-          "label": "culture"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7275",
+          "label": "state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q96196009",
+          "label": "former or current state"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "oppidum"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q650053",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bibracte (zaniklé město)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bibracte"
+        }
+      ],
+      "properties": {
+        "title": "Bibracte"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q192601",
+          "label": "oppidum"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q33506",
+          "label": "museum"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -477,7 +526,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Romania"
+          "toponym": "Romanía"
         }
       ],
       "properties": {
@@ -492,6 +541,47 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital of the Eastern Roman, Latin and Ottoman Empires, currently Istanbul, Turkey"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q16869",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Constantinople"
+        },
+        {
+          "lang": "en",
+          "toponym": "Constantinopolis"
+        },
+        {
+          "lang": "en",
+          "toponym": "The City of the World's Desire"
+        }
+      ],
+      "properties": {
+        "title": "Constantinople"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
         }
       ]
     },
@@ -530,6 +620,64 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Damascus%20%28until%202024%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "capital and largest city of Syria"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q3766",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Damascus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jasmine city"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sham city"
+        }
+      ],
+      "properties": {
+        "title": "Damascus"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q16127605",
+          "label": "populated place in Syria"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ]
     },
@@ -620,6 +768,10 @@
         {
           "lang": "en",
           "toponym": "Dura-Europos"
+        },
+        {
+          "lang": "en",
+          "toponym": "al Athar (the ruins)"
         }
       ],
       "properties": {
@@ -633,7 +785,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q56061",
-          "label": "administrative division"
+          "label": "administrative territorial entity"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q839954",
@@ -645,7 +797,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient pre-Iranian civilization between 2700 and 539 BC"
+          "value": "ancient pre-Iranian civilization between 3200 and 539 BC"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q128904",
@@ -706,6 +858,10 @@
           "label": "historical region"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
         },
@@ -747,7 +903,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Banner%20of%20the%20Holy%20Roman%20Emperor%20with%20haloes%20%281400-1806%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Banner%20of%20the%20Holy%20Roman%20Emperor%20with%20haloes%20%281430-1806%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Heiliges%20R%C3%B6misches%20Reich%20-%20Reichssturmfahne%20vor%201433%20%28Nimbierter%20Adler%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6nigsbanner%2014Jh.svg"
         }
       ],
       "descriptions": [
@@ -761,10 +923,6 @@
         {
           "lang": "en",
           "toponym": "First Reich"
-        },
-        {
-          "lang": "en",
-          "toponym": "Holy Roman Empire of the German Nation"
         },
         {
           "lang": "en",
@@ -846,11 +1004,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Indus Valley"
+          "toponym": "Indus Valley Civilization"
         }
       ],
       "properties": {
-        "title": "Indus Valley"
+        "title": "Indus Valley Civilization"
       },
       "type": "Feature",
       "types": [
@@ -869,11 +1027,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Si%C3%B1al%20d%27Arag%C3%B3n.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1001,14 +1154,15 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q417175",
+          "label": "kingdom"
         }
       ]
     },
     {
       "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kingdom%20of%20Jerusalem.svg"
-        },
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vexillum%20Regni%20Hierosolymae.svg"
         }
@@ -1076,6 +1230,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Tell Lachish"
+        },
+        {
+          "lang": "en",
           "toponym": "Tell Lakhish"
         }
       ],
@@ -1099,15 +1257,10 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vergina%20Sun%20WIPO.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient Greek kingdom"
+          "value": "Ancient Hellenic kingdom"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q83958",
@@ -1233,8 +1386,16 @@
           "label": "cultural landscape"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -1249,11 +1410,35 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Minoan Crete"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoan age"
+        },
+        {
+          "lang": "en",
           "toponym": "Minoan civilisation"
         },
         {
           "lang": "en",
           "toponym": "Minoan civilization"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoan culture"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoan period"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minoans"
         }
       ],
       "properties": {
@@ -1287,7 +1472,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Historical state in Mesopotamia"
+          "value": "historical state in Mesopotamia"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q10914393",
@@ -1350,6 +1535,43 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q839954",
           "label": "archaeological site"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "world heritage site"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q15726304",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Old City of Jerusalem and its Walls"
+        }
+      ],
+      "properties": {
+        "title": "Old City of Jerusalem and its Walls"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q210272",
+          "label": "cultural heritage"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q676050",
+          "label": "old town"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q9259",
+          "label": "World Heritage Site"
         }
       ]
     },
@@ -1422,8 +1644,8 @@
           "label": "ancient city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
+          "identifier": "http://www.wikidata.org/entity/Q93342462",
+          "label": "Ancient Greek archaeological site"
         }
       ]
     },
@@ -1453,6 +1675,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Church States"
+        },
+        {
+          "lang": "en",
           "toponym": "Ecclesiastical States"
         },
         {
@@ -1466,6 +1692,10 @@
         {
           "lang": "en",
           "toponym": "State of the Church"
+        },
+        {
+          "lang": "en",
+          "toponym": "States of the Church"
         },
         {
           "lang": "en",
@@ -1539,10 +1769,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Senatus Populusque Romanus"
-        },
-        {
-          "lang": "en",
           "toponym": "imperium romanum"
         }
       ],
@@ -1565,7 +1791,52 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient civilization and historical region in southern Mesopotamia"
+          "value": "period of ancient Roman civilization (509 BC–27 BC)"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q17167",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Roman Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rome"
+        },
+        {
+          "lang": "en",
+          "toponym": "res publica"
+        }
+      ],
+      "properties": {
+        "title": "Roman Republic"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11514315",
+          "label": "historical period"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1307214",
+          "label": "form of government"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "ancient Mesopotamian civilization from 5500 to 1800 BC"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q35355",
@@ -1674,23 +1945,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Ancient Troya National Park"
-        },
-        {
-          "lang": "en",
-          "toponym": "Archaeological Site of Troy"
-        },
-        {
-          "lang": "en",
           "toponym": "City of Troy"
-        },
-        {
-          "lang": "en",
-          "toponym": "Classical troy"
-        },
-        {
-          "lang": "en",
-          "toponym": "Iliam"
         },
         {
           "lang": "en",
@@ -1698,27 +1953,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Ilios"
-        },
-        {
-          "lang": "en",
           "toponym": "Ilium"
-        },
-        {
-          "lang": "en",
-          "toponym": "People of Troy"
-        },
-        {
-          "lang": "en",
-          "toponym": "Teucri"
-        },
-        {
-          "lang": "en",
-          "toponym": "Teucrian"
-        },
-        {
-          "lang": "en",
-          "toponym": "Teucrians"
         },
         {
           "lang": "en",
@@ -1726,35 +1961,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Troia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Troie"
-        },
-        {
-          "lang": "en",
-          "toponym": "Trojan people"
-        },
-        {
-          "lang": "en",
-          "toponym": "Troy Ilium"
-        },
-        {
-          "lang": "en",
           "toponym": "Troy"
-        },
-        {
-          "lang": "en",
-          "toponym": "Troía"
-        },
-        {
-          "lang": "en",
-          "toponym": "Truva"
-        },
-        {
-          "lang": "en",
-          "toponym": "Wilusha"
         }
       ],
       "properties": {
