@@ -35,6 +35,7 @@ GAZETTEERS := \
 	gazetteers/myanma-states.json \
 	gazetteers/nigerian-states.json \
 	gazetteers/nigerien-regions.json \
+	gazetteers/norwegian-regions.json \
 	gazetteers/omani-governorates.json \
 	gazetteers/other-regions.json \
 	gazetteers/pakistani-provinces.json \
@@ -169,8 +170,12 @@ geometries/us-states.json: \
 geometries/romanian-counties.json: place-ids/romanian-counties.json
 geometries/historical.json: place-ids/historical.json
 geometries/other-regions.json: place-ids/other-regions.json
+geometries/norwegian-regions.json: place-ids/norwegian-regions.json
 
-geometries/romanian-counties.json geometries/historical.json geometries/other-regions.json:
+geometries/romanian-counties.json \
+geometries/historical.json \
+geometries/other-regions.json \
+geometries/norwegian-regions.json:
 	mkdir -p geometries
 	cat $< > $@
 

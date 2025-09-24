@@ -49,6 +49,7 @@ const GAZETTEERS = {
   "myanma-states": "Myanma states and regions",
   "nigerian-states": "Nigerian states",
   "nigerien-regions": "Nigerien regions",
+  "norwegian-regions": "Norwegian regions",
   "omani-governorates": "Omani governorates",
   "other-regions": "Other regions",
   "pakistani-provinces": "Pakistani provinces and territories",
@@ -257,6 +258,7 @@ const addGeometryFromWikimediaCommons = (place) =>
       request({
         uri: "https://commons.wikimedia.org/w/api.php",
         qs: { titles, ...COMMONS_QS },
+        headers: { "user-agent": userAgent },
         json: true,
         qsStringifyOptions: { encode: false },
       })
@@ -663,6 +665,12 @@ const getWikidataRomanianCounty = (id) =>
       : ["wd:Q1776764"], // județ
   );
 
+const getWikidataNorwegianRegion = (id) =>
+  getWikidataPlace(
+    id,
+    ["wd:Q369639"], // region of Norway
+  );
+
 const makeFeature = (place, gazetteer) =>
   new Promise((resolve) => {
     let promise, ccode;
@@ -831,6 +839,9 @@ const makeFeature = (place, gazetteer) =>
         break;
       case "romanian-counties":
         promise = getWikidataRomanianCounty(place.id);
+        break;
+      case "norwegian-regions":
+        promise = getWikidataNorwegianRegion(place.id);
         break;
       default:
         throw new Error(`unknown gazetteer: ${gazetteer}`);

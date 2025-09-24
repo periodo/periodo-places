@@ -1,0 +1,576 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Norway"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q216065",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Norway"
+        }
+      ],
+      "properties": {
+        "title": "Eastern Norway"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q369639",
+          "label": "region of Norway"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Northern%20Norway.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Norway"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  12.085053614652617,
+                  64.99994766123308
+                ],
+                [
+                  10.579114245720543,
+                  65.47118480375202
+                ],
+                [
+                  11.306784347807781,
+                  67.45533260535416
+                ],
+                [
+                  11.374068485223946,
+                  67.55489232611357
+                ],
+                [
+                  11.50700069951023,
+                  67.63086281671124
+                ],
+                [
+                  12.608050009974288,
+                  68.25130963660263
+                ],
+                [
+                  13.866774280946547,
+                  68.86077134003824
+                ],
+                [
+                  14.750507323464433,
+                  69.23813731821348
+                ],
+                [
+                  18.27212490745213,
+                  70.37954727842218
+                ],
+                [
+                  18.847174428422043,
+                  70.48719806957196
+                ],
+                [
+                  23.748758904622157,
+                  71.28283381506634
+                ],
+                [
+                  25.682708127663936,
+                  71.384878756345
+                ],
+                [
+                  27.74556419406458,
+                  71.33120419900835
+                ],
+                [
+                  28.467216524662277,
+                  71.2792719596813
+                ],
+                [
+                  30.47007824922767,
+                  70.86327754283532
+                ],
+                [
+                  31.568179909995543,
+                  70.53906377522493
+                ],
+                [
+                  31.743123712199626,
+                  70.43769695328878
+                ],
+                [
+                  31.75226399609337,
+                  70.3525887993173
+                ],
+                [
+                  31.585586275388884,
+                  70.14375032461126
+                ],
+                [
+                  30.938942718979767,
+                  69.56102731320753
+                ],
+                [
+                  29.04143738685088,
+                  69.01082973297262
+                ],
+                [
+                  14.325985837435825,
+                  65.11891515088763
+                ],
+                [
+                  12.76832434414038,
+                  64.9407750121661
+                ],
+                [
+                  12.628669435560692,
+                  64.93949726797241
+                ],
+                [
+                  12.276820703895435,
+                  64.95978663511262
+                ],
+                [
+                  12.187387584702988,
+                  64.97810394350365
+                ],
+                [
+                  12.085053614652617,
+                  64.99994766123308
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nord-Norge.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q214041",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Norway"
+        }
+      ],
+      "properties": {
+        "title": "Northern Norway"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q369639",
+          "label": "region of Norway"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Norway"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  6.472214483961419,
+                  57.88634237379508
+                ],
+                [
+                  6.14970490204483,
+                  58.02785083355186
+                ],
+                [
+                  6.43606928861761,
+                  58.649328161666745
+                ],
+                [
+                  6.560838005326175,
+                  58.90995172460092
+                ],
+                [
+                  6.882832573713636,
+                  59.42929754800439
+                ],
+                [
+                  6.991842165924505,
+                  59.59702911181879
+                ],
+                [
+                  7.098724290462411,
+                  59.65129363725159
+                ],
+                [
+                  7.138391779228628,
+                  59.662271580851865
+                ],
+                [
+                  7.2146666501022,
+                  59.67268697626103
+                ],
+                [
+                  7.441711403306814,
+                  59.65879510525935
+                ],
+                [
+                  8.994883665449912,
+                  58.993227169839
+                ],
+                [
+                  9.668876552798709,
+                  58.6033108409151
+                ],
+                [
+                  8.930945226765298,
+                  58.16921734846575
+                ],
+                [
+                  8.437784671975471,
+                  57.93459829846905
+                ],
+                [
+                  7.676569760134864,
+                  57.764669435333175
+                ],
+                [
+                  7.180598244310327,
+                  57.76245810773151
+                ],
+                [
+                  6.927560385833038,
+                  57.78856088069226
+                ],
+                [
+                  6.472214483961419,
+                  57.88634237379508
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:S%C3%B8rlandet.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q648851",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Southern Norway"
+        }
+      ],
+      "properties": {
+        "title": "Southern Norway"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q369639",
+          "label": "region of Norway"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Norway"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  8.10266458134982,
+                  63.129376147318936
+                ],
+                [
+                  7.648096356924481,
+                  63.76816920532237
+                ],
+                [
+                  8.116069393216174,
+                  64.0449470799046
+                ],
+                [
+                  10.579114245720543,
+                  65.47118480375202
+                ],
+                [
+                  14.164296948885328,
+                  65.13924895004479
+                ],
+                [
+                  14.325985837435825,
+                  65.11891515088763
+                ],
+                [
+                  14.157110092020114,
+                  64.19505543616846
+                ],
+                [
+                  13.967526720516226,
+                  64.00797039337553
+                ],
+                [
+                  12.25466526223152,
+                  62.331024925222934
+                ],
+                [
+                  12.130958699508161,
+                  62.31004406260595
+                ],
+                [
+                  9.60192097835385,
+                  62.25572673026219
+                ],
+                [
+                  9.062061789176802,
+                  62.37260842330611
+                ],
+                [
+                  8.202958268380423,
+                  63.0228052437285
+                ],
+                [
+                  8.10266458134982,
+                  63.129376147318936
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Midt-Norge.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q50199070",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Trøndelag"
+        }
+      ],
+      "properties": {
+        "title": "Trøndelag"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q369639",
+          "label": "region of Norway"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Western%20Norway.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Norway"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  4.47047849542296,
+                  59.22107871612095
+                ],
+                [
+                  4.093010742749114,
+                  61.00255545939709
+                ],
+                [
+                  4.149026858673944,
+                  61.670650379297854
+                ],
+                [
+                  4.66703003160909,
+                  62.27066904295239
+                ],
+                [
+                  4.914478722519692,
+                  62.452257541378266
+                ],
+                [
+                  5.963660169247092,
+                  62.96180131771304
+                ],
+                [
+                  7.648096356924481,
+                  63.76816920532237
+                ],
+                [
+                  8.742727377371253,
+                  63.44748110028737
+                ],
+                [
+                  8.911064978461058,
+                  63.35650155626183
+                ],
+                [
+                  9.307855732112325,
+                  62.90526073112319
+                ],
+                [
+                  9.331183469815832,
+                  62.862126581353074
+                ],
+                [
+                  9.364831470657707,
+                  62.79410666455521
+                ],
+                [
+                  9.18362559637337,
+                  62.426645681940386
+                ],
+                [
+                  6.6085243927174,
+                  58.37217496022648
+                ],
+                [
+                  6.543394175334647,
+                  58.31950058255551
+                ],
+                [
+                  6.14970490204483,
+                  58.02785083355186
+                ],
+                [
+                  5.610456227495956,
+                  58.27979081468264
+                ],
+                [
+                  5.352089823658125,
+                  58.43594729292964
+                ],
+                [
+                  4.561085443361117,
+                  59.136210290357
+                ],
+                [
+                  4.47047849542296,
+                  59.22107871612095
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vestlandet.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q127598",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Vestlandet"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Norway"
+        }
+      ],
+      "properties": {
+        "title": "Western Norway"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q369639",
+          "label": "region of Norway"
+        }
+      ]
+    }
+  ],
+  "title": "Norwegian regions",
+  "type": "FeatureCollection"
+}
