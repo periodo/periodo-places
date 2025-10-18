@@ -58,6 +58,13 @@ GAZETTEERS := \
 	gazetteers/yemeni-governorates.json
 
 NM := ./node_modules/.bin/
+PYTHON := ./py/venv/bin/python
+PIP := ./py/venv/bin/python -m pip
+
+$(PYTHON):
+	python3 -m venv py/venv
+	$(PIP) install --upgrade pip
+	$(PIP) install -r py/requirements.txt
 
 ne/%.zip:
 	mkdir -p ne
@@ -123,8 +130,8 @@ geometries/western-russia.json: \
 	jq/western-russia.jq \
 	ne/ne_10m_admin_0_scale_rank.json
 	mkdir -p geometries
-	jq -f $^ \
-	| $(NM)/geojson-clipping union \
+	jq -c -f $^ \
+	| $(PYTHON) py/geojson-union.py \
 	| jq '{"Western Russia":{geometry}}' > $@
 
 geometries/admin-0-and-western-russia.json: \
@@ -194,6 +201,7 @@ geometries/%.json: \
 gazetteers/%.json: geometries/%.json
 	mkdir -p gazetteers
 	node js/build-gazetteer.js $< $* > $@
+	$(PYTHON) py/fix-invalid-geojson.py $@
 
 .PHONY: all stage deploy check clean superclean
 
@@ -212,9 +220,10 @@ check: $(GAZETTEERS)
 	| node js/check-gazetteers.js $^
 
 clean:
-	rm -rf \
-	geometries \
-	gazetteers
+	rm -rf geometries
+	rm -rf gazetteers
+	mkdir geometries
+	mkdir gazetteers
 
 superclean: clean
 	rm -rf ne
