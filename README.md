@@ -136,6 +136,25 @@ This gazetteer was created by:
    additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
+### Argentinian provinces gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural
+   vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+   for [states and
+   provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the
+   Natural Earth data (see
+   [place-ids/argentinian-provinces.json](place-ids/argentinian-provinces.json)
+   for details), and
+
+1. querying Wikidata for instances of [Q44753 province of
+   Argentinia](https://www.wikidata.org/wiki/Q44753) to add the
+   additional metadata required by the [Linked Places gazetteer
+   format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
 ### Azerbaijani districts and cities gazetteer
 
 This gazetteer was created by:
