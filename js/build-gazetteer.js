@@ -15,6 +15,7 @@ const userAgent =
 const GAZETTEERS = {
   "afghan-provinces": "Afghan provinces",
   "algerian-provinces": "Algerian provinces",
+  "argentinian-provinces": "Argentinian provinces",
   "azerbaijani-districts": "Azerbaijani districts and cities",
   "beninese-departments": "Beninese departments",
   "bolivian-departments": "Bolivian departments",
@@ -443,6 +444,12 @@ const getWikidataAlgerianProvince = (id) =>
     ["wd:Q240601"], // province of Algeria
   );
 
+const getWikidataArgentinianProvince = (id) =>
+  getWikidataPlace(
+    id,
+    ["wd:Q44753"], // province of Argentina
+  );
+
 const getWikidataPakistaniProvince = (id) =>
   getWikidataPlace(
     id,
@@ -737,6 +744,9 @@ const makeFeature = (place, gazetteer) =>
         break;
       case "algerian-provinces":
         promise = getWikidataAlgerianProvince(place.id);
+        break;
+      case "argentinian-provinces":
+        promise = getWikidataArgentinianProvince(place.id);
         break;
       case "pakistani-provinces":
         promise = getWikidataPakistaniProvince(place.id);

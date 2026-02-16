@@ -1,0 +1,94 @@
+{
+  "Buenos Aires Province": {
+    "id": "http://www.wikidata.org/entity/Q44754",
+    "covers": [ "Buenos Aires" ]
+  },
+  "Catamarca Province": {
+    "id": "http://www.wikidata.org/entity/Q44756",
+    "covers": [ "Catamarca" ]
+  },
+  "Chaco Province": {
+    "id": "http://www.wikidata.org/entity/Q44757",
+    "covers": [ "Chaco" ]
+  },
+  "Chubut Province": {
+    "id": "http://www.wikidata.org/entity/Q45007",
+    "covers": [ "Chubut" ]
+  },
+  "Corrientes Province": {
+    "id": "http://www.wikidata.org/entity/Q44758",
+    "covers": [ "Corrientes" ]
+  },
+  "Córdoba Province": {
+    "id": "http://www.wikidata.org/entity/Q44759",
+    "covers": [ "Córdoba" ]
+  },
+  "Formosa Province": {
+    "id": "http://www.wikidata.org/entity/Q44761",
+    "covers": [ "Formosa" ]
+  },
+  "Entre Ríos Province": {
+    "id": "http://www.wikidata.org/entity/Q44762",
+    "covers": [ "Entre Ríos" ]
+  },
+  "Jujuy Province": {
+    "id": "http://www.wikidata.org/entity/Q44764",
+    "covers": [ "Jujuy" ]
+  },
+  "La Pampa Province": {
+    "id": "http://www.wikidata.org/entity/Q44795",
+    "covers": [ "La Pampa" ]
+  },
+  "La Rioja Province": {
+    "id": "http://www.wikidata.org/entity/Q44796",
+    "covers": [ "La Rioja" ]
+  },
+  "Mendoza Province": {
+    "id": "http://www.wikidata.org/entity/Q44797",
+    "covers": [ "Mendoza" ]
+  },
+  "Misiones Province": {
+    "id": "http://www.wikidata.org/entity/Q44798",
+    "covers": [ "Misiones" ]
+  },
+  "Neuquén Province": {
+    "id": "http://www.wikidata.org/entity/Q44800",
+    "covers": [ "Neuquén" ]
+  },
+  "Río Negro Province": {
+    "id": "http://www.wikidata.org/entity/Q44802",
+    "covers": [ "Río Negro" ]
+  },
+  "Salta Province": {
+    "id": "http://www.wikidata.org/entity/Q44803",
+    "covers": [ "Salta" ]
+  },
+  "San Juan Province": {
+    "id": "http://www.wikidata.org/entity/Q44805",
+    "covers": [ "San Juan" ]
+  },
+  "San Luis Province": {
+    "id": "http://www.wikidata.org/entity/Q44818",
+    "covers": [ "San Luis" ]
+  },
+  "Santa Cruz Province": {
+    "id": "http://www.wikidata.org/entity/Q44821",
+    "covers": [ "Santa Cruz" ]
+  },
+  "Santa Fe Province": {
+    "id": "http://www.wikidata.org/entity/Q44823",
+    "covers": [ "Santa Fe" ]
+  },
+  "Santiago del Estero Province": {
+    "id": "http://www.wikidata.org/entity/Q44827",
+    "covers": [ "Santiago del Estero" ]
+  },
+  "Tucumán Province": {
+    "id": "http://www.wikidata.org/entity/Q44829",
+    "covers": [ "Tucumán" ]
+  },
+  "Tierra del Fuego, Antarctica and South Atlantic Islands Province": {
+    "id": "http://www.wikidata.org/entity/Q44832",
+    "covers": [ "Tierra del Fuego" ]
+  }
+}
