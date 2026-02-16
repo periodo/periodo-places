@@ -27,7 +27,7 @@ def handle_single_geometry(geometry):
         ]
         return {
             "type": "Feature",
-            "geometry": {"type": "MultiPolygon", "coordinates": [[multi_coords]]},
+            "geometry": {"type": "MultiPolygon", "coordinates": [multi_coords]},
             "properties": {},
         }
     else:
