@@ -66,7 +66,7 @@
   "County Durham": {
     "id": "http://www.wikidata.org/entity/Q23082",
     "covers": [
-      "County Durham",
+      "Durham",
       "Hartlepool",
       "Darlington",
       "Stockton-on-Tees"
@@ -355,7 +355,7 @@
       "Newcastle upon Tyne",
       "North Tyneside",
       "South Tyneside",
-      "City of Sunderland"
+      "Sunderland"
     ]
   },
   "Warwickshire": {
