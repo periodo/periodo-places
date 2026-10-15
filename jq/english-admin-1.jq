@@ -16,9 +16,12 @@
         then "St. Helens"
 
         # Wirral is misnamed as Halton
-        elif (.properties.name    == "Halton" and
-              .properties.name_en == null)
+        elif (.properties.iso_3166_2 == "GB-WRL")
         then "Wirral"
+
+        # City of London is named "City" (English name "London")
+        elif (.properties.iso_3166_2 == "GB-LND")
+        then "City of London"
 
         # prefer short name for Wigan
         elif (.properties.name == "Wigan")

@@ -43,6 +43,10 @@ def handle_multiple_geometries(geometries):
 
     union_result = unary_union(valid_geometries)
 
+    # contiguous parts union to a single polygon
+    if isinstance(union_result, Polygon):
+        union_result = MultiPolygon([union_result])
+
     if not isinstance(union_result, MultiPolygon):
         raise Exception(f"Invalid geometry type: {type(union_result).__name__}")
 
@@ -63,7 +67,7 @@ def main() -> int:
         geometry = shape(feature["geometry"])
         reason = explain_validity(geometry)
         if not reason == "Valid Geometry":
-            err(f"Feature {feature['id']} is invalid:\n{reason}\nFixing...")
+            err(f"Union geometry is invalid:\n{reason}\nFixing...")
             feature["geometry"] =  json.loads(to_geojson(make_valid(geometry)))
         print(json.dumps(feature))
         return 0

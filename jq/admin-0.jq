@@ -1,5 +1,11 @@
 # create list of feature arrays
 [.[].features]
+# keep only the 10m geometry (the first two inputs) for Tuvalu, which
+# lower resolutions reduce to a single atoll
+| to_entries
+| map(.key as $i
+      | .value
+      | map(select($i < 2 or .properties.NAME_LONG != "Tuvalu")))
 # concatenate them
 | add
 # extract object with ISO code, subregion and geometry, keyed by long name

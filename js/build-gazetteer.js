@@ -11,16 +11,47 @@ const userAgent = "PeriodO/1.0 (http://perio.do/; ryanshaw@unc.edu)";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+const MAX_ATTEMPTS = 5;
+
+const isRetryable = (status) => status === 429 || status >= 500;
+
+// Seconds to wait from a Retry-After header, or exponential backoff
+const retryDelay = (response, attempt) => {
+  const retryAfter = Number(response?.headers.get("retry-after"));
+  return 1000 * (retryAfter > 0 ? retryAfter : 2 ** attempt);
+};
+
 const get = async (url, params, headers) => {
-  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {
-    headers: { "user-agent": userAgent, ...headers },
-  });
-  if (!response.ok) {
-    throw new Error(
-      `${response.status} ${response.statusText}: ${await response.text()}`,
+  for (let attempt = 1; ; attempt++) {
+    let response;
+    try {
+      response = await fetch(`${url}?${new URLSearchParams(params)}`, {
+        headers: { "user-agent": userAgent, ...headers },
+      });
+    } catch (e) {
+      // network error
+      if (attempt >= MAX_ATTEMPTS) {
+        throw e;
+      }
+    }
+    if (response?.ok) {
+      return response;
+    }
+    if (
+      response &&
+      (!isRetryable(response.status) || attempt >= MAX_ATTEMPTS)
+    ) {
+      throw new Error(
+        `${response.status} ${response.statusText}: ${await response.text()}`,
+      );
+    }
+    const delay = retryDelay(response, attempt);
+    console.error(
+      `${response ? response.status : "network error"} from ${url}; ` +
+        `retrying in ${delay / 1000}s (attempt ${attempt}/${MAX_ATTEMPTS})`,
     );
+    await sleep(delay);
   }
-  return response;
 };
 
 const GAZETTEERS = {
@@ -375,10 +406,10 @@ const getWikidataEnglishCounty = (id) =>
   );
 
 const getWikidataCity = (id) =>
-  getWikidataPlace(
-    id,
-    ["wd:Q486972"], // human settlement
-  );
+  getWikidataPlace(id, [
+    "wd:Q486972", // human settlement
+    "wd:Q15284", // municipality
+  ]);
 
 const getWikidataSpanishCommunity = (id) =>
   getWikidataPlace(
@@ -435,6 +466,7 @@ const getWikidataFrenchRegion = (id) =>
     "wd:Q36784", // region of France
     "wd:Q22670030", // former French region
     "wd:Q202216", // overseas department and region of France
+    "wd:Q1620908", // historical region (Alsace, Limousin)
   ]);
 
 const getWikidataSyrianGovernorate = (id) =>
@@ -468,11 +500,18 @@ const getWikidataArgentinianProvince = (id) =>
   );
 
 const getWikidataPakistaniProvince = (id) =>
-  getWikidataPlace(
-    id,
-    ["wd:Q270496"], // administrative territorial entity of Pakistan
-    [["(wdt:P31/wdt:P279*)", "wd:Q10864048"]], // first-level administrative country subdivision
-  );
+  id === "http://www.wikidata.org/entity/Q208270" // Federally Administered Tribal Areas
+    ? getWikidataPlace(
+        id,
+        ["wd:Q19953632"], // former administrative territorial entity
+      )
+    : getWikidataPlace(
+        id,
+        id === "http://www.wikidata.org/entity/Q200130" // Azad Kashmir
+          ? ["wd:Q15239622"] // disputed territory
+          : ["wd:Q270496"], // administrative territorial entity of Pakistan
+        [["(wdt:P31/wdt:P279*)", "wd:Q10864048"]], // first-level administrative country subdivision
+      );
 
 const getWikidataTajikistaniRegion = (id) =>
   getWikidataPlace(
@@ -600,7 +639,7 @@ const getWikidataUkrainianOblast = (id) =>
   getWikidataPlace(
     id,
     id === "http://www.wikidata.org/entity/Q1899" // Kyiv
-      ? ["wd:Q5124045"] // city with special status
+      ? ["wd:Q12131624"] // city in Ukraine
       : ["wd:Q3348196"], // oblast of Ukraine
   );
 
@@ -622,16 +661,16 @@ const getWikidataUzbekRegion = (id) =>
   );
 
 const getWikidataMalaysianState = (id) =>
-  getWikidataPlace(
-    id,
-    ["wd:Q50464"], // state or federal territory of Malaysia
-  );
+  getWikidataPlace(id, [
+    "wd:Q50464", // state or federal territory of Malaysia
+    "wd:Q1008803", // federal territory of Malaysia
+  ]);
 
 const getWikidataNigerienRegion = (id) =>
   getWikidataPlace(
     id,
     id === "http://www.wikidata.org/entity/Q3674" // Niamey
-      ? ["wd:Q5119"] // capital
+      ? ["wd:Q10864048"] // first-level administrative country subdivision
       : ["wd:Q859869"], // region of Niger
   );
 
@@ -677,7 +716,7 @@ const getWikidataKyrgyzRegion = (id) =>
   getWikidataPlace(
     id,
     id === "http://www.wikidata.org/entity/Q9361" // Bishkek
-      ? ["wd:Q15623974"] // administrative territorial entity of Kyrgyzstan
+      ? ["wd:Q10864048"] // first-level administrative country subdivision
       : ["wd:Q693039"], // region of Kyrgyzstan
   );
 

@@ -13,6 +13,11 @@ const collectPoints = multipolygon => multipolygon.coordinates.reduce(
   {posLng: [], negLng: []}
 )
 
+const spansAllLongitudes = rings => {
+  const lngs = rings[0].map(([lng]) => lng)
+  return Math.max(...lngs) - Math.min(...lngs) >= 359
+}
+
 module.exports = geometry => {
   switch (geometry.type) {
 
@@ -24,6 +29,16 @@ module.exports = geometry => {
       }
 
     case 'MultiPolygon':
+      // a ring spanning all longitudes encircles a pole (e.g. Antarctica),
+      // so take the hull of all points rather than splitting them
+      if (geometry.coordinates.some(spansAllLongitudes)) {
+        return {
+          type: 'Polygon',
+          coordinates: convexHull(
+            geometry.coordinates.reduce((ps, rings) => ps.concat(rings[0]), [])
+          )
+        }
+      }
       // avoid creating polygons that cross the antimeridian
       var points = collectPoints(geometry)
       if (points.posLng.length > 0 && points.negLng.length > 0) {

@@ -73,7 +73,7 @@
   },
   "Odisha": {
     "id": "http://www.wikidata.org/entity/Q22048",
-    "covers": [ "Orissa" ]
+    "covers": [ "Odisha" ]
   },
   "Punjab": {
     "id": "http://www.wikidata.org/entity/Q22424",
@@ -101,7 +101,7 @@
   },
   "Uttarakhand": {
     "id": "http://www.wikidata.org/entity/Q1499",
-    "covers": [ "Uttaranchal" ]
+    "covers": [ "Uttarakhand" ]
   },
   "West Bengal": {
     "id": "http://www.wikidata.org/entity/Q1356",
@@ -112,18 +112,15 @@
     "covers": [ "Andaman and Nicobar" ]
   },
   "Chandigarh": {
-    "id": "http://www.wikidata.org/entity/Q43433",
+    "id": "http://www.wikidata.org/entity/Q120971341",
     "covers": [ "Chandigarh" ]
   },
   "Dadra and Nagar Haveli and Daman and Diu": {
     "id": "http://www.wikidata.org/entity/Q77997266",
-    "covers": [
-      "Dadra and Nagar Haveli",
-      "Daman and Diu"
-    ]
+    "covers": [ "Dadra and Nagar Haveli and Daman and Diu" ]
   },
   "Delhi": {
-    "id": "http://www.wikidata.org/entity/Q1353",
+    "id": "http://www.wikidata.org/entity/Q9357528",
     "covers": [ "Delhi" ]
   },
   "Jammu and Kashmir": {
