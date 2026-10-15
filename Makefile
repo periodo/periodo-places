@@ -200,6 +200,19 @@ geometries/norwegian-regions.json:
 	mkdir -p geometries
 	cat $< > $@
 
+# Natural Earth's 10m Jerusalem and Central Districts overlap its 50m
+# Palestine (used for the countries gazetteer), e.g. East Jerusalem, so
+# remove the overlap
+geometries/israeli-admin-1.json: \
+	jq/israeli-admin-1.jq \
+	ne/ne_10m_admin_1_states_provinces.json \
+	ne/ne_50m_admin_0_countries.json \
+	py/clip-geometries.py
+	mkdir -p geometries
+	jq -f jq/israeli-admin-1.jq ne/ne_10m_admin_1_states_provinces.json \
+	| $(PYTHON) py/clip-geometries.py ne/ne_50m_admin_0_countries.json PSX Jerusalem HaMerkaz \
+	> $@
+
 geometries/%-admin-1.json: \
 	jq/%-admin-1.jq \
 	ne/ne_10m_admin_1_states_provinces.json
