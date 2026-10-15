@@ -31,10 +31,18 @@ WHERE {
 
   ?place
     wdt:P31 ?type ;
-    rdfs:label ?label ;
     schema:description ?description .
 
-  ?type rdfs:label ?typeLabel .
+  # prefer English labels, falling back to multilingual ("mul") labels
+  OPTIONAL { ?place rdfs:label ?enLabel . FILTER (LANG(?enLabel) = "en") }
+  OPTIONAL { ?place rdfs:label ?mulLabel . FILTER (LANG(?mulLabel) = "mul") }
+  BIND (COALESCE(?enLabel, STRLANG(STR(?mulLabel), "en")) AS ?label)
+  FILTER (BOUND(?label))
+
+  OPTIONAL { ?type rdfs:label ?enTypeLabel . FILTER (LANG(?enTypeLabel) = "en") }
+  OPTIONAL { ?type rdfs:label ?mulTypeLabel . FILTER (LANG(?mulTypeLabel) = "mul") }
+  BIND (COALESCE(?enTypeLabel, STRLANG(STR(?mulTypeLabel), "en")) AS ?typeLabel)
+  FILTER (BOUND(?typeLabel))
 
   OPTIONAL { ?place wdt:P41 ?flag . }
 
@@ -53,7 +61,5 @@ WHERE {
      FILTER (LANG(?altLabel) = "en")
   }
 
-  FILTER (LANG(?typeLabel) = "en")
-  FILTER (LANG(?label) = "en")
   FILTER (LANG(?description) = "en")
 }
