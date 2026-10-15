@@ -11,7 +11,7 @@ GEOMETRIES=$2
 PLACE=${3//_/ }
 
 PLACE_ID=$(jq -r '."'"$PLACE"'".id' "$IDS")
-PARTS=$(jq -r '[."'"$PLACE"'".covers[] | ".\"\(.)\""] | join(",")' "$IDS")
+PARTS=$(jq -r '[(."'"$PLACE"'".covers // [])[] | ".\"\(.)\""] | join(",")' "$IDS")
 
 # for debugging
 # >&2 echo "$PLACE"

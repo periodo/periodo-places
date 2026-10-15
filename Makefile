@@ -13,6 +13,7 @@ GAZETTEERS := \
 	gazetteers/egyptian-governorates.json \
 	gazetteers/english-counties.json \
 	gazetteers/ethiopian-regions.json \
+	gazetteers/french-pacific-territories.json \
 	gazetteers/french-regions.json \
 	gazetteers/gambian-regions.json \
 	gazetteers/geographic-regions.json \
@@ -40,6 +41,7 @@ GAZETTEERS := \
 	gazetteers/omani-governorates.json \
 	gazetteers/other-regions.json \
 	gazetteers/pakistani-provinces.json \
+	gazetteers/papua-new-guinean-provinces.json \
 	gazetteers/philippine-regions.json \
 	gazetteers/romanian-counties.json \
 	gazetteers/russian-federal-subjects.json \
@@ -155,15 +157,26 @@ geometries/continents.json: \
 	geometries/scale-rank-0.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
+# Indonesian provinces are prefixed to avoid clashing with region names
+geometries/regions-and-indonesian-provinces.json: \
+	geometries/scale-ranks-1-5.json \
+	geometries/indonesian-admin-1.json
+	jq -s '.[0] * (.[1] | with_entries(.key |= "Indonesia: " + .))' $^ > $@
+
 geometries/geographic-regions.json: \
 	place-ids/geographic-regions.json \
-	geometries/scale-ranks-1-5.json
+	geometries/regions-and-indonesian-provinces.json
 	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
 geometries/countries.json: \
 	jq/countries.jq \
 	geometries/admin-0.json
 	jq -f $^ > $@
+
+geometries/french-pacific-territories.json: \
+	place-ids/french-pacific-territories.json \
+	geometries/admin-0.json
+	jq -r keys[] $< | ./sh/places.sh $^ | jq -s add > $@
 
 geometries/us-territories.json: \
 	jq/us-territories.jq \

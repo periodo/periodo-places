@@ -1,0 +1,2765 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bougainville.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "autonomous region of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  154.138194,
+                  -4.395196
+                ],
+                [
+                  154.134532,
+                  -4.377211
+                ],
+                [
+                  154.55318,
+                  -3.206315
+                ],
+                [
+                  154.595762,
+                  -3.211502
+                ],
+                [
+                  154.627763,
+                  -3.226888
+                ],
+                [
+                  154.716567,
+                  -3.393438
+                ],
+                [
+                  154.737858,
+                  -3.44185
+                ],
+                [
+                  155.916759,
+                  -6.517511
+                ],
+                [
+                  155.963878,
+                  -6.701918
+                ],
+                [
+                  155.96754,
+                  -6.727146
+                ],
+                [
+                  155.960948,
+                  -6.750177
+                ],
+                [
+                  155.94752,
+                  -6.773207
+                ],
+                [
+                  155.930186,
+                  -6.793634
+                ],
+                [
+                  155.912364,
+                  -6.809015
+                ],
+                [
+                  155.717784,
+                  -6.872817
+                ],
+                [
+                  155.697032,
+                  -6.876642
+                ],
+                [
+                  155.610688,
+                  -6.863051
+                ],
+                [
+                  155.568044,
+                  -6.854099
+                ],
+                [
+                  155.523611,
+                  -6.839125
+                ],
+                [
+                  155.446788,
+                  -6.801528
+                ],
+                [
+                  155.36085,
+                  -6.745864
+                ],
+                [
+                  155.330089,
+                  -6.719659
+                ],
+                [
+                  155.187266,
+                  -6.554457
+                ],
+                [
+                  154.75587,
+                  -5.947849
+                ],
+                [
+                  154.747325,
+                  -5.927911
+                ],
+                [
+                  154.185313,
+                  -4.546075
+                ],
+                [
+                  154.151378,
+                  -4.438084
+                ],
+                [
+                  154.138194,
+                  -4.395196
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/North+Solomons.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q18826",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "AROB"
+        },
+        {
+          "lang": "en",
+          "toponym": "Autonomous Region of Bougainville"
+        },
+        {
+          "lang": "en",
+          "toponym": "Autonomous Region of Bouganville"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bougainville"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Solomons"
+        }
+      ],
+      "properties": {
+        "title": "Autonomous Region of Bougainville"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10864048",
+          "label": "first-level administrative division"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3098609",
+          "label": "administrative territorial entity of Papua New Guinea"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q788176",
+          "label": "autonomous administrative territorial entity"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Province%2C%20Papua%20New%20Guinea.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  146.558442,
+                  -8.940525
+                ],
+                [
+                  146.389751,
+                  -8.584398
+                ],
+                [
+                  146.389752,
+                  -8.584179
+                ],
+                [
+                  146.393576,
+                  -7.99083
+                ],
+                [
+                  146.408046,
+                  -7.937396
+                ],
+                [
+                  146.432075,
+                  -7.916932
+                ],
+                [
+                  146.536513,
+                  -7.829703
+                ],
+                [
+                  146.625603,
+                  -7.771153
+                ],
+                [
+                  146.991783,
+                  -8.000183
+                ],
+                [
+                  147.510717,
+                  -8.403828
+                ],
+                [
+                  149.653636,
+                  -10.090547
+                ],
+                [
+                  149.668829,
+                  -10.11716
+                ],
+                [
+                  149.675495,
+                  -10.136642
+                ],
+                [
+                  149.678285,
+                  -10.336371
+                ],
+                [
+                  149.678286,
+                  -10.336452
+                ],
+                [
+                  149.539806,
+                  -10.364923
+                ],
+                [
+                  149.5088,
+                  -10.364923
+                ],
+                [
+                  147.977387,
+                  -10.166274
+                ],
+                [
+                  147.716807,
+                  -10.098077
+                ],
+                [
+                  147.052745,
+                  -9.460219
+                ],
+                [
+                  146.601817,
+                  -9.006036
+                ],
+                [
+                  146.585948,
+                  -8.983657
+                ],
+                [
+                  146.558442,
+                  -8.940525
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Central.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q874942",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Province"
+        }
+      ],
+      "properties": {
+        "title": "Central Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chimbu.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  144.445581,
+                  -6.522289
+                ],
+                [
+                  144.445426,
+                  -6.518413
+                ],
+                [
+                  144.451473,
+                  -6.483738
+                ],
+                [
+                  144.456123,
+                  -6.473506
+                ],
+                [
+                  144.798738,
+                  -5.784866
+                ],
+                [
+                  144.807213,
+                  -5.781662
+                ],
+                [
+                  145.038,
+                  -5.787657
+                ],
+                [
+                  145.094637,
+                  -5.80409
+                ],
+                [
+                  145.121974,
+                  -5.827913
+                ],
+                [
+                  145.166364,
+                  -5.874525
+                ],
+                [
+                  145.250752,
+                  -6.172646
+                ],
+                [
+                  145.342323,
+                  -6.730338
+                ],
+                [
+                  145.341392,
+                  -6.741035
+                ],
+                [
+                  145.302428,
+                  -6.875239
+                ],
+                [
+                  144.714609,
+                  -6.738555
+                ],
+                [
+                  144.59627,
+                  -6.673132
+                ],
+                [
+                  144.457157,
+                  -6.571795
+                ],
+                [
+                  144.453746,
+                  -6.562597
+                ],
+                [
+                  144.445581,
+                  -6.522289
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Chimbu.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q599448",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Chimbu Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Simbu Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Simbu"
+        }
+      ],
+      "properties": {
+        "title": "Chimbu Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20New%20Britain.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  150.598591,
+                  -5.89101
+                ],
+                [
+                  150.596627,
+                  -5.842796
+                ],
+                [
+                  150.598488,
+                  -5.815872
+                ],
+                [
+                  150.600968,
+                  -5.807345
+                ],
+                [
+                  151.509451,
+                  -4.213067
+                ],
+                [
+                  151.520518,
+                  -4.197686
+                ],
+                [
+                  151.540294,
+                  -4.17669
+                ],
+                [
+                  152.472911,
+                  -4.122166
+                ],
+                [
+                  152.483409,
+                  -4.131931
+                ],
+                [
+                  152.503103,
+                  -4.153497
+                ],
+                [
+                  152.506196,
+                  -4.17197
+                ],
+                [
+                  152.411632,
+                  -4.68377
+                ],
+                [
+                  152.386404,
+                  -4.791192
+                ],
+                [
+                  152.150401,
+                  -5.369724
+                ],
+                [
+                  152.119802,
+                  -5.424249
+                ],
+                [
+                  152.098888,
+                  -5.455743
+                ],
+                [
+                  151.97169,
+                  -5.534112
+                ],
+                [
+                  151.182791,
+                  -5.964288
+                ],
+                [
+                  151.061046,
+                  -6.029392
+                ],
+                [
+                  150.784841,
+                  -6.127211
+                ],
+                [
+                  150.771289,
+                  -6.129787
+                ],
+                [
+                  150.619365,
+                  -5.933023
+                ],
+                [
+                  150.606239,
+                  -5.909665
+                ],
+                [
+                  150.598591,
+                  -5.89101
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/East+New+Britain.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q753702",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "ENBP"
+        },
+        {
+          "lang": "en",
+          "toponym": "East New Britain Province"
+        }
+      ],
+      "properties": {
+        "title": "East New Britain Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Sepik.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  141.338278,
+                  -4.499002
+                ],
+                [
+                  141.33559,
+                  -4.332138
+                ],
+                [
+                  141.342412,
+                  -4.287748
+                ],
+                [
+                  141.364323,
+                  -4.258861
+                ],
+                [
+                  141.715619,
+                  -4.021563
+                ],
+                [
+                  142.663726,
+                  -3.439738
+                ],
+                [
+                  142.730906,
+                  -3.413641
+                ],
+                [
+                  142.743773,
+                  -3.410076
+                ],
+                [
+                  143.085134,
+                  -3.353123
+                ],
+                [
+                  144.095799,
+                  -3.188539
+                ],
+                [
+                  144.610199,
+                  -3.502537
+                ],
+                [
+                  144.618663,
+                  -3.508722
+                ],
+                [
+                  144.619802,
+                  -3.51629
+                ],
+                [
+                  144.563507,
+                  -4.480243
+                ],
+                [
+                  144.445581,
+                  -4.668862
+                ],
+                [
+                  144.046949,
+                  -4.966312
+                ],
+                [
+                  144.011086,
+                  -4.976543
+                ],
+                [
+                  143.063909,
+                  -5.07199
+                ],
+                [
+                  143.00138,
+                  -5.074005
+                ],
+                [
+                  142.900818,
+                  -5.060724
+                ],
+                [
+                  142.323592,
+                  -4.96781
+                ],
+                [
+                  141.367837,
+                  -4.587988
+                ],
+                [
+                  141.345822,
+                  -4.546285
+                ],
+                [
+                  141.338278,
+                  -4.499002
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/East+Sepik.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q690880",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "East Sepik Province"
+        }
+      ],
+      "properties": {
+        "title": "East Sepik Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eastern%20Highlands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  144.993352,
+                  -6.515416
+                ],
+                [
+                  144.98622,
+                  -6.477072
+                ],
+                [
+                  144.986324,
+                  -6.461259
+                ],
+                [
+                  145.166364,
+                  -5.874525
+                ],
+                [
+                  145.349609,
+                  -5.858247
+                ],
+                [
+                  145.364802,
+                  -5.859539
+                ],
+                [
+                  145.818521,
+                  -5.961186
+                ],
+                [
+                  145.867872,
+                  -5.996326
+                ],
+                [
+                  146.113387,
+                  -6.199001
+                ],
+                [
+                  146.122998,
+                  -6.210732
+                ],
+                [
+                  146.128735,
+                  -6.226545
+                ],
+                [
+                  146.128735,
+                  -6.249127
+                ],
+                [
+                  146.019801,
+                  -6.865782
+                ],
+                [
+                  146.015305,
+                  -6.883766
+                ],
+                [
+                  145.846323,
+                  -7.236819
+                ],
+                [
+                  145.302428,
+                  -6.875239
+                ],
+                [
+                  144.993352,
+                  -6.515416
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Eastern+Highlands.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q849812",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Highlands Province"
+        }
+      ],
+      "properties": {
+        "title": "Eastern Highlands Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Enga.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  142.788628,
+                  -5.5054
+                ],
+                [
+                  142.763204,
+                  -5.019693
+                ],
+                [
+                  143.968556,
+                  -4.980729
+                ],
+                [
+                  144.155057,
+                  -5.130074
+                ],
+                [
+                  144.158157,
+                  -5.133536
+                ],
+                [
+                  144.247247,
+                  -5.262676
+                ],
+                [
+                  144.105757,
+                  -5.673452
+                ],
+                [
+                  144.095939,
+                  -5.696344
+                ],
+                [
+                  144.083226,
+                  -5.715
+                ],
+                [
+                  144.051394,
+                  -5.740373
+                ],
+                [
+                  143.804845,
+                  -5.936433
+                ],
+                [
+                  143.521193,
+                  -5.96253
+                ],
+                [
+                  143.492668,
+                  -5.957414
+                ],
+                [
+                  143.441922,
+                  -5.934263
+                ],
+                [
+                  142.894152,
+                  -5.640637
+                ],
+                [
+                  142.788628,
+                  -5.5054
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Enga.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q862584",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Enga Province"
+        }
+      ],
+      "properties": {
+        "title": "Enga Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gulf%20Province.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  143.00231,
+                  -7.038226
+                ],
+                [
+                  142.998745,
+                  -6.836998
+                ],
+                [
+                  144.760084,
+                  -6.729511
+                ],
+                [
+                  144.912943,
+                  -6.734834
+                ],
+                [
+                  144.927516,
+                  -6.737521
+                ],
+                [
+                  145.256488,
+                  -6.847489
+                ],
+                [
+                  145.302428,
+                  -6.875239
+                ],
+                [
+                  145.846323,
+                  -7.236819
+                ],
+                [
+                  146.625603,
+                  -7.771153
+                ],
+                [
+                  146.389751,
+                  -8.584398
+                ],
+                [
+                  143.942877,
+                  -7.991556
+                ],
+                [
+                  143.00231,
+                  -7.038226
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Gulf.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q874980",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gulf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gulf"
+        }
+      ],
+      "properties": {
+        "title": "Gulf Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hela.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1382499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Hela Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hela"
+        }
+      ],
+      "properties": {
+        "title": "Hela Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jiwaka.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q1400625",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Jiwaka Province"
+        }
+      ],
+      "properties": {
+        "title": "Jiwaka Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Madang.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  143.971037,
+                  -5.000005
+                ],
+                [
+                  143.968556,
+                  -4.980729
+                ],
+                [
+                  144.581706,
+                  -3.995777
+                ],
+                [
+                  145.069347,
+                  -4.043227
+                ],
+                [
+                  145.078868,
+                  -4.047052
+                ],
+                [
+                  145.096446,
+                  -4.054783
+                ],
+                [
+                  145.996837,
+                  -4.534275
+                ],
+                [
+                  147.133962,
+                  -5.190851
+                ],
+                [
+                  147.205821,
+                  -5.250177
+                ],
+                [
+                  147.208995,
+                  -5.255792
+                ],
+                [
+                  147.243826,
+                  -5.349216
+                ],
+                [
+                  147.243826,
+                  -5.355401
+                ],
+                [
+                  147.223318,
+                  -5.424249
+                ],
+                [
+                  146.793386,
+                  -5.816176
+                ],
+                [
+                  146.480341,
+                  -5.998755
+                ],
+                [
+                  145.867872,
+                  -5.996326
+                ],
+                [
+                  145.492339,
+                  -5.964235
+                ],
+                [
+                  145.458388,
+                  -5.958086
+                ],
+                [
+                  145.166364,
+                  -5.874525
+                ],
+                [
+                  144.192315,
+                  -5.226709
+                ],
+                [
+                  144.187199,
+                  -5.222885
+                ],
+                [
+                  143.981941,
+                  -5.022484
+                ],
+                [
+                  143.975378,
+                  -5.012717
+                ],
+                [
+                  143.973517,
+                  -5.008221
+                ],
+                [
+                  143.971037,
+                  -5.000005
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Madang.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q326254",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Madang Province"
+        }
+      ],
+      "properties": {
+        "title": "Madang Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Manus.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  146.531993,
+                  -2.189711
+                ],
+                [
+                  146.520193,
+                  -2.149591
+                ],
+                [
+                  146.520763,
+                  -2.138767
+                ],
+                [
+                  146.580577,
+                  -1.995212
+                ],
+                [
+                  146.584727,
+                  -1.992364
+                ],
+                [
+                  146.65211,
+                  -1.964451
+                ],
+                [
+                  146.657888,
+                  -1.963311
+                ],
+                [
+                  146.845714,
+                  -1.9485
+                ],
+                [
+                  146.869802,
+                  -1.947035
+                ],
+                [
+                  147.395844,
+                  -1.957127
+                ],
+                [
+                  147.405935,
+                  -1.962823
+                ],
+                [
+                  147.826671,
+                  -2.237563
+                ],
+                [
+                  147.881196,
+                  -2.286065
+                ],
+                [
+                  147.858165,
+                  -2.324477
+                ],
+                [
+                  147.840017,
+                  -2.340916
+                ],
+                [
+                  147.816417,
+                  -2.347426
+                ],
+                [
+                  147.775157,
+                  -2.347426
+                ],
+                [
+                  146.571544,
+                  -2.228123
+                ],
+                [
+                  146.553477,
+                  -2.22031
+                ],
+                [
+                  146.538097,
+                  -2.203546
+                ],
+                [
+                  146.531993,
+                  -2.189711
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Manus.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q874935",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Manus Province"
+        }
+      ],
+      "properties": {
+        "title": "Manus Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Milne%20Bay.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  148.956262,
+                  -9.785501
+                ],
+                [
+                  148.955487,
+                  -9.750877
+                ],
+                [
+                  148.956727,
+                  -9.743229
+                ],
+                [
+                  148.961533,
+                  -9.726693
+                ],
+                [
+                  148.965719,
+                  -9.718373
+                ],
+                [
+                  148.97037,
+                  -9.711862
+                ],
+                [
+                  148.976468,
+                  -9.705144
+                ],
+                [
+                  148.993211,
+                  -9.69269
+                ],
+                [
+                  151.061046,
+                  -8.42962
+                ],
+                [
+                  151.08253,
+                  -8.422459
+                ],
+                [
+                  151.129242,
+                  -8.419122
+                ],
+                [
+                  152.794171,
+                  -9.003497
+                ],
+                [
+                  152.808906,
+                  -9.01044
+                ],
+                [
+                  152.91783,
+                  -9.069857
+                ],
+                [
+                  152.941542,
+                  -9.083758
+                ],
+                [
+                  153.012055,
+                  -9.149102
+                ],
+                [
+                  154.277599,
+                  -11.339451
+                ],
+                [
+                  154.302257,
+                  -11.385919
+                ],
+                [
+                  154.295421,
+                  -11.397882
+                ],
+                [
+                  154.288341,
+                  -11.407403
+                ],
+                [
+                  154.279552,
+                  -11.414809
+                ],
+                [
+                  154.268077,
+                  -11.420668
+                ],
+                [
+                  153.772797,
+                  -11.611993
+                ],
+                [
+                  153.675792,
+                  -11.625746
+                ],
+                [
+                  153.564464,
+                  -11.636326
+                ],
+                [
+                  153.555349,
+                  -11.635675
+                ],
+                [
+                  150.211274,
+                  -10.701349
+                ],
+                [
+                  150.115733,
+                  -10.666681
+                ],
+                [
+                  149.854503,
+                  -10.55047
+                ],
+                [
+                  148.956262,
+                  -9.785501
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Milne+Bay.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q874962",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Milne Bay Province"
+        }
+      ],
+      "properties": {
+        "title": "Milne Bay Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Morobe.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  146.081089,
+                  -7.522021
+                ],
+                [
+                  145.846323,
+                  -7.236819
+                ],
+                [
+                  145.867872,
+                  -5.996326
+                ],
+                [
+                  147.591807,
+                  -5.288995
+                ],
+                [
+                  147.606944,
+                  -5.287205
+                ],
+                [
+                  147.625011,
+                  -5.289483
+                ],
+                [
+                  148.100352,
+                  -5.37656
+                ],
+                [
+                  148.126964,
+                  -5.391778
+                ],
+                [
+                  148.146495,
+                  -5.41961
+                ],
+                [
+                  148.148123,
+                  -5.448012
+                ],
+                [
+                  147.977379,
+                  -8.004058
+                ],
+                [
+                  146.957056,
+                  -8.00902
+                ],
+                [
+                  146.93592,
+                  -8.006591
+                ],
+                [
+                  146.817685,
+                  -7.985404
+                ],
+                [
+                  146.803732,
+                  -7.982407
+                ],
+                [
+                  146.742134,
+                  -7.958739
+                ],
+                [
+                  146.095507,
+                  -7.536439
+                ],
+                [
+                  146.081089,
+                  -7.522021
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Morobe.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q853664",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Morobe Province"
+        }
+      ],
+      "properties": {
+        "title": "Morobe Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20NCD.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  147.061959,
+                  -9.441025
+                ],
+                [
+                  147.061753,
+                  -9.434204
+                ],
+                [
+                  147.063923,
+                  -9.429398
+                ],
+                [
+                  147.067954,
+                  -9.424747
+                ],
+                [
+                  147.073741,
+                  -9.421078
+                ],
+                [
+                  147.16092,
+                  -9.384698
+                ],
+                [
+                  147.172857,
+                  -9.381029
+                ],
+                [
+                  147.184536,
+                  -9.382889
+                ],
+                [
+                  147.258071,
+                  -9.409503
+                ],
+                [
+                  147.268768,
+                  -9.423352
+                ],
+                [
+                  147.278225,
+                  -9.448002
+                ],
+                [
+                  147.286132,
+                  -9.48247
+                ],
+                [
+                  147.286752,
+                  -9.51947
+                ],
+                [
+                  147.286778,
+                  -9.521265
+                ],
+                [
+                  147.257579,
+                  -9.53631
+                ],
+                [
+                  147.234386,
+                  -9.537774
+                ],
+                [
+                  147.203136,
+                  -9.528253
+                ],
+                [
+                  147.099946,
+                  -9.481703
+                ],
+                [
+                  147.072915,
+                  -9.459319
+                ],
+                [
+                  147.065163,
+                  -9.449139
+                ],
+                [
+                  147.061959,
+                  -9.441025
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/National+Capital+District.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q1378310",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "National Capital District"
+        }
+      ],
+      "properties": {
+        "title": "National Capital District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q192611",
+          "label": "electoral unit"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Ireland.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  149.541026,
+                  -1.464451
+                ],
+                [
+                  149.539806,
+                  -1.42547
+                ],
+                [
+                  149.572276,
+                  -1.358575
+                ],
+                [
+                  149.58074,
+                  -1.346368
+                ],
+                [
+                  149.618663,
+                  -1.353774
+                ],
+                [
+                  149.627615,
+                  -1.35711
+                ],
+                [
+                  152.015391,
+                  -2.602716
+                ],
+                [
+                  153.327891,
+                  -3.368585
+                ],
+                [
+                  153.342784,
+                  -3.378676
+                ],
+                [
+                  153.747081,
+                  -4.014907
+                ],
+                [
+                  153.745616,
+                  -4.030532
+                ],
+                [
+                  153.656912,
+                  -4.122166
+                ],
+                [
+                  152.897716,
+                  -4.848321
+                ],
+                [
+                  150.168712,
+                  -2.669854
+                ],
+                [
+                  150.105724,
+                  -2.615899
+                ],
+                [
+                  149.979747,
+                  -2.498956
+                ],
+                [
+                  149.957774,
+                  -2.477634
+                ],
+                [
+                  149.546886,
+                  -1.482192
+                ],
+                [
+                  149.541026,
+                  -1.464451
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/New+Ireland.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q838690",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "New Ireland Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Mecklenburg"
+        }
+      ],
+      "properties": {
+        "title": "New Ireland Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Oro%20province%20flag.png"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  147.511751,
+                  -8.865867
+                ],
+                [
+                  146.991783,
+                  -8.000183
+                ],
+                [
+                  147.977379,
+                  -8.004058
+                ],
+                [
+                  148.146332,
+                  -8.045668
+                ],
+                [
+                  149.318044,
+                  -9.022556
+                ],
+                [
+                  149.324392,
+                  -9.033949
+                ],
+                [
+                  149.461355,
+                  -9.594089
+                ],
+                [
+                  148.96975,
+                  -9.932468
+                ],
+                [
+                  148.959828,
+                  -9.935931
+                ],
+                [
+                  148.820508,
+                  -9.960064
+                ],
+                [
+                  148.809346,
+                  -9.960529
+                ],
+                [
+                  148.703203,
+                  -9.934174
+                ],
+                [
+                  148.636023,
+                  -9.907612
+                ],
+                [
+                  148.313717,
+                  -9.757802
+                ],
+                [
+                  148.297543,
+                  -9.74726
+                ],
+                [
+                  148.0558,
+                  -9.583756
+                ],
+                [
+                  148.041383,
+                  -9.569648
+                ],
+                [
+                  147.520433,
+                  -8.878683
+                ],
+                [
+                  147.511751,
+                  -8.865867
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Northern.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q753686",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Northern Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oro (Northern) Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oro Province"
+        }
+      ],
+      "properties": {
+        "title": "Oro Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sandaun.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  140.973545,
+                  -3.800025
+                ],
+                [
+                  140.972356,
+                  -3.250602
+                ],
+                [
+                  140.974457,
+                  -2.600518
+                ],
+                [
+                  142.833507,
+                  -1.697035
+                ],
+                [
+                  142.852387,
+                  -1.692641
+                ],
+                [
+                  142.865489,
+                  -1.703302
+                ],
+                [
+                  143.085134,
+                  -3.353123
+                ],
+                [
+                  143.085148,
+                  -3.356849
+                ],
+                [
+                  143.078326,
+                  -3.488779
+                ],
+                [
+                  142.292845,
+                  -5.351973
+                ],
+                [
+                  142.275171,
+                  -5.365254
+                ],
+                [
+                  142.208922,
+                  -5.406853
+                ],
+                [
+                  140.976871,
+                  -4.988486
+                ],
+                [
+                  140.976232,
+                  -4.773713
+                ],
+                [
+                  140.973545,
+                  -3.800025
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Sandaun.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q753689",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Sandaun Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Sepik (Sandaun) Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Sepik Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Sepik"
+        }
+      ],
+      "properties": {
+        "title": "Sandaun Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Southern%20Highlands%20Province%20%28Papua%20New%20Guinea%29.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  142.661711,
+                  -6.76367
+                ],
+                [
+                  142.178175,
+                  -5.492326
+                ],
+                [
+                  142.178485,
+                  -5.470932
+                ],
+                [
+                  142.323592,
+                  -4.96781
+                ],
+                [
+                  142.469268,
+                  -4.973081
+                ],
+                [
+                  142.694784,
+                  -4.983623
+                ],
+                [
+                  142.708737,
+                  -4.985535
+                ],
+                [
+                  142.763204,
+                  -5.019693
+                ],
+                [
+                  144.539943,
+                  -6.367776
+                ],
+                [
+                  144.714609,
+                  -6.738555
+                ],
+                [
+                  143.684594,
+                  -6.835758
+                ],
+                [
+                  142.998745,
+                  -6.836998
+                ],
+                [
+                  142.813795,
+                  -6.83705
+                ],
+                [
+                  142.737727,
+                  -6.829299
+                ],
+                [
+                  142.68016,
+                  -6.8093
+                ],
+                [
+                  142.661711,
+                  -6.76367
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Southern+Highlands.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q849801",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Saden Halends (Angal Dialect)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Highlands Province"
+        }
+      ],
+      "properties": {
+        "title": "Southern Highlands Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20New%20Britain.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  148.328949,
+                  -5.68377
+                ],
+                [
+                  148.324718,
+                  -5.646417
+                ],
+                [
+                  148.342052,
+                  -5.533298
+                ],
+                [
+                  148.359711,
+                  -5.497817
+                ],
+                [
+                  148.386729,
+                  -5.46852
+                ],
+                [
+                  149.121918,
+                  -4.883071
+                ],
+                [
+                  149.129649,
+                  -4.877374
+                ],
+                [
+                  149.493419,
+                  -4.652032
+                ],
+                [
+                  149.519298,
+                  -4.643487
+                ],
+                [
+                  151.534028,
+                  -4.916599
+                ],
+                [
+                  151.648811,
+                  -4.948793
+                ],
+                [
+                  151.68979,
+                  -4.992563
+                ],
+                [
+                  151.68514,
+                  -4.998661
+                ],
+                [
+                  150.771289,
+                  -6.129787
+                ],
+                [
+                  150.465099,
+                  -6.274021
+                ],
+                [
+                  150.421397,
+                  -6.286065
+                ],
+                [
+                  150.395356,
+                  -6.288751
+                ],
+                [
+                  150.337657,
+                  -6.294529
+                ],
+                [
+                  150.012055,
+                  -6.321222
+                ],
+                [
+                  149.635427,
+                  -6.308201
+                ],
+                [
+                  149.052908,
+                  -6.161716
+                ],
+                [
+                  148.386241,
+                  -5.775079
+                ],
+                [
+                  148.34669,
+                  -5.726007
+                ],
+                [
+                  148.328949,
+                  -5.68377
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/West+New+Britain.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q667468",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "WNBP"
+        },
+        {
+          "lang": "en",
+          "toponym": "West New Britain Province"
+        }
+      ],
+      "properties": {
+        "title": "West New Britain Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Western%20Highlands.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  143.773219,
+                  -5.882586
+                ],
+                [
+                  143.769964,
+                  -5.874938
+                ],
+                [
+                  143.771979,
+                  -5.867704
+                ],
+                [
+                  144.04788,
+                  -5.429642
+                ],
+                [
+                  144.056716,
+                  -5.41724
+                ],
+                [
+                  144.247247,
+                  -5.262676
+                ],
+                [
+                  144.327036,
+                  -5.244227
+                ],
+                [
+                  144.340988,
+                  -5.242832
+                ],
+                [
+                  144.358662,
+                  -5.246708
+                ],
+                [
+                  144.504544,
+                  -5.29978
+                ],
+                [
+                  144.522476,
+                  -5.312027
+                ],
+                [
+                  144.678797,
+                  -5.42463
+                ],
+                [
+                  144.837237,
+                  -5.542245
+                ],
+                [
+                  144.848089,
+                  -5.551444
+                ],
+                [
+                  144.963379,
+                  -5.683064
+                ],
+                [
+                  145.038,
+                  -5.787657
+                ],
+                [
+                  144.605055,
+                  -6.394441
+                ],
+                [
+                  144.59689,
+                  -6.400178
+                ],
+                [
+                  144.590947,
+                  -6.401263
+                ],
+                [
+                  143.928507,
+                  -6.015601
+                ],
+                [
+                  143.804845,
+                  -5.936433
+                ],
+                [
+                  143.773219,
+                  -5.882586
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Western+Highlands.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q849807",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Western Highlands Province"
+        }
+      ],
+      "properties": {
+        "title": "Western Highlands Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Western%20Province.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Papua New Guinea"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  140.97698,
+                  -9.106134
+                ],
+                [
+                  140.849211,
+                  -6.702846
+                ],
+                [
+                  140.8504,
+                  -6.623574
+                ],
+                [
+                  140.976871,
+                  -4.988486
+                ],
+                [
+                  141.006205,
+                  -4.997111
+                ],
+                [
+                  142.208922,
+                  -5.406853
+                ],
+                [
+                  142.63856,
+                  -5.939379
+                ],
+                [
+                  143.942877,
+                  -7.991556
+                ],
+                [
+                  143.822927,
+                  -8.509535
+                ],
+                [
+                  143.813487,
+                  -8.530857
+                ],
+                [
+                  143.642345,
+                  -8.72617
+                ],
+                [
+                  143.396495,
+                  -8.977716
+                ],
+                [
+                  143.372569,
+                  -8.99977
+                ],
+                [
+                  143.361339,
+                  -9.00742
+                ],
+                [
+                  143.344737,
+                  -9.015558
+                ],
+                [
+                  142.652599,
+                  -9.330255
+                ],
+                [
+                  142.612478,
+                  -9.334649
+                ],
+                [
+                  141.152599,
+                  -9.232192
+                ],
+                [
+                  141.115001,
+                  -9.218438
+                ],
+                [
+                  140.97698,
+                  -9.106134
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Papua+New+Guinea/Western.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q849790",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Fly Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fly River Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western (Fly) Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Province"
+        }
+      ],
+      "properties": {
+        "title": "Western Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1053630",
+          "label": "province of Papua New Guinea"
+        }
+      ]
+    }
+  ],
+  "title": "Papua New Guinean provinces",
+  "type": "FeatureCollection"
+}

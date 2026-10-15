@@ -1,0 +1,380 @@
+{
+  "@context": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Polygon": "geojson:Polygon",
+    "ccode": "gn:countryCode",
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "depictions": {
+      "@container": "@set",
+      "@id": "foaf:depiction"
+    },
+    "descriptions": {
+      "@container": "@set",
+      "@id": "dcterms:description"
+    },
+    "easternmostPoint": "wdt:P1334",
+    "features": "geojson:features",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
+    "gn": "http://www.geonames.org/ontology#",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "id": "@id",
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "lang": "dcterms:language",
+    "lpo": "http://linkedpasts.org/ontology/lpo_latest.ttl#",
+    "names": {
+      "@container": "@set",
+      "@id": "lpo:name_attestation"
+    },
+    "northernmostPoint": "wdt:P1332",
+    "properties": "geojson:properties",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "southernmostPoint": "wdt:P1333",
+    "title": "dcterms:title",
+    "toponym": "lpo:toponym",
+    "type": "@type",
+    "types": {
+      "@container": "@set",
+      "@id": "lpo:type_attestation"
+    },
+    "value": "rdf:value",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "westernmostPoint": "wdt:P1335"
+  },
+  "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20French%20Polynesia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "French overseas country in the southern Pacific Ocean"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -151.485498,
+                  -16.863672
+                ],
+                [
+                  -151.512402,
+                  -16.619043
+                ],
+                [
+                  -151.505762,
+                  -16.574023
+                ],
+                [
+                  -140.224414,
+                  -8.781543
+                ],
+                [
+                  -140.057666,
+                  -8.801465
+                ],
+                [
+                  -139.583984,
+                  -8.860059
+                ],
+                [
+                  -139.53457,
+                  -8.875391
+                ],
+                [
+                  -139.50835,
+                  -8.89707
+                ],
+                [
+                  -138.827344,
+                  -9.741602
+                ],
+                [
+                  -136.293896,
+                  -18.544336
+                ],
+                [
+                  -136.314063,
+                  -18.566309
+                ],
+                [
+                  -138.505859,
+                  -20.857227
+                ],
+                [
+                  -138.534863,
+                  -20.875879
+                ],
+                [
+                  -149.254492,
+                  -17.849902
+                ],
+                [
+                  -149.578906,
+                  -17.734961
+                ],
+                [
+                  -151.485498,
+                  -16.863672
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:French+Polynesia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q30971",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "French Establishments in Oceania"
+        },
+        {
+          "lang": "en",
+          "toponym": "French Oceania"
+        },
+        {
+          "lang": "en",
+          "toponym": "French Polynesia"
+        },
+        {
+          "lang": "en",
+          "toponym": "French Settlements in Oceania"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of French Polynesia"
+        }
+      ],
+      "properties": {
+        "title": "French Polynesia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q719487",
+          "label": "overseas collectivity of France"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20FLNKS.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "French special collectivity and archipelago in Oceania"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  164.167995,
+                  -20.444747
+                ],
+                [
+                  164.029606,
+                  -20.105646
+                ],
+                [
+                  164.459967,
+                  -20.120012
+                ],
+                [
+                  165.020036,
+                  -20.459991
+                ],
+                [
+                  165.460009,
+                  -20.800022
+                ],
+                [
+                  166.599991,
+                  -21.700019
+                ],
+                [
+                  167.120011,
+                  -22.159991
+                ],
+                [
+                  166.740035,
+                  -22.399976
+                ],
+                [
+                  166.189732,
+                  -22.129708
+                ],
+                [
+                  165.474375,
+                  -21.679607
+                ],
+                [
+                  164.829815,
+                  -21.14982
+                ],
+                [
+                  164.167995,
+                  -20.444747
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:New+Caledonia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q33788",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "New Cal"
+        },
+        {
+          "lang": "en",
+          "toponym": "New Caledonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of New Caledonia and Dependencies"
+        }
+      ],
+      "properties": {
+        "title": "New Caledonia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q161243",
+          "label": "dependent territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q719487",
+          "label": "overseas collectivity of France"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wallis%20and%20Futuna.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "overseas collectivity of France"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -178.158594,
+                  -14.311914
+                ],
+                [
+                  -178.194385,
+                  -14.255469
+                ],
+                [
+                  -178.178027,
+                  -14.231641
+                ],
+                [
+                  -176.147949,
+                  -13.22168
+                ],
+                [
+                  -176.128076,
+                  -13.268164
+                ],
+                [
+                  -176.160596,
+                  -13.332813
+                ],
+                [
+                  -178.04668,
+                  -14.318359
+                ],
+                [
+                  -178.10332,
+                  -14.324902
+                ],
+                [
+                  -178.158594,
+                  -14.311914
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Wallis+and+Futuna.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q35555",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Wallis & Futuna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wallis and Futuna Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wallis and Futuna"
+        }
+      ],
+      "properties": {
+        "title": "Wallis and Futuna"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q719487",
+          "label": "overseas collectivity of France"
+        }
+      ]
+    }
+  ],
+  "title": "French Pacific territories",
+  "type": "FeatureCollection"
+}

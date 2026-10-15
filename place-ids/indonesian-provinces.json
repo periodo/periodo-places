@@ -27,6 +27,9 @@
     "id": "http://www.wikidata.org/entity/Q3891",
     "covers": [ "Kalimantan Tengah" ]
   },
+  "Central Papua": {
+    "id": "http://www.wikidata.org/entity/Q12486766"
+  },
   "Central Sulawesi": {
     "id": "http://www.wikidata.org/entity/Q5065",
     "covers": [ "Sulawesi Tengah" ]
@@ -47,6 +50,9 @@
     "id": "http://www.wikidata.org/entity/Q5067",
     "covers": [ "Gorontalo" ]
   },
+  "Highland Papua": {
+    "id": "http://www.wikidata.org/entity/Q112810104"
+  },
   "Jakarta": {
     "id": "http://www.wikidata.org/entity/Q3630",
     "covers": [ "Jakarta Raya" ]
@@ -62,6 +68,9 @@
   "Maluku": {
     "id": "http://www.wikidata.org/entity/Q5093",
     "covers": [ "Maluku" ]
+  },
+  "North Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3903"
   },
   "North Maluku": {
     "id": "http://www.wikidata.org/entity/Q5094",
@@ -91,6 +100,9 @@
     "id": "http://www.wikidata.org/entity/Q3906",
     "covers": [ "Kalimantan Selatan" ]
   },
+  "South Papua": {
+    "id": "http://www.wikidata.org/entity/Q61439296"
+  },
   "South Sulawesi": {
     "id": "http://www.wikidata.org/entity/Q5078",
     "covers": [ "Sulawesi Selatan" ]
@@ -102,6 +114,9 @@
   "Southeast Sulawesi": {
     "id": "http://www.wikidata.org/entity/Q5075",
     "covers": [ "Sulawesi Tenggara" ]
+  },
+  "Southwest Papua": {
+    "id": "http://www.wikidata.org/entity/Q115253263"
   },
   "Special Region of Yogyakarta": {
     "id": "http://www.wikidata.org/entity/Q3741",
