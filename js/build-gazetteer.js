@@ -1,16 +1,27 @@
 const fs = require("fs"),
-  request = require("request-promise-native"),
   n3 = require("n3"),
   jsonld = require("jsonld"),
   R = require("ramda"),
   stringify = require("jsonld-stable-stringify"),
   wkx = require("wkx"),
-  { sleep } = require("sleep"),
   linkedPlace = require("./linked-place"),
   convexHull = require("./convex-hull");
 
-const userAgent =
-  "PeriodO/1.0 (http://perio.do/; ryanshaw@unc.edu) request/2.88";
+const userAgent = "PeriodO/1.0 (http://perio.do/; ryanshaw@unc.edu)";
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const get = async (url, params, headers) => {
+  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {
+    headers: { "user-agent": userAgent, ...headers },
+  });
+  if (!response.ok) {
+    throw new Error(
+      `${response.status} ${response.statusText}: ${await response.text()}`,
+    );
+  }
+  return response;
+};
 
 const GAZETTEERS = {
   "afghan-provinces": "Afghan provinces",
@@ -145,7 +156,7 @@ const replace = (tag) => (replacement) => (string) =>
 const quote = (value) => `"${value}"`;
 
 const queryWikidata = (id, types, constraints) => {
-  if (R.contains(["wdt:P297|wdt:P300", "NL"], constraints)) {
+  if (R.includes(["wdt:P297|wdt:P300", "NL"], constraints)) {
     // confusion between the country and the kingdom; we want the former
     id = "http://www.wikidata.org/entity/Q55";
     // Q55 does not have ISO 3166-1 alpha-2 code
@@ -175,11 +186,11 @@ const queryWikidata = (id, types, constraints) => {
 
   //console.error(query)
 
-  return request({
-    uri: "https://query.wikidata.org/sparql",
-    qs: { query },
-    headers: { accept: "text/turtle", "user-agent": userAgent },
-  });
+  return get(
+    "https://query.wikidata.org/sparql",
+    { query },
+    { accept: "text/turtle" },
+  ).then((response) => response.text());
 };
 
 const parseTurtle = (ttl) =>
@@ -257,14 +268,15 @@ const COMMONS_QS = {
 const addGeometryFromWikimediaCommons = (place) =>
   new Promise((resolve, _) => {
     if (R.has("geoshape", place)) {
-      const titles = `Data:${place.geoshape.id.split("/Data:").pop()}`;
-      request({
-        uri: "https://commons.wikimedia.org/w/api.php",
-        qs: { titles, ...COMMONS_QS },
-        headers: { "user-agent": userAgent },
-        json: true,
-        qsStringifyOptions: { encode: false },
+      // geoshape IDs are form-encoded (e.g. Data:French+Polynesia.map)
+      const titles = `Data:${decodeURIComponent(
+        place.geoshape.id.split("/Data:").pop().replace(/\+/g, " "),
+      )}`;
+      get("https://commons.wikimedia.org/w/api.php", {
+        titles,
+        ...COMMONS_QS,
       })
+        .then((response) => response.json())
         .then((o) => {
           let geo = null;
           for (const [_, v] of Object.entries(o.query.pages)) {
@@ -898,7 +910,7 @@ const makeFeature = (place, gazetteer) =>
         }
         resolve(feature);
       })
-      .catch((o) => resolve(`${o.error ? o.error : o}`));
+      .catch((e) => resolve(`${e}`));
   });
 
 async function main(geometries, gazetteer, debugPlace) {
@@ -914,7 +926,7 @@ async function main(geometries, gazetteer, debugPlace) {
     } else {
       features.push(result);
     }
-    sleep(1);
+    await sleep(1000);
   }
   const g = {
     "@context": R.clone(context),
