@@ -18,6 +18,8 @@ def fix_invalid_geometries(path):
             raise Exception("No features key in gazetteer")
 
         for feature in geojson_data["features"]:
+            if feature.get("geometry") is None:
+                continue
             geometry = shape(feature["geometry"])
             reason = explain_validity(geometry)
             if not reason == "Valid Geometry":

@@ -15,8 +15,6 @@ const categoryOf = name => {
   }
 }
 
-const host = 'www.naturalearthdata.com'
-
 const path = process.argv[2].split('/')
     , zipfile = path.slice(-1)[0]
     , match = zipfile.match(/ne_([1,5]{1,2}0m)_([0-9a-z_]+).zip/)
@@ -24,5 +22,5 @@ const path = process.argv[2].split('/')
     , category = categoryOf(match[2])
 
 console.log(
-  `https://${host}/http//${host}/download/${scale}/${category}/${zipfile}`
+  `https://naciscdn.org/naturalearth/${scale}/${category}/${zipfile}`
 )

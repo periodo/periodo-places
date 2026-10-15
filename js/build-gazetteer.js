@@ -269,7 +269,7 @@ const addGeometryFromWikimediaCommons = (place) =>
             geo = JSON.parse(v.revisions[0].slots.main["*"]);
             break;
           }
-          if (geo) {
+          if (geo && geo.data && R.not(R.isEmpty(geo.data.features || []))) {
             resolve(
               R.assoc(
                 "geometry",
@@ -284,7 +284,10 @@ const addGeometryFromWikimediaCommons = (place) =>
             resolve(place);
           }
         })
-        .catch(console.error);
+        .catch((e) => {
+          console.error(e);
+          resolve(place);
+        });
     } else {
       resolve(place);
     }
