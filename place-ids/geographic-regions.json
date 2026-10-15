@@ -77,6 +77,21 @@
       "Ireland"
     ]
   },
+  "Java": {
+    "id": "http://www.wikidata.org/entity/Q3757",
+    "covers": [
+      "Java"
+    ]
+  },
+  "Kalimantan": {
+    "id": "http://www.wikidata.org/entity/Q3795",
+    "covers": [
+      "Indonesia: Kalimantan Barat",
+      "Indonesia: Kalimantan Tengah",
+      "Indonesia: Kalimantan Selatan",
+      "Indonesia: Kalimantan Timur"
+    ]
+  },
   "Korean Peninsula": {
     "id": "http://www.wikidata.org/entity/Q483134",
     "covers": [
@@ -89,10 +104,16 @@
       "Kyushu"
     ]
   },
+  "Lesser Sunda Islands": {
+    "id": "http://www.wikidata.org/entity/Q3803",
+    "covers": [
+      "Lesser Sunda Islands"
+    ]
+  },
   "Majorca": {
     "id": "http://www.wikidata.org/entity/Q8828",
     "covers": [
-      "Majorca"
+      "Mallorca"
     ]
   },
   "Malay Peninsula": {
@@ -101,10 +122,16 @@
       "Malay Peninsula"
     ]
   },
+  "Maluku Islands": {
+    "id": "http://www.wikidata.org/entity/Q3827",
+    "covers": [
+      "Maluku Islands"
+    ]
+  },
   "Okinawa Islands": {
     "id": "http://www.wikidata.org/entity/Q697589",
     "covers": [
-      "Okinawa"
+      "Okinawa Island"
     ]
   },
   "Sakhalin": {
@@ -131,6 +158,12 @@
       "Siberia"
     ]
   },
+  "Sulawesi": {
+    "id": "http://www.wikidata.org/entity/Q3812",
+    "covers": [
+      "Sulawesi"
+    ]
+  },
   "Sumatra": {
     "id": "http://www.wikidata.org/entity/Q3492",
     "covers": [
@@ -141,6 +174,13 @@
     "id": "http://www.wikidata.org/entity/Q17252",
     "covers": [
       "Tibetan Plateau"
+    ]
+  },
+  "Western New Guinea": {
+    "id": "http://www.wikidata.org/entity/Q3845",
+    "covers": [
+      "Indonesia: Papua",
+      "Indonesia: Papua Barat"
     ]
   }
 }

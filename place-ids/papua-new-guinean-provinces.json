@@ -1,0 +1,128 @@
+{
+  "Autonomous Region of Bougainville": {
+    "id": "http://www.wikidata.org/entity/Q18826",
+    "covers": [
+      "North Solomons"
+    ]
+  },
+  "Central Province": {
+    "id": "http://www.wikidata.org/entity/Q874942",
+    "covers": [
+      "Central"
+    ]
+  },
+  "Chimbu Province": {
+    "id": "http://www.wikidata.org/entity/Q599448",
+    "covers": [
+      "Chimbu"
+    ]
+  },
+  "East New Britain Province": {
+    "id": "http://www.wikidata.org/entity/Q753702",
+    "covers": [
+      "East New Britain"
+    ]
+  },
+  "East Sepik Province": {
+    "id": "http://www.wikidata.org/entity/Q690880",
+    "covers": [
+      "East Sepik"
+    ]
+  },
+  "Eastern Highlands Province": {
+    "id": "http://www.wikidata.org/entity/Q849812",
+    "covers": [
+      "Eastern Highlands"
+    ]
+  },
+  "Enga Province": {
+    "id": "http://www.wikidata.org/entity/Q862584",
+    "covers": [
+      "Enga"
+    ]
+  },
+  "Gulf Province": {
+    "id": "http://www.wikidata.org/entity/Q874980",
+    "covers": [
+      "Gulf"
+    ]
+  },
+  "Hela Province": {
+    "id": "http://www.wikidata.org/entity/Q1382499"
+  },
+  "Jiwaka Province": {
+    "id": "http://www.wikidata.org/entity/Q1400625"
+  },
+  "Madang Province": {
+    "id": "http://www.wikidata.org/entity/Q326254",
+    "covers": [
+      "Madang"
+    ]
+  },
+  "Manus Province": {
+    "id": "http://www.wikidata.org/entity/Q874935",
+    "covers": [
+      "Manus"
+    ]
+  },
+  "Milne Bay Province": {
+    "id": "http://www.wikidata.org/entity/Q874962",
+    "covers": [
+      "Milne Bay"
+    ]
+  },
+  "Morobe Province": {
+    "id": "http://www.wikidata.org/entity/Q853664",
+    "covers": [
+      "Morobe"
+    ]
+  },
+  "National Capital District": {
+    "id": "http://www.wikidata.org/entity/Q1378310",
+    "covers": [
+      "National Capital District"
+    ]
+  },
+  "New Ireland Province": {
+    "id": "http://www.wikidata.org/entity/Q838690",
+    "covers": [
+      "New Ireland"
+    ]
+  },
+  "Oro Province": {
+    "id": "http://www.wikidata.org/entity/Q753686",
+    "covers": [
+      "Northern"
+    ]
+  },
+  "Sandaun Province": {
+    "id": "http://www.wikidata.org/entity/Q753689",
+    "covers": [
+      "Sandaun"
+    ]
+  },
+  "Southern Highlands Province": {
+    "id": "http://www.wikidata.org/entity/Q849801",
+    "covers": [
+      "Southern Highlands"
+    ]
+  },
+  "West New Britain Province": {
+    "id": "http://www.wikidata.org/entity/Q667468",
+    "covers": [
+      "West New Britain"
+    ]
+  },
+  "Western Highlands Province": {
+    "id": "http://www.wikidata.org/entity/Q849807",
+    "covers": [
+      "Western Highlands"
+    ]
+  },
+  "Western Province": {
+    "id": "http://www.wikidata.org/entity/Q849790",
+    "covers": [
+      "Western"
+    ]
+  }
+}

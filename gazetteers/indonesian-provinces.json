@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,13 +58,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aceh.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aceh%2C%20Indonesia.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Sumatra"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -178,15 +179,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Aceh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1823",
       "names": [
         {
           "lang": "en",
-          "toponym": "Aceh"
+          "toponym": "Aceh Province"
         },
         {
           "lang": "en",
-          "toponym": "Nanggroe Aceh Darussalam"
+          "toponym": "Aceh"
         },
         {
           "lang": "en",
@@ -319,6 +323,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Bali.map"
       },
       "id": "http://www.wikidata.org/entity/Q3125978",
       "names": [
@@ -490,8 +497,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Bangka-Belitung.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1866",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Babel"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bangka Belitung Islands Province"
+        },
         {
           "lang": "en",
           "toponym": "Bangka Belitung Islands"
@@ -511,13 +529,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Banten.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Banten%2C%20Indonesia.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on island of Java"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -616,8 +634,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Banten.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3540",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Banten Province"
+        },
         {
           "lang": "en",
           "toponym": "Banten"
@@ -637,13 +662,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bengkulu.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bengkulu.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Sumatra"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -738,8 +763,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Bengkulu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1890",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Bangkahulu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bencoolen"
+        },
         {
           "lang": "en",
           "toponym": "Bengkulu Province"
@@ -747,6 +783,10 @@
         {
           "lang": "en",
           "toponym": "Bengkulu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Benkoelen"
         }
       ],
       "properties": {
@@ -864,8 +904,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Jawa+Tengah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3557",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Java Province"
+        },
         {
           "lang": "en",
           "toponym": "Central Java"
@@ -905,13 +952,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Kalimantan.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Kalimantan.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Borneo"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -1062,8 +1109,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Kalimantan+Tengah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3891",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Central Kalimantan Province"
+        },
         {
           "lang": "en",
           "toponym": "Central Kalimantan"
@@ -1087,7 +1145,41 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Sulawesi.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Papua%20Province.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q12486766",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Papua Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Central Papua"
+        }
+      ],
+      "properties": {
+        "title": "Central Papua"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Sulawesi.svg"
         }
       ],
       "descriptions": [
@@ -1224,8 +1316,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sulawesi+Tengah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5065",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Central Sulawesi Province"
+        },
         {
           "lang": "en",
           "toponym": "Central Sulawesi"
@@ -1362,8 +1461,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Jawa+Timur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3586",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "East Java Province"
+        },
         {
           "lang": "en",
           "toponym": "East Java province"
@@ -1405,7 +1511,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Borneo"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -1416,10 +1522,6 @@
                 [
                   115.860711,
                   -2.343319
-                ],
-                [
-                  113.776394,
-                  0.558571
                 ],
                 [
                   113.776394,
@@ -1516,7 +1618,27 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "East Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "East Kalimantan Province"
+        },
+        {
+          "lang": "en",
           "toponym": "East Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Eastern Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Eastern Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kalimantan Timur"
         }
       ],
       "properties": {
@@ -1698,8 +1820,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Nusa+Tenggara+Timur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5061",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "East Nusa Tenggara Province"
+        },
         {
           "lang": "en",
           "toponym": "East Nusa Tenggara"
@@ -1710,11 +1839,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Nusa Tenggara Timur"
+          "toponym": "Province of Nusa Tenggara Timur"
         },
         {
           "lang": "en",
-          "toponym": "Province of Nusa Tenggara Timur"
+          "toponym": "Southeast East Nusa"
         }
       ],
       "properties": {
@@ -1722,6 +1851,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
@@ -1731,7 +1864,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gorontalo.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gorontalo.svg"
         }
       ],
       "descriptions": [
@@ -1860,11 +1993,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Gorontalo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5067",
       "names": [
         {
           "lang": "en",
           "toponym": "Gorontalo (province)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gorontalo Province"
         },
         {
           "lang": "en",
@@ -1885,13 +2025,55 @@
     {
       "depictions": [
         {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Highland%20Papua.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q112810104",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Highland Papua Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Highland Papua"
+        },
+        {
+          "lang": "en",
+          "toponym": "Highlands Papua"
+        },
+        {
+          "lang": "en",
+          "toponym": "Papua Highlands"
+        }
+      ],
+      "properties": {
+        "title": "Highland Papua"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jakarta%20%28vectorised%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital city and smallest province of Indonesia"
+          "value": "capital and largest city of Indonesia"
         }
       ],
       "geometry": {
@@ -1982,11 +2164,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Jakarta+Raya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3630",
       "names": [
         {
           "lang": "en",
+          "toponym": "DKI Jakarta"
+        },
+        {
+          "lang": "en",
           "toponym": "Djakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jakarta Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jakarta Specific Region"
         },
         {
           "lang": "en",
@@ -1998,7 +2195,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Special Capital Region of Jakarta"
+          "toponym": "Specific Capital Region of Jakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Specific Region of Jakarta"
         }
       ],
       "properties": {
@@ -2007,28 +2208,32 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
+          "identifier": "http://www.wikidata.org/entity/Q17320423",
+          "label": "Daerah Khusus"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
+          "identifier": "http://www.wikidata.org/entity/Q174844",
+          "label": "megacity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q200250",
+          "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q208511",
+          "label": "global city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ]
     },
@@ -2168,8 +2373,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Jambi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2051",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Jambi Province"
+        },
         {
           "lang": "en",
           "toponym": "Jambi"
@@ -2180,6 +2392,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
@@ -2195,7 +2411,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of  Sumatra"
+          "value": "province of Indonesia, on the island of Sumatra"
         }
       ],
       "geometry": {
@@ -2298,6 +2514,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Lampung.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2110",
       "names": [
         {
@@ -2315,6 +2534,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
         }
@@ -2323,7 +2546,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maluku.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maluku.svg"
         }
       ],
       "descriptions": [
@@ -2344,10 +2567,6 @@
                 [
                   125.774181,
                   -8.007582
-                ],
-                [
-                  125.991742,
-                  -3.248191
                 ],
                 [
                   125.991742,
@@ -2464,8 +2683,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Maluku.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5093",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Maluku Province"
+        },
         {
           "lang": "en",
           "toponym": "Maluku"
@@ -2489,7 +2715,57 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Maluku.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Kalimantan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q3903",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kalimantan Utara"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Kalimantan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northern Kalimantan"
+        }
+      ],
+      "properties": {
+        "title": "North Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Maluku.svg"
         }
       ],
       "descriptions": [
@@ -2602,8 +2878,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Maluku+Utara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5094",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "North Maluku Province"
+        },
         {
           "lang": "en",
           "toponym": "North Maluku"
@@ -2716,11 +2999,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sulawesi+Utara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5068",
       "names": [
         {
           "lang": "en",
+          "toponym": "North Sulawesi Province"
+        },
+        {
+          "lang": "en",
           "toponym": "North Sulawesi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sulawesi Utara"
         }
       ],
       "properties": {
@@ -2743,7 +3037,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Sumatra"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -2866,15 +3160,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sumatera+Utara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2140",
       "names": [
         {
           "lang": "en",
-          "toponym": "North Sumatra"
+          "toponym": "North Sumatra Province"
         },
         {
           "lang": "en",
-          "toponym": "Provinsi Sumatra Utara"
+          "toponym": "North Sumatra"
         }
       ],
       "properties": {
@@ -2891,13 +3188,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua%202.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on island of New Guinea"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -2908,10 +3205,6 @@
                 [
                   137.638194,
                   -8.425877
-                ],
-                [
-                  134.233802,
-                  -3.383824
                 ],
                 [
                   134.233802,
@@ -3002,6 +3295,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q5095",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Papua Province"
+        },
         {
           "lang": "en",
           "toponym": "Papua"
@@ -3162,8 +3459,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Riau.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2175",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Riau Province"
+        },
         {
           "lang": "en",
           "toponym": "Riau"
@@ -3179,6 +3483,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
         }
@@ -3187,7 +3495,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Riau%20Islands.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Riau%20Islands.svg"
         }
       ],
       "descriptions": [
@@ -3292,11 +3600,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Kepulauan+Riau.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2223",
       "names": [
         {
           "lang": "en",
           "toponym": "Provinsi Kepulauan Riau"
+        },
+        {
+          "lang": "en",
+          "toponym": "Riau Islands Province"
         },
         {
           "lang": "en",
@@ -3317,13 +3632,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Kalimantan.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Kalimantan.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Borneo"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -3426,19 +3741,72 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Kalimantan+Selatan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3906",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Kalimantan Selatan"
+        },
         {
           "lang": "en",
           "toponym": "South Borneo"
         },
         {
           "lang": "en",
+          "toponym": "South Kalimantan Province"
+        },
+        {
+          "lang": "en",
           "toponym": "South Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Borneo"
         }
       ],
       "properties": {
         "title": "South Kalimantan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Papua.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia"
+        }
+      ],
+      "id": "http://www.wikidata.org/entity/Q61439296",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Papua Selatan"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Papua Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Papua"
+        }
+      ],
+      "properties": {
+        "title": "South Papua"
       },
       "type": "Feature",
       "types": [
@@ -3600,8 +3968,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sulawesi+Selatan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5078",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "South Sulawesi Province"
+        },
         {
           "lang": "en",
           "toponym": "South Sulawesi"
@@ -3762,15 +4137,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sumatera+Selatan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2271",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "South Sumatra Province"
+        },
         {
           "lang": "en",
           "toponym": "South Sumatra"
         },
         {
           "lang": "en",
-          "toponym": "Sumatera Selatan"
+          "toponym": "Sumatra Selatan"
         }
       ],
       "properties": {
@@ -3778,6 +4160,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
@@ -3920,11 +4306,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sulawesi+Tenggara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5075",
       "names": [
         {
           "lang": "en",
+          "toponym": "Southeast Sulawesi Province"
+        },
+        {
+          "lang": "en",
           "toponym": "Southeast Sulawesi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sulawesi Tenggara"
         }
       ],
       "properties": {
@@ -3941,135 +4338,39 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yogyakarta.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Southwest%20Papua.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on island of Java"
+          "value": "province of Indonesia"
         }
       ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  110.380382,
-                  -8.073175
-                ],
-                [
-                  110.04274,
-                  -7.889101
-                ],
-                [
-                  110.042772,
-                  -7.888872
-                ],
-                [
-                  110.046182,
-                  -7.864739
-                ],
-                [
-                  110.04918,
-                  -7.855438
-                ],
-                [
-                  110.130002,
-                  -7.686301
-                ],
-                [
-                  110.136513,
-                  -7.676792
-                ],
-                [
-                  110.159044,
-                  -7.667594
-                ],
-                [
-                  110.437683,
-                  -7.560055
-                ],
-                [
-                  110.773063,
-                  -7.843449
-                ],
-                [
-                  110.781331,
-                  -7.854042
-                ],
-                [
-                  110.784742,
-                  -7.862879
-                ],
-                [
-                  110.837039,
-                  -8.13325
-                ],
-                [
-                  110.84355,
-                  -8.200739
-                ],
-                [
-                  110.84356,
-                  -8.200843
-                ],
-                [
-                  110.715343,
-                  -8.193129
-                ],
-                [
-                  110.705577,
-                  -8.190037
-                ],
-                [
-                  110.476736,
-                  -8.111912
-                ],
-                [
-                  110.380382,
-                  -8.073175
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q3741",
+      "id": "http://www.wikidata.org/entity/Q115253263",
       "names": [
         {
           "lang": "en",
-          "toponym": "Jogja"
+          "toponym": "Far West Papua"
         },
         {
           "lang": "en",
-          "toponym": "Jogjakarta"
+          "toponym": "Papua Barat Daya"
         },
         {
           "lang": "en",
-          "toponym": "Special Region of Yogyakarta"
+          "toponym": "Southwest Papua Province"
         },
         {
           "lang": "en",
-          "toponym": "Yogyakarta Special Region"
-        },
-        {
-          "lang": "en",
-          "toponym": "Yogyakarta"
+          "toponym": "Southwest Papua"
         }
       ],
       "properties": {
-        "title": "Special Region of Yogyakarta"
+        "title": "Southwest Papua"
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5007997",
-          "label": "special region of Indonesia"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
@@ -4085,7 +4386,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia"
+          "value": "province in Indonesia"
         }
       ],
       "geometry": {
@@ -4176,6 +4477,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Jawa+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3724",
       "names": [
         {
@@ -4184,15 +4488,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Jawa Barat"
-        },
-        {
-          "lang": "en",
           "toponym": "Province of West Java"
         },
         {
           "lang": "en",
           "toponym": "Provinsi Jawa Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Java Province"
         },
         {
           "lang": "en",
@@ -4219,7 +4523,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Indonesia, on the island of Borneo"
+          "value": "province of Indonesia"
         }
       ],
       "geometry": {
@@ -4234,10 +4538,6 @@
                 [
                   108.677257,
                   -1.7138
-                ],
-                [
-                  108.855479,
-                  0.832221
                 ],
                 [
                   108.855479,
@@ -4322,6 +4622,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Kalimantan+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3916",
       "names": [
         {
@@ -4330,7 +4633,19 @@
         },
         {
           "lang": "en",
+          "toponym": "West Borneo"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Kalimantan Province"
+        },
+        {
+          "lang": "en",
           "toponym": "West Kalimantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Borneo"
         }
       ],
       "properties": {
@@ -4480,11 +4795,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Nusa+Tenggara+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5062",
       "names": [
         {
           "lang": "en",
           "toponym": "Nusa Tenggara Barat"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Nusa Tenggara Province"
         },
         {
           "lang": "en",
@@ -4500,6 +4822,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"
@@ -4610,6 +4936,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Irian+Jaya+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5096",
       "names": [
         {
@@ -4619,6 +4948,10 @@
         {
           "lang": "en",
           "toponym": "West Irian Jaya"
+        },
+        {
+          "lang": "en",
+          "toponym": "West Papua Province"
         },
         {
           "lang": "en",
@@ -4639,7 +4972,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sulawesi.tif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sulawesi.svg"
         }
       ],
       "descriptions": [
@@ -4748,8 +5081,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sulawesi+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5082",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "West Sulawesi Province"
+        },
         {
           "lang": "en",
           "toponym": "West Sulawesi"
@@ -4769,7 +5109,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sumatra.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Sumatra.svg"
         }
       ],
       "descriptions": [
@@ -4802,10 +5142,6 @@
                 [
                   98.658214,
                   -0.963474
-                ],
-                [
-                  99.151165,
-                  0.252457
                 ],
                 [
                   99.151165,
@@ -4914,15 +5250,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Sumatera+Barat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2772",
       "names": [
         {
           "lang": "en",
-          "toponym": "West Sumatra"
+          "toponym": "West Sumatra Province"
         },
         {
           "lang": "en",
-          "toponym": "West of Sumatra"
+          "toponym": "West Sumatra"
         }
       ],
       "properties": {
@@ -4930,6 +5269,155 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12479773",
+          "label": "first-level administrative country subdivision in Indonesia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5098",
+          "label": "province of Indonesia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yogyakarta.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Indonesia, on island of Java"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  110.380382,
+                  -8.073175
+                ],
+                [
+                  110.04274,
+                  -7.889101
+                ],
+                [
+                  110.042772,
+                  -7.888872
+                ],
+                [
+                  110.046182,
+                  -7.864739
+                ],
+                [
+                  110.04918,
+                  -7.855438
+                ],
+                [
+                  110.130002,
+                  -7.686301
+                ],
+                [
+                  110.136513,
+                  -7.676792
+                ],
+                [
+                  110.159044,
+                  -7.667594
+                ],
+                [
+                  110.437683,
+                  -7.560055
+                ],
+                [
+                  110.773063,
+                  -7.843449
+                ],
+                [
+                  110.781331,
+                  -7.854042
+                ],
+                [
+                  110.784742,
+                  -7.862879
+                ],
+                [
+                  110.837039,
+                  -8.13325
+                ],
+                [
+                  110.84355,
+                  -8.200739
+                ],
+                [
+                  110.84356,
+                  -8.200843
+                ],
+                [
+                  110.715343,
+                  -8.193129
+                ],
+                [
+                  110.705577,
+                  -8.190037
+                ],
+                [
+                  110.476736,
+                  -8.111912
+                ],
+                [
+                  110.380382,
+                  -8.073175
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indonesia/Yogyakarta.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q3741",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "D.I.Y."
+        },
+        {
+          "lang": "en",
+          "toponym": "D.I.Yogyakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jogja"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jogjakarta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Special Region of Yogyakarta Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yogyakarta"
+        }
+      ],
+      "properties": {
+        "title": "Yogyakarta"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q25579722",
+          "label": "Daerah Istimewa"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q5098",
           "label": "province of Indonesia"

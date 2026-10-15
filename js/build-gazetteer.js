@@ -27,6 +27,7 @@ const GAZETTEERS = {
   "egyptian-governorates": "Egyptian governorates",
   "english-counties": "English counties",
   "ethiopian-regions": "Ethiopian regions",
+  "french-pacific-territories": "French Pacific territories",
   "french-regions": "French regions",
   "gambian-regions": "Gambian regions",
   "geographic-regions": "Geographic regions",
@@ -54,6 +55,7 @@ const GAZETTEERS = {
   "omani-governorates": "Omani governorates",
   "other-regions": "Other regions",
   "pakistani-provinces": "Pakistani provinces and territories",
+  "papua-new-guinean-provinces": "Papua New Guinean provinces",
   "philippine-regions": "Philippine regions",
   "romanian-counties": "Romanian counties",
   "russian-federal-subjects": "Russian federal subjects",
@@ -552,6 +554,18 @@ const getWikidataIndonesianProvince = (id) =>
     ["wd:Q5098"], // province of Indonesia
   );
 
+const getWikidataFrenchPacificTerritory = (id) =>
+  getWikidataPlace(
+    id,
+    ["wd:Q719487"], // overseas collectivity of France
+  );
+
+const getWikidataPapuaNewGuineanProvince = (id) =>
+  getWikidataPlace(
+    id,
+    ["wd:Q3098609"], // administrative territorial entity of Papua New Guinea
+  );
+
 const getWikidataAzerbaijaniDistrict = (id) =>
   getWikidataPlace(id, [
     "wd:Q13417250", // district of Azerbaijan
@@ -798,6 +812,12 @@ const makeFeature = (place, gazetteer) =>
         break;
       case "indonesian-provinces":
         promise = getWikidataIndonesianProvince(place.id);
+        break;
+      case "french-pacific-territories":
+        promise = getWikidataFrenchPacificTerritory(place.id);
+        break;
+      case "papua-new-guinean-provinces":
+        promise = getWikidataPapuaNewGuineanProvince(place.id);
         break;
       case "azerbaijani-districts":
         promise = getWikidataAzerbaijaniDistrict(place.id);

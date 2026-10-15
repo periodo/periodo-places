@@ -58,6 +58,22 @@ This gazetteer was created by:
    vectors for label
    areas](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/).
 
+Natural Earth has no label areas for Kalimantan or Western New Guinea,
+so their geometries are made by merging Indonesian province
+geometries from the [Natural Earth 1:10m cultural
+vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+for [states and
+provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/):
+West, Central, South, and East Kalimantan for Kalimantan, and Papua
+and West Papua for Western New Guinea (see
+[place-ids/geographic-regions.json](place-ids/geographic-regions.json)
+for details). Natural Earth predates the 2012 creation of North
+Kalimantan, but its geometry for East Kalimantan still covers North
+Kalimantan, so the Kalimantan geometry covers all of Kalimantan.
+
+Note that the Natural Earth geometry for the Lesser Sunda Islands
+includes Bali and all of Timor, including Timor-Leste.
+
 ### Other regions gazetteer
 
 This gazetteer was created by finding PeriodO periods with
@@ -83,7 +99,9 @@ This gazetteer was created by:
 1. removing Natural Earth "countries" that lack ISO country codes (see
    [jq/countries.jq](jq/countries.jq) for the complete list). Natural
    Earth is missing ISO 3166-1 alpha-2 codes for Norway, Papua New
-   Guinea, and Serbia, so these have been added.
+   Guinea, and Serbia, so these have been added. Natural Earth treats
+   Bougainville as a separate map unit, so its geometry is merged
+   into the geometry for Papua New Guinea.
 
 1. using the ISO 3166-1 alpha-2 codes from the Natural Earth data to
    query Wikidata for the additional metadata required by the [Linked
@@ -314,6 +332,21 @@ Nations, Nationalities, and Peoples in 2020, is not included, as the
 geometry for this administrative unit is not yet included in the
 Natural Earth data.
 
+### French Pacific territories gazetteer
+
+This gazetteer was created by:
+
+1. taking the geometries of New Caledonia, French Polynesia, and
+   Wallis and Futuna from the Natural Earth map units used for the
+   [countries gazetteer](#countries-gazetteer) (see
+   [place-ids/french-pacific-territories.json](place-ids/french-pacific-territories.json)
+   for details), and
+
+1. querying Wikidata for instances of [Q719487 overseas collectivity
+   of France](https://www.wikidata.org/wiki/Q719487) to add the
+   additional metadata required by the [Linked Places gazetteer
+   format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
 ### French regions gazetteer
 
 This gazetteer was created by:
@@ -467,9 +500,20 @@ This gazetteer was created by:
    additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
-Note that the province of North Kalimantan (separated from East
-Kalimantan in 2012) is not included, as the geometry for this
-administrative unit is not yet included in the Natural Earth data.
+Natural Earth has only the 33 provinces that existed before 2012, so
+some geometries are out of date:
+
+- North Kalimantan, separated from East Kalimantan in 2012, has no
+  geometry. The geometry for East Kalimantan still includes North
+  Kalimantan.
+
+- Central Papua, Highland Papua, South Papua, and Southwest Papua,
+  separated from Papua and West Papua in 2022, have no geometry. The
+  geometries for Papua and West Papua are their pre-2022 boundaries.
+
+The region of Western New Guinea, which covers the Papua provinces,
+is also in the [geographic regions
+gazetteer](#geographic-regions-gazetteer).
 
 ### Iranian provinces gazetteer
 
@@ -803,6 +847,34 @@ This gazetteer was created by:
 Note that the Federally Administered Tribal Areas are included as a
 separate territory, as they were prior to their 2018 merger with the
 province of Khyber Pakhtunkhwa.
+
+### Papua New Guinean provinces gazetteer
+
+This gazetteer was created by:
+
+1. taking the [Natural Earth 1:10m cultural
+   vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+   for [states and
+   provinces](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/),
+
+1. extracting geometries of the administrative regions from the
+   Natural Earth data (see
+   [place-ids/papua-new-guinean-provinces.json](place-ids/papua-new-guinean-provinces.json)
+   for details), and
+
+1. querying Wikidata for instances of [Q3098609 administrative
+   territorial entity of Papua New
+   Guinea](https://www.wikidata.org/wiki/Q3098609) to add the
+   additional metadata required by the [Linked Places gazetteer
+   format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
+
+The Autonomous Region of Bougainville is included. Natural Earth
+calls it by its old name, North Solomons.
+
+Natural Earth predates the 2012 creation of Hela and Jiwaka provinces,
+so they have no geometry. The geometries for Southern Highlands and
+Western Highlands are their pre-2012 boundaries, which include Hela
+and Jiwaka respectively.
 
 ### Philippine regions gazetteer
 

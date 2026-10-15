@@ -1,5 +1,13 @@
+def multipolygon: if .type == "Polygon" then [.coordinates] else .coordinates end;
+
+# Bougainville is part of Papua New Guinea, but is a separate NE map unit
+."Papua New Guinea".geometry = {
+  type: "MultiPolygon",
+  coordinates: ((."Papua New Guinea".geometry | multipolygon)
+                + (."Bougainville".geometry | multipolygon))
+}
 # delete non-countries (according to ISO/Wikidata)
-del(
+| del(
 ."Adjara",
 ."Akrotiri",
 ."American Samoa",

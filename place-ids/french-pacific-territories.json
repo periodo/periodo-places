@@ -1,0 +1,20 @@
+{
+  "French Polynesia": {
+    "id": "http://www.wikidata.org/entity/Q30971",
+    "covers": [
+      "French Polynesia"
+    ]
+  },
+  "New Caledonia": {
+    "id": "http://www.wikidata.org/entity/Q33788",
+    "covers": [
+      "New Caledonia"
+    ]
+  },
+  "Wallis and Futuna": {
+    "id": "http://www.wikidata.org/entity/Q35555",
+    "covers": [
+      "Wallis and Futuna Islands"
+    ]
+  }
+}
