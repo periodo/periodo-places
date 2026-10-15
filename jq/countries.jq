@@ -98,6 +98,8 @@ def multipolygon: if .type == "Polygon" then [.coordinates] else .coordinates en
 | ."Serbia".code = "RS"
 | ."Portugal".code = "PT"
 | ."Papua New Guinea".code = "PG"
+| ."Kosovo".code = "XK"
+| ."Taiwan".code = "TW"
 # use ISO 3166-2 code for UK countries
 | ."England".code = "GB-ENG"
 | ."Northern Ireland".code = "GB-NIR"
