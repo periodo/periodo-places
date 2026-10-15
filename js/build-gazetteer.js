@@ -11,16 +11,47 @@ const userAgent = "PeriodO/1.0 (http://perio.do/; ryanshaw@unc.edu)";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+const MAX_ATTEMPTS = 5;
+
+const isRetryable = (status) => status === 429 || status >= 500;
+
+// Seconds to wait from a Retry-After header, or exponential backoff
+const retryDelay = (response, attempt) => {
+  const retryAfter = Number(response?.headers.get("retry-after"));
+  return 1000 * (retryAfter > 0 ? retryAfter : 2 ** attempt);
+};
+
 const get = async (url, params, headers) => {
-  const response = await fetch(`${url}?${new URLSearchParams(params)}`, {
-    headers: { "user-agent": userAgent, ...headers },
-  });
-  if (!response.ok) {
-    throw new Error(
-      `${response.status} ${response.statusText}: ${await response.text()}`,
+  for (let attempt = 1; ; attempt++) {
+    let response;
+    try {
+      response = await fetch(`${url}?${new URLSearchParams(params)}`, {
+        headers: { "user-agent": userAgent, ...headers },
+      });
+    } catch (e) {
+      // network error
+      if (attempt >= MAX_ATTEMPTS) {
+        throw e;
+      }
+    }
+    if (response?.ok) {
+      return response;
+    }
+    if (
+      response &&
+      (!isRetryable(response.status) || attempt >= MAX_ATTEMPTS)
+    ) {
+      throw new Error(
+        `${response.status} ${response.statusText}: ${await response.text()}`,
+      );
+    }
+    const delay = retryDelay(response, attempt);
+    console.error(
+      `${response ? response.status : "network error"} from ${url}; ` +
+        `retrying in ${delay / 1000}s (attempt ${attempt}/${MAX_ATTEMPTS})`,
     );
+    await sleep(delay);
   }
-  return response;
 };
 
 const GAZETTEERS = {
