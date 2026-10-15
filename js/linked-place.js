@@ -65,7 +65,7 @@ module.exports = quads => {
                 literal(q.object.language))
             ], qs)
           }
-          else if (R.contains(q.subject, types)) {
+          else if (R.includes(q.subject, types)) {
             // reify type as type attestation
             const attestation = blankNode()
             return R.concat([

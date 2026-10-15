@@ -2,24 +2,18 @@
   "name": "periodo-places",
   "version": "1.0.0",
   "description": "PeriodO placename gazetteers",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
+  "private": true,
   "author": "Ryan Shaw <ryanshaw@unc.edu>",
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "concaveman": "^1.2.1",
-    "jsonld": "^5.2.0",
+    "jsonld": "^9.0.0",
     "jsonld-stable-stringify": "^1.1.1",
-    "n3": "^1.11.1",
-    "ramda": "^0.27.1",
-    "request": "^2.88.2",
-    "request-promise-native": "^1.0.9",
-    "sleep": "^6.3.0",
+    "n3": "^1.26.0",
+    "ramda": "^0.32.0",
     "split": "^1.0.1",
     "wkx": "^0.5.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.32.0"
   }
 }

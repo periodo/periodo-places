@@ -1,10 +1,19 @@
 const fs = require('fs')
-    , request = require('request-promise-native')
-    , { sleep } = require('sleep')
 
-const queryDBpedia = legacyID => request({
-  uri: 'http://dbpedia.org/sparql',
-  qs: {query: `
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
+
+const sparql = async (endpoint, query) => {
+  const response = await fetch(
+    `${endpoint}?${new URLSearchParams({query})}`,
+    {headers: {accept: 'application/json'}}
+  )
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText}`)
+  }
+  return response.json()
+}
+
+const queryDBpedia = legacyID => sparql('http://dbpedia.org/sparql', `
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT DISTINCT ?id
@@ -12,24 +21,16 @@ WHERE {
   <${legacyID}> owl:sameAs ?id .
   FILTER (STRSTARTS(STR(?id), "http://www.wikidata.org/entity/"))
 }
-`},
-  headers: {accept: 'application/json'},
-  json: true
-})
+`)
 
-const queryGeonames = legacyID => request({
-  uri: 'https://query.wikidata.org/sparql',
-  qs: {query: `
+const queryGeonames = legacyID => sparql('https://query.wikidata.org/sparql', `
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
 SELECT DISTINCT ?id
 WHERE {
   ?id wdt:P1566 "${legacyID.split('/')[3]}" .
 }
-`},
-  headers: {accept: 'application/json'},
-  json: true
-})
+`)
 
 const fixedMappings = {
   'http://dbpedia.org/resource/Palestine':
@@ -65,7 +66,7 @@ async function main() {
       const wikidataId = o.results.bindings[0].id.value
       console.log(`${id}→${wikidataId}`)
     }
-    sleep(1)
+    await sleep(1000)
   }
 }
 
