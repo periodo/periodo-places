@@ -22,11 +22,12 @@ from shapely.geometry import shape
 LARGE_OUTLINE_CHANGE = 0.05
 
 
-def committed(path):
-    result = subprocess.run(
-        ["git", "show", f"HEAD:{path}"], capture_output=True, text=True
-    )
-    return json.loads(result.stdout) if result.returncode == 0 else None
+def git(*args):
+    return subprocess.run(["git", *args], capture_output=True, text=True, check=True).stdout
+
+
+def committed(path, tracked):
+    return json.loads(git("show", f"HEAD:{path}")) if path in tracked else None
 
 
 def outline(feature):
@@ -187,9 +188,7 @@ def main() -> int:
     args = parser.parse_args()
 
     reports, problems = {}, []
-    tracked = subprocess.run(
-        ["git", "ls-files", "gazetteers/*.json"], capture_output=True, text=True, check=True
-    ).stdout.split()
+    tracked = set(git("ls-files", "gazetteers/*.json").split())
     problems += [f"`{Path(p).stem}` was not built" for p in tracked if not Path(p).exists()]
     for path in sorted(Path("gazetteers").glob("*.json")):
         name = path.stem
@@ -200,7 +199,7 @@ def main() -> int:
             continue
         ids = Path("place-ids") / path.name
         expected = len(json.loads(ids.read_text(encoding="utf-8"))) if ids.exists() else None
-        report = compare(name, committed(f"gazetteers/{path.name}"), new, expected)
+        report = compare(name, committed(f"gazetteers/{path.name}", tracked), new, expected)
         reports[name] = report
         problems += problems_for(name, report)
 

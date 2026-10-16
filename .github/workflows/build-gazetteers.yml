@@ -52,6 +52,11 @@ jobs:
 
       - uses: actions/checkout@v5
 
+      # the container runs as root but the workspace isn't owned by root,
+      # and the report reads committed gazetteers with git
+      - name: Trust the workspace
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
       - uses: actions/setup-node@v5
         with:
           node-version-file: .tool-versions
