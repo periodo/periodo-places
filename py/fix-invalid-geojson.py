@@ -11,7 +11,7 @@ def err(message):
 
 def fix_invalid_geometries(path):
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             geojson_data = json.load(f)
 
         if "features" not in geojson_data:
@@ -46,8 +46,8 @@ def main(args) -> int:
     corrected_geojson = fix_invalid_geometries(args[0])
     if corrected_geojson is None:
         return 1
-    with open(args[0], "w") as f:
-        json.dump(corrected_geojson, f, indent=2)
+    with open(args[0], "w", encoding="utf-8") as f:
+        json.dump(corrected_geojson, f, indent=2, ensure_ascii=False)
     return 0
 
 
