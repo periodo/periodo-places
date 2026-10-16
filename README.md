@@ -21,8 +21,8 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q5107
    continent](https://www.wikidata.org/wiki/Q5107), excluding [Q3960
-   Australia](https://www.wikidata.org/wiki/Q3960) in favor of [Q538
-   Oceania](https://www.wikidata.org/wiki/Q538). This gazetteer is
+   Australia](https://www.wikidata.org/wiki/Q3960) in favor of [Q55643
+   Oceania](https://www.wikidata.org/wiki/Q55643). This gazetteer is
    also where we put [Q2 Earth](https://www.wikidata.org/wiki/Q2), for
    lack of a better place. (Earth does not have a geometry.)
 
@@ -94,7 +94,9 @@ This gazetteer was created by:
    cultural vectors for countries and map units, such that we use the
    lowest-resolution, and most geographically specific, country
    geometries available (i.e. prioritizing map units over sovereign
-   entities).
+   entities). The exception is Tuvalu, whose lower-resolution
+   geometries include only one of its nine islands, so we use its
+   1:10m geometry.
 
 1. removing Natural Earth "countries" that lack ISO country codes (see
    [jq/countries.jq](jq/countries.jq) for the complete list). Natural
@@ -303,7 +305,7 @@ This gazetteer was created by:
    [place-ids/english-counties.json](place-ids/english-counties.json)
    for details), and
 
-1. querying Wikidata for instances of [Q180673 ceremonial country of
+1. querying Wikidata for instances of [Q180673 ceremonial county of
    England](https://www.wikidata.org/wiki/Q180673) to add the
    additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
@@ -363,9 +365,11 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q36784 region of
    France](https://www.wikidata.org/wiki/Q36784), [Q22670030 former
-   French region](https://www.wikidata.org/wiki/Q22670030), or
-   [Q202216 overseas department and region of
-   France](https://www.wikidata.org/wiki/Q202216) to add the
+   French region](https://www.wikidata.org/wiki/Q22670030), [Q202216
+   overseas department and region of
+   France](https://www.wikidata.org/wiki/Q202216), or [Q1620908
+   historical region](https://www.wikidata.org/wiki/Q1620908) (for
+   Alsace and Limousin) to add the
    additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
@@ -569,7 +573,13 @@ This gazetteer was created by:
 1. extracting geometries of the administrative regions from the
    Natural Earth data (see
    [place-ids/israeli-districts.json](place-ids/israeli-districts.json)
-   for details), and
+   for details),
+
+1. removing from the Jerusalem and Central districts any area within
+   the Natural Earth
+   [1:50m](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/)
+   geometry for Palestine, which is the geometry the countries
+   gazetteer uses (the 1:10m districts include East Jerusalem), and
 
 1. querying Wikidata for instances of [Q193560 district of
    Israel](https://www.wikidata.org/wiki/Q193560) to add the
@@ -648,10 +658,10 @@ This gazetteer was created by:
    details), and
 
 1. querying Wikidata for instances of [Q693039 region of
-   Kyrgyzstan](https://www.wikidata.org/wiki/Q693039) (or [Q15623974
-   administrative territorial entity of
-   Kyrgyzstan](https://www.wikidata.org/wiki/Q15623974) in the case of
-   Bishkek) to add the additional metadata required by the [Linked
+   Kyrgyzstan](https://www.wikidata.org/wiki/Q693039) (or [Q10864048
+   first-level administrative country
+   subdivision](https://www.wikidata.org/wiki/Q10864048) in the case
+   of Bishkek) to add the additional metadata required by the [Linked
    Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
@@ -736,7 +746,9 @@ This gazetteer was created by:
    for details), and
 
 1. querying Wikidata for instances of [Q50464 state or federal
-   territory of Malaysia](https://www.wikidata.org/wiki/Q50464) to add
+   territory of Malaysia](https://www.wikidata.org/wiki/Q50464) or
+   [Q1008803 federal territory of
+   Malaysia](https://www.wikidata.org/wiki/Q1008803) to add
    the additional metadata required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
@@ -797,9 +809,10 @@ This gazetteer was created by:
    for details), and
 
 1. querying Wikidata for instances of [Q859869 region of
-   Niger](https://www.wikidata.org/wiki/Q859869) (or [Q5119
-   capital](https://www.wikidata.org/wiki/Q5119) in the case of
-   Niamey) to add the additional metadata required by the [Linked
+   Niger](https://www.wikidata.org/wiki/Q859869) (or [Q10864048
+   first-level administrative country
+   subdivision](https://www.wikidata.org/wiki/Q10864048) in the case
+   of Niamey) to add the additional metadata required by the [Linked
    Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
@@ -838,10 +851,15 @@ This gazetteer was created by:
 
 1. querying Wikidata for instances of [Q270496 administrative
    territorial entity of
-   Pakistan](https://www.wikidata.org/wiki/Q270496) that are also
-   instances of [Q10864048 first-level administrative country
-   subdivision](https://www.wikidata.org/wiki/Q10864048) to add the
-   additional metadata required by the [Linked Places gazetteer
+   Pakistan](https://www.wikidata.org/wiki/Q270496) (or [Q15239622
+   disputed territory](https://www.wikidata.org/wiki/Q15239622) in the
+   case of Azad Kashmir) that are also instances of [Q10864048
+   first-level administrative country
+   subdivision](https://www.wikidata.org/wiki/Q10864048), or of
+   [Q19953632 former administrative territorial
+   entity](https://www.wikidata.org/wiki/Q19953632) in the case of the
+   Federally Administered Tribal Areas, to add the additional metadata
+   required by the [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
 
 Note that the Federally Administered Tribal Areas are included as a
@@ -1099,8 +1117,8 @@ This gazetteer was created by:
    for details), and
 
 1. querying Wikidata for instances of [Q3348196 oblast of
-   Ukraine](https://www.wikidata.org/wiki/Q3348196) (or [Q5124045 city
-   with special status](https://www.wikidata.org/wiki/Q5124045) in the
+   Ukraine](https://www.wikidata.org/wiki/Q3348196) (or [Q12131624
+   city in Ukraine](https://www.wikidata.org/wiki/Q12131624) in the
    case of Kyiv) to add the additional metadata required by the
    [Linked Places gazetteer
    format](https://github.com/LinkedPasts/linked-places#the-linked-places-format).
@@ -1201,7 +1219,8 @@ This gazetteer was created by:
 1. finding PeriodO periods with cities in their spatial coverage
    descriptions, and then looking for close equivalents in Wikidata
    that are instances of [Q486972 human
-   settlement](https://www.wikidata.org/wiki/Q486972), and then
+   settlement](https://www.wikidata.org/wiki/Q486972) or [Q15284
+   municipality](https://www.wikidata.org/wiki/Q15284), and then
 
 1. using the [Natural Earth 1:10m landscan urban
    areas](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/)
