@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -63,7 +64,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "easternmostPoint": {
@@ -161,8 +162,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Johor.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183032",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Johor Darul Ta'zim"
+        },
         {
           "lang": "en",
           "toponym": "Johor"
@@ -213,7 +221,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -222,16 +230,16 @@
             "coordinates": [
               [
                 [
-                  100.350841,
-                  5.584215
+                  99.646007,
+                  6.394192
                 ],
                 [
-                  100.198732,
-                  6.260528
+                  99.645228,
+                  6.435841
                 ],
                 [
-                  100.214328,
-                  6.29897
+                  99.832774,
+                  6.470852
                 ],
                 [
                   100.377659,
@@ -326,12 +334,16 @@
                   5.107079
                 ],
                 [
-                  100.354296,
-                  5.568983
+                  99.658702,
+                  6.362616
                 ],
                 [
-                  100.350841,
-                  5.584215
+                  99.650076,
+                  6.376695
+                ],
+                [
+                  99.646007,
+                  6.394192
                 ]
               ]
             ],
@@ -340,11 +352,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Kedah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188947",
       "names": [
         {
           "lang": "en",
+          "toponym": "Kedah Darul Aman"
+        },
+        {
+          "lang": "en",
           "toponym": "Kedah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Queda"
         }
       ],
       "properties": {
@@ -367,7 +390,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -470,11 +493,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Kelantan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185944",
       "names": [
         {
           "lang": "en",
+          "toponym": "Kelantan Darul Naim"
+        },
+        {
+          "lang": "en",
           "toponym": "Kelantan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Klate"
         }
       ],
       "properties": {
@@ -497,7 +531,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital of Malaysia"
+          "value": "federal territory and capital city of Malaysia"
         }
       ],
       "geometry": {
@@ -612,11 +646,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Kuala+Lumpur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1865",
       "names": [
         {
           "lang": "en",
           "toponym": "Federal Territory of Kuala Lumpur"
+        },
+        {
+          "lang": "en",
+          "toponym": "K.L."
         },
         {
           "lang": "en",
@@ -633,12 +674,24 @@
           "label": "federal territory of Malaysia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q208511",
+          "label": "global city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q257391",
+          "label": "federal capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ]
     },
@@ -651,7 +704,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Federal Territory of Malaysia"
+          "value": "federal territory of Malaysia"
         }
       ],
       "geometry": {
@@ -710,6 +763,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Labuan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q214504",
       "names": [
         {
@@ -745,7 +801,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -840,11 +896,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Melaka.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185221",
       "names": [
         {
           "lang": "en",
+          "toponym": "Historic State of Malacca"
+        },
+        {
+          "lang": "en",
           "toponym": "Malacca"
+        },
+        {
+          "lang": "en",
+          "toponym": "Melaka Negeri Bersejarah"
         },
         {
           "lang": "en",
@@ -852,7 +919,7 @@
         }
       ],
       "properties": {
-        "title": "Melaka"
+        "title": "Malacca"
       },
       "type": "Feature",
       "types": [
@@ -871,7 +938,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -958,11 +1025,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Negeri+Sembilan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q213893",
       "names": [
         {
           "lang": "en",
+          "toponym": "Negeri Sembilan Darul Khusus"
+        },
+        {
+          "lang": "en",
           "toponym": "Negeri Sembilan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Negri Sembilan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nogori Sombilan"
         }
       ],
       "properties": {
@@ -973,6 +1055,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q15063586",
           "label": "state of Malaysia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43702",
+          "label": "federation"
         }
       ]
     },
@@ -985,7 +1071,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -1092,11 +1178,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Pahang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q191346",
       "names": [
         {
           "lang": "en",
+          "toponym": "Paha"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pahaeng"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pahang Darul Makmur"
+        },
+        {
+          "lang": "en",
           "toponym": "Pahang"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pahaq"
         }
       ],
       "properties": {
@@ -1210,11 +1315,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Pulau+Pinang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188096",
       "names": [
         {
           "lang": "en",
           "toponym": "Penang"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pinang"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pulau Pinang"
         }
       ],
       "properties": {
@@ -1229,10 +1345,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Perak.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -1367,8 +1488,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Perak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188953",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Peghok"
+        },
+        {
+          "lang": "en",
+          "toponym": "Perak Darul Ridzuan"
+        },
         {
           "lang": "en",
           "toponym": "Perak"
@@ -1394,7 +1526,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -1403,12 +1535,20 @@
             "coordinates": [
               [
                 [
-                  99.646007,
-                  6.394192
+                  100.137462,
+                  6.38052
                 ],
                 [
-                  99.645228,
-                  6.435841
+                  100.127289,
+                  6.442288
+                ],
+                [
+                  100.164046,
+                  6.683728
+                ],
+                [
+                  100.166836,
+                  6.695122
                 ],
                 [
                   100.173296,
@@ -1463,32 +1603,16 @@
                   6.260528
                 ],
                 [
-                  99.805596,
-                  6.171793
+                  100.174571,
+                  6.290961
                 ],
                 [
-                  99.789523,
-                  6.185876
+                  100.152843,
+                  6.33393
                 ],
                 [
-                  99.77471,
-                  6.204017
-                ],
-                [
-                  99.728735,
-                  6.261476
-                ],
-                [
-                  99.658702,
-                  6.362616
-                ],
-                [
-                  99.650076,
-                  6.376695
-                ],
-                [
-                  99.646007,
-                  6.394192
+                  100.137462,
+                  6.38052
                 ]
               ]
             ],
@@ -1497,8 +1621,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Perlis.map"
+      },
       "id": "http://www.wikidata.org/entity/Q213467",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Peghelih"
+        },
+        {
+          "lang": "en",
+          "toponym": "Perlis Indera Kayangan"
+        },
         {
           "lang": "en",
           "toponym": "Perlis"
@@ -1524,7 +1659,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal administrative centre of Malaysia"
+          "value": "seat of government and administrative centre of Malaysia"
         }
       ],
       "geometry": {
@@ -1595,6 +1730,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Putrajaya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q182378",
       "names": [
         {
@@ -1616,8 +1754,16 @@
           "label": "federal territory of Malaysia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q1306755",
+          "label": "administrative centre"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15840617",
+          "label": "planned national capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q171441",
+          "label": "enclave"
         }
       ]
     },
@@ -1630,7 +1776,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -1745,11 +1891,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Sabah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q179029",
       "names": [
         {
           "lang": "en",
+          "toponym": "Land Below the Wind"
+        },
+        {
+          "lang": "en",
           "toponym": "Sabah"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Sabah"
         }
       ],
       "properties": {
@@ -1772,7 +1929,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -1923,11 +2080,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Sarawak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170462",
       "names": [
         {
           "lang": "en",
           "toponym": "Sarawak"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Sarawak"
         }
       ],
       "properties": {
@@ -1954,7 +2118,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -2081,8 +2245,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Selangor.map"
+      },
       "id": "http://www.wikidata.org/entity/Q189710",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Selangor Darul Ehsan"
+        },
         {
           "lang": "en",
           "toponym": "Selangor"
@@ -2108,7 +2279,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Malaysian state"
+          "value": "state of Malaysia"
         }
       ],
       "geometry": {
@@ -2243,11 +2414,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Malaysia/Trengganu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q189701",
       "names": [
         {
           "lang": "en",
           "toponym": "Terangganu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Terengganu Darul Iman"
         },
         {
           "lang": "en",

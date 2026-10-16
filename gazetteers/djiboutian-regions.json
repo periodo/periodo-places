@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -129,6 +130,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Ali+Sabieh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q821008",
       "names": [
         {
@@ -213,6 +217,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Arta.map"
       },
       "id": "http://www.wikidata.org/entity/Q705941",
       "names": [
@@ -323,6 +330,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Dikhil.map"
+      },
       "id": "http://www.wikidata.org/entity/Q283979",
       "names": [
         {
@@ -399,6 +409,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Djibouti.map"
       },
       "id": "http://www.wikidata.org/entity/Q12182414",
       "names": [
@@ -537,6 +550,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Obock.map"
+      },
       "id": "http://www.wikidata.org/entity/Q844929",
       "names": [
         {
@@ -653,6 +669,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Djibouti/Tadjourah.map"
       },
       "id": "http://www.wikidata.org/entity/Q645896",
       "names": [

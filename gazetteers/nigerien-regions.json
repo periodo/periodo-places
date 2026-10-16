@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -132,6 +133,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Agadez.map"
       },
       "id": "http://www.wikidata.org/entity/Q389944",
       "names": [
@@ -266,6 +270,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Diffa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1053302",
       "names": [
         {
@@ -382,6 +389,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Dosso.map"
       },
       "id": "http://www.wikidata.org/entity/Q850055",
       "names": [
@@ -536,6 +546,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Maradi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q850036",
       "names": [
         {
@@ -657,6 +670,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Niamey Urban Community"
+        },
+        {
+          "lang": "en",
           "toponym": "Niamey"
         }
       ],
@@ -667,23 +684,15 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q4683538",
           "label": "administrative territorial entity of Niger"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -777,6 +786,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Tahoua.map"
       },
       "id": "http://www.wikidata.org/entity/Q871083",
       "names": [
@@ -886,6 +898,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Tillab%C3%A9ri.map"
       },
       "id": "http://www.wikidata.org/entity/Q861914",
       "names": [
@@ -1015,6 +1030,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Niger/Zinder.map"
       },
       "id": "http://www.wikidata.org/entity/Q204367",
       "names": [

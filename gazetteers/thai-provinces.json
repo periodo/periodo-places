@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,7 +58,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Amnat%20Charoen%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Amnat%20Charoen%20province.svg"
         }
       ],
       "descriptions": [
@@ -193,6 +194,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Amnat+Charoen.map"
       },
       "id": "http://www.wikidata.org/entity/Q243791",
       "names": [
@@ -343,6 +347,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Ang+Thong.map"
+      },
       "id": "http://www.wikidata.org/entity/Q243795",
       "names": [
         {
@@ -373,6 +380,13 @@
           "value": "capital of Thailand"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          100.938361111,
+          13.814361111
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -445,7 +459,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Krung Thep Maha Nakhon"
+          "toponym": "Bangkok, Thailand"
         },
         {
           "lang": "en",
@@ -454,16 +468,42 @@
         {
           "lang": "en",
           "toponym": "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sia-Yut'hia"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          100.612694444,
+          13.955111111
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Bangkok"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          100.412361111,
+          13.494055555
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1066984",
+          "label": "financial center"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
@@ -474,27 +514,30 @@
           "label": "special administrative area of Thailand"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q174844",
           "label": "megacity"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          100.328147,
+          13.803883
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bueng%20Kan%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bueng%20Kan%20Province.svg"
         }
       ],
       "descriptions": [
@@ -603,6 +646,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Bueng+Kan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1001862",
       "names": [
         {
@@ -626,11 +672,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buriram%20Province.jpg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -753,19 +794,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Buri+Ram.map"
+      },
       "id": "http://www.wikidata.org/entity/Q327510",
       "names": [
         {
           "lang": "en",
-          "toponym": "Buri Ram"
+          "toponym": "Buriram"
         },
         {
           "lang": "en",
-          "toponym": "Buriram"
+          "toponym": "Burirum"
         }
       ],
       "properties": {
-        "title": "Buri Ram"
+        "title": "Buriram"
       },
       "type": "Feature",
       "types": [
@@ -882,6 +926,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chachoengsao.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334906",
       "names": [
         {
@@ -905,6 +952,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chai%20Nat%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1035,6 +1087,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chai+Nat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q459759",
       "names": [
         {
@@ -1058,6 +1113,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chaiyaphum%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1204,6 +1264,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chaiyaphum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275377",
       "names": [
         {
@@ -1225,7 +1288,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chanthaburi%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chanthaburi.svg"
         }
       ],
       "descriptions": [
@@ -1338,6 +1401,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chanthaburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q327730",
       "names": [
         {
@@ -1359,7 +1425,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiang%20Mai%20Province.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiang%20Mai.svg"
         }
       ],
       "descriptions": [
@@ -1532,6 +1598,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chiang+Mai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233588",
       "names": [
         {
@@ -1553,7 +1622,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiang%20Rai.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiang%20Rai.svg"
         }
       ],
       "descriptions": [
@@ -1682,6 +1751,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chiang+Rai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236419",
       "names": [
         {
@@ -1701,6 +1773,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Chonburi%20flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1823,6 +1900,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chon+Buri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q207068",
       "names": [
         {
@@ -1944,6 +2024,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Chumphon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244695",
       "names": [
         {
@@ -1967,6 +2050,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalasin.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2093,6 +2181,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Kalasin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q382144",
       "names": [
         {
@@ -2118,7 +2209,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kamphaeng%20Phet%20Province.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kamphaeng%20Phet.svg"
         }
       ],
       "descriptions": [
@@ -2247,6 +2338,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Kamphaeng+Phet.map"
+      },
       "id": "http://www.wikidata.org/entity/Q273807",
       "names": [
         {
@@ -2268,7 +2362,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kanchanaburi%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kanchanaburi%20province%20%282-1%29.svg"
         }
       ],
       "descriptions": [
@@ -2397,6 +2491,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Kanchanaburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275740",
       "names": [
         {
@@ -2420,6 +2517,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khon%20Kaen%20province.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2554,6 +2656,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Khon+Kaen.map"
+      },
       "id": "http://www.wikidata.org/entity/Q327533",
       "names": [
         {
@@ -2577,6 +2682,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krabi%20%28blue-yellow%29.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2711,6 +2821,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Krabi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236769",
       "names": [
         {
@@ -2734,11 +2847,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lampang%20Province.png"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2897,6 +3005,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Lampang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q240495",
       "names": [
         {
@@ -2916,6 +3027,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lamphun.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3050,6 +3166,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Lamphun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q240540",
       "names": [
         {
@@ -3071,13 +3190,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Loei%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Loei.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in northeastern Thailand"
+          "value": "province in Northeastern Thailand"
         }
       ],
       "geometry": {
@@ -3195,6 +3314,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Loei.map"
       },
       "id": "http://www.wikidata.org/entity/Q275388",
       "names": [
@@ -3373,6 +3495,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Lop+Buri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q336122",
       "names": [
         {
@@ -3396,6 +3521,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mae%20Hong%20Son%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3497,6 +3627,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Mae+Hong+Son.map"
       },
       "id": "http://www.wikidata.org/entity/Q269270",
       "names": [
@@ -3651,6 +3784,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Maha+Sarakham.map"
+      },
       "id": "http://www.wikidata.org/entity/Q468554",
       "names": [
         {
@@ -3670,6 +3806,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mokdahan%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3768,6 +3909,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Mukdahan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q335119",
       "names": [
         {
@@ -3787,6 +3931,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Nayok.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3917,6 +4066,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Nayok.map"
+      },
       "id": "http://www.wikidata.org/entity/Q466212",
       "names": [
         {
@@ -3938,7 +4090,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Pathom%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Pathom.svg"
         }
       ],
       "descriptions": [
@@ -4063,6 +4215,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Pathom.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334841",
       "names": [
         {
@@ -4082,6 +4237,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Phanom%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -4220,6 +4380,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Phanom.map"
+      },
       "id": "http://www.wikidata.org/entity/Q468547",
       "names": [
         {
@@ -4239,11 +4402,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%AA%E0%B8%B5%E0%B8%A1%E0%B8%B2.jpg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -4402,6 +4560,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Ratchasima.map"
+      },
       "id": "http://www.wikidata.org/entity/Q271737",
       "names": [
         {
@@ -4411,6 +4572,10 @@
         {
           "lang": "en",
           "toponym": "Korat"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nakhon Rachisima"
         },
         {
           "lang": "en",
@@ -4429,6 +4594,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Sawan%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -4547,6 +4717,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Sawan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q239844",
       "names": [
         {
@@ -4568,7 +4741,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nakhon%20Si%20Thammarat%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakhon%20Si%20Thammarat%20Flag.svg"
         }
       ],
       "descriptions": [
@@ -4677,6 +4850,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nakhon+Si+Thammarat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244691",
       "names": [
         {
@@ -4702,7 +4878,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nan%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%98%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%99.svg"
         }
       ],
       "descriptions": [
@@ -4855,6 +5031,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244698",
       "names": [
         {
@@ -4874,6 +5053,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Narathiwat.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -4992,6 +5176,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Narathiwat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q271442",
       "names": [
         {
@@ -5013,7 +5200,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nong%20Bua%20Lamphu%20Province.jpeg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nong%20Bua%20Lamphu%20province.svg"
         }
       ],
       "descriptions": [
@@ -5130,19 +5317,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nong+Bua+Lam+Phu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q261241",
       "names": [
         {
           "lang": "en",
-          "toponym": "Nong Bua Lam Phu"
+          "toponym": "Nong Bua Lamphu province"
         },
         {
           "lang": "en",
           "toponym": "Nong Bua Lamphu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Nǭngbūalamphū"
         }
       ],
       "properties": {
-        "title": "Nong Bua Lam Phu"
+        "title": "Nong Bua Lamphu"
       },
       "type": "Feature",
       "types": [
@@ -5153,6 +5347,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nong%20Khai%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -5247,6 +5446,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nong+Khai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q327737",
       "names": [
         {
@@ -5266,6 +5468,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%98%E0%B8%87%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -5372,6 +5579,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Nonthaburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q242932",
       "names": [
         {
@@ -5395,6 +5605,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pathum%20Thani.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -5509,6 +5724,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Pathum+Thani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q459748",
       "names": [
         {
@@ -5532,6 +5750,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pattani%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -5646,6 +5869,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Pattani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236781",
       "names": [
         {
@@ -5665,10 +5891,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phang%20Nga%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in southern Thailand"
+          "value": "province of Thailand"
         }
       ],
       "geometry": {
@@ -5747,6 +5978,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phangnga.map"
+      },
       "id": "http://www.wikidata.org/entity/Q273306",
       "names": [
         {
@@ -5788,7 +6022,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phatthalung%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phatthalung.svg"
         }
       ],
       "descriptions": [
@@ -5893,6 +6127,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phatthalung.map"
+      },
       "id": "http://www.wikidata.org/entity/Q243808",
       "names": [
         {
@@ -5914,7 +6151,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phayao%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Phayao%20flag.svg"
         }
       ],
       "descriptions": [
@@ -6039,6 +6276,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phayao.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244618",
       "names": [
         {
@@ -6058,6 +6298,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phetchabun%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -6172,6 +6417,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phetchabun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q240520",
       "names": [
         {
@@ -6193,7 +6441,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phetchaburi%20Province.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Petchaburi.svg"
         }
       ],
       "descriptions": [
@@ -6306,8 +6554,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phetchaburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244699",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Phet Buri"
+        },
         {
           "lang": "en",
           "toponym": "Phetchaburi"
@@ -6327,7 +6582,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phichit%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phichit%20Province.svg"
         }
       ],
       "descriptions": [
@@ -6456,6 +6711,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phichit.map"
+      },
       "id": "http://www.wikidata.org/entity/Q237874",
       "names": [
         {
@@ -6477,7 +6735,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phitsanulok%20Province.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pitsanulok%20flag.svg"
         }
       ],
       "descriptions": [
@@ -6586,6 +6844,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phitsanulok.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275781",
       "names": [
         {
@@ -6605,6 +6866,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phra%20Nakhon%20Si%20Ayutthaya%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -6703,6 +6969,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phra+Nakhon+Si+Ayutthaya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q476222",
       "names": [
         {
@@ -6730,6 +6999,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Phrae%20flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -6896,6 +7170,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phrae.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244652",
       "names": [
         {
@@ -6909,16 +7186,29 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q18466176",
+          "label": "small city"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q50198",
           "label": "province of Thailand"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Phuket.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in southern Thailand"
+          "value": "province of Thailand (for island see Q1777775)"
         }
       ],
       "geometry": {
@@ -6993,6 +7283,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Phuket.map"
+      },
       "id": "http://www.wikidata.org/entity/Q182565",
       "names": [
         {
@@ -7018,7 +7311,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Prachin%20Buri%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Prachin%20Buri%20Province.svg"
         }
       ],
       "descriptions": [
@@ -7155,6 +7448,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Prachin+Buri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q321324",
       "names": [
         {
@@ -7180,7 +7476,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Prachuap%20Khiri%20Khan%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Prachuap%20Khiri%20Khan.svg"
         }
       ],
       "descriptions": [
@@ -7305,6 +7601,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Prachuap+Khiri+Khan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244628",
       "names": [
         {
@@ -7328,10 +7627,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ranong.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in southern Thailand"
+          "value": "province of Thailand"
         }
       ],
       "geometry": {
@@ -7434,11 +7738,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Ranong.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236802",
       "names": [
         {
           "lang": "en",
-          "toponym": "Ranong Province"
+          "toponym": "Ranong"
         },
         {
           "lang": "en",
@@ -7457,6 +7764,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ratchaburi.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -7575,8 +7887,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Ratchaburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q335492",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Ratchaburi Province"
+        },
         {
           "lang": "en",
           "toponym": "Ratchaburi"
@@ -7594,6 +7913,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rayong.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -7724,6 +8048,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Rayong.map"
+      },
       "id": "http://www.wikidata.org/entity/Q335221",
       "names": [
         {
@@ -7743,6 +8070,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Roi%20Et.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -7837,6 +8169,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Roi+Et.map"
+      },
       "id": "http://www.wikidata.org/entity/Q625463",
       "names": [
         {
@@ -7856,6 +8191,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sa%20Kaeo.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -7986,6 +8326,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Sa+Kaeo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q381889",
       "names": [
         {
@@ -8005,6 +8348,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sakon%20Nakhon.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -8159,6 +8507,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Sakon+Nakhon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q382125",
       "names": [
         {
@@ -8178,6 +8529,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Samut%20Prakan%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -8288,6 +8644,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Samut+Prakan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q271529",
       "names": [
         {
@@ -8307,6 +8666,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%98%E0%B8%87%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -8385,8 +8749,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Samut+Sakhon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334686",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Sakhon Buri"
+        },
+        {
+          "lang": "en",
+          "toponym": "Samut Sakhon province"
+        },
         {
           "lang": "en",
           "toponym": "Samut Sakhon"
@@ -8522,6 +8897,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Samut+Songkhram.map"
+      },
       "id": "http://www.wikidata.org/entity/Q459742",
       "names": [
         {
@@ -8541,6 +8919,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Provincial%20Flag%20of%20Saraburi.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -8675,6 +9058,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Saraburi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q337627",
       "names": [
         {
@@ -8698,11 +9084,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Satun%20Province.jpg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -8805,6 +9186,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Satun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236263",
       "names": [
         {
@@ -8826,7 +9210,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sisaket%20drapeau.gif"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sisaket.svg"
         }
       ],
       "descriptions": [
@@ -8939,6 +9323,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Si+Sa+Ket.map"
+      },
       "id": "http://www.wikidata.org/entity/Q380761",
       "names": [
         {
@@ -8968,7 +9355,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sing%20Buri%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sing%20Buri.svg"
         }
       ],
       "descriptions": [
@@ -9065,6 +9452,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Sing+Buri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334836",
       "names": [
         {
@@ -9088,6 +9478,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Songkhla.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -9226,6 +9621,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Songkhla.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235574",
       "names": [
         {
@@ -9253,6 +9651,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sukhothai%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -9427,6 +9830,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Sukhothai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q380764",
       "names": [
         {
@@ -9446,11 +9852,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suphan%20Buri%20%28province%29.gif"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -9581,6 +9982,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Suphan+Buri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q272247",
       "names": [
         {
@@ -9604,6 +10008,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suratthani%20Province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -9758,6 +10167,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Surat+Thani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q240463",
       "names": [
         {
@@ -9779,7 +10191,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Surin%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Surin%20province.svg"
         }
       ],
       "descriptions": [
@@ -9868,6 +10280,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Surin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q380757",
       "names": [
         {
@@ -9889,7 +10304,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tak%20Province.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tak%20province.svg"
         }
       ],
       "descriptions": [
@@ -10010,6 +10425,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Tak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275758",
       "names": [
         {
@@ -10033,6 +10451,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trang.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -10127,11 +10550,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Trang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q243805",
       "names": [
         {
           "lang": "en",
           "toponym": "Trang Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trang province"
         },
         {
           "lang": "en",
@@ -10152,7 +10582,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trat%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trat%20Province.svg"
         }
       ],
       "descriptions": [
@@ -10253,6 +10683,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Trat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q241884",
       "names": [
         {
@@ -10274,7 +10707,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ubon%20Ratchathani%20Province.jpeg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ubon%20Ratchathani%20Province.svg"
         }
       ],
       "descriptions": [
@@ -10387,6 +10820,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Ubon+Ratchathani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q629024",
       "names": [
         {
@@ -10408,7 +10844,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Udon%20Thani%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20UdonThani%20province.svg"
         }
       ],
       "descriptions": [
@@ -10517,6 +10953,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Udon+Thani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q380752",
       "names": [
         {
@@ -10538,7 +10977,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uthai%20Thani%20Province.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uthai%20Thani.svg"
         }
       ],
       "descriptions": [
@@ -10655,6 +11094,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Uthai+Thani.map"
+      },
       "id": "http://www.wikidata.org/entity/Q244649",
       "names": [
         {
@@ -10674,6 +11116,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uttaradit.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -10772,6 +11219,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Uttaradit.map"
+      },
       "id": "http://www.wikidata.org/entity/Q273794",
       "names": [
         {
@@ -10791,6 +11241,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yala%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -10897,6 +11352,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Yala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q242977",
       "names": [
         {
@@ -10924,6 +11382,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yasothon%20province.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -11046,8 +11509,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Thailand/Yasothon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q506598",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Yasothon province"
+        },
         {
           "lang": "en",
           "toponym": "Yasothon"

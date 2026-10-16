@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,7 +58,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Drapeau%20de%20Beyrouth.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beirut.svg"
         }
       ],
       "descriptions": [
@@ -117,6 +118,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/Beirut.map"
       },
       "id": "http://www.wikidata.org/entity/Q651688",
       "names": [
@@ -259,6 +263,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/Beqaa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q319632",
       "names": [
         {
@@ -380,8 +387,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/Mount+Lebanon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q216945",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Mont-Liban"
+        },
         {
           "lang": "en",
           "toponym": "Mount Lebanon Governorate"
@@ -493,8 +507,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/An+Nabatiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q458417",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Governorate of Nabataea"
+        },
         {
           "lang": "en",
           "toponym": "Nabatieh Governorate"
@@ -502,6 +523,10 @@
         {
           "lang": "en",
           "toponym": "Nabatiye Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Lebanon"
         }
       ],
       "properties": {
@@ -597,6 +622,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/North+Lebanon.map"
       },
       "id": "http://www.wikidata.org/entity/Q390267",
       "names": [
@@ -706,6 +734,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Lebanon/South+Lebanon.map"
       },
       "id": "http://www.wikidata.org/entity/Q223643",
       "names": [

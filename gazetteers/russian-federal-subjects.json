@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -54,6 +55,211 @@
     "westernmostPoint": "wdt:P1335"
   },
   "features": [
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Adygea.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "republic of Russia; federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  38.672916,
+                  44.955654
+                ],
+                [
+                  38.671883,
+                  44.961804
+                ],
+                [
+                  38.674157,
+                  44.983663
+                ],
+                [
+                  38.685939,
+                  45.036579
+                ],
+                [
+                  39.612084,
+                  45.192952
+                ],
+                [
+                  39.634925,
+                  45.193521
+                ],
+                [
+                  39.641643,
+                  45.192952
+                ],
+                [
+                  40.17422,
+                  45.109598
+                ],
+                [
+                  40.24667,
+                  45.092028
+                ],
+                [
+                  40.255662,
+                  45.088101
+                ],
+                [
+                  40.415549,
+                  44.999941
+                ],
+                [
+                  40.527583,
+                  44.915192
+                ],
+                [
+                  40.534095,
+                  44.908086
+                ],
+                [
+                  40.618224,
+                  44.785484
+                ],
+                [
+                  40.725608,
+                  44.613401
+                ],
+                [
+                  40.728398,
+                  44.607768
+                ],
+                [
+                  40.729948,
+                  44.600327
+                ],
+                [
+                  40.754133,
+                  44.474572
+                ],
+                [
+                  40.445211,
+                  43.931634
+                ],
+                [
+                  40.380512,
+                  43.823372
+                ],
+                [
+                  40.355294,
+                  43.788206
+                ],
+                [
+                  40.345372,
+                  43.776863
+                ],
+                [
+                  40.341238,
+                  43.772962
+                ],
+                [
+                  40.336381,
+                  43.769241
+                ],
+                [
+                  40.320361,
+                  43.760275
+                ],
+                [
+                  40.307855,
+                  43.755779
+                ],
+                [
+                  40.293903,
+                  43.752885
+                ],
+                [
+                  40.27902,
+                  43.751232
+                ],
+                [
+                  40.26362,
+                  43.754926
+                ],
+                [
+                  39.744996,
+                  43.911945
+                ],
+                [
+                  39.729699,
+                  43.917991
+                ],
+                [
+                  38.679428,
+                  44.943355
+                ],
+                [
+                  38.675707,
+                  44.947489
+                ],
+                [
+                  38.672916,
+                  44.955654
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Adygea.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q3734",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Adygea Republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adygea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adygeia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adygeya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adyghea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Adygea"
+        }
+      ],
+      "properties": {
+        "title": "Adygea"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
     {
       "depictions": [
         {
@@ -182,6 +388,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Altai+Krai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5942",
       "names": [
         {
@@ -190,7 +399,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Altaiskii Krai"
+          "toponym": "Altai"
         }
       ],
       "properties": {
@@ -198,6 +407,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
@@ -368,6 +581,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Altai+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5971",
       "names": [
         {
@@ -387,13 +603,17 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Amur%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Amur%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -574,11 +794,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Amur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6886",
       "names": [
         {
           "lang": "en",
           "toponym": "Amur Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amurskaya Oblast"
         }
       ],
       "properties": {
@@ -587,8 +814,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -748,11 +979,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Arkhangelsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1875",
       "names": [
         {
           "lang": "en",
           "toponym": "Arkhangelsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Arkhangelskaya"
         }
       ],
       "properties": {
@@ -761,8 +999,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -894,6 +1136,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Astrakhan+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3941",
       "names": [
         {
@@ -911,8 +1156,12 @@
           "label": "administrative region"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -925,7 +1174,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "republic and federal subject of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -1112,6 +1361,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Bashkortostan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5710",
       "names": [
         {
@@ -1121,6 +1373,10 @@
         {
           "lang": "en",
           "toponym": "Bashkiriya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bashkortostan Republic"
         },
         {
           "lang": "en",
@@ -1139,13 +1395,17 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgorod%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Flag%20of%20Belgorod%20Oblast.svg"
         }
       ],
       "descriptions": [
@@ -1294,6 +1554,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Belgorod+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3329",
       "names": [
         {
@@ -1307,8 +1570,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -1444,6 +1711,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Bryansk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2810",
       "names": [
         {
@@ -1469,8 +1739,248 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buryatia%20%281990%E2%80%931992%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buryatia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  98.640832,
+                  52.271538
+                ],
+                [
+                  98.629153,
+                  52.420625
+                ],
+                [
+                  98.629257,
+                  52.424294
+                ],
+                [
+                  98.852706,
+                  52.841323
+                ],
+                [
+                  98.856323,
+                  52.846594
+                ],
+                [
+                  98.92867,
+                  52.918476
+                ],
+                [
+                  98.938075,
+                  52.924858
+                ],
+                [
+                  99.370297,
+                  53.109265
+                ],
+                [
+                  99.378978,
+                  53.112779
+                ],
+                [
+                  99.869388,
+                  53.297522
+                ],
+                [
+                  108.69903,
+                  56.582903
+                ],
+                [
+                  109.988977,
+                  56.969029
+                ],
+                [
+                  109.995798,
+                  56.970218
+                ],
+                [
+                  111.484079,
+                  57.107522
+                ],
+                [
+                  115.862727,
+                  57.243276
+                ],
+                [
+                  115.874095,
+                  57.243483
+                ],
+                [
+                  115.971764,
+                  57.243483
+                ],
+                [
+                  116.106846,
+                  57.240744
+                ],
+                [
+                  116.119248,
+                  57.240486
+                ],
+                [
+                  116.131031,
+                  57.238574
+                ],
+                [
+                  116.150358,
+                  57.232708
+                ],
+                [
+                  116.155732,
+                  57.228548
+                ],
+                [
+                  116.190149,
+                  57.199584
+                ],
+                [
+                  116.226942,
+                  57.162764
+                ],
+                [
+                  116.238414,
+                  57.149329
+                ],
+                [
+                  116.923437,
+                  54.885487
+                ],
+                [
+                  116.927468,
+                  54.825879
+                ],
+                [
+                  116.883646,
+                  54.737538
+                ],
+                [
+                  116.723346,
+                  54.565197
+                ],
+                [
+                  114.102937,
+                  52.704639
+                ],
+                [
+                  114.087848,
+                  52.694613
+                ],
+                [
+                  113.965271,
+                  52.63317
+                ],
+                [
+                  113.580592,
+                  52.454473
+                ],
+                [
+                  107.744604,
+                  49.967353
+                ],
+                [
+                  107.364071,
+                  49.976124
+                ],
+                [
+                  103.601407,
+                  50.13353
+                ],
+                [
+                  103.306593,
+                  50.190426
+                ],
+                [
+                  103.276776,
+                  50.197557
+                ],
+                [
+                  102.887135,
+                  50.314966
+                ],
+                [
+                  102.617798,
+                  50.399302
+                ],
+                [
+                  98.994712,
+                  52.058296
+                ],
+                [
+                  98.646103,
+                  52.262753
+                ],
+                [
+                  98.640832,
+                  52.271538
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Buryatia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q6809",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Buryatia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Buryatiya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Buryatia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Buryatiya"
+        }
+      ],
+      "properties": {
+        "title": "Buryatia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -1483,7 +1993,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "republic of Russia, federal subject of Russia"
+          "value": "federal subject of Russia, republic of Russia"
         }
       ],
       "geometry": {
@@ -1602,6 +2112,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Chechen+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5187",
       "names": [
         {
@@ -1622,13 +2135,17 @@
         }
       ],
       "properties": {
-        "title": "Chechen Republic"
+        "title": "Chechnya"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -1641,7 +2158,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "oblast of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -1800,11 +2317,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Chelyabinsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5714",
       "names": [
         {
           "lang": "en",
           "toponym": "Chelyabinsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chelyabinsk"
         }
       ],
       "properties": {
@@ -1813,8 +2337,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -2024,8 +2552,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Chukchi+Autonomous+Okrug.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7984",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Chukotka Autonomous District"
+        },
         {
           "lang": "en",
           "toponym": "Chukotka Autonomous Okrug"
@@ -2033,20 +2568,20 @@
         {
           "lang": "en",
           "toponym": "Chukotka"
-        },
-        {
-          "lang": "en",
-          "toponym": "Čukotskij avtonomnyy okrug"
         }
       ],
       "properties": {
-        "title": "Chukotka Autonomous Okrug"
+        "title": "Chukotka Autonomous District"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q184122",
-          "label": "autonomous okrug of Russia"
+          "label": "autonomous district of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -2059,7 +2594,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "republic, a federal subject of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -2190,11 +2725,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Chuvash+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5466",
       "names": [
         {
           "lang": "en",
-          "toponym": "Chuvash Republic"
+          "toponym": "Chuvash Republic — Chuvashia"
         },
         {
           "lang": "en",
@@ -2210,13 +2748,355 @@
         }
       ],
       "properties": {
-        "title": "Chuvash Republic"
+        "title": "Chuvashia"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dagestan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "republic of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  45.105909,
+                  44.210222
+                ],
+                [
+                  45.104978,
+                  44.215803
+                ],
+                [
+                  45.262178,
+                  44.577486
+                ],
+                [
+                  45.265796,
+                  44.585134
+                ],
+                [
+                  45.27086,
+                  44.59056
+                ],
+                [
+                  45.622363,
+                  44.903435
+                ],
+                [
+                  45.705975,
+                  44.975782
+                ],
+                [
+                  45.853667,
+                  45.000509
+                ],
+                [
+                  46.004252,
+                  44.986324
+                ],
+                [
+                  46.433683,
+                  44.93656
+                ],
+                [
+                  46.603492,
+                  44.885323
+                ],
+                [
+                  46.883991,
+                  44.784554
+                ],
+                [
+                  46.889882,
+                  44.780729
+                ],
+                [
+                  47.866954,
+                  43.991441
+                ],
+                [
+                  48.578949,
+                  41.845282
+                ],
+                [
+                  48.393046,
+                  41.598883
+                ],
+                [
+                  48.370153,
+                  41.58015
+                ],
+                [
+                  47.894627,
+                  41.219294
+                ],
+                [
+                  47.871114,
+                  41.208183
+                ],
+                [
+                  47.828739,
+                  41.198417
+                ],
+                [
+                  47.813491,
+                  41.197388
+                ],
+                [
+                  47.743731,
+                  41.192681
+                ],
+                [
+                  47.547309,
+                  41.205651
+                ],
+                [
+                  47.344479,
+                  41.268232
+                ],
+                [
+                  47.268411,
+                  41.302803
+                ],
+                [
+                  45.934126,
+                  42.028495
+                ],
+                [
+                  45.631405,
+                  42.201172
+                ],
+                [
+                  45.62138,
+                  42.224478
+                ],
+                [
+                  45.105909,
+                  44.210222
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Dagestan.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q5118",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Dagestan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Daghestan"
+        }
+      ],
+      "properties": {
+        "title": "Dagestan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ingushetia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.49778,
+                  43.396938
+                ],
+                [
+                  44.49747,
+                  43.402674
+                ],
+                [
+                  44.498401,
+                  43.415335
+                ],
+                [
+                  44.521965,
+                  43.564473
+                ],
+                [
+                  44.526616,
+                  43.577211
+                ],
+                [
+                  44.530026,
+                  43.583903
+                ],
+                [
+                  44.536744,
+                  43.592533
+                ],
+                [
+                  44.543256,
+                  43.596797
+                ],
+                [
+                  44.550387,
+                  43.599639
+                ],
+                [
+                  44.615913,
+                  43.609948
+                ],
+                [
+                  44.767531,
+                  43.619844
+                ],
+                [
+                  44.774043,
+                  43.618527
+                ],
+                [
+                  44.947469,
+                  43.548557
+                ],
+                [
+                  45.046687,
+                  43.494348
+                ],
+                [
+                  45.065084,
+                  43.466856
+                ],
+                [
+                  45.167197,
+                  43.137807
+                ],
+                [
+                  45.169264,
+                  43.127368
+                ],
+                [
+                  45.180219,
+                  42.810255
+                ],
+                [
+                  45.179289,
+                  42.804106
+                ],
+                [
+                  45.177325,
+                  42.797982
+                ],
+                [
+                  45.171848,
+                  42.791704
+                ],
+                [
+                  45.076018,
+                  42.691412
+                ],
+                [
+                  45.066995,
+                  42.688455
+                ],
+                [
+                  44.773473,
+                  42.609648
+                ],
+                [
+                  44.761071,
+                  42.619234
+                ],
+                [
+                  44.638759,
+                  42.740149
+                ],
+                [
+                  44.615603,
+                  42.7785
+                ],
+                [
+                  44.49778,
+                  43.396938
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Ingushetia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q5219",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Ingushetia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ingushetiya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Ingushetia"
+        }
+      ],
+      "properties": {
+        "title": "Ingushetia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -2380,11 +3260,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Irkutsk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6585",
       "names": [
         {
           "lang": "en",
           "toponym": "Irkutsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Irkutskaya Oblast'"
         }
       ],
       "properties": {
@@ -2393,8 +3280,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -2554,6 +3445,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Ivanovo+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2654",
       "names": [
         {
@@ -2563,6 +3457,10 @@
         {
           "lang": "en",
           "toponym": "Ivanovo region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ivanovskaja oblast"
         }
       ],
       "properties": {
@@ -2571,8 +3469,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -2732,6 +3634,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Jewish+Autonomous+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7730",
       "names": [
         {
@@ -2747,6 +3652,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q309166",
           "label": "autonomous oblast of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -2759,7 +3668,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -2858,6 +3767,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kabardino-Balkaria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5267",
       "names": [
         {
@@ -2881,6 +3793,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -2893,7 +3809,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "oblast and federal subject in the North-West of Russia, forming an exclaved land area bordering the Baltic Sea"
+          "value": "exclave of Russia bounded by Poland, Lithuania, and the Baltic Sea"
         }
       ],
       "geometry": {
@@ -2992,6 +3908,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kaliningrad+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1749",
       "names": [
         {
@@ -3005,15 +3924,176 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q933394",
+          "label": "exclave"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kaluga%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalmykia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.648032,
+                  46.156149
+                ],
+                [
+                  41.647102,
+                  46.167079
+                ],
+                [
+                  41.651132,
+                  46.172427
+                ],
+                [
+                  42.035192,
+                  46.550957
+                ],
+                [
+                  44.305854,
+                  48.255065
+                ],
+                [
+                  44.311125,
+                  48.258192
+                ],
+                [
+                  44.318773,
+                  48.25907
+                ],
+                [
+                  44.962558,
+                  48.208686
+                ],
+                [
+                  45.708869,
+                  48.035311
+                ],
+                [
+                  45.716517,
+                  48.032934
+                ],
+                [
+                  46.73568,
+                  47.611978
+                ],
+                [
+                  46.805857,
+                  47.578181
+                ],
+                [
+                  47.206659,
+                  46.756371
+                ],
+                [
+                  47.21348,
+                  46.742315
+                ],
+                [
+                  47.538259,
+                  45.506496
+                ],
+                [
+                  47.379405,
+                  45.202826
+                ],
+                [
+                  47.370128,
+                  45.185614
+                ],
+                [
+                  47.078298,
+                  44.785102
+                ],
+                [
+                  46.88814,
+                  44.751868
+                ],
+                [
+                  46.800276,
+                  44.763392
+                ],
+                [
+                  45.705975,
+                  44.975782
+                ],
+                [
+                  41.712627,
+                  45.996004
+                ],
+                [
+                  41.658264,
+                  46.098065
+                ],
+                [
+                  41.655783,
+                  46.105274
+                ],
+                [
+                  41.648032,
+                  46.156149
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Kalmykia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q3953",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Kalmykia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kalmykiya"
+        }
+      ],
+      "properties": {
+        "title": "Kalmykia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kaluga%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -3166,11 +4246,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kaluga.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2842",
       "names": [
         {
           "lang": "en",
           "toponym": "Kaluga Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kaluga"
         }
       ],
       "properties": {
@@ -3179,8 +4266,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -3340,6 +4431,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kamchatka.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7948",
       "names": [
         {
@@ -3357,6 +4451,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
         }
@@ -3371,7 +4469,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Federal subject of Russia, republic of Russia"
+          "value": "first-level administrative division of Russia"
         }
       ],
       "geometry": {
@@ -3506,6 +4604,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Karachay-Cherkess+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5328",
       "names": [
         {
@@ -3534,13 +4635,17 @@
         }
       ],
       "properties": {
-        "title": "Karachay-Cherkess Republic"
+        "title": "Karachay-Cherkessia"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -3553,9 +4658,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
+          "value": "first-level administrative division of Russia"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          37.946513,
+          61.958587
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -3664,8 +4776,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Karelia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1914",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Karelia (Russia)"
+        },
         {
           "lang": "en",
           "toponym": "Karelia"
@@ -3695,21 +4814,46 @@
           "toponym": "Respublika Kareliya"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          31.078175,
+          66.673497222
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Karelia"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          32.91356,
+          60.679647
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          29.306221,
+          61.329223
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kemerovo%20oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kemerovo%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -3838,11 +4982,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kemerovo+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6076",
       "names": [
         {
           "lang": "en",
+          "toponym": "Kemerovo Oblast — Kuzbass"
+        },
+        {
+          "lang": "en",
           "toponym": "Kemerovo Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kemerovskaya Oblastʹ"
         },
         {
           "lang": "en",
@@ -3855,15 +5010,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khabarovsk%20Krai.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khabarovsk%20Krai%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -4044,11 +5203,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Khabarovsk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7788",
       "names": [
         {
           "lang": "en",
           "toponym": "Khabarovsk Krai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khabarovsk"
         }
       ],
       "properties": {
@@ -4057,8 +5223,189 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khakassia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  87.861542,
+                  51.54936
+                ],
+                [
+                  87.834567,
+                  51.793738
+                ],
+                [
+                  87.835394,
+                  51.799267
+                ],
+                [
+                  88.392776,
+                  55.26779
+                ],
+                [
+                  88.394326,
+                  55.273345
+                ],
+                [
+                  88.396496,
+                  55.279003
+                ],
+                [
+                  88.40001,
+                  55.284946
+                ],
+                [
+                  88.404661,
+                  55.290786
+                ],
+                [
+                  88.41603,
+                  55.301431
+                ],
+                [
+                  88.608774,
+                  55.44559
+                ],
+                [
+                  90.19587,
+                  55.151414
+                ],
+                [
+                  90.840481,
+                  54.838875
+                ],
+                [
+                  90.915309,
+                  54.791075
+                ],
+                [
+                  91.159015,
+                  54.487889
+                ],
+                [
+                  91.463906,
+                  54.056546
+                ],
+                [
+                  91.846415,
+                  53.351938
+                ],
+                [
+                  91.841247,
+                  53.288272
+                ],
+                [
+                  91.326447,
+                  52.798741
+                ],
+                [
+                  90.100888,
+                  51.750898
+                ],
+                [
+                  90.089519,
+                  51.745421
+                ],
+                [
+                  89.730368,
+                  51.582226
+                ],
+                [
+                  89.684273,
+                  51.568274
+                ],
+                [
+                  88.514525,
+                  51.317643
+                ],
+                [
+                  88.507704,
+                  51.316351
+                ],
+                [
+                  88.363733,
+                  51.319814
+                ],
+                [
+                  88.183693,
+                  51.36379
+                ],
+                [
+                  88.171187,
+                  51.367149
+                ],
+                [
+                  87.92345,
+                  51.479029
+                ],
+                [
+                  87.910014,
+                  51.490294
+                ],
+                [
+                  87.861542,
+                  51.54936
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Khakassia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q6543",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khakassia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khakassiya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Khakassia"
+        }
+      ],
+      "properties": {
+        "title": "Khakassia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -4071,7 +5418,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia"
+          "value": "federal subject of Russia, administered by Tyumen Oblast"
         }
       ],
       "geometry": {
@@ -4246,6 +5593,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Khanty-Mansiy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6320",
       "names": [
         {
@@ -4254,21 +5604,37 @@
         },
         {
           "lang": "en",
+          "toponym": "Khantia-Mansia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khanty-Mansi Autonomous District"
+        },
+        {
+          "lang": "en",
           "toponym": "Khanty-Mansi Autonomous Okrug"
         },
         {
           "lang": "en",
           "toponym": "Khanty-Mansiysk Autonomous Okrug — Ugra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yugra"
         }
       ],
       "properties": {
-        "title": "Khanty-Mansi Autonomous Okrug"
+        "title": "Khanty-Mansi Autonomous District"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q184122",
-          "label": "autonomous okrug of Russia"
+          "label": "autonomous district of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -4400,11 +5766,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kirov+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5387",
       "names": [
         {
           "lang": "en",
           "toponym": "Kirov Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kirov"
         },
         {
           "lang": "en",
@@ -4417,21 +5790,25 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Komi.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Komi%20%28large%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
+          "value": "first-level administrative division of Russia"
         }
       ],
       "geometry": {
@@ -4566,6 +5943,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Komi+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2073",
       "names": [
         {
@@ -4589,6 +5969,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -4716,6 +6100,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kostroma+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2596",
       "names": [
         {
@@ -4729,8 +6116,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -4898,6 +6289,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Krasnodar+Krai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3680",
       "names": [
         {
@@ -4906,7 +6300,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Krasnodarsky kray"
+          "toponym": "Kuban"
         }
       ],
       "properties": {
@@ -4914,6 +6308,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
@@ -5088,6 +6486,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Krasnoyarsk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6563",
       "names": [
         {
@@ -5137,6 +6538,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
         }
@@ -5151,7 +6556,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia"
+          "value": "province of Russia"
         }
       ],
       "geometry": {
@@ -5286,6 +6691,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kurgan+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5741",
       "names": [
         {
@@ -5299,15 +6707,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kursk%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kursk%20Oblast%20%28large%20fix%29.svg"
         }
       ],
       "descriptions": [
@@ -5424,15 +6836,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Kursk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3178",
       "names": [
         {
           "lang": "en",
           "toponym": "Kursk Oblast"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kursk Province"
         }
       ],
       "properties": {
@@ -5441,8 +6852,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -5455,7 +6870,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division (oblast) in northwestern Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -5586,6 +7001,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Leningrad+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2191",
       "names": [
         {
@@ -5594,7 +7012,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Leningradskaya oblast"
+          "toponym": "Leningrad"
+        },
+        {
+          "lang": "en",
+          "toponym": "Leningradskaja Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Leningradskaya Oblast"
         }
       ],
       "properties": {
@@ -5603,8 +7029,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -5768,6 +7198,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Lipetsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3510",
       "names": [
         {
@@ -5781,8 +7214,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -5958,6 +7395,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Maga+Buryatdan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7971",
       "names": [
         {
@@ -5975,8 +7415,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -5989,7 +7433,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -6116,12 +7560,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Mari+El+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5446",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Mari El Republic"
-        },
         {
           "lang": "en",
           "toponym": "Mari El"
@@ -6136,13 +7579,192 @@
         }
       ],
       "properties": {
-        "title": "Mari El Republic"
+        "title": "Mari El"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mordovia%20%281990%E2%80%931995%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mordovia%20%281995%E2%80%932008%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mordovia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.183916,
+                  54.258807
+                ],
+                [
+                  42.183606,
+                  54.261856
+                ],
+                [
+                  42.386075,
+                  54.802237
+                ],
+                [
+                  42.390519,
+                  54.807043
+                ],
+                [
+                  42.466793,
+                  54.871302
+                ],
+                [
+                  45.710316,
+                  55.176762
+                ],
+                [
+                  45.735121,
+                  55.172188
+                ],
+                [
+                  46.218812,
+                  55.070618
+                ],
+                [
+                  46.2616,
+                  55.054211
+                ],
+                [
+                  46.284648,
+                  55.038424
+                ],
+                [
+                  46.293123,
+                  55.030285
+                ],
+                [
+                  46.409705,
+                  54.90161
+                ],
+                [
+                  46.414666,
+                  54.895358
+                ],
+                [
+                  46.733716,
+                  54.384484
+                ],
+                [
+                  46.741778,
+                  54.365519
+                ],
+                [
+                  46.742501,
+                  54.351722
+                ],
+                [
+                  46.73816,
+                  54.344538
+                ],
+                [
+                  46.729272,
+                  54.336348
+                ],
+                [
+                  46.71904,
+                  54.329552
+                ],
+                [
+                  45.713934,
+                  53.919345
+                ],
+                [
+                  44.593072,
+                  53.666647
+                ],
+                [
+                  44.555658,
+                  53.66135
+                ],
+                [
+                  42.535316,
+                  53.730829
+                ],
+                [
+                  42.525704,
+                  53.732018
+                ],
+                [
+                  42.512992,
+                  53.737237
+                ],
+                [
+                  42.340083,
+                  53.829841
+                ],
+                [
+                  42.307733,
+                  53.847463
+                ],
+                [
+                  42.183916,
+                  54.258807
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Mordovia.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q5340",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Mordovia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mordvinia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Mordvinia"
+        }
+      ],
+      "properties": {
+        "title": "Mordovia"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -6226,15 +7848,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Moscow.map"
+      },
       "id": "http://www.wikidata.org/entity/Q649",
       "names": [
         {
           "lang": "en",
           "toponym": "City of Moscow"
-        },
-        {
-          "lang": "en",
-          "toponym": "Moscovite"
         },
         {
           "lang": "en",
@@ -6262,11 +7883,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Moskovĭ"
+        },
+        {
+          "lang": "en",
           "toponym": "Moskva Federal City, Russia"
         },
         {
           "lang": "en",
-          "toponym": "Moskva"
+          "toponym": "Moskva, Rossiya"
         },
         {
           "lang": "en",
@@ -6274,7 +7899,23 @@
         },
         {
           "lang": "en",
-          "toponym": "Muscovite"
+          "toponym": "Moskve"
+        },
+        {
+          "lang": "en",
+          "toponym": "Moskvi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Moskvë"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mosky"
+        },
+        {
+          "lang": "en",
+          "toponym": "Москва"
         }
       ],
       "properties": {
@@ -6287,10 +7928,6 @@
           "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q174844",
           "label": "megacity"
         },
@@ -6299,12 +7936,12 @@
           "label": "federal city of Russia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q4442912",
-          "label": "capital of Russia"
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q4442912",
+          "label": "capital of Russia"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q51929311",
@@ -6312,14 +7949,14 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7930989",
-          "label": "city/town"
+          "label": "city or town"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moscow%20oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moscow%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -6452,6 +8089,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Moskovsskaya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1697",
       "names": [
         {
@@ -6477,15 +8117,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Murmansk%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Murmansk%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -6602,6 +8246,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Murmansk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1759",
       "names": [
         {
@@ -6619,8 +8266,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -6633,7 +8284,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia"
+          "value": "federal subject of Russia, administered by Arkhangelsk Oblast"
         }
       ],
       "geometry": {
@@ -6768,6 +8419,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Nenets.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2164",
       "names": [
         {
@@ -6776,17 +8430,25 @@
         },
         {
           "lang": "en",
+          "toponym": "Nenets Autonomous District"
+        },
+        {
+          "lang": "en",
           "toponym": "Nenets Autonomous Okrug"
         }
       ],
       "properties": {
-        "title": "Nenets Autonomous Okrug"
+        "title": "Nenets Autonomous District"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q184122",
-          "label": "autonomous okrug of Russia"
+          "label": "autonomous district of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -6970,11 +8632,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Nizhny+Novgorod+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2246",
       "names": [
         {
           "lang": "en",
+          "toponym": "Gorky Oblast (USSR)"
+        },
+        {
+          "lang": "en",
           "toponym": "Nizhny Novgorod Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nizhny Novgorod region"
         }
       ],
       "properties": {
@@ -6983,15 +8656,188 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Novgorod%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Ossetia.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.751107,
+                  42.598745
+                ],
+                [
+                  43.386178,
+                  42.886882
+                ],
+                [
+                  43.38622,
+                  42.886969
+                ],
+                [
+                  43.392628,
+                  42.900198
+                ],
+                [
+                  43.436863,
+                  42.950428
+                ],
+                [
+                  44.284873,
+                  43.81885
+                ],
+                [
+                  44.676891,
+                  43.830762
+                ],
+                [
+                  44.685056,
+                  43.83071
+                ],
+                [
+                  44.693634,
+                  43.829883
+                ],
+                [
+                  44.702212,
+                  43.828178
+                ],
+                [
+                  44.803498,
+                  43.802055
+                ],
+                [
+                  44.809389,
+                  43.799265
+                ],
+                [
+                  44.815177,
+                  43.78942
+                ],
+                [
+                  44.850214,
+                  43.70648
+                ],
+                [
+                  44.850937,
+                  43.700925
+                ],
+                [
+                  44.944368,
+                  42.954123
+                ],
+                [
+                  44.944368,
+                  42.947172
+                ],
+                [
+                  44.943025,
+                  42.938956
+                ],
+                [
+                  44.936617,
+                  42.920249
+                ],
+                [
+                  44.932483,
+                  42.913737
+                ],
+                [
+                  44.852177,
+                  42.836404
+                ],
+                [
+                  44.638759,
+                  42.740149
+                ],
+                [
+                  43.958433,
+                  42.554406
+                ],
+                [
+                  43.939726,
+                  42.55221
+                ],
+                [
+                  43.751107,
+                  42.598745
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+North+Ossetia-Alania.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q5237",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Alania"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Ossetia"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Ossetia-Alania"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Ossetia–Alania"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ossetia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of North Ossetia-Alania"
+        }
+      ],
+      "properties": {
+        "title": "North Ossetia–Alania"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Novgorod%20Oblast%20%28Latest%20version%29.svg"
         }
       ],
       "descriptions": [
@@ -7164,6 +9010,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Novgorod+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2240",
       "names": [
         {
@@ -7177,15 +9026,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Novosibirsk%20oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Novosibirsk%20Oblast.svg"
         }
       ],
       "descriptions": [
@@ -7298,6 +9151,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Novosibirsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5851",
       "names": [
         {
@@ -7311,8 +9167,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -7420,8 +9280,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Omsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5835",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Omsk Oblast (Russia)"
+        },
         {
           "lang": "en",
           "toponym": "Omsk Oblast"
@@ -7433,8 +9300,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -7554,6 +9425,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Orenburg+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5338",
       "names": [
         {
@@ -7575,8 +9449,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -7712,8 +9590,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Oryol+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3129",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Orel Oblast (Russia)"
+        },
         {
           "lang": "en",
           "toponym": "Orlovskaya oblast"
@@ -7733,15 +9618,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Penza%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Penza%20Oblast%2C%20center.svg"
         }
       ],
       "descriptions": [
@@ -7882,11 +9771,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Penza+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5545",
       "names": [
         {
           "lang": "en",
           "toponym": "Penza Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Penza"
         }
       ],
       "properties": {
@@ -7895,8 +9791,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -8048,11 +9948,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Perm+Krai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5400",
       "names": [
         {
           "lang": "en",
           "toponym": "Perm Krai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Perm"
         }
       ],
       "properties": {
@@ -8060,6 +9967,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
@@ -8069,7 +9980,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Primorsky%20Krai.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Primorsky%20Krai%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -8214,6 +10125,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Primorsky+Krai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4341",
       "names": [
         {
@@ -8235,6 +10149,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
         }
@@ -8243,13 +10161,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pskov%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pskov%20Oblast%20%28Latest%20version%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division in Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -8376,11 +10294,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Pskov+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2218",
       "names": [
         {
           "lang": "en",
           "toponym": "Pskov Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pskov Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pskov"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pskovskaya Oblast"
         }
       ],
       "properties": {
@@ -8389,449 +10322,25 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Adygea.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Crimea%20%28Latest%20version%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "republic of Russia; federal subject of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  38.672916,
-                  44.955654
-                ],
-                [
-                  38.671883,
-                  44.961804
-                ],
-                [
-                  38.674157,
-                  44.983663
-                ],
-                [
-                  38.685939,
-                  45.036579
-                ],
-                [
-                  39.612084,
-                  45.192952
-                ],
-                [
-                  39.634925,
-                  45.193521
-                ],
-                [
-                  39.641643,
-                  45.192952
-                ],
-                [
-                  40.17422,
-                  45.109598
-                ],
-                [
-                  40.24667,
-                  45.092028
-                ],
-                [
-                  40.255662,
-                  45.088101
-                ],
-                [
-                  40.415549,
-                  44.999941
-                ],
-                [
-                  40.527583,
-                  44.915192
-                ],
-                [
-                  40.534095,
-                  44.908086
-                ],
-                [
-                  40.618224,
-                  44.785484
-                ],
-                [
-                  40.725608,
-                  44.613401
-                ],
-                [
-                  40.728398,
-                  44.607768
-                ],
-                [
-                  40.729948,
-                  44.600327
-                ],
-                [
-                  40.754133,
-                  44.474572
-                ],
-                [
-                  40.445211,
-                  43.931634
-                ],
-                [
-                  40.380512,
-                  43.823372
-                ],
-                [
-                  40.355294,
-                  43.788206
-                ],
-                [
-                  40.345372,
-                  43.776863
-                ],
-                [
-                  40.341238,
-                  43.772962
-                ],
-                [
-                  40.336381,
-                  43.769241
-                ],
-                [
-                  40.320361,
-                  43.760275
-                ],
-                [
-                  40.307855,
-                  43.755779
-                ],
-                [
-                  40.293903,
-                  43.752885
-                ],
-                [
-                  40.27902,
-                  43.751232
-                ],
-                [
-                  40.26362,
-                  43.754926
-                ],
-                [
-                  39.744996,
-                  43.911945
-                ],
-                [
-                  39.729699,
-                  43.917991
-                ],
-                [
-                  38.679428,
-                  44.943355
-                ],
-                [
-                  38.675707,
-                  44.947489
-                ],
-                [
-                  38.672916,
-                  44.955654
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q3734",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Adygea Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Adygea"
-        },
-        {
-          "lang": "en",
-          "toponym": "Adygeia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Adygeya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Adyghea"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Adygea"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Adygea"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buryatia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "republic of Russia, federal subject of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  98.640832,
-                  52.271538
-                ],
-                [
-                  98.629153,
-                  52.420625
-                ],
-                [
-                  98.629257,
-                  52.424294
-                ],
-                [
-                  98.852706,
-                  52.841323
-                ],
-                [
-                  98.856323,
-                  52.846594
-                ],
-                [
-                  98.92867,
-                  52.918476
-                ],
-                [
-                  98.938075,
-                  52.924858
-                ],
-                [
-                  99.370297,
-                  53.109265
-                ],
-                [
-                  99.378978,
-                  53.112779
-                ],
-                [
-                  99.869388,
-                  53.297522
-                ],
-                [
-                  108.69903,
-                  56.582903
-                ],
-                [
-                  109.988977,
-                  56.969029
-                ],
-                [
-                  109.995798,
-                  56.970218
-                ],
-                [
-                  111.484079,
-                  57.107522
-                ],
-                [
-                  115.862727,
-                  57.243276
-                ],
-                [
-                  115.874095,
-                  57.243483
-                ],
-                [
-                  115.971764,
-                  57.243483
-                ],
-                [
-                  116.106846,
-                  57.240744
-                ],
-                [
-                  116.119248,
-                  57.240486
-                ],
-                [
-                  116.131031,
-                  57.238574
-                ],
-                [
-                  116.150358,
-                  57.232708
-                ],
-                [
-                  116.155732,
-                  57.228548
-                ],
-                [
-                  116.190149,
-                  57.199584
-                ],
-                [
-                  116.226942,
-                  57.162764
-                ],
-                [
-                  116.238414,
-                  57.149329
-                ],
-                [
-                  116.923437,
-                  54.885487
-                ],
-                [
-                  116.927468,
-                  54.825879
-                ],
-                [
-                  116.883646,
-                  54.737538
-                ],
-                [
-                  116.723346,
-                  54.565197
-                ],
-                [
-                  114.102937,
-                  52.704639
-                ],
-                [
-                  114.087848,
-                  52.694613
-                ],
-                [
-                  113.965271,
-                  52.63317
-                ],
-                [
-                  113.580592,
-                  52.454473
-                ],
-                [
-                  107.744604,
-                  49.967353
-                ],
-                [
-                  107.364071,
-                  49.976124
-                ],
-                [
-                  103.601407,
-                  50.13353
-                ],
-                [
-                  103.306593,
-                  50.190426
-                ],
-                [
-                  103.276776,
-                  50.197557
-                ],
-                [
-                  102.887135,
-                  50.314966
-                ],
-                [
-                  102.617798,
-                  50.399302
-                ],
-                [
-                  98.994712,
-                  52.058296
-                ],
-                [
-                  98.646103,
-                  52.262753
-                ],
-                [
-                  98.640832,
-                  52.271538
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q6809",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Buryat Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Buryatia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Buryatiya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Buryatia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Buryatiya"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Buryatia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Crimea.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "administrative division of Russia since 2014 [see Q756294 for Ukrainian subdivision proclaimed in 1991]"
+          "value": "unrecognized administrative division of Russia"
         }
       ],
       "easternmostPoint": {
@@ -8945,6 +10454,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Republic+of+Crimea.map"
+      },
       "id": "http://www.wikidata.org/entity/Q15966495",
       "names": [
         {
@@ -8976,8 +10488,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ],
       "westernmostPoint": {
@@ -8987,1164 +10507,6 @@
         ],
         "type": "Point"
       }
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dagestan.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  45.105909,
-                  44.210222
-                ],
-                [
-                  45.104978,
-                  44.215803
-                ],
-                [
-                  45.262178,
-                  44.577486
-                ],
-                [
-                  45.265796,
-                  44.585134
-                ],
-                [
-                  45.27086,
-                  44.59056
-                ],
-                [
-                  45.622363,
-                  44.903435
-                ],
-                [
-                  45.705975,
-                  44.975782
-                ],
-                [
-                  45.853667,
-                  45.000509
-                ],
-                [
-                  46.004252,
-                  44.986324
-                ],
-                [
-                  46.433683,
-                  44.93656
-                ],
-                [
-                  46.603492,
-                  44.885323
-                ],
-                [
-                  46.883991,
-                  44.784554
-                ],
-                [
-                  46.889882,
-                  44.780729
-                ],
-                [
-                  47.866954,
-                  43.991441
-                ],
-                [
-                  48.578949,
-                  41.845282
-                ],
-                [
-                  48.393046,
-                  41.598883
-                ],
-                [
-                  48.370153,
-                  41.58015
-                ],
-                [
-                  47.894627,
-                  41.219294
-                ],
-                [
-                  47.871114,
-                  41.208183
-                ],
-                [
-                  47.828739,
-                  41.198417
-                ],
-                [
-                  47.813491,
-                  41.197388
-                ],
-                [
-                  47.743731,
-                  41.192681
-                ],
-                [
-                  47.547309,
-                  41.205651
-                ],
-                [
-                  47.344479,
-                  41.268232
-                ],
-                [
-                  47.268411,
-                  41.302803
-                ],
-                [
-                  45.934126,
-                  42.028495
-                ],
-                [
-                  45.631405,
-                  42.201172
-                ],
-                [
-                  45.62138,
-                  42.224478
-                ],
-                [
-                  45.105909,
-                  44.210222
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5118",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Dagestan"
-        },
-        {
-          "lang": "en",
-          "toponym": "Daghestan"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Dagestan"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Dagestan"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ingushetia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.49778,
-                  43.396938
-                ],
-                [
-                  44.49747,
-                  43.402674
-                ],
-                [
-                  44.498401,
-                  43.415335
-                ],
-                [
-                  44.521965,
-                  43.564473
-                ],
-                [
-                  44.526616,
-                  43.577211
-                ],
-                [
-                  44.530026,
-                  43.583903
-                ],
-                [
-                  44.536744,
-                  43.592533
-                ],
-                [
-                  44.543256,
-                  43.596797
-                ],
-                [
-                  44.550387,
-                  43.599639
-                ],
-                [
-                  44.615913,
-                  43.609948
-                ],
-                [
-                  44.767531,
-                  43.619844
-                ],
-                [
-                  44.774043,
-                  43.618527
-                ],
-                [
-                  44.947469,
-                  43.548557
-                ],
-                [
-                  45.046687,
-                  43.494348
-                ],
-                [
-                  45.065084,
-                  43.466856
-                ],
-                [
-                  45.167197,
-                  43.137807
-                ],
-                [
-                  45.169264,
-                  43.127368
-                ],
-                [
-                  45.180219,
-                  42.810255
-                ],
-                [
-                  45.179289,
-                  42.804106
-                ],
-                [
-                  45.177325,
-                  42.797982
-                ],
-                [
-                  45.171848,
-                  42.791704
-                ],
-                [
-                  45.076018,
-                  42.691412
-                ],
-                [
-                  45.066995,
-                  42.688455
-                ],
-                [
-                  44.773473,
-                  42.609648
-                ],
-                [
-                  44.761071,
-                  42.619234
-                ],
-                [
-                  44.638759,
-                  42.740149
-                ],
-                [
-                  44.615603,
-                  42.7785
-                ],
-                [
-                  44.49778,
-                  43.396938
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5219",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Ingushetia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ingushetiya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Ingushetia"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Ingushetia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalmykia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  41.648032,
-                  46.156149
-                ],
-                [
-                  41.647102,
-                  46.167079
-                ],
-                [
-                  41.651132,
-                  46.172427
-                ],
-                [
-                  42.035192,
-                  46.550957
-                ],
-                [
-                  44.305854,
-                  48.255065
-                ],
-                [
-                  44.311125,
-                  48.258192
-                ],
-                [
-                  44.318773,
-                  48.25907
-                ],
-                [
-                  44.962558,
-                  48.208686
-                ],
-                [
-                  45.708869,
-                  48.035311
-                ],
-                [
-                  45.716517,
-                  48.032934
-                ],
-                [
-                  46.73568,
-                  47.611978
-                ],
-                [
-                  46.805857,
-                  47.578181
-                ],
-                [
-                  47.206659,
-                  46.756371
-                ],
-                [
-                  47.21348,
-                  46.742315
-                ],
-                [
-                  47.538259,
-                  45.506496
-                ],
-                [
-                  47.379405,
-                  45.202826
-                ],
-                [
-                  47.370128,
-                  45.185614
-                ],
-                [
-                  47.078298,
-                  44.785102
-                ],
-                [
-                  46.88814,
-                  44.751868
-                ],
-                [
-                  46.800276,
-                  44.763392
-                ],
-                [
-                  45.705975,
-                  44.975782
-                ],
-                [
-                  41.712627,
-                  45.996004
-                ],
-                [
-                  41.658264,
-                  46.098065
-                ],
-                [
-                  41.655783,
-                  46.105274
-                ],
-                [
-                  41.648032,
-                  46.156149
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q3953",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Kalmykia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kalmykiya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Kalmykia"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Kalmykia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khakassia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  87.861542,
-                  51.54936
-                ],
-                [
-                  87.834567,
-                  51.793738
-                ],
-                [
-                  87.835394,
-                  51.799267
-                ],
-                [
-                  88.392776,
-                  55.26779
-                ],
-                [
-                  88.394326,
-                  55.273345
-                ],
-                [
-                  88.396496,
-                  55.279003
-                ],
-                [
-                  88.40001,
-                  55.284946
-                ],
-                [
-                  88.404661,
-                  55.290786
-                ],
-                [
-                  88.41603,
-                  55.301431
-                ],
-                [
-                  88.608774,
-                  55.44559
-                ],
-                [
-                  90.19587,
-                  55.151414
-                ],
-                [
-                  90.840481,
-                  54.838875
-                ],
-                [
-                  90.915309,
-                  54.791075
-                ],
-                [
-                  91.159015,
-                  54.487889
-                ],
-                [
-                  91.463906,
-                  54.056546
-                ],
-                [
-                  91.846415,
-                  53.351938
-                ],
-                [
-                  91.841247,
-                  53.288272
-                ],
-                [
-                  91.326447,
-                  52.798741
-                ],
-                [
-                  90.100888,
-                  51.750898
-                ],
-                [
-                  90.089519,
-                  51.745421
-                ],
-                [
-                  89.730368,
-                  51.582226
-                ],
-                [
-                  89.684273,
-                  51.568274
-                ],
-                [
-                  88.514525,
-                  51.317643
-                ],
-                [
-                  88.507704,
-                  51.316351
-                ],
-                [
-                  88.363733,
-                  51.319814
-                ],
-                [
-                  88.183693,
-                  51.36379
-                ],
-                [
-                  88.171187,
-                  51.367149
-                ],
-                [
-                  87.92345,
-                  51.479029
-                ],
-                [
-                  87.910014,
-                  51.490294
-                ],
-                [
-                  87.861542,
-                  51.54936
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q6543",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Khakas Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Khakassia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Khakassiya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Khakassia"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Khakassia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mordovia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  42.183916,
-                  54.258807
-                ],
-                [
-                  42.183606,
-                  54.261856
-                ],
-                [
-                  42.386075,
-                  54.802237
-                ],
-                [
-                  42.390519,
-                  54.807043
-                ],
-                [
-                  42.466793,
-                  54.871302
-                ],
-                [
-                  45.710316,
-                  55.176762
-                ],
-                [
-                  45.735121,
-                  55.172188
-                ],
-                [
-                  46.218812,
-                  55.070618
-                ],
-                [
-                  46.2616,
-                  55.054211
-                ],
-                [
-                  46.284648,
-                  55.038424
-                ],
-                [
-                  46.293123,
-                  55.030285
-                ],
-                [
-                  46.409705,
-                  54.90161
-                ],
-                [
-                  46.414666,
-                  54.895358
-                ],
-                [
-                  46.733716,
-                  54.384484
-                ],
-                [
-                  46.741778,
-                  54.365519
-                ],
-                [
-                  46.742501,
-                  54.351722
-                ],
-                [
-                  46.73816,
-                  54.344538
-                ],
-                [
-                  46.729272,
-                  54.336348
-                ],
-                [
-                  46.71904,
-                  54.329552
-                ],
-                [
-                  45.713934,
-                  53.919345
-                ],
-                [
-                  44.593072,
-                  53.666647
-                ],
-                [
-                  44.555658,
-                  53.66135
-                ],
-                [
-                  42.535316,
-                  53.730829
-                ],
-                [
-                  42.525704,
-                  53.732018
-                ],
-                [
-                  42.512992,
-                  53.737237
-                ],
-                [
-                  42.340083,
-                  53.829841
-                ],
-                [
-                  42.307733,
-                  53.847463
-                ],
-                [
-                  42.183916,
-                  54.258807
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5340",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Mordovia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Mordvin Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Mordvinia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Mordovia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Mordvinia"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Mordovia"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Ossetia.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  43.751107,
-                  42.598745
-                ],
-                [
-                  43.386178,
-                  42.886882
-                ],
-                [
-                  43.38622,
-                  42.886969
-                ],
-                [
-                  43.392628,
-                  42.900198
-                ],
-                [
-                  43.436863,
-                  42.950428
-                ],
-                [
-                  44.284873,
-                  43.81885
-                ],
-                [
-                  44.676891,
-                  43.830762
-                ],
-                [
-                  44.685056,
-                  43.83071
-                ],
-                [
-                  44.693634,
-                  43.829883
-                ],
-                [
-                  44.702212,
-                  43.828178
-                ],
-                [
-                  44.803498,
-                  43.802055
-                ],
-                [
-                  44.809389,
-                  43.799265
-                ],
-                [
-                  44.815177,
-                  43.78942
-                ],
-                [
-                  44.850214,
-                  43.70648
-                ],
-                [
-                  44.850937,
-                  43.700925
-                ],
-                [
-                  44.944368,
-                  42.954123
-                ],
-                [
-                  44.944368,
-                  42.947172
-                ],
-                [
-                  44.943025,
-                  42.938956
-                ],
-                [
-                  44.936617,
-                  42.920249
-                ],
-                [
-                  44.932483,
-                  42.913737
-                ],
-                [
-                  44.852177,
-                  42.836404
-                ],
-                [
-                  44.638759,
-                  42.740149
-                ],
-                [
-                  43.958433,
-                  42.554406
-                ],
-                [
-                  43.939726,
-                  42.55221
-                ],
-                [
-                  43.751107,
-                  42.598745
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5237",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Alania"
-        },
-        {
-          "lang": "en",
-          "toponym": "North Ossetia"
-        },
-        {
-          "lang": "en",
-          "toponym": "North Ossetia-Alania"
-        },
-        {
-          "lang": "en",
-          "toponym": "North Ossetia–Alania"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ossetia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of North Ossetia-Alania"
-        }
-      ],
-      "properties": {
-        "title": "Republic of North Ossetia-Alania"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tatarstan.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "federal subject (a republic) of the Russian Federation, located in the Volga Federal District"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  47.37068,
-                  54.516828
-                ],
-                [
-                  47.241902,
-                  54.677722
-                ],
-                [
-                  47.696035,
-                  55.323135
-                ],
-                [
-                  48.025007,
-                  55.630455
-                ],
-                [
-                  48.081024,
-                  55.680271
-                ],
-                [
-                  49.037038,
-                  56.357852
-                ],
-                [
-                  49.091505,
-                  56.391752
-                ],
-                [
-                  49.105458,
-                  56.3963
-                ],
-                [
-                  49.425955,
-                  56.483013
-                ],
-                [
-                  50.19335,
-                  56.657266
-                ],
-                [
-                  50.202032,
-                  56.658867
-                ],
-                [
-                  50.314376,
-                  56.675869
-                ],
-                [
-                  50.324815,
-                  56.676102
-                ],
-                [
-                  52.948737,
-                  56.542596
-                ],
-                [
-                  53.080099,
-                  56.526602
-                ],
-                [
-                  53.08661,
-                  56.525671
-                ],
-                [
-                  53.546014,
-                  56.244733
-                ],
-                [
-                  53.550871,
-                  56.241012
-                ],
-                [
-                  54.230933,
-                  55.692467
-                ],
-                [
-                  54.229589,
-                  55.686059
-                ],
-                [
-                  53.470463,
-                  54.045745
-                ],
-                [
-                  53.384473,
-                  53.97376
-                ],
-                [
-                  53.379099,
-                  53.970194
-                ],
-                [
-                  53.371657,
-                  53.969161
-                ],
-                [
-                  47.410367,
-                  54.500498
-                ],
-                [
-                  47.384323,
-                  54.507319
-                ],
-                [
-                  47.376881,
-                  54.51135
-                ],
-                [
-                  47.37068,
-                  54.516828
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q5481",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Republic of Tatarstan"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tatar Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tataria"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tatariya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tatarstan Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tatarstan"
-        }
-      ],
-      "properties": {
-        "title": "Republic of Tatarstan"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41162",
-          "label": "republic of Russia"
-        }
-      ]
     },
     {
       "depictions": [
@@ -10306,8 +10668,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Rostov+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3573",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Rostov Oblast (Russia)"
+        },
         {
           "lang": "en",
           "toponym": "Rostov Oblast"
@@ -10327,8 +10696,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -10528,11 +10901,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Ryazan+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2753",
       "names": [
         {
           "lang": "en",
           "toponym": "Ryazan Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ryazan Region"
         }
       ],
       "properties": {
@@ -10541,23 +10921,34 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Petersburg.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Petersburg%20%28large%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal city in and former capital of Russia"
+          "value": "federal city and former capital of Russia"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          30.758888,
+          59.754921
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -10646,19 +11037,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Saint+Petersburg.map"
+      },
       "id": "http://www.wikidata.org/entity/Q656",
       "names": [
         {
           "lang": "en",
-          "toponym": "Leningrad"
-        },
-        {
-          "lang": "en",
           "toponym": "Petersburg"
-        },
-        {
-          "lang": "en",
-          "toponym": "Petrograd"
         },
         {
           "lang": "en",
@@ -10674,35 +11060,68 @@
         },
         {
           "lang": "en",
-          "toponym": "St. Petersburg"
+          "toponym": "St.Petersburg"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          29.70268,
+          60.244541
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Saint Petersburg"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          30.254172,
+          59.6337832
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
+          "identifier": "http://www.wikidata.org/entity/Q105742499",
+          "label": "judicial capital"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
+          "identifier": "http://www.wikidata.org/entity/Q129268952",
+          "label": "former national capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q134445478",
+          "label": "cultural capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q183342",
           "label": "federal city of Russia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q50330360",
-          "label": "second largest city"
+          "identifier": "http://www.wikidata.org/entity/Q200250",
+          "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7930989",
-          "label": "city/town"
+          "label": "city or town"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          29.426196,
+          60.190844
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -10892,8 +11311,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Sakha+(Yakutia).map"
+      },
       "id": "http://www.wikidata.org/entity/Q6605",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Republic of Sakha"
+        },
         {
           "lang": "en",
           "toponym": "Sakha (Yakutia)"
@@ -10916,13 +11342,17 @@
         }
       ],
       "properties": {
-        "title": "Sakha Republic"
+        "title": "Sakha"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -11062,6 +11492,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Sakhalin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7797",
       "names": [
         {
@@ -11079,8 +11512,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -11224,6 +11661,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Samara+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1727",
       "names": [
         {
@@ -11237,8 +11677,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -11386,6 +11830,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Saratov+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5334",
       "names": [
         {
@@ -11399,8 +11846,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -11413,7 +11864,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "port city in Crimea"
+          "value": "port city in Crimea, disputed between Ukraine and Russia"
         }
       ],
       "geometry": {
@@ -11488,6 +11939,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Sevastopol.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7525",
       "names": [
         {
@@ -11517,10 +11971,6 @@
         {
           "lang": "en",
           "toponym": "Sewastúpolis"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ахтіар"
         }
       ],
       "properties": {
@@ -11529,33 +11979,29 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q12131624",
+          "label": "city in Ukraine"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q183342",
-          "label": "federal city of Russia"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5124045",
-          "label": "city with special status"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7930989",
-          "label": "city/town"
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smolensk%20oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smolensk%20Oblast.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division (oblast) in western Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -11714,6 +12160,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Smolensk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2347",
       "names": [
         {
@@ -11739,8 +12188,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -11753,7 +12206,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia"
+          "value": "first-level administrative division of Russia"
         }
       ],
       "geometry": {
@@ -11892,6 +12345,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Stavropol+Krai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5207",
       "names": [
         {
@@ -11904,6 +12360,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"
@@ -12050,6 +12510,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Sverdlovsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5462",
       "names": [
         {
@@ -12063,8 +12526,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -12228,6 +12695,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tambov+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3550",
       "names": [
         {
@@ -12241,8 +12711,185 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tatarstan.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "federal subject of Russia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.37068,
+                  54.516828
+                ],
+                [
+                  47.241902,
+                  54.677722
+                ],
+                [
+                  47.696035,
+                  55.323135
+                ],
+                [
+                  48.025007,
+                  55.630455
+                ],
+                [
+                  48.081024,
+                  55.680271
+                ],
+                [
+                  49.037038,
+                  56.357852
+                ],
+                [
+                  49.091505,
+                  56.391752
+                ],
+                [
+                  49.105458,
+                  56.3963
+                ],
+                [
+                  49.425955,
+                  56.483013
+                ],
+                [
+                  50.19335,
+                  56.657266
+                ],
+                [
+                  50.202032,
+                  56.658867
+                ],
+                [
+                  50.314376,
+                  56.675869
+                ],
+                [
+                  50.324815,
+                  56.676102
+                ],
+                [
+                  52.948737,
+                  56.542596
+                ],
+                [
+                  53.080099,
+                  56.526602
+                ],
+                [
+                  53.08661,
+                  56.525671
+                ],
+                [
+                  53.546014,
+                  56.244733
+                ],
+                [
+                  53.550871,
+                  56.241012
+                ],
+                [
+                  54.230933,
+                  55.692467
+                ],
+                [
+                  54.229589,
+                  55.686059
+                ],
+                [
+                  53.470463,
+                  54.045745
+                ],
+                [
+                  53.384473,
+                  53.97376
+                ],
+                [
+                  53.379099,
+                  53.970194
+                ],
+                [
+                  53.371657,
+                  53.969161
+                ],
+                [
+                  47.410367,
+                  54.500498
+                ],
+                [
+                  47.384323,
+                  54.507319
+                ],
+                [
+                  47.376881,
+                  54.51135
+                ],
+                [
+                  47.37068,
+                  54.516828
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tatarstan.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q5481",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Republic of Tatarstan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tataria"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tatariya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tatarstan"
+        }
+      ],
+      "properties": {
+        "title": "Tatarstan"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41162",
+          "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -12398,6 +13045,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tomsk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5884",
       "names": [
         {
@@ -12411,15 +13061,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tula%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tula%20Oblast%20%28design%2C%20Dark%20color%29.svg"
         }
       ],
       "descriptions": [
@@ -12592,11 +13246,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tula+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2792",
       "names": [
         {
           "lang": "en",
           "toponym": "Tula Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tula"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tulskaya Oblast"
         }
       ],
       "properties": {
@@ -12605,8 +13270,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -12619,7 +13288,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "republic and federal subject of Russia"
+          "value": "Republic and federal subject of Russia"
         }
       ],
       "geometry": {
@@ -12738,6 +13407,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tuva+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q960",
       "names": [
         {
@@ -12750,29 +13422,25 @@
         },
         {
           "lang": "en",
-          "toponym": "Tuva Republic"
+          "toponym": "Touva"
         },
         {
           "lang": "en",
           "toponym": "Tuva"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tyva Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Tyva"
         }
       ],
       "properties": {
-        "title": "Tuva Republic"
+        "title": "Tuva"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -12785,7 +13453,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division (oblast) in central Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -12940,12 +13608,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tver+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2292",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Kalinin Oblast"
-        },
         {
           "lang": "en",
           "toponym": "Tver Oblast"
@@ -12961,8 +13628,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -13094,6 +13765,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Tyumen+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5824",
       "names": [
         {
@@ -13107,8 +13781,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -13121,7 +13799,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia, republic of Russia"
+          "value": "federal subject of Russia"
         }
       ],
       "geometry": {
@@ -13268,15 +13946,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Udmurt+Republic.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5422",
       "names": [
         {
           "lang": "en",
           "toponym": "Republic of Udmurtia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Udmurt Republic"
         },
         {
           "lang": "en",
@@ -13288,7 +13965,7 @@
         }
       ],
       "properties": {
-        "title": "Udmurt Republic"
+        "title": "Udmurtia"
       },
       "type": "Feature",
       "types": [
@@ -13299,6 +13976,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q41162",
           "label": "republic of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -13418,11 +14099,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Ulyanovsk+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5634",
       "names": [
         {
           "lang": "en",
           "toponym": "Ulyanovsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ulyanovsk"
         }
       ],
       "properties": {
@@ -13431,15 +14119,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vladimirskaya%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vladimir%20Oblast.svg"
         }
       ],
       "descriptions": [
@@ -13584,11 +14276,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Vladimir+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2702",
       "names": [
         {
           "lang": "en",
           "toponym": "Vladimir Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vladimirskaya Oblast'"
         }
       ],
       "properties": {
@@ -13597,8 +14296,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -13730,8 +14433,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Volgograd+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3819",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Volgograd Oblast (Russia)"
+        },
         {
           "lang": "en",
           "toponym": "Volgograd Oblast"
@@ -13744,11 +14454,15 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q192611",
-          "label": "electoral district"
+          "label": "electoral unit"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -13908,6 +14622,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Vologda+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2015",
       "names": [
         {
@@ -13921,15 +14638,19 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Voronezh%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Voronezh%20Oblast%20%28large%29.svg"
         }
       ],
       "descriptions": [
@@ -14098,11 +14819,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Voronezh+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3447",
       "names": [
         {
           "lang": "en",
           "toponym": "Voronezh Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Voronezhskaya Oblast'"
         }
       ],
       "properties": {
@@ -14111,8 +14839,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -14125,7 +14857,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "federal subject of Russia"
+          "value": "federal subject of Russia, administered by Tyumen Oblast"
         }
       ],
       "geometry": {
@@ -14308,6 +15040,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Yamal-Nenets.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6407",
       "names": [
         {
@@ -14316,17 +15051,33 @@
         },
         {
           "lang": "en",
+          "toponym": "Yamalia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yamalo-Nenets AO"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yamalo-Nenets Autonomous District"
+        },
+        {
+          "lang": "en",
           "toponym": "Yamalo-Nenets Autonomous Okrug"
         }
       ],
       "properties": {
-        "title": "Yamalo-Nenets Autonomous Okrug"
+        "title": "Yamalo-Nenets Autonomous District"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q184122",
-          "label": "autonomous okrug of Russia"
+          "label": "autonomous district of Russia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
         }
       ]
     },
@@ -14462,6 +15213,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Yaroslavl+Oblast.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2448",
       "names": [
         {
@@ -14475,8 +15229,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q835714",
-          "label": "oblasts of Russia"
+          "label": "oblast of Russia"
         }
       ]
     },
@@ -14668,6 +15426,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Russia/Chita.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6838",
       "names": [
         {
@@ -14680,6 +15441,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q43263",
+          "label": "federal subject of Russia"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q831740",
           "label": "krai of Russia"

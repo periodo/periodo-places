@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -66,14 +67,21 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -84.8892,
+          32.2598
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
             "coordinates": [
               [
                 [
-                  -88.403147,
-                  30.3876
+                  -88.45993,
+                  31.420268
                 ],
                 [
                   -88.486151,
@@ -116,6 +124,10 @@
                   31.000102
                 ],
                 [
+                  -87.488271,
+                  30.285142
+                ],
+                [
                   -87.65453,
                   30.252102
                 ],
@@ -136,8 +148,20 @@
                   30.236762
                 ],
                 [
-                  -88.403147,
-                  30.3876
+                  -88.402212,
+                  30.387831
+                ],
+                [
+                  -88.402216,
+                  30.38787
+                ],
+                [
+                  -88.412714,
+                  30.57559
+                ],
+                [
+                  -88.45993,
+                  31.420268
                 ]
               ]
             ],
@@ -146,11 +170,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Alabama.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173",
       "names": [
         {
           "lang": "en",
+          "toponym": "Ala."
+        },
+        {
+          "lang": "en",
           "toponym": "Alabama"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bama"
         },
         {
           "lang": "en",
@@ -163,19 +198,48 @@
         {
           "lang": "en",
           "toponym": "The Yellowhammer State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-AL"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yellowhammer State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -88.1929,
+          35.0079
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Alabama"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -88.0557,
+          30.1941
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -88.466666666,
+          31.933333333
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -410,6 +474,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Alaska.map"
+      },
       "id": "http://www.wikidata.org/entity/Q797",
       "names": [
         {
@@ -422,7 +489,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Russian America"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Alaska"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Last Frontier"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-AK"
         }
       ],
       "northernmostPoint": {
@@ -447,7 +526,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q933394",
+          "label": "exclave"
         }
       ],
       "westernmostPoint": {
@@ -467,7 +550,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "US territory in the Pacific"
+          "value": "unincorporated territory of the United States of America, located in the Pacific Ocean"
         }
       ],
       "geometry": {
@@ -506,6 +589,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:American+Samoa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q16641",
       "names": [
         {
@@ -514,11 +600,23 @@
         },
         {
           "lang": "en",
+          "toponym": "American Sāmoa"
+        },
+        {
+          "lang": "en",
           "toponym": "East Samoa"
         },
         {
           "lang": "en",
+          "toponym": "ISO 3166-1:AS"
+        },
+        {
+          "lang": "en",
           "toponym": "Samoa (American)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Samoa, United States"
         },
         {
           "lang": "en",
@@ -531,10 +629,6 @@
         {
           "lang": "en",
           "toponym": "US Samoa"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇸"
         }
       ],
       "properties": {
@@ -548,12 +642,16 @@
           "label": "political territorial entity"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
+          "label": "insular area of the United States"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
+          "label": "unincorporated territory of the United States"
         }
       ]
     },
@@ -661,11 +759,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Arizona.map"
+      },
       "id": "http://www.wikidata.org/entity/Q816",
       "names": [
         {
           "lang": "en",
+          "toponym": "Ariz."
+        },
+        {
+          "lang": "en",
           "toponym": "Arizona"
+        },
+        {
+          "lang": "en",
+          "toponym": "Arizona, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Grand Canyon State"
         },
         {
           "lang": "en",
@@ -674,6 +787,10 @@
         {
           "lang": "en",
           "toponym": "The Grand Canyon State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-AZ"
         }
       ],
       "properties": {
@@ -684,7 +801,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -697,7 +814,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of the United States"
+          "value": "state of the United States of America"
         }
       ],
       "geometry": {
@@ -764,8 +881,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Arkansas.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1612",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "AR-kən-saw"
+        },
+        {
+          "lang": "en",
+          "toponym": "ARkənsaw"
+        },
         {
           "lang": "en",
           "toponym": "Ark."
@@ -776,7 +904,27 @@
         },
         {
           "lang": "en",
+          "toponym": "Arkansas, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Arkansaw"
+        },
+        {
+          "lang": "en",
+          "toponym": "Arkensaw"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Arkansas"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Natural State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-AR"
         }
       ],
       "properties": {
@@ -787,7 +935,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -803,6 +951,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -114.1357,
+          34.2802
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -919,11 +1074,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:California.map"
+      },
       "id": "http://www.wikidata.org/entity/Q99",
       "names": [
         {
           "lang": "en",
+          "toponym": "Cal."
+        },
+        {
+          "lang": "en",
           "toponym": "California"
+        },
+        {
+          "lang": "en",
+          "toponym": "California, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Golden State"
         },
         {
           "lang": "en",
@@ -934,17 +1104,38 @@
           "toponym": "The Golden State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -121,
+          42
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "California"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -117.122777777,
+          32.534444444
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -124.4095,
+          40.4401
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -958,6 +1149,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -102.048666666,
+          39.329555555
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1006,8 +1204,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Colorado.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1261",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Centennial State"
+        },
         {
           "lang": "en",
           "toponym": "Colo."
@@ -1018,20 +1223,49 @@
         },
         {
           "lang": "en",
+          "toponym": "Colorado, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Colorado"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-CO"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -106.684833333,
+          41.002388888
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Colorado"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -106.869882,
+          36.992554
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -109.051861111,
+          39.078666666
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -1095,12 +1329,12 @@
                   41.415727
                 ],
                 [
-                  -71.847168,
-                  41.310816
+                  -71.844965,
+                  41.321513
                 ],
                 [
-                  -71.871475,
-                  41.302575
+                  -73.523211,
+                  41.021491
                 ],
                 [
                   -73.642865,
@@ -1117,11 +1351,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Connecticut.map"
+      },
       "id": "http://www.wikidata.org/entity/Q779",
       "names": [
         {
           "lang": "en",
+          "toponym": "5th State"
+        },
+        {
+          "lang": "en",
+          "toponym": "CT, USA"
+        },
+        {
+          "lang": "en",
+          "toponym": "Conn."
+        },
+        {
+          "lang": "en",
+          "toponym": "Connecticut (U.S. state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Connecticut (state)"
+        },
+        {
+          "lang": "en",
           "toponym": "Connecticut"
+        },
+        {
+          "lang": "en",
+          "toponym": "Connecticut, U.S."
         },
         {
           "lang": "en",
@@ -1129,7 +1390,31 @@
         },
         {
           "lang": "en",
+          "toponym": "Conneticut"
+        },
+        {
+          "lang": "en",
+          "toponym": "Constitution State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nutmeg State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Connecticut"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Constitution State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Nutmeg State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-CT"
         }
       ],
       "properties": {
@@ -1140,7 +1425,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -1284,6 +1569,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Delaware.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1393",
       "names": [
         {
@@ -1293,6 +1581,10 @@
         {
           "lang": "en",
           "toponym": "Delaware"
+        },
+        {
+          "lang": "en",
+          "toponym": "Delaware, United States"
         },
         {
           "lang": "en",
@@ -1309,6 +1601,10 @@
         {
           "lang": "en",
           "toponym": "The Small Wonder"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-DE"
         }
       ],
       "properties": {
@@ -1319,14 +1615,14 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20District%20of%20Columbia.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington%2C%20D.C.svg"
         }
       ],
       "descriptions": [
@@ -1371,6 +1667,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:DistrictofColumbia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3551781",
       "names": [
         {
@@ -1390,11 +1689,15 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1352230",
-          "label": "territory of the United States"
+          "identifier": "http://www.wikidata.org/entity/Q475050",
+          "label": "federal district"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q852446",
+          "label": "administrative territorial entity of the United States"
         }
       ]
     },
@@ -1423,8 +1726,8 @@
             "coordinates": [
               [
                 [
-                  -87.529205,
-                  30.277737
+                  -87.625311,
+                  30.865214
                 ],
                 [
                   -87.626923,
@@ -1571,8 +1874,12 @@
                   24.550849
                 ],
                 [
-                  -87.529205,
-                  30.277737
+                  -87.482045,
+                  30.326117
+                ],
+                [
+                  -87.625311,
+                  30.865214
                 ]
               ]
             ],
@@ -1581,15 +1888,42 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Florida.map"
+      },
       "id": "http://www.wikidata.org/entity/Q812",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Fla."
+        },
         {
           "lang": "en",
           "toponym": "Florida"
         },
         {
           "lang": "en",
+          "toponym": "Florida, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Peninsular State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Florida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sunshine State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Gator State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Sunshine State"
         }
       ],
       "northernmostPoint": {
@@ -1614,7 +1948,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -1628,7 +1962,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia%20%28U.S.%20state%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20State%20of%20Georgia.svg"
         }
       ],
       "descriptions": [
@@ -1637,6 +1971,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -80.84075,
+          32.011777777
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1721,6 +2062,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia-US.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1428",
       "names": [
         {
@@ -1748,17 +2092,38 @@
           "toponym": "The Peach State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -83.1087,
+          35.0007
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Georgia"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -82.0656,
+          30.3561
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -85.605166666,
+          34.984666666
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -1769,9 +2134,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island territory of the United States of America"
+          "value": "unincorporated territory of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          144.955,
+          13.598
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1824,11 +2196,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Guam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q16635",
       "names": [
         {
           "lang": "en",
+          "toponym": "Guahan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Guam (USA)"
+        },
+        {
+          "lang": "en",
           "toponym": "Guam"
+        },
+        {
+          "lang": "en",
+          "toponym": "Guåhan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Guåhån"
+        },
+        {
+          "lang": "en",
+          "toponym": "ISO 3166-1:GU"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island of Guam"
         },
         {
           "lang": "en",
@@ -1836,19 +2235,32 @@
         },
         {
           "lang": "en",
-          "toponym": "🇬🇺"
+          "toponym": "US-GU"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          144.860277777,
+          13.650555555
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "GU",
         "title": "Guam"
       },
+      "southernmostPoint": [
+        {
+          "@value": "Point(144.648888888 13.236111111)",
+          "type": "gsp:wktLiteral"
+        },
+        {
+          "@value": "Point(144.724 13.247)",
+          "type": "gsp:wktLiteral"
+        }
+      ],
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1048835",
-          "label": "political territorial entity"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q1352230",
           "label": "territory of the United States"
@@ -1858,14 +2270,25 @@
           "label": "island"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q3337001",
+          "label": "nationality for sports"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
+          "label": "insular area of the United States"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
+          "label": "unincorporated territory of the United States"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          144.618194444,
+          13.447555555
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -1876,9 +2299,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of the United States of America, located on an archipelago in the Pacific Ocean"
+          "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -154.808333333,
+          19.516666666
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1971,8 +2401,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Hawaii.map"
+      },
       "id": "http://www.wikidata.org/entity/Q782",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Hawaii State"
+        },
         {
           "lang": "en",
           "toponym": "Hawaii"
@@ -1983,11 +2420,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Hawaiʻi"
+          "toponym": "Kaimana Hila"
         },
         {
           "lang": "en",
-          "toponym": "Kaimana Hila"
+          "toponym": "Owhyhee"
+        },
+        {
+          "lang": "en",
+          "toponym": "Owyhee"
         },
         {
           "lang": "en",
@@ -1998,17 +2439,38 @@
           "toponym": "The Aloha State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -178.2894,
+          28.4005
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Hawaii"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -155.681111111,
+          18.910833333
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -178.2894,
+          28.4005
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -2074,6 +2536,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Idaho.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1221",
       "names": [
         {
@@ -2109,7 +2574,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -2123,6 +2588,16 @@
         {
           "lang": "en",
           "value": "state of the United States of America"
+        }
+      ],
+      "easternmostPoint": [
+        {
+          "@value": "Point(-87.020833333 42.493611111)",
+          "type": "gsp:wktLiteral"
+        },
+        {
+          "@value": "Point(-87.4975995 38.7820897)",
+          "type": "gsp:wktLiteral"
         }
       ],
       "geometry": {
@@ -2241,6 +2716,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Illinois.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1204",
       "names": [
         {
@@ -2265,6 +2743,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Lincoln State"
+        },
+        {
+          "lang": "en",
           "toponym": "Prairie State"
         },
         {
@@ -2278,19 +2760,44 @@
         {
           "lang": "en",
           "toponym": "The Prairie State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-IL"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -90.639,
+          42.508
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Illinois"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -89.1753493,
+          36.9794964
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -91.5098775,
+          40.1442122
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -2415,8 +2922,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Indiana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1415",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Hoosier State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ind."
+        },
         {
           "lang": "en",
           "toponym": "Indiana"
@@ -2452,7 +2970,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -2475,6 +2993,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -90.165973888,
+          42.064515
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2591,8 +3116,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iowa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1546",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Hawk-eye State"
+        },
         {
           "lang": "en",
           "toponym": "Iowa"
@@ -2608,19 +3140,44 @@
         {
           "lang": "en",
           "toponym": "The Land Between Two Rivers"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-IA"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -96.453285,
+          43.500349
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Iowa"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -91.457748,
+          40.375481
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -96.639343888,
+          42.737176111
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -2634,6 +3191,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -94.589518055,
+          39.146873055
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2698,8 +3262,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kansas.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1558",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Kan."
+        },
+        {
+          "lang": "en",
+          "toponym": "Kans."
+        },
         {
           "lang": "en",
           "toponym": "Kansas"
@@ -2711,19 +3286,48 @@
         {
           "lang": "en",
           "toponym": "State of Kansas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sunflower State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-KS"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -102.05175,
+          40.003083333
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Kansas"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -102.04209,
+          36.993016
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -102.04209,
+          36.993016111
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -2853,8 +3457,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kentucky.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1603",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Bluegrass State"
+        },
         {
           "lang": "en",
           "toponym": "Commonwealth of Kentucky"
@@ -2866,6 +3477,10 @@
         {
           "lang": "en",
           "toponym": "Kentucky, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-KY"
         }
       ],
       "properties": {
@@ -2876,7 +3491,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -2892,6 +3507,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -88.818091111,
+          29.907376111
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2992,6 +3614,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Louisiana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1588",
       "names": [
         {
@@ -3008,20 +3633,45 @@
         },
         {
           "lang": "en",
+          "toponym": "Pelican State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Louisiana"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -93.9215,
+          33.0196
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Louisiana"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -89.422,
+          28.9254
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -93.5721,
+          31.1965
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -3105,20 +3755,20 @@
                   47.075138
                 ],
                 [
-                  -66.904937,
-                  44.955797
+                  -66.986073,
+                  44.909776
                 ],
                 [
-                  -66.891916,
-                  44.921942
+                  -66.977325,
+                  44.815538
                 ],
                 [
-                  -66.893219,
-                  44.906317
+                  -66.984975,
+                  44.804918
                 ],
                 [
-                  -66.91926,
-                  44.837307
+                  -67.019399,
+                  44.774929
                 ],
                 [
                   -67.196482,
@@ -3171,6 +3821,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Maine.map"
+      },
       "id": "http://www.wikidata.org/entity/Q724",
       "names": [
         {
@@ -3184,6 +3837,14 @@
         {
           "lang": "en",
           "toponym": "State of Maine"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Pine Tree State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-ME"
         }
       ],
       "properties": {
@@ -3194,7 +3855,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -3210,6 +3871,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -75.033333333,
+          38.45
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -3276,8 +3944,16 @@
                   37.931138
                 ],
                 [
-                  -76.026368,
-                  37.913515
+                  -76.044085,
+                  37.954449
+                ],
+                [
+                  -76.323897,
+                  38.043842
+                ],
+                [
+                  -77.231931,
+                  38.374068
                 ],
                 [
                   -79.485785,
@@ -3289,6 +3965,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Maryland.map"
       },
       "id": "http://www.wikidata.org/entity/Q1391",
       "names": [
@@ -3302,20 +3981,49 @@
         },
         {
           "lang": "en",
+          "toponym": "Old Line State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Maryland"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MD"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -78.7258,
+          39.723
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Maryland"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -75.8837,
+          37.9121
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -79.483333333,
+          39.2
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -3421,11 +4129,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Massachusetts.map"
+      },
       "id": "http://www.wikidata.org/entity/Q771",
       "names": [
         {
           "lang": "en",
+          "toponym": "6th State"
+        },
+        {
+          "lang": "en",
           "toponym": "Bay State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of MA"
         },
         {
           "lang": "en",
@@ -3433,7 +4152,43 @@
         },
         {
           "lang": "en",
+          "toponym": "Mass."
+        },
+        {
+          "lang": "en",
+          "toponym": "Massachusetts (U.S. state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Massachusetts state"
+        },
+        {
+          "lang": "en",
           "toponym": "Massachusetts"
+        },
+        {
+          "lang": "en",
+          "toponym": "Massachusetts, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "Masshole Commonwealth"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Massachusetts"
+        },
+        {
+          "lang": "en",
+          "toponym": "Taxachusetts"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Bay State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Commonwealth of Massachusetts"
         }
       ],
       "properties": {
@@ -3443,12 +4198,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2221906",
-          "label": "geographic location"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -3651,8 +4402,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Michigan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1166",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Great Lakes State"
+        },
         {
           "lang": "en",
           "toponym": "Mich."
@@ -3668,6 +4426,14 @@
         {
           "lang": "en",
           "toponym": "State of Michigan"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wolverine State"
         }
       ],
       "northernmostPoint": {
@@ -3692,7 +4458,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -3779,11 +4545,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Minnesota.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1527",
       "names": [
         {
           "lang": "en",
           "toponym": "Land of 10,000 Lakes"
+        },
+        {
+          "lang": "en",
+          "toponym": "Minn."
         },
         {
           "lang": "en",
@@ -3795,7 +4568,15 @@
         },
         {
           "lang": "en",
+          "toponym": "North Star State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Minnesota"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MN"
         }
       ],
       "properties": {
@@ -3806,7 +4587,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -3876,8 +4657,8 @@
                   34.908061
                 ],
                 [
-                  -88.403147,
-                  30.3876
+                  -88.402212,
+                  30.387831
                 ],
                 [
                   -88.427358,
@@ -3902,8 +4683,23 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Mississippi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1494",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Magnolia State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Miss."
+        },
+        {
+          "lang": "en",
+          "toponym": "Mississippi (state)"
+        },
         {
           "lang": "en",
           "toponym": "Mississippi"
@@ -3915,6 +4711,10 @@
         {
           "lang": "en",
           "toponym": "State of Mississippi"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MS"
         }
       ],
       "properties": {
@@ -3925,7 +4725,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4033,6 +4833,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Missouri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1581",
       "names": [
         {
@@ -4050,6 +4853,10 @@
         {
           "lang": "en",
           "toponym": "The Show Me State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MO"
         }
       ],
       "properties": {
@@ -4060,7 +4867,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4172,11 +4979,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Montana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1212",
       "names": [
         {
           "lang": "en",
           "toponym": "Big Sky Country"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mont."
         },
         {
           "lang": "en",
@@ -4189,6 +5003,14 @@
         {
           "lang": "en",
           "toponym": "State of Montana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Treasure State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MT"
         }
       ],
       "properties": {
@@ -4199,7 +5021,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4299,15 +5121,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nebraska.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1553",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Cornhusker State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Neb."
+        },
+        {
+          "lang": "en",
+          "toponym": "Nebr."
+        },
         {
           "lang": "en",
           "toponym": "Nebraska"
         },
         {
           "lang": "en",
+          "toponym": "Nebraska, United States"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Nebraska"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-NE"
         }
       ],
       "properties": {
@@ -4318,7 +5163,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4406,6 +5251,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nevada.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1227",
       "names": [
         {
@@ -4418,7 +5266,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Silver State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Nevada"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Silver State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-NV"
         }
       ],
       "properties": {
@@ -4429,7 +5289,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4561,8 +5421,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NewHampshire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q759",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Granite State"
+        },
+        {
+          "lang": "en",
+          "toponym": "N.H."
+        },
         {
           "lang": "en",
           "toponym": "New Hampshire"
@@ -4578,6 +5449,10 @@
         {
           "lang": "en",
           "toponym": "The Granite State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-NH"
         }
       ],
       "properties": {
@@ -4588,7 +5463,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -4604,6 +5479,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -73.89405,
+          40.99668
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -4744,6 +5626,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NewJersey.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1408",
       "names": [
         {
@@ -4752,7 +5637,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Iersey"
+        },
+        {
+          "lang": "en",
           "toponym": "Jersey"
+        },
+        {
+          "lang": "en",
+          "toponym": "N.J."
+        },
+        {
+          "lang": "en",
+          "toponym": "New Iersey"
         },
         {
           "lang": "en",
@@ -4765,19 +5662,52 @@
         {
           "lang": "en",
           "toponym": "State of New Jersey"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-NJ"
+        },
+        {
+          "lang": "en",
+          "toponym": "the Garden State"
+        },
+        {
+          "lang": "en",
+          "toponym": "the State of New Jersey"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -74.69548,
+          41.35776
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "New Jersey"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -74.93453,
+          38.92825
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -75.5598,
+          39.625
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -4791,6 +5721,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -103.002277777,
+          36.501583333
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -4851,8 +5788,23 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NewMexico.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1522",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Land of Enchantment"
+        },
+        {
+          "lang": "en",
+          "toponym": "N. Mex."
+        },
+        {
+          "lang": "en",
+          "toponym": "N.M."
+        },
         {
           "lang": "en",
           "toponym": "New Mexico"
@@ -4866,17 +5818,38 @@
           "toponym": "State of New Mexico"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -105.624611111,
+          36.995722222
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "New Mexico"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -108.208472222,
+          31.333361111
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -109.050044,
+          31.33282
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -5002,11 +5975,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NewYork.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1384",
       "names": [
         {
           "lang": "en",
-          "toponym": "New York State"
+          "toponym": "Empire State"
+        },
+        {
+          "lang": "en",
+          "toponym": "NY state"
+        },
+        {
+          "lang": "en",
+          "toponym": "New York (state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "New York state"
         },
         {
           "lang": "en",
@@ -5019,6 +6007,14 @@
         {
           "lang": "en",
           "toponym": "State of New York"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Empire State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-NY"
         }
       ],
       "properties": {
@@ -5029,7 +6025,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -5045,6 +6041,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -75.525055555,
+          35.2215
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -5153,11 +6156,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NorthCarolina.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1454",
       "names": [
         {
           "lang": "en",
           "toponym": "NC, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "North Carolina (US)"
         },
         {
           "lang": "en",
@@ -5170,19 +6180,48 @@
         {
           "lang": "en",
           "toponym": "State of North Carolina"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tar Heel State"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Tar Heel State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -76.915861111,
+          36.552083333
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "North Carolina"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -77.9621,
+          33.8424
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -84.321888888,
+          34.988416666
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -5196,6 +6235,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -96.55455,
+          46.083977
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -5260,8 +6306,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:NorthDakota.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1207",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Flickertail State"
+        },
+        {
+          "lang": "en",
+          "toponym": "N. Dak."
+        },
         {
           "lang": "en",
           "toponym": "N. Dakota"
@@ -5280,20 +6337,53 @@
         },
         {
           "lang": "en",
+          "toponym": "Peace Garden State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Roughrider State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of North Dakota"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-ND"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -100,
+          49
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "North Dakota"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -96.5613,
+          45.935278
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -104.04611,
+          49
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -5304,7 +6394,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "American-dependent insular area in the western Pacific"
+          "value": "unincorporated territory of the United States of America, located in the Pacific Ocean"
         }
       ],
       "geometry": {
@@ -5371,6 +6461,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Northern+Mariana+Islands.map"
+      },
       "id": "http://www.wikidata.org/entity/Q16644",
       "names": [
         {
@@ -5383,11 +6476,27 @@
         },
         {
           "lang": "en",
+          "toponym": "Commonwealth of the Northern Mariana Islands"
+        },
+        {
+          "lang": "en",
+          "toponym": "ISO 3166-1:MP"
+        },
+        {
+          "lang": "en",
           "toponym": "Northern Mariana Islands"
         },
         {
           "lang": "en",
-          "toponym": "🇲🇵"
+          "toponym": "Northern Marianas"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-MP"
+        },
+        {
+          "lang": "en",
+          "toponym": "the Northern Mariana Islands"
         }
       ],
       "properties": {
@@ -5406,15 +6515,15 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
+          "label": "insular area of the United States"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
+          "identifier": "http://www.wikidata.org/entity/Q609591",
+          "label": "commonwealth"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
+          "label": "unincorporated territory of the United States"
         }
       ]
     },
@@ -5430,6 +6539,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -80.516666666,
+          40
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -5502,6 +6618,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ohio.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1397",
       "names": [
         {
@@ -5519,19 +6638,44 @@
         {
           "lang": "en",
           "toponym": "State of Ohio"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-OH"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -80.519841666,
+          42.327108333
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Ohio"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -82.55105,
+          38.403266666
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -84.820155555,
+          39.105480555
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -5620,8 +6764,35 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oklahoma.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1649",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Ekelahema"
+        },
+        {
+          "lang": "en",
+          "toponym": "O.T. (Oklahoma Territory)"
+        },
+        {
+          "lang": "en",
+          "toponym": "OT (Oklahoma Territory)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ogalahoma"
+        },
+        {
+          "lang": "en",
+          "toponym": "Okla."
+        },
+        {
+          "lang": "en",
+          "toponym": "Oklahoma Territory"
+        },
         {
           "lang": "en",
           "toponym": "Oklahoma"
@@ -5632,7 +6803,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Oklahumma"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sooner State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Oklahoma"
+        },
+        {
+          "lang": "en",
+          "toponym": "Territory of Oklahoma"
         },
         {
           "lang": "en",
@@ -5640,7 +6823,7 @@
         },
         {
           "lang": "en",
-          "toponym": "US-OK"
+          "toponym": "Uukaalaasuumaa"
         }
       ],
       "northernmostPoint": {
@@ -5665,7 +6848,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -5783,11 +6966,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oregon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q824",
       "names": [
         {
           "lang": "en",
           "toponym": "Ore."
+        },
+        {
+          "lang": "en",
+          "toponym": "Oreg."
         },
         {
           "lang": "en",
@@ -5804,6 +6994,10 @@
         {
           "lang": "en",
           "toponym": "The Beaver State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-OR"
         }
       ],
       "northernmostPoint": {
@@ -5831,7 +7025,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -5851,7 +7045,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of the United States"
+          "value": "state of the United States of America"
         }
       ],
       "geometry": {
@@ -5950,6 +7144,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pennsylvania.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1400",
       "names": [
         {
@@ -5970,7 +7167,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Pennsylvania, United States (State of Pennsylvania) Keystone State (PA) Penna"
+          "toponym": "Pennsylvania, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Pennsylvania"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-PA"
         }
       ],
       "properties": {
@@ -5981,7 +7186,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -5994,7 +7199,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "unincorporated territory of the United States"
+          "value": "unincorporated territory of the United States of America"
         }
       ],
       "geometry": {
@@ -6041,15 +7246,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Puerto+Rico.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1183",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Borikén"
+        },
+        {
+          "lang": "en",
+          "toponym": "Borinquen"
+        },
+        {
+          "lang": "en",
+          "toponym": "Boriquén"
+        },
         {
           "lang": "en",
           "toponym": "Commonwealth of Puerto Rico"
         },
         {
           "lang": "en",
-          "toponym": "Estado Libre Asociado de Puerto Rico"
+          "toponym": "Free Associated State of Puerto Rico"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island of Enchantment"
+        },
+        {
+          "lang": "en",
+          "toponym": "Isle of Enchantment"
         },
         {
           "lang": "en",
@@ -6061,15 +7289,11 @@
         },
         {
           "lang": "en",
+          "toponym": "Territory of Porto Rico"
+        },
+        {
+          "lang": "en",
           "toponym": "Territory of Puerto Rico"
-        },
-        {
-          "lang": "en",
-          "toponym": "The Commonwealth of Puerto Rico"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇷"
         }
       ],
       "properties": {
@@ -6092,7 +7316,11 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q462778",
-          "label": "insular area"
+          "label": "insular area of the United States"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q609591",
+          "label": "commonwealth"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7252696",
@@ -6100,7 +7328,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
+          "label": "unincorporated territory of the United States"
         }
       ]
     },
@@ -6113,7 +7341,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state on east coast of United States of America"
+          "value": "state of the United States of America"
         }
       ],
       "geometry": {
@@ -6122,12 +7350,12 @@
             "coordinates": [
               [
                 [
-                  -71.613748,
-                  41.155181
+                  -71.871475,
+                  41.302575
                 ],
                 [
-                  -71.847168,
-                  41.310816
+                  -71.877914,
+                  41.311512
                 ],
                 [
                   -71.8008,
@@ -6162,8 +7390,8 @@
                   41.145779
                 ],
                 [
-                  -71.613748,
-                  41.155181
+                  -71.871475,
+                  41.302575
                 ]
               ]
             ],
@@ -6172,11 +7400,46 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:RhodeIsland.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1387",
       "names": [
         {
           "lang": "en",
+          "toponym": "13th State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Little Rhodie"
+        },
+        {
+          "lang": "en",
           "toponym": "Little Rhody"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ocean State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Providence Plantations"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rhode Island (U.S. state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rhode Island (state)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rhode Island State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rhode Island and Providence Plantations"
         },
         {
           "lang": "en",
@@ -6204,7 +7467,11 @@
         },
         {
           "lang": "en",
-          "toponym": "little rhodie"
+          "toponym": "The State of Rhode Island and Providence Plantations"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-RI"
         }
       ],
       "properties": {
@@ -6215,7 +7482,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -6362,6 +7629,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:SouthCarolina.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1456",
       "names": [
         {
@@ -6387,6 +7657,10 @@
         {
           "lang": "en",
           "toponym": "State of South Carolina"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-SC"
         }
       ],
       "northernmostPoint": {
@@ -6411,7 +7685,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -6506,11 +7780,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:SouthDakota.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1211",
       "names": [
         {
           "lang": "en",
+          "toponym": "S. Dak."
+        },
+        {
+          "lang": "en",
           "toponym": "S. Dakota"
+        },
+        {
+          "lang": "en",
+          "toponym": "S.D."
         },
         {
           "lang": "en",
@@ -6535,6 +7820,10 @@
         {
           "lang": "en",
           "toponym": "The Mount Rushmore State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-SD"
         }
       ],
       "properties": {
@@ -6545,7 +7834,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -6561,6 +7850,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -81.646899,
+          36.611927
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -6645,11 +7941,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Tennessee.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1509",
       "names": [
         {
           "lang": "en",
           "toponym": "State of Tennessee"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tenn."
         },
         {
           "lang": "en",
@@ -6661,20 +7964,49 @@
         },
         {
           "lang": "en",
+          "toponym": "The Volunteer State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-TN"
+        },
+        {
+          "lang": "en",
           "toponym": "Volunteer State"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -88.070554,
+          36.678264
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Tennessee"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -85.412098,
+          34.982925
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -90.310499,
+          35.004577
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -6823,6 +8155,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Texas.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1439",
       "names": [
         {
@@ -6835,11 +8170,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Tex."
+        },
+        {
+          "lang": "en",
           "toponym": "Texas"
         },
         {
           "lang": "en",
           "toponym": "Texas, United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-TX"
         }
       ],
       "northernmostPoint": {
@@ -6864,7 +8207,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -6884,7 +8227,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "group of islands in the Caribbean"
+          "value": "unincorporated territory of the United States of America"
         }
       ],
       "geometry": {
@@ -6931,6 +8274,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:US+Virgin+Islands.map"
+      },
       "id": "http://www.wikidata.org/entity/Q11703",
       "names": [
         {
@@ -6947,15 +8293,15 @@
         },
         {
           "lang": "en",
-          "toponym": "USVI"
-        },
-        {
-          "lang": "en",
           "toponym": "United States Virgin Islands"
         },
         {
           "lang": "en",
           "toponym": "Virgin Islands of the United States"
+        },
+        {
+          "lang": "en",
+          "toponym": "the United States Virgin Islands"
         }
       ],
       "properties": {
@@ -6965,8 +8311,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1352230",
+          "label": "territory of the United States"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q462778",
+          "label": "insular area of the United States"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q783733",
-          "label": "unincorporated territory"
+          "label": "unincorporated territory of the United States"
         }
       ]
     },
@@ -6982,6 +8336,13 @@
           "value": "state of the United States of America"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -109.04283,
+          38.16627
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -7066,6 +8427,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Utah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q829",
       "names": [
         {
@@ -7074,26 +8438,54 @@
         },
         {
           "lang": "en",
+          "toponym": "Mormon State"
+        },
+        {
+          "lang": "en",
           "toponym": "State of Utah"
         },
         {
           "lang": "en",
-          "toponym": "Utah"
+          "toponym": "US-UT"
         },
         {
           "lang": "en",
-          "toponym": "Utah, United States"
+          "toponym": "Utah"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -112.17322,
+          42.0015
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "US",
         "title": "Utah"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -113.99999,
+          36.99991
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
+        }
+      ],
+      "westernmostPoint": [
+        {
+          "@value": "Point(-114.0 39.0)",
+          "type": "gsp:wktLiteral"
+        },
+        {
+          "@value": "Point(-114.05176 37.74624)",
+          "type": "gsp:wktLiteral"
         }
       ]
     },
@@ -7197,6 +8589,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vermont.map"
+      },
       "id": "http://www.wikidata.org/entity/Q16551",
       "names": [
         {
@@ -7206,6 +8601,10 @@
         {
           "lang": "en",
           "toponym": "The Green Mountain State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-VT"
         },
         {
           "lang": "en",
@@ -7224,7 +8623,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -7307,6 +8706,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Virginia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1370",
       "names": [
         {
@@ -7320,6 +8722,10 @@
         {
           "lang": "en",
           "toponym": "State of Virginia"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-VA"
         },
         {
           "lang": "en",
@@ -7352,7 +8758,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ],
       "westernmostPoint": {
@@ -7447,6 +8853,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Washington.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1223",
       "names": [
         {
@@ -7456,6 +8865,10 @@
         {
           "lang": "en",
           "toponym": "State of Washington"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-WA"
         },
         {
           "lang": "en",
@@ -7478,7 +8891,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -7642,6 +9055,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:WestVirginia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1371",
       "names": [
         {
@@ -7655,6 +9071,18 @@
         {
           "lang": "en",
           "toponym": "The Mountain State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-WV"
+        },
+        {
+          "lang": "en",
+          "toponym": "W. Va."
+        },
+        {
+          "lang": "en",
+          "toponym": "W.Va."
         },
         {
           "lang": "en",
@@ -7673,7 +9101,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -7793,6 +9221,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Wisconsin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1537",
       "names": [
         {
@@ -7802,6 +9233,14 @@
         {
           "lang": "en",
           "toponym": "State of Wisconsin"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-WI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wis."
         },
         {
           "lang": "en",
@@ -7820,7 +9259,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     },
@@ -7920,8 +9359,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Wyoming.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1214",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Big Wyoming"
+        },
         {
           "lang": "en",
           "toponym": "State of Wyoming"
@@ -7933,6 +9379,14 @@
         {
           "lang": "en",
           "toponym": "The Equality State"
+        },
+        {
+          "lang": "en",
+          "toponym": "US-WY"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wyo."
         },
         {
           "lang": "en",
@@ -7951,7 +9405,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q35657",
-          "label": "state of the United States"
+          "label": "U.S. state"
         }
       ]
     }

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -133,6 +134,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/An+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36592",
       "names": [
         {
@@ -147,7 +151,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -155,7 +159,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -246,6 +250,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%C3%A0+R%E1%BB%8Ba+-+V%C5%A9ng+T%C3%A0u.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36874",
       "names": [
         {
@@ -259,8 +266,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -268,7 +275,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -371,6 +378,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%C3%ACnh+D%C6%B0%C6%A1ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36866",
       "names": [
         {
@@ -384,8 +394,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -393,7 +403,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -484,6 +494,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%C3%ACnh+Ph%C6%B0%E1%BB%9Bc.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36672",
       "names": [
         {
@@ -497,8 +510,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -506,7 +519,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -617,6 +630,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%C3%ACnh+Thu%E1%BA%ADn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36869",
       "names": [
         {
@@ -630,8 +646,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -639,7 +655,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -742,8 +758,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%C3%ACnh+%C4%90%E1%BB%8Bnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36693",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Binh Dinh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bình Định province"
+        },
         {
           "lang": "en",
           "toponym": "Bình Định"
@@ -755,8 +782,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -764,7 +791,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -839,6 +866,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%E1%BA%A1c+Li%C3%AAu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36658",
       "names": [
         {
@@ -852,8 +882,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -861,7 +891,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -952,6 +982,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%E1%BA%AFc+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36367",
       "names": [
         {
@@ -965,8 +998,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -974,7 +1007,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -1097,6 +1130,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%E1%BA%AFc+K%E1%BA%A1n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36404",
       "names": [
         {
@@ -1110,8 +1146,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -1119,7 +1155,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "Centrally-governed city of Vietnam"
         }
       ],
       "geometry": {
@@ -1226,8 +1262,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%E1%BA%AFc+Ninh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33408",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Bac Ninh"
+        },
         {
           "lang": "en",
           "toponym": "Bắc Ninh"
@@ -1239,8 +1282,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1381899",
+          "label": "cities in Vietnam"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -1248,7 +1295,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -1355,6 +1402,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/B%E1%BA%BFn+Tre.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33366",
       "names": [
         {
@@ -1368,8 +1418,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -1496,6 +1546,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Cao+B%E1%BA%B1ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36865",
       "names": [
         {
@@ -1510,7 +1563,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -1605,6 +1658,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/C%C3%A0+Mau.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33354",
       "names": [
         {
@@ -1619,7 +1675,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -1627,7 +1683,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "municipality of Vietnam"
+          "value": "city of Vietnam"
         }
       ],
       "geometry": {
@@ -1718,11 +1774,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Can Tho"
+          "toponym": "Cần Thơ"
         },
         {
           "lang": "en",
-          "toponym": "Cần Thơ"
+          "toponym": "Thành phố Cần Thơ"
         }
       ],
       "properties": {
@@ -1732,19 +1788,15 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1381899",
-          "label": "municipality of Vietnam"
+          "label": "cities in Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
+          "identifier": "http://www.wikidata.org/entity/Q2824648",
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -1752,7 +1804,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "municipality of Vietnam"
+          "value": "Municipality of Vietnam"
         }
       ],
       "geometry": {
@@ -1827,6 +1879,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/%C4%90%C3%A0+N%E1%BA%B5ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q25282",
       "names": [
         {
@@ -1839,7 +1894,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Danang"
+          "toponym": "Tourane"
+        },
+        {
+          "lang": "en",
+          "toponym": "Turon"
         }
       ],
       "properties": {
@@ -1849,15 +1908,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1381899",
-          "label": "municipality of Vietnam"
+          "label": "cities in Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -1964,6 +2019,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Gia+Lai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36662",
       "names": [
         {
@@ -1978,7 +2036,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -1986,7 +2044,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "municipality of Vietnam"
+          "value": "Centrally-governed city in Vietnam"
         }
       ],
       "geometry": {
@@ -2073,6 +2131,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%E1%BA%A3i+Ph%C3%B2ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q72818",
       "names": [
         {
@@ -2091,19 +2152,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1381899",
-          "label": "municipality of Vietnam"
+          "label": "cities in Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
         }
       ]
     },
@@ -2210,6 +2263,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ha+Noi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1858",
       "names": [
         {
@@ -2235,6 +2291,10 @@
         {
           "lang": "en",
           "toponym": "Tonkin"
+        },
+        {
+          "lang": "en",
+          "toponym": "Đại La"
         }
       ],
       "properties": {
@@ -2244,27 +2304,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1381899",
-          "label": "municipality of Vietnam"
+          "label": "cities in Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q50330360",
-          "label": "second largest city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
         }
       ]
     },
@@ -2272,7 +2316,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city of Vietnam"
+          "value": "largest city in Vietnam"
         }
       ],
       "geometry": {
@@ -2359,8 +2403,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ho+Chi+Minh+City.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1854",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Gia Định"
+        },
+        {
+          "lang": "en",
+          "toponym": "HCM City"
+        },
         {
           "lang": "en",
           "toponym": "HCMC"
@@ -2375,7 +2430,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Hôchiminh Ville"
+        },
+        {
+          "lang": "en",
+          "toponym": "Prey Nokor"
+        },
+        {
+          "lang": "en",
           "toponym": "Sai Gon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saigon"
         },
         {
           "lang": "en",
@@ -2387,7 +2454,11 @@
         },
         {
           "lang": "en",
-          "toponym": "yo mum"
+          "toponym": "Thành Phố Hồ Chí Minh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thành-Phô Hồ Chí Minh"
         }
       ],
       "properties": {
@@ -2397,7 +2468,147 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1381899",
-          "label": "municipality of Vietnam"
+          "label": "cities in Vietnam"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q174844",
+          "label": "megacity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "municipality of Vietnam"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  107.06798,
+                  16.290809
+                ],
+                [
+                  107.062644,
+                  16.343912
+                ],
+                [
+                  107.108326,
+                  16.553357
+                ],
+                [
+                  107.11463,
+                  16.564312
+                ],
+                [
+                  107.129565,
+                  16.574131
+                ],
+                [
+                  107.411632,
+                  16.750027
+                ],
+                [
+                  108.042979,
+                  16.346381
+                ],
+                [
+                  108.204356,
+                  16.216702
+                ],
+                [
+                  108.200125,
+                  16.211575
+                ],
+                [
+                  107.729941,
+                  16.014062
+                ],
+                [
+                  107.326864,
+                  16.056075
+                ],
+                [
+                  107.298959,
+                  16.064189
+                ],
+                [
+                  107.154369,
+                  16.166043
+                ],
+                [
+                  107.142018,
+                  16.176998
+                ],
+                [
+                  107.133336,
+                  16.188212
+                ],
+                [
+                  107.06798,
+                  16.290809
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Hu%E1%BA%BF.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q36399",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Huế"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thua Thien - Hue Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thua Thien Hue Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thừa Thiên - Huế Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thừa Thiên Huế Province"
+        }
+      ],
+      "properties": {
+        "title": "Huế"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1381899",
+          "label": "cities in Vietnam"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q27554677",
+          "label": "former capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2824648",
+          "label": "provinces of Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -2409,7 +2620,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -2500,8 +2711,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%C3%A0+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36685",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Hà Giang province"
+        },
         {
           "lang": "en",
           "toponym": "Hà Giang"
@@ -2513,8 +2731,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -2522,7 +2740,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -2605,6 +2823,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%C3%A0+Nam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36413",
       "names": [
         {
@@ -2618,8 +2839,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -2714,6 +2935,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ha+Tinh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33351",
       "names": [
         {
@@ -2732,7 +2956,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -2740,7 +2964,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -2827,6 +3051,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%C3%B2a+B%C3%ACnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36015",
       "names": [
         {
@@ -2840,8 +3067,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -2948,6 +3175,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%C6%B0ng+Y%C3%AAn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36235",
       "names": [
         {
@@ -2962,7 +3192,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -2970,7 +3200,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -3073,6 +3303,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/H%E1%BA%A3i+D%C6%B0%C6%A1ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36729",
       "names": [
         {
@@ -3090,8 +3323,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -3099,7 +3332,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province in the Mekong Delta region, Vietnam"
         }
       ],
       "geometry": {
@@ -3182,6 +3415,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Hau+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36320",
       "names": [
         {
@@ -3199,8 +3435,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -3343,6 +3579,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Kh%C3%A1nh+H%C3%B2a.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33369",
       "names": [
         {
@@ -3365,7 +3604,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -3373,7 +3612,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -3484,6 +3723,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ki%C3%AAn+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36576",
       "names": [
         {
@@ -3497,8 +3739,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q486972",
@@ -3510,7 +3752,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -3601,6 +3843,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Kon+Tum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36315",
       "names": [
         {
@@ -3618,12 +3863,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q34876",
-          "label": "province"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -3714,6 +3955,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Lai+Chau.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36409",
       "names": [
         {
@@ -3732,7 +3976,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -3740,7 +3984,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -3863,6 +4107,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Long+An.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26573",
       "names": [
         {
@@ -3876,8 +4123,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -4008,6 +4255,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/L%C3%A0o+Cai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36446",
       "names": [
         {
@@ -4026,7 +4276,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -4034,7 +4284,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "Province in South Central Coast and Central Highlands region of Vietnam."
         }
       ],
       "geometry": {
@@ -4165,6 +4415,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/L%C3%A2m+%C4%90%E1%BB%93ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36721",
       "names": [
         {
@@ -4187,7 +4440,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -4314,6 +4567,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/L%E1%BA%A1ng+S%C6%A1n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33403",
       "names": [
         {
@@ -4336,7 +4592,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -4344,7 +4600,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in the Red River Delta region of northern Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -4443,6 +4699,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Nam+%C4%90%E1%BB%8Bnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36907",
       "names": [
         {
@@ -4464,8 +4723,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -4580,6 +4839,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ngh%E1%BB%87+An.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36587",
       "names": [
         {
@@ -4598,7 +4860,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -4606,7 +4868,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam; formed on December 26, 1991 from the split of Hà Nam Ninh province into Nam Hà and Ninh Bình provinces"
+          "value": "province of Vietnam"
         }
       ],
       "geometry": {
@@ -4693,6 +4955,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ninh+B%C3%ACnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36900",
       "names": [
         {
@@ -4719,7 +4984,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -4727,7 +4992,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -4838,6 +5103,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ninh+Thu%E1%BA%ADn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36903",
       "names": [
         {
@@ -4851,6 +5119,10 @@
         {
           "lang": "en",
           "toponym": "Ninh Thuận"
+        },
+        {
+          "lang": "en",
+          "toponym": "Phan Rang Province"
         }
       ],
       "properties": {
@@ -4859,12 +5131,156 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q486972",
           "label": "human settlement"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "former province of Vietnam"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  108.725385,
+                  12.895647
+                ],
+                [
+                  108.660841,
+                  12.996235
+                ],
+                [
+                  108.665492,
+                  13.038998
+                ],
+                [
+                  108.825637,
+                  13.557519
+                ],
+                [
+                  109.163136,
+                  13.6733
+                ],
+                [
+                  109.237071,
+                  13.698594
+                ],
+                [
+                  109.300466,
+                  13.578111
+                ],
+                [
+                  109.303884,
+                  13.568793
+                ],
+                [
+                  109.339692,
+                  13.465481
+                ],
+                [
+                  109.465017,
+                  12.913316
+                ],
+                [
+                  109.467296,
+                  12.897691
+                ],
+                [
+                  109.466319,
+                  12.878974
+                ],
+                [
+                  109.462901,
+                  12.862128
+                ],
+                [
+                  109.458181,
+                  12.851874
+                ],
+                [
+                  109.453624,
+                  12.849921
+                ],
+                [
+                  109.435883,
+                  12.844875
+                ],
+                [
+                  109.07389,
+                  12.75408
+                ],
+                [
+                  109.037304,
+                  12.752659
+                ],
+                [
+                  108.885995,
+                  12.79909
+                ],
+                [
+                  108.861604,
+                  12.806996
+                ],
+                [
+                  108.817679,
+                  12.828365
+                ],
+                [
+                  108.759698,
+                  12.864383
+                ],
+                [
+                  108.739182,
+                  12.880351
+                ],
+                [
+                  108.725385,
+                  12.895647
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ph%C3%BA+Y%C3%AAn.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q36725",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Phu Yen Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Phu Yen"
+        },
+        {
+          "lang": "en",
+          "toponym": "Phú Yên Province"
+        }
+      ],
+      "properties": {
+        "title": "Phu Yen"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -4991,6 +5407,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ph%C3%BA+Th%E1%BB%8D.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36610",
       "names": [
         {
@@ -5009,7 +5428,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -5017,152 +5436,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  108.725385,
-                  12.895647
-                ],
-                [
-                  108.660841,
-                  12.996235
-                ],
-                [
-                  108.665492,
-                  13.038998
-                ],
-                [
-                  108.825637,
-                  13.557519
-                ],
-                [
-                  109.163136,
-                  13.6733
-                ],
-                [
-                  109.237071,
-                  13.698594
-                ],
-                [
-                  109.300466,
-                  13.578111
-                ],
-                [
-                  109.303884,
-                  13.568793
-                ],
-                [
-                  109.339692,
-                  13.465481
-                ],
-                [
-                  109.465017,
-                  12.913316
-                ],
-                [
-                  109.467296,
-                  12.897691
-                ],
-                [
-                  109.466319,
-                  12.878974
-                ],
-                [
-                  109.462901,
-                  12.862128
-                ],
-                [
-                  109.458181,
-                  12.851874
-                ],
-                [
-                  109.453624,
-                  12.849921
-                ],
-                [
-                  109.435883,
-                  12.844875
-                ],
-                [
-                  109.07389,
-                  12.75408
-                ],
-                [
-                  109.037304,
-                  12.752659
-                ],
-                [
-                  108.885995,
-                  12.79909
-                ],
-                [
-                  108.861604,
-                  12.806996
-                ],
-                [
-                  108.817679,
-                  12.828365
-                ],
-                [
-                  108.759698,
-                  12.864383
-                ],
-                [
-                  108.739182,
-                  12.880351
-                ],
-                [
-                  108.725385,
-                  12.895647
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q36725",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Phu Yen Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Phu Yen"
-        },
-        {
-          "lang": "en",
-          "toponym": "Phú Yên Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Phú Yên"
-        }
-      ],
-      "properties": {
-        "title": "Phú Yên"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -5265,6 +5539,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Qu%E1%BA%A3ng+B%C3%ACnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23533",
       "names": [
         {
@@ -5290,8 +5567,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -5299,7 +5576,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in central Vietnam"
+          "value": "former province in central Vietnam"
         }
       ],
       "geometry": {
@@ -5394,6 +5671,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Qu%C3%A0ng+Nam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33356",
       "names": [
         {
@@ -5415,8 +5695,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -5503,11 +5783,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Qu%E1%BA%A3ng+Ng%C3%A3i.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33304",
       "names": [
         {
           "lang": "en",
           "toponym": "Quang Ngai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Quảng Nghĩa"
         },
         {
           "lang": "en",
@@ -5525,7 +5812,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -5533,7 +5820,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "Centrally-governed city of Vietnam"
         }
       ],
       "geometry": {
@@ -5644,6 +5931,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Qu%E1%BA%A3ng+Ninh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33396",
       "names": [
         {
@@ -5652,7 +5942,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Quảng Ninh Province"
+          "toponym": "Quảng Ninh city"
         },
         {
           "lang": "en",
@@ -5665,8 +5955,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q1381899",
+          "label": "cities in Vietnam"
         }
       ]
     },
@@ -5749,6 +6039,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Qu%E1%BA%A3ng+Tr%E1%BB%8B.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36579",
       "names": [
         {
@@ -5775,7 +6068,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -5783,7 +6076,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -5850,6 +6143,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/S%C3%B3c+Tr%C4%83ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33272",
       "names": [
         {
@@ -5871,8 +6167,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -5880,7 +6176,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in the Northwest region of Vietnam"
+          "value": "province of Vietnam"
         }
       ],
       "geometry": {
@@ -5983,6 +6279,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Son+La.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33379",
       "names": [
         {
@@ -6005,7 +6304,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -6108,6 +6407,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Thanh+H%C3%B3a.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36512",
       "names": [
         {
@@ -6134,7 +6436,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -6142,7 +6444,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam (1890–2025)"
         }
       ],
       "geometry": {
@@ -6233,6 +6535,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Th%C3%A1i+B%C3%ACnh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36681",
       "names": [
         {
@@ -6250,6 +6555,10 @@
         {
           "lang": "en",
           "toponym": "Thái Bình"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tinh Thai Binh"
         }
       ],
       "properties": {
@@ -6258,8 +6567,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -6378,6 +6687,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Th%C3%A1i+Nguy%C3%AAn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26575",
       "names": [
         {
@@ -6387,6 +6699,10 @@
         {
           "lang": "en",
           "toponym": "Thai Nguyen"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thái Nguyên Province"
         },
         {
           "lang": "en",
@@ -6400,7 +6716,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -6408,124 +6724,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  107.06798,
-                  16.290809
-                ],
-                [
-                  107.062644,
-                  16.343912
-                ],
-                [
-                  107.108326,
-                  16.553357
-                ],
-                [
-                  107.11463,
-                  16.564312
-                ],
-                [
-                  107.129565,
-                  16.574131
-                ],
-                [
-                  107.411632,
-                  16.750027
-                ],
-                [
-                  108.042979,
-                  16.346381
-                ],
-                [
-                  108.204356,
-                  16.216702
-                ],
-                [
-                  108.200125,
-                  16.211575
-                ],
-                [
-                  107.729941,
-                  16.014062
-                ],
-                [
-                  107.326864,
-                  16.056075
-                ],
-                [
-                  107.298959,
-                  16.064189
-                ],
-                [
-                  107.154369,
-                  16.166043
-                ],
-                [
-                  107.142018,
-                  16.176998
-                ],
-                [
-                  107.133336,
-                  16.188212
-                ],
-                [
-                  107.06798,
-                  16.290809
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q36399",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Thua Thien - Hue Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Thua Thien Hue Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Thừa Thiên - Huế Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Thừa Thiên Huế Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Thừa Thiên Huế"
-        }
-      ],
-      "properties": {
-        "title": "Thừa Thiên Huế"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -6624,6 +6823,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Ti%E1%BB%81n+Giang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36666",
       "names": [
         {
@@ -6645,8 +6847,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -6654,7 +6856,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -6757,6 +6959,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Tr%C3%A0+Vinh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36615",
       "names": [
         {
@@ -6782,8 +6987,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -6791,7 +6996,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in the north of Vietnam"
+          "value": "province of Vietnam"
         }
       ],
       "geometry": {
@@ -6894,11 +7099,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Tuy%C3%AAn+Quang.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2332060",
       "names": [
         {
           "lang": "en",
-          "toponym": "Tuyen Quang eyaleti"
+          "toponym": "Tuyen Quang province"
         },
         {
           "lang": "en",
@@ -6916,7 +7124,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -6924,7 +7132,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam in Southern Vietnam"
+          "value": "province of Vietnam"
         }
       ],
       "geometry": {
@@ -7051,6 +7259,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/T%C3%A2y+Ninh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36608",
       "names": [
         {
@@ -7059,7 +7270,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Tây Ninh Province"
+          "toponym": "Tây Ninh province"
         },
         {
           "lang": "en",
@@ -7073,7 +7284,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -7172,6 +7383,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/V%C4%A9nh+Long.map"
+      },
       "id": "http://www.wikidata.org/entity/Q7333405",
       "names": [
         {
@@ -7194,7 +7408,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -7202,7 +7416,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in Vietnam"
+          "value": "former province in Vietnam"
         }
       ],
       "geometry": {
@@ -7289,6 +7503,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/V%C4%A9nh+Ph%C3%BAc.map"
+      },
       "id": "http://www.wikidata.org/entity/Q27566",
       "names": [
         {
@@ -7310,8 +7527,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -7319,7 +7536,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -7426,6 +7643,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Y%C3%AAn+B%C3%A1i.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36349",
       "names": [
         {
@@ -7451,8 +7671,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -7460,7 +7680,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Vietnamese province"
+          "value": "province of Vietnam"
         }
       ],
       "geometry": {
@@ -7587,8 +7807,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/%C4%90i%E1%BB%87n+Bi%C3%AAn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36955",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Dien Bien"
+        },
         {
           "lang": "en",
           "toponym": "Điện Biên"
@@ -7601,7 +7828,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -7712,11 +7939,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/Dak+Lak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36690",
       "names": [
         {
           "lang": "en",
           "toponym": "Dak Lak"
+        },
+        {
+          "lang": "en",
+          "toponym": "Darlac"
         },
         {
           "lang": "en",
@@ -7738,7 +7972,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -7746,7 +7980,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "former province of Vietnam"
         }
       ],
       "geometry": {
@@ -7837,6 +8071,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/%C4%90%E1%BA%AFk+N%C3%B4ng.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36723",
       "names": [
         {
@@ -7858,8 +8095,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "identifier": "http://www.wikidata.org/entity/Q137325529",
+          "label": "former provinces of Vietnam"
         }
       ]
     },
@@ -7867,7 +8104,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Vietnam"
+          "value": "Centrally-governed city of Vietnam"
         }
       ],
       "geometry": {
@@ -7966,11 +8203,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/%C4%90%E1%BB%93ng+Nai.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33271",
       "names": [
         {
           "lang": "en",
-          "toponym": "Dong Nai"
+          "toponym": "Dong Nai city"
         },
         {
           "lang": "en",
@@ -7983,8 +8223,12 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1381899",
+          "label": "cities in Vietnam"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     },
@@ -8083,6 +8327,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Vietnam/%C3%90%3Fng+Th%C3%A1p.map"
+      },
       "id": "http://www.wikidata.org/entity/Q36676",
       "names": [
         {
@@ -8101,7 +8348,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q2824648",
-          "label": "province of Vietnam"
+          "label": "provinces of Vietnam"
         }
       ]
     }

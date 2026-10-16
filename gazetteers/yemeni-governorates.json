@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -54,95 +55,6 @@
     "westernmostPoint": "wdt:P1335"
   },
   "features": [
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.415538,
-                  12.670152
-                ],
-                [
-                  44.414692,
-                  12.673289
-                ],
-                [
-                  44.484189,
-                  12.777644
-                ],
-                [
-                  44.527804,
-                  12.803637
-                ],
-                [
-                  44.61891,
-                  12.835677
-                ],
-                [
-                  45.009015,
-                  12.918411
-                ],
-                [
-                  45.093191,
-                  12.924709
-                ],
-                [
-                  45.062022,
-                  12.776557
-                ],
-                [
-                  45.058604,
-                  12.76203
-                ],
-                [
-                  45.039317,
-                  12.756293
-                ],
-                [
-                  44.881358,
-                  12.729885
-                ],
-                [
-                  44.415538,
-                  12.670152
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q275729",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "'Adan Governorate"
-        },
-        {
-          "lang": "en",
-          "toponym": "Aden Governorate"
-        }
-      ],
-      "properties": {
-        "title": "'Adan Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
     {
       "descriptions": [
         {
@@ -238,11 +150,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Amran.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275720",
       "names": [
         {
           "lang": "en",
           "toponym": "'Amran Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at ‘Amrān"
+        },
+        {
+          "lang": "en",
+          "toponym": "‘Amrān"
         }
       ],
       "properties": {
@@ -331,15 +254,1050 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Abyan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q241774",
       "names": [
         {
           "lang": "en",
           "toponym": "Abyan Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Abyan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Muḩāfaz̧ah ath Thālithah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number Three"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Abyan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Third Governorate"
         }
       ],
       "properties": {
         "title": "Abyan Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.415538,
+                  12.670152
+                ],
+                [
+                  44.414692,
+                  12.673289
+                ],
+                [
+                  44.484189,
+                  12.777644
+                ],
+                [
+                  44.527804,
+                  12.803637
+                ],
+                [
+                  44.61891,
+                  12.835677
+                ],
+                [
+                  45.009015,
+                  12.918411
+                ],
+                [
+                  45.093191,
+                  12.924709
+                ],
+                [
+                  45.062022,
+                  12.776557
+                ],
+                [
+                  45.058604,
+                  12.76203
+                ],
+                [
+                  45.039317,
+                  12.756293
+                ],
+                [
+                  44.881358,
+                  12.729885
+                ],
+                [
+                  44.415538,
+                  12.670152
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/%60Adan.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q275729",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "'Adan Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aden Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aden Municipality"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aden"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Muḩāfaz̧ah al Ūlá"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baladīyat ‘Adan"
+        },
+        {
+          "lang": "en",
+          "toponym": "First Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number One"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at ‘Adan"
+        },
+        {
+          "lang": "en",
+          "toponym": "‘Adan"
+        }
+      ],
+      "properties": {
+        "title": "Aden Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.662628,
+                  14.200296
+                ],
+                [
+                  44.630382,
+                  14.276597
+                ],
+                [
+                  44.792543,
+                  14.666754
+                ],
+                [
+                  44.868714,
+                  14.756231
+                ],
+                [
+                  45.005915,
+                  14.814264
+                ],
+                [
+                  45.680912,
+                  14.688975
+                ],
+                [
+                  45.704167,
+                  14.677812
+                ],
+                [
+                  45.72184,
+                  14.66324
+                ],
+                [
+                  46.001616,
+                  14.293676
+                ],
+                [
+                  46.043836,
+                  14.191692
+                ],
+                [
+                  46.028953,
+                  14.108312
+                ],
+                [
+                  45.985958,
+                  14.02364
+                ],
+                [
+                  45.949061,
+                  13.991162
+                ],
+                [
+                  45.777547,
+                  13.867914
+                ],
+                [
+                  45.73662,
+                  13.844142
+                ],
+                [
+                  45.705717,
+                  13.831017
+                ],
+                [
+                  45.677812,
+                  13.82479
+                ],
+                [
+                  45.657451,
+                  13.8228
+                ],
+                [
+                  45.636987,
+                  13.8228
+                ],
+                [
+                  45.180478,
+                  13.964368
+                ],
+                [
+                  44.718025,
+                  14.161694
+                ],
+                [
+                  44.671672,
+                  14.185594
+                ],
+                [
+                  44.662628,
+                  14.200296
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Bayda%27.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q221212",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Bayda' Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Bayḑā’"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Beidha"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bayḑā’"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwa of Beida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muqata‘at al Bayda’"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at al Bayḑā’"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Al Bayḑā’"
+        }
+      ],
+      "properties": {
+        "title": "Al Bayda' Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  42.685802,
+                  13.678453
+                ],
+                [
+                  42.545746,
+                  15.29442
+                ],
+                [
+                  42.545909,
+                  15.316962
+                ],
+                [
+                  42.55893,
+                  15.392971
+                ],
+                [
+                  42.691905,
+                  15.702094
+                ],
+                [
+                  42.699229,
+                  15.717434
+                ],
+                [
+                  42.752452,
+                  15.816392
+                ],
+                [
+                  42.765798,
+                  15.835761
+                ],
+                [
+                  42.834556,
+                  15.914064
+                ],
+                [
+                  43.285348,
+                  15.863554
+                ],
+                [
+                  43.311393,
+                  15.84446
+                ],
+                [
+                  43.724649,
+                  14.973143
+                ],
+                [
+                  43.805006,
+                  14.069064
+                ],
+                [
+                  43.79896,
+                  14.041676
+                ],
+                [
+                  43.722169,
+                  13.9176
+                ],
+                [
+                  43.444408,
+                  13.74681
+                ],
+                [
+                  43.287673,
+                  13.666427
+                ],
+                [
+                  43.284286,
+                  13.664872
+                ],
+                [
+                  42.688487,
+                  13.663764
+                ],
+                [
+                  42.685802,
+                  13.678453
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Hudaydah.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q275755",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Hudaida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Hudaydah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Hudaydah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Ḩudaydah"
+        },
+        {
+          "lang": "en",
+          "toponym": "El Ḥodeidah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hodeida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwa di el Hodeidah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwa of Hodeida"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwa of Hodeidah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at al Ḩudaydah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Al Ḩudaydah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qaḑā’ al Ḩudaydah"
+        }
+      ],
+      "properties": {
+        "title": "Al Hudaydah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.368899,
+                  16.1108
+                ],
+                [
+                  44.188755,
+                  16.631466
+                ],
+                [
+                  44.21542,
+                  16.716499
+                ],
+                [
+                  44.235781,
+                  16.752983
+                ],
+                [
+                  44.248493,
+                  16.770269
+                ],
+                [
+                  44.972466,
+                  17.429696
+                ],
+                [
+                  44.997336,
+                  17.429532
+                ],
+                [
+                  45.165387,
+                  17.428395
+                ],
+                [
+                  46.710099,
+                  17.275381
+                ],
+                [
+                  46.747203,
+                  17.254762
+                ],
+                [
+                  46.997026,
+                  16.948514
+                ],
+                [
+                  47.038659,
+                  16.345359
+                ],
+                [
+                  46.832728,
+                  16.149686
+                ],
+                [
+                  45.564227,
+                  15.790354
+                ],
+                [
+                  45.449557,
+                  15.780071
+                ],
+                [
+                  45.238975,
+                  15.812963
+                ],
+                [
+                  44.425847,
+                  16.028273
+                ],
+                [
+                  44.401042,
+                  16.055739
+                ],
+                [
+                  44.368899,
+                  16.1108
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Jawf.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q328128",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Jawf Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Jawf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aljauf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḥāfaẓat al-Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qaḑā’ al Jawf"
+        }
+      ],
+      "properties": {
+        "title": "Al Jawf Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen bounded on its southern coast by the Guardafui Channel"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  50.257067,
+                  15.327747
+                ],
+                [
+                  50.192368,
+                  15.609306
+                ],
+                [
+                  50.235363,
+                  16.145578
+                ],
+                [
+                  50.292465,
+                  16.514806
+                ],
+                [
+                  50.309674,
+                  16.553951
+                ],
+                [
+                  51.712275,
+                  18.596204
+                ],
+                [
+                  51.985644,
+                  18.979669
+                ],
+                [
+                  51.985689,
+                  18.979732
+                ],
+                [
+                  52.801562,
+                  17.267423
+                ],
+                [
+                  52.840319,
+                  17.183707
+                ],
+                [
+                  53.090343,
+                  16.642401
+                ],
+                [
+                  52.233572,
+                  15.621772
+                ],
+                [
+                  52.228363,
+                  15.616116
+                ],
+                [
+                  51.676443,
+                  15.340277
+                ],
+                [
+                  51.367849,
+                  15.229722
+                ],
+                [
+                  51.268809,
+                  15.201809
+                ],
+                [
+                  51.069835,
+                  15.149644
+                ],
+                [
+                  50.80499,
+                  15.097378
+                ],
+                [
+                  50.279133,
+                  15.293976
+                ],
+                [
+                  50.264043,
+                  15.311262
+                ],
+                [
+                  50.257067,
+                  15.327747
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Mahrah.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q275752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Ghayḑah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Mahrah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Mahrah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Muḩāfaz̧ah as Sādisah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number Six"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at al Ghayḑah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at al Mahrah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sixth Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Al Mahrah Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  43.316354,
+                  15.467247
+                ],
+                [
+                  43.313873,
+                  15.509674
+                ],
+                [
+                  43.370097,
+                  15.528923
+                ],
+                [
+                  43.54528,
+                  15.545563
+                ],
+                [
+                  43.862574,
+                  15.563676
+                ],
+                [
+                  43.880764,
+                  15.561118
+                ],
+                [
+                  43.894716,
+                  15.556234
+                ],
+                [
+                  43.98422,
+                  15.504739
+                ],
+                [
+                  43.965772,
+                  15.417741
+                ],
+                [
+                  43.948873,
+                  15.400197
+                ],
+                [
+                  43.571015,
+                  15.04425
+                ],
+                [
+                  43.545901,
+                  15.057738
+                ],
+                [
+                  43.514998,
+                  15.087348
+                ],
+                [
+                  43.359039,
+                  15.265813
+                ],
+                [
+                  43.332218,
+                  15.305552
+                ],
+                [
+                  43.325397,
+                  15.355936
+                ],
+                [
+                  43.316354,
+                  15.467247
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Mahwit.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q388280",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al Mahwit Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Maḩwīt"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at al Maḩwīt"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qaḑā’ al Maḩwīt"
+        }
+      ],
+      "properties": {
+        "title": "Al Mahwit Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q331130",
+          "label": "governorate of Yemen"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Yemen governorate contains the Capital of Yemen"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.142142,
+                  15.351754
+                ],
+                [
+                  44.119801,
+                  15.456972
+                ],
+                [
+                  44.121963,
+                  15.464899
+                ],
+                [
+                  44.209885,
+                  15.5521
+                ],
+                [
+                  44.282673,
+                  15.601106
+                ],
+                [
+                  44.292041,
+                  15.60615
+                ],
+                [
+                  44.306455,
+                  15.611195
+                ],
+                [
+                  44.319427,
+                  15.611916
+                ],
+                [
+                  44.336002,
+                  15.60615
+                ],
+                [
+                  44.352578,
+                  15.598944
+                ],
+                [
+                  44.390773,
+                  15.566513
+                ],
+                [
+                  44.39798,
+                  15.557145
+                ],
+                [
+                  44.399421,
+                  15.549217
+                ],
+                [
+                  44.25817,
+                  15.320765
+                ],
+                [
+                  44.23655,
+                  15.294821
+                ],
+                [
+                  44.228622,
+                  15.29338
+                ],
+                [
+                  44.181058,
+                  15.29338
+                ],
+                [
+                  44.176734,
+                  15.298424
+                ],
+                [
+                  44.142142,
+                  15.351754
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Amanat+Al+Asimah.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q32130189",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Amanat Al Asimah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al Asimah Sana`a"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al Asimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al-Asima"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al-Asimah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amanat al-Asimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amānat al ‘Āşimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Amānat al-ʻĀṣimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "ʾAmānat al-ʿĀṣima"
+        }
+      ],
+      "properties": {
+        "title": "Amanat al-Asimah Governorate"
       },
       "type": "Feature",
       "types": [
@@ -464,608 +1422,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Al+Dali%27.map"
+      },
       "id": "http://www.wikidata.org/entity/Q328187",
       "names": [
         {
           "lang": "en",
-          "toponym": "Ad Dali' Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Ad Dali' Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.662628,
-                  14.200296
-                ],
-                [
-                  44.630382,
-                  14.276597
-                ],
-                [
-                  44.792543,
-                  14.666754
-                ],
-                [
-                  44.868714,
-                  14.756231
-                ],
-                [
-                  45.005915,
-                  14.814264
-                ],
-                [
-                  45.680912,
-                  14.688975
-                ],
-                [
-                  45.704167,
-                  14.677812
-                ],
-                [
-                  45.72184,
-                  14.66324
-                ],
-                [
-                  46.001616,
-                  14.293676
-                ],
-                [
-                  46.043836,
-                  14.191692
-                ],
-                [
-                  46.028953,
-                  14.108312
-                ],
-                [
-                  45.985958,
-                  14.02364
-                ],
-                [
-                  45.949061,
-                  13.991162
-                ],
-                [
-                  45.777547,
-                  13.867914
-                ],
-                [
-                  45.73662,
-                  13.844142
-                ],
-                [
-                  45.705717,
-                  13.831017
-                ],
-                [
-                  45.677812,
-                  13.82479
-                ],
-                [
-                  45.657451,
-                  13.8228
-                ],
-                [
-                  45.636987,
-                  13.8228
-                ],
-                [
-                  45.180478,
-                  13.964368
-                ],
-                [
-                  44.718025,
-                  14.161694
-                ],
-                [
-                  44.671672,
-                  14.185594
-                ],
-                [
-                  44.662628,
-                  14.200296
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q221212",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Bayda Governorate"
+          "toponym": "Al-Dhalea Governorate"
         },
         {
           "lang": "en",
-          "toponym": "Al Bayda' Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Bayda' Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  42.685802,
-                  13.678453
-                ],
-                [
-                  42.545746,
-                  15.29442
-                ],
-                [
-                  42.545909,
-                  15.316962
-                ],
-                [
-                  42.55893,
-                  15.392971
-                ],
-                [
-                  42.691905,
-                  15.702094
-                ],
-                [
-                  42.699229,
-                  15.717434
-                ],
-                [
-                  42.752452,
-                  15.816392
-                ],
-                [
-                  42.765798,
-                  15.835761
-                ],
-                [
-                  42.834556,
-                  15.914064
-                ],
-                [
-                  43.285348,
-                  15.863554
-                ],
-                [
-                  43.311393,
-                  15.84446
-                ],
-                [
-                  43.724649,
-                  14.973143
-                ],
-                [
-                  43.805006,
-                  14.069064
-                ],
-                [
-                  43.79896,
-                  14.041676
-                ],
-                [
-                  43.722169,
-                  13.9176
-                ],
-                [
-                  43.444408,
-                  13.74681
-                ],
-                [
-                  43.287673,
-                  13.666427
-                ],
-                [
-                  43.284286,
-                  13.664872
-                ],
-                [
-                  42.688487,
-                  13.663764
-                ],
-                [
-                  42.685802,
-                  13.678453
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q275755",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Hudaydah Governorate"
+          "toponym": "Aḑ Ḑāli‘"
         },
         {
           "lang": "en",
-          "toponym": "Al-Hodeidah Governorate"
+          "toponym": "Dhale Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at aḑ Ḑāli‘"
         }
       ],
       "properties": {
-        "title": "Al Hudaydah Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.368899,
-                  16.1108
-                ],
-                [
-                  44.188755,
-                  16.631466
-                ],
-                [
-                  44.21542,
-                  16.716499
-                ],
-                [
-                  44.235781,
-                  16.752983
-                ],
-                [
-                  44.248493,
-                  16.770269
-                ],
-                [
-                  44.972466,
-                  17.429696
-                ],
-                [
-                  44.997336,
-                  17.429532
-                ],
-                [
-                  45.165387,
-                  17.428395
-                ],
-                [
-                  46.710099,
-                  17.275381
-                ],
-                [
-                  46.747203,
-                  17.254762
-                ],
-                [
-                  46.997026,
-                  16.948514
-                ],
-                [
-                  47.038659,
-                  16.345359
-                ],
-                [
-                  46.832728,
-                  16.149686
-                ],
-                [
-                  45.564227,
-                  15.790354
-                ],
-                [
-                  45.449557,
-                  15.780071
-                ],
-                [
-                  45.238975,
-                  15.812963
-                ],
-                [
-                  44.425847,
-                  16.028273
-                ],
-                [
-                  44.401042,
-                  16.055739
-                ],
-                [
-                  44.368899,
-                  16.1108
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q328128",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Jawf Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Jawf Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  50.257067,
-                  15.327747
-                ],
-                [
-                  50.192368,
-                  15.609306
-                ],
-                [
-                  50.235363,
-                  16.145578
-                ],
-                [
-                  50.292465,
-                  16.514806
-                ],
-                [
-                  50.309674,
-                  16.553951
-                ],
-                [
-                  51.712275,
-                  18.596204
-                ],
-                [
-                  51.985644,
-                  18.979669
-                ],
-                [
-                  51.985689,
-                  18.979732
-                ],
-                [
-                  52.801562,
-                  17.267423
-                ],
-                [
-                  52.840319,
-                  17.183707
-                ],
-                [
-                  53.090343,
-                  16.642401
-                ],
-                [
-                  52.233572,
-                  15.621772
-                ],
-                [
-                  52.228363,
-                  15.616116
-                ],
-                [
-                  51.676443,
-                  15.340277
-                ],
-                [
-                  51.367849,
-                  15.229722
-                ],
-                [
-                  51.268809,
-                  15.201809
-                ],
-                [
-                  51.069835,
-                  15.149644
-                ],
-                [
-                  50.80499,
-                  15.097378
-                ],
-                [
-                  50.279133,
-                  15.293976
-                ],
-                [
-                  50.264043,
-                  15.311262
-                ],
-                [
-                  50.257067,
-                  15.327747
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q275752",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Mahrah Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Mahrah Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  43.316354,
-                  15.467247
-                ],
-                [
-                  43.313873,
-                  15.509674
-                ],
-                [
-                  43.370097,
-                  15.528923
-                ],
-                [
-                  43.54528,
-                  15.545563
-                ],
-                [
-                  43.862574,
-                  15.563676
-                ],
-                [
-                  43.880764,
-                  15.561118
-                ],
-                [
-                  43.894716,
-                  15.556234
-                ],
-                [
-                  43.98422,
-                  15.504739
-                ],
-                [
-                  43.965772,
-                  15.417741
-                ],
-                [
-                  43.948873,
-                  15.400197
-                ],
-                [
-                  43.571015,
-                  15.04425
-                ],
-                [
-                  43.545901,
-                  15.057738
-                ],
-                [
-                  43.514998,
-                  15.087348
-                ],
-                [
-                  43.359039,
-                  15.265813
-                ],
-                [
-                  43.332218,
-                  15.305552
-                ],
-                [
-                  43.325397,
-                  15.355936
-                ],
-                [
-                  43.316354,
-                  15.467247
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q388280",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Mahwit Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Mahwit Governorate"
+        "title": "Dhale Governorate"
       },
       "type": "Feature",
       "types": [
@@ -1198,11 +1578,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Dhamar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q328193",
       "names": [
         {
           "lang": "en",
           "toponym": "Dhamar Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dhamār"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Dhamār"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Dhamār"
         }
       ],
       "properties": {
@@ -1220,7 +1615,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "governorate of Yemen"
+          "value": "Largest governorate of Yemen"
         }
       ],
       "geometry": {
@@ -1339,11 +1734,50 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Hadramawt.map"
+      },
       "id": "http://www.wikidata.org/entity/Q241135",
       "names": [
         {
           "lang": "en",
+          "toponym": "5th governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Muḩāfaz̧ah al Khāmisah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fifth Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number Five"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number five"
+        },
+        {
+          "lang": "en",
           "toponym": "Hadhramaut Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hadhramaut"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Ḩaḑramawt"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vth governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ḩaḑramawt"
         }
       ],
       "properties": {
@@ -1428,11 +1862,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Hajjah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q328158",
       "names": [
         {
           "lang": "en",
           "toponym": "Hajjah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Ḩajjah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ḩajjah"
         }
       ],
       "properties": {
@@ -1549,11 +1994,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Ibb.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388274",
       "names": [
         {
           "lang": "en",
           "toponym": "Ibb Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Ibb"
         }
       ],
       "properties": {
@@ -1666,11 +2118,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Lahij.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388318",
       "names": [
         {
           "lang": "en",
           "toponym": "Lahij Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Laḩij"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Laḩij"
         }
       ],
       "properties": {
@@ -1747,15 +2210,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Ma%27rib.map"
+      },
       "id": "http://www.wikidata.org/entity/Q498465",
       "names": [
         {
           "lang": "en",
-          "toponym": "Ma'rib Governorate"
+          "toponym": "Marib Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ma’rib"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Ma’rib"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Ma’rib"
         }
       ],
       "properties": {
-        "title": "Ma'rib Governorate"
+        "title": "Marib Governorate"
       },
       "type": "Feature",
       "types": [
@@ -1860,11 +2338,34 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Raymah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q475033",
       "names": [
         {
           "lang": "en",
+          "toponym": "Muḩāfaz̧at Raymah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qada Raimah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qaḑā’ Raymah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Raimah"
+        },
+        {
+          "lang": "en",
           "toponym": "Raymah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Raymah"
         }
       ],
       "properties": {
@@ -1981,8 +2482,31 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Sa%60dah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275732",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Liwa of Saada"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwā’ el-Qiblah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwā’ esh-Shām"
+        },
+        {
+          "lang": "en",
+          "toponym": "Liwā’ Şi‘dah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Şa‘dah"
+        },
         {
           "lang": "en",
           "toponym": "Saada Governorate"
@@ -2110,132 +2634,19 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Sana'a Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Sana'a Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q331130",
-          "label": "governorate of Yemen"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "capital city of Yemen"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.142142,
-                  15.351754
-                ],
-                [
-                  44.119801,
-                  15.456972
-                ],
-                [
-                  44.121963,
-                  15.464899
-                ],
-                [
-                  44.209885,
-                  15.5521
-                ],
-                [
-                  44.282673,
-                  15.601106
-                ],
-                [
-                  44.292041,
-                  15.60615
-                ],
-                [
-                  44.306455,
-                  15.611195
-                ],
-                [
-                  44.319427,
-                  15.611916
-                ],
-                [
-                  44.336002,
-                  15.60615
-                ],
-                [
-                  44.352578,
-                  15.598944
-                ],
-                [
-                  44.390773,
-                  15.566513
-                ],
-                [
-                  44.39798,
-                  15.557145
-                ],
-                [
-                  44.399421,
-                  15.549217
-                ],
-                [
-                  44.25817,
-                  15.320765
-                ],
-                [
-                  44.23655,
-                  15.294821
-                ],
-                [
-                  44.228622,
-                  15.29338
-                ],
-                [
-                  44.181058,
-                  15.29338
-                ],
-                [
-                  44.176734,
-                  15.298424
-                ],
-                [
-                  44.142142,
-                  15.351754
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q2471",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Amanat Al Asimah"
+          "toponym": "Liwa of Sana’a"
         },
         {
           "lang": "en",
-          "toponym": "Amanat Al-Asemah"
+          "toponym": "Muḩāfaz̧at Şan‘ā’"
         },
         {
           "lang": "en",
-          "toponym": "Amanat al-Asimah"
+          "toponym": "Province of San‘a"
         },
         {
           "lang": "en",
-          "toponym": "Sana"
+          "toponym": "Sanaa Governorate"
         },
         {
           "lang": "en",
@@ -2243,45 +2654,17 @@
         },
         {
           "lang": "en",
-          "toponym": "Sanaa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Sana‘a"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ṣan‘ā’"
+          "toponym": "Şan‘ā’"
         }
       ],
       "properties": {
-        "title": "Sanaa"
+        "title": "Sanaa Governorate"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q331130",
           "label": "governorate of Yemen"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
         }
       ]
     },
@@ -2380,11 +2763,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Shabwah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q328180",
       "names": [
         {
           "lang": "en",
+          "toponym": "Al Muḩāfaz̧ah ar Rābi‘ah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Fourth Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number Four"
+        },
+        {
+          "lang": "en",
+          "toponym": "Governorate Number four"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Shabwah"
+        },
+        {
+          "lang": "en",
           "toponym": "Shabwah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shabwah"
         }
       ],
       "properties": {
@@ -2505,15 +2915,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Yemen/Ta%60izz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388330",
       "names": [
         {
           "lang": "en",
-          "toponym": "Ta'izz Governorate"
+          "toponym": "Liwa of Taez"
         },
         {
           "lang": "en",
-          "toponym": "Taiz Governorate"
+          "toponym": "Liwā’ of Taiz"
+        },
+        {
+          "lang": "en",
+          "toponym": "Muḩāfaz̧at Ta‘izz"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Ta‘izz"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ta'izz Governorate"
         },
         {
           "lang": "en",
@@ -2521,7 +2946,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Taizz"
+          "toponym": "Ta‘izz"
         }
       ],
       "properties": {

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -63,7 +64,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous region in the Philippines"
+          "value": "region in the Philippines"
         }
       ],
       "geometry": {
@@ -138,7 +139,7 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q24869612",
+      "id": "http://www.wikidata.org/entity/Q806550",
       "names": [
         {
           "lang": "en",
@@ -288,6 +289,10 @@
         {
           "lang": "en",
           "toponym": "Region V"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅴ"
         }
       ],
       "properties": {
@@ -426,7 +431,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of the Philippines"
+          "value": "administrative region of the Philippines"
         }
       ],
       "geometry": {
@@ -547,10 +552,6 @@
       },
       "id": "http://www.wikidata.org/entity/Q13650",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "CALABARZON"
-        },
         {
           "lang": "en",
           "toponym": "Calabarzon"
@@ -716,7 +717,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of the Philippines"
+          "value": "administrative region of the Philippines"
         }
       ],
       "geometry": {
@@ -920,15 +921,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Central Visayas, Region VII"
-        },
-        {
-          "lang": "en",
           "toponym": "Region 7"
         },
         {
           "lang": "en",
           "toponym": "Region VII"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅶ"
         }
       ],
       "properties": {
@@ -946,7 +947,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of the Philippines"
+          "value": "administrative region of the Philippines"
         }
       ],
       "geometry": {
@@ -1062,6 +1063,10 @@
         {
           "lang": "en",
           "toponym": "Cordillera Administrative Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cordillera"
         }
       ],
       "properties": {
@@ -1183,6 +1188,10 @@
         {
           "lang": "en",
           "toponym": "Region XI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅺ"
         },
         {
           "lang": "en",
@@ -1328,6 +1337,10 @@
         {
           "lang": "en",
           "toponym": "Region VIII"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅷ"
         }
       ],
       "properties": {
@@ -1452,6 +1465,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Ilocandia"
+        },
+        {
+          "lang": "en",
           "toponym": "Ilocos Region"
         },
         {
@@ -1461,6 +1478,10 @@
         {
           "lang": "en",
           "toponym": "Region I"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ylocos"
         }
       ],
       "properties": {
@@ -1478,7 +1499,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital region of the Philippines"
+          "value": "metropolitan area and region of the Philippines"
         }
       ],
       "geometry": {
@@ -1541,6 +1562,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Philippines/Manila.map"
+      },
       "id": "http://www.wikidata.org/entity/Q13580",
       "names": [
         {
@@ -1564,6 +1588,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1062177",
           "label": "capital region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q174844",
+          "label": "megacity"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1907114",
@@ -1688,10 +1716,6 @@
       },
       "id": "http://www.wikidata.org/entity/Q13658",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "MIMAROPA"
-        },
         {
           "lang": "en",
           "toponym": "Mimaropa"
@@ -1836,6 +1860,10 @@
         {
           "lang": "en",
           "toponym": "Region X"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅹ"
         }
       ],
       "properties": {
@@ -1853,7 +1881,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of the Philippines"
+          "value": "administrative region of the Philippines"
         }
       ],
       "geometry": {
@@ -2000,11 +2028,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Greater Cotabato"
+        },
+        {
+          "lang": "en",
           "toponym": "Region 12"
         },
         {
           "lang": "en",
           "toponym": "Region XII"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅻ"
         },
         {
           "lang": "en",
@@ -2129,11 +2165,19 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Panay-Guimaras Region"
+        },
+        {
+          "lang": "en",
           "toponym": "Region 6"
         },
         {
           "lang": "en",
           "toponym": "Region VI"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅵ"
         },
         {
           "lang": "en",
@@ -2275,6 +2319,10 @@
         {
           "lang": "en",
           "toponym": "Region IX"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region Ⅸ"
         },
         {
           "lang": "en",

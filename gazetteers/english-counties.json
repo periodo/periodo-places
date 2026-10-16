@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -58,7 +59,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "non-metropolitan and ceremonial county in the west of England"
+          "value": "former non-metropolitan and ceremonial county in England"
         }
       ],
       "geometry": {
@@ -162,13 +163,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bedfordshire%27s%20Flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bedfordshire%20County%20Flag.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q1053723 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -260,10 +261,6 @@
         {
           "lang": "en",
           "toponym": "Beds."
-        },
-        {
-          "lang": "en",
-          "toponym": "beds"
         }
       ],
       "properties": {
@@ -271,10 +268,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -290,7 +283,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial but non-administrative county of England"
+          "value": "ceremonial and non-metropolitan but non-administrative county of England"
         }
       ],
       "geometry": {
@@ -394,12 +387,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q21272231",
+          "label": "county council area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2560047",
+          "label": "administrative county"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
@@ -416,7 +413,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England (use Q21694636 for administrative non-metropolitan county)"
+          "value": "ceremonial county in England, UK (use Q21694636 for administrative unitary authority)"
         }
       ],
       "geometry": {
@@ -520,10 +517,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -532,13 +525,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambridgeshire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Cambridgeshire%20Flag.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q21272276 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England, UK"
         }
       ],
       "geometry": {
@@ -642,10 +635,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -654,13 +643,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Cheshire.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cheshire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England"
+          "value": "ceremonial county in England, United Kingdom"
         }
       ],
       "geometry": {
@@ -670,7 +659,7 @@
               [
                 [
                   -3.084543,
-                  53.258577
+                  53.258572
                 ],
                 [
                   -3.095944,
@@ -754,7 +743,7 @@
                 ],
                 [
                   -3.084543,
-                  53.258577
+                  53.258572
                 ]
               ]
             ],
@@ -775,6 +764,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Chestershire"
+        },
+        {
+          "lang": "en",
           "toponym": "County Palatine of Chester"
         },
         {
@@ -788,10 +781,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -801,7 +790,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district and county in England"
+          "value": "unitary authority area and ceremonial county in England, United Kingdom"
         }
       ],
       "geometry": {
@@ -864,6 +853,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bristol.map"
+      },
       "id": "http://www.wikidata.org/entity/Q21693433",
       "names": [
         {
@@ -872,11 +864,31 @@
         },
         {
           "lang": "en",
-          "toponym": "City and county of Bristol"
+          "toponym": "Bristol, City of (unparished area)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bristol, City of"
         },
         {
           "lang": "en",
           "toponym": "City of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "County Borough of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "city and county of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "county of Bristol"
+        },
+        {
+          "lang": "en",
+          "toponym": "district of Bristol"
         }
       ],
       "properties": {
@@ -890,7 +902,15 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
+          "label": "unitary authority area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1137272",
+          "label": "county borough"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1187580",
+          "label": "non-metropolitan district"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
@@ -899,19 +919,22 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q21503295",
           "label": "district with city status"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q518343",
+          "label": "municipal borough"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7897276",
+          "label": "unparished area"
         }
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cornwall.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "historic country and ceremonial county in England"
+          "value": "ceremonial county in England"
         }
       ],
       "geometry": {
@@ -978,19 +1001,11 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q23148",
+      "id": "http://www.wikidata.org/entity/Q48790202",
       "names": [
         {
           "lang": "en",
           "toponym": "Cornwall"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kernow"
-        },
-        {
-          "lang": "en",
-          "toponym": "The English Riviera"
         }
       ],
       "properties": {
@@ -999,25 +1014,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Durham%20Flag.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in North East England (use Q1137286 for administrative unitary authority)"
+          "value": "ceremonial county in North East England, United Kingdom"
         }
       ],
       "geometry": {
@@ -1108,11 +1114,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Durham"
+          "toponym": "Durham County"
         },
         {
           "lang": "en",
-          "toponym": "VC66"
+          "toponym": "Durham"
         }
       ],
       "properties": {
@@ -1121,29 +1127,21 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7925010",
-          "label": "vice-county"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Cumbria.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cumbria%20County%20Council.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -1254,11 +1252,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Cumbria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23066",
       "names": [
         {
           "lang": "en",
           "toponym": "Cumbria"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cumbria, England"
         }
       ],
       "properties": {
@@ -1401,10 +1406,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -1419,7 +1420,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q21694695 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -1547,10 +1548,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -1665,10 +1662,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -1678,7 +1671,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q21695028 for administrative unitary authority)"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -1915,15 +1908,11 @@
                   51.649923
                 ],
                 [
-                  -0.012836,
-                  51.649923
-                ],
-                [
                   -0.01126,
                   51.677208
                 ],
                 [
-                  0.000006,
+                  6e-06,
                   51.73307
                 ],
                 [
@@ -2014,21 +2003,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Severn%20Cross.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2156,20 +2136,21 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Greater%20London.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative area, ceremonial county in England"
+          "value": "administrative area and ceremonial county in England"
         }
       ],
       "geometry": {
@@ -2252,6 +2233,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q159313",
+          "label": "urban agglomeration"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -2371,13 +2356,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hampshire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Hampshire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q21694653 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -2489,10 +2474,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -2501,13 +2482,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Herefordshire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20Of%20Herefordshire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "historic county, ceremonial county, and unitary non-metropolitan county and district, in England"
+          "value": "ceremonial county, and unitary non-metropolitan county and district, in England"
         }
       ],
       "geometry": {
@@ -2638,8 +2619,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Herefordshire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23129",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "County of Herefordshire"
+        },
         {
           "lang": "en",
           "toponym": "Herefordshire"
@@ -2652,11 +2640,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
+          "label": "unitary authority area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
@@ -2673,7 +2657,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "non-metropolitan and ceremonial county in England"
         }
       ],
       "geometry": {
@@ -2726,6 +2710,10 @@
                   51.677208
                 ],
                 [
+                  -0.01126,
+                  51.677208
+                ],
+                [
                   -0.493453,
                   51.590934
                 ],
@@ -2739,6 +2727,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Hertfordshire.map"
       },
       "id": "http://www.wikidata.org/entity/Q3410",
       "names": [
@@ -2757,10 +2748,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         },
@@ -2774,7 +2761,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "non-metropolitan and ceremonial county of England"
+          "value": "former non-metropolitan and ceremonial county of England"
         }
       ],
       "geometry": {
@@ -2904,9 +2891,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island and county of England"
+          "value": "island, county and unitary authority area of England, United Kingdom"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -1.069722222,
+          50.685833333
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2975,25 +2969,74 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Isle+of+Wight.map"
+      },
       "id": "http://www.wikidata.org/entity/Q9679",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "I. Wight"
+        },
+        {
+          "lang": "en",
+          "toponym": "I. of Wight"
+        },
+        {
+          "lang": "en",
+          "toponym": "Iktis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island of Wight"
+        },
         {
           "lang": "en",
           "toponym": "Isle of Wight"
         },
         {
           "lang": "en",
+          "toponym": "Ouiktis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wight I."
+        },
+        {
+          "lang": "en",
+          "toponym": "Wight Island"
+        },
+        {
+          "lang": "en",
           "toponym": "Wight"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wiht"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -1.313333333,
+          50.767222222
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Isle of Wight"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -1.295555555,
+          50.575
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
+          "label": "unitary authority area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
@@ -3002,19 +3045,30 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q23442",
           "label": "island"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2560047",
+          "label": "administrative county"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -1.586666666,
+          50.663055555
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kent.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/FlagOfKent.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England (use Q21694674 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England, United Kingdom"
         }
       ],
       "geometry": {
@@ -3109,6 +3163,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "County of Kent"
+        },
+        {
+          "lang": "en",
           "toponym": "Kent"
         },
         {
@@ -3122,10 +3180,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -3134,13 +3188,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lancashire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lancashire%20County%20Flag.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in North-West England (use Q21279371 for administrative non-metropolitan county)"
+          "value": "ceremonial county in North-West England, United Kingdom"
         }
       ],
       "geometry": {
@@ -3219,19 +3273,15 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "County Palatine of Lancaster"
-        },
-        {
-          "lang": "en",
-          "toponym": "County of Lancaster"
-        },
-        {
-          "lang": "en",
           "toponym": "Lancashire"
         },
         {
           "lang": "en",
           "toponym": "Lancashire, England"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lancastershire"
         },
         {
           "lang": "en",
@@ -3244,10 +3294,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -3256,13 +3302,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Leicestershire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Leicestershire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England (use Q21272890 for administrative non-metropolitan county)"
+          "value": "ceremonial county in England"
         }
       ],
       "geometry": {
@@ -3350,6 +3396,10 @@
         {
           "lang": "en",
           "toponym": "Leicestershire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Leicestershire, England"
         }
       ],
       "properties": {
@@ -3357,10 +3407,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -3376,7 +3422,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in the east of England (use Q21269047 for administrative non-metropolitan county)"
+          "value": "ceremonial county in the east of England"
         }
       ],
       "geometry": {
@@ -3507,6 +3553,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "County of Lincoln"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lincoln"
+        },
+        {
+          "lang": "en",
           "toponym": "Lincolnshire"
         },
         {
@@ -3519,10 +3573,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -3613,6 +3663,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Merseyside.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23100",
       "names": [
         {
@@ -3644,7 +3697,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in East Anglia, England"
+          "value": "county in East Anglia, England, UK"
         }
       ],
       "geometry": {
@@ -3779,6 +3832,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Norfolk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23109",
       "names": [
         {
@@ -3791,10 +3847,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -3814,7 +3866,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England (use Q21241814 for administrative non-metropolitan county)"
+          "value": "ceremonial county in England, UK"
         }
       ],
       "geometry": {
@@ -4059,6 +4111,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Northamptonshire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23115",
       "names": [
         {
@@ -4071,10 +4126,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -4094,7 +4145,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county and unitary authority in England"
+          "value": "ceremonial county and unitary authority area in north east England, UK"
         }
       ],
       "geometry": {
@@ -4185,11 +4236,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Northumberland.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23079",
       "names": [
         {
           "lang": "en",
           "toponym": "Northumberland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Northumberland, England"
         }
       ],
       "properties": {
@@ -4199,15 +4257,15 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
+          "label": "unitary authority area"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q769603",
+          "label": "non-metropolitan county"
         }
       ]
     },
@@ -4220,7 +4278,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county of England (use Q21272736 for administrative non-metropolitan county)"
+          "value": "ceremonial county of England"
         }
       ],
       "geometry": {
@@ -4332,10 +4390,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -4344,13 +4398,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Flag%20of%20Oxfordshire.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oxfordshire.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "county in England, UK"
         }
       ],
       "geometry": {
@@ -4441,8 +4495,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oxfordshire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23169",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "County of Oxford"
+        },
         {
           "lang": "en",
           "toponym": "Oxfordshire"
@@ -4457,10 +4518,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -4480,7 +4537,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "county and unitary authority area in the East Midlands in England, United Kingdom"
         }
       ],
       "geometry": {
@@ -4559,6 +4616,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Rutland.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23107",
       "names": [
         {
@@ -4573,15 +4633,19 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1136601",
-          "label": "unitary authority of England"
+          "label": "unitary authority area"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
+          "identifier": "http://www.wikidata.org/entity/Q1187580",
+          "label": "non-metropolitan district"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2560047",
+          "label": "administrative county"
         }
       ]
     },
@@ -4754,10 +4818,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -4766,7 +4826,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somnew.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somerset%20Flag.svg"
         }
       ],
       "descriptions": [
@@ -4855,7 +4915,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Somerset, England"
+          "toponym": "Somersetshire"
         }
       ],
       "properties": {
@@ -4864,20 +4924,25 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/FlagOfSouthYorkshire.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "county of England"
+          "value": "county of England, UK"
         }
       ],
       "geometry": {
@@ -5003,7 +5068,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ceremonial county in England (use Q21694786 for administrative non-metropolitan county)"
+          "value": "ceremonial county in England"
         }
       ],
       "geometry": {
@@ -5115,10 +5180,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -5212,8 +5273,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Suffolk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23111",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Suffolk County, England"
+        },
         {
           "lang": "en",
           "toponym": "Suffolk"
@@ -5224,10 +5292,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
@@ -5241,7 +5305,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20flag%20of%20Surrey.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20County%20of%20Surrey.svg"
         }
       ],
       "descriptions": [
@@ -5288,7 +5352,7 @@
                   51.477788
                 ],
                 [
-                  0.000006,
+                  6e-06,
                   51.329451
                 ],
                 [
@@ -5342,11 +5406,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Surrey.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23276",
       "names": [
         {
           "lang": "en",
           "toponym": "Surrey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Surrey, England"
         }
       ],
       "properties": {
@@ -5355,12 +5426,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q21272231",
+          "label": "county council area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2560047",
+          "label": "administrative county"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
@@ -5474,7 +5549,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England, UK"
+          "value": "ceremonial and non-metropolitan county in England, UK"
         }
       ],
       "geometry": {
@@ -5561,12 +5636,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Warwickshire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23140",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "VC38"
-        },
         {
           "lang": "en",
           "toponym": "Warwickshire"
@@ -5582,20 +5656,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
           "label": "non-metropolitan county"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7925010",
-          "label": "vice-county"
         }
       ]
     },
@@ -5730,7 +5796,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in England"
+          "value": "ceremonial and non-metropolitan county of England"
         }
       ],
       "geometry": {
@@ -5837,6 +5903,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:West+Sussex.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23287",
       "names": [
         {
@@ -5868,7 +5937,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "metropolitan and ceremonial county in England"
+          "value": "metropolitan and ceremonial county in England, UK"
         }
       ],
       "geometry": {
@@ -6090,10 +6159,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         }
@@ -6102,7 +6167,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Worcestershire%20flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Worcestershire.svg"
         }
       ],
       "descriptions": [
@@ -6175,12 +6240,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Worcestershire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q23135",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "VC37"
-        },
         {
           "lang": "en",
           "toponym": "Wigorn"
@@ -6200,20 +6264,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1138494",
-          "label": "historic county of England"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q180673",
           "label": "ceremonial county of England"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q769603",
           "label": "non-metropolitan county"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7925010",
-          "label": "vice-county"
         }
       ]
     }

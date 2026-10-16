@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -153,8 +154,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Andaman+and+Nicobar+Islands.map"
+      },
       "id": "http://www.wikidata.org/entity/Q40888",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Andaman & Nicobar Islands"
+        },
         {
           "lang": "en",
           "toponym": "Andaman and Nicobar Islands"
@@ -175,7 +183,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in India"
+          "value": "state in South India, India"
         }
       ],
       "geometry": {
@@ -196,24 +204,36 @@
                   14.989731
                 ],
                 [
-                  77.503724,
-                  18.389317
+                  76.745528,
+                  15.063887
                 ],
                 [
-                  77.752495,
-                  19.053566
+                  77.034089,
+                  15.873734
                 ],
                 [
-                  77.865459,
-                  19.29735
+                  77.07357,
+                  15.921018
                 ],
                 [
-                  77.86949,
-                  19.303267
+                  77.143746,
+                  15.960706
                 ],
                 [
-                  78.329204,
-                  19.891293
+                  83.313706,
+                  18.999719
+                ],
+                [
+                  83.464187,
+                  19.073461
+                ],
+                [
+                  83.604747,
+                  19.131339
+                ],
+                [
+                  84.708349,
+                  19.161673
                 ],
                 [
                   84.743696,
@@ -326,6 +346,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Andhra+Pradesh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1159",
       "names": [
         {
@@ -348,7 +371,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State in North East India"
+          "value": "region administered by India as a state"
         }
       ],
       "geometry": {
@@ -357,20 +380,12 @@
             "coordinates": [
               [
                 [
-                  91.59506,
-                  27.546382
-                ],
-                [
                   91.573252,
                   27.619711
                 ],
                 [
-                  91.579867,
-                  27.657977
-                ],
-                [
-                  91.632887,
-                  27.759444
+                  91.564355,
+                  27.851372
                 ],
                 [
                   94.599941,
@@ -443,6 +458,10 @@
                 [
                   91.59506,
                   27.546382
+                ],
+                [
+                  91.573252,
+                  27.619711
                 ]
               ]
             ],
@@ -451,11 +470,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Arunachal+Pradesh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1162",
       "names": [
         {
           "lang": "en",
           "toponym": "Arunachal Pradesh"
+        },
+        {
+          "lang": "en",
+          "toponym": "North-East Frontier Tracts"
         }
       ],
       "properties": {
@@ -588,6 +614,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Assam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1164",
       "names": [
         {
@@ -601,6 +630,10 @@
         {
           "lang": "en",
           "toponym": "Axom"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-AS"
         },
         {
           "lang": "en",
@@ -622,7 +655,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in eastern India"
         }
       ],
       "geometry": {
@@ -745,11 +778,42 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Bihar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1165",
       "names": [
         {
           "lang": "en",
+          "toponym": "Bahar"
+        },
+        {
+          "lang": "en",
+          "toponym": "Behar"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bihar State"
+        },
+        {
+          "lang": "en",
           "toponym": "Bihar"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-BR"
+        },
+        {
+          "lang": "en",
+          "toponym": "Land of Buddha"
+        },
+        {
+          "lang": "en",
+          "toponym": "Land of Mahavira"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Bihar"
         }
       ],
       "properties": {
@@ -767,7 +831,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital of Punjab and Haryana states, Union Territory of India"
+          "value": "union territory of India"
         }
       ],
       "geometry": {
@@ -854,7 +918,10 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q43433",
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Chandigarh.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q120971341",
       "names": [
         {
           "lang": "en",
@@ -862,7 +929,11 @@
         },
         {
           "lang": "en",
-          "toponym": "The city beautiful"
+          "toponym": "Union Territory of Chandigarh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Union Territory of Chandīgarh"
         }
       ],
       "properties": {
@@ -871,24 +942,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1074523",
-          "label": "planned community"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q467745",
           "label": "union territory of India"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
         }
       ]
     },
@@ -896,7 +951,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in central India"
         }
       ],
       "geometry": {
@@ -1035,6 +1090,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Chhattisgarh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1168",
       "names": [
         {
@@ -1073,7 +1131,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Union territory in India"
+          "value": "union territory in India"
         }
       ],
       "geometry": {
@@ -1172,6 +1230,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Dadra+and+Nagar+Haveli+and+Daman+and+Diu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q77997266",
       "names": [
         {
@@ -1195,152 +1256,10 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/..Delhi%20Flag%28INDIA%29.png"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian metropolis and union territory that includes New Delhi"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  76.835031,
-                  28.571176
-                ],
-                [
-                  76.833688,
-                  28.578928
-                ],
-                [
-                  76.836892,
-                  28.587222
-                ],
-                [
-                  76.936524,
-                  28.81465
-                ],
-                [
-                  76.943552,
-                  28.826277
-                ],
-                [
-                  76.954404,
-                  28.835475
-                ],
-                [
-                  76.978588,
-                  28.847154
-                ],
-                [
-                  77.067989,
-                  28.882088
-                ],
-                [
-                  77.07698,
-                  28.88201
-                ],
-                [
-                  77.200797,
-                  28.876791
-                ],
-                [
-                  77.306941,
-                  28.720599
-                ],
-                [
-                  77.313142,
-                  28.707266
-                ],
-                [
-                  77.317069,
-                  28.696001
-                ],
-                [
-                  77.333812,
-                  28.644428
-                ],
-                [
-                  77.336913,
-                  28.633911
-                ],
-                [
-                  77.337533,
-                  28.626186
-                ],
-                [
-                  77.327404,
-                  28.519707
-                ],
-                [
-                  77.2348,
-                  28.442838
-                ],
-                [
-                  77.225188,
-                  28.437619
-                ],
-                [
-                  77.193562,
-                  28.432606
-                ],
-                [
-                  76.872652,
-                  28.519422
-                ],
-                [
-                  76.835031,
-                  28.571176
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q1353",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Delhi"
-        },
-        {
-          "lang": "en",
-          "toponym": "National Capital Region of Delhi"
-        }
-      ],
-      "properties": {
-        "title": "Delhi"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q174844",
-          "label": "megacity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q467745",
-          "label": "union territory of India"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "state on the western coast of India"
+          "value": "state in western India"
         }
       ],
       "geometry": {
@@ -1467,6 +1386,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Goa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1171",
       "names": [
         {
@@ -1514,8 +1436,8 @@
                   23.773179
                 ],
                 [
-                  68.183008,
-                  23.842087
+                  68.183035,
+                  23.842108
                 ],
                 [
                   68.183517,
@@ -1638,8 +1560,8 @@
                   20.980414
                 ],
                 [
-                  70.057628,
-                  21.149237
+                  70.054445,
+                  21.153155
                 ],
                 [
                   69.198416,
@@ -1660,6 +1582,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Gujarat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1061",
       "names": [
         {
@@ -1669,6 +1594,18 @@
         {
           "lang": "en",
           "toponym": "Guzerat"
+        },
+        {
+          "lang": "en",
+          "toponym": "Guzeratte"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-GJ"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Gujarat"
         }
       ],
       "properties": {
@@ -1686,7 +1623,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of India"
+          "value": "state in North India"
         }
       ],
       "geometry": {
@@ -1813,11 +1750,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Haryana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1174",
       "names": [
         {
           "lang": "en",
           "toponym": "Haryana"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-HR"
         }
       ],
       "properties": {
@@ -1835,7 +1779,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in northern India"
         }
       ],
       "geometry": {
@@ -1958,6 +1902,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Himachal+Pradesh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1177",
       "names": [
         {
@@ -1971,6 +1918,10 @@
         {
           "lang": "en",
           "toponym": "Himachal"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-HP"
         }
       ],
       "properties": {
@@ -1981,10 +1932,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q12443800",
           "label": "state of India"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
         }
       ]
     },
@@ -1992,7 +1939,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "union territory administered by India"
+          "value": "region administered by India as a union territory"
         }
       ],
       "geometry": {
@@ -2029,68 +1976,52 @@
                   34.768887
                 ],
                 [
-                  77.800346,
-                  35.495406
+                  74.348877,
+                  34.773434
                 ],
                 [
-                  77.985865,
-                  35.494165
+                  74.412129,
+                  34.764494
                 ],
                 [
-                  78.044259,
-                  35.491633
+                  75.212907,
+                  34.644967
                 ],
                 [
-                  78.95118,
-                  34.349171
+                  75.224544,
+                  34.638622
                 ],
                 [
-                  78.95694,
-                  34.339961
+                  75.236885,
+                  34.631892
                 ],
                 [
-                  78.976192,
-                  34.309173
+                  75.348093,
+                  34.55722
                 ],
                 [
-                  78.98539,
-                  34.286358
+                  76.166381,
+                  33.873232
                 ],
                 [
-                  79.378648,
-                  33.164282
+                  76.577838,
+                  33.427705
                 ],
                 [
-                  79.499984,
-                  32.746839
+                  76.646566,
+                  33.352107
                 ],
                 [
-                  79.505048,
-                  32.71418
+                  76.739843,
+                  33.197406
                 ],
                 [
-                  79.495747,
-                  32.678213
+                  75.828581,
+                  32.497887
                 ],
                 [
-                  79.47642,
-                  32.645425
-                ],
-                [
-                  79.434769,
-                  32.60243
-                ],
-                [
-                  79.294312,
-                  32.494581
-                ],
-                [
-                  79.075307,
-                  32.37079
-                ],
-                [
-                  78.943429,
-                  32.346373
+                  75.698253,
+                  32.406033
                 ],
                 [
                   75.5024,
@@ -2131,8 +2062,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Jammu+%26+Kashmir+(UT).map"
+      },
       "id": "http://www.wikidata.org/entity/Q66278313",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-JK"
+        },
         {
           "lang": "en",
           "toponym": "Jammu Kashmir"
@@ -2148,10 +2086,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15239622",
-          "label": "disputed territory"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q467745",
           "label": "union territory of India"
         }
@@ -2161,7 +2095,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in eastern India"
         }
       ],
       "geometry": {
@@ -2304,8 +2238,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Jharkhand.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1184",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-JH"
+        },
         {
           "lang": "en",
           "toponym": "Jharkhand"
@@ -2323,6 +2264,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karnataka%2C%20India.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2485,8 +2431,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Karnataka.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1185",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-KA"
+        },
+        {
+          "lang": "en",
+          "toponym": "Karnatak"
+        },
         {
           "lang": "en",
           "toponym": "Karnataka"
@@ -2638,6 +2595,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Kerala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1186",
       "names": [
         {
@@ -2650,11 +2610,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Keral"
+        },
+        {
+          "lang": "en",
           "toponym": "Kerala"
         },
         {
           "lang": "en",
           "toponym": "Keralam"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kerla"
         },
         {
           "lang": "en",
@@ -2676,7 +2644,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Union Territory of India"
+          "value": "union territory of India"
         }
       ],
       "geometry": {
@@ -2767,6 +2735,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Lakshadweep,+India.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26927",
       "names": [
         {
@@ -2793,7 +2764,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in central India"
         }
       ],
       "geometry": {
@@ -2968,6 +2939,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Madhya+Pradesh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1188",
       "names": [
         {
@@ -2990,7 +2964,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in the western and central peninsular region of India"
         }
       ],
       "geometry": {
@@ -3137,8 +3111,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Maharashtra.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1191",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-MH"
+        },
         {
           "lang": "en",
           "toponym": "Maharashtra"
@@ -3159,7 +3140,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in northeastern India"
         }
       ],
       "geometry": {
@@ -3294,6 +3275,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Manipur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1193",
       "names": [
         {
@@ -3309,6 +3293,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q12443800",
           "label": "state of India"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -3443,11 +3431,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Meghalaya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1195",
       "names": [
         {
           "lang": "en",
           "toponym": "Meghalaya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Meghālaya"
         }
       ],
       "properties": {
@@ -3465,7 +3460,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State in India"
+          "value": "state in northeastern India"
         }
       ],
       "geometry": {
@@ -3576,6 +3571,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Mizoram.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1502",
       "names": [
         {
@@ -3598,7 +3596,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State in northeastern India"
+          "value": "state in Northeastern India"
         }
       ],
       "geometry": {
@@ -3709,11 +3707,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Nagaland.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1599",
       "names": [
         {
           "lang": "en",
+          "toponym": "IN-NL"
+        },
+        {
+          "lang": "en",
           "toponym": "Nagaland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nágáland"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nāgāland"
         }
       ],
       "properties": {
@@ -3728,10 +3741,167 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delhi%20Capital%20Territory.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of India"
+          "value": "union territory of India"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  76.835031,
+                  28.571176
+                ],
+                [
+                  76.833688,
+                  28.578928
+                ],
+                [
+                  76.836892,
+                  28.587222
+                ],
+                [
+                  76.936524,
+                  28.81465
+                ],
+                [
+                  76.943552,
+                  28.826277
+                ],
+                [
+                  76.954404,
+                  28.835475
+                ],
+                [
+                  76.978588,
+                  28.847154
+                ],
+                [
+                  77.067989,
+                  28.882088
+                ],
+                [
+                  77.07698,
+                  28.88201
+                ],
+                [
+                  77.200797,
+                  28.876791
+                ],
+                [
+                  77.306941,
+                  28.720599
+                ],
+                [
+                  77.313142,
+                  28.707266
+                ],
+                [
+                  77.317069,
+                  28.696001
+                ],
+                [
+                  77.333812,
+                  28.644428
+                ],
+                [
+                  77.336913,
+                  28.633911
+                ],
+                [
+                  77.337533,
+                  28.626186
+                ],
+                [
+                  77.327404,
+                  28.519707
+                ],
+                [
+                  77.2348,
+                  28.442838
+                ],
+                [
+                  77.225188,
+                  28.437619
+                ],
+                [
+                  77.193562,
+                  28.432606
+                ],
+                [
+                  76.872652,
+                  28.519422
+                ],
+                [
+                  76.835031,
+                  28.571176
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Delhi.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q9357528",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Delhi"
+        },
+        {
+          "lang": "en",
+          "toponym": "NCT of Delhi"
+        },
+        {
+          "lang": "en",
+          "toponym": "National Capital Territory of Delhi"
+        },
+        {
+          "lang": "en",
+          "toponym": "National Capital Territory"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Delhi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Union Territory of Delhi"
+        }
+      ],
+      "properties": {
+        "title": "National Capital Territory of Delhi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q395994",
+          "label": "capital district or territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q467745",
+          "label": "union territory of India"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "state in Eastern India"
         }
       ],
       "geometry": {
@@ -3882,8 +4052,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Odisha.map"
+      },
       "id": "http://www.wikidata.org/entity/Q22048",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-OD"
+        },
         {
           "lang": "en",
           "toponym": "Kalinga"
@@ -3909,6 +4086,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q12443800",
           "label": "state of India"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2365748",
+          "label": "administrative territorial entity of India"
         }
       ]
     },
@@ -3994,6 +4175,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Puducherry.map"
       },
       "id": "http://www.wikidata.org/entity/Q66743",
       "names": [
@@ -4172,8 +4356,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Punjab.map"
+      },
       "id": "http://www.wikidata.org/entity/Q22424",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "East Punjab"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-PB"
+        },
         {
           "lang": "en",
           "toponym": "Land of Five Rivers"
@@ -4206,7 +4401,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "A state in India"
+          "value": "state in north-western India"
         }
       ],
       "geometry": {
@@ -4337,8 +4532,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Rajasthan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1437",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-RJ"
+        },
         {
           "lang": "en",
           "toponym": "Rajasthan"
@@ -4363,7 +4565,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in northeastern India"
         }
       ],
       "geometry": {
@@ -4474,8 +4676,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Sikkim.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1505",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-SK"
+        },
         {
           "lang": "en",
           "toponym": "Sikkim"
@@ -4496,7 +4705,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state of India"
         }
       ],
       "geometry": {
@@ -4618,6 +4827,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Tamil+Nadu.map"
       },
       "id": "http://www.wikidata.org/entity/Q1445",
       "names": [
@@ -4776,8 +4988,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Tripura.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1363",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-TR"
+        },
         {
           "lang": "en",
           "toponym": "Tripura"
@@ -4791,6 +5010,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q12443800",
           "label": "state of India"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         }
       ]
     },
@@ -4798,7 +5021,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in northern India"
         }
       ],
       "geometry": {
@@ -4961,8 +5184,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Uttar+Pradesh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1498",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "U.P."
+        },
         {
           "lang": "en",
           "toponym": "Uttar Pradesh"
@@ -4983,7 +5213,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Indian state"
+          "value": "state in northern India"
         }
       ],
       "geometry": {
@@ -5032,16 +5262,16 @@
                   31.294266
                 ],
                 [
-                  79.014639,
-                  31.425473
+                  79.07021,
+                  31.461381
                 ],
                 [
-                  79.063318,
-                  31.433638
+                  79.07799,
+                  31.461664
                 ],
                 [
-                  79.077788,
-                  31.427178
+                  79.131397,
+                  31.438433
                 ],
                 [
                   80.157102,
@@ -5122,11 +5352,58 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/Uttarakhand.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1499",
       "names": [
         {
           "lang": "en",
+          "toponym": "Dev Bhoomi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Devbhoomi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Government of Uttarakhand"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-UK"
+        },
+        {
+          "lang": "en",
+          "toponym": "IN-UT"
+        },
+        {
+          "lang": "en",
+          "toponym": "Land of the Gods"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Uttarakhand"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Uttaranchal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Uttarakhand State"
+        },
+        {
+          "lang": "en",
           "toponym": "Uttarakhand"
+        },
+        {
+          "lang": "en",
+          "toponym": "Uttarakhand, India"
+        },
+        {
+          "lang": "en",
+          "toponym": "Uttaranchal State"
         },
         {
           "lang": "en",
@@ -5255,8 +5532,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:India/West+Bengal.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1356",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "IN-WB"
+        },
         {
           "lang": "en",
           "toponym": "Paschimbanga"

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -55,6 +56,11 @@
   },
   "features": [
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Al%20Qadarif%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -197,6 +203,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Gedarif.map"
+      },
       "id": "http://www.wikidata.org/entity/Q309478",
       "names": [
         {
@@ -216,6 +225,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Blue%20Nile%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -334,15 +348,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Blue+Nile.map"
+      },
       "id": "http://www.wikidata.org/entity/Q309489",
       "names": [
         {
           "lang": "en",
-          "toponym": "Blue Nile"
+          "toponym": "Blue Nile State"
         }
       ],
       "properties": {
-        "title": "Blue Nile"
+        "title": "Blue Nile State"
       },
       "type": "Feature",
       "types": [
@@ -353,6 +370,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Central%20Darfur%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -439,11 +461,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Central+Darfur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4116493",
       "names": [
         {
           "lang": "en",
           "toponym": "Central Darfur"
+        },
+        {
+          "lang": "en",
+          "toponym": "SD-DC"
         }
       ],
       "properties": {
@@ -555,6 +584,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Eastern+Darfur.map"
       },
       "id": "http://www.wikidata.org/entity/Q3545641",
       "names": [
@@ -685,6 +717,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Gezira.map"
+      },
       "id": "http://www.wikidata.org/entity/Q309469",
       "names": [
         {
@@ -708,6 +743,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kassala%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -798,6 +838,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Kassala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q954963",
       "names": [
         {
@@ -817,6 +860,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Khartoum%20Wilayah.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -887,11 +935,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Khartoum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q310385",
       "names": [
         {
           "lang": "en",
+          "toponym": "Khartoum State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khartoum State, Sudan"
+        },
+        {
+          "lang": "en",
           "toponym": "Khartoum"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khartoum, Sudan"
         }
       ],
       "properties": {
@@ -906,6 +969,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Darfur%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -979,6 +1047,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/North+Darfur.map"
       },
       "id": "http://www.wikidata.org/entity/Q688306",
       "names": [
@@ -1122,6 +1193,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/North+Kordufan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q864093",
       "names": [
         {
@@ -1215,15 +1289,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Northern.map"
+      },
       "id": "http://www.wikidata.org/entity/Q310118",
       "names": [
         {
           "lang": "en",
-          "toponym": "Northern"
+          "toponym": "Northern State"
+        },
+        {
+          "lang": "en",
+          "toponym": "ash-Shamaliyah"
         }
       ],
       "properties": {
-        "title": "Northern"
+        "title": "Northern State"
       },
       "type": "Feature",
       "types": [
@@ -1352,11 +1433,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Red+Sea.map"
+      },
       "id": "http://www.wikidata.org/entity/Q310120",
       "names": [
         {
           "lang": "en",
+          "toponym": "Red Sea State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Red Sea State, Sudan"
+        },
+        {
+          "lang": "en",
           "toponym": "Red Sea"
+        },
+        {
+          "lang": "en",
+          "toponym": "Red Sea, Sudan"
         }
       ],
       "properties": {
@@ -1481,6 +1577,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/River+Nile.map"
+      },
       "id": "http://www.wikidata.org/entity/Q849297",
       "names": [
         {
@@ -1602,8 +1701,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Sennar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q865534",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Sennar state"
+        },
         {
           "lang": "en",
           "toponym": "Sennar"
@@ -1621,6 +1727,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Darfur%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1706,6 +1817,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Southern+Darfur.map"
       },
       "id": "http://www.wikidata.org/entity/Q838778",
       "names": [
@@ -1868,6 +1982,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/South+Kordufan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q465490",
       "names": [
         {
@@ -1887,6 +2004,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Darfur%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2009,23 +2131,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/Western+Darfur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q846331",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Sultanate of Massalit"
-        },
         {
           "lang": "en",
           "toponym": "West Darfur"
         },
         {
           "lang": "en",
-          "toponym": "West Soudan"
+          "toponym": "west darfur"
         },
         {
           "lang": "en",
-          "toponym": "kingdom of Massalit"
+          "toponym": "سلطنة دار المساليت"
         }
       ],
       "properties": {
@@ -2153,6 +2274,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Sudan/White+Nile.map"
       },
       "id": "http://www.wikidata.org/entity/Q311371",
       "names": [

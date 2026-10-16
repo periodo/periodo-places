@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -145,6 +146,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Alborz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q392522",
       "names": [
         {
@@ -167,7 +171,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -277,6 +281,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Ardebil.map"
       },
       "id": "http://www.wikidata.org/entity/Q134228",
       "names": [
@@ -391,11 +398,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Bushehr.map"
+      },
       "id": "http://www.wikidata.org/entity/Q132945",
       "names": [
         {
           "lang": "en",
           "toponym": "Bushehr Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bushehr"
         }
       ],
       "properties": {
@@ -413,7 +427,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -496,11 +510,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Chahar+Mahall+and+Bakhtiari.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171702",
       "names": [
         {
           "lang": "en",
           "toponym": "Chaharmahal and Bakhtiari Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chahār Maḩāl va Bakhtīārī"
         }
       ],
       "properties": {
@@ -518,7 +539,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -621,8 +642,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/East+Azarbaijan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q176081",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "East Azarbaijan Province"
+        },
         {
           "lang": "en",
           "toponym": "East Azerbaijan Province"
@@ -762,6 +790,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Fars.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1004666",
       "names": [
         {
@@ -887,6 +918,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Gilan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q928828",
       "names": [
         {
@@ -913,7 +947,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -1016,6 +1050,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Golestan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170041",
       "names": [
         {
@@ -1038,7 +1075,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -1137,11 +1174,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Hamadan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q187373",
       "names": [
         {
           "lang": "en",
           "toponym": "Hamadan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hamedan Province"
         }
       ],
       "properties": {
@@ -1249,6 +1293,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Hormozgan.map"
       },
       "id": "http://www.wikidata.org/entity/Q633659",
       "names": [
@@ -1496,6 +1543,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Esfahan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1367759",
       "names": [
         {
@@ -1522,7 +1572,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -1638,10 +1688,6 @@
         {
           "lang": "en",
           "toponym": "Kerman Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kerman"
         }
       ],
       "properties": {
@@ -1754,6 +1800,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Kermanshah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q174010",
       "names": [
         {
@@ -1776,7 +1825,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -1882,6 +1931,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Khuzestan.map"
       },
       "id": "http://www.wikidata.org/entity/Q241119",
       "names": [
@@ -1999,6 +2051,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Kohgiluyeh+and+Buyer+Ahmad.map"
       },
       "id": "http://www.wikidata.org/entity/Q180068",
       "names": [
@@ -2137,6 +2192,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Kordestan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q134386",
       "names": [
         {
@@ -2261,6 +2319,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Lorestan.map"
       },
       "id": "http://www.wikidata.org/entity/Q1131727",
       "names": [
@@ -2399,6 +2460,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Markazi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q134417",
       "names": [
         {
@@ -2503,6 +2567,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Mazandaran.map"
       },
       "id": "http://www.wikidata.org/entity/Q308864",
       "names": [
@@ -2653,6 +2720,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/North+Khorasan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q180075",
       "names": [
         {
@@ -2675,7 +2745,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -2757,6 +2827,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Qazvin.map"
       },
       "id": "http://www.wikidata.org/entity/Q1105893",
       "names": [
@@ -2859,11 +2932,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Qom.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131664",
       "names": [
         {
           "lang": "en",
-          "toponym": "Ghom"
+          "toponym": "Ghom Province"
         },
         {
           "lang": "en",
@@ -2885,7 +2961,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -3000,6 +3076,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Razavi+Khorasan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q587090",
       "names": [
         {
@@ -3026,7 +3105,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -3112,6 +3191,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Semnan.map"
       },
       "id": "http://www.wikidata.org/entity/Q168949",
       "names": [
@@ -3226,6 +3308,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Sistan+and+Baluchestan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q939575",
       "names": [
         {
@@ -3252,7 +3337,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -3331,6 +3416,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/South+Khorasan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171551",
       "names": [
         {
@@ -3346,10 +3434,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1344695",
           "label": "province of Iran"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q192611",
-          "label": "electoral district"
         }
       ]
     },
@@ -3440,6 +3524,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Tehran.map"
+      },
       "id": "http://www.wikidata.org/entity/Q590866",
       "names": [
         {
@@ -3462,7 +3549,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Iran"
+          "value": "province of Iran"
         }
       ],
       "geometry": {
@@ -3543,12 +3630,8 @@
                   35.979304
                 ],
                 [
-                  45.320313,
-                  35.994031
-                ],
-                [
                   45.32021,
-                  35.994135
+                  35.994083
                 ],
                 [
                   44.831248,
@@ -3564,6 +3647,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/West+Azarbaijan.map"
       },
       "id": "http://www.wikidata.org/entity/Q134411",
       "names": [
@@ -3701,6 +3787,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iran/Yazd.map"
       },
       "id": "http://www.wikidata.org/entity/Q170568",
       "names": [

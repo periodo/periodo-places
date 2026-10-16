@@ -182,14 +182,6 @@
         {
           "lang": "en",
           "toponym": "Afghaunistaun"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islamic Emirate of Afghanistan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇫"
         }
       ],
       "northernmostPoint": {
@@ -343,15 +335,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Republika e Shqipërisë"
-        },
-        {
-          "lang": "en",
           "toponym": "Shqipërisë"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇱"
         }
       ],
       "northernmostPoint": {
@@ -525,10 +509,6 @@
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q465613",
-          "label": "people's republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q51576574",
           "label": "Mediterranean country"
         },
@@ -652,10 +632,6 @@
         {
           "lang": "en",
           "toponym": "Principality of the Valleys of Andorra"
-        },
-        {
-          "lang": "en",
-          "toponym": "Principat d'Andorra"
         }
       ],
       "northernmostPoint": {
@@ -798,10 +774,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Angola"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇴"
         }
       ],
       "northernmostPoint": {
@@ -850,7 +822,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "British Overseas Territory in the Caribbean"
+          "value": "British overseas territory in the Caribbean"
         }
       ],
       "geometry": {
@@ -901,10 +873,6 @@
         {
           "lang": "en",
           "toponym": "Malliouhana"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇮"
         }
       ],
       "properties": {
@@ -915,7 +883,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -1009,11 +977,19 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Antigua & Barbuda"
+        },
+        {
+          "lang": "en",
           "toponym": "Antigua and Barbuda"
         },
         {
           "lang": "en",
-          "toponym": "🇦🇬"
+          "toponym": "Antigua-Barbuda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Antigua–Barbuda"
         }
       ],
       "northernmostPoint": {
@@ -1041,7 +1017,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -1059,10 +1035,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
         }
       ],
       "westernmostPoint": {
@@ -1082,7 +1054,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in South America"
+          "value": "country in South America"
         }
       ],
       "easternmostPoint": {
@@ -1223,12 +1195,12 @@
           "label": "confessional state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -1330,6 +1302,10 @@
         {
           "lang": "en",
           "toponym": "Republic of Armenia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Հայաստան"
         }
       ],
       "northernmostPoint": {
@@ -1381,6 +1357,13 @@
           "value": "Caribbean island constituent country of the Kingdom of the Netherlands"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -69.865833333,
+          12.418055555
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -1445,15 +1428,25 @@
         {
           "lang": "en",
           "toponym": "Island of Aruba"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇼"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -70.054722222,
+          12.623333333
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "AW",
         "title": "Aruba"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -69.8825,
+          12.411944444
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -1473,7 +1466,14 @@
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -70.063611111,
+          12.540833333
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -1484,7 +1484,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Oceania"
+          "value": "country"
         }
       ],
       "easternmostPoint": {
@@ -1591,6 +1591,10 @@
       },
       "id": "http://www.wikidata.org/entity/Q408",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "'Straya"
+        },
         {
           "lang": "en",
           "toponym": "Aussieland"
@@ -1776,18 +1780,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Austria"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republik Österreich"
-        },
-        {
-          "lang": "en",
-          "toponym": "Österreich"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇹"
         }
       ],
       "northernmostPoint": {
@@ -1829,14 +1821,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
         }
       ],
       "westernmostPoint": {
@@ -1941,19 +1925,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Azərbaycan Respublikası"
-        },
-        {
-          "lang": "en",
-          "toponym": "Azərbaycan"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Azerbaijan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇿"
         }
       ],
       "northernmostPoint": {
@@ -2096,14 +2068,6 @@
         {
           "lang": "en",
           "toponym": "Mamlakat al-Baḥrayn"
-        },
-        {
-          "lang": "en",
-          "toponym": "مملكة البحرين"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇭"
         }
       ],
       "northernmostPoint": {
@@ -2150,124 +2114,6 @@
         ],
         "type": "Point"
       }
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guernsey.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "British Crown Dependency consisting of several islands"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  -2.639014,
-                  49.450928
-                ],
-                [
-                  -2.646143,
-                  49.468213
-                ],
-                [
-                  -2.542187,
-                  49.506592
-                ],
-                [
-                  -2.520898,
-                  49.506299
-                ],
-                [
-                  -2.512305,
-                  49.494531
-                ],
-                [
-                  -2.547363,
-                  49.428711
-                ],
-                [
-                  -2.639014,
-                  49.450928
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "geoshape": {
-        "id": "http://commons.wikimedia.org/data/main/Data:Guernsey.map"
-      },
-      "id": "http://www.wikidata.org/entity/Q25230",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Bailiwick of Guernsey"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bailliage de Guernesey"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bailliage dé Guernési"
-        },
-        {
-          "lang": "en",
-          "toponym": "GB-GSY"
-        },
-        {
-          "lang": "en",
-          "toponym": "Giernési"
-        },
-        {
-          "lang": "en",
-          "toponym": "Great Britain Guernsey"
-        },
-        {
-          "lang": "en",
-          "toponym": "Guernsey"
-        },
-        {
-          "lang": "en",
-          "toponym": "Lisia"
-        },
-        {
-          "lang": "en",
-          "toponym": "XA-GG"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇬"
-        }
-      ],
-      "properties": {
-        "ccode": "GG",
-        "title": "Bailiwick of Guernsey"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q161243",
-          "label": "dependent territory"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q185086",
-          "label": "Crown Dependencies"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q4996207",
-          "label": "bailiwick"
-        }
-      ]
     },
     {
       "depictions": [
@@ -2391,10 +2237,6 @@
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q465613",
-          "label": "people's republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
         }
@@ -2482,10 +2324,6 @@
         {
           "lang": "en",
           "toponym": "Barbados"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇧"
         }
       ],
       "northernmostPoint": {
@@ -2509,8 +2347,20 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q202686",
+          "label": "Commonwealth realm"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -2644,10 +2494,6 @@
         {
           "lang": "en",
           "toponym": "White Ruthenia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇾"
         }
       ],
       "northernmostPoint": {
@@ -2689,10 +2535,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -2782,10 +2624,6 @@
         {
           "lang": "en",
           "toponym": "Kingdom of Belgium"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇪"
         }
       ],
       "northernmostPoint": {
@@ -2809,16 +2647,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q185441",
-          "label": "member state of the European Union"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q43702",
-          "label": "federation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -2939,8 +2769,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q202686",
+          "label": "Commonwealth realm"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -3041,15 +2879,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Dahomey"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Benin"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇯"
         }
       ],
       "northernmostPoint": {
@@ -3184,10 +3014,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Bermudas"
-        },
-        {
-          "lang": "en",
           "toponym": "Bermudian Islands"
         },
         {
@@ -3229,10 +3055,6 @@
         {
           "lang": "en",
           "toponym": "Virgineola"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇲"
         }
       ],
       "properties": {
@@ -3242,16 +3064,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1402592",
-          "label": "island group"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q33837",
-          "label": "archipelago"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q56061",
@@ -3342,10 +3156,6 @@
         {
           "lang": "en",
           "toponym": "Kingdom of Bhutan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇹"
         }
       ],
       "northernmostPoint": {
@@ -3508,10 +3318,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Bolivia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇴"
         }
       ],
       "northernmostPoint": {
@@ -3545,10 +3351,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -3653,15 +3455,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Bosnia"
-        },
-        {
-          "lang": "en",
           "toponym": "Bosnia-Herzegovina"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇦"
         }
       ],
       "northernmostPoint": {
@@ -3687,6 +3481,14 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51576574",
+          "label": "Mediterranean country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -3796,10 +3598,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Botswana"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇼"
         }
       ],
       "northernmostPoint": {
@@ -3957,10 +3755,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Brasil"
-        },
-        {
-          "lang": "en",
           "toponym": "Brazil"
         },
         {
@@ -3993,16 +3787,8 @@
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7378937",
-          "label": "rule of law"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q859563",
@@ -4026,7 +3812,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "overseas territory in the Indian Ocean"
+          "value": "British overseas territory in the Indian Ocean"
         }
       ],
       "geometry": {
@@ -4103,7 +3889,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -4190,7 +3976,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇻🇬"
+          "toponym": "Virgin Islands, United Kingdom"
         }
       ],
       "properties": {
@@ -4201,7 +3987,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -4214,7 +4000,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Southeast Asia"
+          "value": "sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations"
         }
       ],
       "easternmostPoint": {
@@ -4267,10 +4053,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Brunei Darussalam"
-        },
-        {
-          "lang": "en",
           "toponym": "Brunei"
         },
         {
@@ -4280,10 +4062,6 @@
         {
           "lang": "en",
           "toponym": "Negara Brunei Darussalam"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇳"
         }
       ],
       "northernmostPoint": {
@@ -4311,6 +4089,10 @@
           "label": "sultanate"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
@@ -4336,7 +4118,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Southeast Europe"
+          "value": "country in southeast Europe"
         }
       ],
       "easternmostPoint": {
@@ -4409,11 +4191,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Republic of Bulgaria"
+          "toponym": "Bulgarian Republic"
         },
         {
           "lang": "en",
-          "toponym": "🇧🇬"
+          "toponym": "Republic of Bulgaria"
         }
       ],
       "northernmostPoint": {
@@ -4572,10 +4354,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Upper Volta (-1984)"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇫"
         }
       ],
       "northernmostPoint": {
@@ -4706,10 +4484,6 @@
         {
           "lang": "en",
           "toponym": "Republika y'Uburundi"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇮"
         }
       ],
       "northernmostPoint": {
@@ -4868,10 +4642,6 @@
         {
           "lang": "en",
           "toponym": "Kingdom of Cambodia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇭"
         }
       ],
       "northernmostPoint": {
@@ -4901,10 +4671,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q41614",
-          "label": "constitutional monarchy"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -5010,10 +4776,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Cameroon"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇲"
         }
       ],
       "northernmostPoint": {
@@ -5208,14 +4970,6 @@
         {
           "lang": "en",
           "toponym": "Canada"
-        },
-        {
-          "lang": "en",
-          "toponym": "Dominion of Canada"
-        },
-        {
-          "lang": "en",
-          "toponym": "ISO 3166-1:CA"
         }
       ],
       "northernmostPoint": {
@@ -5258,7 +5012,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cape%20Verde.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cape%20Verde%20%2810-17%29.svg"
         }
       ],
       "descriptions": [
@@ -5353,10 +5107,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Cabo Verde"
-        },
-        {
-          "lang": "en",
           "toponym": "Cape Verde Islands"
         },
         {
@@ -5370,10 +5120,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Cape Verde"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇻"
         }
       ],
       "northernmostPoint": {
@@ -5401,7 +5147,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -5509,7 +5255,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇰🇾"
+          "toponym": "Caymans"
         }
       ],
       "properties": {
@@ -5524,7 +5270,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -5610,27 +5356,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Centrafrique"
+          "toponym": "Central Africa"
         },
         {
           "lang": "en",
           "toponym": "Central African Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ködörösêse tî Bêafrîka"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republique centrafricaine"
-        },
-        {
-          "lang": "en",
-          "toponym": "République centrafricaine"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇫"
         }
       ],
       "northernmostPoint": {
@@ -5769,10 +5499,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Chad"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇩"
         }
       ],
       "northernmostPoint": {
@@ -5935,14 +5661,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Chile"
-        },
-        {
-          "lang": "en",
-          "toponym": "República de Chile"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇱"
         }
       ],
       "northernmostPoint": {
@@ -5965,6 +5683,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1323642",
+          "label": "transcontinental country"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -5999,7 +5721,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in South America"
+          "value": "country in South America"
         }
       ],
       "easternmostPoint": {
@@ -6100,27 +5822,11 @@
         },
         {
           "lang": "en",
-          "toponym": "ISO 3166-1:CO"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Colombia"
         },
         {
           "lang": "en",
-          "toponym": "Republica de Colombia"
-        },
-        {
-          "lang": "en",
-          "toponym": "República de Colombia"
-        },
-        {
-          "lang": "en",
           "toponym": "The Republic of Colombia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇴"
         }
       ],
       "northernmostPoint": {
@@ -6143,6 +5849,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -6291,10 +6001,6 @@
         {
           "lang": "en",
           "toponym": "the Comoros"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇲"
         }
       ],
       "northernmostPoint": {
@@ -6322,7 +6028,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -6422,10 +6128,6 @@
         {
           "lang": "en",
           "toponym": "Hervey Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇰"
         }
       ],
       "properties": {
@@ -6531,10 +6233,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Costa Rica"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇷"
         }
       ],
       "northernmostPoint": {
@@ -6819,10 +6517,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Cuba"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇺"
         }
       ],
       "northernmostPoint": {
@@ -6883,7 +6577,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island country in the Caribbean, part of the Kingdom of the Netherlands"
+          "value": "island state in the Caribbean, part of the Kingdom of the Netherlands"
         }
       ],
       "geometry": {
@@ -6941,10 +6635,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Curacao"
-        },
-        {
-          "lang": "en",
           "toponym": "Curacau"
         },
         {
@@ -6974,14 +6664,6 @@
         {
           "lang": "en",
           "toponym": "Island Territory of Curaçao"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kòrsou"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇼"
         }
       ],
       "properties": {
@@ -6991,8 +6673,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q15304003",
           "label": "country of the Kingdom of the Netherlands"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ]
     },
@@ -7005,7 +6695,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Mediterranean island nation in Europe"
+          "value": "country in the Mediterranean Sea"
         }
       ],
       "easternmostPoint": {
@@ -7087,10 +6777,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Cyprus"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇾"
         }
       ],
       "northernmostPoint": {
@@ -7225,6 +6911,10 @@
         {
           "lang": "en",
           "toponym": "Czechia"
+        },
+        {
+          "lang": "en",
+          "toponym": "the Czech Republic"
         }
       ],
       "northernmostPoint": {
@@ -7256,24 +6946,12 @@
           "label": "successor state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q160016",
-          "label": "member states of the United Nations"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q185441",
-          "label": "member state of the European Union"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6505795",
-          "label": "member states of the Council of Europe"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7270",
@@ -7398,14 +7076,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Congo"
-        },
-        {
-          "lang": "en",
-          "toponym": "Congo-Kinshasa"
-        },
-        {
-          "lang": "en",
           "toponym": "D.R.C."
         },
         {
@@ -7431,14 +7101,6 @@
         {
           "lang": "en",
           "toponym": "Democratic Republic of the Congo"
-        },
-        {
-          "lang": "en",
-          "toponym": "Zaire"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇩"
         }
       ],
       "northernmostPoint": {
@@ -7560,6 +7222,14 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Danemark"
+        },
+        {
+          "lang": "en",
+          "toponym": "Dania"
+        },
+        {
+          "lang": "en",
           "toponym": "Danmark"
         },
         {
@@ -7573,10 +7243,6 @@
         {
           "lang": "en",
           "toponym": "metropolitan Denmark"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇩🇰"
         }
       ],
       "northernmostPoint": {
@@ -7723,10 +7389,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Djibouti"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇩🇯"
         }
       ],
       "northernmostPoint": {
@@ -7861,10 +7523,6 @@
         {
           "lang": "en",
           "toponym": "Wai‘tu kubuli"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇩🇲"
         }
       ],
       "northernmostPoint": {
@@ -8007,10 +7665,6 @@
         {
           "lang": "en",
           "toponym": "República Dominicana"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇩🇴"
         }
       ],
       "northernmostPoint": [
@@ -8041,7 +7695,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -8057,144 +7711,6 @@
         "coordinates": [
           -72.01091,
           18.62188
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "sovereign state situated on several islands in Southeast Asia"
-        }
-      ],
-      "easternmostPoint": {
-        "coordinates": [
-          127.343011111,
-          -8.4382
-        ],
-        "type": "Point"
-      },
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  125.08852,
-                  -9.393173
-                ],
-                [
-                  124.968682,
-                  -8.89279
-                ],
-                [
-                  125.086246,
-                  -8.656887
-                ],
-                [
-                  125.947072,
-                  -8.432095
-                ],
-                [
-                  126.957243,
-                  -8.273345
-                ],
-                [
-                  127.335928,
-                  -8.397317
-                ],
-                [
-                  126.967992,
-                  -8.668256
-                ],
-                [
-                  125.925885,
-                  -9.106007
-                ],
-                [
-                  125.08852,
-                  -9.393173
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "geoshape": {
-        "id": "http://commons.wikimedia.org/data/main/Data:East+Timor.map"
-      },
-      "id": "http://www.wikidata.org/entity/Q574",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Democratic Republic of East Timor"
-        },
-        {
-          "lang": "en",
-          "toponym": "Democratic Republic of Timor-Leste"
-        },
-        {
-          "lang": "en",
-          "toponym": "East Timor"
-        },
-        {
-          "lang": "en",
-          "toponym": "Timor Leste"
-        },
-        {
-          "lang": "en",
-          "toponym": "Timor-Leste"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇱"
-        }
-      ],
-      "northernmostPoint": {
-        "coordinates": [
-          125.63,
-          -8.13
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "ccode": "TL",
-        "title": "East Timor"
-      },
-      "southernmostPoint": {
-        "coordinates": [
-          124.28707346,
-          -9.50418829
-        ],
-        "type": "Point"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q112099",
-          "label": "island country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        }
-      ],
-      "westernmostPoint": {
-        "coordinates": [
-          124.04173849,
-          -9.34005816
         ],
         "type": "Point"
       }
@@ -8293,15 +7809,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Republic of Equator"
+        },
+        {
+          "lang": "en",
           "toponym": "Republic of the Equator"
         },
         {
           "lang": "en",
           "toponym": "The Ecuadorian State"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇪🇨"
         }
       ],
       "northernmostPoint": {
@@ -8431,15 +7947,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Misr"
+        },
+        {
+          "lang": "en",
           "toponym": "Rep. Egypt"
         },
         {
           "lang": "en",
           "toponym": "Republic of Egypt"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇪🇬"
         }
       ],
       "northernmostPoint": {
@@ -8586,10 +8102,6 @@
         {
           "lang": "en",
           "toponym": "Salvador"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇻"
         }
       ],
       "northernmostPoint": {
@@ -8708,6 +8220,14 @@
         {
           "lang": "en",
           "toponym": "England"
+        },
+        {
+          "lang": "en",
+          "toponym": "England, UK"
+        },
+        {
+          "lang": "en",
+          "toponym": "England, United Kingdom"
         }
       ],
       "northernmostPoint": {
@@ -8733,18 +8253,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3336843",
           "label": "constituent country of the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q518261",
-          "label": "cultural area"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ],
       "westernmostPoint": {
@@ -8764,7 +8272,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Africa"
+          "value": "sovereign state in Central Africa"
         }
       ],
       "easternmostPoint": {
@@ -8822,10 +8330,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Equatorial Guinea"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇶"
         }
       ],
       "northernmostPoint": {
@@ -8851,6 +8355,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -8948,10 +8456,6 @@
         {
           "lang": "en",
           "toponym": "State of Eritrea"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇪🇷"
         }
       ],
       "northernmostPoint": {
@@ -9081,10 +8585,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Eesti"
-        },
-        {
-          "lang": "en",
           "toponym": "Estland"
         },
         {
@@ -9094,10 +8594,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Estonia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇪🇪"
         }
       ],
       "northernmostPoint": {
@@ -9248,10 +8744,6 @@
         {
           "lang": "en",
           "toponym": "eSwatini"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇿"
         }
       ],
       "northernmostPoint": {
@@ -9285,6 +8777,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q417175",
           "label": "kingdom"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -9402,10 +8898,6 @@
         {
           "lang": "en",
           "toponym": "Federal Democratic Republic of Ethiopia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇪🇹"
         }
       ],
       "northernmostPoint": {
@@ -9528,7 +9020,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇫🇰"
+          "toponym": "Malvinas"
         }
       ],
       "properties": {
@@ -9539,7 +9031,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -9873,10 +9365,6 @@
         {
           "lang": "en",
           "toponym": "Micronesia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇫🇲"
         }
       ],
       "properties": {
@@ -10028,10 +9516,6 @@
         {
           "lang": "en",
           "toponym": "Viti"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇫🇯"
         }
       ],
       "northernmostPoint": {
@@ -10059,7 +9543,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -10198,14 +9682,6 @@
         {
           "lang": "en",
           "toponym": "Suomen tasavalta"
-        },
-        {
-          "lang": "en",
-          "toponym": "Suomi"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇫🇮"
         }
       ],
       "northernmostPoint": {
@@ -10256,13 +9732,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France%20%281794%E2%80%931815%2C%201830%E2%80%931974%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Western Europe"
+          "value": "country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)"
         }
       ],
       "easternmostPoint": {
@@ -10352,14 +9828,6 @@
         {
           "lang": "en",
           "toponym": "French Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of France"
-        },
-        {
-          "lang": "en",
-          "toponym": "the Hexagon"
         }
       ],
       "northernmostPoint": {
@@ -10514,10 +9982,6 @@
         {
           "lang": "en",
           "toponym": "République Gabonaise"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇦"
         }
       ],
       "northernmostPoint": {
@@ -10566,7 +10030,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in the Caucasus"
+          "value": "country in the Caucasus region of Europe and Asia"
         }
       ],
       "easternmostPoint": {
@@ -10635,6 +10099,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Georgia (Sakartvelo)"
+        },
+        {
+          "lang": "en",
           "toponym": "Georgia (country)"
         },
         {
@@ -10648,10 +10116,6 @@
         {
           "lang": "en",
           "toponym": "Sakartvelo"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇪"
         }
       ],
       "northernmostPoint": {
@@ -10675,8 +10139,32 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q236036",
+          "label": "republic of the Soviet Union"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4209223",
+          "label": "Rechtsstaat"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7270",
+          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -10787,18 +10275,6 @@
       },
       "id": "http://www.wikidata.org/entity/Q183",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "BR Deutschland"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bundesrepublik Deutschland"
-        },
-        {
-          "lang": "en",
-          "toponym": "Deutschland"
-        },
         {
           "lang": "en",
           "toponym": "Federal Republic of Germany"
@@ -10932,10 +10408,6 @@
         {
           "lang": "en",
           "toponym": "Ghana"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republic of Ghana"
         }
       ],
       "northernmostPoint": {
@@ -10984,7 +10456,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "British Overseas Territory"
+          "value": "British overseas territory on the southern end of the Iberian Peninsula"
         }
       ],
       "geometry": {
@@ -11031,14 +10503,6 @@
         {
           "lang": "en",
           "toponym": "Gibraltar"
-        },
-        {
-          "lang": "en",
-          "toponym": "The Rock of Gibraltar"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇮"
         }
       ],
       "properties": {
@@ -11057,11 +10521,11 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port settlement"
+          "label": "port city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -11195,19 +10659,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Greek"
-        },
-        {
-          "lang": "en",
           "toponym": "Hellas"
         },
         {
           "lang": "en",
-          "toponym": "Hellenic Republic"
+          "toponym": "Hellas, Greece"
         },
         {
           "lang": "en",
-          "toponym": "🇬🇷"
+          "toponym": "Hellenic Republic"
         }
       ],
       "northernmostPoint": {
@@ -11256,9 +10716,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous country within the Kingdom of Denmark on several islands including world's largest island by the same name"
+          "value": "autonomous territory of the Kingdom of Denmark and world's largest island"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          -12.133331,
+          81.516669
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -11363,21 +10830,35 @@
         {
           "lang": "en",
           "toponym": "Kalaallit Nunaat"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇱"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -32.664388888,
+          83.6275
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "GL",
         "title": "Greenland"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          -43.9225,
+          59.773055555
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q112099",
           "label": "island country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q161243",
@@ -11388,10 +10869,25 @@
           "label": "electoral unit"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q66724388",
           "label": "autonomous country within the Kingdom of Denmark"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q788176",
+          "label": "autonomous administrative territorial entity"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -72.83333333,
+          76.71666667
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -11464,10 +10960,6 @@
         {
           "lang": "en",
           "toponym": "Grenada"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇩"
         }
       ],
       "northernmostPoint": {
@@ -11495,7 +10987,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -11614,10 +11106,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Guatemala"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇹"
         }
       ],
       "northernmostPoint": {
@@ -11664,6 +11152,116 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guernsey.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of the British Crown Dependencies in the Channel Islands"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  -2.639014,
+                  49.450928
+                ],
+                [
+                  -2.646143,
+                  49.468213
+                ],
+                [
+                  -2.542187,
+                  49.506592
+                ],
+                [
+                  -2.520898,
+                  49.506299
+                ],
+                [
+                  -2.512305,
+                  49.494531
+                ],
+                [
+                  -2.547363,
+                  49.428711
+                ],
+                [
+                  -2.639014,
+                  49.450928
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Guernsey.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q25230",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Bailiwick of Guernsey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bailliage de Guernesey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bailliage dé Guernési"
+        },
+        {
+          "lang": "en",
+          "toponym": "GB-GSY"
+        },
+        {
+          "lang": "en",
+          "toponym": "Giernési"
+        },
+        {
+          "lang": "en",
+          "toponym": "Great Britain Guernsey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Guernsey"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lisia"
+        },
+        {
+          "lang": "en",
+          "toponym": "XA-GG"
+        }
+      ],
+      "properties": {
+        "ccode": "GG",
+        "title": "Guernsey"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q185086",
+          "label": "Crown Dependencies"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4996207",
+          "label": "bailiwick"
+        }
+      ]
     },
     {
       "depictions": [
@@ -11776,18 +11374,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Guinea"
-        },
-        {
-          "lang": "en",
-          "toponym": "Republique de Guinee"
-        },
-        {
-          "lang": "en",
-          "toponym": "République de Guinée"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇳"
         }
       ],
       "northernmostPoint": {
@@ -11914,10 +11500,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Guinea-Bissau"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇼"
         }
       ],
       "northernmostPoint": {
@@ -12052,10 +11634,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Guyana"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇾"
         }
       ],
       "northernmostPoint": {
@@ -12104,7 +11682,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island sovereign state in the Caribbean Sea"
+          "value": "country in the Caribbean Sea"
         }
       ],
       "easternmostPoint": {
@@ -12190,14 +11768,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Haiti"
-        },
-        {
-          "lang": "en",
-          "toponym": "République d'Haïti"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇭🇹"
         }
       ],
       "northernmostPoint": {
@@ -12227,6 +11797,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -12240,7 +11814,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Honduras.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Honduras%20%281949%E2%80%932022%2C%202026%E2%80%93present%29.svg"
         }
       ],
       "descriptions": [
@@ -12336,10 +11910,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Honduras"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇭🇳"
         }
       ],
       "northernmostPoint": {
@@ -12470,14 +12040,6 @@
         {
           "lang": "en",
           "toponym": "Hungary"
-        },
-        {
-          "lang": "en",
-          "toponym": "Magyarország"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇭🇺"
         }
       ],
       "northernmostPoint": {
@@ -12619,7 +12181,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Island"
+          "toponym": "Icelandic republic"
+        },
+        {
+          "lang": "en",
+          "toponym": "Isl."
         },
         {
           "lang": "en",
@@ -12628,10 +12194,6 @@
         {
           "lang": "en",
           "toponym": "Ysland"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇸"
         }
       ],
       "northernmostPoint": {
@@ -12659,6 +12221,10 @@
           "label": "island country"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
@@ -12677,9 +12243,6 @@
     },
     {
       "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Raj%20Red%20Ensign.svg"
-        },
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg"
         }
@@ -12770,17 +12333,17 @@
         "type": "GeometryCollection"
       },
       "geoshape": {
-        "id": "http://commons.wikimedia.org/data/main/Data:India.map"
+        "id": "http://commons.wikimedia.org/data/main/Data:India+outline.map"
       },
       "id": "http://www.wikidata.org/entity/Q668",
       "names": [
         {
           "lang": "en",
-          "toponym": "Bharat Ganarajya"
+          "toponym": "Al Hind"
         },
         {
           "lang": "en",
-          "toponym": "Bharat"
+          "toponym": "Bharat Ganarajya"
         },
         {
           "lang": "en",
@@ -12812,7 +12375,11 @@
         },
         {
           "lang": "en",
-          "toponym": "🇮🇳"
+          "toponym": "Tenjiku"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tianzhu"
         }
       ],
       "northernmostPoint": {
@@ -12836,28 +12403,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1520223",
-          "label": "constitutional republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5255892",
-          "label": "democratic republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -12877,7 +12428,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Southeast Asia and Oceania"
+          "value": "island country in Southeast Asia and Oceania"
         }
       ],
       "easternmostPoint": {
@@ -13006,7 +12557,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -13016,10 +12567,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q49892",
-          "label": "presidential system"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -13157,14 +12704,6 @@
         {
           "lang": "en",
           "toponym": "Islamic Republic of Iran"
-        },
-        {
-          "lang": "en",
-          "toponym": "Persia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇷"
         }
       ],
       "northernmostPoint": {
@@ -13198,10 +12737,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q672729",
-          "label": "Islamic Republic"
         }
       ],
       "westernmostPoint": {
@@ -13221,7 +12756,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in western Asia"
+          "value": "sovereign state in Western Asia"
         }
       ],
       "easternmostPoint": {
@@ -13302,23 +12837,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Jumhūriyyat al-‘Irāq"
-        },
-        {
-          "lang": "en",
-          "toponym": "Komar-i ‘Êraq"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Iraq"
-        },
-        {
-          "lang": "en",
-          "toponym": "al-‘Irāq"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇶"
         }
       ],
       "northernmostPoint": {
@@ -13428,10 +12947,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Hibernia"
-        },
-        {
-          "lang": "en",
           "toponym": "Ireland"
         },
         {
@@ -13445,14 +12960,6 @@
         {
           "lang": "en",
           "toponym": "Southern Ireland"
-        },
-        {
-          "lang": "en",
-          "toponym": "Éire"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇪"
         }
       ],
       "northernmostPoint": {
@@ -13582,10 +13089,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Ellan Vannin"
-        },
-        {
-          "lang": "en",
           "toponym": "I. M."
         },
         {
@@ -13614,19 +13117,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Mannin"
-        },
-        {
-          "lang": "en",
           "toponym": "Manx"
         },
         {
           "lang": "en",
           "toponym": "the Isle of Man"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇲"
         }
       ],
       "northernmostPoint": {
@@ -13652,10 +13147,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q185086",
           "label": "Crown Dependencies"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
         }
       ],
       "westernmostPoint": {
@@ -13675,7 +13166,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Middle East"
+          "value": "country in West Asia"
         }
       ],
       "easternmostPoint": {
@@ -13748,15 +13239,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Jewish state"
-        },
-        {
-          "lang": "en",
           "toponym": "State of Israel"
         },
         {
           "lang": "en",
-          "toponym": "Zionist state"
+          "toponym": "Yisrael"
         }
       ],
       "northernmostPoint": {
@@ -13797,7 +13284,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
+          "label": "region"
         }
       ],
       "westernmostPoint": {
@@ -13817,7 +13304,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Southern Europe"
+          "value": "country in southern Europe"
         }
       ],
       "easternmostPoint": {
@@ -13898,10 +13385,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Italia"
-        },
-        {
-          "lang": "en",
           "toponym": "Italian Republic"
         },
         {
@@ -13910,15 +13393,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Repubblica Italiana"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Italy"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇹"
         }
       ],
       "northernmostPoint": {
@@ -14068,14 +13543,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Côte d'Ivoire"
-        },
-        {
-          "lang": "en",
-          "toponym": "Côte d’Ivoire"
-        },
-        {
-          "lang": "en",
           "toponym": "Côte-d'Ivoire"
         },
         {
@@ -14101,10 +13568,6 @@
         {
           "lang": "en",
           "toponym": "The Ivory Coast"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇮"
         }
       ],
       "northernmostPoint": {
@@ -14227,10 +13690,6 @@
         {
           "lang": "en",
           "toponym": "Jamaica"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇯🇲"
         }
       ],
       "northernmostPoint": {
@@ -14258,7 +13717,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -14380,15 +13839,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Nihon"
-        },
-        {
-          "lang": "en",
           "toponym": "Nihon-koku"
-        },
-        {
-          "lang": "en",
-          "toponym": "Nippon"
         },
         {
           "lang": "en",
@@ -14397,10 +13848,6 @@
         {
           "lang": "en",
           "toponym": "State of Japan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇯🇵"
         }
       ],
       "northernmostPoint": {
@@ -14503,10 +13950,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Bailiwick of Jersey"
-        },
-        {
-          "lang": "en",
           "toponym": "Bailliage de Jerri"
         },
         {
@@ -14560,10 +14003,6 @@
         {
           "lang": "en",
           "toponym": "Jèrri"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇯🇪"
         }
       ],
       "properties": {
@@ -14575,10 +14014,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q185086",
           "label": "Crown Dependencies"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
         }
       ]
     },
@@ -14591,7 +14026,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in the Middle East"
+          "value": "country in West Asia"
         }
       ],
       "easternmostPoint": {
@@ -14668,6 +14103,10 @@
         },
         {
           "lang": "en",
+          "toponym": "ISO 3166-1:JO"
+        },
+        {
+          "lang": "en",
           "toponym": "Jordan"
         },
         {
@@ -14676,11 +14115,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Yarden"
+          "toponym": "State of Jordan"
         },
         {
           "lang": "en",
-          "toponym": "🇯🇴"
+          "toponym": "Yarden"
         }
       ],
       "northernmostPoint": {
@@ -14839,16 +14278,12 @@
         {
           "lang": "en",
           "toponym": "Republic of Qazaqstan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇿"
         }
       ],
       "northernmostPoint": {
         "coordinates": [
-          68.97,
-          55.43
+          68.979409206,
+          55.442048337
         ],
         "type": "Point"
       },
@@ -14870,8 +14305,8 @@
           "label": "landlocked country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1323642",
-          "label": "transcontinental country"
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q179164",
@@ -14981,10 +14416,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Kenya"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇪"
         }
       ],
       "northernmostPoint": {
@@ -15161,10 +14592,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Kiribati"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇮"
         }
       ],
       "northernmostPoint": {
@@ -15192,12 +14619,16 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -15217,7 +14648,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "not fully recognized country in southeastern Europe"
+          "value": "country in southeastern Europe"
         }
       ],
       "easternmostPoint": {
@@ -15291,10 +14722,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Kosovo"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇽🇰"
         }
       ],
       "northernmostPoint": {
@@ -15328,6 +14755,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q179164",
           "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -15413,10 +14844,6 @@
         {
           "lang": "en",
           "toponym": "State of Kuwait"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇼"
         }
       ],
       "northernmostPoint": {
@@ -15442,6 +14869,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -15546,25 +14977,17 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Kirgizia"
-        },
-        {
-          "lang": "en",
           "toponym": "Kyrgyz Republic"
         },
         {
           "lang": "en",
           "toponym": "Kyrgyzstan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇬"
         }
       ],
       "northernmostPoint": {
         "coordinates": [
-          74.3,
-          43.23
+          74.205555555,
+          43.263888888
         ],
         "type": "Point"
       },
@@ -15701,10 +15124,6 @@
         {
           "lang": "en",
           "toponym": "Laos"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇦"
         }
       ],
       "northernmostPoint": {
@@ -15923,7 +15342,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Western Asia"
+          "value": "country in West Asia"
         }
       ],
       "easternmostPoint": {
@@ -16000,7 +15419,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇱🇧"
+          "toponym": "State of Lebanon"
         }
       ],
       "northernmostPoint": {
@@ -16131,10 +15550,6 @@
         {
           "lang": "en",
           "toponym": "The Mountain Kingdom"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇸"
         }
       ],
       "northernmostPoint": {
@@ -16276,15 +15691,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Liber"
+        },
+        {
+          "lang": "en",
           "toponym": "Liberia"
         },
         {
           "lang": "en",
           "toponym": "Republic of Liberia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇷"
         }
       ],
       "northernmostPoint": {
@@ -16314,10 +15729,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -16431,10 +15842,6 @@
         {
           "lang": "en",
           "toponym": "State of Libya"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇾"
         }
       ],
       "northernmostPoint": {
@@ -16561,10 +15968,6 @@
         {
           "lang": "en",
           "toponym": "Principality of Liechtenstein"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇮"
         }
       ],
       "northernmostPoint": {
@@ -16690,23 +16093,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Lietuva"
-        },
-        {
-          "lang": "en",
-          "toponym": "Lietuvos Respublika"
-        },
-        {
-          "lang": "en",
           "toponym": "Lithuania"
         },
         {
           "lang": "en",
           "toponym": "Republic of Lithuania"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇹"
         }
       ],
       "northernmostPoint": {
@@ -16763,7 +16154,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Northwestern Europe"
+          "value": "country in Western Europe"
         }
       ],
       "easternmostPoint": {
@@ -16825,14 +16216,6 @@
         {
           "lang": "en",
           "toponym": "Luxembourg"
-        },
-        {
-          "lang": "en",
-          "toponym": "Luxemburg"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇺"
         }
       ],
       "northernmostPoint": {
@@ -16856,8 +16239,24 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q165116",
+          "label": "grand duchy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -16987,10 +16386,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Madagascar"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇬"
         }
       ],
       "northernmostPoint": {
@@ -17016,6 +16411,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q112099",
           "label": "island country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -17117,10 +16516,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Malawi"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇼"
         }
       ],
       "northernmostPoint": {
@@ -17279,10 +16674,6 @@
         {
           "lang": "en",
           "toponym": "Malaysia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇾"
         }
       ],
       "northernmostPoint": {
@@ -17306,16 +16697,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1951661",
-          "label": "member states of ASEAN"
+          "identifier": "http://www.wikidata.org/entity/Q140892892",
+          "label": "country sometimes considered transcontinental"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q43702",
-          "label": "federation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -17421,10 +16808,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Maldives"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇻"
         }
       ],
       "northernmostPoint": {
@@ -17452,7 +16835,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -17571,10 +16954,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Mali"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇱"
         }
       ],
       "northernmostPoint": {
@@ -17627,7 +17006,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Southern Europe situated on an archipelago in the Mediterranean Sea"
+          "value": "country in Southern Europe situated on an archipelago in the Mediterranean Sea"
         }
       ],
       "easternmostPoint": {
@@ -17705,10 +17084,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Malta"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇹"
         }
       ],
       "northernmostPoint": {
@@ -17833,12 +17208,16 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ]
     },
@@ -17957,10 +17336,6 @@
         {
           "lang": "en",
           "toponym": "Murutaane"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇷"
         }
       ],
       "northernmostPoint": {
@@ -18115,10 +17490,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Mauritius"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇺"
         }
       ],
       "northernmostPoint": {
@@ -18146,16 +17517,12 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q4198907",
-          "label": "parliamentary republic"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -18288,6 +17655,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Mexican United States"
+        },
+        {
+          "lang": "en",
           "toponym": "Mexico"
         },
         {
@@ -18300,7 +17671,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇲🇽"
+          "toponym": "United States of Mexico"
         }
       ],
       "northernmostPoint": {
@@ -18324,36 +17695,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1520223",
-          "label": "constitutional republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5255892",
-          "label": "democratic republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q611214",
-          "label": "Next Eleven"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ],
       "westernmostPoint": {
@@ -18455,10 +17802,6 @@
         {
           "lang": "en",
           "toponym": "Republica Moldova"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇩"
         }
       ],
       "northernmostPoint": {
@@ -18482,8 +17825,20 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -18503,7 +17858,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign city-state on the French Riviera"
+          "value": "microstate in Western Europe"
         }
       ],
       "easternmostPoint": {
@@ -18593,10 +17948,6 @@
         {
           "lang": "en",
           "toponym": "Prinçipatu de Mùnegu"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇨"
         }
       ],
       "northernmostPoint": {
@@ -18620,8 +17971,28 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q208500",
+          "label": "principality"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q902814",
+          "label": "border city"
         }
       ],
       "westernmostPoint": {
@@ -18730,7 +18101,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Mongol uls"
+          "toponym": "Mongol State"
         },
         {
           "lang": "en",
@@ -18738,7 +18109,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇲🇳"
+          "toponym": "State of Mongolia"
         }
       ],
       "northernmostPoint": {
@@ -18856,15 +18227,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Crna Gora"
-        },
-        {
-          "lang": "en",
           "toponym": "Montenegro"
         },
         {
           "lang": "en",
-          "toponym": "🇲🇪"
+          "toponym": "Republic of Montenegro"
         }
       ],
       "northernmostPoint": {
@@ -18921,7 +18288,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "British overseas territory in the Caribbean"
+          "value": "British overseas territory and island in the Caribbean"
         }
       ],
       "geometry": {
@@ -18971,11 +18338,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Montserrat"
+          "toponym": "Island of Montserrat"
         },
         {
           "lang": "en",
-          "toponym": "🇲🇸"
+          "toponym": "Montserrat"
         }
       ],
       "properties": {
@@ -18990,7 +18357,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -19113,14 +18480,6 @@
         {
           "lang": "en",
           "toponym": "al-Maġrib"
-        },
-        {
-          "lang": "en",
-          "toponym": "ⵎⵓⵔⴰⴽⵓⵛ"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇦"
         }
       ],
       "northernmostPoint": {
@@ -19136,8 +18495,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          -13.000833,
-          21.334026
+          -13.1727688,
+          27.6666671
         ],
         "type": "Point"
       },
@@ -19162,8 +18521,8 @@
       ],
       "westernmostPoint": {
         "coordinates": [
-          -17.050381,
-          20.769991
+          -13.1727688,
+          27.6666671
         ],
         "type": "Point"
       }
@@ -19177,7 +18536,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Southeastern Africa"
+          "value": "country in Southeastern Africa; the current form of Mozambique since 1975"
         }
       ],
       "easternmostPoint": {
@@ -19279,10 +18638,6 @@
         {
           "lang": "en",
           "toponym": "República de Moçambique"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇿"
         }
       ],
       "northernmostPoint": {
@@ -19416,10 +18771,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Burma"
-        },
-        {
-          "lang": "en",
           "toponym": "Myanmar"
         },
         {
@@ -19429,10 +18780,6 @@
         {
           "lang": "en",
           "toponym": "Union of Burma"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇲"
         }
       ],
       "northernmostPoint": {
@@ -19579,10 +18926,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Namibia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇦"
         }
       ],
       "northernmostPoint": [
@@ -19704,11 +19047,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Republic of Nauru"
+          "toponym": "Republic of Naoero"
         },
         {
           "lang": "en",
-          "toponym": "🇳🇷"
+          "toponym": "Republic of Nauru"
         }
       ],
       "properties": {
@@ -19825,7 +19168,67 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Bal-bo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bal-po'i yul"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bal-yul"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balbo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balpo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Balpo-yul"
+        },
+        {
+          "lang": "en",
           "toponym": "Federal Democratic Republic of Nepal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naipala"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naipál"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naipála"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ne-pel"
+        },
+        {
+          "lang": "en",
+          "toponym": "Necbal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nehpal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nei-pal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nekbal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nekpal"
         },
         {
           "lang": "en",
@@ -19833,7 +19236,71 @@
         },
         {
           "lang": "en",
-          "toponym": "🇳🇵"
+          "toponym": "Nepall"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nepaul"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nepál"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nercerri"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ni-po-lo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ni-po-louo"
+        },
+        {
+          "lang": "en",
+          "toponym": "Niepal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nipal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Népaal"
+        },
+        {
+          "lang": "en",
+          "toponym": "Népál"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pa-eul-pou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pa-le-pou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pa-lo-pou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pai-pou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Palpa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Palpou"
+        },
+        {
+          "lang": "en",
+          "toponym": "Paï-pou"
         }
       ],
       "northernmostPoint": {
@@ -19865,20 +19332,12 @@
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q465613",
-          "label": "people's republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
+          "label": "region"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q842112",
@@ -19902,7 +19361,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Northwestern Europe with territories in the Caribbean"
+          "value": "one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean"
         }
       ],
       "easternmostPoint": {
@@ -19971,7 +19430,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Netherlands (after 1945)"
+          "toponym": "Nederlanden"
         },
         {
           "lang": "en",
@@ -19979,11 +19438,11 @@
         },
         {
           "lang": "en",
-          "toponym": "the Netherlands"
+          "toponym": "de Nederlanden"
         },
         {
           "lang": "en",
-          "toponym": "🇳🇱"
+          "toponym": "the Netherlands"
         }
       ],
       "northernmostPoint": {
@@ -19999,8 +19458,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          5.91513991,
-          50.75040004
+          -68.247777777,
+          12.023888888
         ],
         "type": "Point"
       },
@@ -20017,8 +19476,8 @@
       ],
       "westernmostPoint": {
         "coordinates": [
-          3.36690187,
-          51.36899408
+          -68.414444444,
+          12.283888888
         ],
         "type": "Point"
       }
@@ -20117,35 +19576,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Aotearoa"
-        },
-        {
-          "lang": "en",
           "toponym": "Dominion of New Zealand"
         },
         {
           "lang": "en",
           "toponym": "New Zealand"
-        },
-        {
-          "lang": "en",
-          "toponym": "New Zeeland"
-        },
-        {
-          "lang": "en",
-          "toponym": "Nova Zelandia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Zeelandia Nova"
-        },
-        {
-          "lang": "en",
-          "toponym": "Zelandia Nova"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇿"
         }
       ],
       "northernmostPoint": {
@@ -20288,10 +19723,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Nicaragua"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇮"
         }
       ],
       "northernmostPoint": {
@@ -20454,10 +19885,6 @@
         {
           "lang": "en",
           "toponym": "The Niger"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇪"
         }
       ],
       "northernmostPoint": {
@@ -20609,10 +20036,6 @@
         {
           "lang": "en",
           "toponym": "Nigeria"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇬"
         }
       ],
       "properties": {
@@ -20706,14 +20129,6 @@
         {
           "lang": "en",
           "toponym": "Niue"
-        },
-        {
-          "lang": "en",
-          "toponym": "Niuē"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇺"
         }
       ],
       "northernmostPoint": {
@@ -20864,10 +20279,6 @@
         {
           "lang": "en",
           "toponym": "North Korea"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇵"
         }
       ],
       "northernmostPoint": {
@@ -20893,6 +20304,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1309121",
           "label": "hermit kingdom"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3303230",
+          "label": "pariah state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -21009,15 +20424,15 @@
         },
         {
           "lang": "en",
-          "toponym": "FYROM"
-        },
-        {
-          "lang": "en",
           "toponym": "Former Yugoslav Republic of Macedonia"
         },
         {
           "lang": "en",
           "toponym": "Macedonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Makedonia"
         },
         {
           "lang": "en",
@@ -21030,10 +20445,6 @@
         {
           "lang": "en",
           "toponym": "Republic of North Macedonia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇲🇰"
         }
       ],
       "northernmostPoint": {
@@ -21078,11 +20489,6 @@
       }
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20%283-5%29.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -21162,20 +20568,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1151616",
-          "label": "stateless nation"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q26934845",
-          "label": "integral overseas territory"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3336843",
           "label": "constituent country of the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
         }
       ]
     },
@@ -21278,10 +20672,6 @@
         {
           "lang": "en",
           "toponym": "Norway"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇳🇴"
         }
       ],
       "northernmostPoint": {
@@ -21420,11 +20810,7 @@
         },
         {
           "lang": "en",
-          "toponym": "سلطنت عمان"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇴🇲"
+          "toponym": "Uman"
         }
       ],
       "properties": {
@@ -21521,6 +20907,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Hồi Quốc"
+        },
+        {
+          "lang": "en",
           "toponym": "Islamic Republic of Pakistan"
         },
         {
@@ -21533,7 +20923,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇵🇰"
+          "toponym": "Tây Hồi"
         }
       ],
       "northernmostPoint": {
@@ -21684,10 +21074,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Palau"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇼"
         }
       ],
       "northernmostPoint": {
@@ -21731,6 +21117,128 @@
         "coordinates": [
           131.12388889,
           3.00583333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "political entity that enjoys incomplete recognition as a state, located in West Asia"
+        }
+      ],
+      "easternmostPoint": {
+        "coordinates": [
+          35.573727,
+          32.211251
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  35.397561,
+                  31.489086
+                ],
+                [
+                  34.927408,
+                  31.353435
+                ],
+                [
+                  34.974641,
+                  31.866582
+                ],
+                [
+                  35.18393,
+                  32.532511
+                ],
+                [
+                  35.545665,
+                  32.393992
+                ],
+                [
+                  35.545252,
+                  31.782505
+                ],
+                [
+                  35.397561,
+                  31.489086
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Palestinian+territories.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q219060",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Palestine"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Palestine"
+        }
+      ],
+      "northernmostPoint": {
+        "coordinates": [
+          35.224694,
+          32.552032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "ccode": "PS",
+        "title": "Palestine"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          34.267344,
+          31.21981
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q10711424",
+          "label": "state with limited recognition"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51576574",
+          "label": "Mediterranean country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "region"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          34.218765,
+          31.323457
         ],
         "type": "Point"
       }
@@ -21834,10 +21342,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Panama"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇦"
         }
       ],
       "northernmostPoint": {
@@ -21863,6 +21367,14 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7270",
+          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -21957,10 +21469,6 @@
         {
           "lang": "en",
           "toponym": "Papua New Guinea"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇬"
         }
       ],
       "properties": {
@@ -21974,7 +21482,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -21998,7 +21506,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay%20%28reverse%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay.svg"
         }
       ],
       "descriptions": [
@@ -22106,10 +21614,6 @@
         {
           "lang": "en",
           "toponym": "Republic of Paraguay"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇾"
         }
       ],
       "northernmostPoint": {
@@ -22287,15 +21791,11 @@
         },
         {
           "lang": "en",
-          "toponym": "China"
-        },
-        {
-          "lang": "en",
           "toponym": "Communist China"
         },
         {
           "lang": "en",
-          "toponym": "Mainland China"
+          "toponym": "P.R.C."
         },
         {
           "lang": "en",
@@ -22315,7 +21815,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇨🇳"
+          "toponym": "the People's Republic of China"
         }
       ],
       "northernmostPoint": {
@@ -22339,40 +21839,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q10711424",
-          "label": "state with limited recognition"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q118365",
-          "label": "dictatorship of the proletariat"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1520223",
-          "label": "constitutional republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q465613",
-          "label": "people's republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q842112",
-          "label": "socialist state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q849866",
-          "label": "communist state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q859563",
-          "label": "secular state"
         }
       ],
       "westernmostPoint": {
@@ -22494,14 +21966,6 @@
         {
           "lang": "en",
           "toponym": "Republica del Peru"
-        },
-        {
-          "lang": "en",
-          "toponym": "República del Perú"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇪"
         }
       ],
       "northernmostPoint": {
@@ -22531,10 +21995,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -22645,10 +22105,6 @@
         {
           "lang": "en",
           "toponym": "The Philippines"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇭"
         }
       ],
       "properties": {
@@ -22658,7 +22114,11 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -22746,15 +22206,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Pitcairn"
-        },
-        {
-          "lang": "en",
           "toponym": "Pitcairn, Henderson, Ducie and Oeno Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇳"
         }
       ],
       "properties": {
@@ -22773,7 +22225,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -22899,21 +22351,13 @@
         },
         {
           "lang": "en",
-          "toponym": "Polska"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Poland"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇱"
         }
       ],
       "northernmostPoint": {
         "coordinates": [
-          18.3,
-          54.83
+          18.292777777,
+          54.835555555
         ],
         "type": "Point"
       },
@@ -22931,20 +22375,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q127693126",
-          "label": "successor state"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q63791824",
-          "label": "country bordering the Baltic Sea"
         }
       ],
       "westernmostPoint": {
@@ -22958,7 +22394,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20%28official%29.svg"
         }
       ],
       "descriptions": [
@@ -23046,10 +22482,6 @@
         {
           "lang": "en",
           "toponym": "Portuguese Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇹"
         }
       ],
       "northernmostPoint": {
@@ -23072,10 +22504,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q20181813",
-          "label": "colonial power"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -23165,10 +22593,6 @@
         {
           "lang": "en",
           "toponym": "State of Qatar"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇶🇦"
         }
       ],
       "properties": {
@@ -23311,10 +22735,6 @@
         {
           "lang": "en",
           "toponym": "République du Congo"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇨🇬"
         }
       ],
       "properties": {
@@ -23439,19 +22859,11 @@
         },
         {
           "lang": "en",
-          "toponym": "România"
-        },
-        {
-          "lang": "en",
           "toponym": "Roumania"
         },
         {
           "lang": "en",
           "toponym": "Rumania"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇷🇴"
         }
       ],
       "northernmostPoint": {
@@ -23474,6 +22886,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179671",
+          "label": "nation state"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -23500,7 +22916,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Eastern Europe and Northern Asia"
+          "value": "country in Eastern Europe and Northern Asia, the largest in the world by area"
         }
       ],
       "easternmostPoint": {
@@ -23659,39 +23075,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Federation of Russia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Rossija"
-        },
-        {
-          "lang": "en",
-          "toponym": "Rossijskaja Federatsija"
-        },
-        {
-          "lang": "en",
-          "toponym": "Rossiya"
-        },
-        {
-          "lang": "en",
-          "toponym": "Rossiyskaya Federatsiya"
-        },
-        {
-          "lang": "en",
           "toponym": "Russia"
         },
         {
           "lang": "en",
           "toponym": "Russian Federation"
-        },
-        {
-          "lang": "en",
-          "toponym": "Российская Федерация"
-        },
-        {
-          "lang": "en",
-          "toponym": "Россия"
         }
       ],
       "northernmostPoint": {
@@ -23727,10 +23115,6 @@
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q43702",
-          "label": "federation"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
         },
@@ -23756,9 +23140,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Africa"
+          "value": "country in East Africa"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          30.899166666,
+          -2.0775
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -23822,19 +23213,29 @@
         },
         {
           "lang": "en",
-          "toponym": "🇷🇼"
+          "toponym": "The Land of a Thousand Hills"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          30.447777777,
+          -1.0475
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "RW",
         "title": "Rwanda"
       },
+      "southernmostPoint": {
+        "coordinates": [
+          29.370833333,
+          -2.839722222
+        ],
+        "type": "Point"
+      },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -23847,7 +23248,14 @@
           "identifier": "http://www.wikidata.org/entity/Q7270",
           "label": "republic"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          28.861666666,
+          -2.528888888
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -23937,10 +23345,6 @@
         {
           "lang": "en",
           "toponym": "Saint Helena, Ascension, and Tristan da Cunha"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇭"
         }
       ],
       "properties": {
@@ -23951,7 +23355,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -24037,6 +23441,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Federation of Saint Christopher and Nevis"
+        },
+        {
+          "lang": "en",
           "toponym": "Federation of Saint Kitts and Nevis"
         },
         {
@@ -24045,11 +23453,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Kitts and Nevis"
+        },
+        {
+          "lang": "en",
           "toponym": "Saint Christopher and Nevis"
         },
         {
           "lang": "en",
           "toponym": "Saint Kitts and Nevis"
+        },
+        {
+          "lang": "en",
+          "toponym": "St Kitts & Nevis"
         },
         {
           "lang": "en",
@@ -24062,10 +23478,6 @@
         {
           "lang": "en",
           "toponym": "St. Kitts and Nevis"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇰🇳"
         }
       ],
       "northernmostPoint": {
@@ -24103,10 +23515,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
         }
       ],
       "westernmostPoint": {
@@ -24212,10 +23620,6 @@
         {
           "lang": "en",
           "toponym": "St. Lucia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇨"
         }
       ],
       "northernmostPoint": {
@@ -24367,10 +23771,6 @@
         {
           "lang": "en",
           "toponym": "St. Vincent"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇻🇨"
         }
       ],
       "properties": {
@@ -24384,7 +23784,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -24489,10 +23889,6 @@
         {
           "lang": "en",
           "toponym": "Western Samoa"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇼🇸"
         }
       ],
       "properties": {
@@ -24586,10 +23982,6 @@
         {
           "lang": "en",
           "toponym": "San Marino"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇲"
         }
       ],
       "northernmostPoint": {
@@ -24613,8 +24005,28 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q171441",
+          "label": "enclave"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q244381",
+          "label": "microstate"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51576574",
+          "label": "Mediterranean country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ],
       "westernmostPoint": {
@@ -24739,7 +24151,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇸🇦"
+          "toponym": "Saudi"
         }
       ],
       "northernmostPoint": {
@@ -24875,14 +24287,6 @@
         {
           "lang": "en",
           "toponym": "Scotland, United Kingdom"
-        },
-        {
-          "lang": "en",
-          "toponym": "UK-SC"
-        },
-        {
-          "lang": "en",
-          "toponym": "UK-SCT"
         }
       ],
       "properties": {
@@ -24894,14 +24298,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3336843",
           "label": "constituent country of the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ]
     },
@@ -25004,10 +24400,6 @@
         {
           "lang": "en",
           "toponym": "Senegal"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇳"
         }
       ],
       "northernmostPoint": {
@@ -25149,15 +24541,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Republika Srbija"
-        },
-        {
-          "lang": "en",
           "toponym": "Serbia"
-        },
-        {
-          "lang": "en",
-          "toponym": "Srbija"
         }
       ],
       "northernmostPoint": {
@@ -25181,8 +24565,24 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q123480",
+          "label": "landlocked country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q127693126",
+          "label": "successor state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7270",
+          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -25253,10 +24653,6 @@
         {
           "lang": "en",
           "toponym": "Seychelles"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇨"
         }
       ],
       "properties": {
@@ -25270,7 +24666,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -25379,10 +24775,6 @@
         {
           "lang": "en",
           "toponym": "Sierra Leone"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇱"
         }
       ],
       "properties": {
@@ -25500,10 +24892,6 @@
         {
           "lang": "en",
           "toponym": "Singapore"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇬"
         }
       ],
       "northernmostPoint": {
@@ -25548,15 +24936,11 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port settlement"
+          "label": "port city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -25670,10 +25054,6 @@
         {
           "lang": "en",
           "toponym": "St. Maarten"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇽"
         }
       ],
       "northernmostPoint": {
@@ -25731,8 +25111,8 @@
       ],
       "easternmostPoint": {
         "coordinates": [
-          22.55891472,
-          49.0874603
+          22.565555555,
+          49.087777777
         ],
         "type": "Point"
       },
@@ -25811,21 +25191,13 @@
         },
         {
           "lang": "en",
-          "toponym": "Slovakia (Slovak Republic)"
-        },
-        {
-          "lang": "en",
           "toponym": "Slovakia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇰"
         }
       ],
       "northernmostPoint": {
         "coordinates": [
-          19.47,
-          49.62
+          19.467222222,
+          49.613611111
         ],
         "type": "Point"
       },
@@ -25835,8 +25207,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          18.2882452,
-          47.7337818
+          18.29,
+          47.731388888
         ],
         "type": "Point"
       },
@@ -25865,8 +25237,8 @@
       ],
       "westernmostPoint": {
         "coordinates": [
-          16.83365107,
-          48.38066809
+          16.833333333,
+          48.380555555
         ],
         "type": "Point"
       }
@@ -25949,19 +25321,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Republika Slovenija"
-        },
-        {
-          "lang": "en",
           "toponym": "Slovenia"
         },
         {
           "lang": "en",
           "toponym": "Slovenija"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇮"
         }
       ],
       "northernmostPoint": {
@@ -26084,7 +25448,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇸🇧"
+          "toponym": "the Solomon Islands"
         }
       ],
       "properties": {
@@ -26098,7 +25462,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -26223,10 +25587,6 @@
         {
           "lang": "en",
           "toponym": "Somalia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇴"
         }
       ],
       "properties": {
@@ -26371,10 +25731,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Mzanzi"
-        },
-        {
-          "lang": "en",
           "toponym": "R.S.A."
         },
         {
@@ -26384,10 +25740,6 @@
         {
           "lang": "en",
           "toponym": "South Africa"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇿🇦"
         }
       ],
       "northernmostPoint": {
@@ -26523,10 +25875,6 @@
         {
           "lang": "en",
           "toponym": "South Sandwich Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇸"
         }
       ],
       "properties": {
@@ -26541,7 +25889,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         }
       ]
     },
@@ -26635,6 +25983,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Choson"
+        },
+        {
+          "lang": "en",
           "toponym": "Daehan Minguk"
         },
         {
@@ -26667,11 +26019,11 @@
         },
         {
           "lang": "en",
-          "toponym": "South Korea"
+          "toponym": "Silla"
         },
         {
           "lang": "en",
-          "toponym": "🇰🇷"
+          "toponym": "South Korea"
         }
       ],
       "northernmostPoint": {
@@ -26814,10 +26166,6 @@
         {
           "lang": "en",
           "toponym": "Southern Sudan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇸"
         }
       ],
       "northernmostPoint": {
@@ -26988,6 +26336,10 @@
           "label": "realm"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q179671",
+          "label": "nation state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
@@ -27086,10 +26438,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Ceylon"
-        },
-        {
-          "lang": "en",
           "toponym": "Democratic Socialist Republic of Sri Lanka"
         },
         {
@@ -27111,18 +26459,6 @@
         {
           "lang": "en",
           "toponym": "Taprobane"
-        },
-        {
-          "lang": "en",
-          "toponym": "سرنديب"
-        },
-        {
-          "lang": "en",
-          "toponym": "سيلان"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇱🇰"
         }
       ],
       "properties": {
@@ -27134,105 +26470,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q112099",
           "label": "island country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3624078",
-          "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "sovereign state in West Asia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  35.397561,
-                  31.489086
-                ],
-                [
-                  34.927408,
-                  31.353435
-                ],
-                [
-                  34.974641,
-                  31.866582
-                ],
-                [
-                  35.18393,
-                  32.532511
-                ],
-                [
-                  35.545665,
-                  32.393992
-                ],
-                [
-                  35.545252,
-                  31.782505
-                ],
-                [
-                  35.397561,
-                  31.489086
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q219060",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Palestine"
-        },
-        {
-          "lang": "en",
-          "toponym": "Palestinian Authority"
-        },
-        {
-          "lang": "en",
-          "toponym": "Palestinian National Authority"
-        },
-        {
-          "lang": "en",
-          "toponym": "State of Palestine"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇵🇸"
-        }
-      ],
-      "properties": {
-        "ccode": "PS",
-        "title": "State of Palestine"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10711424",
-          "label": "state with limited recognition"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -27305,12 +26542,12 @@
                   12.57828
                 ],
                 [
-                  33.97498,
-                  8.68456
+                  33.963393,
+                  9.464285
                 ],
                 [
-                  24.567369,
-                  8.229188
+                  23.88698,
+                  8.61973
                 ],
                 [
                   23.805813,
@@ -27367,10 +26604,6 @@
         {
           "lang": "en",
           "toponym": "the Sudan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇩"
         }
       ],
       "northernmostPoint": {
@@ -27518,10 +26751,6 @@
         {
           "lang": "en",
           "toponym": "Surrinam"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇷"
         }
       ],
       "properties": {
@@ -27531,8 +26760,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q116052725",
+          "label": "national geopolitical entity"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
         }
       ]
     },
@@ -27638,23 +26875,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Konungariket Sverige"
-        },
-        {
-          "lang": "en",
-          "toponym": "Sverige"
-        },
-        {
-          "lang": "en",
           "toponym": "Sweden"
         },
         {
           "lang": "en",
           "toponym": "Swedish Kingdom"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇪"
         }
       ],
       "northernmostPoint": {
@@ -27678,12 +26903,24 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q41614",
+          "label": "constitutional monarchy"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q63791824",
+          "label": "country bordering the Baltic Sea"
         }
       ],
       "westernmostPoint": {
@@ -27797,8 +27034,8 @@
       ],
       "northernmostPoint": {
         "coordinates": [
-          8.57,
-          47.8
+          8.568008333,
+          47.808452777
         ],
         "type": "Point"
       },
@@ -27818,10 +27055,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q123480",
           "label": "landlocked country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q170156",
-          "label": "confederation"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -27851,13 +27084,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Syria.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Syria%20%282025-%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in western Asia"
+          "value": "country in West Asia"
         }
       ],
       "easternmostPoint": {
@@ -27926,7 +27159,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇸🇾"
+          "toponym": "Sūriyā"
         }
       ],
       "northernmostPoint": {
@@ -28085,10 +27318,6 @@
         {
           "lang": "en",
           "toponym": "São Tomé og Príncipe"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇸🇹"
         }
       ],
       "northernmostPoint": {
@@ -28116,8 +27345,12 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q158454",
+          "label": "biosphere reserve"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -28154,6 +27387,16 @@
         {
           "lang": "en",
           "value": "country in East Asia"
+        }
+      ],
+      "easternmostPoint": [
+        {
+          "@value": "Point(122.10638889 25.485)",
+          "type": "gsp:wktLiteral"
+        },
+        {
+          "@value": "Point(124.561138888 25.922277777)",
+          "type": "gsp:wktLiteral"
         }
       ],
       "geometry": {
@@ -28211,7 +27454,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "China, Republic"
+          "toponym": "China, Republic of"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chinese Republic"
         },
         {
           "lang": "en",
@@ -28227,23 +27474,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Formosa"
-        },
-        {
-          "lang": "en",
           "toponym": "Free China"
-        },
-        {
-          "lang": "en",
-          "toponym": "Free area of the Republic of China"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ilaod"
-        },
-        {
-          "lang": "en",
-          "toponym": "Nanasian"
         },
         {
           "lang": "en",
@@ -28259,14 +27490,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Taivang"
-        },
-        {
-          "lang": "en",
-          "toponym": "Taivangʉ"
-        },
-        {
-          "lang": "en",
           "toponym": "Taiwan ROC"
         },
         {
@@ -28275,21 +27498,34 @@
         },
         {
           "lang": "en",
-          "toponym": "Taywan"
+          "toponym": "Taiwan"
         },
         {
           "lang": "en",
           "toponym": "The ROC"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇼"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          120.48275,
+          26.389527777
+        ],
+        "type": "Point"
+      },
       "properties": {
         "ccode": "TW",
         "title": "Taiwan"
       },
+      "southernmostPoint": [
+        {
+          "@value": "Point(112.053888888 3.852083333)",
+          "type": "gsp:wktLiteral"
+        },
+        {
+          "@value": "Point(114.361611111 10.371361111)",
+          "type": "gsp:wktLiteral"
+        }
+      ],
       "type": "Feature",
       "types": [
         {
@@ -28301,16 +27537,30 @@
           "label": "island country"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q16562419",
+          "label": "political entity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q25449457",
+          "label": "continental country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5255892",
-          "label": "democratic republic"
+          "identifier": "http://www.wikidata.org/entity/Q6501447",
+          "label": "local government"
+        }
+      ],
+      "westernmostPoint": [
+        {
+          "@value": "Point(108.332638888 6.589583333)",
+          "type": "gsp:wktLiteral"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
+          "@value": "Point(114.358888888 10.374333333)",
+          "type": "gsp:wktLiteral"
         }
       ]
     },
@@ -28401,10 +27651,6 @@
         {
           "lang": "en",
           "toponym": "Tajikistan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇯"
         }
       ],
       "northernmostPoint": {
@@ -28567,10 +27813,6 @@
         {
           "lang": "en",
           "toponym": "United Republic of Tanzania"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇿"
         }
       ],
       "northernmostPoint": {
@@ -28708,15 +27950,23 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Kingdom of Siam"
+        },
+        {
+          "lang": "en",
           "toponym": "Kingdom of Thailand"
         },
         {
           "lang": "en",
-          "toponym": "Land of Smiles"
+          "toponym": "Prathet Thai"
         },
         {
           "lang": "en",
-          "toponym": "Siam"
+          "toponym": "Ratcha-anachak Thai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Thai"
         },
         {
           "lang": "en",
@@ -28724,7 +27974,11 @@
         },
         {
           "lang": "en",
-          "toponym": "🇹🇭"
+          "toponym": "The Kingdom of Siam"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Kingdom of Thailand"
         }
       ],
       "northernmostPoint": {
@@ -28747,6 +28001,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
@@ -28846,15 +28104,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Bahamas, The"
+        },
+        {
+          "lang": "en",
+          "toponym": "Commonwealth of The Bahamas"
+        },
+        {
+          "lang": "en",
           "toponym": "Commonwealth of the Bahamas"
         },
         {
           "lang": "en",
           "toponym": "The Bahamas"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇧🇸"
         }
       ],
       "northernmostPoint": {
@@ -28878,7 +28140,7 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -28993,10 +28255,6 @@
         {
           "lang": "en",
           "toponym": "The Gambia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇲"
         }
       ],
       "northernmostPoint": {
@@ -29039,11 +28297,131 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Togo%20%281957%E2%80%931958%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "sovereign state situated on several islands in Southeast Asia"
+        }
+      ],
+      "easternmostPoint": {
+        "coordinates": [
+          127.343011111,
+          -8.4382
+        ],
+        "type": "Point"
+      },
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  125.08852,
+                  -9.393173
+                ],
+                [
+                  124.968682,
+                  -8.89279
+                ],
+                [
+                  125.086246,
+                  -8.656887
+                ],
+                [
+                  125.947072,
+                  -8.432095
+                ],
+                [
+                  126.957243,
+                  -8.273345
+                ],
+                [
+                  127.335928,
+                  -8.397317
+                ],
+                [
+                  126.967992,
+                  -8.668256
+                ],
+                [
+                  125.925885,
+                  -9.106007
+                ],
+                [
+                  125.08852,
+                  -9.393173
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:East+Timor.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q574",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Democratic Republic of Timor-Leste"
         },
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Togo%20%281958%E2%80%931960%29.svg"
+          "lang": "en",
+          "toponym": "East Timor"
         },
+        {
+          "lang": "en",
+          "toponym": "Timor-Leste"
+        }
+      ],
+      "northernmostPoint": {
+        "coordinates": [
+          125.63,
+          -8.13
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "ccode": "TL",
+        "title": "Timor-Leste"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          124.28707346,
+          -9.50418829
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q112099",
+          "label": "island country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3624078",
+          "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        }
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          124.04173849,
+          -9.34005816
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "depictions": [
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Togo%20%283-2%29.svg"
         }
@@ -29125,10 +28503,6 @@
         {
           "lang": "en",
           "toponym": "Togolese Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇬"
         }
       ],
       "northernmostPoint": {
@@ -29252,10 +28626,6 @@
         {
           "lang": "en",
           "toponym": "Tonga"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇴"
         }
       ],
       "properties": {
@@ -29271,6 +28641,14 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q918240",
+          "label": "territorial evolution of the British Empire"
         }
       ]
     },
@@ -29349,10 +28727,6 @@
         {
           "lang": "en",
           "toponym": "Trinidad and Tobago"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇹"
         }
       ],
       "northernmostPoint": {
@@ -29380,7 +28754,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -29499,10 +28873,6 @@
         {
           "lang": "en",
           "toponym": "Tunisian Republic"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇳"
         }
       ],
       "northernmostPoint": {
@@ -29559,7 +28929,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country straddling Southeast Europe and West Asia"
+          "value": "country in West Asia and Southeast Europe"
         }
       ],
       "easternmostPoint": {
@@ -29652,23 +29022,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Republic of Turkiye"
-        },
-        {
-          "lang": "en",
           "toponym": "Republic of Türkiye"
         },
         {
           "lang": "en",
           "toponym": "Turkey"
-        },
-        {
-          "lang": "en",
-          "toponym": "Turkiye"
-        },
-        {
-          "lang": "en",
-          "toponym": "Türkiye"
         }
       ],
       "northernmostPoint": {
@@ -29827,10 +29185,6 @@
         {
           "lang": "en",
           "toponym": "Turkmenistan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇲"
         }
       ],
       "northernmostPoint": {
@@ -29846,8 +29200,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          62.3136979,
-          35.1378165
+          62.305868643,
+          35.129158417
         ],
         "type": "Point"
       },
@@ -29954,10 +29308,6 @@
         {
           "lang": "en",
           "toponym": "Turks and Caicos"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇨"
         }
       ],
       "properties": {
@@ -29968,7 +29318,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q46395",
-          "label": "British overseas territories"
+          "label": "British Overseas Territories"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q56061",
@@ -29985,7 +29335,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "island sovereign state in Oceania"
+          "value": "country in Oceania"
         }
       ],
       "geometry": {
@@ -30060,10 +29410,6 @@
         {
           "lang": "en",
           "toponym": "Tuvalu"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇹🇻"
         }
       ],
       "properties": {
@@ -30077,7 +29423,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -30103,7 +29449,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in East-central Africa"
+          "value": "country in East Africa"
         }
       ],
       "geometry": {
@@ -30173,6 +29519,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "+256"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ouganda"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pearl of Africa"
+        },
+        {
+          "lang": "en",
           "toponym": "Republic of Uganda"
         },
         {
@@ -30181,15 +29539,11 @@
         },
         {
           "lang": "en",
-          "toponym": "The pearl of Africa"
-        },
-        {
-          "lang": "en",
           "toponym": "Uganda"
         },
         {
           "lang": "en",
-          "toponym": "🇺🇬"
+          "toponym": "Ugandah"
         }
       ],
       "properties": {
@@ -30339,10 +29693,6 @@
         {
           "lang": "en",
           "toponym": "Ukraïna"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇺🇦"
         }
       ],
       "northernmostPoint": {
@@ -30366,8 +29716,32 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q179164",
+          "label": "unitary state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4209223",
+          "label": "Rechtsstaat"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4835091",
+          "label": "territory"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q619610",
+          "label": "social state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q6256",
+          "label": "country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q7270",
+          "label": "republic"
         }
       ],
       "westernmostPoint": {
@@ -30387,7 +29761,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in Southwest Asia"
+          "value": "country in Western Asia"
         }
       ],
       "easternmostPoint": {
@@ -30481,10 +29855,6 @@
         {
           "lang": "en",
           "toponym": "the United Arab Emirates"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇦🇪"
         }
       ],
       "northernmostPoint": {
@@ -30533,7 +29903,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in north-west Europe"
+          "value": "island country in north-west Europe"
         }
       ],
       "easternmostPoint": {
@@ -30610,26 +29980,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Britain"
-        },
-        {
-          "lang": "en",
-          "toponym": "G B R"
-        },
-        {
-          "lang": "en",
-          "toponym": "G. B."
-        },
-        {
-          "lang": "en",
-          "toponym": "G.B."
-        },
-        {
-          "lang": "en",
-          "toponym": "G.B.R."
-        },
-        {
-          "lang": "en",
           "toponym": "Great Britain and Northern Ireland"
         },
         {
@@ -30638,27 +29988,23 @@
         },
         {
           "lang": "en",
-          "toponym": "The UK"
-        },
-        {
-          "lang": "en",
-          "toponym": "The United Kingdom of Great Britain and Northern Ireland"
-        },
-        {
-          "lang": "en",
-          "toponym": "U. K."
-        },
-        {
-          "lang": "en",
-          "toponym": "U.K."
-        },
-        {
-          "lang": "en",
           "toponym": "United Kingdom of Great Britain and Northern Ireland"
         },
         {
           "lang": "en",
           "toponym": "United Kingdom"
+        },
+        {
+          "lang": "en",
+          "toponym": "the UK"
+        },
+        {
+          "lang": "en",
+          "toponym": "the United Kingdom of Great Britain and Northern Ireland"
+        },
+        {
+          "lang": "en",
+          "toponym": "the United Kingdom"
         }
       ],
       "northernmostPoint": {
@@ -30709,13 +30055,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%28DDD-F-416E%20specifications%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "country primarily located in North America"
+          "value": "country located primarily in North America"
         }
       ],
       "easternmostPoint": {
@@ -30763,8 +30109,8 @@
                   70.152514
                 ],
                 [
-                  -140.985988,
-                  69.711998
+                  -140.986,
+                  69.712
                 ],
                 [
                   -68.23444,
@@ -30812,10 +30158,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "America"
-        },
-        {
-          "lang": "en",
           "toponym": "Merica"
         },
         {
@@ -30833,14 +30175,6 @@
         {
           "lang": "en",
           "toponym": "U.S. of America"
-        },
-        {
-          "lang": "en",
-          "toponym": "U.S."
-        },
-        {
-          "lang": "en",
-          "toponym": "U.S.A."
         },
         {
           "lang": "en",
@@ -30912,7 +30246,7 @@
       },
       "properties": {
         "ccode": "US",
-        "title": "United States of America"
+        "title": "United States"
       },
       "southernmostPoint": {
         "coordinates": [
@@ -30924,24 +30258,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1489259",
-          "label": "superpower"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1520223",
-          "label": "constitutional republic"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q512187",
-          "label": "federal republic"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5255892",
-          "label": "democratic republic"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -31067,10 +30385,6 @@
         {
           "lang": "en",
           "toponym": "Uruguay"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇺🇾"
         }
       ],
       "northernmostPoint": {
@@ -31097,16 +30411,16 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1520223",
+          "label": "constitutional republic"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
           "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7270",
-          "label": "republic"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q859563",
@@ -31200,10 +30514,6 @@
         {
           "lang": "en",
           "toponym": "Uzbekistan"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇺🇿"
         }
       ],
       "northernmostPoint": {
@@ -31227,8 +30537,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q123480",
-          "label": "landlocked country"
+          "identifier": "http://www.wikidata.org/entity/Q136361597",
+          "label": "doubly landlocked country"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
@@ -31318,10 +30628,6 @@
         {
           "lang": "en",
           "toponym": "Vanuatu"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇻🇺"
         }
       ],
       "northernmostPoint": {
@@ -31349,7 +30655,7 @@
           "label": "island country"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q13107770",
+          "identifier": "http://www.wikidata.org/entity/Q11815167",
           "label": "archipelagic state"
         },
         {
@@ -31372,7 +30678,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282001%E2%80%932023%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282023%E2%80%93present%29.svg"
         }
       ],
       "descriptions": [
@@ -31435,7 +30741,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Civitas Vaticana"
+          "toponym": "Holy See"
         },
         {
           "lang": "en",
@@ -31468,10 +30774,6 @@
         {
           "lang": "en",
           "toponym": "Vatican"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇻🇦"
         }
       ],
       "northernmostPoint": {
@@ -31507,6 +30809,10 @@
           "label": "landlocked country"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q127693126",
+          "label": "successor state"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q133442",
           "label": "city-state"
         },
@@ -31521,14 +30827,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3624078",
           "label": "sovereign state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q51576574",
-          "label": "Mediterranean country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q570116",
-          "label": "tourist attraction"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q6256",
@@ -31564,7 +30862,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "sovereign state in northern South America"
+          "value": "country in South America"
         }
       ],
       "easternmostPoint": {
@@ -31665,19 +30963,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Estados Unidos de Venezuela"
+          "toponym": "Republic of Venezuela"
         },
         {
           "lang": "en",
           "toponym": "Venezuela"
-        },
-        {
-          "lang": "en",
-          "toponym": "Vzla"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇻🇪"
         }
       ],
       "northernmostPoint": {
@@ -31807,6 +31097,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Socialist Republic of Viet Nam"
+        },
+        {
+          "lang": "en",
           "toponym": "Socialist Republic of Vietnam"
         },
         {
@@ -31820,10 +31114,6 @@
         {
           "lang": "en",
           "toponym": "Việt Nam"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇻🇳"
         }
       ],
       "northernmostPoint": {
@@ -31876,7 +31166,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in north-west Europe; part of the United Kingdom"
+          "value": "constituent nation of the sovereign country of the United Kingdom, in north-west Europe"
         }
       ],
       "easternmostPoint": {
@@ -31945,14 +31235,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Cambria"
-        },
-        {
-          "lang": "en",
-          "toponym": "Cymru"
-        },
-        {
-          "lang": "en",
           "toponym": "Wales"
         }
       ],
@@ -31979,18 +31261,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3336843",
           "label": "constituent country of the United Kingdom"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3455524",
-          "label": "administrative region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6256",
-          "label": "country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ],
       "westernmostPoint": {
@@ -32087,14 +31357,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q15239622",
           "label": "disputed territory"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2577883",
-          "label": "occupied territory"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q900119",
-          "label": "United Nations list of non-self-governing territories"
         }
       ]
     },
@@ -32205,10 +31467,6 @@
         {
           "lang": "en",
           "toponym": "Yemen"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇾🇪"
         }
       ],
       "northernmostPoint": {
@@ -32352,10 +31610,6 @@
         {
           "lang": "en",
           "toponym": "Zambia"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇿🇲"
         }
       ],
       "properties": {
@@ -32509,10 +31763,6 @@
         {
           "lang": "en",
           "toponym": "Zimbabwe"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇿🇼"
         }
       ],
       "northernmostPoint": {

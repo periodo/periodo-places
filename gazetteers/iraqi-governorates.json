@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -156,6 +157,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Al-Anbar.map"
       },
       "id": "http://www.wikidata.org/entity/Q187334",
       "names": [
@@ -326,6 +330,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Al-Muthannia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q212761",
       "names": [
         {
@@ -459,8 +466,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Al-Qadisiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q62987",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Diwaniyah Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Qadisiyyah Governorate"
+        },
         {
           "lang": "en",
           "toponym": "Al-Qādisiyyah Governorate"
@@ -567,6 +585,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Babil.map"
       },
       "id": "http://www.wikidata.org/entity/Q59202",
       "names": [
@@ -701,6 +722,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Baghdad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q191075",
       "names": [
         {
@@ -724,11 +748,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Basra%20Governorate.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -806,6 +825,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Al-Basrah.map"
       },
       "id": "http://www.wikidata.org/entity/Q193551",
       "names": [
@@ -919,6 +941,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Dhi-Qar.map"
       },
       "id": "http://www.wikidata.org/entity/Q215649",
       "names": [
@@ -1061,6 +1086,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Diyala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q217075",
       "names": [
         {
@@ -1198,12 +1226,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Dihok.map"
+      },
       "id": "http://www.wikidata.org/entity/Q189541",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Duhok Governorate"
-        },
         {
           "lang": "en",
           "toponym": "Duhok Governorate"
@@ -1224,7 +1251,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "governorate in Iraqi Kurdistan"
+          "value": "governorate in Iraq"
         }
       ],
       "geometry": {
@@ -1338,6 +1365,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Arbil.map"
       },
       "id": "http://www.wikidata.org/entity/Q213189",
       "names": [
@@ -1459,6 +1489,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Karbala%27.map"
       },
       "id": "http://www.wikidata.org/entity/Q214104",
       "names": [
@@ -1609,6 +1642,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/At-Ta%27mim.map"
+      },
       "id": "http://www.wikidata.org/entity/Q193268",
       "names": [
         {
@@ -1738,6 +1774,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Maysan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q213170",
       "names": [
         {
@@ -1838,6 +1877,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/An-Najaf.map"
       },
       "id": "http://www.wikidata.org/entity/Q192882",
       "names": [
@@ -1988,6 +2030,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Ninawa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q189352",
       "names": [
         {
@@ -2109,6 +2154,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Sala+ad-Din.map"
+      },
       "id": "http://www.wikidata.org/entity/Q190131",
       "names": [
         {
@@ -2139,7 +2187,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "governorate in Kurdistan region"
+          "value": "governorate in Iraq"
         }
       ],
       "geometry": {
@@ -2225,6 +2273,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/As-Sulaymaniyah.map"
       },
       "id": "http://www.wikidata.org/entity/Q213182",
       "names": [
@@ -2342,6 +2393,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Iraq/Wasit.map"
       },
       "id": "http://www.wikidata.org/entity/Q189747",
       "names": [

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -101,6 +102,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Ad+Dakhliyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q792550",
       "names": [
         {
@@ -115,7 +119,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -214,6 +218,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Al+Dhahira.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1468596",
       "names": [
         {
@@ -228,7 +235,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -299,6 +306,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Al+Batnah+North.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4703564",
       "names": [
         {
@@ -313,7 +323,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -376,6 +386,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Al+Batnah+South.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4703565",
       "names": [
         {
@@ -390,7 +403,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -489,6 +502,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Al+Buraymi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q852039",
       "names": [
         {
@@ -503,7 +519,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -586,6 +602,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Al+Wusta.map"
+      },
       "id": "http://www.wikidata.org/entity/Q958518",
       "names": [
         {
@@ -604,7 +623,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -683,6 +702,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Ash+Sharqiyah+North.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4501876",
       "names": [
         {
@@ -701,7 +723,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -796,6 +818,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Ash+Sharqiyah+South.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4501894",
       "names": [
         {
@@ -814,7 +839,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -822,7 +847,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "governorate in the Sultanate of Oman"
+          "value": "It is located in the southwest of the Sultanate of Oman and is part of the Hadhramaut region."
         }
       ],
       "geometry": {
@@ -881,6 +906,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Dhofar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1207752",
       "names": [
         {
@@ -899,7 +927,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -990,11 +1018,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Musandam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q372144",
       "names": [
         {
           "lang": "en",
           "toponym": "Musandam Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Musandam"
         }
       ],
       "properties": {
@@ -1003,16 +1038,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1764608",
-          "label": "muhafazah"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q34763",
-          "label": "peninsula"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     },
@@ -1107,6 +1134,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Oman/Muscat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q544762",
       "names": [
         {
@@ -1121,7 +1151,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q641078",
-          "label": "governorate of Oman"
+          "label": "governorates of Oman"
         }
       ]
     }

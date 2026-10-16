@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -69,10 +70,6 @@
                 [
                   3.158597,
                   19.08155
-                ],
-                [
-                  -5.661525,
-                  25.508881
                 ],
                 [
                   -5.661525,
@@ -140,6 +137,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Adrar.map"
       },
       "id": "http://www.wikidata.org/entity/Q188166",
       "names": [
@@ -226,6 +226,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Alger.map"
+      },
       "id": "http://www.wikidata.org/entity/Q141026",
       "names": [
         {
@@ -239,6 +242,10 @@
         {
           "lang": "en",
           "toponym": "DZ-16"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Algiers"
         }
       ],
       "properties": {
@@ -363,6 +370,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Annaba.map"
+      },
       "id": "http://www.wikidata.org/entity/Q213944",
       "names": [
         {
@@ -484,11 +494,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/A%C3%AFn+Defla.map"
+      },
       "id": "http://www.wikidata.org/entity/Q168953",
       "names": [
         {
           "lang": "en",
           "toponym": "Aïn Defla Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aïn Defla"
         }
       ],
       "properties": {
@@ -600,6 +617,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/A%C3%AFn+T%C3%A9mouchent.map"
       },
       "id": "http://www.wikidata.org/entity/Q233670",
       "names": [
@@ -741,6 +761,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Batna.map"
       },
       "id": "http://www.wikidata.org/entity/Q215452",
       "names": [
@@ -895,6 +918,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Biskra.map"
+      },
       "id": "http://www.wikidata.org/entity/Q458402",
       "names": [
         {
@@ -1028,6 +1054,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Blida.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233637",
       "names": [
         {
@@ -1157,6 +1186,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Bordj+Bou+Arr%C3%A9ridj.map"
+      },
       "id": "http://www.wikidata.org/entity/Q266411",
       "names": [
         {
@@ -1170,115 +1202,6 @@
       ],
       "properties": {
         "title": "Bordj Bou Arréridj Province"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q240601",
-          "label": "province of Algeria"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Algeria"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  3.174101,
-                  36.741608
-                ],
-                [
-                  3.173269,
-                  36.742621
-                ],
-                [
-                  3.227306,
-                  36.812323
-                ],
-                [
-                  3.827485,
-                  36.912909
-                ],
-                [
-                  3.873871,
-                  36.917222
-                ],
-                [
-                  4.039463,
-                  36.89692
-                ],
-                [
-                  4.037614,
-                  36.863125
-                ],
-                [
-                  4.033739,
-                  36.849637
-                ],
-                [
-                  3.965009,
-                  36.712126
-                ],
-                [
-                  3.959118,
-                  36.704013
-                ],
-                [
-                  3.932246,
-                  36.679519
-                ],
-                [
-                  3.920464,
-                  36.670734
-                ],
-                [
-                  3.733654,
-                  36.607611
-                ],
-                [
-                  3.666113,
-                  36.597456
-                ],
-                [
-                  3.65123,
-                  36.597327
-                ],
-                [
-                  3.229808,
-                  36.685125
-                ],
-                [
-                  3.174101,
-                  36.741608
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q236752",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Boumerdes Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Boumerdès Province"
-        }
-      ],
-      "properties": {
-        "title": "Boumerdès Province"
       },
       "type": "Feature",
       "types": [
@@ -1391,15 +1314,130 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Bouira.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233655",
       "names": [
         {
           "lang": "en",
-          "toponym": "Bouïra Province"
+          "toponym": "Bouira Province"
         }
       ],
       "properties": {
-        "title": "Bouïra Province"
+        "title": "Bouira Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q240601",
+          "label": "province of Algeria"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Algeria"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  3.174101,
+                  36.741608
+                ],
+                [
+                  3.173269,
+                  36.742621
+                ],
+                [
+                  3.227306,
+                  36.812323
+                ],
+                [
+                  3.827485,
+                  36.912909
+                ],
+                [
+                  3.873871,
+                  36.917222
+                ],
+                [
+                  4.039463,
+                  36.89692
+                ],
+                [
+                  4.037614,
+                  36.863125
+                ],
+                [
+                  4.033739,
+                  36.849637
+                ],
+                [
+                  3.965009,
+                  36.712126
+                ],
+                [
+                  3.959118,
+                  36.704013
+                ],
+                [
+                  3.932246,
+                  36.679519
+                ],
+                [
+                  3.920464,
+                  36.670734
+                ],
+                [
+                  3.733654,
+                  36.607611
+                ],
+                [
+                  3.666113,
+                  36.597456
+                ],
+                [
+                  3.65123,
+                  36.597327
+                ],
+                [
+                  3.229808,
+                  36.685125
+                ],
+                [
+                  3.174101,
+                  36.741608
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Boumerd%C3%A8s.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q236752",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Boumerdes Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Boumerdès Province"
+        }
+      ],
+      "properties": {
+        "title": "Boumerdès Province"
       },
       "type": "Feature",
       "types": [
@@ -1483,6 +1521,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/B%C3%A9char.map"
       },
       "id": "http://www.wikidata.org/entity/Q215467",
       "names": [
@@ -1609,11 +1650,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/B%C3%A9ja%C3%AFa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233665",
       "names": [
         {
           "lang": "en",
+          "toponym": "Bejaia Province"
+        },
+        {
+          "lang": "en",
           "toponym": "Béjaïa Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "DZ-06"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Bejaia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Béjaïa"
         }
       ],
       "properties": {
@@ -1705,6 +1765,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Chlef.map"
       },
       "id": "http://www.wikidata.org/entity/Q231752",
       "names": [
@@ -1819,6 +1882,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Constantine.map"
+      },
       "id": "http://www.wikidata.org/entity/Q232043",
       "names": [
         {
@@ -1927,6 +1993,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Djelfa.map"
       },
       "id": "http://www.wikidata.org/entity/Q233233",
       "names": [
@@ -2093,11 +2162,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/El+Bayadh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235703",
       "names": [
         {
           "lang": "en",
           "toponym": "El Bayadh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "El Bayadh"
         }
       ],
       "properties": {
@@ -2202,11 +2278,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/El+Oued.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233651",
       "names": [
         {
           "lang": "en",
           "toponym": "El Oued Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "El Oued"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of El Oued"
         }
       ],
       "properties": {
@@ -2307,6 +2394,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/El+Tarf.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236788",
       "names": [
         {
@@ -2404,11 +2494,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Gharda%C3%AFa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17601",
       "names": [
         {
           "lang": "en",
           "toponym": "Ghardaïa Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wilaya de Ghardaïa"
         }
       ],
       "properties": {
@@ -2536,6 +2633,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Guelma.map"
       },
       "id": "http://www.wikidata.org/entity/Q235727",
       "names": [
@@ -2666,6 +2766,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Illizi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233659",
       "names": [
         {
@@ -2782,6 +2885,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Jijel.map"
       },
       "id": "http://www.wikidata.org/entity/Q235718",
       "names": [
@@ -2924,6 +3030,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Khenchela.map"
+      },
       "id": "http://www.wikidata.org/entity/Q213950",
       "names": [
         {
@@ -3040,6 +3149,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Laghouat.map"
       },
       "id": "http://www.wikidata.org/entity/Q231748",
       "names": [
@@ -3186,6 +3298,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/M%27Sila.map"
+      },
       "id": "http://www.wikidata.org/entity/Q240870",
       "names": [
         {
@@ -3319,6 +3434,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Mascara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236776",
       "names": [
         {
@@ -3428,11 +3546,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Mila.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235723",
       "names": [
         {
           "lang": "en",
           "toponym": "Mila Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Mila"
         }
       ],
       "properties": {
@@ -3573,6 +3698,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Mostaganem.map"
+      },
       "id": "http://www.wikidata.org/entity/Q221445",
       "names": [
         {
@@ -3709,6 +3837,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/M%C3%A9d%C3%A9a.map"
       },
       "id": "http://www.wikidata.org/entity/Q235810",
       "names": [
@@ -3847,6 +3978,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Na%C3%A2ma.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233675",
       "names": [
         {
@@ -3968,6 +4102,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Oran.map"
+      },
       "id": "http://www.wikidata.org/entity/Q231331",
       "names": [
         {
@@ -3976,11 +4113,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Oran Wilaya"
+          "toponym": "Oran"
         },
         {
           "lang": "en",
-          "toponym": "Oran, Algeria"
+          "toponym": "Province of Oran"
         }
       ],
       "properties": {
@@ -3998,7 +4135,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Algeria"
+          "value": "province of Algeria"
         }
       ],
       "geometry": {
@@ -4084,6 +4221,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Ouargla.map"
       },
       "id": "http://www.wikidata.org/entity/Q235709",
       "names": [
@@ -4201,6 +4341,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Oum+el+Bouaghi.map"
       },
       "id": "http://www.wikidata.org/entity/Q235705",
       "names": [
@@ -4327,6 +4470,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Relizane.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236758",
       "names": [
         {
@@ -4446,7 +4592,7 @@
                   34.04831
                 ],
                 [
-                  0.000031,
+                  3.1e-05,
                   34.006813
                 ],
                 [
@@ -4491,6 +4637,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Sa%C3%AFda.map"
       },
       "id": "http://www.wikidata.org/entity/Q233640",
       "names": [
@@ -4633,6 +4782,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Sidi+Bel+Abb%C3%A8s.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235714",
       "names": [
         {
@@ -4758,6 +4910,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Skikda.map"
+      },
       "id": "http://www.wikidata.org/entity/Q234227",
       "names": [
         {
@@ -4882,6 +5037,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Souk+Ahras.map"
       },
       "id": "http://www.wikidata.org/entity/Q236772",
       "names": [
@@ -5048,6 +5206,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/S%C3%A9tif.map"
+      },
       "id": "http://www.wikidata.org/entity/Q237164",
       "names": [
         {
@@ -5153,19 +5314,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tamanghasset.map"
+      },
       "id": "http://www.wikidata.org/entity/Q229467",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Tamanghasset Province"
-        },
         {
           "lang": "en",
           "toponym": "Tamanrasset Province"
         }
       ],
       "properties": {
-        "title": "Tamanghasset Province"
+        "title": "Tamanrasset Province"
       },
       "type": "Feature",
       "types": [
@@ -5274,11 +5434,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tiaret.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233258",
       "names": [
         {
           "lang": "en",
           "toponym": "Tiaret Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tiaret"
         }
       ],
       "properties": {
@@ -5382,6 +5549,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tindouf.map"
       },
       "id": "http://www.wikidata.org/entity/Q231151",
       "names": [
@@ -5500,6 +5670,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tipaza.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235814",
       "names": [
         {
@@ -5612,6 +5785,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tissemsilt.map"
       },
       "id": "http://www.wikidata.org/entity/Q235805",
       "names": [
@@ -5762,6 +5938,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tizi+Ouzou.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233645",
       "names": [
         {
@@ -5890,6 +6069,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/Tlemcen.map"
       },
       "id": "http://www.wikidata.org/entity/Q233632",
       "names": [
@@ -6023,6 +6205,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Algeria/T%C3%A9bessa.map"
       },
       "id": "http://www.wikidata.org/entity/Q267224",
       "names": [

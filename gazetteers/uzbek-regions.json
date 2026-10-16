@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -137,6 +138,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Andijon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487384",
       "names": [
         {
@@ -145,7 +149,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Andijon province"
+          "toponym": "Andijon Province"
         }
       ],
       "properties": {
@@ -262,6 +266,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Bukhoro.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487372",
       "names": [
         {
@@ -270,7 +277,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Buxoro province"
+          "toponym": "Buxoro Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Buxoro viloyati"
         }
       ],
       "properties": {
@@ -288,7 +299,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Uzbekistan"
+          "value": "region of Uzbekistan"
         }
       ],
       "geometry": {
@@ -379,15 +390,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Ferghana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487089",
       "names": [
         {
           "lang": "en",
-          "toponym": "Fergana Region"
+          "toponym": "Fergana Province"
         },
         {
           "lang": "en",
-          "toponym": "Fergana"
+          "toponym": "Fergana Region"
         }
       ],
       "properties": {
@@ -508,11 +522,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Jizzakh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q488811",
       "names": [
         {
           "lang": "en",
           "toponym": "Jizzakh Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jizzax Province"
         }
       ],
       "properties": {
@@ -553,19 +574,15 @@
                 ],
                 [
                   55.975839,
-                  44.994361
+                  44.994412
                 ],
                 [
                   55.976149,
-                  44.995032
+                  44.995084
                 ],
                 [
-                  55.976252,
-                  44.995136
-                ],
-                [
-                  55.976355,
-                  44.995239
+                  55.976459,
+                  44.995343
                 ],
                 [
                   55.976769,
@@ -694,6 +711,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Karakalpakstan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q484245",
       "names": [
         {
@@ -702,7 +722,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Karakalpakstan ASSR"
+        },
+        {
+          "lang": "en",
           "toponym": "Karakalpakstan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Republic of Karakalpakstan"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Republic of Karakalpakstan"
         }
       ],
       "properties": {
@@ -712,7 +744,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1977835",
+          "label": "autonomous republic"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7631083",
@@ -839,8 +875,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Namangan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q474876",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Namangan Province"
+        },
         {
           "lang": "en",
           "toponym": "Namangan Region"
@@ -971,6 +1014,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Navoi.map"
       },
       "id": "http://www.wikidata.org/entity/Q487570",
       "names": [
@@ -1113,6 +1159,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Kashkadarya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487577",
       "names": [
         {
@@ -1254,11 +1303,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Samarkand.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487532",
       "names": [
         {
           "lang": "en",
-          "toponym": "Samarkand province"
+          "toponym": "Samarkand Province"
         },
         {
           "lang": "en",
@@ -1402,6 +1454,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Sirdaryo.map"
       },
       "id": "http://www.wikidata.org/entity/Q487547",
       "names": [
@@ -1556,11 +1611,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Surkhandarya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487537",
       "names": [
         {
           "lang": "en",
+          "toponym": "Surkhandarya Region"
+        },
+        {
+          "lang": "en",
           "toponym": "Surxondaryo Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Surxondaryo viloyati"
         }
       ],
       "properties": {
@@ -1575,6 +1641,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tashkent.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1637,11 +1708,42 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Tashkent+City.map"
+      },
       "id": "http://www.wikidata.org/entity/Q269",
       "names": [
         {
           "lang": "en",
+          "toponym": "Binkath"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chach"
+        },
+        {
+          "lang": "en",
+          "toponym": "Choch"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shash"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shosh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tashkand"
+        },
+        {
+          "lang": "en",
           "toponym": "Tashkent"
+        },
+        {
+          "lang": "en",
+          "toponym": "Toshkent"
         }
       ],
       "properties": {
@@ -1651,15 +1753,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "label": "capital city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -1769,6 +1867,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Tashkent.map"
       },
       "id": "http://www.wikidata.org/entity/Q487585",
       "names": [
@@ -1891,8 +1992,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Uzbekistan/Khorezm.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487561",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Khorazm region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khorezm Region"
+        },
         {
           "lang": "en",
           "toponym": "Xorazm Region"

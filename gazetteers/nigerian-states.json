@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -55,6 +56,11 @@
   },
   "features": [
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Abia%20%28new%29.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -128,6 +134,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Abia.map"
       },
       "id": "http://www.wikidata.org/entity/Q320852",
       "names": [
@@ -238,6 +247,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Adamawa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q337514",
       "names": [
         {
@@ -246,11 +258,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Adamawa"
+          "toponym": "Borno"
         },
         {
           "lang": "en",
-          "toponym": "Gongola"
+          "toponym": "Ngwa, Hawul LGA"
         }
       ],
       "properties": {
@@ -258,6 +270,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q177634",
+          "label": "community"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q465842",
           "label": "state of Nigeria"
@@ -375,6 +391,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Akwa+Ibom.map"
+      },
       "id": "http://www.wikidata.org/entity/Q424388",
       "names": [
         {
@@ -398,10 +417,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Anambra%20State.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state of Nigeria"
         }
       ],
       "geometry": {
@@ -464,6 +488,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Anambra.map"
+      },
       "id": "http://www.wikidata.org/entity/Q117714",
       "names": [
         {
@@ -483,10 +510,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q465842",
           "label": "state of Nigeria"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
         }
       ]
     },
@@ -494,7 +517,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "State in Nigeria"
         }
       ],
       "geometry": {
@@ -597,15 +620,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Bauchi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503936",
       "names": [
         {
           "lang": "en",
           "toponym": "Bauchi State"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bauchi"
         }
       ],
       "properties": {
@@ -620,6 +642,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bayelsa%20State.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -729,6 +756,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Bayelsa.map"
       },
       "id": "http://www.wikidata.org/entity/Q532153",
       "names": [
@@ -847,6 +877,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Benue.map"
+      },
       "id": "http://www.wikidata.org/entity/Q429908",
       "names": [
         {
@@ -866,6 +899,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Borno%20State.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -992,6 +1030,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Borno.map"
+      },
       "id": "http://www.wikidata.org/entity/Q130626",
       "names": [
         {
@@ -1004,7 +1045,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Bornu"
+          "toponym": "Home of peace"
         }
       ],
       "properties": {
@@ -1153,6 +1194,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Cross+River.map"
+      },
       "id": "http://www.wikidata.org/entity/Q739676",
       "names": [
         {
@@ -1274,6 +1318,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Delta.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503910",
       "names": [
         {
@@ -1378,6 +1425,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Ebonyi.map"
       },
       "id": "http://www.wikidata.org/entity/Q506808",
       "names": [
@@ -1520,6 +1570,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Edo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q682704",
       "names": [
         {
@@ -1613,11 +1666,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Ekiti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q534917",
       "names": [
         {
           "lang": "en",
           "toponym": "Ekiti State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ekiti"
         }
       ],
       "properties": {
@@ -1729,6 +1789,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Enugu.map"
       },
       "id": "http://www.wikidata.org/entity/Q3817714",
       "names": [
@@ -1855,6 +1918,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Federal+Capital+Territory.map"
+      },
       "id": "http://www.wikidata.org/entity/Q509300",
       "names": [
         {
@@ -1868,20 +1934,21 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3330995",
-          "label": "administrative territorial entity of Nigeria"
+          "identifier": "http://www.wikidata.org/entity/Q465842",
+          "label": "state of Nigeria"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gombe%20State.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "State in northern Nigeria"
         }
       ],
       "geometry": {
@@ -1988,6 +2055,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Gombe.map"
+      },
       "id": "http://www.wikidata.org/entity/Q376241",
       "names": [
         {
@@ -1997,6 +2067,10 @@
         {
           "lang": "en",
           "toponym": "Gombe"
+        },
+        {
+          "lang": "en",
+          "toponym": "Jewel in the Savannah"
         }
       ],
       "properties": {
@@ -2011,6 +2085,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Imo%20State%20Flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2125,6 +2204,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Imo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q842939",
       "names": [
         {
@@ -2144,10 +2226,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jigawa%20State.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state in Northern Nigeria"
         }
       ],
       "geometry": {
@@ -2238,11 +2325,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Jigawa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q682691",
       "names": [
         {
           "lang": "en",
           "toponym": "Jigawa State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Land of beauty"
         }
       ],
       "properties": {
@@ -2367,15 +2461,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Kaduna.map"
+      },
       "id": "http://www.wikidata.org/entity/Q878284",
       "names": [
         {
           "lang": "en",
           "toponym": "Kaduna State"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kaduna state"
         }
       ],
       "properties": {
@@ -2390,10 +2483,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kano%20State%20flag%20official.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state of Nigeria"
         }
       ],
       "geometry": {
@@ -2496,11 +2594,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Kano.map"
+      },
       "id": "http://www.wikidata.org/entity/Q682571",
       "names": [
         {
           "lang": "en",
           "toponym": "Kano State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kano"
         }
       ],
       "properties": {
@@ -2604,6 +2709,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Katsina.map"
       },
       "id": "http://www.wikidata.org/entity/Q657821",
       "names": [
@@ -2726,11 +2834,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Kebbi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q748523",
       "names": [
         {
           "lang": "en",
           "toponym": "Kebbi State"
+        },
+        {
+          "lang": "en",
+          "toponym": "NG-KE"
         }
       ],
       "properties": {
@@ -2843,15 +2958,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Kogi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q387745",
       "names": [
         {
           "lang": "en",
-          "toponym": "Kogi State"
+          "toponym": "Kogi STATE"
         },
         {
           "lang": "en",
-          "toponym": "Kogi"
+          "toponym": "Kogi State"
         }
       ],
       "properties": {
@@ -2968,11 +3086,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Kwara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q464953",
       "names": [
         {
           "lang": "en",
           "toponym": "Kwara State"
+        },
+        {
+          "lang": "en",
+          "toponym": "State of Harmony"
         }
       ],
       "properties": {
@@ -2987,10 +3112,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lagos%20State%20Flag.gif"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "federal state in southwestern Nigeria"
         }
       ],
       "geometry": {
@@ -3057,6 +3187,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Lagos.map"
+      },
       "id": "http://www.wikidata.org/entity/Q815913",
       "names": [
         {
@@ -3065,11 +3198,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Lagos"
+          "toponym": "Lasgidi"
         }
       ],
       "properties": {
-        "title": "Lagos"
+        "title": "Lagos State"
       },
       "type": "Feature",
       "types": [
@@ -3170,6 +3303,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Nassarawa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q836645",
       "names": [
         {
@@ -3189,6 +3325,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Niger%20state%20flag.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3291,15 +3432,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Niger.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503932",
       "names": [
         {
           "lang": "en",
           "toponym": "Niger State"
-        },
-        {
-          "lang": "en",
-          "toponym": "Niger"
         }
       ],
       "properties": {
@@ -3317,7 +3457,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state of Nigeria"
         }
       ],
       "geometry": {
@@ -3380,6 +3520,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Ogun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q836657",
       "names": [
         {
@@ -3402,7 +3545,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "State in Nigeria"
+          "value": "state in Nigeria"
         }
       ],
       "geometry": {
@@ -3496,6 +3639,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Ondo.map"
       },
       "id": "http://www.wikidata.org/entity/Q836654",
       "names": [
@@ -3615,11 +3761,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Osun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q682721",
       "names": [
         {
           "lang": "en",
           "toponym": "Osun State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Osun state"
         }
       ],
       "properties": {
@@ -3637,7 +3790,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state of Nigeria"
         }
       ],
       "geometry": {
@@ -3739,6 +3892,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Oyo.map"
       },
       "id": "http://www.wikidata.org/entity/Q503905",
       "names": [
@@ -3873,6 +4029,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Plateau.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503928",
       "names": [
         {
@@ -3892,6 +4051,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rivers%20State%20Flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3990,6 +4154,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Rivers.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503923",
       "names": [
         {
@@ -4012,7 +4179,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "State in the northern part of Nigeria"
         }
       ],
       "geometry": {
@@ -4103,12 +4270,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Sokoto.map"
+      },
       "id": "http://www.wikidata.org/entity/Q503941",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "NG-SO"
-        },
         {
           "lang": "en",
           "toponym": "Sokoto State"
@@ -4120,6 +4286,10 @@
         {
           "lang": "en",
           "toponym": "Sokoto, Nigeria"
+        },
+        {
+          "lang": "en",
+          "toponym": "labari sokoto"
         }
       ],
       "properties": {
@@ -4137,7 +4307,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state in the northern part of Nigeria"
         }
       ],
       "geometry": {
@@ -4244,8 +4414,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Taraba.map"
+      },
       "id": "http://www.wikidata.org/entity/Q463959",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Jalingo"
+        },
         {
           "lang": "en",
           "toponym": "Taraba State"
@@ -4263,10 +4440,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yobe%20State.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "state in the northern part of Nigeria"
         }
       ],
       "geometry": {
@@ -4369,6 +4551,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Yobe.map"
+      },
       "id": "http://www.wikidata.org/entity/Q682777",
       "names": [
         {
@@ -4392,10 +4577,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Zamfara%20State%20Flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state in Nigeria"
+          "value": "a northern state in Nigeria"
         }
       ],
       "geometry": {
@@ -4470,8 +4660,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Nigeria/Zamfara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q145793",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Fansa...shik"
+        },
         {
           "lang": "en",
           "toponym": "Zamfara State"

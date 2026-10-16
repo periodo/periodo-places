@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -63,7 +64,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -197,6 +198,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Andalusia.map"
       },
       "id": "http://www.wikidata.org/entity/Q5783",
       "names": [
@@ -376,6 +380,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Arag%C3%B3n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4040",
       "names": [
         {
@@ -391,17 +398,13 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Asturias.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Asturias%20%28gala%29.svg"
         }
       ],
       "descriptions": [
@@ -530,6 +533,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Asturias.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3934",
       "names": [
         {
@@ -539,6 +545,10 @@
         {
           "lang": "en",
           "toponym": "Asturies"
+        },
+        {
+          "lang": "en",
+          "toponym": "ES-AS"
         },
         {
           "lang": "en",
@@ -569,7 +579,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -684,15 +694,14 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": "http://www.wikidata.org/entity/Q5765",
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Balearic+Islands.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q107356467",
       "names": [
         {
           "lang": "en",
           "toponym": "Balearic Islands"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islas baleares"
         }
       ],
       "properties": {
@@ -703,6 +712,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
         }
       ]
     },
@@ -715,7 +728,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -826,11 +839,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Basque+Country.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3995",
       "names": [
         {
           "lang": "en",
           "toponym": "Autonomous Community of the Basque Country"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basque Autonomous Community"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basque Country (autonomous community)"
         },
         {
           "lang": "en",
@@ -863,6 +887,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q104117291",
+          "label": "region of Spain"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
         },
@@ -875,13 +903,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Canary%20Islands%20%28simple%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain, and archipelago in the Atlantic Ocean"
         }
       ],
       "geometry": {
@@ -980,8 +1008,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Canary+Islands.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5813",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Canariae Insulae"
+        },
+        {
+          "lang": "en",
+          "toponym": "Canarias"
+        },
         {
           "lang": "en",
           "toponym": "Canaries"
@@ -992,15 +1031,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Canary"
-        },
-        {
-          "lang": "en",
-          "toponym": "Islas Canarias"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇮🇨"
+          "toponym": "the Canaries"
         }
       ],
       "properties": {
@@ -1023,7 +1054,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -1130,11 +1161,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Cantabria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3946",
       "names": [
         {
           "lang": "en",
           "toponym": "Cantabria"
+        },
+        {
+          "lang": "en",
+          "toponym": "ES-CB"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Mountain"
         }
       ],
       "properties": {
@@ -1157,7 +1199,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -1307,6 +1349,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Castile+and+Le%C3%B3n.map"
       },
       "id": "http://www.wikidata.org/entity/Q5739",
       "names": [
@@ -1506,6 +1551,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Castile-La+Mancha.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5748",
       "names": [
         {
@@ -1518,11 +1566,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Castilla-La Mancha Autonomous Community"
+        },
+        {
+          "lang": "en",
           "toponym": "Castilla-La Mancha"
+        },
+        {
+          "lang": "en",
+          "toponym": "Castilla–La Mancha"
         }
       ],
       "properties": {
-        "title": "Castile-La Mancha"
+        "title": "Castilla–La Mancha"
       },
       "type": "Feature",
       "types": [
@@ -1541,13 +1597,13 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "autonomous community of Spain"
+          "value": "nationality and autonomous community of Spain"
         }
       ],
       "easternmostPoint": {
         "coordinates": [
-          3.322194444,
-          42.3195
+          3.33248,
+          42.32003
         ],
         "type": "Point"
       },
@@ -1671,8 +1727,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Catalonia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5705",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Autonomous Community of Catalonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Cat."
+        },
         {
           "lang": "en",
           "toponym": "Catalonha"
@@ -1683,17 +1750,25 @@
         },
         {
           "lang": "en",
-          "toponym": "Catalunya"
+          "toponym": "Cataluña"
         },
         {
           "lang": "en",
-          "toponym": "Cataluña"
+          "toponym": "Community of Catalonia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Comunitat Autònoma de Catalunya"
+        },
+        {
+          "lang": "en",
+          "toponym": "ES-CT"
         }
       ],
       "northernmostPoint": {
         "coordinates": [
-          0.7,
-          42.85
+          0.70864,
+          42.86152
         ],
         "type": "Point"
       },
@@ -1702,8 +1777,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          0.85,
-          40.516666666
+          0.5147,
+          40.52306
         ],
         "type": "Point"
       },
@@ -1712,12 +1787,16 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2736168",
+          "label": "historical nationality"
         }
       ],
       "westernmostPoint": {
         "coordinates": [
-          0.166666666,
-          40.716666666
+          0.15942,
+          40.75047
         ],
         "type": "Point"
       }
@@ -1834,23 +1913,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Madrid.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5756",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Autonomous Community of Madrid"
+        },
         {
           "lang": "en",
           "toponym": "Community of Madrid"
         },
         {
           "lang": "en",
-          "toponym": "Comunidad de Madrid"
+          "toponym": "Madrid Autonomous Community"
         },
         {
           "lang": "en",
-          "toponym": "Madrid autonomous community"
-        },
-        {
-          "lang": "en",
-          "toponym": "Madrid province"
+          "toponym": "Madrid Province"
         }
       ],
       "properties": {
@@ -1867,13 +1949,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Extremadura%20%28with%20coat%20of%20arms%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Extremadura%2C%20Spain%20%28with%20coat%20of%20arms%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "easternmostPoint": {
@@ -1995,8 +2077,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Extremadura.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5777",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "ES-EX"
+        },
+        {
+          "lang": "en",
+          "toponym": "Estremadura"
+        },
         {
           "lang": "en",
           "toponym": "Extremadura"
@@ -2022,6 +2115,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q104117291",
+          "label": "region of Spain"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
         }
@@ -2043,7 +2140,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -2170,8 +2267,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Galicia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3908",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Galicia (Spain)"
+        },
         {
           "lang": "en",
           "toponym": "Galicia"
@@ -2189,14 +2293,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q2736168",
-          "label": "historical nationality"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ]
     },
@@ -2324,11 +2420,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/La+Rioja.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5727",
       "names": [
         {
           "lang": "en",
+          "toponym": "La Rioja (Spain)"
+        },
+        {
+          "lang": "en",
           "toponym": "La Rioja"
+        },
+        {
+          "lang": "en",
+          "toponym": "Logroño province"
         }
       ],
       "properties": {
@@ -2339,10 +2446,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
         }
       ]
     },
@@ -2355,7 +2458,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community of Spain"
+          "value": "chartered community of Spain"
         }
       ],
       "geometry": {
@@ -2482,11 +2585,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Navarra.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4018",
       "names": [
         {
           "lang": "en",
           "toponym": "Chartered Community of Navarre"
+        },
+        {
+          "lang": "en",
+          "toponym": "Foral Community of Navarre"
+        },
+        {
+          "lang": "en",
+          "toponym": "Navarra"
         },
         {
           "lang": "en",
@@ -2498,14 +2612,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10742",
-          "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3297051",
           "label": "chartered community"
@@ -2521,7 +2627,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Autonomous community and province of Spain"
+          "value": "autonomous community of Spain"
         }
       ],
       "geometry": {
@@ -2636,6 +2742,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Region+of+Murcia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q5772",
       "names": [
         {
@@ -2687,17 +2796,13 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q10742",
           "label": "autonomous community of Spain"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q162620",
-          "label": "province of Spain"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Valencian%20Community%20%282x3%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Land%20of%20Valencia%20%28official%29.svg"
         }
       ],
       "descriptions": [
@@ -2707,122 +2812,247 @@
         }
       ],
       "geometry": {
+        "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "MultiPolygon",
             "coordinates": [
               [
                 [
-                  -1.517447,
-                  39.441081
-                ],
+                  [
+                    -1.504321,
+                    39.54924
+                  ],
+                  [
+                    -1.503159,
+                    39.552935
+                  ],
+                  [
+                    -1.49812,
+                    39.563477
+                  ],
+                  [
+                    -1.203797,
+                    39.944332
+                  ],
+                  [
+                    -1.1060207428173838,
+                    40.0290162067316
+                  ],
+                  [
+                    -1.091711,
+                    40.034559
+                  ],
+                  [
+                    -1.084114,
+                    40.039262
+                  ],
+                  [
+                    -1.078766,
+                    40.045127
+                  ],
+                  [
+                    -1.075614,
+                    40.052129
+                  ],
+                  [
+                    -1.0760615345358728,
+                    40.054963935359496
+                  ],
+                  [
+                    -0.37731,
+                    40.660154
+                  ],
+                  [
+                    -0.36868,
+                    40.66744
+                  ],
+                  [
+                    -0.194815,
+                    40.775987
+                  ],
+                  [
+                    -0.183885,
+                    40.779423
+                  ],
+                  [
+                    -0.165798,
+                    40.779914
+                  ],
+                  [
+                    0.219294,
+                    40.730537
+                  ],
+                  [
+                    0.278257,
+                    40.691573
+                  ],
+                  [
+                    0.52376,
+                    40.526163
+                  ],
+                  [
+                    0.234548,
+                    38.742255
+                  ],
+                  [
+                    0.227712,
+                    38.734565
+                  ],
+                  [
+                    -0.760575,
+                    37.845898
+                  ],
+                  [
+                    -0.779714,
+                    37.84291
+                  ],
+                  [
+                    -0.787104,
+                    37.844279
+                  ],
+                  [
+                    -0.830564,
+                    37.864201
+                  ],
+                  [
+                    -0.838703,
+                    37.867973
+                  ],
+                  [
+                    -0.8887,
+                    37.908022
+                  ],
+                  [
+                    -0.916683,
+                    37.933551
+                  ],
+                  [
+                    -0.923065,
+                    37.941302
+                  ],
+                  [
+                    -1.020036,
+                    38.068504
+                  ],
+                  [
+                    -1.025849,
+                    38.078865
+                  ],
+                  [
+                    -1.517447,
+                    39.441081
+                  ],
+                  [
+                    -1.518274,
+                    39.446016
+                  ],
+                  [
+                    -1.518196,
+                    39.45183
+                  ],
+                  [
+                    -1.504321,
+                    39.54924
+                  ]
+                ]
+              ],
+              [
                 [
-                  -1.518274,
-                  39.446016
-                ],
-                [
-                  -1.518196,
-                  39.45183
-                ],
-                [
-                  -1.452335,
-                  40.130677
-                ],
-                [
-                  -1.448537,
-                  40.149798
-                ],
-                [
-                  -0.194815,
-                  40.775987
-                ],
-                [
-                  -0.183885,
-                  40.779423
-                ],
-                [
-                  -0.165798,
-                  40.779914
-                ],
-                [
-                  0.219294,
-                  40.730537
-                ],
-                [
-                  0.278257,
-                  40.691573
-                ],
-                [
-                  0.52376,
-                  40.526163
-                ],
-                [
-                  0.234548,
-                  38.742255
-                ],
-                [
-                  0.227712,
-                  38.734565
-                ],
-                [
-                  -0.760575,
-                  37.845898
-                ],
-                [
-                  -0.779714,
-                  37.84291
-                ],
-                [
-                  -0.787104,
-                  37.844279
-                ],
-                [
-                  -0.830564,
-                  37.864201
-                ],
-                [
-                  -0.838703,
-                  37.867973
-                ],
-                [
-                  -0.8887,
-                  37.908022
-                ],
-                [
-                  -0.916683,
-                  37.933551
-                ],
-                [
-                  -0.923065,
-                  37.941302
-                ],
-                [
-                  -1.020036,
-                  38.068504
-                ],
-                [
-                  -1.025849,
-                  38.078865
-                ],
-                [
-                  -1.517447,
-                  39.441081
+                  [
+                    -1.139072,
+                    40.016214
+                  ],
+                  [
+                    -1.187105,
+                    40.006189
+                  ],
+                  [
+                    -1.242968,
+                    39.997378
+                  ],
+                  [
+                    -1.25891,
+                    39.998127
+                  ],
+                  [
+                    -1.359782,
+                    40.014095
+                  ],
+                  [
+                    -1.369549,
+                    40.016343
+                  ],
+                  [
+                    -1.378308,
+                    40.022131
+                  ],
+                  [
+                    -1.452335,
+                    40.130677
+                  ],
+                  [
+                    -1.448537,
+                    40.149798
+                  ],
+                  [
+                    -1.300819,
+                    40.203205
+                  ],
+                  [
+                    -1.294592,
+                    40.201629
+                  ],
+                  [
+                    -1.125843,
+                    40.097915
+                  ],
+                  [
+                    -1.093003,
+                    40.077011
+                  ],
+                  [
+                    -1.079954,
+                    40.065772
+                  ],
+                  [
+                    -1.076699,
+                    40.059002
+                  ],
+                  [
+                    -1.0760615345358728,
+                    40.054963935359496
+                  ],
+                  [
+                    -1.1060207428173838,
+                    40.0290162067316
+                  ],
+                  [
+                    -1.139072,
+                    40.016214
+                  ]
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
-        ],
-        "type": "GeometryCollection"
+        ]
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Spain/Valencian+Community.map"
       },
       "id": "http://www.wikidata.org/entity/Q5720",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Community of Valencia"
+        },
         {
           "lang": "en",
           "toponym": "Comunitat Valenciana"
         },
         {
           "lang": "en",
-          "toponym": "Pais Valencia"
+          "toponym": "Land of Valencia"
         },
         {
           "lang": "en",
@@ -2830,11 +3060,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Valencian Community"
+          "toponym": "Valencia"
         },
         {
           "lang": "en",
-          "toponym": "Valencian Country"
+          "toponym": "Valencian Community"
         },
         {
           "lang": "en",

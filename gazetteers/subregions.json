@@ -223,10 +223,6 @@
         {
           "lang": "en",
           "toponym": "The Caribbean"
-        },
-        {
-          "lang": "en",
-          "toponym": "West Indies"
         }
       ],
       "properties": {
@@ -235,12 +231,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q33837",
-          "label": "archipelago"
+          "identifier": "http://www.wikidata.org/entity/Q137186904",
+          "label": "transcontinental region"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "region"
+          "identifier": "http://www.wikidata.org/entity/Q33837",
+          "label": "archipelago"
         }
       ]
     },
@@ -524,6 +520,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q855697",
           "label": "subcontinent"
@@ -1651,12 +1651,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
+          "identifier": "http://www.wikidata.org/entity/Q137186904",
+          "label": "transcontinental region"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "region"
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -3082,7 +3082,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "westernmost region of the African continent"
+          "value": "western-most geographic region of the continent of Africa, adjacent to the Atlantic Ocean"
         }
       ],
       "geometry": {
@@ -3327,19 +3327,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Africa, Western"
-        },
-        {
-          "lang": "en",
           "toponym": "West Africa"
-        },
-        {
-          "lang": "en",
-          "toponym": "West of Africa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Western Africa"
         }
       ],
       "properties": {
@@ -3364,6 +3352,13 @@
           "value": "western part of the European continent"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          29.7291,
+          35.9229
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
@@ -3581,8 +3576,22 @@
           "toponym": "Western Europe"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          27.6510362,
+          71.1338906
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Western Europe"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          24.09585,
+          34.69698
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -3590,7 +3599,14 @@
           "identifier": "http://www.wikidata.org/entity/Q82794",
           "label": "region"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -9.50053453,
+          38.78099411
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -100,6 +101,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Ab%C5%9Feron.map"
       },
       "id": "http://www.wikidata.org/entity/Q179538",
       "names": [
@@ -186,6 +190,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/A%C4%9Fdam.map"
+      },
       "id": "http://www.wikidata.org/entity/Q201647",
       "names": [
         {
@@ -195,10 +202,18 @@
         {
           "lang": "en",
           "toponym": "Aghdam Rayon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aghdam"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aghdam"
         }
       ],
       "properties": {
-        "title": "Agdam District"
+        "title": "Aghdam"
       },
       "type": "Feature",
       "types": [
@@ -295,15 +310,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/A%C4%9Fda%C5%9F.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275784",
       "names": [
         {
           "lang": "en",
           "toponym": "Agdash District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aghdash District"
         }
       ],
       "properties": {
-        "title": "Agdash District"
+        "title": "Aghdash District"
       },
       "type": "Feature",
       "types": [
@@ -317,7 +339,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "rayon (district) in central Azerbaijan"
+          "value": "district in central Azerbaijan"
         }
       ],
       "geometry": {
@@ -384,11 +406,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/A%C4%9Fcab%C9%99di.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330818",
       "names": [
         {
           "lang": "en",
           "toponym": "Aghjabadi District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aghjabadi Rayon"
         }
       ],
       "properties": {
@@ -481,15 +510,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/A%C4%9Fstafa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q275744",
       "names": [
         {
           "lang": "en",
-          "toponym": "Agstafa District"
+          "toponym": "Aghstafa District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ağstafa rayonu"
         }
       ],
       "properties": {
-        "title": "Agstafa District"
+        "title": "Aghstafa District"
       },
       "type": "Feature",
       "types": [
@@ -561,6 +597,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/A%C4%9Fsu.map"
       },
       "id": "http://www.wikidata.org/entity/Q330800",
       "names": [
@@ -658,6 +697,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Astara.map"
       },
       "id": "http://www.wikidata.org/entity/Q269680",
       "names": [
@@ -764,6 +806,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Bab%C9%99k.map"
+      },
       "id": "http://www.wikidata.org/entity/Q643895",
       "names": [
         {
@@ -862,11 +907,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Bak%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q9248",
       "names": [
         {
           "lang": "en",
+          "toponym": "Baki"
+        },
+        {
+          "lang": "en",
           "toponym": "Baku"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baky"
         },
         {
           "lang": "en",
@@ -879,16 +935,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q137413",
-          "label": "administrative territorial entity of Azerbaijan"
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q56557664",
@@ -986,6 +1038,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Balak%C9%99n.map"
       },
       "id": "http://www.wikidata.org/entity/Q330850",
       "names": [
@@ -1088,6 +1143,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/B%C9%99rd%C9%99.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330857",
       "names": [
         {
@@ -1176,6 +1234,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Beyl%C9%99qan.map"
       },
       "id": "http://www.wikidata.org/entity/Q330807",
       "names": [
@@ -1269,6 +1330,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Bil%C9%99suvar.map"
       },
       "id": "http://www.wikidata.org/entity/Q330834",
       "names": [
@@ -1367,6 +1431,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Da%C5%9Fk%C9%99s%C9%99n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q457494",
       "names": [
         {
@@ -1463,6 +1530,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/F%C3%BCzuli.map"
       },
       "id": "http://www.wikidata.org/entity/Q331687",
       "names": [
@@ -1581,6 +1651,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/G%C9%99d%C9%99b%C9%99y.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330749",
       "names": [
         {
@@ -1658,6 +1731,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/G%C9%99nc%C9%99.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131290",
       "names": [
         {
@@ -1689,6 +1765,98 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q56557664",
           "label": "şəhər"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  44.96695,
+                  41.044834
+                ],
+                [
+                  44.960697,
+                  41.059924
+                ],
+                [
+                  45.0024,
+                  41.290452
+                ],
+                [
+                  45.097833,
+                  41.349919
+                ],
+                [
+                  45.392196,
+                  41.245622
+                ],
+                [
+                  45.398759,
+                  41.209061
+                ],
+                [
+                  45.381948,
+                  41.011448
+                ],
+                [
+                  45.335351,
+                  40.99383
+                ],
+                [
+                  45.209932,
+                  40.967991
+                ],
+                [
+                  45.186781,
+                  40.970834
+                ],
+                [
+                  44.979456,
+                  41.032639
+                ],
+                [
+                  44.96695,
+                  41.044834
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Qazax.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q389381",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gazakh District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qazax rayonu"
+        }
+      ],
+      "properties": {
+        "title": "Gazakh District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
         }
       ]
     },
@@ -1770,6 +1938,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Qobustan.map"
       },
       "id": "http://www.wikidata.org/entity/Q457508",
       "names": [
@@ -1864,6 +2035,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Goranboy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330843",
       "names": [
         {
@@ -1957,6 +2131,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/G%C3%B6y%C3%A7ay.map"
+      },
       "id": "http://www.wikidata.org/entity/Q477163",
       "names": [
         {
@@ -2034,6 +2211,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Xanlar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388087",
       "names": [
         {
@@ -2043,6 +2223,206 @@
       ],
       "properties": {
         "title": "Goygol District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.95204,
+                  41.098215
+                ],
+                [
+                  47.92646,
+                  41.157695
+                ],
+                [
+                  48.120195,
+                  41.269161
+                ],
+                [
+                  48.386174,
+                  41.416594
+                ],
+                [
+                  48.460226,
+                  41.445145
+                ],
+                [
+                  48.575464,
+                  41.483489
+                ],
+                [
+                  48.744136,
+                  41.34851
+                ],
+                [
+                  48.746978,
+                  41.25433
+                ],
+                [
+                  48.747237,
+                  41.239809
+                ],
+                [
+                  48.721295,
+                  41.063902
+                ],
+                [
+                  48.680057,
+                  40.895075
+                ],
+                [
+                  48.389222,
+                  40.948457
+                ],
+                [
+                  48.031105,
+                  41.063127
+                ],
+                [
+                  47.95204,
+                  41.098215
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Quba.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q457499",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Guba District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Quba rayonu"
+        }
+      ],
+      "properties": {
+        "title": "Guba District"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q13417250",
+          "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "district of Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.374616,
+                  39.378838
+                ],
+                [
+                  46.36087,
+                  39.410257
+                ],
+                [
+                  46.373996,
+                  39.435992
+                ],
+                [
+                  46.405725,
+                  39.451185
+                ],
+                [
+                  46.478952,
+                  39.461829
+                ],
+                [
+                  46.640699,
+                  39.483456
+                ],
+                [
+                  46.731598,
+                  39.485084
+                ],
+                [
+                  46.748909,
+                  39.475317
+                ],
+                [
+                  46.761105,
+                  39.460021
+                ],
+                [
+                  46.82291,
+                  39.227993
+                ],
+                [
+                  46.681213,
+                  39.128594
+                ],
+                [
+                  46.640544,
+                  39.147688
+                ],
+                [
+                  46.374616,
+                  39.378838
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Qubadli.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q644048",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Gubadli District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gubadly District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qubadli District"
+        }
+      ],
+      "properties": {
+        "title": "Gubadly District"
       },
       "type": "Feature",
       "types": [
@@ -2122,6 +2502,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Hajigabul.map"
       },
       "id": "http://www.wikidata.org/entity/Q476690",
       "names": [
@@ -2219,6 +2602,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C4%B0mi%C5%9Fli.map"
       },
       "id": "http://www.wikidata.org/entity/Q343908",
       "names": [
@@ -2320,6 +2706,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C4%B0smay%C4%B1ll%C4%B1.map"
       },
       "id": "http://www.wikidata.org/entity/Q344252",
       "names": [
@@ -2425,6 +2814,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/C%C9%99bray%C4%B1l.map"
       },
       "id": "http://www.wikidata.org/entity/Q457491",
       "names": [
@@ -2539,6 +2931,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/C%C9%99lilabad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q372795",
       "names": [
         {
@@ -2636,6 +3031,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Culfa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q644035",
       "names": [
         {
@@ -2725,11 +3123,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/K%C9%99lb%C9%99c%C9%99r.map"
+      },
       "id": "http://www.wikidata.org/entity/Q457513",
       "names": [
         {
           "lang": "en",
+          "toponym": "Kalbacar District"
+        },
+        {
+          "lang": "en",
           "toponym": "Kalbajar District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kalbajar Rayon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kelbecer District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kəlbəcər District"
         }
       ],
       "properties": {
@@ -2822,6 +3239,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Kangarli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q734030",
       "names": [
         {
@@ -2844,7 +3264,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district of Azerbaijan"
+          "value": "District of Azerbaijan"
         }
       ],
       "geometry": {
@@ -2927,6 +3347,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Xa%C3%A7maz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6398826",
       "names": [
         {
@@ -2942,6 +3365,130 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q13417250",
           "label": "district of Azerbaijan"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "city in Azerbaijan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  46.445052,
+                  39.902397
+                ],
+                [
+                  46.437145,
+                  39.928209
+                ],
+                [
+                  46.450995,
+                  39.95813
+                ],
+                [
+                  46.509492,
+                  39.985492
+                ],
+                [
+                  46.656667,
+                  40.012493
+                ],
+                [
+                  46.697904,
+                  40.018152
+                ],
+                [
+                  46.774334,
+                  40.0073
+                ],
+                [
+                  46.8226,
+                  39.988361
+                ],
+                [
+                  46.923627,
+                  39.903715
+                ],
+                [
+                  46.906057,
+                  39.668406
+                ],
+                [
+                  46.875206,
+                  39.645591
+                ],
+                [
+                  46.8411,
+                  39.626936
+                ],
+                [
+                  46.814797,
+                  39.637891
+                ],
+                [
+                  46.540343,
+                  39.757677
+                ],
+                [
+                  46.445052,
+                  39.902397
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Khankendi.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q129352",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Khankandi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khankendi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khankendy"
+        },
+        {
+          "lang": "en",
+          "toponym": "Stepanakert"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vararakn"
+        },
+        {
+          "lang": "en",
+          "toponym": "Xankendi"
+        }
+      ],
+      "properties": {
+        "title": "Khankendi"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56557664",
+          "label": "şəhər"
         }
       ]
     },
@@ -3032,6 +3579,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Xiz%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q476708",
       "names": [
         {
@@ -3117,15 +3667,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Xocal%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330790",
       "names": [
         {
           "lang": "en",
           "toponym": "Khojali District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khojaly District"
         }
       ],
       "properties": {
-        "title": "Khojali District"
+        "title": "Khojaly District"
       },
       "type": "Feature",
       "types": [
@@ -3234,6 +3791,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Xocav%C9%99nd.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330813",
       "names": [
         {
@@ -3335,6 +3895,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/K%C3%BCrd%C9%99mir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q688589",
       "names": [
         {
@@ -3420,6 +3983,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Lachin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q301832",
       "names": [
         {
@@ -3492,6 +4058,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Lankaran+City.map"
       },
       "id": "http://www.wikidata.org/entity/Q228811",
       "names": [
@@ -3586,11 +4155,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Lankaran.map"
+      },
       "id": "http://www.wikidata.org/entity/Q269986",
       "names": [
         {
           "lang": "en",
           "toponym": "Lankaran District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lankaran Sahari"
         }
       ],
       "properties": {
@@ -3686,6 +4262,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Lerik.map"
       },
       "id": "http://www.wikidata.org/entity/Q688626",
       "names": [
@@ -3784,6 +4363,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Masall%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q476695",
       "names": [
         {
@@ -3849,11 +4431,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Ming%C9%99%C3%A7evir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q230932",
       "names": [
         {
           "lang": "en",
           "toponym": "Mingachevir"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mingelchaur"
         }
       ],
       "properties": {
@@ -3930,6 +4519,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Naftalan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q152825",
       "names": [
         {
@@ -3995,6 +4587,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Nax%C3%A7%C4%B1van.map"
+      },
       "id": "http://www.wikidata.org/entity/Q230104",
       "names": [
         {
@@ -4025,7 +4620,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district of Azerbaijan"
+          "value": "District in Azerbaijan"
         }
       ],
       "geometry": {
@@ -4100,11 +4695,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Neft%C3%A7ala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q688633",
       "names": [
         {
           "lang": "en",
           "toponym": "Neftchala District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Neftchala Rayon"
         }
       ],
       "properties": {
@@ -4192,6 +4794,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/O%C4%9Fuz.map"
       },
       "id": "http://www.wikidata.org/entity/Q643989",
       "names": [
@@ -4290,6 +4895,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Ordubad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q512623",
       "names": [
         {
@@ -4378,6 +4986,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Q%C9%99b%C9%99l%C9%99.map"
       },
       "id": "http://www.wikidata.org/entity/Q593872",
       "names": [
@@ -4472,8 +5083,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Qax.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330796",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Gakh"
+        },
         {
           "lang": "en",
           "toponym": "Qakh District"
@@ -4487,281 +5105,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q13417250",
           "label": "district of Azerbaijan"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "district of Azerbaijan"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  44.96695,
-                  41.044834
-                ],
-                [
-                  44.960697,
-                  41.059924
-                ],
-                [
-                  45.0024,
-                  41.290452
-                ],
-                [
-                  45.097833,
-                  41.349919
-                ],
-                [
-                  45.392196,
-                  41.245622
-                ],
-                [
-                  45.398759,
-                  41.209061
-                ],
-                [
-                  45.381948,
-                  41.011448
-                ],
-                [
-                  45.335351,
-                  40.99383
-                ],
-                [
-                  45.209932,
-                  40.967991
-                ],
-                [
-                  45.186781,
-                  40.970834
-                ],
-                [
-                  44.979456,
-                  41.032639
-                ],
-                [
-                  44.96695,
-                  41.044834
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q389381",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Gazakh Rayon"
-        },
-        {
-          "lang": "en",
-          "toponym": "Qazax District"
-        }
-      ],
-      "properties": {
-        "title": "Qazax District"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q13417250",
-          "label": "district of Azerbaijan"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "district of Azerbaijan"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  47.95204,
-                  41.098215
-                ],
-                [
-                  47.92646,
-                  41.157695
-                ],
-                [
-                  48.120195,
-                  41.269161
-                ],
-                [
-                  48.386174,
-                  41.416594
-                ],
-                [
-                  48.460226,
-                  41.445145
-                ],
-                [
-                  48.575464,
-                  41.483489
-                ],
-                [
-                  48.744136,
-                  41.34851
-                ],
-                [
-                  48.746978,
-                  41.25433
-                ],
-                [
-                  48.747237,
-                  41.239809
-                ],
-                [
-                  48.721295,
-                  41.063902
-                ],
-                [
-                  48.680057,
-                  40.895075
-                ],
-                [
-                  48.389222,
-                  40.948457
-                ],
-                [
-                  48.031105,
-                  41.063127
-                ],
-                [
-                  47.95204,
-                  41.098215
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q457499",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Quba District"
-        }
-      ],
-      "properties": {
-        "title": "Quba District"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q13417250",
-          "label": "district of Azerbaijan"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "district of Azerbaijan"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  46.374616,
-                  39.378838
-                ],
-                [
-                  46.36087,
-                  39.410257
-                ],
-                [
-                  46.373996,
-                  39.435992
-                ],
-                [
-                  46.405725,
-                  39.451185
-                ],
-                [
-                  46.478952,
-                  39.461829
-                ],
-                [
-                  46.640699,
-                  39.483456
-                ],
-                [
-                  46.731598,
-                  39.485084
-                ],
-                [
-                  46.748909,
-                  39.475317
-                ],
-                [
-                  46.761105,
-                  39.460021
-                ],
-                [
-                  46.82291,
-                  39.227993
-                ],
-                [
-                  46.681213,
-                  39.128594
-                ],
-                [
-                  46.640544,
-                  39.147688
-                ],
-                [
-                  46.374616,
-                  39.378838
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q644048",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Qubadli District"
-        }
-      ],
-      "properties": {
-        "title": "Qubadli District"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q13417250",
-          "label": "district of Azerbaijan"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
         }
       ]
     },
@@ -4835,6 +5178,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Qusar.map"
       },
       "id": "http://www.wikidata.org/entity/Q386506",
       "names": [
@@ -4940,6 +5286,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Saatl%C4%B1.map"
       },
       "id": "http://www.wikidata.org/entity/Q601105",
       "names": [
@@ -5062,6 +5411,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Sabirabad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q382132",
       "names": [
         {
@@ -5138,6 +5490,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/S%C9%99d%C9%99r%C9%99k.map"
       },
       "id": "http://www.wikidata.org/entity/Q641468",
       "names": [
@@ -5240,6 +5595,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Salyan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q457485",
       "names": [
         {
@@ -5337,6 +5695,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Samux.map"
+      },
       "id": "http://www.wikidata.org/entity/Q498437",
       "names": [
         {
@@ -5425,6 +5786,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/D%C9%99v%C9%99%C3%A7i.map"
       },
       "id": "http://www.wikidata.org/entity/Q387994",
       "names": [
@@ -5531,11 +5895,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C5%9Eahbuz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388081",
       "names": [
         {
           "lang": "en",
           "toponym": "Shahbuz District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Shahbuz Rayon"
         }
       ],
       "properties": {
@@ -5543,6 +5914,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12357832",
+          "label": "second-level administrative division"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q13417250",
           "label": "district of Azerbaijan"
@@ -5612,6 +5987,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Shaki+City.map"
+      },
       "id": "http://www.wikidata.org/entity/Q234783",
       "names": [
         {
@@ -5621,6 +5999,10 @@
         {
           "lang": "en",
           "toponym": "Shaki"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sheki"
         }
       ],
       "properties": {
@@ -5725,6 +6107,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C5%9E%C9%99ki.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330864",
       "names": [
         {
@@ -5822,6 +6207,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C5%9Eamax%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q330839",
       "names": [
         {
@@ -5914,6 +6302,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C5%9E%C9%99mkir.map"
       },
       "id": "http://www.wikidata.org/entity/Q467491",
       "names": [
@@ -6020,6 +6411,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/%C5%9E%C9%99rur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q390820",
       "names": [
         {
@@ -6117,6 +6511,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Shirvan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q241116",
       "names": [
         {
@@ -6133,6 +6530,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q56557664",
           "label": "şəhər"
@@ -6226,6 +6627,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Shusha+District.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388960",
       "names": [
         {
@@ -6241,6 +6645,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q13417250",
           "label": "district of Azerbaijan"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q486972",
+          "label": "human settlement"
         }
       ]
     },
@@ -6311,6 +6719,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Siy%C9%99z%C9%99n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q820940",
       "names": [
         {
@@ -6326,124 +6737,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q13417250",
           "label": "district of Azerbaijan"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Stepanakert%20Flag.gif"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "city in Nagorno-Karabakh"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  46.445052,
-                  39.902397
-                ],
-                [
-                  46.437145,
-                  39.928209
-                ],
-                [
-                  46.450995,
-                  39.95813
-                ],
-                [
-                  46.509492,
-                  39.985492
-                ],
-                [
-                  46.656667,
-                  40.012493
-                ],
-                [
-                  46.697904,
-                  40.018152
-                ],
-                [
-                  46.774334,
-                  40.0073
-                ],
-                [
-                  46.8226,
-                  39.988361
-                ],
-                [
-                  46.923627,
-                  39.903715
-                ],
-                [
-                  46.906057,
-                  39.668406
-                ],
-                [
-                  46.875206,
-                  39.645591
-                ],
-                [
-                  46.8411,
-                  39.626936
-                ],
-                [
-                  46.814797,
-                  39.637891
-                ],
-                [
-                  46.540343,
-                  39.757677
-                ],
-                [
-                  46.445052,
-                  39.902397
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q129352",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Khankendi"
-        },
-        {
-          "lang": "en",
-          "toponym": "Stepanakert"
-        }
-      ],
-      "properties": {
-        "title": "Stepanakert"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q56061",
-          "label": "administrative territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q56557664",
-          "label": "şəhər"
         }
       ]
     },
@@ -6514,6 +6807,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Sumqay%C4%B1t.map"
+      },
       "id": "http://www.wikidata.org/entity/Q179833",
       "names": [
         {
@@ -6523,10 +6819,6 @@
         {
           "lang": "en",
           "toponym": "Sumgayit"
-        },
-        {
-          "lang": "en",
-          "toponym": "Sumqayit"
         }
       ],
       "properties": {
@@ -6537,10 +6829,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q50330360",
-          "label": "second largest city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q56557664",
@@ -6619,8 +6907,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/T%C9%99rt%C9%99r.map"
+      },
       "id": "http://www.wikidata.org/entity/Q477168",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Mirbashir District"
+        },
         {
           "lang": "en",
           "toponym": "Tartar District"
@@ -6728,11 +7023,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Tovuz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388980",
       "names": [
         {
           "lang": "en",
           "toponym": "Tovuz District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tovuz"
         }
       ],
       "properties": {
@@ -6828,6 +7130,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Ucar.map"
       },
       "id": "http://www.wikidata.org/entity/Q476703",
       "names": [
@@ -6926,6 +7231,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Yard%C4%B1ml%C4%B1.map"
+      },
       "id": "http://www.wikidata.org/entity/Q127255",
       "names": [
         {
@@ -7006,6 +7314,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Yevlakh.map"
       },
       "id": "http://www.wikidata.org/entity/Q175459",
       "names": [
@@ -7100,11 +7411,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Yevlakh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q458524",
       "names": [
         {
           "lang": "en",
           "toponym": "Yevlakh District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yevlakh"
         }
       ],
       "properties": {
@@ -7204,6 +7522,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Z%C9%99ngilan.map"
       },
       "id": "http://www.wikidata.org/entity/Q249252",
       "names": [
@@ -7306,8 +7627,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Zaqatala.map"
+      },
       "id": "http://www.wikidata.org/entity/Q147553",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Zakataly District"
+        },
         {
           "lang": "en",
           "toponym": "Zaqatala District"
@@ -7332,7 +7660,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district of Azerbaijan"
+          "value": "district in Azerbaijan"
         }
       ],
       "geometry": {
@@ -7391,11 +7719,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Azerbaijan/Z%C9%99rdab.map"
+      },
       "id": "http://www.wikidata.org/entity/Q249293",
       "names": [
         {
           "lang": "en",
           "toponym": "Zardab District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zardab Rayon"
         }
       ],
       "properties": {

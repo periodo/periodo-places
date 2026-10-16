@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -201,8 +202,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkmenistan/Ahal.map"
+      },
       "id": "http://www.wikidata.org/entity/Q399899",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Ahal Province"
+        },
         {
           "lang": "en",
           "toponym": "Ahal Region"
@@ -223,7 +231,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Turkmenistan"
+          "value": "province of Turkmenistan"
         }
       ],
       "geometry": {
@@ -362,15 +370,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkmenistan/Balkan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q486073",
       "names": [
         {
           "lang": "en",
-          "toponym": "Balkan Region"
+          "toponym": "Balkan Province"
         }
       ],
       "properties": {
-        "title": "Balkan Region"
+        "title": "Balkan Province"
       },
       "type": "Feature",
       "types": [
@@ -507,6 +518,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkmenistan/Tashauz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487393",
       "names": [
         {
@@ -632,6 +646,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkmenistan/Chardzhou.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487389",
       "names": [
         {
@@ -744,6 +761,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkmenistan/Mary.map"
       },
       "id": "http://www.wikidata.org/entity/Q487401",
       "names": [

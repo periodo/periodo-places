@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,7 +58,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beni.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beni%20Department%2C%20Bolivia.svg"
         }
       ],
       "descriptions": [
@@ -198,6 +199,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/El+Beni.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233169",
       "names": [
         {
@@ -227,7 +231,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chuquisaca.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sucre%20and%20Chuquisaca.svg"
         }
       ],
       "descriptions": [
@@ -323,6 +327,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Chuquisaca.map"
       },
       "id": "http://www.wikidata.org/entity/Q235110",
       "names": [
@@ -445,6 +452,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Cochabamba.map"
       },
       "id": "http://www.wikidata.org/entity/Q233917",
       "names": [
@@ -596,6 +606,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/La+Paz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q272784",
       "names": [
         {
@@ -627,7 +640,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative district in Bolivia"
+          "value": "department of Bolivia"
         }
       ],
       "geometry": {
@@ -766,11 +779,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Oruro.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1061368",
       "names": [
         {
           "lang": "en",
           "toponym": "Oruro Department"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oruro"
         }
       ],
       "properties": {
@@ -888,6 +908,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Pando.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235362",
       "names": [
         {
@@ -915,7 +938,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Departamento de Bolivia"
+          "value": "department of Bolivia"
         }
       ],
       "geometry": {
@@ -1053,6 +1076,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Potos%C3%AD.map"
       },
       "id": "http://www.wikidata.org/entity/Q238079",
       "names": [
@@ -1208,6 +1234,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Santa+Cruz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q235106",
       "names": [
         {
@@ -1326,8 +1355,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Bolivia/Tarija.map"
+      },
       "id": "http://www.wikidata.org/entity/Q233933",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "BO-T"
+        },
         {
           "lang": "en",
           "toponym": "Tarija Department"

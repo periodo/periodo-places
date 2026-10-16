@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -66,6 +67,13 @@
           "value": "region in Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          14.783055555,
+          42.033888888
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -230,8 +238,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Abruzzo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1284",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Abruzzi"
+        },
         {
           "lang": "en",
           "toponym": "Abruzzo region"
@@ -241,8 +256,22 @@
           "toponym": "Abruzzo"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          13.910277777,
+          42.894722222
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Abruzzo"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          14.018611111,
+          41.682222222
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -250,7 +279,14 @@
           "identifier": "http://www.wikidata.org/entity/Q16110",
           "label": "region of Italy"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          13.018611111,
+          42.075
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -360,6 +396,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Aoste.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1222",
       "names": [
         {
@@ -368,11 +407,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Val d'Aosta"
+          "toponym": "Autonomous Region of Aosta Valley"
         },
         {
           "lang": "en",
           "toponym": "Valle d'Aosta"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vallée d'Aoste"
         }
       ],
       "properties": {
@@ -526,6 +569,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Apulia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1447",
       "names": [
         {
@@ -553,6 +599,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q16110",
           "label": "region of Italy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2221906",
+          "label": "geographic location"
         }
       ]
     },
@@ -664,6 +714,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Basilicata.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1452",
       "names": [
         {
@@ -699,7 +752,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Italy"
+          "value": "region of Italy"
         }
       ],
       "geometry": {
@@ -818,6 +871,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Calabria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1458",
       "names": [
         {
@@ -841,6 +897,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q34763",
           "label": "peninsula"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -984,11 +1044,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Campania.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1438",
       "names": [
         {
           "lang": "en",
           "toponym": "Campania"
+        },
+        {
+          "lang": "en",
+          "toponym": "Campania, Italy"
+        },
+        {
+          "lang": "en",
+          "toponym": "Region of Campania"
         }
       ],
       "properties": {
@@ -1005,13 +1076,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Emilia-Romagna.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Emilia-Romagna%20%28de%20facto%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Italy"
+          "value": "region of Italy"
         }
       ],
       "geometry": {
@@ -1146,6 +1217,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Emilia-Romagna.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1263",
       "names": [
         {
@@ -1173,7 +1247,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Italy"
+          "value": "autonomous region of Italy"
         }
       ],
       "geometry": {
@@ -1276,8 +1350,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Friuli+Venezia+Giulia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1250",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Friuli Venezia Giulia"
+        },
         {
           "lang": "en",
           "toponym": "Friuli-Julian March"
@@ -1288,11 +1369,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Friuli–Venezia Giulia"
+          "toponym": "Friuli-Venezia Giulia"
         }
       ],
       "properties": {
-        "title": "Friuli–Venezia Giulia"
+        "title": "Friuli Venezia Giulia"
       },
       "type": "Feature",
       "types": [
@@ -1311,7 +1392,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative region of Italy"
+          "value": "region of Italy"
         }
       ],
       "geometry": {
@@ -1429,6 +1510,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Lazio.map"
       },
       "id": "http://www.wikidata.org/entity/Q1282",
       "names": [
@@ -1564,15 +1648,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Liguria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1256",
       "names": [
         {
           "lang": "en",
           "toponym": "Liguria"
-        },
-        {
-          "lang": "en",
-          "toponym": "Regio IX"
         }
       ],
       "properties": {
@@ -1702,6 +1785,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Lombardy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1210",
       "names": [
         {
@@ -1721,6 +1807,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q16110",
           "label": "region of Italy"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -1733,7 +1823,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Italy"
+          "value": "region of Italy with ordinary statute"
         }
       ],
       "geometry": {
@@ -1856,11 +1946,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Marche.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1279",
       "names": [
         {
           "lang": "en",
           "toponym": "Marche"
+        },
+        {
+          "lang": "en",
+          "toponym": "Marches"
+        },
+        {
+          "lang": "en",
+          "toponym": "the Marches"
         }
       ],
       "properties": {
@@ -1989,6 +2090,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Molise.map"
       },
       "id": "http://www.wikidata.org/entity/Q1443",
       "names": [
@@ -2148,6 +2252,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Piedmont.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1216",
       "names": [
         {
@@ -2175,7 +2282,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Mediterranean island and an autonomous region of Italy"
+          "value": "island and autonomous region of Italy"
         }
       ],
       "geometry": {
@@ -2290,15 +2397,46 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Sardinia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1462",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Autonomous Region of Sardinia"
+        },
+        {
+          "lang": "en",
+          "toponym": "IT-88"
+        },
+        {
+          "lang": "en",
+          "toponym": "IT88"
+        },
         {
           "lang": "en",
           "toponym": "Sardegna"
         },
         {
           "lang": "en",
+          "toponym": "Sardigna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sardinia (Italy)"
+        },
+        {
+          "lang": "en",
           "toponym": "Sardinia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sardinia, Italy"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sardinian Autonomous Region"
         }
       ],
       "properties": {
@@ -2321,9 +2459,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Italy"
+          "value": "island in the Mediterranean, region of Italy"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          15.65308,
+          38.26781
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2412,19 +2557,32 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Sicily.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1460",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Sicilia"
-        },
         {
           "lang": "en",
           "toponym": "Sicily"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          15.25164,
+          38.81771
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Sicily"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          12.6058,
+          35.49296
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -2436,7 +2594,14 @@
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          11.92587,
+          36.81632
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -2550,11 +2715,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Trentino-South+Tyrol.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1237",
       "names": [
         {
           "lang": "en",
           "toponym": "South Tyrol-Trentino"
+        },
+        {
+          "lang": "en",
+          "toponym": "Trentino"
         },
         {
           "lang": "en",
@@ -2593,7 +2765,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in central Italy with an area of about 23,000 square kilometres (8,900 square miles). The regional capital is Florence"
+          "value": "region of Italy"
         }
       ],
       "geometry": {
@@ -2727,6 +2899,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Tuscany.map"
       },
       "id": "http://www.wikidata.org/entity/Q1273",
       "names": [
@@ -2894,6 +3069,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Umbria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1280",
       "names": [
         {
@@ -3047,6 +3225,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Italy/Region/Veneto.map"
       },
       "id": "http://www.wikidata.org/entity/Q1243",
       "names": [
