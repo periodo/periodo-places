@@ -1,0 +1,98 @@
+name: Build gazetteers
+
+# Rebuild all gazetteers from current Natural Earth and Wikidata data and
+# report how they differ from the committed versions. The report is shown
+# in the job summary and uploaded with the rebuilt gazetteers and build
+# log. The job fails if any gazetteer is missing places.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # monthly, to catch changes in Natural Earth and Wikidata
+    - cron: "0 6 1 * *"
+  pull_request:
+    paths:
+      - ".github/workflows/build-gazetteers.yml"
+      - "Makefile"
+      - "jq/**"
+      - "js/**"
+      - "package.json"
+      - "package-lock.json"
+      - "place-ids/**"
+      - "py/**"
+      - "sh/**"
+      - "wikidata-query.rq"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # a fixed LTS release, so GDAL, jq and Python only change deliberately
+    container: ubuntu:26.04
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Install system packages
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            ca-certificates curl gdal-bin git jq make procps \
+            python3 python3-venv unzip
+          ogr2ogr --version
+          jq --version
+          python3 --version
+
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .tool-versions
+          cache: npm
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          make py/venv/bin/python
+
+      - name: Build gazetteers
+        id: build
+        continue-on-error: true
+        run: |
+          # sample memory in use (MB) to check that -j4 fits the runner
+          (while sleep 5; do free -m | awk '/^Mem:/ { print $3 }'; done) > memory.log &
+          make clean
+          make -k -j4 all 2>&1 | tee build.log
+
+      - name: Report changes
+        id: report
+        continue-on-error: true
+        run: |
+          ./py/venv/bin/python py/report-gazetteer-changes.py \
+            --log build.log --memory memory.log --json report.json \
+            > report.md
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gazetteer-build
+          path: |
+            report.md
+            report.json
+            build.log
+            memory.log
+            gazetteers/
+
+      - name: Fail if the build or report failed
+        if: steps.build.outcome != 'success' || steps.report.outcome != 'success'
+        run: |
+          echo "build: ${{ steps.build.outcome }}, report: ${{ steps.report.outcome }}"
+          exit 1
