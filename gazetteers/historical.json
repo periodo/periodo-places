@@ -137,10 +137,6 @@
         {
           "lang": "en",
           "toponym": "Empire of Carthage"
-        },
-        {
-          "lang": "en",
-          "toponym": "Αρχαία Καρχηδόνα"
         }
       ],
       "properties": {
@@ -149,8 +145,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2472587",
-          "label": "people"
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
@@ -159,6 +155,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
         }
       ]
     },
@@ -191,7 +191,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Egyptian civilization from the 31st century BC to the 1st century BC"
+          "value": "Egyptian civilization from the 4th millennium BC"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q11768",
@@ -244,7 +244,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Greek civilization from c. 1200 BC to c. 600 AD"
+          "value": "Greek civilization from 1200 BC to 600 AD"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q11772",
@@ -280,10 +280,6 @@
           "label": "culture"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q11514315",
-          "label": "historical period"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q1620908",
           "label": "historical region"
         },
@@ -298,6 +294,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3502482",
           "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q8432",
+          "label": "civilization"
         }
       ]
     },
@@ -347,14 +347,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Drapeau%20h%C3%A9thoumide.png"
-        },
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Drapeau%20roup%C3%A9nide.png"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -395,6 +387,10 @@
         {
           "lang": "en",
           "toponym": "Babylon"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mint of Babylon"
         }
       ],
       "properties": {
@@ -403,8 +399,16 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q3024240",
-          "label": "historical country"
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15661340",
+          "label": "ancient city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q839954",
+          "label": "archaeological site"
         }
       ]
     },
@@ -412,7 +416,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient Akkadian region in Mesopotamia"
+          "value": "historical country"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q47690",
@@ -438,18 +442,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q7275",
-          "label": "state"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q96196009",
-          "label": "former or current state"
         }
       ]
     },
@@ -491,11 +483,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Byzantine%20imperial%20flag%2C%2014th%20century.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -515,6 +502,14 @@
         {
           "lang": "en",
           "toponym": "Eastern Roman Empire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Empire of the Greeks"
+        },
+        {
+          "lang": "en",
+          "toponym": "Greek Empire"
         },
         {
           "lang": "en",
@@ -563,7 +558,27 @@
         },
         {
           "lang": "en",
+          "toponym": "Czargrad"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mint of Constantinople"
+        },
+        {
+          "lang": "en",
           "toponym": "The City of the World's Desire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tsargorod"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tsarigrad"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tzargrad"
         }
       ],
       "properties": {
@@ -644,6 +659,10 @@
         {
           "lang": "en",
           "toponym": "Jasmine city"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mint of Damascus"
         },
         {
           "lang": "en",
@@ -763,6 +782,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Dura Nicanoris"
+        },
+        {
+          "lang": "en",
           "toponym": "Dura"
         },
         {
@@ -771,7 +794,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Dura-Europus"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mint of Dura-Europus"
+        },
+        {
+          "lang": "en",
           "toponym": "al Athar (the ruins)"
+        },
+        {
+          "lang": "en",
+          "toponym": "alsuwr (the wall)"
         }
       ],
       "properties": {
@@ -797,7 +832,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient pre-Iranian civilization between 3200 and 539 BC"
+          "value": "ancient civilization of the Near East, centered in the Susiana plain and the Elamite highlands"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q128904",
@@ -864,10 +899,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ]
     },
@@ -887,6 +918,10 @@
         {
           "lang": "en",
           "toponym": "Gordium"
+        },
+        {
+          "lang": "en",
+          "toponym": "Mint of Gordion"
         }
       ],
       "properties": {
@@ -923,6 +958,10 @@
         {
           "lang": "en",
           "toponym": "First Reich"
+        },
+        {
+          "lang": "en",
+          "toponym": "Holy Roman Empire of the German Nation"
         },
         {
           "lang": "en",
@@ -984,8 +1023,12 @@
           "label": "ancient civilization"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q3024240",
+          "label": "historical country"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
+          "label": "region"
         }
       ]
     },
@@ -1012,10 +1055,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1620908",
-          "label": "historical region"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
@@ -1056,11 +1095,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20flag%20of%20Ramiro%20I%20of%20Asturies.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1098,7 +1132,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "European sovereign state from 1065 to 1230. From 1230 to 1833 it was the territorial jurisdiction of the Crown of Castile."
+          "value": "European sovereign state (1065–1230)"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q179293",
@@ -1132,7 +1166,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "kingdom in Iberia"
+          "value": "historical state on the Iberian Peninsula (910–1126)"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q303421",
@@ -1177,6 +1211,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Crusader Kingdom"
+        },
+        {
+          "lang": "en",
           "toponym": "Jerusalem"
         },
         {
@@ -1207,7 +1245,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "human settlement"
+          "value": "archaeological site in Israel"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q848509",
@@ -1260,7 +1298,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Ancient Hellenic kingdom"
+          "value": "ancient Hellenic kingdom"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q83958",
@@ -1498,6 +1536,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q48349",
+          "label": "empire"
         }
       ]
     },
@@ -1619,6 +1661,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Mint of Palmyra"
+        },
+        {
+          "lang": "en",
           "toponym": "Palmira"
         },
         {
@@ -1699,10 +1745,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Stato della Chiesa"
-        },
-        {
-          "lang": "en",
           "toponym": "Status Ecclesiae"
         }
       ],
@@ -1711,6 +1753,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q107230986",
+          "label": "historic state of Italy"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
@@ -1750,9 +1796,222 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "period of ancient Rome following the Republic"
+          "value": "period of Ancient Rome following the Republic"
         }
       ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  [
+                    -9.490043532127114,
+                    38.71155214456611
+                  ],
+                  [
+                    -9.501649709749033,
+                    38.7637166978115
+                  ],
+                  [
+                    -9.30614732383026,
+                    42.91609207465916
+                  ],
+                  [
+                    -9.298966846469417,
+                    43.05840616563645
+                  ],
+                  [
+                    -9.198283474219673,
+                    43.19762717148584
+                  ],
+                  [
+                    -4.764171376487456,
+                    48.50723113414548
+                  ],
+                  [
+                    -4.691269874189492,
+                    48.59059999246941
+                  ],
+                  [
+                    -1.962665694532512,
+                    49.74395530577937
+                  ],
+                  [
+                    4.388330948419819,
+                    52.21169580263056
+                  ],
+                  [
+                    5.908818713771793,
+                    51.98582420242126
+                  ],
+                  [
+                    25.00624742489233,
+                    47.31109008074268
+                  ],
+                  [
+                    41.21378563348841,
+                    43.25434967557874
+                  ],
+                  [
+                    43.4076000483555,
+                    42.57703914634788
+                  ],
+                  [
+                    44.10786952131721,
+                    42.33818415356988
+                  ],
+                  [
+                    48.86485536968302,
+                    39.95368968872373
+                  ],
+                  [
+                    49.43897090320767,
+                    39.26364700409536
+                  ],
+                  [
+                    48.71520925431589,
+                    29.91075575994432
+                  ],
+                  [
+                    48.37399925758925,
+                    28.66723169231403
+                  ],
+                  [
+                    34.17099906123502,
+                    23.26642797896723
+                  ],
+                  [
+                    32.63422032574039,
+                    22.7867913085293
+                  ],
+                  [
+                    30.35445382278019,
+                    23.39777810624776
+                  ],
+                  [
+                    -6.04691113409828,
+                    33.38461627117973
+                  ],
+                  [
+                    -6.564189984988518,
+                    33.76879020773334
+                  ],
+                  [
+                    -6.871823714287348,
+                    34.02470261769054
+                  ],
+                  [
+                    -8.995681854666254,
+                    37.02020365646373
+                  ],
+                  [
+                    -9.490043532127114,
+                    38.71155214456611
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    -5.672596624601081,
+                    50.00681997735703
+                  ],
+                  [
+                    -5.753650506666073,
+                    50.07715739596297
+                  ],
+                  [
+                    -5.362798602003233,
+                    51.87086379645515
+                  ],
+                  [
+                    -4.703880035410929,
+                    53.32176126657158
+                  ],
+                  [
+                    -3.393211327027953,
+                    54.88300898855974
+                  ],
+                  [
+                    -3.313327314226664,
+                    54.93457398437495
+                  ],
+                  [
+                    -3.240498607572173,
+                    54.95304211899273
+                  ],
+                  [
+                    -2.350193138186132,
+                    55.0093244278681
+                  ],
+                  [
+                    -1.42847579725241,
+                    55.01262883467115
+                  ],
+                  [
+                    -0.5601380874974882,
+                    54.48946515648087
+                  ],
+                  [
+                    -0.07528823498686998,
+                    54.12579926100485
+                  ],
+                  [
+                    1.620311424131144,
+                    52.82212886198826
+                  ],
+                  [
+                    1.74666434406185,
+                    52.68860113524379
+                  ],
+                  [
+                    1.786240709976961,
+                    52.55798797339949
+                  ],
+                  [
+                    1.776802148965975,
+                    52.49604780015781
+                  ],
+                  [
+                    1.423560462791307,
+                    51.16607487985058
+                  ],
+                  [
+                    1.390462370932695,
+                    51.13498931420056
+                  ],
+                  [
+                    1.008427890777019,
+                    50.92133858198977
+                  ],
+                  [
+                    0.9602731753951588,
+                    50.90779821328391
+                  ],
+                  [
+                    0.2373642834460221,
+                    50.71811457520432
+                  ],
+                  [
+                    -5.199008708263257,
+                    49.94957330848671
+                  ],
+                  [
+                    -5.672596624601081,
+                    50.00681997735703
+                  ]
+                ]
+              ]
+            ],
+            "type": "MultiPolygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Imperio+Romano+117.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2277",
       "names": [
         {
@@ -1762,6 +2021,10 @@
         {
           "lang": "en",
           "toponym": "Roman Empire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Roman period"
         },
         {
           "lang": "en",
@@ -1777,10 +2040,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q11514315",
-          "label": "historical period"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
@@ -1819,16 +2078,8 @@
           "label": "historical period"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1307214",
-          "label": "form of government"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q3024240",
           "label": "historical country"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q48349",
-          "label": "empire"
         }
       ]
     },
@@ -1843,23 +2094,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Accadians (Sumerians)"
-        },
-        {
-          "lang": "en",
-          "toponym": "Akkadians (Sumerians)"
-        },
-        {
-          "lang": "en",
-          "toponym": "Civilization, Sumerian"
-        },
-        {
-          "lang": "en",
           "toponym": "Sumer"
-        },
-        {
-          "lang": "en",
-          "toponym": "Sumerians"
         }
       ],
       "properties": {
@@ -1890,6 +2125,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q465299",
           "label": "archaeological culture"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q96196009",
+          "label": "former or current state"
         }
       ]
     },
@@ -1923,10 +2162,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q28171280",
           "label": "ancient civilization"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q6266",
-          "label": "nation"
         }
       ]
     },
@@ -1934,7 +2169,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "ancient Homeric-era city in northwest Asia Minor"
+          "value": "ancient Homeric-era city in northwest Asia Minor; it is known as the setting for the Greek myth of the Trojan war"
         }
       ],
       "id": "http://www.wikidata.org/entity/Q22647",
@@ -1957,6 +2192,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Mint of Ilium"
+        },
+        {
+          "lang": "en",
           "toponym": "Teukroi"
         },
         {
@@ -1970,8 +2209,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q839954",
-          "label": "archaeological site"
+          "identifier": "http://www.wikidata.org/entity/Q133442",
+          "label": "city-state"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q148837",
+          "label": "polis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1708422",
+          "label": "settlement site"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q65064889",
+          "label": "Bronze Age settlement"
         }
       ]
     },
@@ -1998,14 +2249,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1063239",
-          "label": "polity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q11042",
-          "label": "culture"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q133442",
           "label": "city-state"
@@ -2061,7 +2304,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Germanic successor state to the Western Roman Empire on the Iberian Peninsula (418–720)"
+          "value": "Period of Germanic rule on the Iberian Peninsula (418–720) as a successor state to the Western Roman Empire."
         }
       ],
       "id": "http://www.wikidata.org/entity/Q126936",

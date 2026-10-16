@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,7 +58,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ayeyarwaddy%20Division.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ayeyarwady%20Region.svg"
         }
       ],
       "descriptions": [
@@ -162,6 +163,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Ayeyarwady.map"
+      },
       "id": "http://www.wikidata.org/entity/Q47047",
       "names": [
         {
@@ -176,14 +180,14 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bago%20Division.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bago%20Region.png"
         }
       ],
       "descriptions": [
@@ -328,6 +332,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Bago.map"
+      },
       "id": "http://www.wikidata.org/entity/Q800124",
       "names": [
         {
@@ -354,7 +361,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
@@ -485,6 +492,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Chin.map"
       },
       "id": "http://www.wikidata.org/entity/Q46910",
       "names": [
@@ -672,6 +682,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Kachin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q140646",
       "names": [
         {
@@ -830,6 +843,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Kayah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q652845",
       "names": [
         {
@@ -948,6 +964,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Kayin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q495342",
       "names": [
         {
@@ -963,10 +982,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q17315624",
           "label": "state of Myanmar"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
         }
       ]
     },
@@ -1094,6 +1109,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Magway.map"
+      },
       "id": "http://www.wikidata.org/entity/Q833013",
       "names": [
         {
@@ -1108,14 +1126,14 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mandalay%20Division.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mandalay%20Region.svg"
         }
       ],
       "descriptions": [
@@ -1280,6 +1298,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Mandalay.map"
+      },
       "id": "http://www.wikidata.org/entity/Q119494",
       "names": [
         {
@@ -1294,7 +1315,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
@@ -1413,6 +1434,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Mon.map"
       },
       "id": "http://www.wikidata.org/entity/Q818742",
       "names": [
@@ -1595,6 +1619,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Rakhine.map"
       },
       "id": "http://www.wikidata.org/entity/Q233838",
       "names": [
@@ -1782,6 +1809,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Sagaing.map"
+      },
       "id": "http://www.wikidata.org/entity/Q847289",
       "names": [
         {
@@ -1800,20 +1830,20 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Shan%20State.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shan%20State.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "state of Myanmar"
+          "value": "state in Republic of the Union of Myanmar"
         }
       ],
       "geometry": {
@@ -1940,6 +1970,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Shan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q456847",
       "names": [
         {
@@ -1961,7 +1994,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tanintharyi%20Division.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tanintharyi%20Region.svg"
         }
       ],
       "descriptions": [
@@ -2078,6 +2111,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Tanintharyi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q843954",
       "names": [
         {
@@ -2087,6 +2123,10 @@
         {
           "lang": "en",
           "toponym": "Tenasserim Division"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tenasserim"
         }
       ],
       "properties": {
@@ -2096,20 +2136,20 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yangon%20Division.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yangon%20Region.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative region of Myanmar"
+          "value": "Administrative region of Myanmar"
         }
       ],
       "geometry": {
@@ -2244,8 +2284,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Myanmar/Yangon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q856781",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Rangoon Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yangon Division"
+        },
         {
           "lang": "en",
           "toponym": "Yangon Region"
@@ -2258,7 +2309,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15072454",
-          "label": "region of Burma"
+          "label": "region of Myanmar"
         }
       ]
     }

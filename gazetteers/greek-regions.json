@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -164,6 +165,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Attiki.map"
       },
       "id": "http://www.wikidata.org/entity/Q758056",
       "names": [
@@ -326,6 +330,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Stere%C3%A1+Ell%C3%A1da.map"
+      },
       "id": "http://www.wikidata.org/entity/Q199580",
       "names": [
         {
@@ -357,7 +364,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "one of the 13 regions of Greece"
+          "value": "one of the 13 administrative regions of Greece"
         }
       ],
       "geometry": {
@@ -484,19 +491,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Kentriki+Makedonia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17152",
       "names": [
         {
           "lang": "en",
-          "toponym": "Central Macedonia"
+          "toponym": "Central Macedonia Periphery"
         },
         {
           "lang": "en",
-          "toponym": "Centre Macedonia Region"
+          "toponym": "Central Macedonia Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Central Macedonia"
         }
       ],
       "properties": {
-        "title": "Centre Macedonia Region"
+        "title": "Central Macedonia Region"
       },
       "type": "Feature",
       "types": [
@@ -605,8 +619,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Kriti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1267522",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Crete Periphery"
+        },
         {
           "lang": "en",
           "toponym": "Crete Region"
@@ -620,10 +641,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q207299",
           "label": "administrative region of Greece"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q3502482",
-          "label": "cultural region"
         }
       ]
     },
@@ -631,7 +648,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "one of the 13 regions of Greece"
+          "value": "one of the 13 administrative regions of Greece"
         }
       ],
       "geometry": {
@@ -750,23 +767,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Anatoliki+Makedonia+kai+Thraki.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171314",
       "names": [
         {
           "lang": "en",
-          "toponym": "East Macedonia and Thrace Periphery"
+          "toponym": "Eastern Macedonia and Thrace Periphery"
         },
         {
           "lang": "en",
-          "toponym": "East Macedonia and Thrace Region"
+          "toponym": "Eastern Macedonia and Thrace Region"
         },
         {
           "lang": "en",
-          "toponym": "East Macedonia and Thrace"
+          "toponym": "Eastern Macedonia and Thrace"
         }
       ],
       "properties": {
-        "title": "East Macedonia and Thrace"
+        "title": "Eastern Macedonia and Thrace Region"
       },
       "type": "Feature",
       "types": [
@@ -862,6 +882,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Ipeiros.map"
       },
       "id": "http://www.wikidata.org/entity/Q180484",
       "names": [
@@ -980,6 +1003,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Ayion+Oros.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1147674",
       "names": [
         {
@@ -1003,99 +1029,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q207299",
           "label": "administrative region of Greece"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "autonomous administrative territory in Greece"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  24.001671,
-                  40.319771
-                ],
-                [
-                  23.991222,
-                  40.434068
-                ],
-                [
-                  23.991222,
-                  40.447699
-                ],
-                [
-                  24.011404,
-                  40.449164
-                ],
-                [
-                  24.179861,
-                  40.351508
-                ],
-                [
-                  24.233409,
-                  40.316881
-                ],
-                [
-                  24.266287,
-                  40.289049
-                ],
-                [
-                  24.383311,
-                  40.179145
-                ],
-                [
-                  24.393809,
-                  40.152493
-                ],
-                [
-                  24.361095,
-                  40.132392
-                ],
-                [
-                  24.318614,
-                  40.124701
-                ],
-                [
-                  24.299978,
-                  40.128079
-                ],
-                [
-                  24.001671,
-                  40.319771
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q780149",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Athonite State"
-        },
-        {
-          "lang": "en",
-          "toponym": "Monastic Republic of Mount Athos"
-        }
-      ],
-      "properties": {
-        "title": "Monastic Republic of Mount Athos"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q788176",
-          "label": "autonomous administrative territorial entity"
         }
       ]
     },
@@ -1186,8 +1119,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Voreio+Aigaio.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173620",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "North Aegean Periphery"
+        },
         {
           "lang": "en",
           "toponym": "North Aegean Region"
@@ -1310,6 +1250,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Peloponnisos.map"
       },
       "id": "http://www.wikidata.org/entity/Q202484",
       "names": [
@@ -1452,15 +1395,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Notio+Aigaio.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173616",
       "names": [
         {
           "lang": "en",
-          "toponym": "South Aegean"
+          "toponym": "South Aegean Periphery"
+        },
+        {
+          "lang": "en",
+          "toponym": "South Aegean Region"
         }
       ],
       "properties": {
-        "title": "South Aegean"
+        "title": "South Aegean Region"
       },
       "type": "Feature",
       "types": [
@@ -1612,6 +1562,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Greece%20logo.png"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1730,8 +1685,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Dytiki+Ellada.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170291",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "West Greece Periphery"
+        },
         {
           "lang": "en",
           "toponym": "West Greece Region"
@@ -1756,7 +1718,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "one of the 13 regions of Greece"
+          "value": "one of the 13 administrative regions of Greece"
         }
       ],
       "geometry": {
@@ -1835,11 +1797,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Greece/Dytiki+Makedonia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q165408",
       "names": [
         {
           "lang": "en",
-          "toponym": "West Macedonia Region"
+          "toponym": "Western Macedonia Periphery"
+        },
+        {
+          "lang": "en",
+          "toponym": "Western Macedonia Region"
         },
         {
           "lang": "en",
@@ -1847,13 +1816,130 @@
         }
       ],
       "properties": {
-        "title": "West Macedonia Region"
+        "title": "Western Macedonia Region"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q207299",
           "label": "administrative region of Greece"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "community of monks on the Mount Athos peninsula - autonomous part of the Greek state"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  24.001671,
+                  40.319771
+                ],
+                [
+                  23.991222,
+                  40.434068
+                ],
+                [
+                  23.991222,
+                  40.447699
+                ],
+                [
+                  24.011404,
+                  40.449164
+                ],
+                [
+                  24.179861,
+                  40.351508
+                ],
+                [
+                  24.233409,
+                  40.316881
+                ],
+                [
+                  24.266287,
+                  40.289049
+                ],
+                [
+                  24.383311,
+                  40.179145
+                ],
+                [
+                  24.393809,
+                  40.152493
+                ],
+                [
+                  24.361095,
+                  40.132392
+                ],
+                [
+                  24.318614,
+                  40.124701
+                ],
+                [
+                  24.299978,
+                  40.128079
+                ],
+                [
+                  24.001671,
+                  40.319771
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "id": "http://www.wikidata.org/entity/Q780149",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Athonic State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Athonite State"
+        },
+        {
+          "lang": "en",
+          "toponym": "monastic community of Mount Athos"
+        }
+      ],
+      "properties": {
+        "title": "monastic community of Mount Athos"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q138030791",
+          "label": "men only space"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1670189",
+          "label": "administrative territorial entity of Greece"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2742167",
+          "label": "religious community"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q782614",
+          "label": "autonomous region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q87351459",
+          "label": "monastic community"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q89335587",
+          "label": "Stauropegic monastery"
         }
       ]
     }

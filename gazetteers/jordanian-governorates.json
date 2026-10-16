@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -137,6 +138,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Ajlun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q506658",
       "names": [
         {
@@ -250,6 +254,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Amman.map"
+      },
       "id": "http://www.wikidata.org/entity/Q472788",
       "names": [
         {
@@ -346,6 +353,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Aqaba.map"
       },
       "id": "http://www.wikidata.org/entity/Q260796",
       "names": [
@@ -444,6 +454,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Balqa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q721431",
       "names": [
         {
@@ -499,8 +512,8 @@
                   32.670358
                 ],
                 [
-                  35.612224,
-                  32.681546
+                  35.61225,
+                  32.681588
                 ],
                 [
                   35.740175,
@@ -561,11 +574,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Irbid.map"
+      },
       "id": "http://www.wikidata.org/entity/Q721441",
       "names": [
         {
           "lang": "en",
           "toponym": "Irbid Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Irbid"
         }
       ],
       "properties": {
@@ -657,6 +677,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Jarash.map"
       },
       "id": "http://www.wikidata.org/entity/Q750270",
       "names": [
@@ -762,6 +785,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Karak.map"
       },
       "id": "http://www.wikidata.org/entity/Q735245",
       "names": [
@@ -896,6 +922,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Ma%60an.map"
+      },
       "id": "http://www.wikidata.org/entity/Q606340",
       "names": [
         {
@@ -1013,6 +1042,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Madaba.map"
+      },
       "id": "http://www.wikidata.org/entity/Q750447",
       "names": [
         {
@@ -1113,6 +1145,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Mafraq.map"
       },
       "id": "http://www.wikidata.org/entity/Q854871",
       "names": [
@@ -1247,6 +1282,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Tafilah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q750259",
       "names": [
         {
@@ -1347,6 +1385,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Jordan/Zarqa.map"
       },
       "id": "http://www.wikidata.org/entity/Q721445",
       "names": [

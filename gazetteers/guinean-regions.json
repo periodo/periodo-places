@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -265,6 +266,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Guinea/Conakry.map"
       },
       "id": "http://www.wikidata.org/entity/Q1373230",
       "names": [
@@ -885,6 +889,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1067116",
           "label": "region of Guinea"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3455524",
+          "label": "administrative region"
         }
       ]
     },

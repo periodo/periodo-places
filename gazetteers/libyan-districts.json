@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -254,15 +255,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Benghazi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q33507",
       "names": [
         {
           "lang": "en",
-          "toponym": "Benghazi district"
+          "toponym": "Benghazi District"
         }
       ],
       "properties": {
-        "title": "Benghazi district"
+        "title": "Benghazi District"
       },
       "type": "Feature",
       "types": [
@@ -350,6 +354,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Butnan.map"
       },
       "id": "http://www.wikidata.org/entity/Q25931",
       "names": [
@@ -460,6 +467,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Qubbah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26124",
       "names": [
         {
@@ -569,6 +579,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Ghat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q48236",
       "names": [
         {
@@ -654,6 +667,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Jabal+al+Akhdar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q32841",
       "names": [
         {
@@ -670,10 +686,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q16966004",
-          "label": "shabiyah"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q48242",
           "label": "district of Libya"
@@ -852,15 +864,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Jifarah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q329060",
       "names": [
         {
           "lang": "en",
-          "toponym": "Al Jfara"
+          "toponym": "Jafara"
         },
         {
           "lang": "en",
-          "toponym": "Jafara"
+          "toponym": "Tripoli"
         }
       ],
       "properties": {
@@ -878,7 +893,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Lybian district"
+          "value": "Libyan district"
         }
       ],
       "geometry": {
@@ -960,6 +975,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Jufrah.map"
       },
       "id": "http://www.wikidata.org/entity/Q48247",
       "names": [
@@ -1065,6 +1083,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Kufrah.map"
       },
       "id": "http://www.wikidata.org/entity/Q48200",
       "names": [
@@ -1191,6 +1212,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Marj.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26023",
       "names": [
         {
@@ -1312,6 +1336,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Misratah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q32845",
       "names": [
         {
@@ -1400,6 +1427,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Al+Marqab.map"
       },
       "id": "http://www.wikidata.org/entity/Q209778",
       "names": [
@@ -1537,6 +1567,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Murzuq.map"
       },
       "id": "http://www.wikidata.org/entity/Q48239",
       "names": [
@@ -1752,15 +1785,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/An+Nuqat+al+Khams.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26161",
       "names": [
         {
           "lang": "en",
-          "toponym": "Nuqat al Khams"
+          "toponym": "Nuqat al Khams District"
+        },
+        {
+          "lang": "en",
+          "toponym": "محافظة المنطقة الغربية"
         }
       ],
       "properties": {
-        "title": "Nuqat al Khams"
+        "title": "Nuqat al Khams District"
       },
       "type": "Feature",
       "types": [
@@ -1844,6 +1884,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Sabha.map"
       },
       "id": "http://www.wikidata.org/entity/Q26132",
       "names": [
@@ -1950,11 +1993,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Surt.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26417",
       "names": [
         {
           "lang": "en",
           "toponym": "Sirte District"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sirte"
         },
         {
           "lang": "en",
@@ -2059,6 +2109,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Aros Al baher Ṭarābulus"
+        },
+        {
+          "lang": "en",
           "toponym": "Tripoli District"
         }
       ],
@@ -2067,10 +2121,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q16966004",
-          "label": "shabiyah"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q48242",
           "label": "district of Libya"
@@ -2171,6 +2221,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Wadi+al+Hayaa.map"
       },
       "id": "http://www.wikidata.org/entity/Q48233",
       "names": [
@@ -2289,6 +2342,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Ash+Shati%27.map"
+      },
       "id": "http://www.wikidata.org/entity/Q48232",
       "names": [
         {
@@ -2311,7 +2367,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "in Libya"
+          "value": "Coastal city in Libya"
         }
       ],
       "geometry": {
@@ -2362,8 +2418,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Libya/Az+Zawiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q26153",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Zawiya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Zawiyah"
+        },
         {
           "lang": "en",
           "toponym": "Zawiya District"

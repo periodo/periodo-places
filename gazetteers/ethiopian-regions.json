@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -55,6 +56,11 @@
   },
   "features": [
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Addis%20Ababa.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -169,15 +175,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Addis+Ababa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3624",
       "names": [
         {
           "lang": "en",
           "toponym": "Addis Ababa"
-        },
-        {
-          "lang": "en",
-          "toponym": "Addis Abeba"
         },
         {
           "lang": "en",
@@ -198,20 +203,12 @@
           "label": "region of Ethiopia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
+          "identifier": "http://www.wikidata.org/entity/Q257391",
+          "label": "federal capital"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
+          "label": "capital city"
         }
       ]
     },
@@ -342,6 +339,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Afar.map"
       },
       "id": "http://www.wikidata.org/entity/Q193494",
       "names": [
@@ -509,6 +509,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Amhara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q203009",
       "names": [
         {
@@ -627,6 +630,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Benshangul-Gumaz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q207635",
       "names": [
         {
@@ -654,6 +660,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dire%20Dawa%2C%20Ethiopia.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -715,6 +726,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Dire+Dawa.map"
       },
       "id": "http://www.wikidata.org/entity/Q193486",
       "names": [
@@ -866,6 +880,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Gambela+Peoples.map"
+      },
       "id": "http://www.wikidata.org/entity/Q207638",
       "names": [
         {
@@ -875,6 +892,10 @@
         {
           "lang": "en",
           "toponym": "Gambela Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Gambella"
         }
       ],
       "properties": {
@@ -891,13 +912,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Harari%20Flag.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Harari%20Flag.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "regional state of Ethiopia"
+          "value": "regional state in eastern Ethiopia"
         }
       ],
       "geometry": {
@@ -963,6 +984,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Harari+People.map"
       },
       "id": "http://www.wikidata.org/entity/Q1033855",
       "names": [
@@ -1142,11 +1166,46 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Oromiya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q202107",
       "names": [
         {
           "lang": "en",
+          "toponym": "Oromia Federal State"
+        },
+        {
+          "lang": "en",
           "toponym": "Oromia Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oromia Regional National State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oromia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oromiya Regional Government"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oromiya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oromiyaa"
+        },
+        {
+          "lang": "en",
+          "toponym": "Regional State of Oromia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Regional State of Oromiya"
         }
       ],
       "properties": {
@@ -1163,13 +1222,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somali%20State%20original%20flag.jpg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Somali%20Region%20%281994-2008%2C%202018-%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "regional state of Ethiopia"
+          "value": "region of Ethiopia, with a Somali ethnic majority"
         }
       ],
       "geometry": {
@@ -1272,11 +1331,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Somali.map"
+      },
       "id": "http://www.wikidata.org/entity/Q202800",
       "names": [
         {
           "lang": "en",
           "toponym": "Somali Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Somali"
         }
       ],
       "properties": {
@@ -1422,8 +1488,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Southern+Nations,+Nationalities+and+Peoples.map"
+      },
       "id": "http://www.wikidata.org/entity/Q203193",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "SNNP Region"
+        },
         {
           "lang": "en",
           "toponym": "SNNPR"
@@ -1443,8 +1516,8 @@
           "label": "region of Ethiopia"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1196054",
-          "label": "administrative territorial entity of Ethiopia"
+          "identifier": "http://www.wikidata.org/entity/Q19953632",
+          "label": "former administrative territorial entity"
         }
       ]
     },
@@ -1457,7 +1530,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "regional state of Ethiopia"
+          "value": "bang vùng của Ethiopia"
         }
       ],
       "geometry": {
@@ -1556,11 +1629,50 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ethiopia/Tigray.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200127",
       "names": [
         {
           "lang": "en",
+          "toponym": "State of Tigray"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigrai State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigrai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray Federal State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray National Regional State"
+        },
+        {
+          "lang": "en",
           "toponym": "Tigray Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray Regional National State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray Regional State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray State"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tigray"
         }
       ],
       "properties": {

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -153,6 +154,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Alibori.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29165",
       "names": [
         {
@@ -278,6 +282,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Atakora.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29154",
       "names": [
         {
@@ -378,6 +385,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Atlantique.map"
       },
       "id": "http://www.wikidata.org/entity/Q29147",
       "names": [
@@ -552,6 +562,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Borgou.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29136",
       "names": [
         {
@@ -629,15 +642,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Collines.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29141",
       "names": [
         {
           "lang": "en",
-          "toponym": "Collines Department"
+          "toponym": "Collines department"
         }
       ],
       "properties": {
-        "title": "Collines Department"
+        "title": "Collines department"
       },
       "type": "Feature",
       "types": [
@@ -750,6 +766,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Donga.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29161",
       "names": [
         {
@@ -843,6 +862,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Kouffo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29173",
       "names": [
         {
@@ -916,15 +938,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Littoral.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29158",
       "names": [
         {
           "lang": "en",
-          "toponym": "Littoral Department"
+          "toponym": "Littoral"
         }
       ],
       "properties": {
-        "title": "Littoral Department"
+        "title": "Littoral"
       },
       "type": "Feature",
       "types": [
@@ -996,6 +1021,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Mono.map"
       },
       "id": "http://www.wikidata.org/entity/Q29135",
       "names": [
@@ -1081,6 +1109,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Ou%C3%A9m%C3%A9.map"
       },
       "id": "http://www.wikidata.org/entity/Q29169",
       "names": [
@@ -1178,6 +1209,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Plateau.map"
       },
       "id": "http://www.wikidata.org/entity/Q32108",
       "names": [
@@ -1307,6 +1341,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Benin/Zou.map"
       },
       "id": "http://www.wikidata.org/entity/Q29172",
       "names": [

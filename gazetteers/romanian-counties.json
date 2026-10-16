@@ -200,7 +200,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -332,7 +332,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -471,6 +471,10 @@
         {
           "lang": "en",
           "toponym": "Argeș County"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Argeș"
         }
       ],
       "properties": {
@@ -480,7 +484,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -595,6 +599,10 @@
         {
           "lang": "en",
           "toponym": "Bacău County"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bacău"
         }
       ],
       "properties": {
@@ -604,7 +612,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -736,7 +744,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q41773366",
+          "label": "NUTS 3 statistical territorial entity"
         }
       ]
     },
@@ -882,7 +894,19 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Beszterce-Naszód megye"
+        },
+        {
+          "lang": "en",
           "toponym": "Bistrița-Năsăud County"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kreis Bistritz-Nussdorf"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Bistrița Năsăud"
         }
       ],
       "properties": {
@@ -892,7 +916,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1034,7 +1058,27 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Botoschan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Botosány megye"
+        },
+        {
+          "lang": "en",
+          "toponym": "Botosány"
+        },
+        {
+          "lang": "en",
           "toponym": "Botoșani County"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kreis Botoschan"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Botoșani"
         }
       ],
       "properties": {
@@ -1044,7 +1088,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1172,7 +1216,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1312,7 +1356,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1418,30 +1462,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative division"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1187811",
-          "label": "college town"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q51929311",
-          "label": "largest city"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q640364",
           "label": "municipality of Romania"
@@ -1552,7 +1572,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1704,7 +1724,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1712,7 +1732,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in Romania"
+          "value": "county of Romania"
         }
       ],
       "geometry": {
@@ -1840,7 +1860,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -1972,7 +1992,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2129,7 +2149,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2239,10 +2259,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Calaraşi County"
-        },
-        {
-          "lang": "en",
           "toponym": "Călărași County"
         }
       ],
@@ -2253,7 +2269,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2393,7 +2409,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2513,7 +2529,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2661,7 +2677,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2669,7 +2685,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Romania"
+          "value": "county of Romania"
         }
       ],
       "geometry": {
@@ -2781,7 +2797,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -2925,11 +2941,16 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Harghita%20County.gif"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3061,7 +3082,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -3196,14 +3217,6 @@
         {
           "lang": "en",
           "toponym": "Hunedoara"
-        },
-        {
-          "lang": "en",
-          "toponym": "Hunyad megye"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kreis Hunedoara"
         }
       ],
       "properties": {
@@ -3213,14 +3226,14 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ialomita%20county%2C%20Romania.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ialomi%C5%A3a%20County%2C%20Romania.svg"
         }
       ],
       "descriptions": [
@@ -3334,7 +3347,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -3474,7 +3487,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -3642,7 +3655,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -3795,7 +3808,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -3803,7 +3816,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "country in Romania"
+          "value": "county in Romania"
         }
       ],
       "geometry": {
@@ -3919,7 +3932,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4067,7 +4080,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4215,7 +4228,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4331,7 +4344,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4491,7 +4504,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4622,6 +4635,10 @@
         {
           "lang": "en",
           "toponym": "Satu Mare County"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Satu Mare"
         }
       ],
       "properties": {
@@ -4631,7 +4648,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4730,6 +4747,10 @@
         {
           "lang": "en",
           "toponym": "Sibiu County"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Sibiu"
         }
       ],
       "properties": {
@@ -4739,7 +4760,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -4883,7 +4904,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5039,7 +5060,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5159,7 +5180,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5278,6 +5299,10 @@
         {
           "lang": "en",
           "toponym": "Timiș County"
+        },
+        {
+          "lang": "en",
+          "toponym": "județul Timiș"
         }
       ],
       "properties": {
@@ -5286,8 +5311,28 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1973901",
+          "label": "economic region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3455524",
+          "label": "administrative region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q4944632",
+          "label": "border area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q5154320",
+          "label": "cross-border region"
         }
       ]
     },
@@ -5415,7 +5460,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5423,7 +5468,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "county in Romania"
+          "value": "Județ (department) of Romania"
         }
       ],
       "geometry": {
@@ -5547,7 +5592,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5695,7 +5740,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     },
@@ -5819,7 +5864,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1776764",
-          "label": "județ"
+          "label": "county of Romania"
         }
       ]
     }

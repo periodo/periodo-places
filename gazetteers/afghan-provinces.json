@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -181,6 +182,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Badakhshan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q165376",
       "names": [
         {
@@ -193,7 +197,7 @@
         }
       ],
       "properties": {
-        "title": "Badakhshan"
+        "title": "Badakhshan Province"
       },
       "type": "Feature",
       "types": [
@@ -370,6 +374,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Badghis.map"
+      },
       "id": "http://www.wikidata.org/entity/Q172052",
       "names": [
         {
@@ -379,10 +386,22 @@
         {
           "lang": "en",
           "toponym": "Badghis"
+        },
+        {
+          "lang": "en",
+          "toponym": "Badhgis Province (misspelling)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bagdhis Province (misspelling)"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baghdis Province (misspelling)"
         }
       ],
       "properties": {
-        "title": "Badghis"
+        "title": "Badghis Province"
       },
       "type": "Feature",
       "types": [
@@ -531,6 +550,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Baghlan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170309",
       "names": [
         {
@@ -543,7 +565,7 @@
         }
       ],
       "properties": {
-        "title": "Baghlan"
+        "title": "Baghlan Province"
       },
       "type": "Feature",
       "types": [
@@ -664,6 +686,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Balkh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q121104",
       "names": [
         {
@@ -676,7 +701,7 @@
         }
       ],
       "properties": {
-        "title": "Balkh"
+        "title": "Balkh Province"
       },
       "type": "Feature",
       "types": [
@@ -841,8 +866,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Bamyan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171382",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Bamian Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bamiyan Province"
+        },
         {
           "lang": "en",
           "toponym": "Bamyan Province"
@@ -853,7 +889,7 @@
         }
       ],
       "properties": {
-        "title": "Bamyan"
+        "title": "Bamyan Province"
       },
       "type": "Feature",
       "types": [
@@ -962,6 +998,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Daykundi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q181220",
       "names": [
         {
@@ -974,7 +1013,7 @@
         }
       ],
       "properties": {
-        "title": "Daykundi"
+        "title": "Daykundi Province"
       },
       "type": "Feature",
       "types": [
@@ -1135,6 +1174,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Farah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q180330",
       "names": [
         {
@@ -1147,7 +1189,7 @@
         }
       ],
       "properties": {
-        "title": "Farah"
+        "title": "Farah Province"
       },
       "type": "Feature",
       "types": [
@@ -1284,6 +1326,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Faryab.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173830",
       "names": [
         {
@@ -1296,7 +1341,7 @@
         }
       ],
       "properties": {
-        "title": "Faryab"
+        "title": "Faryab Province"
       },
       "type": "Feature",
       "types": [
@@ -1465,6 +1510,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Ghazni.map"
+      },
       "id": "http://www.wikidata.org/entity/Q180415",
       "names": [
         {
@@ -1477,7 +1525,7 @@
         }
       ],
       "properties": {
-        "title": "Ghazni"
+        "title": "Ghazni Province"
       },
       "type": "Feature",
       "types": [
@@ -1638,8 +1686,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Ghor.map"
+      },
       "id": "http://www.wikidata.org/entity/Q186392",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Ghor Province"
+        },
         {
           "lang": "en",
           "toponym": "Ghor"
@@ -1662,7 +1717,7 @@
         }
       ],
       "properties": {
-        "title": "Ghōr"
+        "title": "Ghor Province"
       },
       "type": "Feature",
       "types": [
@@ -1779,6 +1834,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Hilmand.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173821",
       "names": [
         {
@@ -1788,10 +1846,18 @@
         {
           "lang": "en",
           "toponym": "Helmand"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hillmand Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hilmand Province"
         }
       ],
       "properties": {
-        "title": "Helmand"
+        "title": "Helmand Province"
       },
       "type": "Feature",
       "types": [
@@ -1924,6 +1990,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Hirat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q182844",
       "names": [
         {
@@ -1932,11 +2001,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Herat"
+          "toponym": "Hirat"
         }
       ],
       "properties": {
-        "title": "Herat"
+        "title": "Herat Province"
       },
       "type": "Feature",
       "types": [
@@ -2101,8 +2170,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Jawzjan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183036",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Jawzjan Province"
+        },
         {
           "lang": "en",
           "toponym": "Jowzjan Province"
@@ -2113,7 +2189,7 @@
         }
       ],
       "properties": {
-        "title": "Jowzjan"
+        "title": "Jowzjan Province"
       },
       "type": "Feature",
       "types": [
@@ -2230,6 +2306,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Kabul.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188933",
       "names": [
         {
@@ -2242,7 +2321,7 @@
         }
       ],
       "properties": {
-        "title": "Kabul"
+        "title": "Kabul Province"
       },
       "type": "Feature",
       "types": [
@@ -2403,19 +2482,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Kandahar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173808",
       "names": [
         {
           "lang": "en",
-          "toponym": "Arachosia"
+          "toponym": "Ghandahar Province"
         },
         {
           "lang": "en",
-          "toponym": "Kandahar"
+          "toponym": "Kandahar Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qandahar Province"
         }
       ],
       "properties": {
-        "title": "Kandahar"
+        "title": "Kandahar Province"
       },
       "type": "Feature",
       "types": [
@@ -2532,6 +2618,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Kapisa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173816",
       "names": [
         {
@@ -2544,7 +2633,7 @@
         }
       ],
       "properties": {
-        "title": "Kapisa"
+        "title": "Kapisa Province"
       },
       "type": "Feature",
       "types": [
@@ -2653,6 +2742,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Khost.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185752",
       "names": [
         {
@@ -2662,10 +2754,14 @@
         {
           "lang": "en",
           "toponym": "Khost"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khowst Province"
         }
       ],
       "properties": {
-        "title": "Khost"
+        "title": "Khost Province"
       },
       "type": "Feature",
       "types": [
@@ -2750,6 +2846,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Kunar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188147",
       "names": [
         {
@@ -2762,7 +2861,7 @@
         }
       ],
       "properties": {
-        "title": "Kunar"
+        "title": "Kunar Province"
       },
       "type": "Feature",
       "types": [
@@ -2879,6 +2978,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Kunduz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q186418",
       "names": [
         {
@@ -2888,10 +2990,6 @@
         {
           "lang": "en",
           "toponym": "Qunduz Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Qunduz"
         }
       ],
       "properties": {
@@ -3016,6 +3114,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Laghman.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185442",
       "names": [
         {
@@ -3025,10 +3126,14 @@
         {
           "lang": "en",
           "toponym": "Laghman"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lamghan Province"
         }
       ],
       "properties": {
-        "title": "Laghman"
+        "title": "Laghman Province"
       },
       "type": "Feature",
       "types": [
@@ -3145,6 +3250,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Logar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q6667298",
       "names": [
         {
@@ -3154,10 +3262,14 @@
         {
           "lang": "en",
           "toponym": "Logar"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lowgar Province"
         }
       ],
       "properties": {
-        "title": "Logar"
+        "title": "Logar Province"
       },
       "type": "Feature",
       "types": [
@@ -3298,23 +3410,42 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Wardak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183056",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Maidan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Maidan Wardag Province"
+        },
         {
           "lang": "en",
           "toponym": "Maidan Wardak Province"
         },
         {
           "lang": "en",
-          "toponym": "Maidan Wardak"
+          "toponym": "Vardag Province"
         },
         {
           "lang": "en",
-          "toponym": "Wardak"
+          "toponym": "Vardak Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wardag Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Wardak Province"
         }
       ],
       "properties": {
-        "title": "Maidan Wardak"
+        "title": "Maidan Wardak Province"
       },
       "type": "Feature",
       "types": [
@@ -3431,6 +3562,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Nangarhar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q178471",
       "names": [
         {
@@ -3443,7 +3577,7 @@
         }
       ],
       "properties": {
-        "title": "Nangarhar"
+        "title": "Nangarhar Province"
       },
       "type": "Feature",
       "types": [
@@ -3548,8 +3682,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Nimroz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183021",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Nimrooz Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nimroz Province"
+        },
         {
           "lang": "en",
           "toponym": "Nimruz Province"
@@ -3560,7 +3705,7 @@
         }
       ],
       "properties": {
-        "title": "Nimruz"
+        "title": "Nimruz Province"
       },
       "type": "Feature",
       "types": [
@@ -3697,8 +3842,19 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Nuristan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q167485",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Nooristan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Nurestan Province"
+        },
         {
           "lang": "en",
           "toponym": "Nuristan Province"
@@ -3709,7 +3865,7 @@
         }
       ],
       "properties": {
-        "title": "Nuristan"
+        "title": "Nuristan Province"
       },
       "type": "Feature",
       "types": [
@@ -3834,6 +3990,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Paktya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q182493",
       "names": [
         {
@@ -3843,10 +4002,18 @@
         {
           "lang": "en",
           "toponym": "Paktia"
+        },
+        {
+          "lang": "en",
+          "toponym": "Paktiya Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Paktya Province"
         }
       ],
       "properties": {
-        "title": "Paktia"
+        "title": "Paktia Province"
       },
       "type": "Feature",
       "types": [
@@ -4007,6 +4174,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Paktika.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185575",
       "names": [
         {
@@ -4019,7 +4189,7 @@
         }
       ],
       "properties": {
-        "title": "Paktika"
+        "title": "Paktika Province"
       },
       "type": "Feature",
       "types": [
@@ -4120,11 +4290,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Panjshir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q181235",
       "names": [
         {
           "lang": "en",
           "toponym": "Five Lions"
+        },
+        {
+          "lang": "en",
+          "toponym": "Home of Lions"
+        },
+        {
+          "lang": "en",
+          "toponym": "Panjsher Province"
         },
         {
           "lang": "en",
@@ -4136,7 +4317,7 @@
         }
       ],
       "properties": {
-        "title": "Panjshir"
+        "title": "Panjshir Province"
       },
       "type": "Feature",
       "types": [
@@ -4257,8 +4438,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Parwan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188157",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Parvan Province"
+        },
         {
           "lang": "en",
           "toponym": "Parvān"
@@ -4273,7 +4461,7 @@
         }
       ],
       "properties": {
-        "title": "Parwan"
+        "title": "Parwan Province"
       },
       "type": "Feature",
       "types": [
@@ -4402,6 +4590,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Samangan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183015",
       "names": [
         {
@@ -4414,7 +4605,7 @@
         }
       ],
       "properties": {
-        "title": "Samangan"
+        "title": "Samangan Province"
       },
       "type": "Feature",
       "types": [
@@ -4591,6 +4782,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Sari+Pul.map"
+      },
       "id": "http://www.wikidata.org/entity/Q182487",
       "names": [
         {
@@ -4600,10 +4794,38 @@
         {
           "lang": "en",
           "toponym": "Sar-e Pol"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sar-i Pul Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sare Pol Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sarepol Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sarepul Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sari Pol Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saripol Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saripul Province"
         }
       ],
       "properties": {
-        "title": "Sar-e Pol"
+        "title": "Sar-e Pol Province"
       },
       "type": "Feature",
       "types": [
@@ -4740,6 +4962,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Takhar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q186395",
       "names": [
         {
@@ -4752,7 +4977,7 @@
         }
       ],
       "properties": {
-        "title": "Takhar"
+        "title": "Takhar Province"
       },
       "type": "Feature",
       "types": [
@@ -4917,11 +5142,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Uruzgan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q183028",
       "names": [
         {
           "lang": "en",
-          "toponym": "Oruzgan"
+          "toponym": "Orozgan Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oruzgan Province"
         },
         {
           "lang": "en",
@@ -4929,7 +5161,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Urozgan"
+          "toponym": "Uruzgan Province"
         },
         {
           "lang": "en",
@@ -4937,11 +5169,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Urōzgān"
+          "toponym": "Urōzgān Province"
         }
       ],
       "properties": {
-        "title": "Urozgan"
+        "title": "Uruzgan Province"
       },
       "type": "Feature",
       "types": [
@@ -5110,8 +5342,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Afghanistan/Zabul.map"
+      },
       "id": "http://www.wikidata.org/entity/Q139126",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Zabol Province"
+        },
         {
           "lang": "en",
           "toponym": "Zabul Province"
@@ -5122,7 +5361,7 @@
         }
       ],
       "properties": {
-        "title": "Zabul"
+        "title": "Zabul Province"
       },
       "type": "Feature",
       "types": [

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -91,16 +92,20 @@
                   32.404405
                 ],
                 [
-                  35.03273,
-                  32.3822
+                  35.03005768336483,
+                  32.38196058558323
                 ],
                 [
-                  35.007713,
-                  31.875678
+                  34.989746,
+                  31.913281
                 ],
                 [
-                  34.945599,
-                  31.839065
+                  34.97832,
+                  31.866406
+                ],
+                [
+                  34.96680302687705,
+                  31.854590659697703
                 ],
                 [
                   34.894852,
@@ -145,6 +150,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/HaMerkaz.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188785",
       "names": [
         {
@@ -159,7 +167,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     },
@@ -167,7 +175,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "one of the six districts of Israel"
+          "value": "administrative district of Israel, centered on Haifa"
         }
       ],
       "geometry": {
@@ -234,6 +242,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/Haifa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q185845",
       "names": [
         {
@@ -248,7 +259,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     },
@@ -273,48 +284,32 @@
                   31.791987
                 ],
                 [
-                  34.911285,
-                  31.832373
+                  34.921327,
+                  31.840686
                 ],
                 [
-                  34.915471,
-                  31.83369
+                  34.959191,
+                  31.853985
                 ],
                 [
-                  34.947326,
-                  31.840925
+                  34.96680302687705,
+                  31.854590659697703
                 ],
                 [
-                  35.04554,
-                  31.841417
+                  35.053223,
+                  31.837939
                 ],
                 [
-                  35.059699,
-                  31.839401
+                  35.127148,
+                  31.816748
                 ],
                 [
-                  35.181449,
-                  31.804106
+                  35.198047,
+                  31.776318
                 ],
                 [
-                  35.198399,
-                  31.795166
-                ],
-                [
-                  35.206254,
-                  31.782764
-                ],
-                [
-                  35.208011,
-                  31.766124
-                ],
-                [
-                  35.206564,
-                  31.744627
-                ],
-                [
-                  35.202843,
-                  31.738942
+                  35.203711,
+                  31.75
                 ],
                 [
                   34.953176,
@@ -335,6 +330,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/Jerusalem.map"
+      },
       "id": "http://www.wikidata.org/entity/Q192232",
       "names": [
         {
@@ -349,7 +347,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     },
@@ -357,7 +355,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "top level administrative district in Israel"
+          "value": "one of the six districts of Israel"
         }
       ],
       "geometry": {
@@ -464,6 +462,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/HaZafon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q189942",
       "names": [
         {
@@ -482,7 +483,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     },
@@ -605,6 +606,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/HaDarom.map"
+      },
       "id": "http://www.wikidata.org/entity/Q188781",
       "names": [
         {
@@ -623,7 +627,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     },
@@ -742,6 +746,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Israel/Tel+Aviv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q192811",
       "names": [
         {
@@ -756,7 +763,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q193560",
-          "label": "district of Israel"
+          "label": "districts of Israel"
         }
       ]
     }

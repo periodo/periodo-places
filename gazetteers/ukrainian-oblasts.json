@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -202,6 +203,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Cherkasy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q161808",
       "names": [
         {
@@ -237,7 +241,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative unit in Ukraine"
+          "value": "oblast of Ukraine"
         }
       ],
       "geometry": {
@@ -404,11 +408,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Chernihiv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q167874",
       "names": [
         {
           "lang": "en",
+          "toponym": "Chernihiv Oblast (Ukraine)"
+        },
+        {
+          "lang": "en",
           "toponym": "Chernihiv Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Chernihivshchyna"
         }
       ],
       "properties": {
@@ -550,8 +565,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Chernivtsi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q168856",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Chernivtsi Oblast (Ukraine)"
+        },
         {
           "lang": "en",
           "toponym": "Chernivtsi Oblast"
@@ -756,6 +778,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Dnipropetrovs%27k.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170672",
       "names": [
         {
@@ -773,6 +798,10 @@
         {
           "lang": "en",
           "toponym": "Dnipropetrovsk Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sicheslav Oblast"
         }
       ],
       "properties": {
@@ -795,7 +824,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "an oblast of eastern Ukraine"
+          "value": "oblast of Ukraine"
         }
       ],
       "geometry": {
@@ -925,6 +954,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Donets%27k.map"
       },
       "id": "http://www.wikidata.org/entity/Q2012050",
       "names": [
@@ -1088,8 +1120,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Ivano-Frankivs%27k.map"
+      },
       "id": "http://www.wikidata.org/entity/Q178269",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Ivano-Frankivsk Oblast (Ukraine)"
+        },
         {
           "lang": "en",
           "toponym": "Ivano-Frankivsk Oblast"
@@ -1109,7 +1148,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kharkiv%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kharkiv%20Oblast%20Original.svg"
         }
       ],
       "descriptions": [
@@ -1254,11 +1293,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Kharkiv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170666",
       "names": [
         {
           "lang": "en",
+          "toponym": "Kharkiv Oblast (Ukraine)"
+        },
+        {
+          "lang": "en",
           "toponym": "Kharkiv Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kharkiv"
         },
         {
           "lang": "en",
@@ -1285,7 +1335,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "oblast of Ukraine"
+          "value": "oblast (region) of Ukraine"
         }
       ],
       "geometry": {
@@ -1376,11 +1426,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Kherson.map"
+      },
       "id": "http://www.wikidata.org/entity/Q163271",
       "names": [
         {
           "lang": "en",
           "toponym": "Kherson Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kherson Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khersonshchyna"
         }
       ],
       "properties": {
@@ -1554,6 +1615,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Khmel%27nyts%27kyy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171331",
       "names": [
         {
@@ -1724,6 +1788,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Kirovohrad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q180981",
       "names": [
         {
@@ -1741,6 +1808,10 @@
         {
           "lang": "en",
           "toponym": "Kirowogradskaja oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kropyvnytskyi Oblast"
         }
       ],
       "properties": {
@@ -1842,6 +1913,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Kyiv+City.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1899",
       "names": [
         {
@@ -1851,10 +1925,6 @@
         {
           "lang": "en",
           "toponym": "Kieff"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kiev"
         },
         {
           "lang": "en",
@@ -1886,6 +1956,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Kiyev"
+        },
+        {
+          "lang": "en",
           "toponym": "Kyiv"
         },
         {
@@ -1894,19 +1968,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Kyjiv"
-        },
-        {
-          "lang": "en",
           "toponym": "Kyjiw"
         },
         {
           "lang": "en",
-          "toponym": "Kyyiv"
+          "toponym": "Kyïv"
         },
         {
           "lang": "en",
-          "toponym": "Kyïv"
+          "toponym": "Kyїv"
         }
       ],
       "properties": {
@@ -1915,16 +1985,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5124045",
-          "label": "city with special status"
+          "identifier": "http://www.wikidata.org/entity/Q12131624",
+          "label": "city in Ukraine"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q51929311",
@@ -1932,7 +1998,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q7930989",
-          "label": "city/town"
+          "label": "city or town"
         }
       ]
     },
@@ -1945,7 +2011,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district in Ukraine"
+          "value": "oblast of Ukraine"
         }
       ],
       "geometry": {
@@ -2092,12 +2158,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Kyiv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170036",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Kiev Region"
-        },
         {
           "lang": "en",
           "toponym": "Kyiv Oblast"
@@ -2244,6 +2309,10 @@
                   48.454614
                 ],
                 [
+                  38.304885,
+                  48.454682
+                ],
+                [
                   38.302138,
                   48.459032
                 ],
@@ -2257,6 +2326,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Luhans%27k.map"
       },
       "id": "http://www.wikidata.org/entity/Q171965",
       "names": [
@@ -2291,6 +2363,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q15239622",
+          "label": "disputed territory"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q3348196",
           "label": "oblast of Ukraine"
         }
@@ -2299,7 +2375,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lviv%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lviv%20Oblast%20%282001%29.svg"
         }
       ],
       "descriptions": [
@@ -2472,6 +2548,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/L%27viv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q164193",
       "names": [
         {
@@ -2501,7 +2580,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mykolaiv%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mykolaiv%20Oblast%20%282026%29.svg"
         }
       ],
       "descriptions": [
@@ -2638,6 +2717,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Mykolayiv.map"
+      },
       "id": "http://www.wikidata.org/entity/Q181633",
       "names": [
         {
@@ -2665,7 +2747,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "district (oblast) in Ukraine"
+          "value": "region (oblast) in Ukraine"
         }
       ],
       "geometry": {
@@ -2780,6 +2862,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Odesa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171852",
       "names": [
         {
@@ -2788,15 +2873,27 @@
         },
         {
           "lang": "en",
-          "toponym": "Odeska oblast"
+          "toponym": "Odesa Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Odeshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Odeska Oblast"
         },
         {
           "lang": "en",
           "toponym": "Odessa Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Odessa Region"
         }
       ],
       "properties": {
-        "title": "Odessa Oblast"
+        "title": "Odesa Oblast"
       },
       "type": "Feature",
       "types": [
@@ -2946,6 +3043,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Poltava.map"
+      },
       "id": "http://www.wikidata.org/entity/Q169501",
       "names": [
         {
@@ -3080,11 +3180,30 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Rivne.map"
+      },
       "id": "http://www.wikidata.org/entity/Q174187",
       "names": [
         {
           "lang": "en",
+          "toponym": "Polesie"
+        },
+        {
+          "lang": "en",
           "toponym": "Rivne Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rivne Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rivnenshchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Rovno Oblast"
         }
       ],
       "properties": {
@@ -3107,7 +3226,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division (oblast) in northeastern Ukraine"
+          "value": "administrative division (oblast) in the north of Ukraine"
         }
       ],
       "geometry": {
@@ -3245,6 +3364,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Sumy.map"
       },
       "id": "http://www.wikidata.org/entity/Q170446",
       "names": [
@@ -3396,6 +3518,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Ternopil%27.map"
+      },
       "id": "http://www.wikidata.org/entity/Q173407",
       "names": [
         {
@@ -3429,13 +3554,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vinnytsia%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Prapor%20Vinnytskoyi%20oblasti.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative division (oblast) in western Ukraine"
+          "value": "administrative division (oblast) in center of Ukraine"
         }
       ],
       "geometry": {
@@ -3558,11 +3683,34 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Vinnytsya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q166709",
       "names": [
         {
           "lang": "en",
+          "toponym": "UP23"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnica oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnitsa Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnitskaya Oblast'"
+        },
+        {
+          "lang": "en",
           "toponym": "Vinnychchyna"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vinnyts'ka Oblast'"
         },
         {
           "lang": "en",
@@ -3570,7 +3718,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Vinnyts’ka oblast’"
+          "toponym": "Vinnytska Oblast"
         }
       ],
       "properties": {
@@ -3587,7 +3735,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Volyn%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Volyn%20Oblast%20%283-2%29.svg"
         }
       ],
       "descriptions": [
@@ -3720,6 +3868,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Volyn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q167859",
       "names": [
         {
@@ -3761,13 +3912,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20flag%20of%20Zakarpattia%20oblast%202009.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zakarpattia%20Oblast.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative oblast (province) in southwestern Ukraine"
+          "value": "oblast (region) of Ukraine"
         }
       ],
       "geometry": {
@@ -3894,6 +4045,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Transcarpathia.map"
+      },
       "id": "http://www.wikidata.org/entity/Q170213",
       "names": [
         {
@@ -3929,7 +4083,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "oblast of Ukraine"
+          "value": "oblast (region) of Ukraine"
         }
       ],
       "geometry": {
@@ -4060,6 +4214,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Zaporizhzhya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q171334",
       "names": [
         {
@@ -4081,7 +4238,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhytomyr%20Oblast.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhytomyr%20Oblast%20%282003%29.svg"
         }
       ],
       "descriptions": [
@@ -4261,6 +4418,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Ukraine/Zhytomyr.map"
       },
       "id": "http://www.wikidata.org/entity/Q40637",
       "names": [

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -63,7 +64,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former administrative region and territorial community of France"
+          "value": "territorial community and former administrative region of France"
         }
       ],
       "geometry": {
@@ -195,8 +196,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
         }
       ]
     },
@@ -209,7 +214,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former administrative region in France"
+          "value": "former administrative region of France"
         }
       ],
       "geometry": {
@@ -356,6 +361,10 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Aquitaine Region"
+        },
+        {
+          "lang": "en",
           "toponym": "Aquitaine"
         }
       ],
@@ -365,8 +374,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -379,7 +392,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former administrative region of France"
+          "value": "cultural and historical region of France"
         }
       ],
       "geometry": {
@@ -555,8 +568,20 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1149061",
+          "label": "language area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q12949943",
+          "label": "regions of Occitania"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -684,19 +709,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/Bretagne.map"
+      },
       "id": "http://www.wikidata.org/entity/Q12130",
       "names": [
         {
           "lang": "en",
-          "toponym": "Breizh"
-        },
-        {
-          "lang": "en",
-          "toponym": "Bretagne"
-        },
-        {
-          "lang": "en",
           "toponym": "Brittany"
+        },
+        {
+          "lang": "en",
+          "toponym": "FR-BZH"
         },
         {
           "lang": "en",
@@ -891,8 +915,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -905,7 +929,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative region of France"
+          "value": "French administrative region"
         }
       ],
       "geometry": {
@@ -1036,12 +1060,11 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/Centre-Val+de+Loire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q13947",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Centre Loire Valley"
-        },
         {
           "lang": "en",
           "toponym": "Centre Region"
@@ -1052,15 +1075,19 @@
         },
         {
           "lang": "en",
+          "toponym": "Centre and Val de Loire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Centre-Loire Valley"
+        },
+        {
+          "lang": "en",
           "toponym": "Centre-Val de Loire"
         },
         {
           "lang": "en",
           "toponym": "Région Centre"
-        },
-        {
-          "lang": "en",
-          "toponym": "Val de Loire"
         }
       ],
       "properties": {
@@ -1219,8 +1246,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -1233,7 +1264,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "French single territorial collectivity, and island in the Mediterranean"
+          "value": "French single territorial collectivity and island in the Mediterranean Sea"
         }
       ],
       "geometry": {
@@ -1360,15 +1391,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/Corse.map"
+      },
       "id": "http://www.wikidata.org/entity/Q14112",
       "names": [
         {
           "lang": "en",
-          "toponym": "Corse"
+          "toponym": "Collectivity of Corsica"
         },
         {
           "lang": "en",
           "toponym": "Corsica"
+        },
+        {
+          "lang": "en",
+          "toponym": "Island of Beauty"
         },
         {
           "lang": "en",
@@ -1403,7 +1441,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former administrative region in France"
+          "value": "cultural and historical region of France"
         }
       ],
       "geometry": {
@@ -1591,8 +1629,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q3502482",
+          "label": "cultural region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -1605,7 +1647,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "overseas French department in the Guianas region"
+          "value": "French overseas department and region in South America"
         }
       ],
       "easternmostPoint": {
@@ -1775,6 +1817,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Guyane+francaise.map"
+      },
       "id": "http://www.wikidata.org/entity/Q3769",
       "names": [
         {
@@ -1783,19 +1828,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Guiana"
+        },
+        {
+          "lang": "en",
           "toponym": "Guiana, France"
         },
         {
           "lang": "en",
-          "toponym": "Guyane française"
-        },
-        {
-          "lang": "en",
           "toponym": "Guyane"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇬🇫"
         }
       ],
       "northernmostPoint": {
@@ -1837,13 +1878,16 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guadeloupe%20%28local%29%20variant.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guadeloupe%20%28Local%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "overseas region and department of France, and island in the Caribbean"
+          "value": "overseas region and department of France, and archipelago in the Caribbean"
         }
       ],
       "easternmostPoint": {
@@ -1933,6 +1977,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Guadeloupe.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17012",
       "names": [
         {
@@ -1941,11 +1988,15 @@
         },
         {
           "lang": "en",
+          "toponym": "Gwada"
+        },
+        {
+          "lang": "en",
           "toponym": "Gwadloup"
         },
         {
           "lang": "en",
-          "toponym": "🇬🇵"
+          "toponym": "Karukera"
         }
       ],
       "northernmostPoint": {
@@ -2152,17 +2203,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Limousin.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2318,8 +2364,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
         }
       ]
     },
@@ -2467,21 +2513,21 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Basse-Normandie.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Normandie.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "former administrative region of France"
+          "value": "former French administrative region"
         }
       ],
       "geometry": {
@@ -2600,6 +2646,18 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Basse-Normandie"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basse-Normaundie"
+        },
+        {
+          "lang": "en",
+          "toponym": "Basse-Nouormandie"
+        },
+        {
+          "lang": "en",
           "toponym": "Lower Normandy"
         }
       ],
@@ -2609,15 +2667,19 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Territorial%20Collectivity%20of%20Martinique.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag-of-Martinique.svg"
         }
       ],
       "descriptions": [
@@ -2729,8 +2791,23 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Martinique.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17054",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Jouanacaëra"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madiana"
+        },
+        {
+          "lang": "en",
+          "toponym": "Madinina"
+        },
         {
           "lang": "en",
           "toponym": "Martinica"
@@ -2745,6 +2822,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Matinino"
+        },
+        {
+          "lang": "en",
           "toponym": "Matnik"
         },
         {
@@ -2753,7 +2834,7 @@
         },
         {
           "lang": "en",
-          "toponym": "🇲🇶"
+          "toponym": "Wanakaera"
         }
       ],
       "northernmostPoint": {
@@ -2799,13 +2880,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mayotte%20%28local%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mayotte%20%28Local%29.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "overseas department and region of France"
+          "value": "French overseas region and department located in the Indian Ocean"
         }
       ],
       "easternmostPoint": {
@@ -2899,6 +2980,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Mayotte.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17063",
       "names": [
         {
@@ -2908,10 +2992,6 @@
         {
           "lang": "en",
           "toponym": "Mayotte"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇾🇹"
         }
       ],
       "northernmostPoint": {
@@ -2936,6 +3016,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q202216",
           "label": "overseas department and region of France"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ],
       "westernmostPoint": {
@@ -2954,14 +3038,12 @@
         }
       ],
       "geometry": {
+        "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "Polygon",
             "coordinates": [
               [
-                [
-                  -0.315147,
-                  42.873766
-                ],
                 [
                   -0.317059,
                   42.887301
@@ -3093,13 +3175,101 @@
                 [
                   -0.315147,
                   42.873766
+                ],
+                [
+                  -0.317059,
+                  42.887301
+                ]
+              ],
+              [
+                [
+                  -0.134872,
+                  43.258342
+                ],
+                [
+                  -0.127511,
+                  43.250806
+                ],
+                [
+                  -0.117975,
+                  43.247565
+                ],
+                [
+                  -0.107538,
+                  43.247818
+                ],
+                [
+                  -0.097497,
+                  43.250795
+                ],
+                [
+                  -0.080501,
+                  43.272152
+                ],
+                [
+                  -0.064021,
+                  43.359219
+                ],
+                [
+                  -0.063483,
+                  43.367283
+                ],
+                [
+                  -0.064483,
+                  43.37282
+                ],
+                [
+                  -0.066878,
+                  43.377588
+                ],
+                [
+                  -0.070591,
+                  43.381422
+                ],
+                [
+                  -0.075524,
+                  43.384147
+                ],
+                [
+                  -0.087356,
+                  43.386652
+                ],
+                [
+                  -0.093454,
+                  43.386421
+                ],
+                [
+                  -0.099288,
+                  43.385048
+                ],
+                [
+                  -0.107187,
+                  43.37906
+                ],
+                [
+                  -0.111922,
+                  43.369491
+                ],
+                [
+                  -0.137278,
+                  43.285819
+                ],
+                [
+                  -0.138619,
+                  43.27179
+                ],
+                [
+                  -0.137553,
+                  43.264824
+                ],
+                [
+                  -0.134872,
+                  43.258342
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
-        ],
-        "type": "GeometryCollection"
+        ]
       },
       "id": "http://www.wikidata.org/entity/Q16393",
       "names": [
@@ -3122,8 +3292,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -3267,12 +3437,21 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Cultural%20flag%20of%20Pays-de-la-Loire.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3391,8 +3570,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/Pays+de+la+Loire.map"
+      },
       "id": "http://www.wikidata.org/entity/Q16994",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Lands of the Loire"
+        },
         {
           "lang": "en",
           "toponym": "Loire Lands"
@@ -3400,6 +3586,10 @@
         {
           "lang": "en",
           "toponym": "Pays de la Loire"
+        },
+        {
+          "lang": "en",
+          "toponym": "Pays-de-la-Loire"
         }
       ],
       "properties": {
@@ -3414,6 +3604,11 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Picardie.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -3549,8 +3744,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -3567,148 +3762,238 @@
         }
       ],
       "geometry": {
+        "type": "GeometryCollection",
         "geometries": [
           {
+            "type": "MultiPolygon",
             "coordinates": [
               [
                 [
-                  -1.247304,
-                  45.709906
-                ],
+                  [
+                    -1.555816,
+                    46.245551
+                  ],
+                  [
+                    -1.555816,
+                    46.251776
+                  ],
+                  [
+                    -1.498118,
+                    46.261908
+                  ],
+                  [
+                    -1.480092,
+                    46.259223
+                  ],
+                  [
+                    -1.308095,
+                    46.206936
+                  ],
+                  [
+                    -1.284739,
+                    46.196438
+                  ],
+                  [
+                    -1.265736,
+                    46.180976
+                  ],
+                  [
+                    -1.25414,
+                    46.162421
+                  ],
+                  [
+                    -1.2205734091631955,
+                    46.050192814899134
+                  ],
+                  [
+                    -1.237802173156755,
+                    45.830866528405494
+                  ],
+                  [
+                    -1.361724,
+                    45.956732
+                  ],
+                  [
+                    -1.378326,
+                    45.975979
+                  ],
+                  [
+                    -1.555816,
+                    46.245551
+                  ]
+                ]
+              ],
+              [
                 [
-                  -1.555816,
-                  46.245551
-                ],
-                [
-                  -1.555816,
-                  46.251776
-                ],
-                [
-                  -0.941357,
-                  47.013305
-                ],
-                [
-                  -0.935007,
-                  47.016557
-                ],
-                [
-                  0.013828,
-                  47.160588
-                ],
-                [
-                  0.06676,
-                  47.153688
-                ],
-                [
-                  0.584436,
-                  47.001264
-                ],
-                [
-                  0.660769,
-                  46.970854
-                ],
-                [
-                  0.671777,
-                  46.965976
-                ],
-                [
-                  0.681994,
-                  46.958274
-                ],
-                [
-                  1.136806,
-                  46.518404
-                ],
-                [
-                  1.142585,
-                  46.512196
-                ],
-                [
-                  1.146628,
-                  46.506308
-                ],
-                [
-                  1.194682,
-                  46.42792
-                ],
-                [
-                  1.177016,
-                  46.387018
-                ],
-                [
-                  0.923803,
-                  45.965725
-                ],
-                [
-                  0.918222,
-                  45.957431
-                ],
-                [
-                  0.785837,
-                  45.802578
-                ],
-                [
-                  0.780695,
-                  45.796997
-                ],
-                [
-                  0.249418,
-                  45.293
-                ],
-                [
-                  0.238212,
-                  45.283958
-                ],
-                [
-                  0.15197,
-                  45.223544
-                ],
-                [
-                  0.1425,
-                  45.217864
-                ],
-                [
-                  -0.033556,
-                  45.120119
-                ],
-                [
-                  -0.060846,
-                  45.111505
-                ],
-                [
-                  -0.160295,
-                  45.10164
-                ],
-                [
-                  -0.173808,
-                  45.101145
-                ],
-                [
-                  -0.226388,
-                  45.112956
-                ],
-                [
-                  -0.387624,
-                  45.163855
-                ],
-                [
-                  -0.394281,
-                  45.166492
-                ],
-                [
-                  -0.706603,
-                  45.322155
-                ],
-                [
-                  -1.247304,
-                  45.709906
+                  [
+                    -1.210805,
+                    46.174547
+                  ],
+                  [
+                    -0.943378,
+                    47.008965
+                  ],
+                  [
+                    -0.941357,
+                    47.013305
+                  ],
+                  [
+                    -0.935007,
+                    47.016557
+                  ],
+                  [
+                    0.013828,
+                    47.160588
+                  ],
+                  [
+                    0.06676,
+                    47.153688
+                  ],
+                  [
+                    0.584436,
+                    47.001264
+                  ],
+                  [
+                    0.660769,
+                    46.970854
+                  ],
+                  [
+                    0.671777,
+                    46.965976
+                  ],
+                  [
+                    0.681994,
+                    46.958274
+                  ],
+                  [
+                    1.136806,
+                    46.518404
+                  ],
+                  [
+                    1.142585,
+                    46.512196
+                  ],
+                  [
+                    1.146628,
+                    46.506308
+                  ],
+                  [
+                    1.194682,
+                    46.42792
+                  ],
+                  [
+                    1.177016,
+                    46.387018
+                  ],
+                  [
+                    0.923803,
+                    45.965725
+                  ],
+                  [
+                    0.918222,
+                    45.957431
+                  ],
+                  [
+                    0.785837,
+                    45.802578
+                  ],
+                  [
+                    0.780695,
+                    45.796997
+                  ],
+                  [
+                    0.249418,
+                    45.293
+                  ],
+                  [
+                    0.238212,
+                    45.283958
+                  ],
+                  [
+                    0.15197,
+                    45.223544
+                  ],
+                  [
+                    0.1425,
+                    45.217864
+                  ],
+                  [
+                    -0.033556,
+                    45.120119
+                  ],
+                  [
+                    -0.060846,
+                    45.111505
+                  ],
+                  [
+                    -0.160295,
+                    45.10164
+                  ],
+                  [
+                    -0.173808,
+                    45.101145
+                  ],
+                  [
+                    -0.226388,
+                    45.112956
+                  ],
+                  [
+                    -0.387624,
+                    45.163855
+                  ],
+                  [
+                    -0.394281,
+                    45.166492
+                  ],
+                  [
+                    -0.706603,
+                    45.322155
+                  ],
+                  [
+                    -1.247304,
+                    45.709906
+                  ],
+                  [
+                    -1.237802173156755,
+                    45.830866528405494
+                  ],
+                  [
+                    -1.226877,
+                    45.81977
+                  ],
+                  [
+                    -1.209218,
+                    45.814154
+                  ],
+                  [
+                    -1.194569,
+                    45.830064
+                  ],
+                  [
+                    -1.184193,
+                    45.85635
+                  ],
+                  [
+                    -1.176096,
+                    45.898749
+                  ],
+                  [
+                    -1.177724,
+                    45.906928
+                  ],
+                  [
+                    -1.2205734091631955,
+                    46.050192814899134
+                  ],
+                  [
+                    -1.210805,
+                    46.174547
+                  ]
                 ]
               ]
-            ],
-            "type": "Polygon"
+            ]
           }
-        ],
-        "type": "GeometryCollection"
+        ]
       },
       "id": "http://www.wikidata.org/entity/Q17009",
       "names": [
@@ -3723,8 +4008,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
@@ -3737,7 +4026,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "administrative region of France"
+          "value": "French administrative region"
         }
       ],
       "geometry": {
@@ -3828,15 +4117,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/+Provence-Alpes-C%C3%B4te+d%27Azur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q15104",
       "names": [
         {
           "lang": "en",
-          "toponym": "PACA"
+          "toponym": "Provence-Alpes-Côte d'Azur"
         },
         {
           "lang": "en",
-          "toponym": "Provence-Alpes-Côte d'Azur"
+          "toponym": "Provence-Alpes-Côte d’Azur"
         },
         {
           "lang": "en",
@@ -3844,7 +4136,27 @@
         },
         {
           "lang": "en",
+          "toponym": "Provença-Alps-Còsta d'Azur"
+        },
+        {
+          "lang": "en",
           "toponym": "Provença-Aups-Còsta d'Azur"
+        },
+        {
+          "lang": "en",
+          "toponym": "Southern Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "région PACA"
+        },
+        {
+          "lang": "en",
+          "toponym": "région Sud"
+        },
+        {
+          "lang": "en",
+          "toponym": "the Southern Region"
         }
       ],
       "properties": {
@@ -4023,21 +4335,25 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Proposed%20flag%20of%20R%C3%A9union%20%28VAR%29.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "island in the Indian Ocean, overseas region of France"
+          "value": "overseas department of France in the Indian Ocean"
         }
       ],
       "easternmostPoint": {
@@ -4179,11 +4495,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:La+Reunion.map"
+      },
       "id": "http://www.wikidata.org/entity/Q17070",
       "names": [
         {
           "lang": "en",
-          "toponym": "Bourbon island"
+          "toponym": "Bourbon Island"
+        },
+        {
+          "lang": "en",
+          "toponym": "ISO 3166-1:RE"
         },
         {
           "lang": "en",
@@ -4199,15 +4522,15 @@
         },
         {
           "lang": "en",
-          "toponym": "Reunion island"
-        },
-        {
-          "lang": "en",
-          "toponym": "Reunion"
+          "toponym": "Reunion Island"
         },
         {
           "lang": "en",
           "toponym": "Réunion"
+        },
+        {
+          "lang": "en",
+          "toponym": "Île de Bourbon"
         },
         {
           "lang": "en",
@@ -4216,10 +4539,6 @@
         {
           "lang": "en",
           "toponym": "Île de la Réunion"
-        },
-        {
-          "lang": "en",
-          "toponym": "🇷🇪"
         }
       ],
       "northernmostPoint": {
@@ -4250,6 +4569,10 @@
           "label": "overseas department and region of France"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q23442",
+          "label": "island"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q36784",
           "label": "region of France"
         }
@@ -4265,7 +4588,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Haute-Normandie%20flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Normandie.svg"
         }
       ],
       "descriptions": [
@@ -4435,16 +4758,25 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q22670030",
-          "label": "former French region"
+          "identifier": "http://www.wikidata.org/entity/Q1620908",
+          "label": "historical region"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q36784",
+          "label": "region of France"
         }
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/IDF%20flag.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in France where the capital Paris is located"
+          "value": "administrative region of France"
         }
       ],
       "geometry": {
@@ -4547,8 +4879,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:France/Region/%C3%8Ele-de-France.map"
+      },
       "id": "http://www.wikidata.org/entity/Q13917",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "FR-IDF"
+        },
         {
           "lang": "en",
           "toponym": "Ile de France"

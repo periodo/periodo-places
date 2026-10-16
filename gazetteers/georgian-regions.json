@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -146,8 +147,23 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Ajaria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q45693",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Acara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Achara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Acharia"
+        },
         {
           "lang": "en",
           "toponym": "Adjara Autonomous Republic"
@@ -155,6 +171,14 @@
         {
           "lang": "en",
           "toponym": "Adjara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adzhara"
+        },
+        {
+          "lang": "en",
+          "toponym": "Adzharia"
         },
         {
           "lang": "en",
@@ -184,7 +208,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Georgia"
+          "value": "region (mkhare) of Georgia"
         }
       ],
       "geometry": {
@@ -259,15 +283,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Guria.map"
+      },
       "id": "http://www.wikidata.org/entity/Q19038",
       "names": [
         {
           "lang": "en",
           "toponym": "Guria"
-        },
-        {
-          "lang": "en",
-          "toponym": "გურია"
         }
       ],
       "properties": {
@@ -277,7 +300,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -285,7 +308,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Region of Georgia"
+          "value": "region of Georgia"
         }
       ],
       "geometry": {
@@ -368,6 +391,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Imereti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200045",
       "names": [
         {
@@ -382,7 +408,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -390,7 +416,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Georgia"
+          "value": "region (mkhare) of Georgia"
         }
       ],
       "geometry": {
@@ -493,6 +519,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Kakheti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q169674",
       "names": [
         {
@@ -507,7 +536,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -590,6 +619,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Kvemo+Kartli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200048",
       "names": [
         {
@@ -604,7 +636,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -711,6 +743,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Mtskheta-Mtianeti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q203339",
       "names": [
         {
@@ -725,7 +760,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -733,7 +768,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "mkhare"
+          "value": "region (mkhare) of Georgia"
         }
       ],
       "geometry": {
@@ -812,6 +847,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Racha-Lechkhumi-Kvemo+Svaneti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q38893",
       "names": [
         {
@@ -826,7 +864,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -834,7 +872,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "mkhare"
+          "value": "mkhare of Georgia"
         }
       ],
       "geometry": {
@@ -925,6 +963,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Samegrelo-Zemo+Svaneti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200309",
       "names": [
         {
@@ -939,7 +980,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -947,7 +988,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region in Georgia"
+          "value": "region (mkhare) of Georgia"
         }
       ],
       "geometry": {
@@ -1054,8 +1095,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Samtskhe-Javakheti.map"
+      },
       "id": "http://www.wikidata.org/entity/Q19039",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Samcʻxe-javaxetʻi"
+        },
         {
           "lang": "en",
           "toponym": "Samtskhe–Javakheti"
@@ -1068,7 +1116,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -1163,6 +1211,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Shida+Kartli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200047",
       "names": [
         {
@@ -1185,7 +1236,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
         }
       ]
     },
@@ -1198,7 +1249,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital city of the sovereign state of Georgia"
+          "value": "capital and the largest city of Georgia (country)"
         }
       ],
       "geometry": {
@@ -1269,11 +1320,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Georgia/Tbilisi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q994",
       "names": [
         {
           "lang": "en",
           "toponym": "Tbilisi"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tbilisi, Georgia"
         },
         {
           "lang": "en",
@@ -1298,24 +1356,28 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1210300",
-          "label": "mkhare"
+          "label": "Mkhare"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q141223668",
+          "label": "self-governing city of Georgia"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1637706",
-          "label": "million city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q515",
           "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
         }
       ]
     }

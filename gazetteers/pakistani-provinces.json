@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -63,7 +64,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Region administered by Pakistan"
+          "value": "region administered by Pakistan"
         }
       ],
       "geometry": {
@@ -190,6 +191,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/Azad+Kashmir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200130",
       "names": [
         {
@@ -207,10 +211,6 @@
         {
           "lang": "en",
           "toponym": "Azad Kashmir"
-        },
-        {
-          "lang": "en",
-          "toponym": "Pakistan-occupied Kashmir"
         }
       ],
       "properties": {
@@ -220,15 +220,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q15239622",
           "label": "disputed territory"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q270496",
-          "label": "administrative territorial entity of Pakistan"
         }
       ]
     },
@@ -241,7 +237,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Islamic Republic of Pakistan"
+          "value": "province of Islamic Republic of Pakistan"
         }
       ],
       "geometry": {
@@ -348,15 +344,38 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/Baluchistan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q163239",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Balochistan province"
+        },
         {
           "lang": "en",
           "toponym": "Balochistan"
         },
         {
           "lang": "en",
+          "toponym": "Balouchistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baloutchistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Baluchestan"
+        },
+        {
+          "lang": "en",
           "toponym": "Baluchistan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Beloochistan"
         }
       ],
       "properties": {
@@ -482,6 +501,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/F.A.T.A..map"
+      },
       "id": "http://www.wikidata.org/entity/Q208270",
       "names": [
         {
@@ -491,6 +513,10 @@
         {
           "lang": "en",
           "toponym": "Federally Administered Tribal Areas"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qabailistan"
         }
       ],
       "properties": {
@@ -499,25 +525,12 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q19953632",
           "label": "former administrative territorial entity"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q270496",
-          "label": "administrative territorial entity of Pakistan"
         }
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gilgit-Baltistan.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -700,6 +713,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/Gilgit-Baltistan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q200697",
       "names": [
         {
@@ -722,7 +738,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q15239622",
@@ -867,7 +883,7 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q270496",
@@ -884,7 +900,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Pakistan"
+          "value": "province of Pakistan"
         }
       ],
       "geometry": {
@@ -985,10 +1001,6 @@
                   35.105093
                 ],
                 [
-                  74.124696,
-                  35.099372
-                ],
-                [
                   74.124701,
                   35.099201
                 ],
@@ -1058,7 +1070,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Pakistan"
+          "value": "province of Pakistan"
         }
       ],
       "geometry": {
@@ -1233,6 +1245,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/Punjab.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4478",
       "names": [
         {
@@ -1276,7 +1291,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Islamic Republic of Pakistan"
+          "value": "province of Pakistan"
         }
       ],
       "geometry": {
@@ -1423,6 +1438,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Pakistan/Sind.map"
+      },
       "id": "http://www.wikidata.org/entity/Q37211",
       "names": [
         {
@@ -1431,7 +1449,51 @@
         },
         {
           "lang": "en",
+          "toponym": "Province of Sind"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Sinde"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Sindh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Province of Sindhu"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sind Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sind"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sinde Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sinde"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sindh Province"
+        },
+        {
+          "lang": "en",
           "toponym": "Sindh"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sindhu Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sindhu"
         }
       ],
       "properties": {

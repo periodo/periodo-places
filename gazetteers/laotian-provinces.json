@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -156,6 +157,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Attapu.map"
       },
       "id": "http://www.wikidata.org/entity/Q503004",
       "names": [
@@ -318,6 +322,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Bokeo.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334884",
       "names": [
         {
@@ -434,6 +441,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Bolikhamxai.map"
       },
       "id": "http://www.wikidata.org/entity/Q2403514",
       "names": [
@@ -600,6 +610,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Champasak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q334888",
       "names": [
         {
@@ -749,15 +762,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Houaphan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q502997",
       "names": [
         {
           "lang": "en",
-          "toponym": "Houaphanh Province"
+          "toponym": "Hūaphan"
         }
       ],
       "properties": {
-        "title": "Houaphanh Province"
+        "title": "Hūaphan"
       },
       "type": "Feature",
       "types": [
@@ -858,6 +874,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Khammouan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q506641",
       "names": [
         {
@@ -867,6 +886,118 @@
       ],
       "properties": {
         "title": "Khammouane Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15673297",
+          "label": "province of Laos"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "province of Laos"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  101.810354,
+                  19.049923
+                ],
+                [
+                  101.707622,
+                  19.930799
+                ],
+                [
+                  102.309445,
+                  20.962493
+                ],
+                [
+                  102.814014,
+                  21.13964
+                ],
+                [
+                  102.925885,
+                  21.14064
+                ],
+                [
+                  103.389115,
+                  20.794288
+                ],
+                [
+                  103.390206,
+                  20.788706
+                ],
+                [
+                  103.138232,
+                  19.915064
+                ],
+                [
+                  103.125313,
+                  19.892869
+                ],
+                [
+                  102.745905,
+                  19.314377
+                ],
+                [
+                  102.70384,
+                  19.273682
+                ],
+                [
+                  102.575786,
+                  19.224253
+                ],
+                [
+                  101.810354,
+                  19.049923
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Louangphrabang.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q747881",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Louang Phabang Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Louang Phabang"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luang Phabang Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luang Prabang Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Luang Prabang"
+        },
+        {
+          "lang": "en",
+          "toponym": "Lūang Phabāng"
+        }
+      ],
+      "properties": {
+        "title": "Luang Prabang Province"
       },
       "type": "Feature",
       "types": [
@@ -975,245 +1106,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Louang+Namtha.map"
+      },
       "id": "http://www.wikidata.org/entity/Q948691",
       "names": [
         {
           "lang": "en",
-          "toponym": "Luang Namtha Province"
+          "toponym": "Lūang Namthā"
         }
       ],
       "properties": {
-        "title": "Luang Namtha Province"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15673297",
-          "label": "province of Laos"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Laos"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  101.810354,
-                  19.049923
-                ],
-                [
-                  101.707622,
-                  19.930799
-                ],
-                [
-                  102.309445,
-                  20.962493
-                ],
-                [
-                  102.814014,
-                  21.13964
-                ],
-                [
-                  102.925885,
-                  21.14064
-                ],
-                [
-                  103.389115,
-                  20.794288
-                ],
-                [
-                  103.390206,
-                  20.788706
-                ],
-                [
-                  103.138232,
-                  19.915064
-                ],
-                [
-                  103.125313,
-                  19.892869
-                ],
-                [
-                  102.745905,
-                  19.314377
-                ],
-                [
-                  102.70384,
-                  19.273682
-                ],
-                [
-                  102.575786,
-                  19.224253
-                ],
-                [
-                  101.810354,
-                  19.049923
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q747881",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Louangphabang"
-        },
-        {
-          "lang": "en",
-          "toponym": "Luang Prabang Province"
-        }
-      ],
-      "properties": {
-        "title": "Luang Prabang Province"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15673297",
-          "label": "province of Laos"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Laos"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  100.743133,
-                  19.915891
-                ],
-                [
-                  100.741686,
-                  19.957025
-                ],
-                [
-                  101.760072,
-                  21.195968
-                ],
-                [
-                  101.77356,
-                  21.207389
-                ],
-                [
-                  101.82149,
-                  21.221071
-                ],
-                [
-                  102.007448,
-                  21.133697
-                ],
-                [
-                  102.038351,
-                  21.118401
-                ],
-                [
-                  102.250121,
-                  21.009364
-                ],
-                [
-                  102.284641,
-                  20.989055
-                ],
-                [
-                  102.309445,
-                  20.962493
-                ],
-                [
-                  102.342622,
-                  20.89503
-                ],
-                [
-                  102.351303,
-                  20.869424
-                ],
-                [
-                  102.355127,
-                  20.740905
-                ],
-                [
-                  102.35368,
-                  20.721475
-                ],
-                [
-                  102.195034,
-                  20.145334
-                ],
-                [
-                  102.152142,
-                  20.091642
-                ],
-                [
-                  101.596931,
-                  19.831296
-                ],
-                [
-                  101.559414,
-                  19.823467
-                ],
-                [
-                  101.257933,
-                  19.821297
-                ],
-                [
-                  101.00937,
-                  19.833983
-                ],
-                [
-                  100.763183,
-                  19.870674
-                ],
-                [
-                  100.743133,
-                  19.915891
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q465961",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Moung Xai"
-        },
-        {
-          "lang": "en",
-          "toponym": "Oudomxay Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Oudomxay"
-        },
-        {
-          "lang": "en",
-          "toponym": "Oudômxai"
-        }
-      ],
-      "properties": {
-        "title": "Oudomxay Province"
+        "title": "Lūang Namthā"
       },
       "type": "Feature",
       "types": [
@@ -1379,6 +1283,14 @@
         {
           "lang": "en",
           "toponym": "Phongsaly Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Phongsaly"
+        },
+        {
+          "lang": "en",
+          "toponym": "Phongsālī"
         }
       ],
       "properties": {
@@ -1495,11 +1407,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Xaignabouri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q465929",
       "names": [
         {
           "lang": "en",
-          "toponym": "Sainyabuli Province"
+          "toponym": "Sainyabūlī"
         },
         {
           "lang": "en",
@@ -1507,7 +1422,7 @@
         }
       ],
       "properties": {
-        "title": "Sainyabuli Province"
+        "title": "Sainyabūlī"
       },
       "type": "Feature",
       "types": [
@@ -1616,6 +1531,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Saravan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q302656",
       "names": [
         {
@@ -1624,7 +1542,23 @@
         },
         {
           "lang": "en",
+          "toponym": "Salavan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saravan Province"
+        },
+        {
+          "lang": "en",
           "toponym": "Saravan"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saravane Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Saravane"
         }
       ],
       "properties": {
@@ -1761,6 +1695,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Savannakh%C3%A9t.map"
+      },
       "id": "http://www.wikidata.org/entity/Q465940",
       "names": [
         {
@@ -1769,11 +1706,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Savannakhet"
+          "toponym": "Savannakhét"
         },
         {
           "lang": "en",
-          "toponym": "Savannakhét"
+          "toponym": "Savannakhēt"
         }
       ],
       "properties": {
@@ -1874,11 +1811,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/X%C3%A9kong.map"
+      },
       "id": "http://www.wikidata.org/entity/Q585707",
       "names": [
         {
           "lang": "en",
-          "toponym": "Sekong Province"
+          "toponym": "Sekong"
         },
         {
           "lang": "en",
@@ -1890,7 +1830,7 @@
         }
       ],
       "properties": {
-        "title": "Sekong Province"
+        "title": "Sekong"
       },
       "type": "Feature",
       "types": [
@@ -1905,6 +1845,142 @@
         {
           "lang": "en",
           "value": "province of Laos"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  100.743133,
+                  19.915891
+                ],
+                [
+                  100.741686,
+                  19.957025
+                ],
+                [
+                  101.760072,
+                  21.195968
+                ],
+                [
+                  101.77356,
+                  21.207389
+                ],
+                [
+                  101.82149,
+                  21.221071
+                ],
+                [
+                  102.007448,
+                  21.133697
+                ],
+                [
+                  102.038351,
+                  21.118401
+                ],
+                [
+                  102.250121,
+                  21.009364
+                ],
+                [
+                  102.284641,
+                  20.989055
+                ],
+                [
+                  102.309445,
+                  20.962493
+                ],
+                [
+                  102.342622,
+                  20.89503
+                ],
+                [
+                  102.351303,
+                  20.869424
+                ],
+                [
+                  102.355127,
+                  20.740905
+                ],
+                [
+                  102.35368,
+                  20.721475
+                ],
+                [
+                  102.195034,
+                  20.145334
+                ],
+                [
+                  102.152142,
+                  20.091642
+                ],
+                [
+                  101.596931,
+                  19.831296
+                ],
+                [
+                  101.559414,
+                  19.823467
+                ],
+                [
+                  101.257933,
+                  19.821297
+                ],
+                [
+                  101.00937,
+                  19.833983
+                ],
+                [
+                  100.763183,
+                  19.870674
+                ],
+                [
+                  100.743133,
+                  19.915891
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Oud%C3%B4mxai.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q465961",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Moung Xai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Oudômxai"
+        },
+        {
+          "lang": "en",
+          "toponym": "Udomsai"
+        }
+      ],
+      "properties": {
+        "title": "Udomsai"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15673297",
+          "label": "province of Laos"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "nine-municipality conurbation serving as the capital of Laos"
         }
       ],
       "geometry": {
@@ -2007,21 +2083,32 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Vientiane+Prefecture.map"
+      },
       "id": "http://www.wikidata.org/entity/Q390377",
       "names": [
         {
           "lang": "en",
           "toponym": "Vientiane Prefecture"
+        },
+        {
+          "lang": "en",
+          "toponym": "Vientiane"
         }
       ],
       "properties": {
-        "title": "Vientiane Prefecture"
+        "title": "Vientiane"
       },
       "type": "Feature",
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q15673297",
           "label": "province of Laos"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q245260",
+          "label": "conurbation"
         }
       ]
     },
@@ -2127,6 +2214,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Vientiane+Province.map"
       },
       "id": "http://www.wikidata.org/entity/Q720066",
       "names": [
@@ -2260,6 +2350,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Laos/Xiangkhoang.map"
       },
       "id": "http://www.wikidata.org/entity/Q465947",
       "names": [

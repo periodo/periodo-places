@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -58,7 +59,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -165,6 +166,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Adana.map"
+      },
       "id": "http://www.wikidata.org/entity/Q40549",
       "names": [
         {
@@ -191,7 +195,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -286,6 +290,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Adiyaman.map"
+      },
       "id": "http://www.wikidata.org/entity/Q43924",
       "names": [
         {
@@ -308,7 +315,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west Turkey"
         }
       ],
       "geometry": {
@@ -395,6 +402,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Afyonkarahisar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q45220",
       "names": [
         {
@@ -421,7 +431,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -504,6 +514,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Aksaray.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83073",
       "names": [
         {
@@ -513,6 +526,10 @@
         {
           "lang": "en",
           "toponym": "Aksaray"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-68"
         }
       ],
       "properties": {
@@ -530,7 +547,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north Turkey"
         }
       ],
       "geometry": {
@@ -617,6 +634,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Amasya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q80036",
       "names": [
         {
@@ -643,9 +663,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province in central Turkey"
+          "value": "province in west-central Turkey"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          33.885131022,
+          39.028031953
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -730,6 +757,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Ankara.map"
+      },
       "id": "http://www.wikidata.org/entity/Q2297724",
       "names": [
         {
@@ -739,10 +769,28 @@
         {
           "lang": "en",
           "toponym": "Ankara"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR511"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          32.668746931,
+          40.756383344
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Ankara Province"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          33.560331162,
+          38.675402669
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -750,13 +798,20 @@
           "identifier": "http://www.wikidata.org/entity/Q48336",
           "label": "province of Turkey"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          30.836677805,
+          40.096465841
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
         {
           "lang": "en",
-          "value": "province on the Mediterranean coast of south-west Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -867,6 +922,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Antalya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q40249",
       "names": [
         {
@@ -875,7 +933,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Antalya"
+          "toponym": "Province of Antalya"
         }
       ],
       "properties": {
@@ -893,7 +951,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -984,6 +1042,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Ardahan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q79840",
       "names": [
         {
@@ -993,6 +1054,10 @@
         {
           "lang": "en",
           "toponym": "Ardahan"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-75"
         }
       ],
       "properties": {
@@ -1010,7 +1075,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -1081,6 +1146,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Artvin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q43745",
       "names": [
         {
@@ -1090,6 +1158,10 @@
         {
           "lang": "en",
           "toponym": "Artvin"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-08"
         }
       ],
       "properties": {
@@ -1107,7 +1179,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -1186,6 +1258,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Aydin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q79846",
       "names": [
         {
@@ -1212,7 +1287,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -1291,6 +1366,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Agri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q80051",
       "names": [
         {
@@ -1313,7 +1391,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -1408,6 +1486,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Balikesir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q47117",
       "names": [
         {
@@ -1430,7 +1511,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -1497,11 +1578,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bart%C4%B1n.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83342",
       "names": [
         {
           "lang": "en",
           "toponym": "Bartın Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Bartın İli"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-74"
         }
       ],
       "properties": {
@@ -1519,7 +1611,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -1594,6 +1686,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Batman.map"
+      },
       "id": "http://www.wikidata.org/entity/Q80370",
       "names": [
         {
@@ -1620,7 +1715,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -1695,6 +1790,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bayburt.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483063",
       "names": [
         {
@@ -1704,6 +1802,10 @@
         {
           "lang": "en",
           "toponym": "Bayburt"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-69"
         }
       ],
       "properties": {
@@ -1721,7 +1823,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -1816,6 +1918,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bilecik.map"
+      },
       "id": "http://www.wikidata.org/entity/Q46763",
       "names": [
         {
@@ -1842,7 +1947,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -1933,11 +2038,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bing%C3%B6l.map"
+      },
       "id": "http://www.wikidata.org/entity/Q79760",
       "names": [
         {
           "lang": "en",
           "toponym": "Bingöl Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-12"
         }
       ],
       "properties": {
@@ -1955,7 +2067,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -2034,6 +2146,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bitlis.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83239",
       "names": [
         {
@@ -2060,7 +2175,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -2171,11 +2286,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bolu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q82089",
       "names": [
         {
           "lang": "en",
           "toponym": "Bolu Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-14"
         }
       ],
       "properties": {
@@ -2193,7 +2315,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -2284,11 +2406,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Burdur.map"
+      },
       "id": "http://www.wikidata.org/entity/Q80088",
       "names": [
         {
           "lang": "en",
           "toponym": "Burdur Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-15"
         }
       ],
       "properties": {
@@ -2306,7 +2435,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -2397,6 +2526,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Bursa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q43690",
       "names": [
         {
@@ -2419,7 +2551,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -2502,11 +2634,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Denizli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q82096",
       "names": [
         {
           "lang": "en",
           "toponym": "Denizli Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-20"
         }
       ],
       "properties": {
@@ -2524,7 +2663,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -2587,11 +2726,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Diyarbakir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83081",
       "names": [
         {
           "lang": "en",
+          "toponym": "Diyarbakir"
+        },
+        {
+          "lang": "en",
           "toponym": "Diyarbakır Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-21"
         }
       ],
       "properties": {
@@ -2609,7 +2759,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -2672,11 +2822,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/D%C3%BCzce.map"
+      },
       "id": "http://www.wikidata.org/entity/Q432391",
       "names": [
         {
           "lang": "en",
           "toponym": "Düzce Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Düzce"
         }
       ],
       "properties": {
@@ -2694,7 +2851,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -2781,6 +2938,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Edirne.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83102",
       "names": [
         {
@@ -2803,7 +2963,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -2902,6 +3062,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Elazig.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483091",
       "names": [
         {
@@ -2924,7 +3087,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -3003,6 +3166,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Erzincan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483173",
       "names": [
         {
@@ -3025,7 +3191,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -3116,6 +3282,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Erzurum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q376797",
       "names": [
         {
@@ -3138,7 +3307,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west-central Turkey"
         }
       ],
       "geometry": {
@@ -3233,6 +3402,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Eskisehir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483053",
       "names": [
         {
@@ -3255,7 +3427,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -3346,6 +3518,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Gaziantep.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483154",
       "names": [
         {
@@ -3355,6 +3530,10 @@
         {
           "lang": "en",
           "toponym": "Gaziantep"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-27"
         }
       ],
       "properties": {
@@ -3372,7 +3551,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -3451,6 +3630,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Giresun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q482779",
       "names": [
         {
@@ -3473,7 +3655,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -3584,11 +3766,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/G%C3%BCm%C3%BCshane.map"
+      },
       "id": "http://www.wikidata.org/entity/Q482788",
       "names": [
         {
           "lang": "en",
+          "toponym": "Gumuşxane"
+        },
+        {
+          "lang": "en",
           "toponym": "Gümüşhane Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-29"
         }
       ],
       "properties": {
@@ -3606,7 +3799,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -3705,6 +3898,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Hakkari.map"
+      },
       "id": "http://www.wikidata.org/entity/Q93209",
       "names": [
         {
@@ -3731,7 +3927,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -3826,6 +4022,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Hatay.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83274",
       "names": [
         {
@@ -3852,7 +4051,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Province of Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -3939,6 +4138,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Isparta.map"
+      },
       "id": "http://www.wikidata.org/entity/Q268043",
       "names": [
         {
@@ -3961,9 +4163,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          29.91569633,
+          41.109992833
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -4036,6 +4245,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Istanbul.map"
+      },
       "id": "http://www.wikidata.org/entity/Q534799",
       "names": [
         {
@@ -4044,11 +4256,33 @@
         },
         {
           "lang": "en",
-          "toponym": "TR-47"
+          "toponym": "Istanbul"
+        },
+        {
+          "lang": "en",
+          "toponym": "İstanbul Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "İstanbul"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          28.155803747,
+          41.580505206
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Istanbul Province"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          29.113615979,
+          40.818042527
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -4056,13 +4290,20 @@
           "identifier": "http://www.wikidata.org/entity/Q48336",
           "label": "province of Turkey"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          27.970916124,
+          41.099793502
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -4161,6 +4402,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/I%C4%9Fdir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q125506",
       "names": [
         {
@@ -4183,7 +4427,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south Turkey"
         }
       ],
       "geometry": {
@@ -4274,6 +4518,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/K.+Maras.map"
+      },
       "id": "http://www.wikidata.org/entity/Q482834",
       "names": [
         {
@@ -4296,7 +4543,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -4363,6 +4610,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Karab%C3%BCk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483168",
       "names": [
         {
@@ -4385,7 +4635,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -4484,6 +4734,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Karaman.map"
+      },
       "id": "http://www.wikidata.org/entity/Q482975",
       "names": [
         {
@@ -4506,7 +4759,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -4605,11 +4858,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kars.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83077",
       "names": [
         {
           "lang": "en",
           "toponym": "Kars Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Qers"
         }
       ],
       "properties": {
@@ -4627,7 +4887,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north-central Turkey"
         }
       ],
       "geometry": {
@@ -4726,6 +4986,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kastamonu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483191",
       "names": [
         {
@@ -4748,7 +5011,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -4843,6 +5106,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kayseri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483472",
       "names": [
         {
@@ -4865,7 +5131,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south Turkey"
         }
       ],
       "geometry": {
@@ -4920,6 +5186,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kilis.map"
+      },
       "id": "http://www.wikidata.org/entity/Q128978",
       "names": [
         {
@@ -4942,9 +5211,16 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          30.295482294,
+          40.902806757
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -5041,6 +5317,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kocaeli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83965",
       "names": [
         {
@@ -5050,24 +5329,53 @@
         {
           "lang": "en",
           "toponym": "Kocaeli"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR421"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          29.920060105,
+          41.142192705
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Kocaeli Province"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          29.783198468,
+          40.740753267
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q2716259",
+          "label": "metropolitan municipality in Turkey"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q48336",
           "label": "province of Turkey"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          29.362021639,
+          40.850226643
+        ],
+        "type": "Point"
+      }
     },
     {
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -5158,6 +5466,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Konya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q81551",
       "names": [
         {
@@ -5171,6 +5482,10 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q2716259",
+          "label": "metropolitan municipality in Turkey"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q48336",
           "label": "province of Turkey"
         }
@@ -5180,7 +5495,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west Turkey"
         }
       ],
       "geometry": {
@@ -5263,6 +5578,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/K%C3%BCtahya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q126874",
       "names": [
         {
@@ -5285,7 +5603,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -5360,6 +5678,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kirklareli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131597",
       "names": [
         {
@@ -5382,7 +5703,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -5453,11 +5774,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kinkkale.map"
+      },
       "id": "http://www.wikidata.org/entity/Q484392",
       "names": [
         {
           "lang": "en",
           "toponym": "Kırıkkale Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Kırıkkale ili"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-71"
         }
       ],
       "properties": {
@@ -5475,7 +5807,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -5562,6 +5894,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Kirsehir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q134187",
       "names": [
         {
@@ -5588,7 +5923,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east-central Turkey"
         }
       ],
       "geometry": {
@@ -5679,6 +6014,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Malatya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131384",
       "names": [
         {
@@ -5701,7 +6039,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west Turkey"
         }
       ],
       "geometry": {
@@ -5804,6 +6142,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Manisa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q130553",
       "names": [
         {
@@ -5830,7 +6171,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -5921,6 +6262,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Mardin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131293",
       "names": [
         {
@@ -5947,7 +6291,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -6038,6 +6382,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Mersin.map"
+      },
       "id": "http://www.wikidata.org/entity/Q132637",
       "names": [
         {
@@ -6047,6 +6394,10 @@
         {
           "lang": "en",
           "toponym": "Mersin"
+        },
+        {
+          "lang": "en",
+          "toponym": "İçel"
         }
       ],
       "properties": {
@@ -6064,7 +6415,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southwest Turkey"
         }
       ],
       "geometry": {
@@ -6171,6 +6522,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Mugla.map"
+      },
       "id": "http://www.wikidata.org/entity/Q123934",
       "names": [
         {
@@ -6193,7 +6547,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -6272,6 +6626,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Mus.map"
+      },
       "id": "http://www.wikidata.org/entity/Q131387",
       "names": [
         {
@@ -6294,7 +6651,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -6401,6 +6758,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Nevsehir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q430693",
       "names": [
         {
@@ -6423,7 +6783,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -6502,6 +6862,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Nigde.map"
+      },
       "id": "http://www.wikidata.org/entity/Q155219",
       "names": [
         {
@@ -6532,7 +6895,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north Turkey"
         }
       ],
       "geometry": {
@@ -6607,6 +6970,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Ordu.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483180",
       "names": [
         {
@@ -6629,7 +6995,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in south-central Turkey"
         }
       ],
       "geometry": {
@@ -6708,6 +7074,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Osmaniye.map"
+      },
       "id": "http://www.wikidata.org/entity/Q281206",
       "names": [
         {
@@ -6730,7 +7099,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -6793,6 +7162,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Rize.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483481",
       "names": [
         {
@@ -6819,7 +7191,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -6898,6 +7270,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Sakarya.map"
+      },
       "id": "http://www.wikidata.org/entity/Q83069",
       "names": [
         {
@@ -6920,7 +7295,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north Turkey"
         }
       ],
       "geometry": {
@@ -7023,11 +7398,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Samsun.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483040",
       "names": [
         {
           "lang": "en",
           "toponym": "Samsun Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Samsun ili"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-55"
         }
       ],
       "properties": {
@@ -7045,7 +7431,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -7132,11 +7518,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Siirt.map"
+      },
       "id": "http://www.wikidata.org/entity/Q482825",
       "names": [
         {
           "lang": "en",
           "toponym": "Siirt Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Siirt ili"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-56"
+        },
+        {
+          "lang": "en",
+          "toponym": "parêzgeh Sêrt"
         }
       ],
       "properties": {
@@ -7154,7 +7555,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north Turkey"
         }
       ],
       "geometry": {
@@ -7237,11 +7638,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Sinop.map"
+      },
       "id": "http://www.wikidata.org/entity/Q134413",
       "names": [
         {
           "lang": "en",
           "toponym": "Sinop Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sinop ili"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-57"
         }
       ],
       "properties": {
@@ -7259,7 +7671,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in central Turkey"
         }
       ],
       "geometry": {
@@ -7330,11 +7742,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Sivas.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483100",
       "names": [
         {
           "lang": "en",
           "toponym": "Sivas Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sivas ili"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-58"
         }
       ],
       "properties": {
@@ -7352,7 +7775,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -7431,11 +7854,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Tekirdag.map"
+      },
       "id": "http://www.wikidata.org/entity/Q129387",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-59"
+        },
+        {
+          "lang": "en",
           "toponym": "Tekirdağ Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tekirdağ ili"
         }
       ],
       "properties": {
@@ -7453,7 +7887,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north-central Turkey"
         }
       ],
       "geometry": {
@@ -7540,11 +7974,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Tokat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483195",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-60"
+        },
+        {
+          "lang": "en",
           "toponym": "Tokat Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tokat ili"
         }
       ],
       "properties": {
@@ -7562,7 +8007,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northeastern Turkey"
         }
       ],
       "geometry": {
@@ -7653,15 +8098,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Trabzon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388995",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "TR-61"
+        },
         {
           "lang": "en",
           "toponym": "Trabzon Province"
         },
         {
           "lang": "en",
-          "toponym": "Trabzon"
+          "toponym": "Trabzon ili"
         }
       ],
       "properties": {
@@ -7679,7 +8131,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -7770,11 +8222,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Tunceli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q620742",
       "names": [
         {
           "lang": "en",
+          "toponym": "Dêrsim"
+        },
+        {
+          "lang": "en",
+          "toponym": "TR-62"
+        },
+        {
+          "lang": "en",
           "toponym": "Tunceli Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Tunceli ili"
         }
       ],
       "properties": {
@@ -7792,7 +8259,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west Turkey"
         }
       ],
       "geometry": {
@@ -7899,11 +8366,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Usak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483078",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-64"
+        },
+        {
+          "lang": "en",
           "toponym": "Uşak Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Uşak ili"
         }
       ],
       "properties": {
@@ -7921,7 +8399,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in east Turkey"
         }
       ],
       "geometry": {
@@ -8036,11 +8514,15 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-65"
+        },
+        {
+          "lang": "en",
           "toponym": "Van Province"
         },
         {
           "lang": "en",
-          "toponym": "Van, Turkey"
+          "toponym": "Van ili"
         }
       ],
       "properties": {
@@ -8058,7 +8540,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -8125,11 +8607,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Yalova.map"
+      },
       "id": "http://www.wikidata.org/entity/Q483083",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-77"
+        },
+        {
+          "lang": "en",
           "toponym": "Yalova Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Yalova ili"
         }
       ],
       "properties": {
@@ -8234,15 +8727,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Yozgat.map"
+      },
       "id": "http://www.wikidata.org/entity/Q75445",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "TR-66"
+        },
         {
           "lang": "en",
           "toponym": "Yozgat Province"
         },
         {
           "lang": "en",
-          "toponym": "Yozgat"
+          "toponym": "Yozgat ili"
         }
       ],
       "properties": {
@@ -8260,7 +8760,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -8327,11 +8827,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Zinguldak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q219956",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-67"
+        },
+        {
+          "lang": "en",
           "toponym": "Zonguldak Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Zonguldak ili"
         }
       ],
       "properties": {
@@ -8339,6 +8850,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2916486",
+          "label": "administrative territorial entity type of Turkey"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q48336",
           "label": "province of Turkey"
@@ -8349,7 +8864,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in northwestern Turkey"
         }
       ],
       "geometry": {
@@ -8444,11 +8959,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/%C3%87anakkale.map"
+      },
       "id": "http://www.wikidata.org/entity/Q47813",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-17"
+        },
+        {
+          "lang": "en",
           "toponym": "Çanakkale Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Çanakkale"
         }
       ],
       "properties": {
@@ -8466,7 +8992,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north-central Turkey"
         }
       ],
       "geometry": {
@@ -8541,6 +9067,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/%C3%87ankiri.map"
+      },
       "id": "http://www.wikidata.org/entity/Q272662",
       "names": [
         {
@@ -8571,7 +9100,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in north-central Turkey"
         }
       ],
       "geometry": {
@@ -8658,15 +9187,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/%C3%87orum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q272947",
       "names": [
         {
           "lang": "en",
-          "toponym": "Corum Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Corum province"
+          "toponym": "TR-19"
         },
         {
           "lang": "en",
@@ -8696,7 +9224,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in west Turkey"
         }
       ],
       "easternmostPoint": {
@@ -8790,15 +9318,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Izmir.map"
+      },
       "id": "http://www.wikidata.org/entity/Q344490",
       "names": [
         {
           "lang": "en",
-          "toponym": "Izmir Province"
+          "toponym": "Izmir"
         },
         {
           "lang": "en",
-          "toponym": "Izmir"
+          "toponym": "TR310"
         },
         {
           "lang": "en",
@@ -8845,7 +9376,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -8976,11 +9507,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Sanliurfa.map"
+      },
       "id": "http://www.wikidata.org/entity/Q388469",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-63"
+        },
+        {
+          "lang": "en",
           "toponym": "Şanlıurfa Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Şanlıurfa ili"
         }
       ],
       "properties": {
@@ -8998,7 +9540,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Turkey"
+          "value": "province in southeast Turkey"
         }
       ],
       "geometry": {
@@ -9073,11 +9615,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Turkey/Sirnak.map"
+      },
       "id": "http://www.wikidata.org/entity/Q647378",
       "names": [
         {
           "lang": "en",
+          "toponym": "TR-73"
+        },
+        {
+          "lang": "en",
+          "toponym": "parêzgeh Şirnex"
+        },
+        {
+          "lang": "en",
           "toponym": "Şırnak Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Şırnak ili"
         }
       ],
       "properties": {

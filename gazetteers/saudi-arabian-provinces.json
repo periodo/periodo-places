@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -54,159 +55,6 @@
     "westernmostPoint": "wdt:P1335"
   },
   "features": [
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "province of Saudi Arabia"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  41.389288,
-                  18.878874
-                ],
-                [
-                  41.383707,
-                  18.920422
-                ],
-                [
-                  41.390528,
-                  19.153405
-                ],
-                [
-                  41.393939,
-                  19.171182
-                ],
-                [
-                  42.032039,
-                  20.624865
-                ],
-                [
-                  43.667547,
-                  20.976239
-                ],
-                [
-                  43.813688,
-                  20.853508
-                ],
-                [
-                  43.868775,
-                  20.793072
-                ],
-                [
-                  44.042718,
-                  20.584713
-                ],
-                [
-                  44.055947,
-                  20.560657
-                ],
-                [
-                  44.516797,
-                  19.512634
-                ],
-                [
-                  44.516952,
-                  19.386905
-                ],
-                [
-                  44.513077,
-                  19.354426
-                ],
-                [
-                  44.38895,
-                  18.897374
-                ],
-                [
-                  44.379131,
-                  18.872776
-                ],
-                [
-                  43.638446,
-                  17.43851
-                ],
-                [
-                  43.341985,
-                  17.48245
-                ],
-                [
-                  42.629109,
-                  17.660757
-                ],
-                [
-                  42.606475,
-                  17.669309
-                ],
-                [
-                  41.943259,
-                  18.050061
-                ],
-                [
-                  41.926671,
-                  18.064686
-                ],
-                [
-                  41.414609,
-                  18.817818
-                ],
-                [
-                  41.402931,
-                  18.837507
-                ],
-                [
-                  41.394869,
-                  18.858177
-                ],
-                [
-                  41.389288,
-                  18.878874
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q779855",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "'Asir Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "'Asir Region"
-        },
-        {
-          "lang": "en",
-          "toponym": "Aseer Province"
-        },
-        {
-          "lang": "en",
-          "toponym": "Aseer"
-        }
-      ],
-      "properties": {
-        "title": "'Asir Province"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q82794",
-          "label": "geographic region"
-        }
-      ]
-    },
     {
       "descriptions": [
         {
@@ -334,6 +182,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Al+Bahah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q852774",
       "names": [
         {
@@ -363,8 +214,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -372,7 +223,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "province of Saudi Arabia"
+          "value": "province of northwestern Saudi Arabia, capital Sakaka; home to the ancient oasis city of Dumat al-Jandal (Adummatu) and the Chalcolithic standing stones of Rajajil"
         }
       ],
       "geometry": {
@@ -487,6 +338,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Al+Jawf.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1471266",
       "names": [
         {
@@ -495,11 +349,31 @@
         },
         {
           "lang": "en",
+          "toponym": "Al Jawf Region"
+        },
+        {
+          "lang": "en",
           "toponym": "Al Jawf"
         },
         {
           "lang": "en",
+          "toponym": "Al Jouf Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Jouf Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al Jouf"
+        },
+        {
+          "lang": "en",
           "toponym": "Al-Jawf"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Jouf"
         },
         {
           "lang": "en",
@@ -512,6 +386,10 @@
         {
           "lang": "en",
           "toponym": "Jowf (province)"
+        },
+        {
+          "lang": "en",
+          "toponym": "منطقة الجوف"
         }
       ],
       "properties": {
@@ -520,8 +398,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -688,6 +566,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Al+Quassim.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1105411",
       "names": [
         {
@@ -704,11 +585,11 @@
         },
         {
           "lang": "en",
-          "toponym": "Al-Qassim Province"
+          "toponym": "Al-Qassim Region"
         },
         {
           "lang": "en",
-          "toponym": "Al-Qassim Region"
+          "toponym": "Al-Qassim"
         },
         {
           "lang": "en",
@@ -720,13 +601,173 @@
         }
       ],
       "properties": {
-        "title": "Al-Qassim Province"
+        "title": "Al-Qassim"
       },
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "Province of Saudi Arabia"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  41.389288,
+                  18.878874
+                ],
+                [
+                  41.383707,
+                  18.920422
+                ],
+                [
+                  41.390528,
+                  19.153405
+                ],
+                [
+                  41.393939,
+                  19.171182
+                ],
+                [
+                  42.032039,
+                  20.624865
+                ],
+                [
+                  43.667547,
+                  20.976239
+                ],
+                [
+                  43.813688,
+                  20.853508
+                ],
+                [
+                  43.868775,
+                  20.793072
+                ],
+                [
+                  44.042718,
+                  20.584713
+                ],
+                [
+                  44.055947,
+                  20.560657
+                ],
+                [
+                  44.516797,
+                  19.512634
+                ],
+                [
+                  44.516952,
+                  19.386905
+                ],
+                [
+                  44.513077,
+                  19.354426
+                ],
+                [
+                  44.38895,
+                  18.897374
+                ],
+                [
+                  44.379131,
+                  18.872776
+                ],
+                [
+                  43.638446,
+                  17.43851
+                ],
+                [
+                  43.341985,
+                  17.48245
+                ],
+                [
+                  42.629109,
+                  17.660757
+                ],
+                [
+                  42.606475,
+                  17.669309
+                ],
+                [
+                  41.943259,
+                  18.050061
+                ],
+                [
+                  41.926671,
+                  18.064686
+                ],
+                [
+                  41.414609,
+                  18.817818
+                ],
+                [
+                  41.402931,
+                  18.837507
+                ],
+                [
+                  41.394869,
+                  18.858177
+                ],
+                [
+                  41.389288,
+                  18.878874
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/%60Asir.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q779855",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "'Asir Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aseer Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Aseer"
+        },
+        {
+          "lang": "en",
+          "toponym": "Asir Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Asir"
+        }
+      ],
+      "properties": {
+        "title": "Asir Province"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q82794",
+          "label": "region"
         }
       ]
     },
@@ -905,6 +946,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Eastern+Province.map"
+      },
       "id": "http://www.wikidata.org/entity/Q953508",
       "names": [
         {
@@ -926,8 +970,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1062,6 +1106,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Jizan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q269973",
       "names": [
         {
@@ -1079,8 +1126,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1183,6 +1230,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Makkah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q234167",
       "names": [
         {
@@ -1224,8 +1274,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1376,15 +1426,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Al+Madinah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q236027",
       "names": [
         {
           "lang": "en",
           "toponym": "Al Madinah Region"
-        },
-        {
-          "lang": "en",
-          "toponym": "Al Madinah"
         },
         {
           "lang": "en",
@@ -1413,8 +1462,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1517,6 +1566,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Najran.map"
+      },
       "id": "http://www.wikidata.org/entity/Q464718",
       "names": [
         {
@@ -1538,8 +1590,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1662,6 +1714,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Al+Hudud+ash+Shamaliyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q201781",
       "names": [
         {
@@ -1683,8 +1738,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -1875,11 +1930,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Ar+Riyad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1249255",
       "names": [
         {
           "lang": "en",
           "toponym": "Ar-Riyadh Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Khāṣirah"
         },
         {
           "lang": "en",
@@ -1900,8 +1962,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -2028,6 +2090,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Tabuk.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1315953",
       "names": [
         {
@@ -2052,10 +2117,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Tabuk Province"
-        },
-        {
-          "lang": "en",
           "toponym": "Tabuk Region"
         },
         {
@@ -2069,8 +2130,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     },
@@ -2229,6 +2290,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Saudi+Arabia/Ha%27il.map"
+      },
       "id": "http://www.wikidata.org/entity/Q243656",
       "names": [
         {
@@ -2250,8 +2314,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q15623255",
-          "label": "administrative territorial entity of Saudi Arabia"
+          "identifier": "http://www.wikidata.org/entity/Q15728204",
+          "label": "province of Saudi Arabia"
         }
       ]
     }

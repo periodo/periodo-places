@@ -170,7 +170,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -277,6 +277,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Barcelona City"
+        },
+        {
+          "lang": "en",
           "toponym": "Barcelona"
         },
         {
@@ -286,6 +290,10 @@
         {
           "lang": "en",
           "toponym": "Barcelona, Spain"
+        },
+        {
+          "lang": "en",
+          "toponym": "City of Barcelona"
         }
       ],
       "properties": {
@@ -407,14 +415,10 @@
         "type": "GeometryCollection"
       },
       "geoshape": {
-        "id": "http://commons.wikimedia.org/data/main/Data:Berlin.map"
+        "id": "http://commons.wikimedia.org/data/main/Data:Deutschland/Berlin.map"
       },
       "id": "http://www.wikidata.org/entity/Q64",
       "names": [
-        {
-          "lang": "en",
-          "toponym": "Berlin (Germany)"
-        },
         {
           "lang": "en",
           "toponym": "Berlin"
@@ -452,20 +456,28 @@
           "label": "independent city in Berlin"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q1187811",
+          "label": "college town"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q1221156",
           "label": "federated state of Germany"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1307779",
+          "label": "integrated municipality"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q133442",
           "label": "city-state"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
+          "identifier": "http://www.wikidata.org/entity/Q134445478",
+          "label": "cultural capital"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q15974307",
-          "label": "Einheitsgemeinde of Germany"
+          "label": "Unitary municipality in Germany"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1901835",
@@ -482,6 +494,10 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q42744322",
           "label": "urban municipality in Germany"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q471822",
+          "label": "megalopolis"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q51929311",
@@ -630,20 +646,8 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q1187811",
-          "label": "college town"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -793,7 +797,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city and county seat of Cook County, Illinois, United States of America"
+          "value": "city and county seat of Cook County, and largest city in State of Illinois, United States of America"
         }
       ],
       "geometry": {
@@ -1050,14 +1054,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Augustonemetum"
-        },
-        {
-          "lang": "en",
-          "toponym": "Clermont"
-        },
-        {
-          "lang": "en",
           "toponym": "Clermont-Ferrand"
         },
         {
@@ -1258,6 +1254,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Deutschland/Niedersachsen/Emden.map"
+      },
       "id": "http://www.wikidata.org/entity/Q4174",
       "names": [
         {
@@ -1271,14 +1270,6 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q2264924",
-          "label": "port city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q42744322",
-          "label": "urban municipality in Germany"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q85635929",
           "label": "urban district of Lower Saxony"
         }
@@ -1287,7 +1278,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Empoli.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Empoli-Gonfalone.svg"
         }
       ],
       "descriptions": [
@@ -1367,7 +1358,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -1485,10 +1476,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Firenze"
-        },
-        {
-          "lang": "en",
           "toponym": "Florence Municipality"
         },
         {
@@ -1533,7 +1520,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -1637,7 +1624,7 @@
         "type": "GeometryCollection"
       },
       "geoshape": {
-        "id": "http://commons.wikimedia.org/data/main/Data:Hamburg.map"
+        "id": "http://commons.wikimedia.org/data/main/Data:Deutschland/Hamburg.map"
       },
       "id": "http://www.wikidata.org/entity/Q1055",
       "names": [
@@ -1677,7 +1664,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q15974307",
-          "label": "Einheitsgemeinde of Germany"
+          "label": "Unitary municipality in Germany"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q200250",
@@ -1706,10 +1693,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0stanbul%20B%C3%BCy%C3%BCk%C5%9Fehir%20Belediyesi.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "city in Turkey located at the Bosporus Strait"
+          "value": "largest city in Turkey"
         }
       ],
       "geometry": {
@@ -1785,14 +1777,6 @@
         {
           "lang": "en",
           "toponym": "Istanbul"
-        },
-        {
-          "lang": "en",
-          "toponym": "Scarlet Apple"
-        },
-        {
-          "lang": "en",
-          "toponym": "İstanbul"
         }
       ],
       "properties": {
@@ -1803,10 +1787,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15661340",
-          "label": "ancient city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q174844",
@@ -2071,10 +2051,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Calcutta"
-        },
-        {
-          "lang": "en",
           "toponym": "City of Joy"
         },
         {
@@ -2209,23 +2185,11 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Kioto"
-        },
-        {
-          "lang": "en",
           "toponym": "Kyoto City"
         },
         {
           "lang": "en",
           "toponym": "Kyoto"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kyōto"
-        },
-        {
-          "lang": "en",
-          "toponym": "Meaco"
         },
         {
           "lang": "en",
@@ -2284,7 +2248,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city in Wallonia, Belgium"
+          "value": "city of the province of Liège within the region of Wallonia, in Belgium, Europe"
         }
       ],
       "easternmostPoint": {
@@ -2417,10 +2381,6 @@
           "label": "Belgian municipality with the title of city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q1549591",
-          "label": "big city"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q493522",
           "label": "municipality of Belgium"
         },
@@ -2452,6 +2412,13 @@
           "value": "capital and largest city of England and the United Kingdom"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          0.33399,
+          51.54191
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -2647,11 +2614,29 @@
           "toponym": "the Big Smoke"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          -0.10706,
+          51.691641
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "London"
       },
+      "southernmostPoint": {
+        "coordinates": [
+          0.05851,
+          51.289297
+        ],
+        "type": "Point"
+      },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1048835",
+          "label": "political territorial entity"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q1066984",
           "label": "financial center"
@@ -2659,10 +2644,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q108178728",
           "label": "national capital"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q174844",
-          "label": "megacity"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q200250",
@@ -2673,8 +2654,8 @@
           "label": "global city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q2221906",
-          "label": "geographic location"
+          "identifier": "http://www.wikidata.org/entity/Q471822",
+          "label": "megalopolis"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q515",
@@ -2684,9 +2665,21 @@
           "identifier": "http://www.wikidata.org/entity/Q51929311",
           "label": "largest city"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          -0.510395,
+          51.468095
+        ],
+        "type": "Point"
+      }
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico%20City%20%28variant%29.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
@@ -2780,15 +2773,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "CDMX"
-        },
-        {
-          "lang": "en",
           "toponym": "City of Mexico"
-        },
-        {
-          "lang": "en",
-          "toponym": "Ciudad de México"
         },
         {
           "lang": "en",
@@ -2849,7 +2834,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Milan.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Milano-Gonfalone%20%28recto%29.svg"
         }
       ],
       "descriptions": [
@@ -2977,10 +2962,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Milano"
-        },
-        {
-          "lang": "en",
           "toponym": "Milano, Italy"
         }
       ],
@@ -3021,7 +3002,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q956214",
@@ -3045,7 +3026,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city and commune in Campania, Italy"
+          "value": "capital city of Campania, Italy"
         }
       ],
       "easternmostPoint": {
@@ -3147,10 +3128,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Napoli"
-        },
-        {
-          "lang": "en",
           "toponym": "Neapolis"
         }
       ],
@@ -3183,7 +3160,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -3305,15 +3282,7 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Big Apple"
-        },
-        {
-          "lang": "en",
           "toponym": "Capital of the World"
-        },
-        {
-          "lang": "en",
-          "toponym": "Caput Mundi"
         },
         {
           "lang": "en",
@@ -3325,15 +3294,11 @@
         },
         {
           "lang": "en",
-          "toponym": "N. Y. C."
+          "toponym": "Empire City"
         },
         {
           "lang": "en",
           "toponym": "N. Y., N. Y."
-        },
-        {
-          "lang": "en",
-          "toponym": "N.Y.C."
         },
         {
           "lang": "en",
@@ -3393,15 +3358,7 @@
         },
         {
           "lang": "en",
-          "toponym": "New York, New York"
-        },
-        {
-          "lang": "en",
           "toponym": "New York, New York, USA"
-        },
-        {
-          "lang": "en",
-          "toponym": "The City So Nice They Named It Twice"
         },
         {
           "lang": "en",
@@ -3414,8 +3371,8 @@
       ],
       "northernmostPoint": {
         "coordinates": [
-          -73.910352,
-          40.915486
+          -73.910277777,
+          40.915277777
         ],
         "type": "Point"
       },
@@ -3424,8 +3381,8 @@
       },
       "southernmostPoint": {
         "coordinates": [
-          -74.247195,
-          40.496045
+          -74.247222222,
+          40.496111111
         ],
         "type": "Point"
       },
@@ -3434,12 +3391,44 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q1093829",
           "label": "city in the United States"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q15063611",
+          "label": "city in the state of New York"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q174844",
+          "label": "megacity"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q200250",
+          "label": "metropolis"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q208511",
+          "label": "global city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q2264924",
+          "label": "port city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q515",
+          "label": "city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ],
       "westernmostPoint": {
         "coordinates": [
-          -74.255731,
-          40.507675
+          -74.255638888,
+          40.507777777
         ],
         "type": "Point"
       }
@@ -3541,13 +3530,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palermo.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Palermo-Gonfalone.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Italian city, capital of Sicily"
+          "value": "capital of Sicily, Italy"
         }
       ],
       "easternmostPoint": {
@@ -3665,7 +3654,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -3679,13 +3668,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paris%20with%20coat%20of%20arms.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Drapeau%20des%20armes%20de%20la%20ville%20de%20Paris.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital city and largest city of France"
+          "value": "capital and most populous city in France"
         }
       ],
       "easternmostPoint": {
@@ -3829,8 +3818,36 @@
       "type": "Feature",
       "types": [
         {
-          "identifier": "http://www.wikidata.org/entity/Q174844",
-          "label": "megacity"
+          "identifier": "http://www.wikidata.org/entity/Q1066984",
+          "label": "financial center"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q108178728",
+          "label": "national capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q11418818",
+          "label": "commercial capital city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1187811",
+          "label": "college town"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1200957",
+          "label": "tourist destination"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q134445478",
+          "label": "cultural capital"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1422929",
+          "label": "primate city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q200250",
@@ -3841,16 +3858,24 @@
           "label": "global city"
         },
         {
+          "identifier": "http://www.wikidata.org/entity/Q2240381",
+          "label": "fashion capital"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q22923920",
           "label": "territorial collectivity of France with special status"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q51929311",
-          "label": "largest city"
+          "identifier": "http://www.wikidata.org/entity/Q471822",
+          "label": "megalopolis"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q6465",
-          "label": "department of France"
+          "identifier": "http://www.wikidata.org/entity/Q484170",
+          "label": "commune of France"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
         }
       ],
       "westernmostPoint": {
@@ -3870,7 +3895,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "largest city in Pennsylvania, United States"
+          "value": "largest city in the U.S. state of Pennsylvania and seat of Philadelphia County"
         }
       ],
       "geometry": {
@@ -3997,15 +4022,7 @@
         },
         {
           "lang": "en",
-          "toponym": "Philadelphia, Pa."
-        },
-        {
-          "lang": "en",
-          "toponym": "Philadelphia, Pennsylvania"
-        },
-        {
-          "lang": "en",
-          "toponym": "Philly"
+          "toponym": "Philadelphia, Pa"
         }
       ],
       "properties": {
@@ -4040,7 +4057,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "city in Prahova County, Romania"
+          "value": "capital of the county of Prahova, Romania"
         }
       ],
       "geometry": {
@@ -4145,7 +4162,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q34843301",
-          "label": "capital of county in Romania"
+          "label": "county seat in Romania"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q640364",
@@ -4156,7 +4173,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rome.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Roma-Gonfalone-2.svg"
         }
       ],
       "descriptions": [
@@ -4260,11 +4277,19 @@
       "names": [
         {
           "lang": "en",
+          "toponym": "Capital of the World"
+        },
+        {
+          "lang": "en",
+          "toponym": "City of Marble"
+        },
+        {
+          "lang": "en",
           "toponym": "City of Seven Hills"
         },
         {
           "lang": "en",
-          "toponym": "Roma"
+          "toponym": "Eternal City"
         },
         {
           "lang": "en",
@@ -4273,6 +4298,14 @@
         {
           "lang": "en",
           "toponym": "Rome, Italy"
+        },
+        {
+          "lang": "en",
+          "toponym": "The Capital of the World"
+        },
+        {
+          "lang": "en",
+          "toponym": "The City of Marble"
         },
         {
           "lang": "en",
@@ -4328,7 +4361,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q902814",
@@ -4398,10 +4431,6 @@
       "names": [
         {
           "lang": "en",
-          "toponym": "Penhoët"
-        },
-        {
-          "lang": "en",
           "toponym": "Port-Nazaire"
         },
         {
@@ -4423,10 +4452,6 @@
         {
           "lang": "en",
           "toponym": "Sant-Nazer"
-        },
-        {
-          "lang": "en",
-          "toponym": "Señ Neñseir"
         },
         {
           "lang": "en",
@@ -4478,7 +4503,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "consolidated city and county in California, United States"
+          "value": "city and county in California, United States"
         }
       ],
       "easternmostPoint": {
@@ -4860,10 +4885,6 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q33146843",
           "label": "municipality of Catalonia"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q515",
-          "label": "city"
         }
       ]
     },
@@ -4958,7 +4979,7 @@
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -4981,6 +5002,13 @@
           "value": "capital and largest city of Japan"
         }
       ],
+      "easternmostPoint": {
+        "coordinates": [
+          139.9193,
+          35.69836
+        ],
+        "type": "Point"
+      },
       "geometry": {
         "geometries": [
           {
@@ -5132,10 +5160,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Tōkyō"
-        },
-        {
-          "lang": "en",
           "toponym": "Tōkyō-to"
         },
         {
@@ -5143,8 +5167,22 @@
           "toponym": "Yedo"
         }
       ],
+      "northernmostPoint": {
+        "coordinates": [
+          139.01688,
+          35.89858
+        ],
+        "type": "Point"
+      },
       "properties": {
         "title": "Tokyo"
+      },
+      "southernmostPoint": {
+        "coordinates": [
+          139.85767,
+          35.48426
+        ],
+        "type": "Point"
       },
       "type": "Feature",
       "types": [
@@ -5188,7 +5226,14 @@
           "identifier": "http://www.wikidata.org/entity/Q51929311",
           "label": "largest city"
         }
-      ]
+      ],
+      "westernmostPoint": {
+        "coordinates": [
+          138.9428,
+          35.86113
+        ],
+        "type": "Point"
+      }
     },
     {
       "depictions": [
@@ -5273,10 +5318,6 @@
         },
         {
           "lang": "en",
-          "toponym": "Venezia"
-        },
-        {
-          "lang": "en",
           "toponym": "Venice"
         },
         {
@@ -5324,12 +5365,8 @@
           "label": "carfree city"
         },
         {
-          "identifier": "http://www.wikidata.org/entity/Q64953083",
-          "label": "car-free place"
-        },
-        {
           "identifier": "http://www.wikidata.org/entity/Q747074",
-          "label": "commune of Italy"
+          "label": "comune of Italy"
         }
       ],
       "westernmostPoint": {
@@ -5488,8 +5525,24 @@
       "type": "Feature",
       "types": [
         {
+          "identifier": "http://www.wikidata.org/entity/Q1549591",
+          "label": "big city"
+        },
+        {
           "identifier": "http://www.wikidata.org/entity/Q245260",
           "label": "conurbation"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q51929311",
+          "label": "largest city"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q702492",
+          "label": "urban area"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q902814",
+          "label": "border city"
         }
       ]
     },
@@ -5518,24 +5571,160 @@
             "coordinates": [
               [
                 [
-                  8.090048,
-                  53.63775
+                  7.9939105,
+                  53.6021206
                 ],
                 [
-                  7.993567,
-                  53.60349
+                  7.9935606,
+                  53.6033376
                 ],
                 [
-                  8.087458,
-                  53.502071
+                  8.0021263,
+                  53.6088876
                 ],
                 [
-                  8.170984,
-                  53.540434
+                  8.0036457,
+                  53.6098578
                 ],
                 [
-                  8.090048,
-                  53.63775
+                  8.0090902,
+                  53.6130939
+                ],
+                [
+                  8.0372607,
+                  53.6285668
+                ],
+                [
+                  8.0916644,
+                  53.6382914
+                ],
+                [
+                  8.1496092,
+                  53.6019199
+                ],
+                [
+                  8.1556947,
+                  53.5858101
+                ],
+                [
+                  8.1710622,
+                  53.5405194
+                ],
+                [
+                  8.1710545,
+                  53.5401537
+                ],
+                [
+                  8.1708877,
+                  53.5369123
+                ],
+                [
+                  8.1707891,
+                  53.5361456
+                ],
+                [
+                  8.1646705,
+                  53.5206044
+                ],
+                [
+                  8.1646518,
+                  53.5205813
+                ],
+                [
+                  8.1554446,
+                  53.5142942
+                ],
+                [
+                  8.1529771,
+                  53.513316
+                ],
+                [
+                  8.1522895,
+                  53.513151
+                ],
+                [
+                  8.1521273,
+                  53.5131173
+                ],
+                [
+                  8.151978,
+                  53.5130889
+                ],
+                [
+                  8.1010681,
+                  53.5034752
+                ],
+                [
+                  8.098113,
+                  53.5029907
+                ],
+                [
+                  8.0958587,
+                  53.5026978
+                ],
+                [
+                  8.0936613,
+                  53.5024161
+                ],
+                [
+                  8.0922881,
+                  53.5022697
+                ],
+                [
+                  8.0893708,
+                  53.5021006
+                ],
+                [
+                  8.0800508,
+                  53.5021175
+                ],
+                [
+                  8.0783933,
+                  53.5022246
+                ],
+                [
+                  8.07612,
+                  53.5025232
+                ],
+                [
+                  8.0754124,
+                  53.5026676
+                ],
+                [
+                  8.073554,
+                  53.5031898
+                ],
+                [
+                  8.0562912,
+                  53.5084053
+                ],
+                [
+                  8.0530838,
+                  53.5093973
+                ],
+                [
+                  8.0514597,
+                  53.509912
+                ],
+                [
+                  8.0377751,
+                  53.5277801
+                ],
+                [
+                  8.037598,
+                  53.5280392
+                ],
+                [
+                  8.03072,
+                  53.5383619
+                ],
+                [
+                  7.9940355,
+                  53.6016977
+                ],
+                [
+                  7.9939105,
+                  53.6021206
                 ]
               ]
             ],
@@ -5543,6 +5732,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Deutschland/Niedersachsen/Stadt+Wilhelmshaven.map"
       },
       "id": "http://www.wikidata.org/entity/Q3857",
       "names": [
@@ -5570,6 +5762,10 @@
       },
       "type": "Feature",
       "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q133997300",
+          "label": "Einheitsgemeinde of Lower Saxony"
+        },
         {
           "identifier": "http://www.wikidata.org/entity/Q253030",
           "label": "major regional center"

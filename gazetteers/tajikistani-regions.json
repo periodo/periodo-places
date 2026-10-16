@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -54,6 +55,174 @@
     "westernmostPoint": "wdt:P1335"
   },
   "features": [
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "region of Tajikistan"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  68.052518,
+                  38.558268
+                ],
+                [
+                  68.037635,
+                  38.691645
+                ],
+                [
+                  68.066729,
+                  38.787969
+                ],
+                [
+                  68.153386,
+                  38.899403
+                ],
+                [
+                  68.590057,
+                  39.048056
+                ],
+                [
+                  68.597653,
+                  39.049813
+                ],
+                [
+                  70.655564,
+                  39.494644
+                ],
+                [
+                  71.441251,
+                  39.610658
+                ],
+                [
+                  71.459545,
+                  39.612105
+                ],
+                [
+                  72.049793,
+                  39.368864
+                ],
+                [
+                  72.06695,
+                  39.358477
+                ],
+                [
+                  72.203272,
+                  39.24081
+                ],
+                [
+                  72.206373,
+                  39.234609
+                ],
+                [
+                  72.228668,
+                  39.189502
+                ],
+                [
+                  72.224047,
+                  39.137611
+                ],
+                [
+                  72.220481,
+                  39.128103
+                ],
+                [
+                  72.062661,
+                  38.808071
+                ],
+                [
+                  72.002768,
+                  38.755774
+                ],
+                [
+                  71.974243,
+                  38.735956
+                ],
+                [
+                  71.426938,
+                  38.475068
+                ],
+                [
+                  68.435027,
+                  37.903139
+                ],
+                [
+                  68.429136,
+                  37.902545
+                ],
+                [
+                  68.314621,
+                  37.904715
+                ],
+                [
+                  68.289817,
+                  37.906601
+                ],
+                [
+                  68.23845,
+                  37.942361
+                ],
+                [
+                  68.238025,
+                  37.942716
+                ],
+                [
+                  68.055153,
+                  38.536305
+                ],
+                [
+                  68.052518,
+                  38.558268
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Tajikistan/Tadzhikistan+Territories.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q633490",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Districts under Central Government Jurisdiction"
+        },
+        {
+          "lang": "en",
+          "toponym": "Karotegin Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "districts of Republican Subordination"
+        },
+        {
+          "lang": "en",
+          "toponym": "districts under Republic Subordination"
+        },
+        {
+          "lang": "en",
+          "toponym": "districts under Republican Subordination"
+        }
+      ],
+      "properties": {
+        "title": "Districts under Central Government Jurisdiction"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q867545",
+          "label": "region of Tajikistan"
+        }
+      ]
+    },
     {
       "descriptions": [
         {
@@ -205,15 +374,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Tajikistan/Gorno-Badakhshan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q207319",
       "names": [
         {
           "lang": "en",
-          "toponym": "GBAO"
+          "toponym": "Badakhshan Mountainous Autonomous Region"
         },
         {
           "lang": "en",
-          "toponym": "Gorno-Badakhshan Autonomous Province"
+          "toponym": "GBAO"
         },
         {
           "lang": "en",
@@ -226,10 +398,6 @@
         {
           "lang": "en",
           "toponym": "Kuhistani Badakhshan Autonomous Region"
-        },
-        {
-          "lang": "en",
-          "toponym": "Kuhistoni Badakhshon Autonoumous Region"
         }
       ],
       "properties": {
@@ -402,6 +570,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Tajikistan/Khatlon.map"
+      },
       "id": "http://www.wikidata.org/entity/Q633511",
       "names": [
         {
@@ -567,6 +738,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Tajikistan/Leninabad.map"
+      },
       "id": "http://www.wikidata.org/entity/Q241582",
       "names": [
         {
@@ -580,6 +754,10 @@
         {
           "lang": "en",
           "toponym": "Sughd Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sughd Region"
         }
       ],
       "properties": {
@@ -587,159 +765,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q867545",
-          "label": "region of Tajikistan"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "region of Tajikistan"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  68.052518,
-                  38.558268
-                ],
-                [
-                  68.037635,
-                  38.691645
-                ],
-                [
-                  68.066729,
-                  38.787969
-                ],
-                [
-                  68.153386,
-                  38.899403
-                ],
-                [
-                  68.590057,
-                  39.048056
-                ],
-                [
-                  68.597653,
-                  39.049813
-                ],
-                [
-                  70.655564,
-                  39.494644
-                ],
-                [
-                  71.441251,
-                  39.610658
-                ],
-                [
-                  71.459545,
-                  39.612105
-                ],
-                [
-                  72.049793,
-                  39.368864
-                ],
-                [
-                  72.06695,
-                  39.358477
-                ],
-                [
-                  72.203272,
-                  39.24081
-                ],
-                [
-                  72.206373,
-                  39.234609
-                ],
-                [
-                  72.228668,
-                  39.189502
-                ],
-                [
-                  72.224047,
-                  39.137611
-                ],
-                [
-                  72.220481,
-                  39.128103
-                ],
-                [
-                  72.062661,
-                  38.808071
-                ],
-                [
-                  72.002768,
-                  38.755774
-                ],
-                [
-                  71.974243,
-                  38.735956
-                ],
-                [
-                  71.426938,
-                  38.475068
-                ],
-                [
-                  68.435027,
-                  37.903139
-                ],
-                [
-                  68.429136,
-                  37.902545
-                ],
-                [
-                  68.314621,
-                  37.904715
-                ],
-                [
-                  68.289817,
-                  37.906601
-                ],
-                [
-                  68.23845,
-                  37.942361
-                ],
-                [
-                  68.238025,
-                  37.942716
-                ],
-                [
-                  68.055153,
-                  38.536305
-                ],
-                [
-                  68.052518,
-                  38.558268
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q633490",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "districts of Republican Subordination"
-        }
-      ],
-      "properties": {
-        "title": "districts of Republican Subordination"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q867545",
           "label": "region of Tajikistan"

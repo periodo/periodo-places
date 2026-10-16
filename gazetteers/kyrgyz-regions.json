@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -178,6 +179,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Batken.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487631",
       "names": [
         {
@@ -199,13 +203,13 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bishkek%20Kyrgyzstan.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bishkek.svg"
         }
       ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "capital of Kyrgyzstan"
+          "value": "capital city of Kyrgyzstan"
         }
       ],
       "geometry": {
@@ -284,15 +288,14 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Bishkek.map"
+      },
       "id": "http://www.wikidata.org/entity/Q9361",
       "names": [
         {
           "lang": "en",
           "toponym": "Bishkek"
-        },
-        {
-          "lang": "en",
-          "toponym": "Frunze"
         },
         {
           "lang": "en",
@@ -306,19 +309,11 @@
       "types": [
         {
           "identifier": "http://www.wikidata.org/entity/Q10864048",
-          "label": "first-level administrative country subdivision"
+          "label": "first-level administrative division"
         },
         {
           "identifier": "http://www.wikidata.org/entity/Q1549591",
           "label": "big city"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q15623974",
-          "label": "administrative territorial entity of Kyrgyzstan"
-        },
-        {
-          "identifier": "http://www.wikidata.org/entity/Q5119",
-          "label": "capital"
         }
       ]
     },
@@ -458,15 +453,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Chuy.map"
+      },
       "id": "http://www.wikidata.org/entity/Q486370",
       "names": [
         {
           "lang": "en",
-          "toponym": "Chui Region"
+          "toponym": "Chuy Region"
         },
         {
           "lang": "en",
-          "toponym": "Chuy Region"
+          "toponym": "Chüy Region"
         }
       ],
       "properties": {
@@ -483,7 +481,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Issyk%20kul%20obl%20flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Issyk-Kul%20Region.svg"
         }
       ],
       "descriptions": [
@@ -624,6 +622,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Ysyk-K%C3%B6l.map"
+      },
       "id": "http://www.wikidata.org/entity/Q487413",
       "names": [
         {
@@ -647,10 +648,15 @@
       ]
     },
     {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jalal-Abad%20Region.svg"
+        }
+      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Kyrgyzstan"
+          "value": "region of South Kyrgyzstan"
         }
       ],
       "geometry": {
@@ -788,6 +794,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Jalal-Abad.map"
       },
       "id": "http://www.wikidata.org/entity/Q487640",
       "names": [
@@ -959,8 +968,35 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Naryn.map"
+      },
       "id": "http://www.wikidata.org/entity/Q486375",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Narin Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Narin Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Narin Region"
+        },
+        {
+          "lang": "en",
+          "toponym": "Narin"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naryn Oblast"
+        },
+        {
+          "lang": "en",
+          "toponym": "Naryn Province"
+        },
         {
           "lang": "en",
           "toponym": "Naryn Region"
@@ -971,10 +1007,6 @@
       },
       "type": "Feature",
       "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q486972",
-          "label": "human settlement"
-        },
         {
           "identifier": "http://www.wikidata.org/entity/Q693039",
           "label": "region of Kyrgyzstan"
@@ -1101,8 +1133,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Osh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q231987",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Osh Oblast"
+        },
         {
           "lang": "en",
           "toponym": "Osh Province"
@@ -1132,7 +1171,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "region of Kyrgyzstan"
+          "value": "region of North Kyrgyzstan, Kyrgyzstan"
         }
       ],
       "geometry": {
@@ -1266,6 +1305,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kyrgyzstan/Talas.map"
       },
       "id": "http://www.wikidata.org/entity/Q109838",
       "names": [

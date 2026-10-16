@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -58,7 +59,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "former region of the Gambia"
+          "value": "administrative divisions of the Gambia"
         }
       ],
       "geometry": {
@@ -165,6 +166,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Gambia/Central+River.map"
+      },
       "id": "http://www.wikidata.org/entity/Q824431",
       "names": [
         {
@@ -259,6 +263,10 @@
         {
           "lang": "en",
           "toponym": "Greater Banjul Area"
+        },
+        {
+          "lang": "en",
+          "toponym": "Մեծ Բանժուլի Շրջան"
         }
       ],
       "properties": {
@@ -363,6 +371,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Gambia/Lower+River.map"
+      },
       "id": "http://www.wikidata.org/entity/Q824421",
       "names": [
         {
@@ -463,6 +474,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Gambia/North+Bank.map"
       },
       "id": "http://www.wikidata.org/entity/Q846161",
       "names": [
@@ -597,6 +611,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Gambia/Upper+River.map"
+      },
       "id": "http://www.wikidata.org/entity/Q824373",
       "names": [
         {
@@ -693,6 +710,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Gambia/West+Coast.map"
       },
       "id": "http://www.wikidata.org/entity/Q846158",
       "names": [

@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -117,6 +118,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Al+Ahmadi.map"
+      },
       "id": "http://www.wikidata.org/entity/Q552354",
       "names": [
         {
@@ -126,75 +130,6 @@
       ],
       "properties": {
         "title": "Al Ahmadi Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q842876",
-          "label": "governorate of Kuwait"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "governorate of Kuwait"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  47.877212,
-                  29.185041
-                ],
-                [
-                  47.841659,
-                  29.26625
-                ],
-                [
-                  47.845896,
-                  29.30754
-                ],
-                [
-                  47.909097,
-                  29.32082
-                ],
-                [
-                  47.991779,
-                  29.330355
-                ],
-                [
-                  48.023767,
-                  29.264312
-                ],
-                [
-                  48.034567,
-                  29.208734
-                ],
-                [
-                  47.877212,
-                  29.185041
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q1072757",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Farwaniyah Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Farwaniyah Governorate"
       },
       "type": "Feature",
       "types": [
@@ -299,6 +234,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Al+Jahrah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q405701",
       "names": [
         {
@@ -400,6 +338,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Al+Asimah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q1046645",
       "names": [
         {
@@ -416,6 +357,10 @@
         },
         {
           "lang": "en",
+          "toponym": "Capital"
+        },
+        {
+          "lang": "en",
           "toponym": "al Kuwait"
         },
         {
@@ -425,6 +370,94 @@
       ],
       "properties": {
         "title": "Capital Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q842876",
+          "label": "governorate of Kuwait"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "one of Kuwait's 6 governments"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  47.877212,
+                  29.185041
+                ],
+                [
+                  47.841659,
+                  29.26625
+                ],
+                [
+                  47.845896,
+                  29.30754
+                ],
+                [
+                  47.909097,
+                  29.32082
+                ],
+                [
+                  47.991779,
+                  29.330355
+                ],
+                [
+                  48.023767,
+                  29.264312
+                ],
+                [
+                  48.034567,
+                  29.208734
+                ],
+                [
+                  47.877212,
+                  29.185041
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Al+Farwaniyah.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q1072757",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Al-Farwaniya"
+        },
+        {
+          "lang": "en",
+          "toponym": "Al-Farwaniyah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Farwaniya Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Farwaniyah"
+        },
+        {
+          "lang": "en",
+          "toponym": "Farwānīya"
+        }
+      ],
+      "properties": {
+        "title": "Farwaniya Governorate"
       },
       "type": "Feature",
       "types": [
@@ -481,15 +514,26 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Hawalli.map"
+      },
       "id": "http://www.wikidata.org/entity/Q747432",
       "names": [
         {
           "lang": "en",
-          "toponym": "Hawally Governorate"
+          "toponym": "Hawalli Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hawalli"
+        },
+        {
+          "lang": "en",
+          "toponym": "Hawally"
         }
       ],
       "properties": {
-        "title": "Hawally Governorate"
+        "title": "Hawalli"
       },
       "type": "Feature",
       "types": [
@@ -541,6 +585,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Kuwait/Mubarak+Al-Kabeer.map"
       },
       "id": "http://www.wikidata.org/entity/Q913370",
       "names": [

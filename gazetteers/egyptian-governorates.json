@@ -23,6 +23,7 @@
     "features": "geojson:features",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "geoshape": "wdt:P3896",
     "gn": "http://www.geonames.org/ontology#",
     "gsp": "http://www.opengis.net/ont/geosparql#",
     "id": "@id",
@@ -57,141 +58,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ash%20Sharqiyah.svg"
-        }
-      ],
-      "descriptions": [
-        {
-          "lang": "en",
-          "value": "Egyptian governorate"
-        }
-      ],
-      "geometry": {
-        "geometries": [
-          {
-            "coordinates": [
-              [
-                [
-                  31.367626,
-                  30.298177
-                ],
-                [
-                  31.272541,
-                  30.43698
-                ],
-                [
-                  31.274246,
-                  30.464601
-                ],
-                [
-                  31.288509,
-                  30.516975
-                ],
-                [
-                  31.361115,
-                  30.760448
-                ],
-                [
-                  31.367316,
-                  30.771688
-                ],
-                [
-                  31.375584,
-                  30.780189
-                ],
-                [
-                  31.783518,
-                  31.065856
-                ],
-                [
-                  32.052337,
-                  31.128774
-                ],
-                [
-                  32.262462,
-                  31.169623
-                ],
-                [
-                  32.286469,
-                  31.170356
-                ],
-                [
-                  32.287364,
-                  31.170152
-                ],
-                [
-                  32.288138,
-                  31.169028
-                ],
-                [
-                  32.289998,
-                  31.113786
-                ],
-                [
-                  32.119621,
-                  30.716058
-                ],
-                [
-                  32.098641,
-                  30.677275
-                ],
-                [
-                  31.843101,
-                  30.339027
-                ],
-                [
-                  31.593865,
-                  30.190431
-                ],
-                [
-                  31.385661,
-                  30.280452
-                ],
-                [
-                  31.375894,
-                  30.288772
-                ],
-                [
-                  31.367626,
-                  30.298177
-                ]
-              ]
-            ],
-            "type": "Polygon"
-          }
-        ],
-        "type": "GeometryCollection"
-      },
-      "id": "http://www.wikidata.org/entity/Q31074",
-      "names": [
-        {
-          "lang": "en",
-          "toponym": "Al Sharqia Governorate"
-        },
-        {
-          "lang": "en",
-          "toponym": "Eastern Governorate"
-        },
-        {
-          "lang": "en",
-          "toponym": "Sharqia Governorate"
-        }
-      ],
-      "properties": {
-        "title": "Al Sharqia Governorate"
-      },
-      "type": "Feature",
-      "types": [
-        {
-          "identifier": "http://www.wikidata.org/entity/Q204910",
-          "label": "governorate of Egypt"
-        }
-      ]
-    },
-    {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20d%27Alexandria.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alexandria.svg"
         }
       ],
       "descriptions": [
@@ -268,6 +135,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Iskandariyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29943",
       "names": [
         {
@@ -291,13 +161,17 @@
         {
           "identifier": "http://www.wikidata.org/entity/Q204910",
           "label": "governorate of Egypt"
+        },
+        {
+          "identifier": "http://www.wikidata.org/entity/Q56061",
+          "label": "administrative territorial entity"
         }
       ]
     },
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20d%27Aswan.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aswan%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -398,6 +272,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Aswan.map"
+      },
       "id": "http://www.wikidata.org/entity/Q29937",
       "names": [
         {
@@ -419,7 +296,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Assiut%20Governorate.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Asyut%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -507,6 +384,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Asyut.map"
       },
       "id": "http://www.wikidata.org/entity/Q29965",
       "names": [
@@ -614,6 +494,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Buhayrah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30630",
       "names": [
         {
@@ -635,7 +518,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Bani%20Suwayf.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Beni%20Suef%20Governorate%20New%20Flag.svg"
         }
       ],
       "descriptions": [
@@ -740,6 +623,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Bani+Suwayf.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30683",
       "names": [
         {
@@ -759,15 +645,10 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cairo.svg"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
-          "value": "Egyptian governorate"
+          "value": "governorate of Egypt"
         }
       ],
       "geometry": {
@@ -830,11 +711,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Qahirah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30805",
       "names": [
         {
           "lang": "en",
           "toponym": "Cairo Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "al-Qāhirah Governorate"
         }
       ],
       "properties": {
@@ -940,11 +828,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Ad+Daqahliyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q31068",
       "names": [
         {
           "lang": "en",
           "toponym": "Dakahlia Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Daqahliya"
         }
       ],
       "properties": {
@@ -1045,6 +940,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Dumyat.map"
       },
       "id": "http://www.wikidata.org/entity/Q30644",
       "names": [
@@ -1152,6 +1050,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Fayyum.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30656",
       "names": [
         {
@@ -1173,7 +1074,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Gharbiya.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gharbia%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -1266,6 +1167,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Gharbiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30835",
       "names": [
         {
@@ -1293,7 +1197,7 @@
       "descriptions": [
         {
           "lang": "en",
-          "value": "Egyptian governorate"
+          "value": "governorate of Egypt"
         }
       ],
       "geometry": {
@@ -1359,6 +1263,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Jizah.map"
       },
       "id": "http://www.wikidata.org/entity/Q30832",
       "names": [
@@ -1450,11 +1357,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Isma%60iliyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q31067",
       "names": [
         {
           "lang": "en",
           "toponym": "Ismailia Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ismailia Province"
+        },
+        {
+          "lang": "en",
+          "toponym": "Ismailia"
         }
       ],
       "properties": {
@@ -1471,7 +1389,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kafr%20El-Sheikh%20Governorate-official.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kafr%20El-Sheikh%20Governorate%20-%2001.svg"
         }
       ],
       "descriptions": [
@@ -1560,8 +1478,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Kafr+ash+Shaykh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30946",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Kafr El Sheikh Governorate"
+        },
         {
           "lang": "en",
           "toponym": "Kafr el-Sheikh Governorate"
@@ -1579,11 +1504,6 @@
       ]
     },
     {
-      "depictions": [
-        {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eg%20luxor1.png"
-        }
-      ],
       "descriptions": [
         {
           "lang": "en",
@@ -1630,6 +1550,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Luxor.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30797",
       "names": [
         {
@@ -1650,6 +1573,9 @@
     },
     {
       "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Matruh.png"
+        },
         {
           "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Matrouh%20Governorate-logo.PNG"
         }
@@ -1728,15 +1654,22 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Matruh.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30682",
       "names": [
         {
           "lang": "en",
           "toponym": "Matrouh Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Matruh Governorate"
         }
       ],
       "properties": {
-        "title": "Matrouh Governorate"
+        "title": "Matruh Governorate"
       },
       "type": "Feature",
       "types": [
@@ -1749,7 +1682,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Al-Minya.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minya%20Governorate.jpg"
         }
       ],
       "descriptions": [
@@ -1813,6 +1746,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Minya.map"
       },
       "id": "http://www.wikidata.org/entity/Q30675",
       "names": [
@@ -1932,8 +1868,15 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Minufiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30786",
       "names": [
+        {
+          "lang": "en",
+          "toponym": "Debrky - Monuf"
+        },
         {
           "lang": "en",
           "toponym": "Monufia Governorate"
@@ -1953,7 +1896,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Wadi%20al-Jadid.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Valley%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -2078,6 +2021,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Wadi+at+Jadid.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30650",
       "names": [
         {
@@ -2103,7 +2049,10 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Sinai-Sinai%20del%20nord.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North%20Sinai%20%28New%20Flag%29.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North%20Sinai%20Flag%20%28Old%29.svg"
         }
       ],
       "descriptions": [
@@ -2208,6 +2157,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Shamal+Sina%27.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30662",
       "names": [
         {
@@ -2229,7 +2181,10 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Port%20Said%20Governorate.PNG"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Port%20Said%20Flag%20Version%202.svg"
+        },
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/PortSaidFlagVersion1.svg"
         }
       ],
       "descriptions": [
@@ -2289,6 +2244,9 @@
           }
         ],
         "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Bur+Sa%60id.map"
       },
       "id": "http://www.wikidata.org/entity/Q31079",
       "names": [
@@ -2372,6 +2330,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Qalyubiyah.map"
+      },
       "id": "http://www.wikidata.org/entity/Q31075",
       "names": [
         {
@@ -2393,7 +2354,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Qena%20flag.svg"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Qena%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -2526,6 +2487,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Qina.map"
+      },
       "id": "http://www.wikidata.org/entity/Q31065",
       "names": [
         {
@@ -2547,7 +2511,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20la%20mar%20Roja.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20sea%20governorate%20flag.png"
         }
       ],
       "descriptions": [
@@ -2640,6 +2604,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Al+Bahr+al+Ahmar.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30831",
       "names": [
         {
@@ -2649,6 +2616,139 @@
       ],
       "properties": {
         "title": "Red Sea Governorate"
+      },
+      "type": "Feature",
+      "types": [
+        {
+          "identifier": "http://www.wikidata.org/entity/Q204910",
+          "label": "governorate of Egypt"
+        }
+      ]
+    },
+    {
+      "depictions": [
+        {
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ash%20Sharqiyah.svg"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "value": "governorate of Egypt"
+        }
+      ],
+      "geometry": {
+        "geometries": [
+          {
+            "coordinates": [
+              [
+                [
+                  31.367626,
+                  30.298177
+                ],
+                [
+                  31.272541,
+                  30.43698
+                ],
+                [
+                  31.274246,
+                  30.464601
+                ],
+                [
+                  31.288509,
+                  30.516975
+                ],
+                [
+                  31.361115,
+                  30.760448
+                ],
+                [
+                  31.367316,
+                  30.771688
+                ],
+                [
+                  31.375584,
+                  30.780189
+                ],
+                [
+                  31.783518,
+                  31.065856
+                ],
+                [
+                  32.052337,
+                  31.128774
+                ],
+                [
+                  32.262462,
+                  31.169623
+                ],
+                [
+                  32.286469,
+                  31.170356
+                ],
+                [
+                  32.287364,
+                  31.170152
+                ],
+                [
+                  32.288138,
+                  31.169028
+                ],
+                [
+                  32.289998,
+                  31.113786
+                ],
+                [
+                  32.119621,
+                  30.716058
+                ],
+                [
+                  32.098641,
+                  30.677275
+                ],
+                [
+                  31.843101,
+                  30.339027
+                ],
+                [
+                  31.593865,
+                  30.190431
+                ],
+                [
+                  31.385661,
+                  30.280452
+                ],
+                [
+                  31.375894,
+                  30.288772
+                ],
+                [
+                  31.367626,
+                  30.298177
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          }
+        ],
+        "type": "GeometryCollection"
+      },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Ash+Sharqiyah.map"
+      },
+      "id": "http://www.wikidata.org/entity/Q31074",
+      "names": [
+        {
+          "lang": "en",
+          "toponym": "Eastern Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Sharqia Governorate"
+        }
+      ],
+      "properties": {
+        "title": "Sharqia Governorate"
       },
       "type": "Feature",
       "types": [
@@ -2742,6 +2842,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Suhaj.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30669",
       "names": [
         {
@@ -2767,7 +2870,7 @@
     {
       "depictions": [
         {
-          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Governadorat%20de%20Sinai%20del%20sud.png"
+          "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Sinai%20Governorate.png"
         }
       ],
       "descriptions": [
@@ -2864,6 +2967,9 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/Janub+Sina%27.map"
+      },
       "id": "http://www.wikidata.org/entity/Q30815",
       "names": [
         {
@@ -2954,11 +3060,18 @@
         ],
         "type": "GeometryCollection"
       },
+      "geoshape": {
+        "id": "http://commons.wikimedia.org/data/main/Data:Egypt/As+Suways.map"
+      },
       "id": "http://www.wikidata.org/entity/Q31070",
       "names": [
         {
           "lang": "en",
           "toponym": "Suez Governorate"
+        },
+        {
+          "lang": "en",
+          "toponym": "Suez"
         }
       ],
       "properties": {
