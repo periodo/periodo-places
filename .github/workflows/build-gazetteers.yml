@@ -50,7 +50,7 @@ jobs:
           jq --version
           python3 --version
 
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       # the container runs as root but the workspace isn't owned by root,
       # and the report reads committed gazetteers with git
